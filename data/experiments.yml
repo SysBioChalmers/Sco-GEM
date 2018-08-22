@@ -1,0 +1,7 @@
+version: "0.1"
+medium:
+  path: "media/"
+essentiality:
+  path: "essentiality/"
+growth:
+  path: "growth/"

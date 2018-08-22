@@ -1,0 +1,2003 @@
+!!omap
+- metabolites:
+  - !!omap
+    - id: 13dpg_c
+    - name: 3-Phospho-D-glyceroyl-phosphate
+    - compartment: c
+    - charge: 0
+    - formula: C3H4O10P2
+  - !!omap
+    - id: 2pg_c
+    - name: D-Glycerate-2-phosphate
+    - compartment: c
+    - charge: 0
+    - formula: C3H4O7P
+  - !!omap
+    - id: 3pg_c
+    - name: 3-Phospho-D-glycerate
+    - compartment: c
+    - charge: 0
+    - formula: C3H4O7P
+  - !!omap
+    - id: 6pgc_c
+    - name: 6-Phospho-D-gluconate
+    - compartment: c
+    - charge: 0
+    - formula: C6H10O10P
+  - !!omap
+    - id: 6pgl_c
+    - name: 6-phospho-D-glucono-1-5-lactone
+    - compartment: c
+    - charge: 0
+    - formula: C6H9O9P
+  - !!omap
+    - id: ac_b
+    - name: ac_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: ac_c
+    - name: Acetate
+    - compartment: c
+    - charge: 0
+    - formula: C2H3O2
+  - !!omap
+    - id: ac_e
+    - name: Acetate
+    - compartment: e
+    - charge: 0
+    - formula: C2H3O2
+  - !!omap
+    - id: acald_b
+    - name: acald_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: acald_c
+    - name: Acetaldehyde
+    - compartment: c
+    - charge: 0
+    - formula: C2H4O
+  - !!omap
+    - id: acald_e
+    - name: Acetaldehyde
+    - compartment: e
+    - charge: 0
+    - formula: C2H4O
+  - !!omap
+    - id: accoa_c
+    - name: Acetyl-CoA
+    - compartment: c
+    - charge: 0
+    - formula: C23H34N7O17P3S
+  - !!omap
+    - id: acon_C_c
+    - name: cis-Aconitate
+    - compartment: c
+    - charge: 0
+    - formula: C6H3O6
+  - !!omap
+    - id: actp_c
+    - name: Acetyl-phosphate
+    - compartment: c
+    - charge: 0
+    - formula: C2H3O5P
+  - !!omap
+    - id: adp_c
+    - name: ADP
+    - compartment: c
+    - charge: 0
+    - formula: C10H12N5O10P2
+  - !!omap
+    - id: akg_b
+    - name: akg_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: akg_c
+    - name: 2-Oxoglutarate
+    - compartment: c
+    - charge: 0
+    - formula: C5H4O5
+  - !!omap
+    - id: akg_e
+    - name: 2-Oxoglutarate
+    - compartment: e
+    - charge: 0
+    - formula: C5H4O5
+  - !!omap
+    - id: amp_c
+    - name: AMP
+    - compartment: c
+    - charge: 0
+    - formula: C10H12N5O7P
+  - !!omap
+    - id: atp_c
+    - name: ATP
+    - compartment: c
+    - charge: 0
+    - formula: C10H12N5O13P3
+  - !!omap
+    - id: cit_c
+    - name: Citrate
+    - compartment: c
+    - charge: 0
+    - formula: C6H5O7
+  - !!omap
+    - id: co2_b
+    - name: co2_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: co2_c
+    - name: CO2
+    - compartment: c
+    - charge: 0
+    - formula: CO2
+  - !!omap
+    - id: co2_e
+    - name: CO2
+    - compartment: e
+    - charge: 0
+    - formula: CO2
+  - !!omap
+    - id: coa_c
+    - name: Coenzyme-A
+    - compartment: c
+    - charge: 0
+    - formula: C21H32N7O16P3S
+  - !!omap
+    - id: dhap_c
+    - name: Dihydroxyacetone-phosphate
+    - compartment: c
+    - charge: 0
+    - formula: C3H5O6P
+  - !!omap
+    - id: e4p_c
+    - name: D-Erythrose-4-phosphate
+    - compartment: c
+    - charge: 0
+    - formula: C4H7O7P
+  - !!omap
+    - id: etoh_b
+    - name: etoh_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: etoh_c
+    - name: Ethanol
+    - compartment: c
+    - charge: 0
+    - formula: C2H6O
+  - !!omap
+    - id: etoh_e
+    - name: Ethanol
+    - compartment: e
+    - charge: 0
+    - formula: C2H6O
+  - !!omap
+    - id: f6p_c
+    - name: D-Fructose-6-phosphate
+    - compartment: c
+    - charge: 0
+    - formula: C6H11O9P
+  - !!omap
+    - id: fdp_c
+    - name: D-Fructose-1-6-bisphosphate
+    - compartment: c
+    - charge: 0
+    - formula: C6H10O12P2
+  - !!omap
+    - id: for_b
+    - name: for_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: for_c
+    - name: Formate
+    - compartment: c
+    - charge: 0
+    - formula: CH1O2
+  - !!omap
+    - id: for_e
+    - name: Formate
+    - compartment: e
+    - charge: 0
+    - formula: CH1O2
+  - !!omap
+    - id: fru_b
+    - name: fru_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: fru_e
+    - name: D-Fructose
+    - compartment: e
+    - charge: 0
+    - formula: C6H12O6
+  - !!omap
+    - id: fum_b
+    - name: fum_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: fum_c
+    - name: Fumarate
+    - compartment: c
+    - charge: 0
+    - formula: C4H2O4
+  - !!omap
+    - id: fum_e
+    - name: Fumarate
+    - compartment: e
+    - charge: 0
+    - formula: C4H2O4
+  - !!omap
+    - id: g3p_c
+    - name: Glyceraldehyde-3-phosphate
+    - compartment: c
+    - charge: 0
+    - formula: C3H5O6P
+  - !!omap
+    - id: g6p_c
+    - name: D-Glucose-6-phosphate
+    - compartment: c
+    - charge: 0
+    - formula: C6H11O9P
+  - !!omap
+    - id: glc_D_b
+    - name: glc_D_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: glc_D_e
+    - name: D-Glucose
+    - compartment: e
+    - charge: 0
+    - formula: C6H12O6
+  - !!omap
+    - id: gln_L_b
+    - name: gln_L_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: gln_L_c
+    - name: L-Glutamine
+    - compartment: c
+    - charge: 0
+    - formula: C5H10N2O3
+  - !!omap
+    - id: gln_L_e
+    - name: L-Glutamine
+    - compartment: e
+    - charge: 0
+    - formula: C5H10N2O3
+  - !!omap
+    - id: glu_L_b
+    - name: glu_L_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: glu_L_c
+    - name: L-Glutamate
+    - compartment: c
+    - charge: 0
+    - formula: C5H8NO4
+  - !!omap
+    - id: glu_L_e
+    - name: L-Glutamate
+    - compartment: e
+    - charge: 0
+    - formula: C5H8NO4
+  - !!omap
+    - id: glx_c
+    - name: Glyoxylate
+    - compartment: c
+    - charge: 0
+    - formula: C2H1O3
+  - !!omap
+    - id: h2o_b
+    - name: h2o_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: h2o_c
+    - name: H2O
+    - compartment: c
+    - charge: 0
+    - formula: H2O
+  - !!omap
+    - id: h2o_e
+    - name: H2O
+    - compartment: e
+    - charge: 0
+    - formula: H2O
+  - !!omap
+    - id: h_b
+    - name: h_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: h_c
+    - name: H
+    - compartment: c
+    - charge: 0
+    - formula: H
+  - !!omap
+    - id: h_e
+    - name: H
+    - compartment: e
+    - charge: 0
+    - formula: H
+  - !!omap
+    - id: icit_c
+    - name: Isocitrate
+    - compartment: c
+    - charge: 0
+    - formula: C6H5O7
+  - !!omap
+    - id: lac_D_b
+    - name: lac_D_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: lac_D_c
+    - name: D-Lactate
+    - compartment: c
+    - charge: 0
+    - formula: C3H5O3
+  - !!omap
+    - id: lac_D_e
+    - name: D-Lactate
+    - compartment: e
+    - charge: 0
+    - formula: C3H5O3
+  - !!omap
+    - id: mal_L_b
+    - name: mal_L_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: mal_L_c
+    - name: L-Malate
+    - compartment: c
+    - charge: 0
+    - formula: C4H4O5
+  - !!omap
+    - id: mal_L_e
+    - name: L-Malate
+    - compartment: e
+    - charge: 0
+    - formula: C4H4O5
+  - !!omap
+    - id: nad_c
+    - name: Nicotinamide-adenine-dinucleotide
+    - compartment: c
+    - charge: 0
+    - formula: C21H26N7O14P2
+  - !!omap
+    - id: nadh_c
+    - name: Nicotinamide-adenine-dinucleotide-reduced
+    - compartment: c
+    - charge: 0
+    - formula: C21H27N7O14P2
+  - !!omap
+    - id: nadp_c
+    - name: Nicotinamide-adenine-dinucleotide-phosphate
+    - compartment: c
+    - charge: 0
+    - formula: C21H25N7O17P3
+  - !!omap
+    - id: nadph_c
+    - name: Nicotinamide-adenine-dinucleotide-phosphate-reduced
+    - compartment: c
+    - charge: 0
+    - formula: C21H26N7O17P3
+  - !!omap
+    - id: nh4_b
+    - name: nh4_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: nh4_c
+    - name: Ammonium
+    - compartment: c
+    - charge: 0
+    - formula: H4N
+  - !!omap
+    - id: nh4_e
+    - name: Ammonium
+    - compartment: e
+    - charge: 0
+    - formula: H4N
+  - !!omap
+    - id: o2_b
+    - name: o2_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: o2_c
+    - name: O2
+    - compartment: c
+    - charge: 0
+    - formula: O2
+  - !!omap
+    - id: o2_e
+    - name: O2
+    - compartment: e
+    - charge: 0
+    - formula: O2
+  - !!omap
+    - id: oaa_c
+    - name: Oxaloacetate
+    - compartment: c
+    - charge: 0
+    - formula: C4H2O5
+  - !!omap
+    - id: pep_c
+    - name: Phosphoenolpyruvate
+    - compartment: c
+    - charge: 0
+    - formula: C3H2O6P
+  - !!omap
+    - id: pi_b
+    - name: pi_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: pi_c
+    - name: Phosphate
+    - compartment: c
+    - charge: 0
+    - formula: HO4P
+  - !!omap
+    - id: pi_e
+    - name: Phosphate
+    - compartment: e
+    - charge: 0
+    - formula: HO4P
+  - !!omap
+    - id: pyr_b
+    - name: pyr_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: pyr_c
+    - name: Pyruvate
+    - compartment: c
+    - charge: 0
+    - formula: C3H3O3
+  - !!omap
+    - id: pyr_e
+    - name: Pyruvate
+    - compartment: e
+    - charge: 0
+    - formula: C3H3O3
+  - !!omap
+    - id: q8_c
+    - name: Ubiquinone-8
+    - compartment: c
+    - charge: 0
+    - formula: C49H74O4
+  - !!omap
+    - id: q8h2_c
+    - name: Ubiquinol-8
+    - compartment: c
+    - charge: 0
+    - formula: C49H76O4
+  - !!omap
+    - id: r5p_c
+    - name: alpha-D-Ribose-5-phosphate
+    - compartment: c
+    - charge: 0
+    - formula: C5H9O8P
+  - !!omap
+    - id: ru5p_D_c
+    - name: D-Ribulose-5-phosphate
+    - compartment: c
+    - charge: 0
+    - formula: C5H9O8P
+  - !!omap
+    - id: s7p_c
+    - name: Sedoheptulose-7-phosphate
+    - compartment: c
+    - charge: 0
+    - formula: C7H13O10P
+  - !!omap
+    - id: succ_b
+    - name: succ_b
+    - compartment: e
+    - charge: 0
+  - !!omap
+    - id: succ_c
+    - name: Succinate
+    - compartment: c
+    - charge: 0
+    - formula: C4H4O4
+  - !!omap
+    - id: succ_e
+    - name: Succinate
+    - compartment: e
+    - charge: 0
+    - formula: C4H4O4
+  - !!omap
+    - id: succoa_c
+    - name: Succinyl-CoA
+    - compartment: c
+    - charge: 0
+    - formula: C25H35N7O19P3S
+  - !!omap
+    - id: xu5p_D_c
+    - name: D-Xylulose-5-phosphate
+    - compartment: c
+    - charge: 0
+    - formula: C5H9O8P
+- reactions:
+  - !!omap
+    - id: ACALD
+    - name: acetaldehyde dehydrogenase (acetylating)
+    - metabolites: !!omap
+      - acald_c: -1.0
+      - accoa_c: 1.0
+      - coa_c: -1.0
+      - h_c: 1.0
+      - nad_c: -1.0
+      - nadh_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b0351 or b1241
+  - !!omap
+    - id: ACALDt
+    - name: acetaldehyde reversible transport
+    - metabolites: !!omap
+      - acald_c: 1.0
+      - acald_e: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: s0001
+  - !!omap
+    - id: ACKr
+    - name: acetate kinase
+    - metabolites: !!omap
+      - ac_c: -1.0
+      - actp_c: 1.0
+      - adp_c: 1.0
+      - atp_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b3115 or b2296 or b1849
+  - !!omap
+    - id: ACONTa
+    - name: aconitase (half-reaction A, Citrate hydro-lyase)
+    - metabolites: !!omap
+      - acon_C_c: 1.0
+      - cit_c: -1.0
+      - h2o_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b0118 or b1276
+  - !!omap
+    - id: ACONTb
+    - name: aconitase (half-reaction B, Isocitrate hydro-lyase)
+    - metabolites: !!omap
+      - acon_C_c: -1.0
+      - h2o_c: -1.0
+      - icit_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b0118 or b1276
+  - !!omap
+    - id: ACt2r
+    - name: acetate reversible transport via proton symport
+    - metabolites: !!omap
+      - ac_c: 1.0
+      - ac_e: -1.0
+      - h_c: 1.0
+      - h_e: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: ADK1
+    - name: adenylate kinase
+    - metabolites: !!omap
+      - adp_c: 2.0
+      - amp_c: -1.0
+      - atp_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b0474
+  - !!omap
+    - id: AKGDH
+    - name: 2-Oxoglutarate dehydrogenase
+    - metabolites: !!omap
+      - akg_c: -1.0
+      - co2_c: 1.0
+      - coa_c: -1.0
+      - nad_c: -1.0
+      - nadh_c: 1.0
+      - succoa_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b0116 and b0726 and b0727
+  - !!omap
+    - id: AKGt2r
+    - name: 2-oxoglutarate reversible transport via symport
+    - metabolites: !!omap
+      - akg_c: 1.0
+      - akg_e: -1.0
+      - h_c: 1.0
+      - h_e: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b2587
+  - !!omap
+    - id: ALCD2x
+    - name: alcohol dehydrogenase (ethanol)
+    - metabolites: !!omap
+      - acald_c: 1.0
+      - etoh_c: -1.0
+      - h_c: 1.0
+      - nad_c: -1.0
+      - nadh_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b0356 or b1478 or b1241
+  - !!omap
+    - id: ATPM
+    - name: ATP maintenance requirement
+    - metabolites: !!omap
+      - adp_c: 1.0
+      - atp_c: -1.0
+      - h2o_c: -1.0
+      - h_c: 1.0
+      - pi_c: 1.0
+    - lower_bound: 8.39
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: ATPS4r
+    - name: ATP synthase (four protons for one ATP)
+    - metabolites: !!omap
+      - adp_c: -1.0
+      - atp_c: 1.0
+      - h2o_c: 1.0
+      - h_c: 3.0
+      - h_e: -4.0
+      - pi_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ( ( b3736 and b3737 and b3738 ) and ( b3731 and b3732 and
+        b3733 and b3734 and b3735 ) ) or ( ( b3736 and b3737 and b3738 ) and ( b3731
+        and b3732 and b3733 and b3734 and b3735 ) and b3739 )
+  - !!omap
+    - id: Biomass_Ecoli_core_w_GAM
+    - name: Biomass Objective Function with GAM
+    - metabolites: !!omap
+      - 3pg_c: -1.496
+      - accoa_c: -3.7478
+      - adp_c: 59.81
+      - akg_c: 4.1182
+      - atp_c: -59.81
+      - coa_c: 3.7478
+      - e4p_c: -0.361
+      - f6p_c: -0.0709
+      - g3p_c: -0.129
+      - g6p_c: -0.205
+      - gln_L_c: -0.2557
+      - glu_L_c: -4.9414
+      - h2o_c: -59.81
+      - h_c: 59.81
+      - nad_c: -3.547
+      - nadh_c: 3.547
+      - nadp_c: 13.0279
+      - nadph_c: -13.0279
+      - oaa_c: -1.7867
+      - pep_c: -0.5191
+      - pi_c: 59.81
+      - pyr_c: -2.8328
+      - r5p_c: -0.8977
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - objective_coefficient: 1.0
+  - !!omap
+    - id: CO2t
+    - name: CO2 transporter via diffusion
+    - metabolites: !!omap
+      - co2_c: 1.0
+      - co2_e: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: s0001
+  - !!omap
+    - id: CS
+    - name: citrate synthase
+    - metabolites: !!omap
+      - accoa_c: -1.0
+      - cit_c: 1.0
+      - coa_c: 1.0
+      - h2o_c: -1.0
+      - h_c: 1.0
+      - oaa_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b0720
+  - !!omap
+    - id: CYTBD
+    - name: 'cytochrome oxidase bd (ubiquinol-8: 2 protons)'
+    - metabolites: !!omap
+      - h2o_c: 1.0
+      - h_c: -2.0
+      - h_e: 2.0
+      - o2_c: -0.5
+      - q8_c: 1.0
+      - q8h2_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ( b0978 and b0979 ) or ( b0733 and b0734 )
+  - !!omap
+    - id: D_LACt2
+    - name: D-lactate transport via proton symport
+    - metabolites: !!omap
+      - h_c: 1.0
+      - h_e: -1.0
+      - lac_D_c: 1.0
+      - lac_D_e: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b2975 or b3603
+  - !!omap
+    - id: ENO
+    - name: enolase
+    - metabolites: !!omap
+      - 2pg_c: -1.0
+      - h2o_c: 1.0
+      - pep_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b2779
+  - !!omap
+    - id: ETOHt2r
+    - name: ethanol reversible transport via proton symport
+    - metabolites: !!omap
+      - etoh_c: 1.0
+      - etoh_e: -1.0
+      - h_c: 1.0
+      - h_e: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_ac_e
+    - name: Acetate exchange
+    - metabolites: !!omap
+      - ac_b: 1.0
+      - ac_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_acald_e
+    - name: Acetaldehyde exchange
+    - metabolites: !!omap
+      - acald_b: 1.0
+      - acald_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_akg_e
+    - name: 2-Oxoglutarate exchange
+    - metabolites: !!omap
+      - akg_b: 1.0
+      - akg_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_co2_e
+    - name: CO2 exchange
+    - metabolites: !!omap
+      - co2_b: 1.0
+      - co2_e: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_etoh_e
+    - name: Ethanol exchange
+    - metabolites: !!omap
+      - etoh_b: 1.0
+      - etoh_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_for_e
+    - name: Formate exchange
+    - metabolites: !!omap
+      - for_b: 1.0
+      - for_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_fru_e
+    - name: D-Fructose exchange
+    - metabolites: !!omap
+      - fru_b: 1.0
+      - fru_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_fum_e
+    - name: Fumarate exchange
+    - metabolites: !!omap
+      - fum_b: 1.0
+      - fum_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_glc_e
+    - name: D-Glucose exchange
+    - metabolites: !!omap
+      - glc_D_b: 1.0
+      - glc_D_e: -1.0
+    - lower_bound: -10.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_gln_L_e
+    - name: L-Glutamine exchange
+    - metabolites: !!omap
+      - gln_L_b: 1.0
+      - gln_L_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_glu_L_e
+    - name: L-Glutamate exchange
+    - metabolites: !!omap
+      - glu_L_b: 1.0
+      - glu_L_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_h2o_e
+    - name: H2O exchange
+    - metabolites: !!omap
+      - h2o_e: -1.0
+      - h_b: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_h_e
+    - name: H+ exchange
+    - metabolites: !!omap
+      - h2o_b: 1.0
+      - h_e: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_lac_D_e
+    - name: D-Lactate exchange
+    - metabolites: !!omap
+      - lac_D_b: 1.0
+      - lac_D_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_mal_L_e
+    - name: L-Malate exchange
+    - metabolites: !!omap
+      - mal_L_b: 1.0
+      - mal_L_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_nh4_e
+    - name: Ammonium exchange
+    - metabolites: !!omap
+      - nh4_b: 1.0
+      - nh4_e: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_o2_e
+    - name: O2 exchange
+    - metabolites: !!omap
+      - o2_b: 1.0
+      - o2_e: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_pi_e
+    - name: Phosphate exchange
+    - metabolites: !!omap
+      - pi_b: 1.0
+      - pi_e: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_pyr_e
+    - name: Pyruvate exchange
+    - metabolites: !!omap
+      - pyr_b: 1.0
+      - pyr_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_succ_e
+    - name: Succinate exchange
+    - metabolites: !!omap
+      - succ_b: 1.0
+      - succ_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: FBA
+    - name: fructose-bisphosphate aldolase
+    - metabolites: !!omap
+      - dhap_c: 1.0
+      - fdp_c: -1.0
+      - g3p_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b2097 or b1773 or b2925
+  - !!omap
+    - id: FBP
+    - name: fructose-bisphosphatase
+    - metabolites: !!omap
+      - f6p_c: 1.0
+      - fdp_c: -1.0
+      - h2o_c: -1.0
+      - pi_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b3925 or b4232
+  - !!omap
+    - id: FORt2
+    - name: formate transport via proton symport (uptake only)
+    - metabolites: !!omap
+      - for_c: 1.0
+      - for_e: -1.0
+      - h_c: 1.0
+      - h_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b0904 or b2492
+  - !!omap
+    - id: FORti
+    - name: formate transport via diffusion
+    - metabolites: !!omap
+      - for_c: -1.0
+      - for_e: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b0904 or b2492
+  - !!omap
+    - id: FRD7
+    - name: fumarate reductase
+    - metabolites: !!omap
+      - fum_c: -1.0
+      - q8_c: 1.0
+      - q8h2_c: -1.0
+      - succ_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b4151 and b4152 and b4153 and b4154
+  - !!omap
+    - id: FRUpts2
+    - name: Fructose transport via PEP:Pyr PTS (f6p generating)
+    - metabolites: !!omap
+      - f6p_c: 1.0
+      - fru_e: -1.0
+      - pep_c: -1.0
+      - pyr_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b1817 and b1818 and b1819 and b2415 and b2416
+  - !!omap
+    - id: FUM
+    - name: fumarase
+    - metabolites: !!omap
+      - fum_c: -1.0
+      - h2o_c: -1.0
+      - mal_L_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b1612 or b4122 or b1611
+  - !!omap
+    - id: FUMt2_2
+    - name: Fumarate transport via proton symport (2 H)
+    - metabolites: !!omap
+      - fum_c: 1.0
+      - fum_e: -1.0
+      - h_c: 2.0
+      - h_e: -2.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b3528
+  - !!omap
+    - id: G6PDH2r
+    - name: glucose 6-phosphate dehydrogenase
+    - metabolites: !!omap
+      - 6pgl_c: 1.0
+      - g6p_c: -1.0
+      - h_c: 1.0
+      - nadp_c: -1.0
+      - nadph_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b1852
+  - !!omap
+    - id: GAPD
+    - name: glyceraldehyde-3-phosphate dehydrogenase
+    - metabolites: !!omap
+      - 13dpg_c: 1.0
+      - g3p_c: -1.0
+      - h_c: 1.0
+      - nad_c: -1.0
+      - nadh_c: 1.0
+      - pi_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b1779
+  - !!omap
+    - id: GLCpts
+    - name: D-glucose transport via PEP:Pyr PTS
+    - metabolites: !!omap
+      - g6p_c: 1.0
+      - glc_D_e: -1.0
+      - pep_c: -1.0
+      - pyr_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ( b2417 and b1101 and b2415 and b2416 ) or ( b1817 and b1818
+        and b1819 and b2415 and b2416 ) or ( b2417 and b1621 and b2415 and b2416 )
+  - !!omap
+    - id: GLNS
+    - name: glutamine synthetase
+    - metabolites: !!omap
+      - adp_c: 1.0
+      - atp_c: -1.0
+      - gln_L_c: 1.0
+      - glu_L_c: -1.0
+      - h_c: 1.0
+      - nh4_c: -1.0
+      - pi_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b3870 or b1297
+  - !!omap
+    - id: GLNabc
+    - name: L-glutamine transport via ABC system
+    - metabolites: !!omap
+      - adp_c: 1.0
+      - atp_c: -1.0
+      - gln_L_c: 1.0
+      - gln_L_e: -1.0
+      - h2o_c: -1.0
+      - h_c: 1.0
+      - pi_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b0811 and b0810 and b0809
+  - !!omap
+    - id: GLUDy
+    - name: glutamate dehydrogenase (NADP)
+    - metabolites: !!omap
+      - akg_c: 1.0
+      - glu_L_c: -1.0
+      - h2o_c: -1.0
+      - h_c: 1.0
+      - nadp_c: -1.0
+      - nadph_c: 1.0
+      - nh4_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b1761
+  - !!omap
+    - id: GLUN
+    - name: glutaminase
+    - metabolites: !!omap
+      - gln_L_c: -1.0
+      - glu_L_c: 1.0
+      - h2o_c: -1.0
+      - nh4_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b1812 or b0485 or b1524
+  - !!omap
+    - id: GLUSy
+    - name: glutamate synthase (NADPH)
+    - metabolites: !!omap
+      - akg_c: -1.0
+      - gln_L_c: -1.0
+      - glu_L_c: 2.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b3212 and b3213
+  - !!omap
+    - id: GLUt2r
+    - name: L-glutamate transport via proton symport, reversible (periplasm)
+    - metabolites: !!omap
+      - glu_L_c: 1.0
+      - glu_L_e: -1.0
+      - h_c: 1.0
+      - h_e: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b4077
+  - !!omap
+    - id: GND
+    - name: phosphogluconate dehydrogenase
+    - metabolites: !!omap
+      - 6pgc_c: -1.0
+      - co2_c: 1.0
+      - nadp_c: -1.0
+      - nadph_c: 1.0
+      - ru5p_D_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b2029
+  - !!omap
+    - id: H2Ot
+    - name: H2O transport via diffusion
+    - metabolites: !!omap
+      - h2o_c: 1.0
+      - h2o_e: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b0875 or s0001
+  - !!omap
+    - id: ICDHyr
+    - name: isocitrate dehydrogenase (NADP)
+    - metabolites: !!omap
+      - akg_c: 1.0
+      - co2_c: 1.0
+      - icit_c: -1.0
+      - nadp_c: -1.0
+      - nadph_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b1136
+  - !!omap
+    - id: ICL
+    - name: Isocitrate lyase
+    - metabolites: !!omap
+      - glx_c: 1.0
+      - icit_c: -1.0
+      - succ_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b4015
+  - !!omap
+    - id: LDH_D
+    - name: D lactate dehydrogenase
+    - metabolites: !!omap
+      - h_c: 1.0
+      - lac_D_c: -1.0
+      - nad_c: -1.0
+      - nadh_c: 1.0
+      - pyr_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b2133 or b1380
+  - !!omap
+    - id: MALS
+    - name: malate synthase
+    - metabolites: !!omap
+      - accoa_c: -1.0
+      - coa_c: 1.0
+      - glx_c: -1.0
+      - h2o_c: -1.0
+      - h_c: 1.0
+      - mal_L_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b4014 or b2976
+  - !!omap
+    - id: MALt2_2
+    - name: Malate transport via proton symport (2 H)
+    - metabolites: !!omap
+      - h_c: 2.0
+      - h_e: -2.0
+      - mal_L_c: 1.0
+      - mal_L_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b3528
+  - !!omap
+    - id: MDH
+    - name: malate dehydrogenase
+    - metabolites: !!omap
+      - h_c: 1.0
+      - mal_L_c: -1.0
+      - nad_c: -1.0
+      - nadh_c: 1.0
+      - oaa_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b3236
+  - !!omap
+    - id: ME1
+    - name: malic enzyme (NAD)
+    - metabolites: !!omap
+      - co2_c: 1.0
+      - mal_L_c: -1.0
+      - nad_c: -1.0
+      - nadh_c: 1.0
+      - pyr_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b1479
+  - !!omap
+    - id: ME2
+    - name: malic enzyme (NADP)
+    - metabolites: !!omap
+      - co2_c: 1.0
+      - mal_L_c: -1.0
+      - nadp_c: -1.0
+      - nadph_c: 1.0
+      - pyr_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b2463
+  - !!omap
+    - id: NADH16
+    - name: NADH dehydrogenase (ubiquinone-8 & 3 protons)
+    - metabolites: !!omap
+      - h_c: -4.0
+      - h_e: 3.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - q8_c: -1.0
+      - q8h2_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b2276 and b2277 and b2278 and b2279 and b2280 and b2281
+        and b2282 and b2283 and b2284 and b2285 and b2286 and b2287 and b2288
+  - !!omap
+    - id: NADTRHD
+    - name: NAD transhydrogenase
+    - metabolites: !!omap
+      - nad_c: -1.0
+      - nadh_c: 1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b3962 or ( b1602 and b1603 )
+  - !!omap
+    - id: NH4t
+    - name: ammonia reversible transport
+    - metabolites: !!omap
+      - nh4_c: 1.0
+      - nh4_e: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: s0001 or b0451
+  - !!omap
+    - id: O2t
+    - name: o2 transport via diffusion
+    - metabolites: !!omap
+      - o2_c: 1.0
+      - o2_e: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: s0001
+  - !!omap
+    - id: PDH
+    - name: pyruvate dehydrogenase
+    - metabolites: !!omap
+      - accoa_c: 1.0
+      - co2_c: 1.0
+      - coa_c: -1.0
+      - nad_c: -1.0
+      - nadh_c: 1.0
+      - pyr_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b0114 and b0115 and b0116
+  - !!omap
+    - id: PFK
+    - name: phosphofructokinase
+    - metabolites: !!omap
+      - adp_c: 1.0
+      - atp_c: -1.0
+      - f6p_c: -1.0
+      - fdp_c: 1.0
+      - h_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b3916 or b1723
+  - !!omap
+    - id: PFL
+    - name: pyruvate formate lyase
+    - metabolites: !!omap
+      - accoa_c: 1.0
+      - coa_c: -1.0
+      - for_c: 1.0
+      - pyr_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ( ( b0902 and b0903 ) and b2579 ) or ( b0902 and b0903 )
+        or ( b0902 and b3114 ) or ( b3951 and b3952 )
+  - !!omap
+    - id: PGI
+    - name: glucose-6-phosphate isomerase
+    - metabolites: !!omap
+      - f6p_c: 1.0
+      - g6p_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b4025
+  - !!omap
+    - id: PGK
+    - name: phosphoglycerate kinase
+    - metabolites: !!omap
+      - 13dpg_c: 1.0
+      - 3pg_c: -1.0
+      - adp_c: 1.0
+      - atp_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b2926
+  - !!omap
+    - id: PGL
+    - name: 6-phosphogluconolactonase
+    - metabolites: !!omap
+      - 6pgc_c: 1.0
+      - 6pgl_c: -1.0
+      - h2o_c: -1.0
+      - h_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b0767
+  - !!omap
+    - id: PGM
+    - name: phosphoglycerate mutase
+    - metabolites: !!omap
+      - 2pg_c: -1.0
+      - 3pg_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b3612 or b4395 or b0755
+  - !!omap
+    - id: PIt2r
+    - name: phosphate reversible transport via proton symport
+    - metabolites: !!omap
+      - h_c: 1.0
+      - h_e: -1.0
+      - pi_c: 1.0
+      - pi_e: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b2987 or b3493
+  - !!omap
+    - id: PPC
+    - name: phosphoenolpyruvate carboxylase
+    - metabolites: !!omap
+      - co2_c: -1.0
+      - h2o_c: -1.0
+      - h_c: 1.0
+      - oaa_c: 1.0
+      - pep_c: -1.0
+      - pi_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b3956
+  - !!omap
+    - id: PPCK
+    - name: phosphoenolpyruvate carboxykinase
+    - metabolites: !!omap
+      - adp_c: 1.0
+      - atp_c: -1.0
+      - co2_c: 1.0
+      - oaa_c: -1.0
+      - pep_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b3403
+  - !!omap
+    - id: PPS
+    - name: phosphoenolpyruvate synthase
+    - metabolites: !!omap
+      - amp_c: 1.0
+      - atp_c: -1.0
+      - h2o_c: -1.0
+      - h_c: 2.0
+      - pep_c: 1.0
+      - pi_c: 1.0
+      - pyr_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b1702
+  - !!omap
+    - id: PTAr
+    - name: phosphotransacetylase
+    - metabolites: !!omap
+      - accoa_c: -1.0
+      - actp_c: 1.0
+      - coa_c: 1.0
+      - pi_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b2297 or b2458
+  - !!omap
+    - id: PYK
+    - name: pyruvate kinase
+    - metabolites: !!omap
+      - adp_c: -1.0
+      - atp_c: 1.0
+      - h_c: -1.0
+      - pep_c: -1.0
+      - pyr_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b1854 or b1676
+  - !!omap
+    - id: PYRt2r
+    - name: pyruvate reversible transport via proton symport
+    - metabolites: !!omap
+      - h_c: 1.0
+      - h_e: -1.0
+      - pyr_c: 1.0
+      - pyr_e: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: RPE
+    - name: ribulose 5-phosphate 3-epimerase
+    - metabolites: !!omap
+      - ru5p_D_c: -1.0
+      - xu5p_D_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b3386 or b4301
+  - !!omap
+    - id: RPI
+    - name: ribose-5-phosphate isomerase
+    - metabolites: !!omap
+      - r5p_c: -1.0
+      - ru5p_D_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b2914 or b4090
+  - !!omap
+    - id: SUCCt2_2
+    - name: succinate transport via proton symport (2 H)
+    - metabolites: !!omap
+      - h_c: 2.0
+      - h_e: -2.0
+      - succ_c: 1.0
+      - succ_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b3528
+  - !!omap
+    - id: SUCCt3
+    - name: succinate transport out via proton antiport
+    - metabolites: !!omap
+      - h_c: 1.0
+      - h_e: -1.0
+      - succ_c: -1.0
+      - succ_e: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: SUCDi
+    - name: succinate dehydrogenase (irreversible)
+    - metabolites: !!omap
+      - fum_c: 1.0
+      - q8_c: -1.0
+      - q8h2_c: 1.0
+      - succ_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b0721 and b0722 and b0723 and b0724
+  - !!omap
+    - id: SUCOAS
+    - name: succinyl-CoA synthetase (ADP-forming)
+    - metabolites: !!omap
+      - adp_c: 1.0
+      - atp_c: -1.0
+      - coa_c: -1.0
+      - pi_c: 1.0
+      - succ_c: -1.0
+      - succoa_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b0728 and b0729
+  - !!omap
+    - id: TALA
+    - name: transaldolase
+    - metabolites: !!omap
+      - e4p_c: 1.0
+      - f6p_c: 1.0
+      - g3p_c: -1.0
+      - s7p_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b2464 or b0008
+  - !!omap
+    - id: THD2
+    - name: NAD(P) transhydrogenase
+    - metabolites: !!omap
+      - h_c: 2.0
+      - h_e: -2.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - nadp_c: -1.0
+      - nadph_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b1602 and b1603
+  - !!omap
+    - id: TKT1
+    - name: transketolase
+    - metabolites: !!omap
+      - g3p_c: 1.0
+      - r5p_c: -1.0
+      - s7p_c: 1.0
+      - xu5p_D_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b2935 or b2465
+  - !!omap
+    - id: TKT2
+    - name: transketolase
+    - metabolites: !!omap
+      - e4p_c: -1.0
+      - f6p_c: 1.0
+      - g3p_c: 1.0
+      - xu5p_D_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b2935 or b2465
+  - !!omap
+    - id: TPI
+    - name: triose-phosphate isomerase
+    - metabolites: !!omap
+      - dhap_c: -1.0
+      - g3p_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: b3919
+- genes:
+  - !!omap
+    - id: b0008
+    - name: b0008
+  - !!omap
+    - id: b0114
+    - name: b0114
+  - !!omap
+    - id: b0115
+    - name: b0115
+  - !!omap
+    - id: b0116
+    - name: b0116
+  - !!omap
+    - id: b0118
+    - name: b0118
+  - !!omap
+    - id: b0351
+    - name: b0351
+  - !!omap
+    - id: b0356
+    - name: b0356
+  - !!omap
+    - id: b0451
+    - name: b0451
+  - !!omap
+    - id: b0474
+    - name: b0474
+  - !!omap
+    - id: b0485
+    - name: b0485
+  - !!omap
+    - id: b0720
+    - name: b0720
+  - !!omap
+    - id: b0721
+    - name: b0721
+  - !!omap
+    - id: b0722
+    - name: b0722
+  - !!omap
+    - id: b0723
+    - name: b0723
+  - !!omap
+    - id: b0724
+    - name: b0724
+  - !!omap
+    - id: b0726
+    - name: b0726
+  - !!omap
+    - id: b0727
+    - name: b0727
+  - !!omap
+    - id: b0728
+    - name: b0728
+  - !!omap
+    - id: b0729
+    - name: b0729
+  - !!omap
+    - id: b0733
+    - name: b0733
+  - !!omap
+    - id: b0734
+    - name: b0734
+  - !!omap
+    - id: b0755
+    - name: b0755
+  - !!omap
+    - id: b0767
+    - name: b0767
+  - !!omap
+    - id: b0809
+    - name: b0809
+  - !!omap
+    - id: b0810
+    - name: b0810
+  - !!omap
+    - id: b0811
+    - name: b0811
+  - !!omap
+    - id: b0875
+    - name: b0875
+  - !!omap
+    - id: b0902
+    - name: b0902
+  - !!omap
+    - id: b0903
+    - name: b0903
+  - !!omap
+    - id: b0904
+    - name: b0904
+  - !!omap
+    - id: b0978
+    - name: b0978
+  - !!omap
+    - id: b0979
+    - name: b0979
+  - !!omap
+    - id: b1101
+    - name: b1101
+  - !!omap
+    - id: b1136
+    - name: b1136
+  - !!omap
+    - id: b1241
+    - name: b1241
+  - !!omap
+    - id: b1276
+    - name: b1276
+  - !!omap
+    - id: b1297
+    - name: b1297
+  - !!omap
+    - id: b1380
+    - name: b1380
+  - !!omap
+    - id: b1478
+    - name: b1478
+  - !!omap
+    - id: b1479
+    - name: b1479
+  - !!omap
+    - id: b1524
+    - name: b1524
+  - !!omap
+    - id: b1602
+    - name: b1602
+  - !!omap
+    - id: b1603
+    - name: b1603
+  - !!omap
+    - id: b1611
+    - name: b1611
+  - !!omap
+    - id: b1612
+    - name: b1612
+  - !!omap
+    - id: b1621
+    - name: b1621
+  - !!omap
+    - id: b1676
+    - name: b1676
+  - !!omap
+    - id: b1702
+    - name: b1702
+  - !!omap
+    - id: b1723
+    - name: b1723
+  - !!omap
+    - id: b1761
+    - name: b1761
+  - !!omap
+    - id: b1773
+    - name: b1773
+  - !!omap
+    - id: b1779
+    - name: b1779
+  - !!omap
+    - id: b1812
+    - name: b1812
+  - !!omap
+    - id: b1817
+    - name: b1817
+  - !!omap
+    - id: b1818
+    - name: b1818
+  - !!omap
+    - id: b1819
+    - name: b1819
+  - !!omap
+    - id: b1849
+    - name: b1849
+  - !!omap
+    - id: b1852
+    - name: b1852
+  - !!omap
+    - id: b1854
+    - name: b1854
+  - !!omap
+    - id: b2029
+    - name: b2029
+  - !!omap
+    - id: b2097
+    - name: b2097
+  - !!omap
+    - id: b2133
+    - name: b2133
+  - !!omap
+    - id: b2276
+    - name: b2276
+  - !!omap
+    - id: b2277
+    - name: b2277
+  - !!omap
+    - id: b2278
+    - name: b2278
+  - !!omap
+    - id: b2279
+    - name: b2279
+  - !!omap
+    - id: b2280
+    - name: b2280
+  - !!omap
+    - id: b2281
+    - name: b2281
+  - !!omap
+    - id: b2282
+    - name: b2282
+  - !!omap
+    - id: b2283
+    - name: b2283
+  - !!omap
+    - id: b2284
+    - name: b2284
+  - !!omap
+    - id: b2285
+    - name: b2285
+  - !!omap
+    - id: b2286
+    - name: b2286
+  - !!omap
+    - id: b2287
+    - name: b2287
+  - !!omap
+    - id: b2288
+    - name: b2288
+  - !!omap
+    - id: b2296
+    - name: b2296
+  - !!omap
+    - id: b2297
+    - name: b2297
+  - !!omap
+    - id: b2415
+    - name: b2415
+  - !!omap
+    - id: b2416
+    - name: b2416
+  - !!omap
+    - id: b2417
+    - name: b2417
+  - !!omap
+    - id: b2458
+    - name: b2458
+  - !!omap
+    - id: b2463
+    - name: b2463
+  - !!omap
+    - id: b2464
+    - name: b2464
+  - !!omap
+    - id: b2465
+    - name: b2465
+  - !!omap
+    - id: b2492
+    - name: b2492
+  - !!omap
+    - id: b2579
+    - name: b2579
+  - !!omap
+    - id: b2587
+    - name: b2587
+  - !!omap
+    - id: b2779
+    - name: b2779
+  - !!omap
+    - id: b2914
+    - name: b2914
+  - !!omap
+    - id: b2925
+    - name: b2925
+  - !!omap
+    - id: b2926
+    - name: b2926
+  - !!omap
+    - id: b2935
+    - name: b2935
+  - !!omap
+    - id: b2975
+    - name: b2975
+  - !!omap
+    - id: b2976
+    - name: b2976
+  - !!omap
+    - id: b2987
+    - name: b2987
+  - !!omap
+    - id: b3114
+    - name: b3114
+  - !!omap
+    - id: b3115
+    - name: b3115
+  - !!omap
+    - id: b3212
+    - name: b3212
+  - !!omap
+    - id: b3213
+    - name: b3213
+  - !!omap
+    - id: b3236
+    - name: b3236
+  - !!omap
+    - id: b3386
+    - name: b3386
+  - !!omap
+    - id: b3403
+    - name: b3403
+  - !!omap
+    - id: b3493
+    - name: b3493
+  - !!omap
+    - id: b3528
+    - name: b3528
+  - !!omap
+    - id: b3603
+    - name: b3603
+  - !!omap
+    - id: b3612
+    - name: b3612
+  - !!omap
+    - id: b3731
+    - name: b3731
+  - !!omap
+    - id: b3732
+    - name: b3732
+  - !!omap
+    - id: b3733
+    - name: b3733
+  - !!omap
+    - id: b3734
+    - name: b3734
+  - !!omap
+    - id: b3735
+    - name: b3735
+  - !!omap
+    - id: b3736
+    - name: b3736
+  - !!omap
+    - id: b3737
+    - name: b3737
+  - !!omap
+    - id: b3738
+    - name: b3738
+  - !!omap
+    - id: b3739
+    - name: b3739
+  - !!omap
+    - id: b3870
+    - name: b3870
+  - !!omap
+    - id: b3916
+    - name: b3916
+  - !!omap
+    - id: b3919
+    - name: b3919
+  - !!omap
+    - id: b3925
+    - name: b3925
+  - !!omap
+    - id: b3951
+    - name: b3951
+  - !!omap
+    - id: b3952
+    - name: b3952
+  - !!omap
+    - id: b3956
+    - name: b3956
+  - !!omap
+    - id: b3962
+    - name: b3962
+  - !!omap
+    - id: b4014
+    - name: b4014
+  - !!omap
+    - id: b4015
+    - name: b4015
+  - !!omap
+    - id: b4025
+    - name: b4025
+  - !!omap
+    - id: b4077
+    - name: b4077
+  - !!omap
+    - id: b4090
+    - name: b4090
+  - !!omap
+    - id: b4122
+    - name: b4122
+  - !!omap
+    - id: b4151
+    - name: b4151
+  - !!omap
+    - id: b4152
+    - name: b4152
+  - !!omap
+    - id: b4153
+    - name: b4153
+  - !!omap
+    - id: b4154
+    - name: b4154
+  - !!omap
+    - id: b4232
+    - name: b4232
+  - !!omap
+    - id: b4301
+    - name: b4301
+  - !!omap
+    - id: b4395
+    - name: b4395
+  - !!omap
+    - id: s0001
+    - name: s0001
+- id: Ecoli_core_model
+- compartments: !!omap
+  - c: Cytoplasm
+  - e: Extracellular
+- version: '1'
