@@ -46,8 +46,49 @@ def fix(model):
     model.metabolites.get_by_id("rephaccoa_c").annotation["kegg.compound"] = "C20062"
 
 
+    # Genes without reaction annotated
+    model.reactions.ALLTAMH2.gene_reaction_rule = "SCO3072"
+    model.genes.remove("SCO5184")
+    model.genes.remove("SCO6640")
+    model.genes.remove("SCO5188")
+    
+    # SCO6297 - Add reaction R02395
+    add_R02395(model)
+
+
+    # Metabolites without reactions
+    model.metabolites.get_by_id("3hmp_c").remove_from_model()
+    model.metabolites.get_by_id("malylcoa_c").remove_from_model()
+    model.metabolites.get_by_id("c78dhguantp_c").remove_from_model()
+
+def add_R02395(model):
+    carnitine_c = cobra.Metabolite("carnitine_c", "C7H16NO3", charge = 0, compartment = "c")
+    carnitine_c.annotation["kegg.compound"] = "C00487"
+    carnitine_c.annotation["origin"] = "KEGG"
+    
+    dhdcarn_c = cobra.Metabolite("dhdcarn_c", "C7H14NO3", charge = 0, compartment = "c")
+    dhdcarn_c.annotation["kegg.compound"] = "C02636"
+    dhdcarn_c.annotation["origin"] = "KEGG"
+
+    model.add_metabolites([carnitine_c, dhdcarn_c])
+
+    reaction = cobra.Reaction("CARNOX")
+    metabolite_dict = {model.metabolites.get_by_id("carnitine_c"): -1,
+                       model.metabolites.get_by_id("dhdcarn_c"): 1,
+                       model.metabolites.nad_c: -1,
+                       model.metabolites.nadh_c: 1,
+                       model.metabolites.h_c: 1}
+    reaction.add_metabolites(metabolite_dict)
+    reaction.annotation["ec-code"] = "1.1.1.108"
+    reaction.annotation["kegg.reaction"] = "R02395"
+    reaction.annotation["origin"] = "KEGG"
+    reaction.gene_reaction_rule = "SCO6297"
+    reaction.bounds = (-1000, 1000)
+
+
+    model.add_reaction(reaction)
 
 if __name__ == '__main__':
     iKS1317_PATH = "C:/Users/snorres/git/gem_sco/iKS1317.xml"
     model = cobra.io.read_sbml_model(iKS1317_PATH)
-    fix(model)
+    add_R02395(model)
