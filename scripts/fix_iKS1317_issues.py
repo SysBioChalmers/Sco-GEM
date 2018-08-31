@@ -21,6 +21,18 @@ def fix(model):
     model.reactions.get_by_id("3OXCOAT").gene_reaction_rule = "SCO1324 or SCO6027 or SCO6701 or SCO6967"
     model.reactions.MMSYNB.gene_reaction_rule = "s0001"
 
+    model.reactions.PGMT.annotation["ec-code"] = "5.4.2.2"
+    model.reactions.PPM.annotation["ec-code"] = "5.4.2.2"
+    model.reactions.ME1.annotation["ec-code"] = "1.1.1.38"
+
+    model.reactions.GLUDyi.annotation["ec-code"] = "1.4.1.4"
+    model.reactions.GLUDyi.gene_reaction_rule = "SCO4683"
+
+    model.reactions.GLUSx.gene_reaction_rule = "(SCO1977 or SCO2025) and SCO2026"
+    model.reactions.GLUSy.gene_reaction_rule = "(SCO1977 or SCO2025) and SCO2026"
+    model.reactions.GLUN.annotation["ec-code"] = "3.5.1.2"
+
+
     # Fix id og mmy acetoacetyl and malonyl ACP
     model.metabolites.malACPmmy_c.charge = -1
     model.metabolites.actACPmmy_c.id = "temp"
