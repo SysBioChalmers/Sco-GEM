@@ -1,0 +1,2055 @@
+﻿iKS1317_ID,Sco4_ID,comment
+ACPact[c],ACPact_c,identical
+malcoa[c],malcoa_c,identical
+coa[c],coa_c,identical
+malACPact[c],malACPact_c,identical
+actint1ACPact[c],actint1ACPact_c,identical
+nadph[c],nadph_c,identical
+h[c],h_c,identical
+actint2ACPact[c],actint2ACPact_c,identical
+nadp[c],nadp_c,identical
+actint3ACPact[c],actint3ACPact_c,identical
+h2o[c],h2o_c,identical
+actint4ACPact[c],actint4ACPact_c,identical
+actint5ACPact[c],actint5ACPact_c,identical
+dnpaACPact[c],dnpaACPact_c,identical
+ddhkACPact[c],ddhkACPact_c,identical
+o2[c],o2_c,identical
+dhkACPact[c],dhkACPact_c,identical
+nadh[c],nadh_c,identical
+nad[c],nad_c,identical
+act[c],ACT_c,identical
+accoa[c],accoa_c,identical
+actACPact[c],actACPact_c,identical
+co2[c],co2_c,identical
+pk6ACPact[c],pk6ACPact_c,identical
+pk8ACPact[c],pk8ACPact_c,identical
+pk10ACPact[c],pk10ACPact_c,identical
+pk12ACPact[c],pk12ACPact_c,identical
+pk14ACPact[c],pk14ACPact_c,identical
+pk16ACPact[c],pk16ACPact_c,identical
+ala__L[c],ala-L_c,identical
+nh4[c],nh4_c,identical
+pyr[c],pyr_c,identical
+ala__D[c],ala-D_c,identical
+akg[c],akg_c,identical
+glu__L[c],glu-L_c,identical
+ala_B[c],ala-B_c,identical
+msa[c],msa_c,identical
+asn__L[c],asn-L_c,identical
+asp__L[c],asp-L_c,identical
+atp[c],atp_c,identical
+gln__L[c],gln-L_c,identical
+amp[c],amp_c,identical
+ppi[c],ppi_c,identical
+h2o2[c],h2o2_c,identical
+oaa[c],oaa_c,identical
+oxadpcoa[c],oxadpcoa_c,identical
+succoa[c],succoa_c,identical
+5dglcn[c],5dglcn_c,identical
+glcn[c],glcn_c,identical
+salcn6p[c],salc6p_c,identical
+2hymeph[c],2hymeph_c,identical
+g6p[c],g6p_c,identical
+14glucan[e],14glucan_e,identical
+malthx[e],malthx_e,identical
+acmum6p[c],acmum6p_c,identical
+acgam6p[c],acgam6p_c,identical
+lac__D[c],lac-D_c,identical
+ppa[c],ppa_c,identical
+ppcoa[c],ppcoa_c,identical
+adn[c],adn_c,identical
+ade[c],ade_c,identical
+rib__D[c],rib-D_c,identical
+ac[c],ac_c,identical
+gam6p[c],gam6p_c,identical
+glyald[c],glyald_c,identical
+glyc[c],glyc_c,identical
+fald[c],fald_c,identical
+for[c],for_c,identical
+pacald[c],pacald_c,identical
+pac[c],pac_c,identical
+acald[c],acald_c,identical
+alltt[c],alltt_c,identical
+urdglyc[c],urdglyc_c,identical
+malt[c],malt_c,identical
+malttr[c],malttr_c,identical
+glc__D[c],glc-D_c,identical
+maltttr[c],maltttr_c,identical
+maltpt[c],maltpt_c,identical
+malthx[c],malthx_c,identical
+malthp[c],malthp_c,identical
+arab__L[c],arab-L_c,identical
+rbl__L[c],rbl-L_c,identical
+cellb[c],celb_c,identical
+cytd[c],cytd_c,identical
+csn[c],csn_c,identical
+abt__D[c],abt-D_c,identical
+xylu__D[c],xylu-D_c,identical
+chtbs[c],chtbs_c,identical
+acgam[c],acgam_c,identical
+2ddglcn[c],2ddglcn_c,identical
+2ddg6p[c],2ddg6p_c,identical
+adp[c],adp_c,identical
+23dhacoa[c],23dhacoa_c,identical
+3hadpcoa[c],3hadpcoa_c,identical
+dha[c],dha_c,identical
+dhap[c],dhap_c,identical
+5dh4dglc[c],5dh4dglc_c,identical
+25dop[c],25dptn_c,identical
+drib[c],drib_c,identical
+2dr5p[c],2dr5p_c,identical
+g3p[c],g3p_c,identical
+tartr__D[c],tartr-D_c,identical
+epm[c],epm_c,identical
+gal[c],gal_c,identical
+man[c],man_c,identical
+forcoa[c],forcoa_c,identical
+oxa[c],oxa_c,identical
+oxalcoa[c],oxalcoa_c,identical
+f1p[c],f1p_c,identical
+fdp[c],fdp_c,identical
+glyc3p[c],glyc3p_c,identical
+f6p[c],f6p_c,identical
+dgal6p[c],dgal6p_c,identical
+tag6p__D[c],tag6p-D_c,identical
+galctn__D[c],galctn-D_c,identical
+2dh3dgal[c],2dh3dgal_c,identical
+1Dgali[c],1Dgali_c,identical
+inost[c],inost_c,identical
+gal1p[c],gal1p_c,identical
+melib[c],melib_c,identical
+ggl[c],ggl_c,identical
+acglc__D[c],acglc-D_c,identical
+2h3oppan[c],2h3oppan_c,identical
+glcr[c],glcr_c,identical
+glyc__R[c],glyc-R_c,identical
+glyclt[c],glyclt_c,identical
+glx[c],glx_c,identical
+mqn9[c],mqn9_c,identical
+mql9[c],mql9_c,identical
+6pgc[c],6pgc_c,identical
+man6p[c],man6p_c,identical
+fru[c],fru_c,identical
+hpyr[c],hpyr_c,identical
+idon__L[c],idon-L_c,identical
+lcts[c],lcts_c,identical
+lald__L[c],lald-L_c,identical
+lac__L[c],lac-L_c,identical
+lyx__L[c],lyx-L_c,identical
+xylu__L[c],xylu-L_c,identical
+acmalt[c],acmalt_c,identical
+melt[c],melt_c,identical
+sbt__D[c],sbt-D_c,identical
+h2o[e],h2o_e,identical
+malttr[e],malttr_e,identical
+glc__D[e],glc-D_e,identical
+malt[e],malt_e,identical
+maltttr[e],maltttr_e,identical
+maltpt[e],maltpt_e,identical
+malthp[e],malthp_e,identical
+pi[c],pi_c,identical
+g1p[c],g1p_c,identical
+mnl[c],mnl_c,identical
+tre[c],tre_c,identical
+3oxdhscoa[c],3oxdhscoa_c,identical
+phaccoa[c],phaccoa_c,identical
+rephaccoa[c],rephaccoa_c,identical
+tagdp__D[c],tagdp-D_c,identical
+man1p[c],man1p_c,identical
+ppap[c],ppap_c,identical
+r1p[c],r1p_c,identical
+r5p[c],r5p_c,identical
+2dr1p[c],2dr1p_c,identical
+raffin[c],raffin_c,identical
+sucr[c],sucr_c,identical
+ru5p__L[c],ru5p-L_c,identical
+xu5p__D[c],xu5p-D_c,identical
+2oxpaccoa[c],2oxpaccoa_c,identical
+rmn[c],rmn_c,identical
+rml[c],rml_c,identical
+rml1p[c],rml1p_c,identical
+taur[c],taur_c,identical
+aacald[c],aacald_c,identical
+so3[c],so3_c,identical
+succ[c],succ_c,identical
+tre6p[c],tre6p_c,identical
+udpg[c],udpg_c,identical
+udp[c],udp_c,identical
+udpgal[c],udpgal_c,identical
+uri[c],uri_c,identical
+ura[c],ura_c,identical
+xu5p__L[c],xu5p-L_c,identical
+xyl__D[c],xyl-D_c,identical
+xylt[c],xylt_c,identical
+icit[c],icit_c,identical
+mal__L[c],mal-L_c,identical
+gtp[c],gtp_c,identical
+gdp[c],gdp_c,identical
+pep[c],pep_c,identical
+h[e],h_e,identical
+4hglusa[c],4hglusa_c,identical
+e4hglu[c],e4hglu_c,identical
+4abut[c],4abut_c,identical
+sucsal[c],sucsal_c,identical
+4abutn[c],4abutn_c,identical
+acglu[c],acglu_c,identical
+acg5p[c],acg5p_c,identical
+acorn[c],acorn_c,identical
+acg5sa[c],acg5sa_c,identical
+amet[c],amet_c,identical
+ametam[c],ametam_c,identical
+agm[c],agm_c,identical
+cptrc[c],cptrc_c,identical
+ptrc[c],ptrc_c,identical
+urea[c],urea_c,identical
+progly[c],progly_c,identical
+gly[c],gly_c,identical
+pro__L[c],pro-L_c,identical
+15dap[c],15dap_c,identical
+5mta[c],5mta_c,identical
+na15dap[c],na15dap_c,identical
+arg__L[c],arg-L_c,identical
+citr__L[c],citr-L_c,identical
+argsuc[c],argsuc_c,identical
+fum[c],fum_c,identical
+hco3[c],hco3_c,identical
+cbp[c],cbp_c,identical
+4h2oglt[c],4h2oglt_c,identical
+glu5sa[c],glu5sa_c,identical
+1pyr5c[c],1pyr5c_c,identical
+glu5p[c],glu5p_c,identical
+1p3h5c[c],1p3h5c_c,identical
+4hpro_LT[c],4hpro-LT_c,identical
+5mtr[c],5mtr_c,identical
+orn[c],orn_c,identical
+fad[c],fad_c,identical
+fadh2[c],fadh2_c,identical
+3oxoadp[c],3oxoadp_c,identical
+4cml[c],4cml_c,identical
+5odhf2a[c],5odhf2a_c,identical
+CCbuttc[c],CCbuttc_c,identical
+34dhbz[c],34dhbz_c,identical
+vanlt[c],vanlt_c,identical
+acac[c],acac_c,identical
+aacoa[c],aacoa_c,identical
+bhb[c],bhb_c,identical
+ibcoa[c],ibcoa_c,identical
+btcoa[c],btcoa_c,identical
+ACPcda[c],ACPcda_c,identical
+malACPcda[c],malACPcda_c,identical
+hexACPcda[c],hexACPcda_c,identical
+hxa[c],hxa_c,identical
+hxcoa[c],hxcoa_c,identical
+hx2coa[c],hx2coa_c,identical
+ephxcoa[c],ephxcoa_c,identical
+34hpp[c],34hpp_c,identical
+4hmda[c],4hmda_c,identical
+4hpglx[c],4hpglx_c,identical
+4hpgly[c],4hpgly_c,identical
+5mthf[c],5mthf_c,identical
+meglu[c],meglu_c,identical
+thf[c],thf_c,identical
+ser__L[c],ser-L_c,identical
+thr__L[c],thr-L_c,identical
+trp__L[c],trp-L_c,identical
+cdaint1[c],CDAint1_c,identical
+cdaint2[c],CDAint2_c,identical
+cda[c],CDA_c,identical
+actACPcda[c],actACPcda_c,identical
+3haACPcda[c],3haACPcda_c,identical
+but2eACPcda[c],but2eACPcda_c,identical
+butACPcda[c],butACPcda_c,identical
+3ohexACPcda[c],3ohexACPcda_c,identical
+3hhexACPcda[c],3hhexACPcda_c,identical
+thex2eACPcda[c],thex2eACPcda_c,identical
+3hdecACP[c],3hdecACP_c,identical
+tdec2eACP[c],tdec2eACP_c,identical
+3hundcaACP[c],3hundcaACP_c,identical
+tundca2eACP[c],tundca2eACP_c,identical
+3hddecACP[c],3hddecACP_c,identical
+tddec2eACP[c],tddec2eACP_c,identical
+3hcddec5eACP[c],3hcddec5eACP_c,identical
+t3c5ddeceACP[c],t3c5ddeceACP_c,identical
+3htridcaACP[c],3htridcaACP_c,identical
+ttridca2eACP[c],ttridca2eACP_c,identical
+3hmrsACP[c],3hmrsACP_c,identical
+tmrs2eACP[c],tmrs2eACP_c,identical
+3hcmrs7eACP[c],3hcmrs7eACP_c,identical
+t3c7mrseACP[c],t3c7mrseACP_c,identical
+3hptdcaACP[c],3hptdcaACP_c,identical
+tptdca2eACP[c],tptdca2eACP_c,identical
+3hpalmACP[c],3hpalmACP_c,identical
+tpalm2eACP[c],tpalm2eACP_c,identical
+3hcpalm9eACP[c],3hcpalm9eACP_c,identical
+t3c9palmeACP[c],t3c9palmeACP_c,identical
+3hhepdcaACP[c],3hhepdcaACP_c,identical
+thepdca2eACP[c],thepdca2eACP_c,identical
+3hoctaACP[c],3hoctaACP_c,identical
+toctd2eACP[c],toctd2eACP_c,identical
+3hcvac11eACP[c],3hcvac11eACP_c,identical
+t3c11vaceACP[c],t3c11vaceACP_c,identical
+3haACP[c],3haACP_c,identical
+but2eACP[c],but2eACP_c,identical
+3hptnACP[c],3hptnACP_c,identical
+tptn2eACP[c],tptn2eACP_c,identical
+3hhexACP[c],3hhexACP_c,identical
+thex2eACP[c],thex2eACP_c,identical
+3hhepACP[c],3hhepACP_c,identical
+thep2eACP[c],thep2eACP_c,identical
+3hoctACP[c],3hoctACP_c,identical
+toct2eACP[c],toct2eACP_c,identical
+3hnonACP[c],3hnonACP_c,identical
+tnon2eACP[c],tnon2eACP_c,identical
+3haiC11ACP[c],3haiC11ACP_c,identical
+taiC112eACP[c],taiC112eACP_c,identical
+3haiC13ACP[c],3haiC13ACP_c,identical
+taiC132eACP[c],taiC132eACP_c,identical
+3haiC15ACP[c],3haiC15ACP_c,identical
+taiC152eACP[c],taiC152eACP_c,identical
+3haiC17ACP[c],3haiC17ACP_c,identical
+taiC172eACP[c],taiC172eACP_c,identical
+3haiC7ACP[c],3haiC7ACP_c,identical
+taiC72eACP[c],taiC72eACP_c,identical
+3haiC9ACP[c],3haiC9ACP_c,identical
+taiC92eACP[c],taiC92eACP_c,identical
+3hiC10ACP[c],3hiC10ACP_c,identical
+tiC102eACP[c],tiC102eACP_c,identical
+3hiC11ACP[c],3hiC11ACP_c,identical
+tiC112eACP[c],tiC112eACP_c,identical
+3hiC12ACP[c],3hiC12ACP_c,identical
+tiC122eACP[c],tiC122eACP_c,identical
+3hiC13ACP[c],3hiC13ACP_c,identical
+tiC132eACP[c],tiC132eACP_c,identical
+3hiC14ACP[c],3hiC14ACP_c,identical
+tiC142eACP[c],tiC142eACP_c,identical
+3hiC15ACP[c],3hiC15ACP_c,identical
+tiC152eACP[c],tiC152eACP_c,identical
+3hiC16ACP[c],3hiC16ACP_c,identical
+tiC162eACP[c],tiC162eACP_c,identical
+3hiC17ACP[c],3hiC17ACP_c,identical
+tiC172eACP[c],tiC172eACP_c,identical
+3hiC18ACP[c],3hiC18ACP_c,identical
+tiC182eACP[c],tiC182eACP_c,identical
+3hiC6ACP[c],3hiC6ACP_c,identical
+tiC62eACP[c],tiC62eACP_c,identical
+3hiC7ACP[c],3hiC7ACP_c,identical
+tiC72eACP[c],tiC72eACP_c,identical
+3hiC8ACP[c],3hiC8ACP_c,identical
+tiC82eACP[c],tiC82eACP_c,identical
+3hiC9ACP[c],3hiC9ACP_c,identical
+tiC92eACP[c],tiC92eACP_c,identical
+3odecACP[c],3odecACP_c,identical
+3oundcaACP[c],3oundcaACP_c,identical
+3oddecACP[c],3oddecACP_c,identical
+3ocddec5eACP[c],3ocddec5eACP_c,identical
+3otridcaACP[c],3otridcaACP_c,identical
+3omrsACP[c],3omrsACP_c,identical
+3ocmrs7eACP[c],3ocmrs7eACP_c,identical
+3optdcaACP[c],3optdcaACP_c,identical
+3opalmACP[c],3opalmACP_c,identical
+3ocpalm9eACP[c],3ocpalm9eACP_c,identical
+3ohepdcaACP[c],3ohepdcaACP_c,identical
+3ooctdACP[c],3ooctdACP_c,identical
+3ocvac11eACP[c],3ocvac11eACP_c,identical
+actACP[c],actACP_c,identical
+3optnACP[c],3optnACP_c,identical
+3ohexACP[c],3ohexACP_c,identical
+3ohepACP[c],3ohepACP_c,identical
+3ooctACP[c],3ooctACP_c,identical
+3ononACP[c],3ononACP_c,identical
+3oaiC11ACP[c],3oaiC11ACP_c,identical
+3oaiC13ACP[c],3oaiC13ACP_c,identical
+3oaiC15ACP[c],3oaiC15ACP_c,identical
+3oaiC17ACP[c],3oaiC17ACP_c,identical
+3oaiC7ACP[c],3oaiC7ACP_c,identical
+3oaiC9ACP[c],3oaiC9ACP_c,identical
+3oiC10ACP[c],3oiC10ACP_c,identical
+3oiC11ACP[c],3oiC11ACP_c,identical
+3oiC12ACP[c],3oiC12ACP_c,identical
+3oiC13ACP[c],3oiC13ACP_c,identical
+3oiC14ACP[c],3oiC14ACP_c,identical
+3oiC15ACP[c],3oiC15ACP_c,identical
+3oiC16ACP[c],3oiC16ACP_c,identical
+3oiC17ACP[c],3oiC17ACP_c,identical
+3oiC18ACP[c],3oiC18ACP_c,identical
+3oiC6ACP[c],3oiC6ACP_c,identical
+3oiC7ACP[c],3oiC7ACP_c,identical
+3oiC8ACP[c],3oiC8ACP_c,identical
+3oiC9ACP[c],3oiC9ACP_c,identical
+malACP[c],malACP_c,identical
+ocACP[c],ocACP_c,identical
+ACP[c],ACP_c,identical
+nonACP[c],nonACP_c,identical
+dcaACP[c],dcaACP_c,identical
+cdec3eACP[c],cdec3eACP_c,identical
+undcaACP[c],undcaACP_c,identical
+ddcaACP[c],ddcaACP_c,identical
+cddec5eACP[c],cddec5eACP_c,identical
+tridcaACP[c],tridcaACP_c,identical
+myrsACP[c],myrsACP_c,identical
+tdeACP[c],tdeACP_c,identical
+ptdcaACP[c],ptdcaACP_c,identical
+palmACP[c],palmACP_c,identical
+hdeACP[c],hdeACP_c,identical
+ppACP[c],ppACP_c,identical
+butACP[c],butACP_c,identical
+ptnACP[c],ptnACP_c,identical
+hexACP[c],hexACP_c,identical
+hepACP[c],hepACP_c,identical
+aiC9ACP[c],aiC9ACP_c,identical
+aiC11ACP[c],aiC11ACP_c,identical
+aiC13ACP[c],aiC13ACP_c,identical
+aiC15ACP[c],aiC15ACP_c,identical
+2mbACP[c],2mbACP_c,identical
+aiC7ACP[c],aiC7ACP_c,identical
+iC8ACP[c],iC8ACP_c,identical
+iC9ACP[c],iC9ACP_c,identical
+iC10ACP[c],iC10ACP_c,identical
+iC11ACP[c],iC11ACP_c,identical
+iC12ACP[c],iC12ACP_c,identical
+iC13ACP[c],iC13ACP_c,identical
+iC14ACP[c],iC14ACP_c,identical
+iC15ACP[c],iC15ACP_c,identical
+iC16ACP[c],iC16ACP_c,identical
+ibACP[c],ibACP_c,identical
+ivACP[c],ivACP_c,identical
+iC6ACP[c],iC6ACP_c,identical
+iC7ACP[c],iC7ACP_c,identical
+alaala[c],alaala_c,identical
+alalac[c],alalac_c,identical
+hepdcaACP[c],hepdcaACP_c,identical
+ocdcaACP[c],ocdcaACP_c,identical
+octeACP[c],octeACP_c,identical
+aiC17ACP[c],aiC17ACP_c,identical
+iC17ACP[c],iC17ACP_c,identical
+iC18ACP[c],iC18ACP_c,identical
+etha[c],etha_c,identical
+dcacoa[c],dcacoa_c,identical
+dca[c],dca_c,identical
+ddcacoa[c],ddcacoa_c,identical
+ddca[c],ddca_c,identical
+tdcoa[c],tdcoa_c,identical
+ttdca[c],ttdca_c,identical
+tdecoa[c],tdecoa_c,identical
+ttdcea[c],ttdcea_c,identical
+pmtcoa[c],pmtcoa_c,identical
+hdca[c],hdca_c,identical
+hdcoa[c],hdcoa_c,identical
+hdcea[c],hdcea_c,identical
+stcoa[c],stcoa_c,identical
+ocdca[c],ocdca_c,identical
+odecoa[c],odecoa_c,identical
+ocdcea[c],ocdcea_c,identical
+occoa[c],occoa_c,identical
+octa[c],octa_c,identical
+gam1p[c],gam1p_c,identical
+acgam1p[c],acgam1p_c,identical
+utp[c],utp_c,identical
+gdpmann[c],gdpmann_c,identical
+gmp[c],gmp_c,identical
+glu__D[c],glu-D_c,identical
+mi1p__D[c],mi1p-D_c,identical
+udcpp[c],udcpp_c,identical
+ugmda[c],ugmda_c,identical
+uagmda[c],uagmda_c,identical
+ump[c],ump_c,identical
+dtdp4d6dg[c],dtdp4d6dg_c,identical
+dtdp4d6dm[c],dtdp4d6dm_c,identical
+dtdprmn[c],dtdprmn_c,identical
+dtdpglu[c],dtdpglu_c,identical
+26dap__M[c],26dap-M_c,identical
+uamag[c],uamag_c,identical
+ugmd[c],ugmd_c,identical
+uacmam[c],uacmam_c,identical
+uacmamu[c],uacmamu_c,identical
+uacgam[c],uacgam_c,identical
+uaccg[c],uaccg_c,identical
+uaagmda[c],uaagmda_c,identical
+uama[c],uama_c,identical
+uamr[c],uamr_c,identical
+udcpdp[c],udcpdp_c,identical
+udpglcur[c],udpglcur_c,identical
+cit[c],cit_c,identical
+acon_C[c],acon-C_c,identical
+phthr[c],phthr_c,identical
+4hthr[c],4hthr_c,identical
+dad_5[c],dad-5_c,identical
+5drib[c],5drib_c,identical
+adocbip[c],adocbip_c,identical
+agdpcbi[c],agdpcbi_c,identical
+apoACP[c],apoACP_c,identical
+pan4p[c],pan4p_c,identical
+apoACPact[c],apoACPact_c,identical
+apoACPcda[c],apoACPcda_c,identical
+ACPredL[c],ACPredL_c,identical
+apoACPredL[c],apoACPredL_c,identical
+ACPredN[c],ACPredN_c,identical
+apoACPredN[c],apoACPredN_c,identical
+ACPredQ[c],ACPredQ_c,identical
+apoACPredQ[c],apoACPredQ_c,identical
+pap[c],pap_c,identical
+4adcho[c],4adcho_c,identical
+4abz[c],4abz_c,identical
+adcobhex[c],adcobhex_c,identical
+appl[c],appl_c,identical
+adocbi[c],adocbi_c,identical
+applp[c],applp_c,identical
+chor[c],chor_c,identical
+adcobdam[c],adcobdam_c,identical
+rdmbzi[c],rdmbzi_c,identical
+adocbl[c],adocbl_c,identical
+air[c],air_c,identical
+4ahmmp[c],4ahmmp_c,identical
+gcald[c],gcald_c,identical
+ahdt[c],ahdt_c,identical
+dhnpt[c],dhnpt_c,identical
+pydx5p[c],pydx5p_c,identical
+pyam5p[c],pyam5p_c,identical
+8aonn[c],8aonn_c,identical
+amob[c],amob_c,identical
+dann[c],dann_c,identical
+2dmmql9[c],2dmmql9_c,identical
+ahcys[c],ahcys_c,identical
+pimACP[c],pimACP_c,identical
+5apru[c],5apru_c,identical
+5aprbu[c],5aprbu_c,identical
+iasp[c],iasp_c,identical
+btn[c],btn_c,identical
+btamp[c],btamp_c,identical
+moco[c],moco_c,identical
+mptamp[c],mptamp_c,identical
+bmoco[c],bmoco_c,identical
+cu2[c],cu2_c,identical
+bmoco1gdp[c],bmoco1gdp_c,identical
+bmocogdp[c],bmocogdp_c,identical
+2fe2s[c],2fe2s_c,identical
+dtbt[c],dtbt_c,identical
+2fe1s[c],2fe1s_c,identical
+met__L[c],met-L_c,identical
+bwco[c],bwco_c,identical
+bwco1gdp[c],bwco1gdp_c,identical
+bwcogdp[c],bwcogdp_c,identical
+wco[c],wco_c,identical
+cbi[c],cbi_c,identical
+pppi[c],pppi_c,identical
+cbl1[c],cbl1_c,identical
+4c2me[c],4c2me_c,identical
+2p4c2me[c],2p4c2me_c,identical
+ins[c],ins_c,identical
+cys__L[c],cys-L_c,identical
+igam[c],igam_c,identical
+cigam[c],cigam_c,identical
+cobalt2[c],cobalt2_c,identical
+hgbam[c],hgbam_c,identical
+co2dam[c],co2dam_c,identical
+copre2[c],copre2_c,identical
+copre3[c],copre3_c,identical
+copre4[c],copre4_c,identical
+copre6[c],copre6_c,identical
+codhpre6[c],codhpre6_c,identical
+copre8[c],copre8_c,identical
+cobya[c],cobya_c,identical
+cpmp[c],cpmp_c,identical
+cpppg3[c],cpppg3_c,identical
+pppg9[c],pppg9_c,identical
+co1dam[c],co1dam_c,identical
+ru5p__D[c],ru5p-D_c,identical
+db4p[c],db4p_c,identical
+dhf[c],dhf_c,identical
+dhpt[c],dhpt_c,identical
+dh6na[c],dh6na_c,identical
+dhna[c],dhna_c,identical
+nndp[c],nndp_c,identical
+6hmhpt[c],6hmhpt_c,identical
+dhmpt[c],dhmpt_c,identical
+25drapp[c],25drapp_c,identical
+6hmhptpp[c],6hmhptpp_c,identical
+dmpp[c],dmpp_c,identical
+ipdp[c],ipdp_c,identical
+grdp[c],grdp_c,identical
+fmnh2[c],fmnh2_c,identical
+dmbzid[c],dmbzid_c,identical
+dalua[c],dalua_c,identical
+e4p[c],e4p_c,identical
+h2mb4p[c],h2mb4p_c,identical
+dnad[c],dnad_c,identical
+nicrnt[c],nicrnt_c,identical
+dpcoa[c],dpcoa_c,identical
+2dhp[c],2dhp_c,identical
+pant__R[c],pant-R_c,identical
+dxyl5p[c],dxyl5p_c,identical
+2me4p[c],2me4p_c,identical
+dxyl[c],dxyl_c,identical
+4per[c],4per_c,identical
+egmeACP[c],egmeACP_c,identical
+gmeACP[c],gmeACP_c,identical
+epmeACP[c],epmeACP_c,identical
+pmeACP[c],pmeACP_c,identical
+fe2[c],fe2_c,identical
+ppp9[c],ppp9_c,identical
+pheme[c],pheme_c,identical
+fe3[c],fe3_c,identical
+4fe4s[c],4fe4s_c,identical
+3fe4s[c],3fe4s_c,identical
+no[c],no_c,identical
+n2o[c],n2o_c,identical
+ribflv[c],ribflv_c,identical
+rbflvrd[c],rbflvrd_c,identical
+fmn[c],fmn_c,identical
+frdp[c],frdp_c,identical
+ggdp[c],ggdp_c,identical
+hxan[c],hxan_c,identical
+glu1sa[c],glu1sa_c,identical
+5aop[c],5aop_c,identical
+ppgpp[c],ppgpp_c,identical
+gdptp[c],gdptp_c,identical
+glutrna[c],glutrna_c,identical
+trnaglu[c],trnaglu_c,identical
+gthrd[c],gthrd_c,identical
+cgly[c],cgly_c,identical
+2a5farapp[c],2a5farapp_c,identical
+hgbyr[c],hgbyr_c,identical
+hemeO[c],hemeO_c,identical
+hemeA[c],hemeA_c,identical
+hepdp[c],hepdp_c,identical
+octdp[c],octdp_c,identical
+hexdp[c],hexdp_c,identical
+ppbng[c],ppbng_c,identical
+hmbil[c],hmbil_c,identical
+4ampm[c],4ampm_c,identical
+ctp[c],ctp_c,identical
+cdp[c],cdp_c,identical
+mi1p__L[c],mi1p-L_c,identical
+iacgam[c],iacgam_c,identical
+iscs[c],iscs_c,identical
+iscssh[c],iscssh_c,identical
+lipoamp[c],lipoamp_c,identical
+lipopb[c],lipopb_c,identical
+lipoate[c],lipoate_c,identical
+octapb[c],octapb_c,identical
+malACPme[c],malACPme_c,identical
+2mecdp[c],2mecdp_c,identical
+cmp[c],cmp_c,identical
+moadamp[c],moadamp_c,identical
+moadcosh[c],moadcosh_c,identical
+mobd[c],mobd_c,identical
+mocogdp[c],mocogdp_c,identical
+3mob[c],3mob_c,identical
+mlthf[c],mlthf_c,identical
+mpt[c],mpt_c,identical
+moadcoo[c],moadcoo_c,identical
+msh[c],msh_c,identical
+mssg[c],mssg_c,identical
+nmn[c],nmn_c,identical
+nac[c],nac_c,identical
+prpp[c],prpp_c,identical
+ncam[c],ncam_c,identical
+5prdmbz[c],5prdmbz_c,identical
+quln[c],quln_c,identical
+hgmeACP[c],hgmeACP_c,identical
+ogmeACP[c],ogmeACP_c,identical
+ohpb[c],ohpb_c,identical
+hpmeACP[c],hpmeACP_c,identical
+opmeACP[c],opmeACP_c,identical
+pnto__R[c],pnto-R_c,identical
+pre4[c],pre4_c,identical
+pre5[c],pre5_c,identical
+pre3b[c],pre3b_c,identical
+dscl[c],dscl_c,identical
+pre3a[c],pre3a_c,identical
+pre6a[c],pre6a_c,identical
+pre6b[c],pre6b_c,identical
+pre8[c],pre8_c,identical
+PCPredO[c],PCPredO_c,identical
+apoPCPredO[c],apoPCPredO_c,identical
+pdx5p[c],pdx5p_c,identical
+4r5au[c],4r5au_c,identical
+meoh[c],meoh_c,identical
+2mahmp[c],2mahmp_c,identical
+4ppan[c],4ppan_c,identical
+4ppcys[c],4ppcys_c,identical
+pydam[c],pydam_c,identical
+pydx[c],pydx_c,identical
+pydxn[c],pydxn_c,identical
+dmlz[c],dmlz_c,identical
+sufbcd[c],sufbcd_c,identical
+sufsesh[c],sufsesh_c,identical
+sufbcd_2fe2s[c],sufbcd-2fe2s_c,identical
+sufse[c],sufse_c,identical
+sufbcd_2fe2s2[c],sufbcd-2fe2s2_c,identical
+sufbcd_4fe4s[c],sufbcd-4fe4s_c,identical
+scl[c],scl_c,identical
+sheme[c],sheme_c,identical
+thrp[c],thrp_c,identical
+dhgly[c],dhgly_c,identical
+4mpetz[c],4mpetz_c,identical
+thm[c],thm_c,identical
+thmmp[c],thmmp_c,identical
+thmpp[c],thmpp_c,identical
+tyr__L[c],tyr-L_c,identical
+4crsol[c],4crsol_c,identical
+uppg3[c],uppg3_c,identical
+tungs[c],tungs_c,identical
+aps[c],aps_c,identical
+paps[c],paps_c,identical
+h2s[c],h2s_c,identical
+acser[c],acser_c,identical
+cyst__L[c],cyst-L_c,identical
+2obut[c],2obut_c,identical
+hcys__L[c],hcys-L_c,identical
+trdrd[c],trdrd_c,identical
+trdox[c],trdox_c,identical
+so4[c],so4_c,identical
+24dab[c],24dab_c,identical
+nac24dab[c],nac24dab_c,identical
+aspsa[c],aspsa_c,identical
+ectoine[c],ectoine-L_c,identical
+5hectoine[c],5hectoine_c,identical
+his__L[c],his-L_c,identical
+ile__L[c],ile-L_c,identical
+leu__L[c],leu-L_c,identical
+lys__L[c],lys-L_c,identical
+phe__L[c],phe-L_c,identical
+val__L[c],val-L_c,identical
+datp[c],datp_c,identical
+dctp[c],dctp_c,identical
+dgtp[c],dgtp_c,identical
+dttp[c],dttp_c,identical
+clpni140[c],clpni140_c,identical
+clpni150[c],clpni150_c,identical
+clpnai150[c],clpnai150_c,identical
+clpni160[c],clpni160_c,identical
+clpni170[c],clpni170_c,identical
+clpnai170[c],clpnai170_c,identical
+clpn140[c],clpn140_c,identical
+clpn150[c],clpn150_c,identical
+clpn161[c],clpn161_c,identical
+clpn160[c],clpn160_c,identical
+pei140[c],pei140_c,identical
+pei150[c],pei150_c,identical
+peai150[c],peai150_c,identical
+pei160[c],pei160_c,identical
+pei170[c],pei170_c,identical
+peai170[c],peai170_c,identical
+pe140[c],pe140_c,identical
+pe150[c],pe150_c,identical
+pe161[c],pe161_c,identical
+pe160[c],pe160_c,identical
+pii140[c],pii140_c,identical
+pii150[c],pii150_c,identical
+piai150[c],piai150_c,identical
+pii160[c],pii160_c,identical
+pii170[c],pii170_c,identical
+piai170[c],piai170_c,identical
+pi140[c],pi140_c,identical
+pi150[c],pi150_c,identical
+pi161[c],pi161_c,identical
+pi160[c],pi160_c,identical
+pai140[c],pai140_c,identical
+pai150[c],pai150_c,identical
+paai150[c],paai150_c,identical
+pai160[c],pai160_c,identical
+pai170[c],pai170_c,identical
+paai170[c],paai170_c,identical
+pa140[c],pa140_c,identical
+pa150[c],pa150_c,identical
+pa161[c],pa161_c,identical
+pa160[c],pa160_c,identical
+tagi140[c],tagi140_c,identical
+tagi150[c],tagi150_c,identical
+tagai150[c],tagai150_c,identical
+tagi160[c],tagi160_c,identical
+tagi170[c],tagi170_c,identical
+tagai170[c],tagai170_c,identical
+tag140[c],tag140_c,identical
+tag150[c],tag150_c,identical
+tag161[c],tag161_c,identical
+tag160[c],tag160_c,identical
+murein4px4p[c],murein4px4p_c,identical
+murein4p4p[c],murein4p4p_c,identical
+gtca1[c],gtca1_c,identical
+gtca2[c],gtca2_c,identical
+gtca3[c],gtca3_c,identical
+glycogen[c],glycogen_c,identical
+10fthf[c],10fthf_c,identical
+spmd[c],spmd_c,identical
+sprm[c],sprm_c,identical
+ca2[c],ca2_c,identical
+cl[c],cl_c,identical
+mn2[c],mn2_c,identical
+mg2[c],mg2_c,identical
+ni2[c],ni2_c,identical
+k[c],k_c,identical
+zn2[c],zn2_c,identical
+aconm[c],aconm_c,identical
+germicidinA[c],germicidinA_c,identical
+germicidinB[c],germicidinB_c,identical
+germicidinC[c],germicidinC_c,identical
+germicidinD[c],germicidinD_c,identical
+red[c],RED_c,identical
+15dap[e],15dap_e,identical
+1Dgali[e],1Dgali_e,identical
+23camp[e],23camp_e,identical
+23ccmp[e],23ccmp_e,identical
+23cgmp[e],23cgmp_e,identical
+23cump[e],23cump_e,identical
+26dap__M[e],26dap-M_e,identical
+2ddglcn[e],2ddglcn_e,identical
+3amp[e],3amp_e,identical
+3cmp[e],3cmp_e,identical
+3gmp[e],3gmp_e,identical
+3ump[e],3ump_e,identical
+4abut[e],4abut_e,identical
+5dglcn[e],5dglcn_e,identical
+5mtr[e],5mtr_e,identical
+abt__D[e],abt-D_e,identical
+ac[e],ac_e,identical
+acald[e],acald_e,identical
+acgam[e],acgam_e,identical
+acser[e],acser_e,identical
+ade[e],ade_e,identical
+adn[e],adn_e,identical
+agm[e],agm_e,identical
+akg[e],akg_e,identical
+alaala[e],alaala_e,identical
+ala_B[e],ala-B_e,identical
+ala__D[e],ala-D_e,identical
+ala__L[e],ala-L_e,identical
+alltn[e],alltn_e,identical
+amp[e],amp_e,identical
+arab__L[e],arab-L_e,identical
+arg__L[e],arg-L_e,identical
+asn__L[e],asn-L_e,identical
+aso3[e],aso3_e,identical
+asp__L[e],asp-L_e,identical
+bhb[e],bhb_e,identical
+btn[e],btn_e,identical
+ca2[e],ca2_e,identical
+cbi[e],cbi_e,identical
+cbl1[e],cbl1_e,identical
+cd2[e],cd2_e,identical
+cda[e],CDA_e,identical
+cellb[e],celb_e,identical
+chol[e],chol_e,identical
+chtbs[e],chtbs_e,identical
+cit[e],cit_e,identical
+cl[e],cl_e,identical
+cmp[e],cmp_e,identical
+co2[e],co2_e,identical
+cobalt2[e],cobalt2_e,identical
+coelichelin[e],coelichelin_e,identical
+csn[e],csn_e,identical
+cu[e],cu_e,identical
+cu2[e],cu2_e,identical
+cys__L[e],cys-L_e,identical
+cytd[e],cytd_e,identical
+dad_2[e],dad-2_e,identical
+damp[e],damp_e,identical
+dcmp[e],dcmp_e,identical
+dcyt[e],dcyt_e,identical
+dgmp[e],dgmp_e,identical
+dgsn[e],dgsn_e,identical
+dha[e],dha_e,identical
+dimp[e],dimp_e,identical
+din[e],din_e,identical
+drib[e],drib_e,identical
+dtmp[e],dtmp_e,identical
+dump[e],dump_e,identical
+duri[e],duri_e,identical
+epm[e],epm_e,identical
+etha[e],etha_e,identical
+etoh[e],etoh_e,identical
+fald[e],fald_e,identical
+fe2[e],fe2_e,identical
+fe3[e],fe3_e,identical
+for[e],for_e,identical
+fru[e],fru_e,identical
+fum[e],fum_e,identical
+g3pc[e],g3pc_e,identical
+g3pe[e],g3pe_e,identical
+g3pg[e],g3pg_e,identical
+g3pi[e],g3pi_e,identical
+g3ps[e],g3ps_e,identical
+gact[e],gACT_e,identical
+gal[e],gal_e,identical
+galctn__D[e],galctn-D_e,identical
+ggl[e],ggl_e,identical
+glcn[e],glcn_e,identical
+glcr[e],glcr_e,identical
+gln__L[e],gln-L_e,identical
+glu__L[e],glu-L_e,identical
+gly[e],gly_e,identical
+glyald[e],glyald_e,identical
+glyb[e],glyb_e,identical
+glyc[e],glyc_e,identical
+glyc3p[e],glyc3p_e,identical
+glyclt[e],glyclt_e,identical
+glyc__R[e],glyc-R_e,identical
+gmp[e],gmp_e,identical
+gsn[e],gsn_e,identical
+gua[e],gua_e,identical
+h2o2[e],h2o2_e,identical
+h2s[e],h2s_e,identical
+his__L[e],his-L_e,identical
+hom__L[e],hom-L_e,identical
+idon__L[e],idon-L_e,identical
+ile__L[e],ile-L_e,identical
+imp[e],imp_e,identical
+indole[e],indole_e,identical
+inost[e],inost_e,identical
+ins[e],ins_e,identical
+k[e],k_e,identical
+lac__D[e],lac-D_e,identical
+lac__L[e],lac-L_e,identical
+LalaDglu[e],LalaDglu_e,identical
+lcts[e],lcts_e,identical
+leu__L[e],leu-L_e,identical
+lipoate[e],lipoate_e,identical
+lys__L[e],lys-L_e,identical
+lyx__L[e],lyx-L_e,identical
+mal__L[e],mal-L_e,identical
+man[e],man_e,identical
+melib[e],melib_e,identical
+melt[e],melt_e,identical
+meoh[e],meoh_e,identical
+met__L[e],met-L_e,identical
+mg2[e],mg2_e,identical
+mn2[e],mn2_e,identical
+mnl[e],mnl_e,identical
+mobd[e],mobd_e,identical
+n2o[e],n2o_e,identical
+na1[e],na1_e,identical
+nac[e],nac_e,identical
+nh4[e],nh4_e,identical
+ni2[e],ni2_e,identical
+nmn[e],nmn_e,identical
+no[e],no_e,identical
+no2[e],no2_e,identical
+no3[e],no3_e,identical
+o2[e],o2_e,identical
+orn[e],orn_e,identical
+orot[e],orot_e,identical
+pacald[e],pacald_e,identical
+phe__L[e],phe-L_e,identical
+pi[e],pi_e,identical
+pnto__R[e],pnto-R_e,identical
+ppa[e],ppa_e,identical
+pro__L[e],pro-L_e,identical
+ptrc[e],ptrc_e,identical
+pydam[e],pydam_e,identical
+pydx[e],pydx_e,identical
+pydxn[e],pydxn_e,identical
+pyr[e],pyr_e,identical
+raffin[e],raffin_e,identical
+rib__D[e],rib-D_e,identical
+rmn[e],rmn_e,identical
+salcn[e],salcn_e,identical
+sbt__D[e],sbt-D_e,identical
+ser__L[e],ser-L_e,identical
+skm[e],skm_e,identical
+so4[e],so4_e,identical
+spmd[e],spmd_e,identical
+succ[e],succ_e,identical
+tartr__D[e],tartr-D_e,identical
+taur[e],taur_e,identical
+thm[e],thm_e,identical
+thr__L[e],thr-L_e,identical
+thym[e],thym_e,identical
+thymd[e],thymd_e,identical
+tre[e],tre_e,identical
+trp__L[e],trp-L_e,identical
+tungs[e],tungs_e,identical
+tyr__L[e],tyr-L_e,identical
+ump[e],ump_e,identical
+ura[e],ura_e,identical
+urea[e],urea_e,identical
+uri[e],uri_e,identical
+val__L[e],val-L_e,identical
+vanlt[e],vanlt_e,identical
+xan[e],xan_e,identical
+xmp[e],xmp_e,identical
+xtsn[e],xtsn_e,identical
+xyl__D[e],xyl-D_e,identical
+xylt[e],xylt_e,identical
+zn2[e],zn2_e,identical
+5fthf[c],5fthf_c,identical
+methf[c],methf_c,identical
+emcoa__S[c],emcoa-S_c,identical
+mmcoa__S[c],mmcoa-S_c,identical
+ddcap[c],ddcap_c,identical
+ttdcap[c],ttdcap_c,identical
+ttdceap[c],ttdceap_c,identical
+ptdcap[c],ptdcap_c,identical
+hdcap[c],hdcap_c,identical
+hdceap[c],hdceap_c,identical
+hepdcap[c],hepdcap_c,identical
+ocdcap[c],ocdcap_c,identical
+ocdceap[c],ocdceap_c,identical
+aiC15p[c],aiC15p_c,identical
+aiC17p[c],aiC17p_c,identical
+iC14p[c],iC14p_c,identical
+iC15p[c],iC15p_c,identical
+iC16p[c],iC16p_c,identical
+iC17p[c],iC17p_c,identical
+iC18p[c],iC18p_c,identical
+1ddecg3p[c],1ddecg3p_c,identical
+pa120[c],pa120_c,identical
+1tdecg3p[c],1tdecg3p_c,identical
+1tdec7eg3p[c],1tdec7eg3p_c,identical
+pa141[c],pa141_c,identical
+1ptdecg3p[c],1ptdecg3p_c,identical
+1hdecg3p[c],1hdecg3p_c,identical
+1hdec9eg3p[c],1hdec9eg3p_c,identical
+1hepdecg3p[c],1hepdecg3p_c,identical
+pa170[c],pa170_c,identical
+1odecg3p[c],1odecg3p_c,identical
+pa180[c],pa180_c,identical
+1odec11eg3p[c],1odec11eg3p_c,identical
+pa181[c],pa181_c,identical
+1aiC15g3p[c],1aiC15g3p_c,identical
+1aiC17g3p[c],1aiC17g3p_c,identical
+1iC14g3p[c],1iC14g3p_c,identical
+1iC15g3p[c],1iC15g3p_c,identical
+1iC16g3p[c],1iC16g3p_c,identical
+1iC17g3p[c],1iC17g3p_c,identical
+1iC18g3p[c],1iC18g3p_c,identical
+pai180[c],pai180_c,identical
+ptdca[c],ptdca_c,identical
+hepdca[c],hepdca_c,identical
+aiC15[c],aiC15_c,identical
+aiC17[c],aiC17_c,identical
+iC14[c],iC14_c,identical
+iC15[c],iC15_c,identical
+iC16[c],iC16_c,identical
+iC17[c],iC17_c,identical
+iC18[c],iC18_c,identical
+pg120[c],pg120_c,identical
+clpn120[c],clpn120_c,identical
+pg140[c],pg140_c,identical
+pg141[c],pg141_c,identical
+clpn141[c],clpn141_c,identical
+pg150[c],pg150_c,identical
+pg160[c],pg160_c,identical
+pg161[c],pg161_c,identical
+pg170[c],pg170_c,identical
+clpn170[c],clpn170_c,identical
+pg180[c],pg180_c,identical
+clpn180[c],clpn180_c,identical
+pg181[c],pg181_c,identical
+clpn181[c],clpn181_c,identical
+pgai150[c],pgai150_c,identical
+pgai170[c],pgai170_c,identical
+pgi140[c],pgi140_c,identical
+pgi150[c],pgi150_c,identical
+pgi160[c],pgi160_c,identical
+pgi170[c],pgi170_c,identical
+pgi180[c],pgi180_c,identical
+clpni180[c],clpni180_c,identical
+cdpdddecg[c],cdpdddecg_c,identical
+cdpdtdecg[c],cdpdtdecg_c,identical
+cdpdtdec7eg[c],cdpdtdec7eg_c,identical
+cdpdptdecg[c],cdpdptdecg_c,identical
+cdpdhdecg[c],cdpdhdecg_c,identical
+cdpdhdec9eg[c],cdpdhdec9eg_c,identical
+cdpdhepdecg[c],cdpdhepdecg_c,identical
+cdpdodecg[c],cdpdodecg_c,identical
+cdpdodec11eg[c],cdpdodec11eg_c,identical
+cdpdaiC15g[c],cdpdaiC15g_c,identical
+cdpdaiC17g[c],cdpdaiC17g_c,identical
+cdpdiC14g[c],cdpdiC14g_c,identical
+cdpdiC15g[c],cdpdiC15g_c,identical
+cdpdiC16g[c],cdpdiC16g_c,identical
+cdpdiC17g[c],cdpdiC17g_c,identical
+cdpdiC18g[c],cdpdiC18g_c,identical
+g3pc[c],g3pc_c,identical
+chol[c],chol_c,identical
+g3pe[c],g3pe_c,identical
+g3ps[c],g3ps_c,identical
+g3pg[c],g3pg_c,identical
+g3pi[c],g3pi_c,identical
+12dgr120[c],12dgr120_c,identical
+12dgr140[c],12dgr140_c,identical
+12dgr141[c],12dgr141_c,identical
+12dgr150[c],12dgr150_c,identical
+12dgr160[c],12dgr160_c,identical
+12dgr161[c],12dgr161_c,identical
+12dgr170[c],12dgr170_c,identical
+12dgr180[c],12dgr180_c,identical
+12dgr181[c],12dgr181_c,identical
+12dgrai150[c],12dgrai150_c,identical
+12dgrai170[c],12dgrai170_c,identical
+12dgri140[c],12dgri140_c,identical
+12dgri150[c],12dgri150_c,identical
+12dgri160[c],12dgri160_c,identical
+12dgri170[c],12dgri170_c,identical
+12dgri180[c],12dgri180_c,identical
+pgp120[c],pgp120_c,identical
+pgp140[c],pgp140_c,identical
+pgp141[c],pgp141_c,identical
+pgp150[c],pgp150_c,identical
+pgp160[c],pgp160_c,identical
+pgp161[c],pgp161_c,identical
+pgp170[c],pgp170_c,identical
+pgp180[c],pgp180_c,identical
+pgp181[c],pgp181_c,identical
+pgpai150[c],pgpai150_c,identical
+pgpai170[c],pgpai170_c,identical
+pgpi140[c],pgpi140_c,identical
+pgpi150[c],pgpi150_c,identical
+pgpi160[c],pgpi160_c,identical
+pgpi170[c],pgpi170_c,identical
+pgpi180[c],pgpi180_c,identical
+pi120[c],pi120_c,identical
+pi141[c],pi141_c,identical
+pi170[c],pi170_c,identical
+pi180[c],pi180_c,identical
+pi181[c],pi181_c,identical
+pii180[c],pii180_c,identical
+ps120[c],ps120_c,identical
+pe120[c],pe120_c,identical
+ps140[c],ps140_c,identical
+ps141[c],ps141_c,identical
+pe141[c],pe141_c,identical
+ps150[c],ps150_c,identical
+ps160[c],ps160_c,identical
+ps161[c],ps161_c,identical
+ps170[c],ps170_c,identical
+pe170[c],pe170_c,identical
+ps180[c],ps180_c,identical
+pe180[c],pe180_c,identical
+ps181[c],ps181_c,identical
+pe181[c],pe181_c,identical
+psai150[c],psai150_c,identical
+psai170[c],psai170_c,identical
+psi140[c],psi140_c,identical
+psi150[c],psi150_c,identical
+psi160[c],psi160_c,identical
+psi170[c],psi170_c,identical
+psi180[c],psi180_c,identical
+pei180[c],pei180_c,identical
+tag120[c],tag120_c,identical
+tag141[c],tag141_c,identical
+tag170[c],tag170_c,identical
+tag180[c],tag180_c,identical
+tag181[c],tag181_c,identical
+tagi180[c],tagi180_c,identical
+2aobut[c],2aobut_c,identical
+2pg[c],2pg_c,identical
+3pg[c],3pg_c,identical
+3php[c],3php_c,identical
+pser__L[c],pser-L_c,identical
+13dpg[c],13dpg_c,identical
+bglycogen[c],bglycogen_c,identical
+adpglc[c],adpglc_c,identical
+cdpglc[c],cdpglc_c,identical
+prbatp[c],prbatp_c,identical
+forglu[c],forglu_c,identical
+frmd[c],frmd_c,identical
+urcan[c],urcan_c,identical
+histd[c],histd_c,identical
+hisp[c],hisp_c,identical
+imacp[c],imacp_c,identical
+prlp[c],prlp_c,identical
+aicar[c],aicar_c,identical
+eig3p[c],eig3p_c,identical
+4izp[c],4izp_c,identical
+prbamp[c],prbamp_c,identical
+prfp[c],prfp_c,identical
+aso4[c],aso4_c,identical
+aso3[c],aso3_c,identical
+cd2[c],cd2_c,identical
+fcoelchl[c],ferricoelichelin_c,identical
+coelichelin[c],coelichelin_c,identical
+cu[c],cu_c,identical
+na1[c],na1_c,identical
+no2[c],no2_c,identical
+no3[c],no3_c,identical
+5doglcn[c],5doglcn_c,identical
+2ins[c],2ins_c,identical
+thchd[c],thchd_c,identical
+2mbcoa[c],2mbcoa_c,identical
+3ohcoa[c],3ohcoa_c,identical
+3oocoa[c],3oocoa_c,identical
+3odcoa[c],3odcoa_c,identical
+3oddcoa[c],3oddcoa_c,identical
+3otdcoa[c],3otdcoa_c,identical
+3ohdcoa[c],3ohdcoa_c,identical
+3ohodcoa[c],3oodcoa_c,identical
+b2coa[c],b2coa_c,identical
+oc2coa[c],oc2coa_c,identical
+dc2coa[c],dc2coa_c,identical
+dd2coa[c],dd2coa_c,identical
+td2coa[c],td2coa_c,identical
+hdd2coa[c],hdd2coa_c,identical
+od2coa[c],od2coa_c,identical
+acACP[c],acACP_c,identical
+3hhcoa[c],3hhcoa_c,identical
+3hocoa[c],3hocoa_c,identical
+3hdcoa[c],3hdcoa_c,identical
+3hddcoa[c],3hddcoa_c,identical
+3htdcoa[c],3htdcoa_c,identical
+3hhdcoa[c],3hhdcoa_c,identical
+3hodcoa[c],3hodcoa_c,identical
+3hbcoa[c],3hbcoa_c,identical
+ivcoa[c],ivcoa_c,identical
+achms[c],achms_c,identical
+hom__L[c],hom-L_c,identical
+suchms[c],suchms_c,identical
+metsox_S__L[c],metsox-S-L_c,identical
+metsox_R__L[c],metsox-R-L_c,identical
+mhpglu[c],mhpglu_c,identical
+hpglu[c],hpglu_c,identical
+5mdr1p[c],5mdr1p_c,identical
+5mdru1p[c],5mdru1p_c,identical
+murein5p5p[c],murein5p5p_c,identical
+murein5px4p[c],murein5px4p_c,identical
+murein5px3p[c],murein5px3p_c,identical
+murein5p5p5p[c],murein5p5p5p_c,identical
+murein5px4px4p[c],murein5px4px4p_c,identical
+murein4px4px4p[c],murein4px4px4p_c,identical
+murein5p4p[c],murein5p4p_c,identical
+murein5p3p[c],murein5p3p_c,identical
+murein4p3p[c],murein4p3p_c,identical
+LalaDgluMdapDala[c],LalaDgluMdapDala_c,identical
+LalaDgluMdap[c],LalaDgluMdap_c,identical
+anhgm4p[c],anhgm4p_c,identical
+anhgm3p[c],anhgm3p_c,identical
+anhm4p[c],anhm4p_c,identical
+anhm3p[c],anhm3p_c,identical
+anhm[c],anhm_c,identical
+LalaDglu[c],LalaDglu_c,identical
+murein3px4p[c],murein3px4p_c,identical
+murein4px4p4p[c],murein4px4p4p_c,identical
+um4p[c],um4p_c,identical
+alltn[c],alltn_c,identical
+itp[c],itp_c,identical
+idp[c],idp_c,identical
+camp[c],camp_c,identical
+adprib[c],adprib_c,identical
+dcmp[c],dcmp_c,identical
+dcdp[c],dcdp_c,identical
+dad_2[c],dad-2_c,identical
+din[c],din_c,identical
+damp[c],damp_c,identical
+dadp[c],dadp_c,identical
+ditp[c],ditp_c,identical
+dutp[c],dutp_c,identical
+dcyt[c],dcyt_c,identical
+duri[c],duri_c,identical
+dgmp[c],dgmp_c,identical
+dgdp[c],dgdp_c,identical
+dtmp[c],dtmp_c,identical
+dtdp[c],dtdp_c,identical
+dump[c],dump_c,identical
+xtp[c],xtp_c,identical
+35cgmp[c],35cgmp_c,identical
+gua[c],gua_c,identical
+xan[c],xan_c,identical
+imp[c],imp_c,identical
+dudp[c],dudp_c,identical
+dimp[c],dimp_c,identical
+xmp[c],xmp_c,identical
+dgsn[c],dgsn_c,identical
+gsn[c],gsn_c,identical
+xtsn[c],xtsn_c,identical
+thymd[c],thymd_c,identical
+thym[c],thym_c,identical
+urate[c],urate_c,identical
+ficytc[c],ficytc_c,identical
+focytc[c],focytc_c,identical
+o2s[c],o2s_c,identical
+s17bp[c],s17bp_c,identical
+g15lac[c],g15l_c,identical
+6pgl[c],6pgl_c,identical
+s7p[c],s7p_c,identical
+actp[c],actp_c,identical
+mmcoa__R[c],mmcoa-R_c,identical
+mmtsa[c],mmtsa_c,identical
+dcamp[c],dcamp_c,identical
+25aics[c],25aics_c,identical
+fprica[c],fprica_c,identical
+5aizc[c],5aizc_c,identical
+cbasp[c],cbasp_c,identical
+dhor__S[c],dhor-S_c,identical
+orot[c],orot_c,identical
+gar[c],gar_c,identical
+fgam[c],fgam_c,identical
+pram[c],pram_c,identical
+orot5p[c],orot5p_c,identical
+fpram[c],fpram_c,identical
+etoh[c],etoh_c,identical
+cdpglyc[c],cdpglyc_c,identical
+2oxoadp[c],2oxoadp_c,identical
+glutcoa[c],glutcoa_c,identical
+aact[c],aact_c,identical
+5aptn[c],5aptn_c,identical
+oxptn[c],oxptn_c,identical
+4pasp[c],4pasp_c,identical
+pprdn[c],pprdn_c,identical
+26dap_LL[c],26dap-LL_c,identical
+23dhdp[c],23dhdp_c,identical
+thdp[c],thdp_c,identical
+glutar[c],glutar_c,identical
+phom[c],phom_c,identical
+sl26da[c],sl26da_c,identical
+sl2a6o[c],sl2a6o_c,identical
+athr__L[c],athr-L_c,identical
+14glucan[c],14glucan_c,identical
+glyb[c],glyb_c,identical
+indole[c],indole_c,identical
+skm[c],skm_c,identical
+trnaala[c],trnaala_c,identical
+alatrna[c],alatrna_c,identical
+trnaarg[c],trnaarg_c,identical
+argtrna[c],argtrna_c,identical
+trnaasn[c],trnaasn_c,identical
+asntrna[c],asntrna_c,identical
+trnaasp[c],trnaasp_c,identical
+asptrna[c],asptrna_c,identical
+trnacys[c],trnacys_c,identical
+cystrna[c],cystrna_c,identical
+mettrna[c],mettrna_c,identical
+fmettrna[c],fmettrna_c,identical
+trnagln[c],trnagln_c,identical
+glntrna[c],glntrna_c,identical
+trnagly[c],trnagly_c,identical
+glytrna[c],glytrna_c,identical
+trnahis[c],trnahis_c,identical
+histrna[c],histrna_c,identical
+trnaile[c],trnaile_c,identical
+iletrna[c],iletrna_c,identical
+trnaleu[c],trnaleu_c,identical
+leutrna[c],leutrna_c,identical
+trnalys[c],trnalys_c,identical
+lystrna[c],lystrna_c,identical
+trnamet[c],trnamet_c,identical
+trnaphe[c],trnaphe_c,identical
+phetrna[c],phetrna_c,identical
+trnapro[c],trnapro_c,identical
+protrna[c],protrna_c,identical
+trnaser[c],trnaser_c,identical
+sertrna[c],sertrna_c,identical
+trnathr[c],trnathr_c,identical
+thrtrna[c],thrtrna_c,identical
+trnatrp[c],trnatrp_c,identical
+trptrna[c],trptrna_c,identical
+trnatyr[c],trnatyr_c,identical
+tyrtrna[c],tyrtrna_c,identical
+trnaval[c],trnaval_c,identical
+valtrna[c],valtrna_c,identical
+hgentis[c],hgentis_c,identical
+anth[c],anth_c,identical
+pran[c],pran_c,identical
+pphn[c],pphn_c,identical
+3psme[c],3psme_c,identical
+2dda7p[c],2dda7p_c,identical
+3dhq[c],3dhq_c,identical
+3dhsk[c],3dhsk_c,identical
+nformanth[c],nformanth_c,identical
+Lfmkynr[c],Lfmkynr_c,identical
+Lkynr[c],Lkynr_c,identical
+4fumacac[c],4fumacac_c,identical
+4mlacac[c],4mlacac_c,identical
+hLkynr[c],hLkynr_c,identical
+3hanthrn[c],3hanthrn_c,identical
+2cpr5p[c],2cpr5p_c,identical
+3ig3p[c],3ig3p_c,identical
+peamn[c],peamn_c,identical
+phpyr[c],phpyr_c,identical
+skm5p[c],skm5p_c,identical
+acon_T[c],acon-T_c,identical
+betald[c],betald_c,identical
+emcoa__R[c],emcoa-R_c,identical
+mscoa__S[c],mscoa-S_c,identical
+gthox[c],gthox_c,identical
+malACPredQ[c],malACPredQ_c,identical
+hexACPredQ[c],hexACPredQ_c,identical
+3ooctACPredQ[c],3ooctACPredQ_c,identical
+3hoctACPredQ[c],3hoctACPredQ_c,identical
+toct2eACPredQ[c],toct2eACPredQ_c,identical
+ocACPredQ[c],ocACPredQ_c,identical
+3odecACPredQ[c],3odecACPredQ_c,identical
+3hdecACPredQ[c],3hdecACPredQ_c,identical
+tdec2eACPredQ[c],tdec2eACPredQ_c,identical
+dcaACPredQ[c],dcaACPredQ_c,identical
+3oddecACPredQ[c],3oddecACPredQ_c,identical
+3hddecACPredQ[c],3hddecACPredQ_c,identical
+actACPredQ[c],actACPredQ_c,identical
+tddec2eACPredQ[c],tddec2eACPredQ_c,identical
+ddcaACPredQ[c],ddcaACPredQ_c,identical
+ddcaACPredL[c],ddcaACPredL_c,identical
+3omrsACPredL[c],3omrsACPredL_c,identical
+upn[c],upn_c,identical
+up[c],up_c,identical
+proamp[c],proamp_c,identical
+proPCPredO[c],proPCPredO_c,identical
+3haACPredQ[c],3haACPredQ_c,identical
+pyrPCPredO[c],pyrPCPredO_c,identical
+KSredX[c],KSredX_c,identical
+pyrKSredX[c],pyrKSredX_c,identical
+malACPredN[c],malACPredN_c,identical
+kppACPredN[c],kppACPredN_c,identical
+hbm[c],hbm_c,identical
+mbm[c],mbm_c,identical
+mbc[c],mbc_c,identical
+but2eACPredQ[c],but2eACPredQ_c,identical
+butACPredQ[c],butACPredQ_c,identical
+3ohexACPredQ[c],3ohexACPredQ_c,identical
+3hhexACPredQ[c],3hhexACPredQ_c,identical
+thex2eACPredQ[c],thex2eACPredQ_c,identical
+3hibutcoa[c],3hibutcoa_c,identical
+3hmp[c],3hmp_c,identical
+2maacoa[c],2maacoa_c,identical
+2ahbut[c],2ahbut_c,identical
+alac__S[c],alac-S_c,identical
+3mb2coa[c],3mb2coa_c,identical
+2mp2coa[c],2mp2coa_c,identical
+2mb2coa[c],2mb2coa_c,identical
+23dhmb[c],23dhmb_c,identical
+23dhmp[c],23dhmp_c,identical
+3mop[c],3mop_c,identical
+3hmbcoa[c],3hmbcoa_c,identical
+hmgcoa[c],hmgcoa_c,identical
+3c2hmp[c],3c2hmp_c,identical
+3c4mop[c],3c4mop_c,identical
+2ippm[c],2ippm_c,identical
+3c3hmp[c],3c3hmp_c,identical
+4mop[c],4mop_c,identical
+3mgcoa[c],3mgcoa_c,identical
+fut[c],futal_c,different name
+dhxfut[c],dhfutal_c,different name
+cdhxfut[c],cdhfutal_c,different name
+pendp[c],ppdp_c,different name
+feroxB[e],desferrioxamB_e,different name
+feroxE[e],desferrioxamE_e,different name
+fcoelchl[e],ferricoelichelin_e,different name
+feroxBfe[e],ferrioxamB_e,different name
+feroxEfe[e],ferrioxamE_e,different name
+feroxBfe[c],ferrioxamB_c,different name
+feroxB[c],desferrioxamB_c,different name
+feroxEfe[c],ferrioxamE_c,different name
+feroxE[c],desferrioxamE_c,different name
+d5kg[c],5ddglcn_c,different name
+d5kgp[c],5ddg6p_c,different name
+,hdhkACPact_c,Sco4 specific
+,hdhk_c,Sco4 specific
+,copre5_c,Sco4 specific
+,12-DIACYL-3-O-ALPHA-D-GLUCOPYRANOSYL_c,Sco4 specific
+,2-3-DIHYDROXYBENZOATE_c,Sco4 specific
+,2-3-DIHYDROXYPHENYL-PROPIONATE_c,Sco4 specific
+,2-AMINO-3-3-OXOPROP-2-ENYL-BUT-2-ENEDI_c,Sco4 specific
+,2-AMINO-5-OXOCYCLOHEX-1-ENECARBOXYL-COA_c,Sco4 specific
+,2-AMINO-MUCONATE_c,Sco4 specific
+,2-AMINOACRYLATE_c,Sco4 specific
+,2-AMINOBENZOYL-COA_c,Sco4 specific
+,2-AMINOMUCONATE_SEMIALDEHYDE_c,Sco4 specific
+,2-DH-3-DO-D-ARABINONATE_c,Sco4 specific
+,2-KETO-GLUTARAMATE_c,Sco4 specific
+,2-OCTAPRENYLPHENOL_c,Sco4 specific
+,24-DICHLOROPHENOL_c,Sco4 specific
+,25-DDOL_c,Sco4 specific
+,25-DICHLOROHYDROQUINONE_c,Sco4 specific
+,3-HYDROXY-PROPIONYL-COA_c,Sco4 specific
+,3-HYDROXYPHENYL-PROPIONATE_c,Sco4 specific
+,3-MERCAPTO-PYRUVATE_c,Sco4 specific
+,3-METHYLBENZYL-ALCOHOL_c,Sco4 specific
+,3-OCTAPRENYL-4-HYDROXYBENZOATE_c,Sco4 specific
+,3-PHENYLPROPIONATE_c,Sco4 specific
+,3-SULFOCATECHOL_c,Sco4 specific
+,3-UREIDO-ISOBUTYRATE_c,Sco4 specific
+,3-UREIDO-PROPIONATE_c,Sco4 specific
+,35-DICHLOROCATECHOL_c,Sco4 specific
+,4-CARBOXYBENZALDEHYDE_c,Sco4 specific
+,4-CARBOXYBENZYL-ALCOHOL_c,Sco4 specific
+,4-GUANIDO-BUTYRAMIDE_c,Sco4 specific
+,4-HYDROXY-2-KETOVALERATE_c,Sco4 specific
+,4-HYDROXY-BUTYRATE_c,Sco4 specific
+,4-HYDROXY-BUTYRYL-COA_c,Sco4 specific
+,4-HYDROXYBENZALDEHYDE_c,Sco4 specific
+,4-HYDROXYPHENYLACETATE_c,Sco4 specific
+,4-METHYLBENZYL-ALCOHOL_c,Sco4 specific
+,4-OH-4-ACETYL-2-OXOGLUTARATE_c,Sco4 specific
+,4-SULFOBENZALDEHYDE_c,Sco4 specific
+,4-SULFOBENZYL-ALCOHOL_c,Sco4 specific
+,4-TOLUENECARBOXYLATE_c,Sco4 specific
+,4-hydroxybenzoate_c,Sco4 specific
+,5-AMINO-2-OXOPENTANOATE_c,Sco4 specific
+,5-BETA-L-THREO-PENTAPYRANOSYL-4-ULOSE-_c,Sco4 specific
+,5-HYDROXYISOURATE_c,Sco4 specific
+,5-METHYLTHIOINOSINE_c,Sco4 specific
+,ACETOIN_c,Sco4 specific
+,ACETOL_c,Sco4 specific
+,ACETONE_c,Sco4 specific
+,ACETYL-D-GLUCOSAMINYLDIPHOSPHO-UNDECAPRE_c,Sco4 specific
+,ACRYLAMIDE_c,Sco4 specific
+,ACRYLATE_c,Sco4 specific
+,ACRYLYL-COA_c,Sco4 specific
+,ACYL-ACP_c,Sco4 specific
+,ACYL-SN-GLYCEROL-3P_c,Sco4 specific
+,ADENOSYL-P4_c,Sco4 specific
+,ADP-D-GLYCERO-D-MANNO-HEPTOSE_c,Sco4 specific
+,AMMONIA_c,Sco4 specific
+,ASCORBATE_c,Sco4 specific
+,BENZALDEHYDE_c,Sco4 specific
+,BENZOATE_c,Sco4 specific
+,BENZOYLSUCCINYL-COA_c,Sco4 specific
+,BENZYL-ALCOHOL_c,Sco4 specific
+,BENZYLSUCCINATE_c,Sco4 specific
+,BENZYLSUCCINYL-COA_c,Sco4 specific
+,BIOPTERIN_c,Sco4 specific
+,BUTANAL_c,Sco4 specific
+,BUTYRIC_ACID_c,Sco4 specific
+,C3_c,Sco4 specific
+,CAFFEOYL-COA_c,Sco4 specific
+,CARBAMATE_c,Sco4 specific
+,CARBAMOYL-SARCOSINE_c,Sco4 specific
+,CARBON-MONOXIDE_c,Sco4 specific
+,CARBOXYETHYL-3-5-CYCLOHEXADIENE-1-2-DIOL_c,Sco4 specific
+,CARBOXYMETHYL-HYDROXYPHENYLPROPCOA_c,Sco4 specific
+,CARNITINE_c,Sco4 specific
+,CATECHOL_c,Sco4 specific
+,CDPDIACYLGLYCEROL_c,Sco4 specific
+,CEPHALOSPORIN-C_c,Sco4 specific
+,CHLOROACETIC-ACID_c,Sco4 specific
+,CHLOROPHYLLIDE-A_c,Sco4 specific
+,CHOLANATE2_c,Sco4 specific
+,CHOLATE_c,Sco4 specific
+,CHOLESTEROL_c,Sco4 specific
+,CINNAMOYL-COA_c,Sco4 specific
+,CIS-4-HYDROXY-D-PROLINE_c,Sco4 specific
+,CMP-N-ACETYL-NEURAMINATE_c,Sco4 specific
+,COUMARATE_c,Sco4 specific
+,CPD-10012_c,Sco4 specific
+,CPD-1003_c,Sco4 specific
+,CPD-1004_c,Sco4 specific
+,CPD-10044_c,Sco4 specific
+,CPD-10047_c,Sco4 specific
+,CPD-10064_c,Sco4 specific
+,CPD-10065_c,Sco4 specific
+,CPD-101_c,Sco4 specific
+,CPD-10158_c,Sco4 specific
+,CPD-10159_c,Sco4 specific
+,CPD-10160_c,Sco4 specific
+,CPD-102_c,Sco4 specific
+,CPD-10333_c,Sco4 specific
+,CPD-10597_c,Sco4 specific
+,CPD-10598_c,Sco4 specific
+,CPD-10659_c,Sco4 specific
+,CPD-10660_c,Sco4 specific
+,CPD-10679_c,Sco4 specific
+,CPD-10680_c,Sco4 specific
+,CPD-10681_c,Sco4 specific
+,CPD-1070_c,Sco4 specific
+,CPD-1078_c,Sco4 specific
+,CPD-10796_c,Sco4 specific
+,CPD-10797_c,Sco4 specific
+,CPD-110_c,Sco4 specific
+,CPD-1117_c,Sco4 specific
+,CPD-1128_c,Sco4 specific
+,CPD-1134_c,Sco4 specific
+,CPD-1137_c,Sco4 specific
+,CPD-11571_c,Sco4 specific
+,CPD-11799_c,Sco4 specific
+,CPD-11867_c,Sco4 specific
+,CPD-11870_c,Sco4 specific
+,CPD-11871_c,Sco4 specific
+,CPD-11872_c,Sco4 specific
+,CPD-11916_c,Sco4 specific
+,CPD-11953_c,Sco4 specific
+,CPD-11955_c,Sco4 specific
+,CPD-11956_c,Sco4 specific
+,CPD-11957_c,Sco4 specific
+,CPD-11984_c,Sco4 specific
+,CPD-12040_c,Sco4 specific
+,CPD-12041_c,Sco4 specific
+,CPD-12152_c,Sco4 specific
+,CPD-12179_c,Sco4 specific
+,CPD-12321_c,Sco4 specific
+,CPD-12349_c,Sco4 specific
+,CPD-12521_c,Sco4 specific
+,CPD-12524_c,Sco4 specific
+,CPD-12595_c,Sco4 specific
+,CPD-12693_c,Sco4 specific
+,CPD-12694_c,Sco4 specific
+,CPD-12771_c,Sco4 specific
+,CPD-12773_c,Sco4 specific
+,CPD-12784_c,Sco4 specific
+,CPD-13034_c,Sco4 specific
+,CPD-13044_c,Sco4 specific
+,CPD-13149_c,Sco4 specific
+,CPD-13150_c,Sco4 specific
+,CPD-13151_c,Sco4 specific
+,CPD-13324_c,Sco4 specific
+,CPD-13339_c,Sco4 specific
+,CPD-13375_c,Sco4 specific
+,CPD-13376_c,Sco4 specific
+,CPD-13377_c,Sco4 specific
+,CPD-13378_c,Sco4 specific
+,CPD-13380_c,Sco4 specific
+,CPD-13381_c,Sco4 specific
+,CPD-13619_c,Sco4 specific
+,CPD-13621_c,Sco4 specific
+,CPD-13622_c,Sco4 specific
+,CPD-13625_c,Sco4 specific
+,CPD-13691_c,Sco4 specific
+,CPD-13692_c,Sco4 specific
+,CPD-13696_c,Sco4 specific
+,CPD-13697_c,Sco4 specific
+,CPD-13722_c,Sco4 specific
+,CPD-13887_c,Sco4 specific
+,CPD-13952_c,Sco4 specific
+,CPD-13958_c,Sco4 specific
+,CPD-13985_c,Sco4 specific
+,CPD-14015_c,Sco4 specific
+,CPD-14016_c,Sco4 specific
+,CPD-14133_c,Sco4 specific
+,CPD-14521_c,Sco4 specific
+,CPD-14522_c,Sco4 specific
+,CPD-14524_c,Sco4 specific
+,CPD-14550_c,Sco4 specific
+,CPD-15277_c,Sco4 specific
+,CPD-15279_c,Sco4 specific
+,CPD-15280_c,Sco4 specific
+,CPD-15317_c,Sco4 specific
+,CPD-15408_c,Sco4 specific
+,CPD-15409_c,Sco4 specific
+,CPD-15423_c,Sco4 specific
+,CPD-15467_c,Sco4 specific
+,CPD-15502_c,Sco4 specific
+,CPD-158_c,Sco4 specific
+,CPD-159_c,Sco4 specific
+,CPD-16467_c,Sco4 specific
+,CPD-16522_c,Sco4 specific
+,CPD-16618_c,Sco4 specific
+,CPD-16816_c,Sco4 specific
+,CPD-17076_c,Sco4 specific
+,CPD-17077_c,Sco4 specific
+,CPD-171_c,Sco4 specific
+,CPD-17129_c,Sco4 specific
+,CPD-17138_c,Sco4 specific
+,CPD-17141_c,Sco4 specific
+,CPD-17157_c,Sco4 specific
+,CPD-17406_c,Sco4 specific
+,CPD-17411_c,Sco4 specific
+,CPD-17565_c,Sco4 specific
+,CPD-17567_c,Sco4 specific
+,CPD-17568_c,Sco4 specific
+,CPD-17570_c,Sco4 specific
+,CPD-17683_c,Sco4 specific
+,CPD-1771_c,Sco4 specific
+,CPD-18229_c,Sco4 specific
+,CPD-18239_c,Sco4 specific
+,CPD-1828_c,Sco4 specific
+,CPD-183_c,Sco4 specific
+,CPD-184_c,Sco4 specific
+,CPD-18508_c,Sco4 specific
+,CPD-18533_c,Sco4 specific
+,CPD-18536_c,Sco4 specific
+,CPD-18984_c,Sco4 specific
+,CPD-19_c,Sco4 specific
+,CPD-19011_c,Sco4 specific
+,CPD-19012_c,Sco4 specific
+,CPD-19043_c,Sco4 specific
+,CPD-19044_c,Sco4 specific
+,CPD-19066_c,Sco4 specific
+,CPD-19273_c,Sco4 specific
+,CPD-19275_c,Sco4 specific
+,CPD-19317_c,Sco4 specific
+,CPD-19762_c,Sco4 specific
+,CPD-20_c,Sco4 specific
+,CPD-208_c,Sco4 specific
+,CPD-209_c,Sco4 specific
+,CPD-217_c,Sco4 specific
+,CPD-220_c,Sco4 specific
+,CPD-237_c,Sco4 specific
+,CPD-253_c,Sco4 specific
+,CPD-255_c,Sco4 specific
+,CPD-257_c,Sco4 specific
+,CPD-262_c,Sco4 specific
+,CPD-265_c,Sco4 specific
+,CPD-273_c,Sco4 specific
+,CPD-2743_c,Sco4 specific
+,CPD-277_c,Sco4 specific
+,CPD-30_c,Sco4 specific
+,CPD-313_c,Sco4 specific
+,CPD-323_c,Sco4 specific
+,CPD-329_c,Sco4 specific
+,CPD-330_c,Sco4 specific
+,CPD-339_c,Sco4 specific
+,CPD-343_c,Sco4 specific
+,CPD-346_c,Sco4 specific
+,CPD-3486_c,Sco4 specific
+,CPD-35_c,Sco4 specific
+,CPD-358_c,Sco4 specific
+,CPD-360_c,Sco4 specific
+,CPD-366_c,Sco4 specific
+,CPD-367_c,Sco4 specific
+,CPD-368_c,Sco4 specific
+,CPD-377_c,Sco4 specific
+,CPD-380_c,Sco4 specific
+,CPD-448_c,Sco4 specific
+,CPD-464_c,Sco4 specific
+,CPD-465_c,Sco4 specific
+,CPD-468_c,Sco4 specific
+,CPD-471_c,Sco4 specific
+,CPD-479_c,Sco4 specific
+,CPD-529_c,Sco4 specific
+,CPD-533_c,Sco4 specific
+,CPD-548_c,Sco4 specific
+,CPD-569_c,Sco4 specific
+,CPD-577_c,Sco4 specific
+,CPD-578_c,Sco4 specific
+,CPD-5821_c,Sco4 specific
+,CPD-5881_c,Sco4 specific
+,CPD-592_c,Sco4 specific
+,CPD-600_c,Sco4 specific
+,CPD-62_c,Sco4 specific
+,CPD-627_c,Sco4 specific
+,CPD-650_c,Sco4 specific
+,CPD-653_c,Sco4 specific
+,CPD-658_c,Sco4 specific
+,CPD-664_c,Sco4 specific
+,CPD-665_c,Sco4 specific
+,CPD-67_c,Sco4 specific
+,CPD-672_c,Sco4 specific
+,CPD-674_c,Sco4 specific
+,CPD-676_c,Sco4 specific
+,CPD-68_c,Sco4 specific
+,CPD-704_c,Sco4 specific
+,CPD-705_c,Sco4 specific
+,CPD-7224_c,Sco4 specific
+,CPD-7408_c,Sco4 specific
+,CPD-7564_c,Sco4 specific
+,CPD-7590_c,Sco4 specific
+,CPD-7601_c,Sco4 specific
+,CPD-7602_c,Sco4 specific
+,CPD-7607_c,Sco4 specific
+,CPD-7643_c,Sco4 specific
+,CPD-783_c,Sco4 specific
+,CPD-784_c,Sco4 specific
+,CPD-785_c,Sco4 specific
+,CPD-786_c,Sco4 specific
+,CPD-787_c,Sco4 specific
+,CPD-804_c,Sco4 specific
+,CPD-824_c,Sco4 specific
+,CPD-8742_c,Sco4 specific
+,CPD-8773_c,Sco4 specific
+,CPD-8774_c,Sco4 specific
+,CPD-8775_c,Sco4 specific
+,CPD-8938_c,Sco4 specific
+,CPD-8973_c,Sco4 specific
+,CPD-8974_c,Sco4 specific
+,CPD-9000_c,Sco4 specific
+,CPD-9038_c,Sco4 specific
+,CPD-9055_c,Sco4 specific
+,CPD-9137_c,Sco4 specific
+,CPD-9159_c,Sco4 specific
+,CPD-9408_c,Sco4 specific
+,CPD-9409_c,Sco4 specific
+,CPD-9444_c,Sco4 specific
+,CPD-9959_c,Sco4 specific
+,CPD-9960_c,Sco4 specific
+,CPD-9961_c,Sco4 specific
+,CPD-9962_c,Sco4 specific
+,CPD-9995_c,Sco4 specific
+,CPD-9999_c,Sco4 specific
+,CPD0-1068_c,Sco4 specific
+,CPD0-1115_c,Sco4 specific
+,CPD0-1123_c,Sco4 specific
+,CPD0-1198_c,Sco4 specific
+,CPD0-1202_c,Sco4 specific
+,CPD0-2472_c,Sco4 specific
+,CPD0-2474_c,Sco4 specific
+,CPD0-2479_c,Sco4 specific
+,CPD1F-114_c,Sco4 specific
+,CPD1F-126_c,Sco4 specific
+,CPD1F-129_c,Sco4 specific
+,CPD1F-98_c,Sco4 specific
+,CPD1G-121_c,Sco4 specific
+,CPD1G-2_c,Sco4 specific
+,CREATINE_c,Sco4 specific
+,CREATININE_c,Sco4 specific
+,CYCLOHEXA-15-DIENE-1-CARBONYL-COA_c,Sco4 specific
+,CYCLOHEXANOL_c,Sco4 specific
+,CYCLOHEXANONE_c,Sco4 specific
+,Cytochromes-C-Oxidized_c,Sco4 specific
+,Cytochromes-C-Reduced_c,Sco4 specific
+,D-ALPHABETA-D-HEPTOSE-7-PHOSPHATE_c,Sco4 specific
+,D-BETA-D-HEPTOSE-1-P_c,Sco4 specific
+,D-BETA-D-HEPTOSE-17-DIPHOSPHATE_c,Sco4 specific
+,D-GALACTARATE_c,Sco4 specific
+,D-MANNONATE_c,Sco4 specific
+,D-PROLINE_c,Sco4 specific
+,D-RIBULOSE_c,Sco4 specific
+,D-RIBULOSE-1-P_c,Sco4 specific
+,D-SORBITOL-6-P_c,Sco4 specific
+,D-XYLONATE_c,Sco4 specific
+,DEACETYLCEPHALOSPORIN-C_c,Sco4 specific
+,DEHYDRO-3-DEOXY-L-RHAMNONATE_c,Sco4 specific
+,DEHYDRO-DEOXY-GALACTONATE-PHOSPHATE_c,Sco4 specific
+,DELTA1-PYRROLINE_2-CARBOXYLATE_c,Sco4 specific
+,DI-H-URACIL_c,Sco4 specific
+,DIHYDRO-DIOH-BENZOATE_c,Sco4 specific
+,DIHYDRO-THYMINE_c,Sco4 specific
+,DIMETHYLARSINATE_c,Sco4 specific
+,DIVINYL-PROTOCHLOROPHYLLIDE-A_c,Sco4 specific
+,DIVINYLCHLOROPHYLLIDE-A_c,Sco4 specific
+,DOLICHOLP_c,Sco4 specific
+,E-PHENYLITACONYL-COA_c,Sco4 specific
+,ETF-Oxidized_c,Sco4 specific
+,ETF-Reduced_c,Sco4 specific
+,FRUCTURONATE_c,Sco4 specific
+,FUCULOSE-1P_c,Sco4 specific
+,GAMMA-GLUTAMYL-GAMMA-AMINOBUTYRALDEH_c,Sco4 specific
+,GAMMA-GLUTAMYL-PUTRESCINE_c,Sco4 specific
+,GERANIAL_c,Sco4 specific
+,GERANIOL_c,Sco4 specific
+,GLC-6-P_c,Sco4 specific
+,H2SO3_c,Sco4 specific
+,HCN_c,Sco4 specific
+,HISTIDINAL_c,Sco4 specific
+,HOP-2229-ENE_c,Sco4 specific
+,HOPAN-22-OL_c,Sco4 specific
+,HSCN_c,Sco4 specific
+,HYDROGEN-MOLECULE_c,Sco4 specific
+,HYDROXYMUCONATE-SALD_c,Sco4 specific
+,INDOLE_ACETATE_AUXIN_c,Sco4 specific
+,INDOLE_PYRUVATE_c,Sco4 specific
+,ISO-PROPANOL_c,Sco4 specific
+,ISOCHORISMATE_c,Sco4 specific
+,ITACONATE_c,Sco4 specific
+,KDO2-LAUROYL-LIPID-IVA_c,Sco4 specific
+,KDO2-LIPID-IVA_c,Sco4 specific
+,L-1-PHOSPHATIDYL-ETHANOLAMINE_c,Sco4 specific
+,L-1-PHOSPHATIDYL-GLYCEROL-P_c,Sco4 specific
+,L-CYSTEATE_c,Sco4 specific
+,L-DIHYDROXY-PHENYLALANINE_c,Sco4 specific
+,L-GAMMA-GLUTAMYLCYSTEINE_c,Sco4 specific
+,L-GULONATE_c,Sco4 specific
+,L-GULONO-1-4-LACTONE_c,Sco4 specific
+,L-Galactopyranose_c,Sco4 specific
+,L-PHOSPHATIDATE_c,Sco4 specific
+,L-PHOSPHINOTHRICIN_c,Sco4 specific
+,MALEATE_c,Sco4 specific
+,MANNITOL-1P_c,Sco4 specific
+,METHYL-ACETATE_c,Sco4 specific
+,METHYL-GLYOXAL_c,Sco4 specific
+,METHYLARSONATE_c,Sco4 specific
+,METHYLARSONITE_c,Sco4 specific
+,MG-PROTOPORPHYRIN_c,Sco4 specific
+,MONO-VINYL-PROTOCHLOROPHYLLIDE-A_c,Sco4 specific
+,N-ACETYL-L-2-AMINO-6-OXO-PIMELATE_c,Sco4 specific
+,N-METHYLHYDANTOIN_c,Sco4 specific
+,N-acetyl-D-mannosamine_c,Sco4 specific
+,NEUROSPORENE_c,Sco4 specific
+,NICOTINE_c,Sco4 specific
+,NN-DIMETHYLANILINE_c,Sco4 specific
+,NN-DIMETHYLANILINE-N-OXIDE_c,Sco4 specific
+,OX-COENZYME-F420_c,Sco4 specific
+,OXOPENTENOATE_c,Sco4 specific
+,Oxidized-Factor-F420_c,Sco4 specific
+,Oxidized-ferredoxins_c,Sco4 specific
+,P-COUMAROYL-COA_c,Sco4 specific
+,P-NITROPHENOL_c,Sco4 specific
+,PHENYLGLYOXYLATE_c,Sco4 specific
+,PSEUDOURIDINE-5-P_c,Sco4 specific
+,PYROGALLOL_c,Sco4 specific
+,RHAMNOSE_c,Sco4 specific
+,RIBITOL_c,Sco4 specific
+,Reduced-Factor-F420_c,Sco4 specific
+,Reduced-ferredoxins_c,Sco4 specific
+,S-ALLANTOIN_c,Sco4 specific
+,S-HYDROXYMETHYLGLUTATHIONE_c,Sco4 specific
+,S-HYDROXYMETHYLMYCOTHIOL_c,Sco4 specific
+,S-LACTOYL-GLUTATHIONE_c,Sco4 specific
+,S-PHOSPHOLACTATE_c,Sco4 specific
+,S2O3_c,Sco4 specific
+,SARCOSINE_c,Sco4 specific
+,SQUALENE_c,Sco4 specific
+,STREPTOMYCIN_c,Sco4 specific
+,T2-C4-DECADIENYL-COA_c,Sco4 specific
+,TETRACHLOROHYDROQUINONE_c,Sco4 specific
+,TETRAHYD-CPD_c,Sco4 specific
+,TRIMETHYLAMINE_c,Sco4 specific
+,TRIMETHYLAMINE-N-O_c,Sco4 specific
+,UDP-4-AMINO-4-DEOXY-L-ARABINOSE_c,Sco4 specific
+,UDP-L-ARA4-FORMYL-N_c,Sco4 specific
+,VANILLIN_c,Sco4 specific
+,XYLOSE_c,Sco4 specific
+,4-OXOGLUTARAMATE_c,Sco4 specific
+,BETA-D-FRUCTOSE_c,Sco4 specific
+,BETAINE-ALDEHYDE-HYDRATE_c,Sco4 specific
+,CPD-12377_c,Sco4 specific
+,CPD-13430_c,Sco4 specific
+,CPD-14081_c,Sco4 specific
+,CPD-14083_c,Sco4 specific
+,CPD-14447_c,Sco4 specific
+,CPD-14523_c,Sco4 specific
+,CPD-15373_c,Sco4 specific
+,CPD-15826_c,Sco4 specific
+,CPD-16015_c,Sco4 specific
+,CPD-16567_c,Sco4 specific
+,CPD-6124_c,Sco4 specific
+,CPD-8214_c,Sco4 specific
+,CPD-8225_c,Sco4 specific
+,CPD-8651_c,Sco4 specific
+,CPD-9762_c,Sco4 specific
+,DIACETYL_c,Sco4 specific
+,FORMYL-ISOGLUTAMINE_c,Sco4 specific
+,L-ALPHA-AMINO-EPSILON-KETO-PIMELATE_c,Sco4 specific
+,L-DEHYDRO-ASCORBATE_c,Sco4 specific
+,L-arabinofuranose_c,Sco4 specific
+,OH_c,Sco4 specific
+,PICOLINATE_c,Sco4 specific
+,gtca3_e,Sco4 specific
+,ENTEROBACTIN_c,Sco4 specific
+,ENTEROBACTIN_e,Sco4 specific
+glc__bD[c],,iKS1317 specific
+g6p_B[c],,iKS1317 specific
+q8h2[c],,iKS1317 specific
+q8[c],,iKS1317 specific
+2dglcn[c],,iKS1317 specific
+abt[c],,iKS1317 specific
+gdpddman[c],,iKS1317 specific
+dtdpgal[c],,iKS1317 specific
+stys[c],,iKS1317 specific
+lyx__D[c],,iKS1317 specific
+aic[c],,iKS1317 specific
+5mcsn[c],,iKS1317 specific
+lpro[c],,iKS1317 specific
+dhlpro[c],,iKS1317 specific
+alpam[c],,iKS1317 specific
+lpam[c],,iKS1317 specific
+dhlam[c],,iKS1317 specific
+3hbcoa__R[c],,iKS1317 specific
+fdxrd[c],,iKS1317 specific
+fdxox[c],,iKS1317 specific
+mmal[c],,iKS1317 specific
+nicrns[c],,iKS1317 specific
+rnam[c],,iKS1317 specific
+btnCCP[c],,iKS1317 specific
+accp[c],,iKS1317 specific
+cbtnCCP[c],,iKS1317 specific
+fpntp[c],,iKS1317 specific
+dpntp[c],,iKS1317 specific
+dttoao[c],,iKS1317 specific
+dhpmp[c],,iKS1317 specific
+thfglu[c],,iKS1317 specific
+adhlam[c],,iKS1317 specific
+prpadnl[c],,iKS1317 specific
+prpncoa[c],,iKS1317 specific
+3hpcoa[c],,iKS1317 specific
+3opcoa[c],,iKS1317 specific
+salc[c],,iKS1317 specific
+catechol[c],,iKS1317 specific
+malon[c],,iKS1317 specific
+ichor[c],,iKS1317 specific
+2shchc[c],,iKS1317 specific
+sucbz[c],,iKS1317 specific
+sbzcoa[c],,iKS1317 specific
+2dmmq9[c],,iKS1317 specific
+tc12dhdol[c],,iKS1317 specific
+tol[c],,iKS1317 specific
+4h2opntn[c],,iKS1317 specific
+op4en[c],,iKS1317 specific
+uppg1[c],,iKS1317 specific
+cpppg1[c],,iKS1317 specific
+pre1[c],,iKS1317 specific
+anth[e],,iKS1317 specific
+citr__L[e],,iKS1317 specific
+26dap_LL[e],,iKS1317 specific
+arab__D[c],,iKS1317 specific
+arab__D[e],,iKS1317 specific
+lyx__D[e],,iKS1317 specific
+ser__D[e],,iKS1317 specific
+ser__D[c],,iKS1317 specific
+gam[e],,iKS1317 specific
+4ahmmp[e],,iKS1317 specific
+2hxmp[e],,iKS1317 specific
+hxan[e],,iKS1317 specific
+mnl1p[c],,iKS1317 specific
+malt6p[c],,iKS1317 specific
+pac[e],,iKS1317 specific
+sucr[e],,iKS1317 specific
+red[e],,iKS1317 specific
+chiralc[c],,iKS1317 specific
+qnon[c],,iKS1317 specific
+hqn[c],,iKS1317 specific
+5hiu[c],,iKS1317 specific
+houdic[c],,iKS1317 specific
+dnac[c],,iKS1317 specific
+dna5mtc[c],,iKS1317 specific
+fldox[c],,iKS1317 specific
+fldrd[c],,iKS1317 specific
+ddhrb[c],,iKS1317 specific
+lppg[c],,iKS1317 specific
+f420_0[c],,iKS1317 specific
+2plac__L[c],,iKS1317 specific
+f420_1[c],,iKS1317 specific
+f420[c],,iKS1317 specific
+gal_aD[c],,iKS1317 specific
+dhkdhqn[c],,iKS1317 specific
+noeicoylACP[c],,iKS1317 specific
+decint1[c],,iKS1317 specific
+cooodacp[c],,iKS1317 specific
+malmoACP[c],,iKS1317 specific
+histda[c],,iKS1317 specific
+3hmoa[c],,iKS1317 specific
+3hmop[c],,iKS1317 specific
+malylcoa[c],,iKS1317 specific
+N6dhliplys[c],,iKS1317 specific
+N6liplys[c],,iKS1317 specific
+3choptpp[c],,iKS1317 specific
+sdhliplys[c],,iKS1317 specific
+fdp_B[c],,iKS1317 specific
+f6p_B[c],,iKS1317 specific
+g6p_A[c],,iKS1317 specific
+c78dhguantp[c],,iKS1317 specific
+cofac3[c],,iKS1317 specific
+codscl5a[c],,iKS1317 specific
+codscl5b[c],,iKS1317 specific
+urdgci[c],,iKS1317 specific
+hdhk[c],,iKS1317 specific
+sbt6p[c],,iKS1317 specific
+allglutADP[c],,iKS1317 specific
+glutADP[c],,iKS1317 specific
+2sephchc[c],,iKS1317 specific
+male[c],,iKS1317 specific
+cyan[c],,iKS1317 specific
+mercppyr[c],,iKS1317 specific
+tcynt[c],,iKS1317 specific
+tsul[c],,iKS1317 specific
+peng[c],,iKS1317 specific
+6apa[c],,iKS1317 specific
+2dh3dglc[c],,iKS1317 specific
+hop22ol[c],,iKS1317 specific
+albflon[c],,iKS1317 specific
+sql[c],,iKS1317 specific
+episz[c],,iKS1317 specific
+bfrn[c],,iKS1317 specific
+albflol__S[c],,iKS1317 specific
+grmcrnd[c],,iKS1317 specific
+psqldi[c],,iKS1317 specific
+hop22en[c],,iKS1317 specific
+grmcrol[c],,iKS1317 specific
+geosmin[c],,iKS1317 specific
+hbc[c],,iKS1317 specific
+albflol__R[c],,iKS1317 specific
+actACPmmy[c],,iKS1317 specific
+mmyint1[c],,iKS1317 specific
+ACPmmy[c],,iKS1317 specific
+mmyint2[c],,iKS1317 specific
+malACPmmy[c],,iKS1317 specific
+mmyA[c],,iKS1317 specific
+mmyB[c],,iKS1317 specific
+mmyC[c],,iKS1317 specific
+strprub[c],,iKS1317 specific
+acetone[c],,iKS1317 specific
+C21572[c],,iKS1317 specific
+C21565[c],,iKS1317 specific
+accoa_res[c],,iKS1317 specific
+citac[c],,iKS1317 specific
+r3mmal[c],,iKS1317 specific
+citm__R[c],,iKS1317 specific
+3hib[c],,iKS1317 specific
