@@ -2,12 +2,15 @@
 Credits
 =======
 
-Model Maintainer
-----------------
-
-* `Eduard Kerkhoven <eduardk@chalmers.se>`_
-
 Contributors
 ------------
 
-None yet. Why not be the first?
+* `Snorre Sulheim`
+* `Tjasa Kumelj`
+* `Eduard Kerkhoven`
+
+
+Model Maintainer
+----------------
+
+* `Eduard Kerkhoven <eduardk@chalmers.se>`
