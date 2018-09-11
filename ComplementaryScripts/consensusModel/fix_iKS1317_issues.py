@@ -78,17 +78,20 @@ def fix(model):
 def add_R02301(model):
     reaction = cobra.Reaction("FTHFCL_1")
     metabolite_dict = {model.metabolites.atp_c: -1,
-                       model.metabolites.get_by_id("5fthf_c")_c: -1,
+                       model.metabolites.get_by_id("5fthf_c"): -1,
                        model.metabolites.adp_c: 1,
                        model.metabolites.pi_c: 1,
-                       model.metabolites.methf_c: 1,
-    }
+                       model.metabolites.methf_c: 1}
+
     reaction.add_metabolites(metabolite_dict)
     reaction.annotation["ec-code"] = "6.3.3.2"
     reaction.annotation["kegg.reaction"] = "R02301"
     reaction.annotation["origin"] = "KEGG"
     reaction.gene_reaction_rule = "SCO3183"
-    reaction.bounds = (-1000, 1000)
+    reaction.bounds = (0, 1000)
+    model.add_reaction(reaction)
+    return model
+
 
 def add_R02395(model):
     carnitine_c = cobra.Metabolite("carnitine_c", "C7H16NO3", charge = 0, compartment = "c")
@@ -118,7 +121,7 @@ def add_R02395(model):
     model.add_reaction(reaction)
 
 if __name__ == '__main__':
-    iKS1317_PATH = "C:/Users/snorres/git/gem_sco/iKS1317.xml"
-    model = cobra.io.read_sbml_model(iKS1317_PATH)
+    scoGEM_PATH = "../../ModelFiles/scoGEM.xml"
+    model = cobra.io.read_sbml_model(scoGEM_PATH)
     add_R02395(model)
     print(model.optimize)
