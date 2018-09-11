@@ -16,9 +16,12 @@ import cobra
 
 import fix_iKS1317_issues
 import fix_sco4_issues
+import add_reactions_from_sco4
 
 MODEL_PATH = "../../ModelFiles/model.xml"
 SCO4_PATH = "../../ComplementaryData/models/Sco4.xml"
+REACTION_MAPPING_FN = "../../ComplementaryData/curation/"
+METABOLITE_MAPPING_FN = "../../ComplementaryData/curation/"
 
 
 def reconstruct_scoGEM(model_fn, save_fn = None):
@@ -35,7 +38,8 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
     Sco4 = fix_sco4_issues.fix(SCO4_PATH)
 
     # Part 2: Add reactions from Sco4
-    
+    reaction_mappping_fn = 
+    add_reactions_from_sco4.add_reactions(sco4_model, scoGEM, REACTION_MAPPING_FN, METABOLITE_MAPPING_FN)
 
     # Save model
     ## Version number

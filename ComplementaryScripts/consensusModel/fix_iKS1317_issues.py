@@ -77,6 +77,7 @@ def fix(model):
 
 def add_R02301(model):
     reaction = cobra.Reaction("FTHFCL_1")
+    reaction.name = "5-Formyltetrahydrofolate cyclo-ligase"
     metabolite_dict = {model.metabolites.atp_c: -1,
                        model.metabolites.get_by_id("5fthf_c"): -1,
                        model.metabolites.adp_c: 1,
@@ -90,21 +91,24 @@ def add_R02301(model):
     reaction.gene_reaction_rule = "SCO3183"
     reaction.bounds = (0, 1000)
     model.add_reaction(reaction)
-    return model
+    # return model
 
 
 def add_R02395(model):
     carnitine_c = cobra.Metabolite("carnitine_c", "C7H16NO3", charge = 0, compartment = "c")
+    carnitine_c.name = "Carnitine"
     carnitine_c.annotation["kegg.compound"] = "C00487"
     carnitine_c.annotation["origin"] = "KEGG"
     
     dhdcarn_c = cobra.Metabolite("dhdcarn_c", "C7H14NO3", charge = 0, compartment = "c")
+    dhdcarn_c.name = "3-Dehydrocarnitine"
     dhdcarn_c.annotation["kegg.compound"] = "C02636"
     dhdcarn_c.annotation["origin"] = "KEGG"
 
     model.add_metabolites([carnitine_c, dhdcarn_c])
 
     reaction = cobra.Reaction("CARNOX")
+    reaction.name = "Carnitine:NAD+ 3-oxidoreductase"
     metabolite_dict = {model.metabolites.get_by_id("carnitine_c"): -1,
                        model.metabolites.get_by_id("dhdcarn_c"): 1,
                        model.metabolites.nad_c: -1,
