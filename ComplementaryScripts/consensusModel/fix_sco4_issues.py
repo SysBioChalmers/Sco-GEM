@@ -1,8 +1,8 @@
-# -*- coding: <encoding name> -*-
+# -*- coding: utf-8 -*-
 """
 This file fixes some of the known errors in Sco4 4.0.0
 Author: Snorre Sulheim
-Date: 27.08.2018
+Date: 10.09.2018
 
 The changes were suggested by Eduard Kerkhoven, and are the following.
 # Deleted as they are duplicates: 
@@ -24,7 +24,7 @@ The changes were suggested by Eduard Kerkhoven, and are the following.
 """
 import cobra
 
-SCO4_FN = "../../ComplementaryData/models/Sco4.xml"
+SCO4_PATH = "../../ComplementaryData/models/Sco4.xml"
 
 DELETE_REACTION_LIST = ["RXN0-5224",
                         "METHYLGLUTACONYL-COA-HYDRATASE-RXN",
@@ -39,14 +39,23 @@ DELETE_REACTION_LIST = ["RXN0-5224",
                         "R09692_NADH"]
 
 
-def fix_sco4_issues(model_fn = SCO4_FN):
-    model = cobra.io.read_sbml_model(model_fn)
+def fix(sco4_model, model_fn = None, save = False):
+    converted_ids = convert_to_ascii_codes(DELETE_REACTION_LIST)
+    for reaction_id in converted_ids:
+        sco4_model.reactions.get_by_id(reaction_id).remove_from_model()
 
-    for reaction_id in DELETE_REACTION_LIST:
-        model.reactions.get_by_id(reaction_id).remove_from_model()
-    return model
+    if save:
+        if not model_fn:
+            model_fn = "sco4.xml"
+        cobra.io.write_sbml_model(sco4_model, model_fn)
+        
+def convert_to_ascii_codes(reaction_list):
+    new_ids = []
+    for r_id in reaction_list:
+        new_ids.append(r_id.replace("-", "__45__").replace(".", "__46__"))
+    return new_ids
 
 
 if __name__ == '__main__':
-    model = fix_sco4_issues(SCO4_FN)
-    cobra.io.write_sbml_model(model, SCO4_FN)
+    model = cobra.io.read_sbml_model(SCO4_PATH)
+    model = fix(model)

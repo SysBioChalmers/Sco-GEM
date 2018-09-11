@@ -11,11 +11,15 @@ ToDo
 
 """
 
+
 import cobra
 
 import fix_iKS1317_issues
+import fix_sco4_issues
 
-MODEL_PATH = "C:../model.xml"
+MODEL_PATH = "../../ModelFiles/model.xml"
+SCO4_PATH = "../../ComplementaryData/models/Sco4.xml"
+
 
 def reconstruct_scoGEM(model_fn, save_fn = None):
     model = cobra.io.read_sbml_model(model_fn)
@@ -23,9 +27,15 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
         save_fn = model_fn
 
 
-    # Part 1: Fix known issues in iKS1317
+    # Part 1: Fix known issues in models
+    ## 1a) Issues in iKS1317
     fix_iKS1317_issues.fix(model)
+    
+    ## 1b) Issues in Sco4 v4.00
+    Sco4 = fix_sco4_issues.fix(SCO4_PATH)
 
+    # Part 2: Add reactions from Sco4
+    
 
     # Save model
     ## Version number
