@@ -1,2538 +1,2538 @@
-iKS1317_ID,Sco4_ID,comment
-ACTS1,ACTS1,identical
-ACTS10,ACTS10,identical
-ACTS11,ACTS11,identical
-ACTS12,ACTS12,identical
-ACTS13,ACTS13,identical
-ACTS14,ACTS14,identical
-ACTS15,ACTS15,identical
-ACTS16,ACTS16,identical
-ACTS2,ACTS2,identical
-ACTS3,ACTS3,identical
-ACTS4,ACTS4,identical
-ACTS5,ACTS5,identical
-ACTS6,ACTS6,identical
-ACTS7,ACTS7,identical
-ACTS8,ACTS8,identical
-ACTS9,ACTS9,identical
-ALAD_L,ALAD_L,identical
-ALAR,ALAR,identical
-ALATA_L,ALATA_L,identical
-APAT2r,APAT2r,identical
-ASNN,ASNN,identical
-ASNS1,ASNS1,identical
-ASPO1,ASPO1,identical
-ASPTA,ASPTA,identical
-3OXCOAT,3OXCOAT,identical
-5DGLCNR,5DGLCNR,identical
-6PHBG,6PHBG,identical
-AAMYLe,AAMYLe,identical
-ACM6PH,ACM6PH,identical
-ACS2,ACS2,identical
-ADNUC,ADNUC,identical
-AGDC,AGDC,identical
-ALCD19,ALCD19,identical
-ALCD19y,ALCD19y,identical
-ALDD1,ALDD1,identical
-AMALT1,AMALT1,identical
-AMALT2,AMALT2,identical
-AMALT3,AMALT3,identical
-AMALT4,AMALT4,identical
-ARAI,ARAI,identical
-CYTDH,CYTDH,identical
-DCH,DCH,identical
-DDGLK,DDGLK,identical
-DHACOAH,DHACOAH,identical
-DHAK,DHAK,identical
-DRBK,DRBK,identical
-DRPA,DRPA,identical
-DTARTD,DTARTD,identical
-EPMGH,EPMGH,identical
-FDH,FDH,identical
-FORCT,FORCT,identical
-FRUK,FRUK,identical
-G3PD2,G3PD2,identical
-G6PDA,G6PDA,identical
-GAL6PI,GAL6PI,identical
-GALCTND,GALCTND,identical
-GALIGH,GALIGH,identical
-GALS3,GALS3,identical
-GGLGH,GGLGH,identical
-GLCATr,GLCATr,identical
-GLCRAL,GLCRAL,identical
-GLCRD,GLCRD,identical
-GLYALDDr,GLYALDDr,identical
-GLYCDx,GLYCDx,identical
-GLYCTO1,GLYCTO1,identical
-GLYCTO3,GLYCTO3,identical
-GLYK,GLYK,identical
-GNK,GNK,identical
-HADPCOADH3,HADPCOADH3,identical
-HEX4,HEX4,identical
-HEX7,HEX7,identical
-HPYRI,HPYRI,identical
-IDOND,IDOND,identical
-IDOND2,IDOND2,identical
-LACZ,LACZ,identical
-LCADi,LCADi,identical
-LYXI,LYXI,identical
-MALT,MALT,identical
-MALTATr,MALTATr,identical
-MAN6PI,MAN6PI,identical
-MELTGH,MELTGH,identical
-MLTG1,MLTG1,identical
-MLTG1e,MLTG1e,identical
-MLTG2,MLTG2,identical
-MLTG2e,MLTG2e,identical
-MLTG3,MLTG3,identical
-MLTG3e,MLTG3e,identical
-MLTG4,MLTG4,identical
-MLTG4e,MLTG4e,identical
-MLTG5,MLTG5,identical
-MLTG5e,MLTG5e,identical
-MLTP1,MLTP1,identical
-MLTP2,MLTP2,identical
-MLTP3,MLTP3,identical
-MTI,MTI,identical
-OXCDC,OXCDC,identical
-OXDHCOAT,OXDHCOAT,identical
-PACCOAE,PACCOAE,identical
-PACCOAL,PACCOAL,identical
-PFK_2,PFK_2,identical
-PGMT,PGMT,identical
-PMANM,PMANM,identical
-PPAKr,PPAKr,identical
-PPM,PPM,identical
-PPM2,PPM2,identical
-PTA2,PTA2,identical
-RAFGH,RAFGH,identical
-RBK,RBK,identical
-RBK_L1,RBK_L1,identical
-RBP4E,RBP4E,identical
-REPHACCOAI,REPHACCOAI,identical
-RMI,RMI,identical
-RMK,RMK,identical
-RMPA,RMPA,identical
-SBTO,SBTO,identical
-SUCR,SUCR,identical
-TAUDO,TAUDO,identical
-TGBPA,TGBPA,identical
-TRE6PP,TRE6PP,identical
-TRE6PS,TRE6PS,identical
-TRSARr,TRSARr,identical
-UDPG4E,UDPG4E,identical
-UGLT,UGLT,identical
-URIH,URIH,identical
-X5PL3E,X5PL3E,identical
-XYLI1,XYLI1,identical
-XYLI2,XYLI2,identical
-XYLK,XYLK,identical
-XYLK2,XYLK2,identical
-XYLTO,XYLTO,identical
-ICL,ICL,identical
-MALS,MALS,identical
-ME1,ME1,identical
-ME2,ME2,identical
-PEPCK,PEPCK,identical
-PPA,PPA,identical
-PPA_1,PPA_1,identical
-PPC,PPC,identical
-4HGLSD,4HGLSD,identical
-ABTA,ABTA,identical
-ABUTD,ABUTD,identical
-ACGK,ACGK,identical
-ACGS,ACGS,identical
-ACOTA,ACOTA,identical
-ADMDC,ADMDC,identical
-AGMT,AGMT,identical
-AGPR,AGPR,identical
-AMPTASEPG,AMPTASEPG,identical
-APCS,APCS,identical
-ARGDr,ARGD,identical
-ARGSL,ARGSL,identical
-ARGSS,ARGSS,identical
-CBPS,CBPS,identical
-DDPGA,DDPGA,identical
-EHGLAT,EHGLAT,identical
-G5SADs,G5SADs,identical
-GLU5K,GLU5K,identical
-HPROb,HPROb,identical
-MTAN,MTAN,identical
-ORNDC,ORNDC,identical
-ORNTA,ORNTA,identical
-ORNTAC,ORNTAC,identical
-P5CD,P5CD,identical
-P5CR,P5CR,identical
-PHCD,PHCD,identical
-PHCHGS,PHCHGS,identical
-PROD2,PROD2,identical
-PTRCTA,PTRCTA,identical
-PUTA3,PUTA3,identical
-SSALy,SSALy,identical
-UREA,UREA,identical
-3OADPCOAT,3OADPCOAT,identical
-MUCCY,MUCCY,identical
-OXOAEL,OXOAEL,identical
-PCADYOX,PCADYOX,identical
-VNTDM,VNTDM,identical
-AACOATi,AACOATi,identical
-BDH,BDH,identical
-CDAS1,CDAS1,identical
-CDAS10,CDAS10,identical
-CDAS11,CDAS11,identical
-CDAS13,CDAS13,identical
-CDAS14a,CDAS14a,identical
-CDAS14b,CDAS14b,identical
-CDAS15,CDAS15,identical
-CDAS16,CDAS16,identical
-CDAS17,CDAS17,identical
-CDAS18,CDAS18,identical
-CDAS19,CDAS19,identical
-CDAS2,CDAS2,identical
-CDAS3,CDAS3,identical
-CDAS4,CDAS4,identical
-CDAS5x,CDAS5x,identical
-CDAS5y,CDAS5y,identical
-CDAS6,CDAS6,identical
-CDAS7,CDAS7,identical
-CDAS8,CDAS8,identical
-CDAS9x,CDAS9x,identical
-CDAS9y,CDAS9y,identical
-3HAD100,3HAD100,identical
-3HAD110,3HAD110,identical
-3HAD120,3HAD120,identical
-3HAD121,3HAD121,identical
-3HAD130,3HAD130,identical
-3HAD140,3HAD140,identical
-3HAD141,3HAD141,identical
-3HAD150,3HAD150,identical
-3HAD160,3HAD160,identical
-3HAD161,3HAD161,identical
-3HAD170,3HAD170,identical
-3HAD180,3HAD180,identical
-3HAD181,3HAD181,identical
-3HAD40,3HAD40,identical
-3HAD50,3HAD50,identical
-3HAD60,3HAD60,identical
-3HAD70,3HAD70,identical
-3HAD80,3HAD80,identical
-3HAD90,3HAD90,identical
-3HADai110,3HADai110,identical
-3HADai130,3HADai130,identical
-3HADai150,3HADai150,identical
-3HADai170,3HADai170,identical
-3HADai70,3HADai70,identical
-3HADai90,3HADai90,identical
-3HADi100,3HADi100,identical
-3HADi110,3HADi110,identical
-3HADi120,3HADi120,identical
-3HADi130,3HADi130,identical
-3HADi140,3HADi140,identical
-3HADi150,3HADi150,identical
-3HADi160,3HADi160,identical
-3HADi170,3HADi170,identical
-3HADi180,3HADi180,identical
-3HADi60,3HADi60,identical
-3HADi70,3HADi70,identical
-3HADi80,3HADi80,identical
-3HADi90,3HADi90,identical
-3OAR100,3OAR100,identical
-3OAR110,3OAR110,identical
-3OAR120,3OAR120,identical
-3OAR121,3OAR121,identical
-3OAR130,3OAR130,identical
-3OAR140,3OAR140,identical
-3OAR141,3OAR141,identical
-3OAR150,3OAR150,identical
-3OAR160,3OAR160,identical
-3OAR161,3OAR161,identical
-3OAR170,3OAR170,identical
-3OAR180,3OAR180,identical
-3OAR181,3OAR181,identical
-3OAR40,3OAR40,identical
-3OAR50,3OAR50,identical
-3OAR60,3OAR60,identical
-3OAR70,3OAR70,identical
-3OAR80,3OAR80,identical
-3OAR90,3OAR90,identical
-3OARai110,3OARai110,identical
-3OARai130,3OARai130,identical
-3OARai150,3OARai150,identical
-3OARai170,3OARai170,identical
-3OARai70,3OARai70,identical
-3OARai90,3OARai90,identical
-3OARi100,3OARi100,identical
-3OARi110,3OARi110,identical
-3OARi120,3OARi120,identical
-3OARi130,3OARi130,identical
-3OARi140,3OARi140,identical
-3OARi150,3OARi150,identical
-3OARi160,3OARi160,identical
-3OARi170,3OARi170,identical
-3OARi180,3OARi180,identical
-3OARi60,3OARi60,identical
-3OARi70,3OARi70,identical
-3OARi80,3OARi80,identical
-3OARi90,3OARi90,identical
-3OAS100,3OAS100,identical
-3OAS110,3OAS110,identical
-3OAS120,3OAS120,identical
-3OAS121,3OAS121,identical
-3OAS130,3OAS130,identical
-3OAS140,3OAS140,identical
-3OAS141,3OAS141,identical
-3OAS150,3OAS150,identical
-3OAS160,3OAS160,identical
-3OAS161,3OAS161,identical
-3OAS170,3OAS170,identical
-3OAS180,3OAS180,identical
-3OAS181,3OAS181,identical
-3OAS50,3OAS50,identical
-3OAS60,3OAS60,identical
-3OAS70,3OAS70,identical
-3OAS80,3OAS80,identical
-3OAS90,3OAS90,identical
-3OASai110,3OASai110,identical
-3OASai130,3OASai130,identical
-3OASai150,3OASai150,identical
-3OASai170,3OASai170,identical
-3OASai70,3OASai70,identical
-3OASai90,3OASai90,identical
-3OASi100,3OASi100,identical
-3OASi110,3OASi110,identical
-3OASi120,3OASi120,identical
-3OASi130,3OASi130,identical
-3OASi140,3OASi140,identical
-3OASi150,3OASi150,identical
-3OASi160,3OASi160,identical
-3OASi170,3OASi170,identical
-3OASi180,3OASi180,identical
-3OASi60,3OASi60,identical
-3OASi70,3OASi70,identical
-3OASi80,3OASi80,identical
-3OASi90,3OASi90,identical
-ALAALAD,ALAALAD,identical
-ALALAC,ALALAC,identical
-EAR100x,EAR100x,identical
-EAR100y,EAR100y,identical
-EAR110x,EAR110x,identical
-EAR110y,EAR110y,identical
-EAR120x,EAR120x,identical
-EAR120y,EAR120y,identical
-EAR121x,EAR121x,identical
-EAR121y,EAR121y,identical
-EAR130x,EAR130x,identical
-EAR130y,EAR130y,identical
-EAR140x,EAR140x,identical
-EAR140y,EAR140y,identical
-EAR141x,EAR141x,identical
-EAR141y,EAR141y,identical
-EAR150x,EAR150x,identical
-EAR150y,EAR150y,identical
-EAR160x,EAR160x,identical
-EAR160y,EAR160y,identical
-EAR161x,EAR161x,identical
-EAR161y,EAR161y,identical
-EAR170x,EAR170x,identical
-EAR170y,EAR170y,identical
-EAR180x,EAR180x,identical
-EAR180y,EAR180y,identical
-EAR181x,EAR181x,identical
-EAR181y,EAR181y,identical
-EAR40x,EAR40x,identical
-EAR40y,EAR40y,identical
-EAR50x,EAR50x,identical
-EAR50y,EAR50y,identical
-EAR60x,EAR60x,identical
-EAR60y,EAR60y,identical
-EAR70x,EAR70x,identical
-EAR70y,EAR70y,identical
-EAR80x,EAR80x,identical
-EAR80y,EAR80y,identical
-EAR90x,EAR90x,identical
-EAR90y,EAR90y,identical
-EARai110x,EARai110x,identical
-EARai110y,EARai110y,identical
-EARai130x,EARai130x,identical
-EARai130y,EARai130y,identical
-EARai150x,EARai150x,identical
-EARai150y,EARai150y,identical
-EARai170x,EARai170x,identical
-EARai170y,EARai170y,identical
-EARai70x,EARai70x,identical
-EARai70y,EARai70y,identical
-EARai90x,EARai90x,identical
-EARai90y,EARai90y,identical
-EARi100x,EARi100x,identical
-EARi100y,EARi100y,identical
-EARi110x,EARi110x,identical
-EARi110y,EARi110y,identical
-EARi120x,EARi120x,identical
-EARi120y,EARi120y,identical
-EARi130x,EARi130x,identical
-EARi130y,EARi130y,identical
-EARi140x,EARi140x,identical
-EARi140y,EARi140y,identical
-EARi150x,EARi150x,identical
-EARi150y,EARi150y,identical
-EARi160x,EARi160x,identical
-EARi160y,EARi160y,identical
-EARi170x,EARi170x,identical
-EARi170y,EARi170y,identical
-EARi180x,EARi180x,identical
-EARi180y,EARi180y,identical
-EARi60x,EARi60x,identical
-EARi60y,EARi60y,identical
-EARi70x,EARi70x,identical
-EARi70y,EARi70y,identical
-EARi80x,EARi80x,identical
-EARi80y,EARi80y,identical
-EARi90x,EARi90x,identical
-EARi90y,EARi90y,identical
-ETHAAL,ETHAAL,identical
-FACOAE100,FACOAE100,identical
-FACOAE120,FACOAE120,identical
-FACOAE140,FACOAE140,identical
-FACOAE141,FACOAE141,identical
-FACOAE160,FACOAE160,identical
-FACOAE161,FACOAE161,identical
-FACOAE180,FACOAE180,identical
-FACOAE181,FACOAE181,identical
-FACOAE60,FACOAE60,identical
-FACOAE80,FACOAE80,identical
-FACOAL100,FACOAL100,identical
-FACOAL120,FACOAL120,identical
-FACOAL140,FACOAL140,identical
-FACOAL141,FACOAL141,identical
-FACOAL160,FACOAL160,identical
-FACOAL161,FACOAL161,identical
-FACOAL180,FACOAL180,identical
-FACOAL181,FACOAL181,identical
-FACOAL60,FACOAL60,identical
-FACOAL80,FACOAL80,identical
-G1PACT,G1PACT,identical
-GALUi,GALUi,identical
-GDPMNP,GDPMNP,identical
-GF6PTA,GF6PTA,identical
-GLUR,GLUR,identical
-MAN1PT,MAN1PT,identical
-MI1PP,MI1PP,identical
-PAPPT3,PAPPT3,identical
-PGAMT,PGAMT,identical
-T2DECAI,T2DECAI,identical
-TDPDRE,TDPDRE,identical
-TDPDRR,TDPDRR,identical
-TDPGDH,TDPGDH,identical
-UAAGDS,UAAGDS,identical
-UACMAMO,UACMAMO,identical
-UAG2E,UAG2E,identical
-UAGCVT,UAGCVT,identical
-UAGDP,UAGDP,identical
-UAGPT3,UAGPT3,identical
-UAMAGS,UAMAGS,identical
-UAMAS,UAMAS,identical
-UAPGR,UAPGR,identical
-UDCPDP,UDCPDP,identical
-UDPGD,UDPGD,identical
-UGMDDS,UGMDDS,identical
-ACONTa,ACONTa,identical
-ACONTb,ACONTb,identical
-AKGDH,AKGDH,identical
-AKGDH2,AKGDH2,identical
-CITL,CITL,identical
-CS,CS,identical
-FUM,FUM,identical
-ICDHyr,ICDHyr,identical
-MDH,MDH,identical
-SUCOAS,SUCOAS,identical
-4HTHRS,4HTHRS,identical
-5DOAN,5DOAN,identical
-ACBIPGT,ACBIPGT,identical
-ACPpds,ACPpds,identical
-ACPpdsact,ACPpdsact,identical
-ACPpdscda,ACPpdscda,identical
-ACPpdsredL,ACPpdsredL,identical
-ACPpdsredN,ACPpdsredN,identical
-ACPpdsredQ,ACPpdsredQ,identical
-ACPS1,ACPS1,identical
-ACPSact,ACPSact,identical
-ACPScda,ACPScda,identical
-ACPSredL,ACPSredL,identical
-ACPSredN,ACPSredN,identical
-ACPSredQ,ACPSredQ,identical
-ADCL,ADCL,identical
-ADCPS1,ADCPS1,identical
-ADCPS2,ADCPS2,identical
-ADCS,ADCS,identical
-ADCYRS,ADCYRS,identical
-ADOCBIK,ADOCBIK,identical
-ADOCBLS,ADOCBLS,identical
-AHMMPS,AHMMPS,identical
-AKP1,AKP1,identical
-ALATA_D2,ALATA_D2,identical
-ALATA_L2,ALATA_L2,identical
-AMAOTr,AMAOTr,identical
-AMMQLT9,AMMQLT9,identical
-AOXSr2,AOXSr2,identical
-APRAUR,APRAUR,identical
-ASP1DC,ASP1DC,identical
-ASPO5,ASPO5,identical
-ASPO6,ASPO6,identical
-BACCL,BACCL,identical
-BMOCOS,BMOCOS,identical
-BMOGDS1,BMOGDS1,identical
-BMOGDS2,BMOGDS2,identical
-BTS5,BTS5,identical
-BWCOGDS1,BWCOGDS1,identical
-BWCOGDS2,BWCOGDS2,identical
-BWCOS,BWCOS,identical
-CBIAT,CBIAT,identical
-CBLAT,CBLAT,identical
-CDPMEK,CDPMEK,identical
-CFL,CFL,identical
-CIGAMS,CIGAMS,identical
-COCHL,COCHL,identical
-CPC2MT,CPC2MT,identical
-CPC3MT,CPC3MT,identical
-CPC6R,CPC6R,identical
-CPC8MM,CPC8MM,identical
-CPMPS,CPMPS,identical
-CPPPGO2,CPPPGO2,identical
-CYRDAAT,CYRDAAT,identical
-CYRDAR,CYRDAR,identical
-CYRDAS,CYRDAS,identical
-DB4PS,DB4PS,identical
-DBTS,DBTS,identical
-DHFR,DHFR,identical
-DHFS,DHFS,identical
-DHFUTALS,DHFUTALS,identical
-DHNAI,DHNAI,identical
-DHNANT4,DHNANT4,identical
-DHNAS,DHNAS,identical
-DHNPA2r,DHNPA2r,identical
-DHNPTE,DHNPTE,identical
-DHPPDA2,DHPPDA2,identical
-DHPS2,DHPS2,identical
-DMATT,DMATT,identical
-DMBZIDS,DMBZIDS,identical
-DMPPS,DMPPS,identical
-DNADDP,DNADDP,identical
-DPCOAK,DPCOAK,identical
-DPR,DPR,identical
-DXPRIi,DXPRIi,identical
-DXPS,DXPS,identical
-DXYLK,DXYLK,identical
-E4PD,E4PD,identical
-EGMEACPR,EGMEACPR,identical
-EPMEACPR,EPMEACPR,identical
-FADRx2,FADRx2,identical
-FCLT,FCLT,identical
-FE3Ri,FE3Ri,identical
-FESD1s,FESD1s,identical
-FESD2s,FESD2s,identical
-FESR,FESR,identical
-FLVR,FLVR,identical
-FMNAT,FMNAT,identical
-FMNRx,FMNRx,identical
-FMNRx2,FMNRx2,identical
-FRTT,FRTT,identical
-G1SAT,G1SAT,identical
-GDPDPK,GDPDPK,identical
-GDPTPDP,GDPTPDP,identical
-GGTT,GGTT,identical
-GLUTRR,GLUTRR,identical
-GLUTRS,GLUTRS,identical
-GRTT,GRTT,identical
-GTHRDH,GTHRDH,identical
-GTPCI,GTPCI,identical
-GTPCII2,GTPCII2,identical
-GTPCIII2,GTPCIII2,identical
-GTPDPDP,GTPDPDP,identical
-GTPDPK,GTPDPK,identical
-HBADAS,HBADAS,identical
-HEMEAS,HEMEAS,identical
-HEMEOS,HEMEOS,identical
-HEPTT,HEPTT,identical
-HEXTT,HEXTT,identical
-HMBS,HMBS,identical
-HMPK1,HMPK1,identical
-HMPK2,HMPK2,identical
-HMPK3,HMPK3,identical
-HMPK4,HMPK4,identical
-HPPK2,HPPK2,identical
-IACGAMS2,IACGAMS2,identical
-ICYSDS,ICYSDS,identical
-IGAMD,IGAMD,identical
-IPDDI,IPDDI,identical
-IPDPS,IPDPS,identical
-LIPAMPL,LIPAMPL,identical
-LIPATPT,LIPATPT,identical
-LIPOCT,LIPOCT,identical
-LIPOS,LIPOS,identical
-MALACPMT,MALACPMT,identical
-MECDPDH2,MECDPDH2,identical
-MECDPS,MECDPS,identical
-MEPCT,MEPCT,identical
-MOADSUx,MOADSUx,identical
-MOCOS,MOCOS,identical
-MOGDS,MOGDS,identical
-MOHMT,MOHMT,identical
-MPTAT,MPTAT,identical
-MPTS,MPTS,identical
-MPTSS,MPTSS,identical
-MSHS,MSHS,identical
-MYCTR,MYCTR,identical
-NADDP,NADDP,identical
-NADK,NADK,identical
-NADS1,NADS1,identical
-NADS2,NADS2,identical
-NAMNPP,NAMNPP,identical
-NMNAT,NMNAT,identical
-NNAM,NNAM,identical
-NNDMBRT,NNDMBRT,identical
-NNDPR,NNDPR,identical
-OCTNLL,OCTNLL,identical
-OCTTT,OCTTT,identical
-OGMEACPD,OGMEACPD,identical
-OGMEACPR,OGMEACPR,identical
-OGMEACPS2,OGMEACPS2,identical
-OHPBAT,OHPBAT,identical
-OPMEACPD,OPMEACPD,identical
-OPMEACPR,OPMEACPR,identical
-OPMEACPS,OPMEACPS,identical
-PANTS,PANTS,identical
-PC11M,PC11M,identical
-PC17M,PC17M,identical
-PC20M,PC20M,identical
-PC3BS,PC3BS,identical
-PC6AR,PC6AR,identical
-PC6AS,PC6AS,identical
-PC6YM,PC6YM,identical
-PC8XM,PC8XM,identical
-PCPpdsredO,PCPpdsredO,identical
-PCPSredO,PCPSredO,identical
-PDX5POi,PDX5POi,identical
-PMDPHT,PMDPHT,identical
-PMEACPE,PMEACPE,identical
-PMPK,PMPK,identical
-PNTK,PNTK,identical
-PPBNGS,PPBNGS,identical
-PPCDC,PPCDC,identical
-PPGPPDP,PPGPPDP,identical
-PPNCL2,PPNCL2,identical
-PPPGO,PPPGO,identical
-PTPATi,PTPATi,identical
-PYAM5PO,PYAM5PO,identical
-PYDAMK,PYDAMK,identical
-PYDXK,PYDXK,identical
-PYDXNK,PYDXNK,identical
-PYDXPS,PYDXPS,identical
-QULNS,QULNS,identical
-RBFK,RBFK,identical
-RBFSa,RBFSa,identical
-RBFSb,RBFSb,identical
-RZ5PP,RZ5PP,identical
-S2FE2SR,S2FE2SR,identical
-S2FE2SS,S2FE2SS,identical
-S2FE2SS2,S2FE2SS2,identical
-S2FE2ST,S2FE2ST,identical
-S4FE4SR,S4FE4SR,identical
-S4FE4ST,S4FE4ST,identical
-SCYSDS,SCYSDS,identical
-SHCHCC,SHCHCC,identical
-SHCHD2,SHCHD2,identical
-SHCHF,SHCHF,identical
-THZPSN3,THZPSN3,identical
-TMK,TMK,identical
-TMPK,TMPK,identical
-TMPPP,TMPPP,identical
-TYRL,TYRL,identical
-UDCPDPS,UDCPDPS,identical
-UPP3MT,UPP3MT,identical
-UPP3S,UPP3S,identical
-UPPDC1,UPPDC1,identical
-WCOS,WCOS,identical
-ADSK,ADSK,identical
-AMPTASECG,AMPTASECG,identical
-BPNT,BPNT,identical
-CYSDS,CYSDS,identical
-CYSS,CYSS,identical
-CYSTGL,CYSTGL,identical
-CYSTS,CYSTS,identical
-PAPSR,PAPSR,identical
-PAPSR3,PAPSR3,identical
-SADT2,SADT2,identical
-SULRi,SULRi,identical
-DABAACT,DABAACT,identical
-DABAAT,DABAAT,identical
-ECTH,ECTH,identical
-ECTS,ECTS,identical
-BIOMASS_SCO,Biomass_SCO,identical
-DM_2hymeph_c,DM_2HYMEPH,identical
-DM_4crsol_c,DM_4CRSOL,identical
-DM_5drib_c,DM_5DRIB,identical
-DM_aacald_c,DM_AACALD,identical
-DM_aconm_c,DM_ACONM,identical
-DM_ACT_c,DM_ACT,identical
-DM_amob_c,DM_AMOB,identical
-DM_dalua_c,DM_DALUA,identical
-DM_ectoine__L_c,DM_ECTOINE,identical
-DM_germicidinA_c,DM_GERMA,identical
-DM_germicidinB_c,DM_GERMB,identical
-DM_germicidinC_c,DM_GERMC,identical
-DM_germicidinD_c,DM_GERMD,identical
-DM_msh_c,DM_MSH,identical
-DM_RED_c,DM_RED,identical
-EX_14glucan_e,EX_14glucan(e),identical
-EX_15dap_e,EX_15dap(e),identical
-EX_1Dgali_e,EX_1Dgali(e),identical
-EX_23camp_e,EX_23camp(e),identical
-EX_23ccmp_e,EX_23ccmp(e),identical
-EX_23cgmp_e,EX_23cgmp(e),identical
-EX_23cump_e,EX_23cump(e),identical
-EX_26dap__M_e,EX_26dap-M(e),identical
-EX_2ddglcn_e,EX_2ddglcn(e),identical
-EX_3amp_e,EX_3amp(e),identical
-EX_3cmp_e,EX_3cmp(e),identical
-EX_3gmp_e,EX_3gmp(e),identical
-EX_3ump_e,EX_3ump(e),identical
-EX_4abut_e,EX_4abut(e),identical
-EX_5dglcn_e,EX_5dglcn(e),identical
-EX_5mtr_e,EX_5mtr(e),identical
-EX_abt__D_e,EX_abt-D(e),identical
-EX_ac_e,EX_ac(e),identical
-EX_acald_e,EX_acald(e),identical
-EX_acgam_e,EX_acgam(e),identical
-EX_acser_e,EX_acser(e),identical
-EX_ade_e,EX_ade(e),identical
-EX_adn_e,EX_adn(e),identical
-EX_agm_e,EX_agm(e),identical
-EX_akg_e,EX_akg(e),identical
-EX_alaala_e,EX_alaala(e),identical
-EX_ala_B_e,EX_ala-B(e),identical
-EX_ala__D_e,EX_ala-D(e),identical
-EX_ala__L_e,EX_ala-L(e),identical
-EX_alltn_e,EX_alltn(e),identical
-EX_amp_e,EX_amp(e),identical
-EX_arab__L_e,EX_arab-L(e),identical
-EX_arg__L_e,EX_arg-L(e),identical
-EX_asn__L_e,EX_asn-L(e),identical
-EX_aso3_e,EX_aso3(e),identical
-EX_asp__L_e,EX_asp-L(e),identical
-EX_bhb_e,EX_bhb(e),identical
-EX_btn_e,EX_btn(e),identical
-EX_ca2_e,EX_ca2(e),identical
-EX_cbi_e,EX_cbi(e),identical
-EX_cbl1_e,EX_cbl1(e),identical
-EX_cd2_e,EX_cd2(e),identical
-EX_CDA_e,EX_CDA(e),identical
-EX_cellb_e,EX_celb(e),identical
-EX_chol_e,EX_chol(e),identical
-EX_chtbs_e,EX_chtbs(e),identical
-EX_cit_e,EX_cit(e),identical
-EX_cl_e,EX_cl(e),identical
-EX_cmp_e,EX_cmp(e),identical
-EX_co2_e,EX_co2(e),identical
-EX_cobalt2_e,EX_cobalt2(e),identical
-EX_coelichelin_e,EX_coelichelin(e),identical
-EX_csn_e,EX_csn(e),identical
-EX_cu_e,EX_cu(e),identical
-EX_cu2_e,EX_cu2(e),identical
-EX_cys__L_e,EX_cys-L(e),identical
-EX_cytd_e,EX_cytd(e),identical
-EX_dad_2_e,EX_dad-2(e),identical
-EX_damp_e,EX_damp(e),identical
-EX_dcmp_e,EX_dcmp(e),identical
-EX_dcyt_e,EX_dcyt(e),identical
-EX_desferrioxamB_e,EX_desferrioxamB(e),identical
-EX_desferrioxamE_e,EX_desferrioxamE(e),identical
-EX_dgmp_e,EX_dgmp(e),identical
-EX_dgsn_e,EX_dgsn(e),identical
-EX_dha_e,EX_dha(e),identical
-EX_dimp_e,EX_dimp(e),identical
-EX_din_e,EX_din(e),identical
-EX_drib_e,EX_drib(e),identical
-EX_dtmp_e,EX_dtmp(e),identical
-EX_dump_e,EX_dump(e),identical
-EX_duri_e,EX_duri(e),identical
-EX_epm_e,EX_epm(e),identical
-EX_etha_e,EX_etha(e),identical
-EX_etoh_e,EX_etoh(e),identical
-EX_fald_e,EX_fald(e),identical
-EX_fe2_e,EX_fe2(e),identical
-EX_fe3_e,EX_fe3(e),identical
-EX_ferricoelichelin_e,EX_ferricoelichelin(e),identical
-EX_feroxB_e,EX_ferrioxamB(e),identical
-EX_feroxE_e,EX_ferrioxamE(e),identical
-EX_for_e,EX_for(e),identical
-EX_fru_e,EX_fru(e),identical
-EX_fum_e,EX_fum(e),identical
-EX_g3pc_e,EX_g3pc(e),identical
-EX_g3pe_e,EX_g3pe(e),identical
-EX_g3pg_e,EX_g3pg(e),identical
-EX_g3pi_e,EX_g3pi(e),identical
-EX_g3ps_e,EX_g3ps(e),identical
-EX_gACT_e,EX_gACT(e),identical
-EX_gal_e,EX_gal(e),identical
-EX_galctn__D_e,EX_galctn-D(e),identical
-EX_ggl_e,EX_ggl(e),identical
-EX_glc__D_e,EX_glc(e),identical
-EX_glcn_e,EX_glcn(e),identical
-EX_glcr_e,EX_glcr(e),identical
-EX_gln__L_e,EX_gln-L(e),identical
-EX_glu__L_e,EX_glu-L(e),identical
-EX_gly_e,EX_gly(e),identical
-EX_glyald_e,EX_glyald(e),identical
-EX_glyb_e,EX_glyb(e),identical
-EX_glyc_e,EX_glyc(e),identical
-EX_glyc3p_e,EX_glyc3p(e),identical
-EX_glyclt_e,EX_glyclt(e),identical
-EX_glyc__R_e,EX_glyc-R(e),identical
-EX_gmp_e,EX_gmp(e),identical
-EX_gsn_e,EX_gsn(e),identical
-EX_gua_e,EX_gua(e),identical
-EX_h_e,EX_h(e),identical
-EX_h2o_e,EX_h2o(e),identical
-EX_h2o2_e,EX_h2o2(e),identical
-EX_h2s_e,EX_h2s(e),identical
-EX_his__L_e,EX_his-L(e),identical
-EX_hom__L_e,EX_hom-L(e),identical
-EX_idon__L_e,EX_idon-L(e),identical
-EX_ile__L_e,EX_ile-L(e),identical
-EX_imp_e,EX_imp(e),identical
-EX_indole_e,EX_indole(e),identical
-EX_inost_e,EX_inost(e),identical
-EX_ins_e,EX_ins(e),identical
-EX_k_e,EX_k(e),identical
-EX_lac__D_e,EX_lac-D(e),identical
-EX_lac__L_e,EX_lac-L(e),identical
-EX_LalaDglu_e,EX_LalaDglu(e),identical
-EX_lcts_e,EX_lcts(e),identical
-EX_leu__L_e,EX_leu-L(e),identical
-EX_lipoate_e,EX_lipoate(e),identical
-EX_lys__L_e,EX_lys-L(e),identical
-EX_lyx__L_e,EX_lyx-L(e),identical
-EX_mal__L_e,EX_mal-L(e),identical
-EX_malt_e,EX_malt(e),identical
-EX_malthp_e,EX_malthp(e),identical
-EX_malthx_e,EX_malthx(e),identical
-EX_maltpt_e,EX_maltpt(e),identical
-EX_malttr_e,EX_malttr(e),identical
-EX_maltttr_e,EX_maltttr(e),identical
-EX_man_e,EX_man(e),identical
-EX_melib_e,EX_melib(e),identical
-EX_melt_e,EX_melt(e),identical
-EX_meoh_e,EX_meoh(e),identical
-EX_met__L_e,EX_met-L(e),identical
-EX_mg2_e,EX_mg2(e),identical
-EX_mn2_e,EX_mn2(e),identical
-EX_mnl_e,EX_mnl(e),identical
-EX_mobd_e,EX_mobd(e),identical
-EX_n2o_e,EX_n2o(e),identical
-EX_na1_e,EX_na1(e),identical
-EX_nac_e,EX_nac(e),identical
-EX_nh4_e,EX_nh4(e),identical
-EX_ni2_e,EX_ni2(e),identical
-EX_nmn_e,EX_nmn(e),identical
-EX_no_e,EX_no(e),identical
-EX_no2_e,EX_no2(e),identical
-EX_no3_e,EX_no3(e),identical
-EX_o2_e,EX_o2(e),identical
-EX_orn_e,EX_orn(e),identical
-EX_orot_e,EX_orot(e),identical
-EX_pacald_e,EX_pacald(e),identical
-EX_phe__L_e,EX_phe-L(e),identical
-EX_pi_e,EX_pi(e),identical
-EX_pnto__R_e,EX_pnto-R(e),identical
-EX_ppa_e,EX_ppa(e),identical
-EX_pro__L_e,EX_pro-L(e),identical
-EX_ptrc_e,EX_ptrc(e),identical
-EX_pydam_e,EX_pydam(e),identical
-EX_pydx_e,EX_pydx(e),identical
-EX_pydxn_e,EX_pydxn(e),identical
-EX_pyr_e,EX_pyr(e),identical
-EX_raffin_e,EX_raffin(e),identical
-EX_rib__D_e,EX_rib-D(e),identical
-EX_rmn_e,EX_rmn(e),identical
-EX_salcn_e,EX_salcn(e),identical
-EX_sbt__D_e,EX_sbt-D(e),identical
-EX_ser__L_e,EX_ser-L(e),identical
-EX_skm_e,EX_skm(e),identical
-EX_so4_e,EX_so4(e),identical
-EX_spmd_e,EX_spmd(e),identical
-EX_succ_e,EX_succ(e),identical
-EX_tartr__D_e,EX_tartr-D(e),identical
-EX_taur_e,EX_taur(e),identical
-EX_thm_e,EX_thm(e),identical
-EX_thr__L_e,EX_thr-L(e),identical
-EX_thym_e,EX_thym(e),identical
-EX_thymd_e,EX_thymd(e),identical
-EX_tre_e,EX_tre(e),identical
-EX_trp__L_e,EX_trp-L(e),identical
-EX_tungs_e,EX_tungs(e),identical
-EX_tyr__L_e,EX_tyr-L(e),identical
-EX_ump_e,EX_ump(e),identical
-EX_ura_e,EX_ura(e),identical
-EX_urea_e,EX_urea(e),identical
-EX_uri_e,EX_uri(e),identical
-EX_val__L_e,EX_val-L(e),identical
-EX_vanlt_e,EX_vanlt(e),identical
-EX_xan_e,EX_xan(e),identical
-EX_xmp_e,EX_xmp(e),identical
-EX_xtsn_e,EX_xtsn(e),identical
-EX_xyl__D_e,EX_xyl-D(e),identical
-EX_xylt_e,EX_xylt(e),identical
-EX_zn2_e,EX_zn2(e),identical
-FTHFD,FTHFD,identical
-GCALDD,GCALDD,identical
-GLYCL,GLYCL,identical
-MTHFC,MTHFC,identical
-MTHFD,MTHFD,identical
-MTHFR2,MTHFR2,identical
-THFAT,THFAT,identical
-GERMA,GERMA,identical
-GERMB,GERMB,identical
-GERMC,GERMC,identical
-GERMD,GERMD,identical
-GLUDC,GLUDC,identical
-GLUDxi,GLUDxi,identical
-GLUDyi,GLUDyi,identical
-GLUN,GLUN,identical
-GLNS,GLNS,identical
-GLUSx,GLUSx,identical
-ACPPAT120,ACPPAT120,identical
-ACPPAT140,ACPPAT140,identical
-ACPPAT141,ACPPAT141,identical
-ACPPAT150,ACPPAT150,identical
-ACPPAT160,ACPPAT160,identical
-ACPPAT161,ACPPAT161,identical
-ACPPAT170,ACPPAT170,identical
-ACPPAT180,ACPPAT180,identical
-ACPPAT181,ACPPAT181,identical
-ACPPATai150,ACPPATai150,identical
-ACPPATai170,ACPPATai170,identical
-ACPPATi140,ACPPATi140,identical
-ACPPATi150,ACPPATi150,identical
-ACPPATi160,ACPPATi160,identical
-ACPPATi170,ACPPATi170,identical
-ACPPATi180,ACPPATi180,identical
-AGPAT120,AGPAT120,identical
-AGPAT140,AGPAT140,identical
-AGPAT141,AGPAT141,identical
-AGPAT150,AGPAT150,identical
-AGPAT160,AGPAT160,identical
-AGPAT161,AGPAT161,identical
-AGPAT170,AGPAT170,identical
-AGPAT180,AGPAT180,identical
-AGPAT181,AGPAT181,identical
-AGPATai150,AGPATai150,identical
-AGPATai170,AGPATai170,identical
-AGPATi140,AGPATi140,identical
-AGPATi150,AGPATi150,identical
-AGPATi160,AGPATi160,identical
-AGPATi170,AGPATi170,identical
-AGPATi180,AGPATi180,identical
-APG3PAT120,APG3PAT120,identical
-APG3PAT140,APG3PAT140,identical
-APG3PAT141,APG3PAT141,identical
-APG3PAT150,APG3PAT150,identical
-APG3PAT160,APG3PAT160,identical
-APG3PAT161,APG3PAT161,identical
-APG3PAT170,APG3PAT170,identical
-APG3PAT180,APG3PAT180,identical
-APG3PAT181,APG3PAT181,identical
-APG3PATai150,APG3PATai150,identical
-APG3PATai170,APG3PATai170,identical
-APG3PATi140,APG3PATi140,identical
-APG3PATi150,APG3PATi150,identical
-APG3PATi160,APG3PATi160,identical
-APG3PATi170,APG3PATi170,identical
-APG3PATi180,APG3PATi180,identical
-APH120,APH120,identical
-APH140,APH140,identical
-APH141,APH141,identical
-APH150,APH150,identical
-APH160,APH160,identical
-APH161,APH161,identical
-APH170,APH170,identical
-APH180,APH180,identical
-APH181,APH181,identical
-APHai150,APHai150,identical
-APHai170,APHai170,identical
-APHi140,APHi140,identical
-APHi150,APHi150,identical
-APHi160,APHi160,identical
-APHi170,APHi170,identical
-APHi180,APHi180,identical
-CLPNS120,CLPNS120,identical
-CLPNS140,CLPNS140,identical
-CLPNS141,CLPNS141,identical
-CLPNS150,CLPNS150,identical
-CLPNS160,CLPNS160,identical
-CLPNS161,CLPNS161,identical
-CLPNS170,CLPNS170,identical
-CLPNS180,CLPNS180,identical
-CLPNS181,CLPNS181,identical
-CLPNSai150,CLPNSai150,identical
-CLPNSai170,CLPNSai170,identical
-CLPNSi140,CLPNSi140,identical
-CLPNSi150,CLPNSi150,identical
-CLPNSi160,CLPNSi160,identical
-CLPNSi170,CLPNSi170,identical
-CLPNSi180,CLPNSi180,identical
-CLPNSII120,CLPNSII120,identical
-CLPNSII140,CLPNSII140,identical
-CLPNSII141,CLPNSII141,identical
-CLPNSII150,CLPNSII150,identical
-CLPNSII160,CLPNSII160,identical
-CLPNSII161,CLPNSII161,identical
-CLPNSII170,CLPNSII170,identical
-CLPNSII180,CLPNSII180,identical
-CLPNSII181,CLPNSII181,identical
-CLPNSIIai150,CLPNSIIai150,identical
-CLPNSIIai170,CLPNSIIai170,identical
-CLPNSIIi140,CLPNSIIi140,identical
-CLPNSIIi150,CLPNSIIi150,identical
-CLPNSIIi160,CLPNSIIi160,identical
-CLPNSIIi170,CLPNSIIi170,identical
-CLPNSIIi180,CLPNSIIi180,identical
-DASYN120,DASYN120,identical
-DASYN140,DASYN140,identical
-DASYN141,DASYN141,identical
-DASYN150,DASYN150,identical
-DASYN160,DASYN160,identical
-DASYN161,DASYN161,identical
-DASYN170,DASYN170,identical
-DASYN180,DASYN180,identical
-DASYN181,DASYN181,identical
-DASYNai150,DASYNai150,identical
-DASYNai170,DASYNai170,identical
-DASYNi140,DASYNi140,identical
-DASYNi150,DASYNi150,identical
-DASYNi160,DASYNi160,identical
-DASYNi170,DASYNi170,identical
-DASYNi180,DASYNi180,identical
-GPDDA1,GPDDA1,identical
-GPDDA1e,GPDDA1e,identical
-GPDDA2,GPDDA2,identical
-GPDDA2e,GPDDA2e,identical
-GPDDA3,GPDDA3,identical
-GPDDA3e,GPDDA3e,identical
-GPDDA4,GPDDA4,identical
-GPDDA4e,GPDDA4e,identical
-GPDDA5,GPDDA5,identical
-GPDDA5e,GPDDA5e,identical
-PAPA120,PAPA120,identical
-PAPA140,PAPA140,identical
-PAPA141,PAPA141,identical
-PAPA150,PAPA150,identical
-PAPA160,PAPA160,identical
-PAPA161,PAPA161,identical
-PAPA170,PAPA170,identical
-PAPA180,PAPA180,identical
-PAPA181,PAPA181,identical
-PAPAai150,PAPAai150,identical
-PAPAai170,PAPAai170,identical
-PAPAi140,PAPAi140,identical
-PAPAi150,PAPAi150,identical
-PAPAi160,PAPAi160,identical
-PAPAi170,PAPAi170,identical
-PAPAi180,PAPAi180,identical
-PGSA120,PGSA120,identical
-PGSA140,PGSA140,identical
-PGSA141,PGSA141,identical
-PGSA150,PGSA150,identical
-PGSA160,PGSA160,identical
-PGSA161,PGSA161,identical
-PGSA170,PGSA170,identical
-PGSA180,PGSA180,identical
-PGSA181,PGSA181,identical
-PGSAai150,PGSAai150,identical
-PGSAai170,PGSAai170,identical
-PGSAi140,PGSAi140,identical
-PGSAi150,PGSAi150,identical
-PGSAi160,PGSAi160,identical
-PGSAi170,PGSAi170,identical
-PGSAi180,PGSAi180,identical
-PINOS120,PINOS120,identical
-PINOS140,PINOS140,identical
-PINOS141,PINOS141,identical
-PINOS150,PINOS150,identical
-PINOS160,PINOS160,identical
-PINOS161,PINOS161,identical
-PINOS170,PINOS170,identical
-PINOS180,PINOS180,identical
-PINOS181,PINOS181,identical
-PINOSai150,PINOSai150,identical
-PINOSai170,PINOSai170,identical
-PINOSi140,PINOSi140,identical
-PINOSi150,PINOSi150,identical
-PINOSi160,PINOSi160,identical
-PINOSi170,PINOSi170,identical
-PINOSi180,PINOSi180,identical
-PSD120,PSD120,identical
-PSD140,PSD140,identical
-PSD141,PSD141,identical
-PSD150,PSD150,identical
-PSD160,PSD160,identical
-PSD161,PSD161,identical
-PSD170,PSD170,identical
-PSD180,PSD180,identical
-PSD181,PSD181,identical
-PSDai150,PSDai150,identical
-PSDai170,PSDai170,identical
-PSDi140,PSDi140,identical
-PSDi150,PSDi150,identical
-PSDi160,PSDi160,identical
-PSDi170,PSDi170,identical
-PSDi180,PSDi180,identical
-PSSA120,PSSA120,identical
-PSSA140,PSSA140,identical
-PSSA141,PSSA141,identical
-PSSA150,PSSA150,identical
-PSSA160,PSSA160,identical
-PSSA161,PSSA161,identical
-PSSA170,PSSA170,identical
-PSSA180,PSSA180,identical
-PSSA181,PSSA181,identical
-PSSAai150,PSSAai150,identical
-PSSAai170,PSSAai170,identical
-PSSAi140,PSSAi140,identical
-PSSAi150,PSSAi150,identical
-PSSAi160,PSSAi160,identical
-PSSAi170,PSSAi170,identical
-PSSAi180,PSSAi180,identical
-TAGS120,TAGS120,identical
-TAGS140,TAGS140,identical
-TAGS141,TAGS141,identical
-TAGS150,TAGS150,identical
-TAGS160,TAGS160,identical
-TAGS161,TAGS161,identical
-TAGS170,TAGS170,identical
-TAGS180,TAGS180,identical
-TAGS181,TAGS181,identical
-TAGSai150,TAGSai150,identical
-TAGSai170,TAGSai170,identical
-TAGSi140,TAGSi140,identical
-TAGSi150,TAGSi150,identical
-TAGSi160,TAGSi160,identical
-TAGSi170,TAGSi170,identical
-TAGSi180,TAGSi180,identical
-GLYAT,GLYAT,identical
-GLYCK2,GLYCK2,identical
-PGCD,PGCD,identical
-PSERT,PSERT,identical
-PSP_L,PSP_L,identical
-SERD_L,SERD_L,identical
-THRD,THRD,identical
-ENO,ENO,identical
-FBA,FBA,identical
-FBA2,FBA2,identical
-FBP,FBP,identical
-GAPD,GAPD,identical
-GLBRAN2,GLBRAN2,identical
-GLCP,GLCP,identical
-GLCP2,GLCP2,identical
-GLCS1,GLCS1,identical
-GLDBRAN2,GLDBRAN2,identical
-GLGC,GLGC,identical
-HEX1,HEX1,identical
-PDH,PDH,identical
-PFK,PFK,identical
-PGI,PGI,identical
-PGK,PGK,identical
-PGM,PGM,identical
-PPDK,PPDK,identical
-PYK,PYK,identical
-TPI,TPI,identical
-GLXCL,GLXCL,identical
-GLYCK,GLYCK,identical
-ATPPRT,ATPPRT,identical
-FGLU,FGLU,identical
-FORAMD,FORAMD,identical
-HISTD,HISTD,identical
-HISTP,HISTP,identical
-HSTPT,HSTPT,identical
-IG3PS,IG3PS,identical
-IGPDH,IGPDH,identical
-IZPN,IZPN,identical
-PRAMPC,PRAMPC,identical
-PRATPP,PRATPP,identical
-PRMICI,PRMICIi,identical
-PRPPS,PRPPS,identical
-URCN,URCN,identical
-ASR,ASR,identical
-CA2t4,CA2t4,identical
-CD2abc,CD2abc,identical
-CD2t4,CD2t4,identical
-CLt3_2,CLt3_2,identical
-COBALT2t,COBALT2t,identical
-COBALT2t3,COBALT2t3,identical
-COELICHELINabc,COELICHELINabc,identical
-COELICHELINexs,COELICHELINexs,identical
-COELICHELINR1,COELICHELINR1,identical
-COELICHELINR2,COELICHELINR2,identical
-COELICHELINR3,COELICHELINR3,identical
-COELICHELINUt,COELICHELINUt,identical
-CU1abc,CU1abc,identical
-CU1O,CU1O,identical
-CU2abc,CU2abc,identical
-CU2t,CU2t,identical
-CUt3,CUt3,identical
-FE2t2,FE2t2,identical
-FE2t3,FE2t3,identical
-FE3abc,FE3abc,identical
-FEOXAMBabc,FEOXAMBabc,identical
-FEOXAMBexs,FEOXAMBexs,identical
-FEOXAMBR1,FEOXAMBR1,identical
-FEOXAMBR2,FEOXAMBR2,identical
-FEOXAMBR3,FEOXAMBR3,identical
-FEOXAMBUt,FEOXAMBUt,identical
-FEOXAMEabc,FEOXAMEabc,identical
-FEOXAMEexs,FEOXAMEexs,identical
-FEOXAMER1,FEOXAMER1,identical
-FEOXAMER2,FEOXAMER2,identical
-FEOXAMER3,FEOXAMER3,identical
-FEOXAMEUt,FEOXAMEUt,identical
-FERO,FERO,identical
-H2SO,H2SO,identical
-Kabc,Kabc,identical
-Kt2,Kt2,identical
-Kt3,Kt3,identical
-MG2t,MG2t,identical
-MG2uabc,MG2uabc,identical
-MN2t3,MN2t3,identical
-MOBDabc,MOBDabc,identical
-NAt3_1,NAt3,identical
-NAt3_2,NAt3_2,identical
-NH4t,NH4t,identical
-NI2t,NI2t,identical
-NI2t3,NI2t3,identical
-Niabc,NI2uabc,identical
-NO2t2r,NO2t2r,identical
-NO3t7,NO3t7,identical
-NOt,NOt,identical
-O2t,O2t,identical
-PIt2r,PIt2r,identical
-Piabc,Piuabc,identical
-SO4t2,SO4t2,identical
-SULabc,SULabc,identical
-TUNGSabc,TUNGSabc,identical
-ZN2t3,ZN2t3,identical
-ZNabc,ZNabc,identical
-DGI,DGI,identical
-INS2D,INS2D,identical
-INSDH,INSDH,identical
-MI1PS,MI1PS,identical
-MI1PS2,MI1PS2,identical
-THCHDH,THCHDH,identical
-2MBCOATA,2MBCOATA,identical
-ACACT1r,ACACT1r,identical
-ACACT2r,ACACT2r,identical
-ACACT3r,ACACT3r,identical
-ACACT4r,ACACT4r,identical
-ACACT5r,ACACT5r,identical
-ACACT6r,ACACT6r,identical
-ACACT7r,ACACT7r,identical
-ACACT8r,ACACT8r,identical
-ACCOAC,ACCOAC,identical
-ACOAD1f,ACOAD1f,identical
-ACOAD2f,ACOAD2f,identical
-ACOAD3f,ACOAD3f,identical
-ACOAD4f,ACOAD4f,identical
-ACOAD5f,ACOAD5f,identical
-ACOAD6f,ACOAD6f,identical
-ACOAD7f,ACOAD7f,identical
-ACOAD8f,ACOAD8f,identical
-ACOATA,ACOATA,identical
-BCOATA,BCOATA,identical
-CTECOAI6,CTECOAI6,identical
-CTECOAI7,CTECOAI7,identical
-CTECOAI8,CTECOAI8,identical
-ECOAH2,ECOAH2,identical
-ECOAH3,ECOAH3,identical
-ECOAH4,ECOAH4,identical
-ECOAH5,ECOAH5,identical
-ECOAH6,ECOAH6,identical
-ECOAH7,ECOAH7,identical
-ECOAH8,ECOAH8,identical
-HACD1,HACD1,identical
-HACD2,HACD2,identical
-HACD3,HACD3,identical
-HACD4,HACD4,identical
-HACD5,HACD5,identical
-HACD6,HACD6,identical
-HACD7,HACD7,identical
-HACD8,HACD8,identical
-IBCOATA,IBCOATA,identical
-IVCOATA,IVCOATA,identical
-KAS14,KAS14,identical
-KAS15,KAS15,identical
-MACPD,MACPD,identical
-MCOATA,MCOATA,identical
-PCOATA,PCOATA,identical
-AHCi,AHC,identical
-AHSERL2,AHSERL2r,identical
-CYSTL,CYSTL,identical
-HCYSMT,HCYSMT,identical
-HSST,HSST,identical
-METAT,METAT,identical
-METOX1s,METOX1s,identical
-METOX2s,METOX2s,identical
-METS,METS,identical
-METSOXR1,METSOXR1,identical
-METSOXR2,METSOXR2,identical
-MHPGLUT,MHPGLUT,identical
-MTAP,MTAP,identical
-MTRI,MTRI,identical
-SHSL1,SHSL1,identical
-SHSL2,SHSL2,identical
-SPMS,SPMS,identical
-SPRMS,SPRMS,identical
-MCTP1A,MCTP1A,identical
-MCTP1B,MCTP1B,identical
-MCTP2A,MCTP2A,identical
-MDDCP1,MDDCP1,identical
-MDDCP2,MDDCP2,identical
-MDDCP3,MDDCP3,identical
-MDDCP4,MDDCP4,identical
-MDDCP5,MDDCP5,identical
-MPTG,MPTG,identical
-MPTG2,MPTG2,identical
-4PCP,4PCP,identical
-ACGAMK,ACGAMK,identical
-AGM4PCP,AGM4PCP,identical
-AM4PCP,AM4PCP,identical
-ANHMK,ANHMK,identical
-LADGMDH,LADGMDH,identical
-MDDEP1,MDDEP1,identical
-MDDEP2,MDDEP2,identical
-MDDEP3,MDDEP3,identical
-MDDEP4,MDDEP4,identical
-UM4PCP,UM4PCP,identical
-ALLTN,ALLTN,identical
-NO3R2,NO3R2,identical
-NODOx,NODOx,identical
-NODOy,NODOy,identical
-UGLYCH,UGLYCH,identical
-23PDE2e,23PDE2e,identical
-23PDE4e,23PDE4e,identical
-23PDE7e,23PDE7e,identical
-23PDE9e,23PDE9e,identical
-3NTD2e,3NTD2e,identical
-3NTD4e,3NTD4e,identical
-3NTD7e,3NTD7e,identical
-3NTD9e,3NTD9e,identical
-ADA,ADA,identical
-ADK1,ADK1,identical
-ADK2,ADK2i,identical
-ADK3,ADK3i,identical
-ADK4,ADK4i,identical
-ADNCYC,ADNCYC,identical
-ADNK1,ADNK1,identical
-ADPRDP,ADPRDP,identical
-ADPT,ADPT,identical
-ATPHs,ATPHs,identical
-CSND,CSND,identical
-CYTD,CYTD,identical
-CYTK1,CYTK1,identical
-CYTK2,CYTK2,identical
-DADA,DADA,identical
-DADK,DADK,identical
-DATPHs,DATPHs,identical
-DCTPD,DCTPD,identical
-DCTPD2,DCTPD2,identical
-DCYTD,DCYTD,identical
-DGK1,DGK1,identical
-DTMPK,DTMPK,identical
-DURIK1,DURIK1,identical
-DURIPP,DURIPP,identical
-DUTPDP,DUTPDP,identical
-GK1i,GK1i,identical
-GK2i,GK2i,identical
-GTPHs,GTPHs,identical
-GUACYC,GUACYC,identical
-GUAPRT,GUAPRT,identical
-HXAND,HXAND,identical
-HXPRT,HXPRT,identical
-INSH,INSH,identical
-NDPK1,NDPK1,identical
-NDPK2,NDPK2,identical
-NDPK3,NDPK3,identical
-NDPK4,NDPK4,identical
-NDPK5,NDPK5,identical
-NDPK6,NDPK6,identical
-NDPK7,NDPK7,identical
-NDPK8,NDPK8,identical
-NDPK9,NDPK9,identical
-NNATr,NNAT,identical
-NTD10e,NTD10e,identical
-NTD11e,NTD11e,identical
-NTD12e,NTD12e,identical
-NTD1e,NTD1e,identical
-NTD2e,NTD2e,identical
-NTD3e,NTD3e,identical
-NTD4e,NTD4e,identical
-NTD5e,NTD5e,identical
-NTD6e,NTD6e,identical
-NTD7e,NTD7e,identical
-NTD8e,NTD8e,identical
-NTD9e,NTD9e,identical
-NTP1,NTP1,identical
-NTP10,NTP10,identical
-NTP3,NTP3,identical
-NTP5,NTP5,identical
-NTPP1,NTPP1,identical
-NTPP10,NTPP10,identical
-NTPP11,NTPP11,identical
-NTPP2,NTPP2,identical
-NTPP3,NTPP3,identical
-NTPP4,NTPP4,identical
-NTPP5,NTPP5,identical
-NTPP6,NTPP6,identical
-NTPP7,NTPP7,identical
-NTPP8,NTPP8,identical
-NTPP9,NTPP9,identical
-NTPTP1,NTPTP1,identical
-NTPTP2,NTPTP2,identical
-PDE1,PDE1,identical
-PDE4,PDE4,identical
-PUNP1,PUNP1,identical
-PUNP2,PUNP2,identical
-PUNP3,PUNP3,identical
-PUNP4,PUNP4,identical
-PUNP5,PUNP5,identical
-PUNP6,PUNP6,identical
-PUNP7,PUNP7,identical
-RNDR1,RNDR1,identical
-RNDR2,RNDR2,identical
-RNDR3,RNDR3,identical
-RNDR4,RNDR4,identical
-TMDK1,TMDK1,identical
-TMDPP,TMDPP,identical
-TMDSf,TMDSf,identical
-UMPK,UMPK,identical
-UPPRT,UPPRT,identical
-XAND,XAND,identical
-XTSNH,XTSNH,identical
-ATPS4r,ATPS4r,identical
-CYO2a,CYO2a,identical
-CYO2b,CYO2b,identical
-CYTBD2,CYTBD2,identical
-FRD8,FRD8,identical
-G3PD6,G3PD6,identical
-L_LACD4,L-LACD4,identical
-NADH10b,NADH10,identical
-NADH17b,NADH17,identical
-NADTRHD,NADTRHD,identical
-NTRIR2x,NTRIR2x,identical
-POX3,POX3,identical
-PPK2r,PPK2r,identical
-QMO3,QMO3,identical
-SUCD3,SUCD3,identical
-THD2,THD2,identical
-TRDR,TRDR,identical
-EDA,EDA,identical
-FBA3,FBA3,identical
-GND,GND,identical
-GND2,GND2,identical
-PFK_3,PFK_3,identical
-PGL,PGL,identical
-RPE,RPE,identical
-RPI,RPI,identical
-TALA,TALA,identical
-TKT1,TKT1,identical
-TKT2,TKT2,identical
-MME,MME,identical
-MMM,MMM,identical
-MMSAD3,MMSAD3,identical
-MMSAD5,MMSAD5,identical
-PPCOAC,PPCOAC,identical
-ADSL1r,ADSL1r,identical
-ADSL2r,ADSL2r,identical
-ADSS,ADSS,identical
-AICART,AICART,identical
-AIRCr,AIRCr,identical
-ASPCT,ASPCT,identical
-CTPS1,CTPS1,identical
-CTPS2,CTPS2,identical
-DHORD5,DHORD5,identical
-DHORTS,DHORTS,identical
-GARFT,GARFT,identical
-GLUPRT,GLUPRT,identical
-GMPS2,GMPS2,identical
-IMPC,IMPC,identical
-IMPD,IMPD,identical
-OMPDC,OMPDC,identical
-ORPT,ORPT,identical
-PRAGSr,PRAGSr,identical
-PRAIS,PRAIS,identical
-PRASCSi,PRASCSi,identical
-PRFGS,PRFGS,identical
-ACKr,ACKr,identical
-ACS,ACS,identical
-ALCD2x,ALCD2x,identical
-ALCD2y,ALCD2y,identical
-LDH_D,LDH_D,identical
-PC,PC,identical
-PTAr,PTAr,identical
-G3PCT,G3PCT,identical
-TAGO,TAGO,identical
-TECA1S,TECA1S,identical
-TECA2S,TECA2S,identical
-TECA3S,TECA3S,identical
-2OXOADOX,2OXOADOX,identical
-AOBUTDs,AOBUTDs,identical
-APTNAT,APTNAT,identical
-ASAD,ASAD,identical
-ASPK,ASPK,identical
-DAPAT,DAPAT,identical
-DAPDC,DAPDC,identical
-DAPE,DAPE,identical
-DHDPRy,DHDPRy,identical
-DHDPS,DHDPS,identical
-ECOAH1,ECOAH1,identical
-GLCOAS,GLCOAS,identical
-GLUTCOADHc,GLUTCOADHc,identical
-HSDy,HSDy,identical
-HSK,HSK,identical
-LYSDC,LYSDC,identical
-OXPTNDH,OXPTNDH,identical
-PPRDNDH,PPRDNDH,identical
-SDPDS,SDPDS,identical
-SDPTA,SDPTA,identical
-THDPS,THDPS,identical
-THRA2i,THRA2i,identical
-THRAi,THRAi,identical
-THRS,THRS,identical
-14GLUCANabc,14GLUCANabc,identical
-5DGLCNt2r,5DGLCNt2r,identical
-5MTRt2,5MTRt,identical
-ABTabc,ABTabc,identical
-ABUTt2r,ABUTt2,identical
-ACALDt,ACALDt,identical
-ACGApts,ACGApts,identical
-ACSERt,ACSERt,identical
-ACt4,ACt4,identical
-ACTt,ACTt,identical
-AKGt2r,AKGt2r,identical
-ALAabc,ALAabc,identical
-ALAALAabc,ALAALAabc,identical
-ALAt2r,ALAt2r,identical
-ALAt4,ALAt4,identical
-ALLTNt2r,ALLTNt2r,identical
-ARBabc,ARBabc,identical
-ARGabc,ARGabc,identical
-ARGAGMt7,ARGAGMt7,identical
-ARGt3,ARGt3,identical
-ASNt2r,ASNt2r,identical
-ASO3t8,ASO3t8,identical
-ASPabc,ASPabc,identical
-BALAt2,BALAt2,identical
-BHBt,BHBt,identical
-BTNt2i,BTNt2i,identical
-CADVt,CADVt,identical
-CBL1abc,CBL1abc,identical
-CDAabc,CDAabc,identical
-CELLBabc,CELBabc,identical
-CHLabc,CHLabc,identical
-CHLt2,CHLt2,identical
-CHTBSabc,CHTBSabc,identical
-CITt3,CITt3,identical
-CITt7,CITt7,identical
-CO2t,CO2t,identical
-CSNt2,CSNt2,identical
-CSNt2r,CSNt2r,identical
-CYSabc,CYSabc,identical
-CYSabc2,CYSabc2,identical
-CYSt,CYSt,identical
-CYTDt2,CYTDt2r,identical
-DADNt2,DADNt2,identical
-DALAt2r,DALAt2,identical
-DAPabc,DAPabc,identical
-DCYTt2,DCYTt2,identical
-DDGLCNt2r,DDGLCNt2r,identical
-DGSNt2,DGSNt2,identical
-DHAt,DHAt,identical
-DINSt2,DINSt2,identical
-D_LACt2,D-LACt2,identical
-DRIBt,DRIBt,identical
-DURIt2,DURIt2,identical
-EPMt2,EPMt2,identical
-ETHAt2,ETHAt2,identical
-ETOHt,ETOHtr,identical
-FALDt,FALDt,identical
-FORti,FORti,identical
-FRUpts,FRUpts,identical
-FUMt2_2,FUMt2_2,identical
-GALCTNt2,GALCTNt2,identical
-GALIt2,GALIt2,identical
-GALt4,GALt4,identical
-GGLt2,GGLt2,identical
-GLCNt2r,GLCNt2r,identical
-GLCRt2r,GLCRt2r,identical
-GLCt2,GLCt2,identical
-GLNabc,GLNabc,identical
-GLUabc,GLUabc,identical
-GLUt2r,GLUt2r,identical
-GLYALDt,GLYALDt,identical
-GLYBabc,GLYBabc,identical
-GLYCAt2r,GLYCAt2r,identical
-GLYCLTt4,GLYCLTt4,identical
-GLYCt,GLYCt,identical
-GLYt2r,GLYt2r,identical
-GLYt4,GLYt4,identical
-GSNt2,GSNt2,identical
-GUAt,GUAt,identical
-GUAt2r,GUAt2,identical
-H2O2t,H2O2t,identical
-H2Ot,H2Ot,identical
-H2St1,H2St1,identical
-HISt2r,HISt2r,identical
-HOMt2,HOMt2,identical
-IDONt2r,IDONt2r,identical
-ILEabc,ILEabc,identical
-INDOLEt2r,INDOLEt2r,identical
-INOSTt4,INOSTt4,identical
-INSt2,INSt2r,identical
-LALADGLUt,LALADGLUt,identical
-LCTSabc,LCTSabc,identical
-LEUabc,LEUabc,identical
-LIPOt2,LIPOt2,identical
-L_LACt2r,L-LACt2r,identical
-LYSabc,LYSabc,identical
-LYSt2r,LYSt2,identical
-LYSt3r,LYSt3,identical
-LYXt2,LYXt2,identical
-MALt2_2,MALt2_2,identical
-MALt3,MALt3,identical
-MALTabc,MALTabc,identical
-MALTHXabc,MALTHXabc,identical
-MALTPTabc,MALTPTabc,identical
-MALTTRabc,MALTTRabc,identical
-MALTTTRabc,MALTTTRabc,identical
-MANt2,MANt2,identical
-MELIBt2,MELIBt2,identical
-MELTt2,MELTt2,identical
-MEOHtr,MEOHtr,identical
-METabc,METabc,identical
-MNLabc,MNLabc,identical
-MNt2,MNt2,identical
-N2Ot,N2Ot,identical
-NACt,NACt,identical
-NMNP,NMNPt,identical
-ORNabc,ORNabc,identical
-OROTt2_2,OROTt2_2,identical
-PACALDt2r,PACALDt2r,identical
-PHEt2r,PHEt2r,identical
-PNTOt4,PNTOt4,identical
-PPAt4,PPAt4,identical
-PROabc,PROabc,identical
-PROt2r,PROt2r,identical
-PROt4,PROt4,identical
-PTRCabc,PTRCabc,identical
-PTRCt2,PTRCt2,identical
-PYDAMt,PYDAMt,identical
-PYDXNt,PYDXNt,identical
-PYDXt,PYDXt,identical
-RIBabc,RIBabc,identical
-RMNabc,RMNabc,identical
-SALCpts,SALCpts,identical
-SBTabc,SBTabc,identical
-SERt2r,SERt2r,identical
-SKMt2,SKMt2,identical
-SPMDabc,SPMDabc,identical
-SPMDt3,SPMDt3,identical
-SUCCt2_2,SUCCt2_2,identical
-TARTt2_3,TARTt2_3,identical
-TAURabc,TAURabc,identical
-THMabc,THMabc,identical
-THRabc,THRabc,identical
-THRt2,THRt2,identical
-THYMt3r,THYMt3r,identical
-TREabc,TREabc,identical
-TRPt2r,TRPt2r,identical
-TYRt2r,TYRt2r,identical
-UREAt,UREAt,identical
-VALabc,VALabc,identical
-VANK,VANK,identical
-XANt2,XANt2,identical
-XYLabc,XYLabc,identical
-XYLTabc,XYLTabc,identical
-ALATRS,ALATRS,identical
-ARGTRS,ARGTRS,identical
-ASNTRS,ASNTRS,identical
-ASPTRS,ASPTRS,identical
-CYSTRS,CYSTRS,identical
-FMETTRS,FMETTRS,identical
-GLNTRS,GLNTRS,identical
-GLYTRS,GLYTRS,identical
-HISTRS,HISTRS,identical
-ILETRS,ILETRS,identical
-LEUTRS,LEUTRS,identical
-LYSTRS,LYSTRS,identical
-METTRS,METTRS,identical
-PHETRS,PHETRS,identical
-PROTRS,PROTRS,identical
-SERTRS,SERTRS,identical
-THRTRS,THRTRS,identical
-TRPTRS,TRPTRS,identical
-TYRTRS,TYRTRS,identical
-VALTRS,VALTRS,identical
-34HPPOR,34HPPOR,identical
-ANPRT,ANPRT,identical
-ANS,ANS,identical
-CHORM,CHORM,identical
-CHORS,CHORS,identical
-DDPA,DDPA,identical
-DHQS,DHQS,identical
-DHQTi,DHQTi,identical
-FANH,FANH,identical
-FKYNH,FKYNH,identical
-FUMAC,FUMAC,identical
-HGNTOR,HGNTOR,identical
-HKYNH,HKYNH,identical
-IGPS,IGPS,identical
-KYN,KYN,identical
-LFORKYNHYD,LFORKYNHYD,identical
-MACACI,MACACI,identical
-PEAMNO,PEAMNO,identical
-PHETA1,PHETA1,identical
-PHYCBOXL,PHYCBOXL,identical
-PPND,PPND,identical
-PPNDH,PPNDH,identical
-PRAIi,PRAIi,identical
-PSCVT,PSCVT,identical
-SHK3Dr,SHK3Dr,identical
-SHKK,SHKK,identical
-TRPO2,TRPO2,identical
-TRPS1,TRPS1,identical
-TRPS2,TRPS2,identical
-TRPS3,TRPS3,identical
-TYRTA,TYRTA,identical
-ACONIs,ACONIs,identical
-ACONMT,ACONMT,identical
-ATPM,ATPM,identical
-BETALDHx,BETALDHx,identical
-BETALDHy,BETALDHy,identical
-CAT,CAT,identical
-CCCR,CCCR,identical
-CHOLD,CHOLD,identical
-EMCCCM,EMCCCM,identical
-EME,EME,identical
-GTHPi,GTHPi,identical
-HCO3E,HCO3E,identical
-PRDX,PRDX,identical
-SPODM,SPODM,identical
-THIORDXi,THIORDXi,identical
-REDS1,REDS1,identical
-REDS10,REDS10,identical
-REDS11,REDS11,identical
-REDS12,REDS12,identical
-REDS13x,REDS13x,identical
-REDS13y,REDS13y,identical
-REDS14,REDS14,identical
-REDS15,REDS15,identical
-REDS16,REDS16,identical
-REDS17x,REDS17x,identical
-REDS17y,REDS17y,identical
-REDS18,REDS18,identical
-REDS19,REDS19,identical
-REDS2,REDS2,identical
-REDS20,REDS20,identical
-REDS21x,REDS21x,identical
-REDS21y,REDS21y,identical
-REDS22,REDS22,identical
-REDS23,REDS23,identical
-REDS24,REDS24,identical
-REDS25,REDS25,identical
-REDS26,REDS26,identical
-REDS27,REDS27,identical
-REDS28,REDS28,identical
-REDS29,REDS29,identical
-REDS3,REDS3,identical
-REDS30,REDS30,identical
-REDS31,REDS31,identical
-REDS32,REDS32,identical
-REDS33,REDS33,identical
-REDS34,REDS34,identical
-REDS35,REDS35,identical
-REDS36,REDS36,identical
-REDS37,REDS37,identical
-REDS4,REDS4,identical
-REDS5x,REDS5x,identical
-REDS5y,REDS5y,identical
-REDS6,REDS6,identical
-REDS7,REDS7,identical
-REDS8,REDS8,identical
-REDS9x,REDS9x,identical
-REDS9y,REDS9y,identical
-3HBCOAHL,3HBCOAHL,identical
-ACHBS,ACHBS,identical
-ACLS,ACLS,identical
-ACOAD9,ACOAD9,identical
-ACOADH1,ACOADH1,identical
-DHAD1,DHAD1,identical
-DHAD2,DHAD2,identical
-ECOAH12,ECOAH12,identical
-ECOAH9ir,ECOAH9ir,identical
-HACD9,HACD9,identical
-HIBD,HIBD,identical
-HMGL,HMGL,identical
-ILEDHr,ILEDxi,identical
-ILETA,ILETA,identical
-IPMD,IPMD,identical
-IPPMIa,IPPMIa,identical
-IPPMIb,IPPMIb,identical
-IPPS,IPPS,identical
-KARA1i,KARA1i,identical
-KARA2,KARA2i,identical
-LEUTA,LEUTA,identical
-MCCC,MCCC,identical
-MGCH,MGCH,identical
-OCOAT1,OCOAT1,identical
-OIVD1r,OIVD1,identical
-OIVD2,OIVD2,identical
-OIVD3,OIVD3,identical
-OMCDC,OMCDC,identical
-THRD_L,THRD_L,identical
-VALTA,VALTA,identical
-ALDD19xr,ALDD19x,different name
-ALDD2x,ALDD2x,different name
-ALLTAMH2,ALLTAMH,different name
-BGLA,BGLU,different name
-ABTDG,DABTD,different name
-D4DGCD,DHDGLCD,different name
-MNLDH2,MNLD,different name
-PHACTE,PACCOATE,different name
-AGMDA,AGMD,different name
-CMPA,CPTRCA,different name
-G5SD,G5SD,different name
-OCT,OCBTi,different name
-CMLDC,4CMLCL,different name
-IBTMr,IBMi,different name
-CDAS12,CDAS12,different name
-ALAALAr,ALAALA,different name
-FUTH,FUTALH,different name
-PPTT,PENTT,different name
-THRPDC,THRPD,different name
-LTHRK,THRPS,different name
-GHMT2r,GHMT2,different name
-G1PCTYT,GLGCc,different name
-HISNH4L,HISD,different name
-D5KGK,DDGK,different name
-D5KGPA,DDPGA2,different name
-METB1,METB1r,different name
-SHSL4r,SHSL4,different name
-ATAH,ALLTAH,different name
-RNDR5,RNDR1c,different name
-RNDR6,RNDR2c,different name
-RNDR7,RNDR3c,different name
-RNDR8,RNDR4c,different name
-G1Dx,G1DH,different name
-G6PDH2r,G6PDH2,different name
-GLC15LACH,GLNLASE,different name
-DX5PGLYCPL,PKT,different name
-MMTSAO,MMSAD4,different name
-ADEt,ADEt2r,different name
-ADNt2,ADNt2r,different name
-ASPt2r,ASPt2,different name
-ASPt2_2,ASPt2_2,different name
-CBIabc,CBIuabc,different name
-GLYBt2r,GLYBt2,different name
-GLYCLTt2r,GLYCLTt2i,different name
-PYRt2,PYRt2r,different name
-RAFFINt2,RAFt2,different name
-THMDt2,THMDt2r,different name
-URAt2,URAt2r,different name
-URIt2,URIt2r,different name
-XTSNt2,XTSNt2r,different name
-MACCOAT,ACACT10r,different name
-MBCOAi,ACOAD8,different name
-VALDHr,VALDxi,different name
-ACTS17,ACTS17,Identical ID
-ACTS18,ACTS18,Identical ID
-ACTS19,ACTS19,Identical ID
-GALKr,GALKr,Identical ID
-,CPC4MT,Sco4 specific
-,CPC5MT,Sco4 specific
-,FOMETRi,Sco4 specific
-,URIC,Sco4 specific
-ALBFLONS,RXN-9352,KEGG
-,RXN-17569,Sco4 specific
-,RXN-8783,Sco4 specific
-,FUCPALDOL-RXN,Sco4 specific
-,TRE6PHYDRO-RXN,Sco4 specific
-,RXN-17568,Sco4 specific
-,2.7.1.121-RXN,Sco4 specific
-,BENZOYLFORMATE-DECARBOXYLASE-RXN,Sco4 specific
-,RXN-18387,Sco4 specific
-,BETA-UREIDOPROPIONASE-RXN,Sco4 specific
-,RXN-11565,Sco4 specific
-,STREPTOMYCIN-6-KINASE-RXN,Sco4 specific
-HISTDa,HISTALDEHYD-RXN,KEGG
-,SS-BUTANEDIOL-DEHYDROGENASE-RXN,Sco4 specific
-SSALx,SUCCINATE-SEMIALDEHYDE-DEHYDROGENASE-RXN,biocyc and KEGG
-,RXN-11081,Sco4 specific
-,SOLDEHYD-RXN,Sco4 specific
-,RXN-15902,Sco4 specific
-,GUANIDINOBUTYRASE-RXN,Sco4 specific
-LPFPLT,RXN-8078,biocyc and KEGG
-,RXN-11080,Sco4 specific
-,RXN-12931,Sco4 specific
-,RXN-12398,Sco4 specific
-,MHPHYDROXY-RXN,Sco4 specific
-GMPS,GMP-SYN-NH3-RXN,KEGG
-,RXN-15819,Sco4 specific
-,AMINOBENZCOALIG-RXN,Sco4 specific
-,RXN-9990,Sco4 specific
-,UROPORIIIMETHYLTRANSA-RXN,Sco4 specific
-,RXN-8460,Sco4 specific
-,RXN-9932,Sco4 specific
-,RXN-13783_NADPH,Sco4 specific
-,RXN-9931,Sco4 specific
-ALBFLOLS,RXN-9350,KEGG
-,RXN-12752,Sco4 specific
-,RXN-17129,Sco4 specific
-,RXN-10901,Sco4 specific
-,RXN-15586,Sco4 specific
-,RXN-17615,Sco4 specific
-EPIZSYN,RXN-9349,KEGG
-,RXN-1126,Sco4 specific
-,FORMIMINOGLUTAMATE-DEIMINASE-RXN,Sco4 specific
-,RXN-10035,Sco4 specific
-,FHLMULTI-RXN,Sco4 specific
-,RXN-15585,Sco4 specific
-,RXN-13072,Sco4 specific
-,RXN-12976,Sco4 specific
-,RXN-15892_NADPH,Sco4 specific
-,RXN-8582,Sco4 specific
-,AMINO-CARBOXYMUCONATE-SEMIALDEHYDE-RXN,Sco4 specific
-,PYRIDOXINE-4-DEHYDROGENASE-RXN,Sco4 specific
-,RXN-8024_NADPH,Sco4 specific
-,RXN-663,Sco4 specific
-,LINC-RXN,Sco4 specific
-,RXN0-6727,Sco4 specific
-,RXN-11211,Sco4 specific
-,1.2.1.66-RXN,Sco4 specific
-,RXN-16308,Sco4 specific
-,DARABALDOL-RXN,Sco4 specific
-,RXN-8003_NADPH,Sco4 specific
-,XYLONATE-DEHYDRATASE-RXN,Sco4 specific
-,RXN-15264,Sco4 specific
-,RXNARA-8002,Sco4 specific
-,RXN-17645,Sco4 specific
-,RXN-9832,Sco4 specific
-,RXN-14536,Sco4 specific
-,HYDROXYPYRUVATE-REDUCTASE-RXN_NADPH,Sco4 specific
-,RXN-13533,Sco4 specific
-,2.4.1.83-RXN,Sco4 specific
-,RXN-16912,Sco4 specific
-,RXN0-3921,Sco4 specific
-,RXN-12921,Sco4 specific
-,ANTHRANILOYL-COA-MONOOXYGENASE-RXN_NADPH,Sco4 specific
-,RXN-12900,Sco4 specific
-,RXN-16262,Sco4 specific
-,RXN-8959,Sco4 specific
-,RXN-15131,Sco4 specific
-,CHOLESTEROL-OXIDASE-RXN,Sco4 specific
-,RXN-12707_NADPH,Sco4 specific
-,RXN-18036,Sco4 specific
-,2.1.1.137-RXN,Sco4 specific
-,THIOSULFATE-SULFURTRANSFERASE-RXN,Sco4 specific
-,HYDROXYBENZOYLFORMATE-DECARBOXYLASE-RXN,Sco4 specific
-,RXN-865,Sco4 specific
-,RXN0-4341,Sco4 specific
-,RXN-12940_NADPH,Sco4 specific
-,RXN-15907,Sco4 specific
-,RXN-12402,Sco4 specific
-,RXN-10996,Sco4 specific
-,RXN-16164_NADPH,Sco4 specific
-,RXN-9910,Sco4 specific
-,RXN-14196,Sco4 specific
-,RXN-8824,Sco4 specific
-,RXN-15590,Sco4 specific
-,TRANS-L-3-HYDROXYPROLINE-DEHYDRATASE-RXN,Sco4 specific
-,RXN-17982,Sco4 specific
-,BENZYL-ALC-DEHYDROGENASE-RXN,Sco4 specific
-,RXN-12654,Sco4 specific
-,RXN-11566,Sco4 specific
-,RXN-11187,Sco4 specific
-,RXN-15924,Sco4 specific
-,4.1.1.86-RXN,Sco4 specific
-,RXN-16964,Sco4 specific
-4HXPUHBT,RXN-8079,KEGG
-,4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN,Sco4 specific
-,RXN-12399,Sco4 specific
-,RXN-12975,Sco4 specific
-MCPST,MERCAPYSTRANS-RXN,biocyc and KEGG
-,RXN-14431,Sco4 specific
-,RXN-8581,Sco4 specific
-,RXN-11861,Sco4 specific
-,4-NITROPHENOL-2-MONOOXYGENASE-RXN,Sco4 specific
-,RXN-16310,Sco4 specific
-PYNP2r,URPHOS-RXN,biocyc and KEGG
-,RXN-9933,Sco4 specific
-,RXN-8023_NADPH,Sco4 specific
-,RXN0-1862,Sco4 specific
-,MALYL-COA-LYASE-RXN,Sco4 specific
-,RXN-8964,Sco4 specific
-,RXN-11002,Sco4 specific
-ALBFLOLR,RXN-9351,KEGG
-,RXN-8568,Sco4 specific
-,RXN0-1861,Sco4 specific
-,RXN-8781_NADPH,Sco4 specific
-,RXN-10898,Sco4 specific
-,GDP-MANNOSE-6-DEHYDROGENASE-RXN,Sco4 specific
-,RXN-13129,Sco4 specific
-,RXNDQC-2,Sco4 specific
-,RXN-1884,Sco4 specific
-,TRYPTOPHAN-2-MONOOXYGENASE-RXN,Sco4 specific
-,RXN-17612,Sco4 specific
-,GLCNACPTRANS-RXN,Sco4 specific
-,RXN-11791,Sco4 specific
-,RXN-14724,Sco4 specific
-,RXN-8743,Sco4 specific
-,RXN-18404,Sco4 specific
-,FRUCTOSE-6-PHOSPHATE-PHOSPHOKETOLASE-RXN,Sco4 specific
-,6.3.2.7-RXN,Sco4 specific
-,ACETOLACTREDUCTOISOM-RXN,Sco4 specific
-SQLCYC1,5.4.99.17-RXN,KEGG
-,RXN-11210,Sco4 specific
-ICHORS,ISOCHORSYN-RXN,biocyc and KEGG
-,2-AMINOADIPATE-AMINOTRANSFERASE-RXN,Sco4 specific
-,RXN-15920,Sco4 specific
-SQLCYC2,RXN-4961,KEGG
-,RXN-9718,Sco4 specific
-,RXN-15893,Sco4 specific
-,BENZALDEHYDE-DEHYDROGENASE-NAD+-RXN,Sco4 specific
-,RXN-8583,Sco4 specific
-,RXN-11968,Sco4 specific
-,4-COUMARATE--COA-LIGASE-RXN,Sco4 specific
-,DIHYDROPYRIMIDINASE-RXN,Sco4 specific
-HISTDb,HISTOLDEHYD-RXN,KEGG
-,BUTYRYL-COA-DEHYDROGENASE-RXN,Sco4 specific
-,DIENOYLCOAREDUCT-RXN,Sco4 specific
-,RXN-8182,Sco4 specific
-,RXN-14429,Sco4 specific
-,DEHYDDEOXGALACTKIN-RXN,Sco4 specific
-,URONATE-DEHYDROGENASE-RXN,Sco4 specific
-,R125-RXN,Sco4 specific
-,RXN1F-20,Sco4 specific
-,1.14.13.8-RXN,Sco4 specific
-,RXN-8060,Sco4 specific
-,RXN-14395,Sco4 specific
-,GLYCOLATE-REDUCTASE-RXN,Sco4 specific
-,RXN-10139,Sco4 specific
-,RXN-12735,Sco4 specific
-,RXN-11407,Sco4 specific
-,GALLATE-DECARBOXYLASE-RXN,Sco4 specific
-,ALANINE--GLYOXYLATE-AMINOTRANSFERASE-RXN,Sco4 specific
-,RXN-8,Sco4 specific
-HPHL,RXN-6383,KEGG
-,COLCYD-RXN,Sco4 specific
-,CDPDIGLYSYN-RXN,Sco4 specific
-,RXN-5921_NADPH,Sco4 specific
-,RIBITOL-2-DEHYDROGENASE-RXN,Sco4 specific
-,RXN-11805,Sco4 specific
-,1.1.1.127-RXN,Sco4 specific
-,RXN-17143,Sco4 specific
-,RXN0-5398,Sco4 specific
-,RXN66-81,Sco4 specific
-,RXN-14671,Sco4 specific
-,RXN-17165,Sco4 specific
-,L-ARABINONATE-DEHYDRATASE-RXN,Sco4 specific
-,RXN-13142,Sco4 specific
-,R364-RXN_NADPH,Sco4 specific
-NOR_syn,FERREDOXIN--NITRITE-REDUCTASE-RXN,KEGG
-,RXN-14670,Sco4 specific
-,2.1.1.138-RXN,Sco4 specific
-,RXN-13141,Sco4 specific
-,RXN-14430,Sco4 specific
-,RXN-8580,Sco4 specific
-,RXN-905,Sco4 specific
-,1.2.1.67-RXN,Sco4 specific
-,DEHYDOGLUCONOKINASE-RXN,Sco4 specific
-,RXN-15946,Sco4 specific
-,DHBAMPLIG-RXN,Sco4 specific
-,RXN0-4342,Sco4 specific
-,GLYOXII-RXN,Sco4 specific
-,ALLOPHANATE-HYDROLASE-RXN,Sco4 specific
-,RXN-10998,Sco4 specific
-,RXN-12345,Sco4 specific
-,RXN-10997,Sco4 specific
-,GLUTCYSLIG-RXN,Sco4 specific
-,RXN-12225_NADPH,Sco4 specific
-,7-ALPHA-HYDROXYSTEROID-DEH-RXN,Sco4 specific
-,RXN-17572,Sco4 specific
-,RXN-12223_NADPH,Sco4 specific
-,RXN-17571,Sco4 specific
-,6-HEXANOLIDE-HYDROLYSIS-RXN,Sco4 specific
-,RXN-12095,Sco4 specific
-,HYDROXYBENZALDEHYDE-OXIDATION-NADP-RXN,Sco4 specific
-SAMP1MET,RXN-8675,KEGG
-,2.5.1.32-RXN,Sco4 specific
-GRMCROS,RXN-8648,KEGG
-,RXN-13528_NADPH,Sco4 specific
-,2.5.1.68-RXN,Sco4 specific
-,RXN0-4301,Sco4 specific
-,RXN-8081,Sco4 specific
-,SORBITOL-6-PHOSPHATASE-RXN,Sco4 specific
-,2.4.1.216-RXN,Sco4 specific
-,RXN-9476,Sco4 specific
-GF4GL_0,RXN-8080,biocyc
-,RXN-10995_NADPH,Sco4 specific
-,RXN-12400,Sco4 specific
-,RXN-9475,Sco4 specific
-GALT,UTPHEXPURIDYLYLTRANS-RXN,biocyc and KEGG
-,MANNITOL-1-PHOSPHATASE-RXN,Sco4 specific
-,CYCLOHEXANOL-DEHYDROGENASE-RXN,Sco4 specific
-,1.14.12.1-RXN_NADPH,Sco4 specific
-,UREA-CARBOXYLASE-RXN,Sco4 specific
-ALBFLONR,RXN-9353,KEGG
-,RXN-10040,Sco4 specific
-,RXN-9909,Sco4 specific
-,RXN-12703_NADPH,Sco4 specific
-,RXN-11728,Sco4 specific
-GLUSy,GLUTAMATESYN-RXN,biocyc and KEGG
-,METHYL-GLYOXAL-DEHYDROG-RXN,Sco4 specific
-,ACETALD-DEHYDROG-RXN,Sco4 specific
-,1.4.3.19-RXN,Sco4 specific
-,1.14.13.59-RXN,Sco4 specific
-,CYTIKIN-RXN,Sco4 specific
-,CYTIDINEKIN-RXN,Sco4 specific
-,RXN-8784,Sco4 specific
-,RXN-5861,Sco4 specific
-HOPNTAL3,MHPELY-RXN,biocyc and KEGG
-SALOR,SALICYLATE-1-MONOOXYGENASE-RXN,KEGG
-,1.2.1.27-RXN,Sco4 specific
-PCFO,PROPCOASYN-RXN,KEGG
-,URIDINEKIN-RXN,Sco4 specific
-URIK2,URKI-RXN,biocyc and KEGG
-,4.1.99.4-RXN,Sco4 specific
-MALEI,MALEATE-ISOMERASE-RXN,biocyc and KEGG
-,RXN-0,Sco4 specific
-,MYO-INOSITOL-1OR-4-MONOPHOSPHATASE-RXN,Sco4 specific
-,PYRUFLAVREDUCT-RXN,Sco4 specific
-,VALINE-PYRUVATE-AMINOTRANSFER-RXN,Sco4 specific
-,PROLINE-RACEMASE-RXN,Sco4 specific
-,HYDROXYBENZALDEHYDE-OXIDATION-NAD-RXN,Sco4 specific
-,GPH-RXN,Sco4 specific
-,PHOSPHAGLYPSYN-RXN,Sco4 specific
-,N-ACETYLNEURAMINATE-SYNTHASE-RXN,Sco4 specific
-,CREATININASE-RXN,Sco4 specific
-,PHOSPHASERDECARB-RXN,Sco4 specific
-,NMNAMIDOHYDRO-RXN,Sco4 specific
-OP4ENH3,2-OXOPENT-4-ENOATE-HYDRATASE-RXN,KEGG
-,CREATININE-DEAMINASE-RXN,Sco4 specific
-,CEPHALOSPORIN-C-DEACETYLASE-RXN,Sco4 specific
-,RXNN-404,Sco4 specific
-,GUANIDINOBUTANAMIDE-NH3-RXN,Sco4 specific
-,L-GULONOLACTONE-OXIDASE-RXN,Sco4 specific
-,RXN1F-151,Sco4 specific
-,MALEYLPYRUVATE-ISOMERASE-RXN,Sco4 specific
-,RXN-8529,Sco4 specific
-,5.3.3.10-RXN,Sco4 specific
-,6.3.2.10-RXN,Sco4 specific
-,RXN-7908,Sco4 specific
-,RXN-8022_NADPH,Sco4 specific
-,3-OCTAPRENYL-4-OHBENZOATE-DECARBOX-RXN,Sco4 specific
-,RXN-37,Sco4 specific
-,LAUROYLACYLTRAN-RXN,Sco4 specific
-,DHLBXANAU-RXN,Sco4 specific
-,RXN1F-150,Sco4 specific
-,R311-RXN,Sco4 specific
-,MANNONDEHYDRAT-RXN,Sco4 specific
-,GALACTARDEHYDRA-RXN,Sco4 specific
-,4OHBENZOATE-OCTAPRENYLTRANSFER-RXN,Sco4 specific
-,R229-RXN,Sco4 specific
-,RXN-9394,Sco4 specific
-,RXN-9421,Sco4 specific
-HURH,3.5.2.17-RXN,KEGG
-OHCUS,RXN-6201,KEGG
-,HCAMULTI-RXN,Sco4 specific
-,RXN-12072,Sco4 specific
-,RXN-2962_NADPH,Sco4 specific
-,1.2.7.4-RXN,Sco4 specific
-,RXN-9382,Sco4 specific
-,1-ACYLGLYCEROL-3-P-ACYLTRANSFER-RXN,Sco4 specific
-LPPGS,RXN-8077,biocyc and KEGG
-,RXN-13194,Sco4 specific
-,RXN-14910,Sco4 specific
-,RXN0-5306,Sco4 specific
-,D-LACTATE-DEHYDROGENASE-CYTOCHROME-RXN,Sco4 specific
-,ACETATE--COA-LIGASE-ADP-FORMING-RXN,Sco4 specific
-,RXN-2464,Sco4 specific
-,ASPARTASE-RXN,Sco4 specific
-,SARCOX-RXN,Sco4 specific
-,ACETYLORNDEACET-RXN,Sco4 specific
-,UREIDOGLYCOLATE-LYASE-RXN,Sco4 specific
-,CATECHOL-23-DIOXYGENASE-RXN,Sco4 specific
-,RXN-7644,Sco4 specific
-,2.6.1.18-RXN,Sco4 specific
-,RXN-8961,Sco4 specific
-,RXN-10445,Sco4 specific
-,R11-RXN,Sco4 specific
-,MALATE--COA-LIGASE-RXN,Sco4 specific
-,DHBDEHYD-RXN,Sco4 specific
-,MALTOSE-PHOSPHORYLASE-RXN,Sco4 specific
-,RXN0-366,Sco4 specific
-,RXN-5901,Sco4 specific
-,CYCLOHEXANONE-MONOOXYGENASE-RXN,Sco4 specific
-,DIACYLGLYKIN-RXN,Sco4 specific
-,RXN-2001,Sco4 specific
-,3.5.4.22-RXN,Sco4 specific
-,RXN-8987,Sco4 specific
-,RXN-12246,Sco4 specific
-,RXN-11737,Sco4 specific
-,ITACONYL-COA-HYDRATASE-RXN,Sco4 specific
-,L-ARABINONOLACTONASE-RXN,Sco4 specific
-,D-LACTALDEHYDE-DEHYDROGENASE-RXN,Sco4 specific
-,4.1.1.77-RXN,Sco4 specific
-,2.4.1.157-RXN,Sco4 specific
-,ALPHAALPHA-TREHALOSE-PHOSPHORYLASE-RXN,Sco4 specific
-,RXN-8527,Sco4 specific
-,3.5.2.14-RXN,Sco4 specific
-,1.17.1.1-RXN_NADPH,Sco4 specific
-,RXN1F-10,Sco4 specific
-,1.2.1.32-RXN,Sco4 specific
-,24-DICHLOROPHENOL-6-MONOOXYGENASE-RXN,Sco4 specific
-,RXN1K-87,Sco4 specific
-,2.3.1.89-RXN,Sco4 specific
-,CARBOXY-OXOHEPT-ENEDIOATE-DECARBOXY-RXN,Sco4 specific
-,CHMS-DEHYDROGENASE-RXN,Sco4 specific
-,RXN-4822,Sco4 specific
-,SYDDEHYD-RXN,Sco4 specific
-,RXN-864,Sco4 specific
-,RXN-902,Sco4 specific
-,R282-RXN,Sco4 specific
-,RXN-11689,Sco4 specific
-,RXN-5285,Sco4 specific
-,HYDROXYHEPTA-DIENEDIOATE-HYDROXY-RXN,Sco4 specific
-,RXN-14147,Sco4 specific
-,RXN0-3922,Sco4 specific
-,RXN-13704,Sco4 specific
-,R8-RXN,Sco4 specific
-,RXN-8956,Sco4 specific
-,RXN-7933,Sco4 specific
-,RXN-11023,Sco4 specific
-,R265-RXN,Sco4 specific
-,RXN-11186,Sco4 specific
-,RXN-12848,Sco4 specific
-,RXN-12653,Sco4 specific
-,RXN-6902,Sco4 specific
-,RXN0-6732,Sco4 specific
-,R01172,Sco4 specific
-,R01618,Sco4 specific
-,R01902,Sco4 specific
-,R02457,Sco4 specific
-,R02894,Sco4 specific
-,R02923,Sco4 specific
-MCPST2,R03105,Changed ID
-,R04221,Sco4 specific
-,R04800_NADPH,Sco4 specific
-,R05590,Sco4 specific
-,R01176,Sco4 specific
-,R01785,Sco4 specific
-,R02252,Sco4 specific
-,R03391,Sco4 specific
-,R04215,Sco4 specific
-,RXN-15356,Sco4 specific
-,RXN-12753,Sco4 specific
-,RXN-6423,Sco4 specific
-,RXN-8406_NADPH,Sco4 specific
-,RXN-7593_NADPH,Sco4 specific
-,RXN-12943,Sco4 specific
-,RXN-12440,Sco4 specific
-,RXN-13530,Sco4 specific
-,RXN-12876,Sco4 specific
-,RXN-12540,Sco4 specific
-,RXN-15999,Sco4 specific
-,RXN-8461,Sco4 specific
-,RXN-6268,Sco4 specific
-,RXN-12754,Sco4 specific
-,RXN-6081_NADPH,Sco4 specific
-,RXN-2881,Sco4 specific
-,RXN-15124,Sco4 specific
-,RXN-13068_NADPH,Sco4 specific
-,RXN-9193,Sco4 specific
-,RXN0-5222,Sco4 specific
-,RXN-5721,Sco4 specific
-,RXN-2961,Sco4 specific
-,RXN-6581,Sco4 specific
-,RXN-4821,Sco4 specific
-,RXN-10723,Sco4 specific
-,RXN-16992,Sco4 specific
-,RXN-7587,Sco4 specific
-,RXN-14500,Sco4 specific
-,RXN-14809,Sco4 specific
-,RXN-12541,Sco4 specific
-,RXN-14515,Sco4 specific
-,RXN-13463,Sco4 specific
-,RXN-15905,Sco4 specific
-,RXN-18029,Sco4 specific
-,TRANS-RXN0-575,Sco4 specific
-,TRANS-RXN0-496,Sco4 specific
-,3.6.3.8-RXN,Sco4 specific
-,RXN66-447,Sco4 specific
-,EXC_OUT_CPD-14016_c,Sco4 specific
-,EXC_OUT_CPD-9962_c,Sco4 specific
-EX_desferrioxamE_e,EXC_OUT_CPD-11957_c,Exchange of same compound
-,EXC_OUT_CPD-10680_c,Sco4 specific
-,EXC_OUT_CPD-10681_c,Sco4 specific
-DM_geosmin_c,EXC_OUT_CPD-10158_c,Exchange of same compound
-,EXC_OUT_ACETONE_c,Sco4 specific
-,EXC_OUT_CPD-14522_c,Sco4 specific
-,RXN-13783_NADH,Sco4 specific
-,RXN-15892_NADH,Sco4 specific
-,HYDROXYPYRUVATE-REDUCTASE-RXN_NADH,Sco4 specific
-,ANTHRANILOYL-COA-MONOOXYGENASE-RXN_NADH,Sco4 specific
-,RXN-12940_NADH,Sco4 specific
-,RXN-16164_NADH,Sco4 specific
-,RXN-5921_NADH,Sco4 specific
-,R364-RXN_NADH,Sco4 specific
-,1.14.12.1-RXN_NADH,Sco4 specific
-,RXN-2962_NADH,Sco4 specific
-,1.14.13.84-RXN_NADH,Sco4 specific
-,RXN-8024_NADH,Sco4 specific
-,RXN-8003_NADH,Sco4 specific
-,RXN-12707_NADH,Sco4 specific
-,RXN-8023_NADH,Sco4 specific
-,RXN-8781_NADH,Sco4 specific
-,RXN-12225_NADH,Sco4 specific
-,RXN-12223_NADH,Sco4 specific
-,RXN-13528_NADH,Sco4 specific
-,RXN-10995_NADH,Sco4 specific
-,RXN-12703_NADH,Sco4 specific
-,RXN-8022_NADH,Sco4 specific
-,R04800_NADH,Sco4 specific
-GLUKB,,iKS1317 specific
-PPS,,iKS1317 specific
-PPCK,,iKS1317 specific
-PDH3,,iKS1317 specific
-SBP_1,,iKS1317 specific
-DGC2D,,iKS1317 specific
-ARAB2r,,iKS1317 specific
-ABT2DG,,iKS1317 specific
-ABTD,,iKS1317 specific
-XYLR2,,iKS1317 specific
-XYLR3,,iKS1317 specific
-XYLTD_D,,iKS1317 specific
-GMAND,,iKS1317 specific
-KHK,,iKS1317 specific
-G1PTT,,iKS1317 specific
-DTDPG4E,,iKS1317 specific
-STACHGALACT,,iKS1317 specific
-GALM1,,iKS1317 specific
-S6PGB,,iKS1317 specific
-LYXE,,iKS1317 specific
-LYXID,,iKS1317 specific
-ADPT2,,iKS1317 specific
-XPPT,,iKS1317 specific
-TDP,,iKS1317 specific
-SERAT,,iKS1317 specific
-PPYRDC,,iKS1317 specific
-r0686,,iKS1317 specific
-MCSNAH,,iKS1317 specific
-ABPYRATA,,iKS1317 specific
-GCCc,,iKS1317 specific
-GLYDHD,,iKS1317 specific
-MTAM_nh4,,iKS1317 specific
-PDHe3hr,,iKS1317 specific
-HBCO_nadp,,iKS1317 specific
-HBCOA3E,,iKS1317 specific
-VOR3b,,iKS1317 specific
-MBCOA2,,iKS1317 specific
-VOR1b,,iKS1317 specific
-MBCOA3,,iKS1317 specific
-VOR2b,,iKS1317 specific
-IBCOAQ9R,,iKS1317 specific
-ALDH,,iKS1317 specific
-MMCOAL,,iKS1317 specific
-APPLDHr,,iKS1317 specific
-D5KGPA2,,iKS1317 specific
-UAMAGS2,,iKS1317 specific
-NP1,,iKS1317 specific
-NCTPPRT,,iKS1317 specific
-NT5C,,iKS1317 specific
-ASPO,,iKS1317 specific
-ASPO3,,iKS1317 specific
-ASPO6_2,,iKS1317 specific
-NMNHYD,,iKS1317 specific
-PNP,,iKS1317 specific
-NADH2r,,iKS1317 specific
-BACCL2,,iKS1317 specific
-BTNC,,iKS1317 specific
-r0120,,iKS1317 specific
-r0775,,iKS1317 specific
-r0777,,iKS1317 specific
-r0708,,iKS1317 specific
-DNTPPA_1,,iKS1317 specific
-DNMPPA,,iKS1317 specific
-DHPS,,iKS1317 specific
-THFGLUS,,iKS1317 specific
-MTHFR3_1,,iKS1317 specific
-HOXPR2,,iKS1317 specific
-PDH4,,iKS1317 specific
-GLYCTO2,,iKS1317 specific
-ALCD2s,,iKS1317 specific
-G3PD5,,iKS1317 specific
-G3PD,,iKS1317 specific
-OXBPTA,,iKS1317 specific
-APATc,,iKS1317 specific
-PACPTc,,iKS1317 specific
-HPCOR,,iKS1317 specific
-OCDOR,,iKS1317 specific
-NTRIR2y,,iKS1317 specific
-3OXOR,,iKS1317 specific
-CHOLD2,,iKS1317 specific
-BTAOR,,iKS1317 specific
-SUCBZS,,iKS1317 specific
-SUCBZL,,iKS1317 specific
-NPHS,,iKS1317 specific
-DHNAOT9,,iKS1317 specific
-AMMQT9,,iKS1317 specific
-TOLOR,,iKS1317 specific
-ALAS,,iKS1317 specific
-G5SAT,,iKS1317 specific
-UPP1S,,iKS1317 specific
-UPPDC2,,iKS1317 specific
-UPP3MT1,,iKS1317 specific
-FNOR,,iKS1317 specific
-ACt2r,,iKS1317 specific
-ANTHte,,iKS1317 specific
-ARGORNt7,,iKS1317 specific
-ASNabc,,iKS1317 specific
-CDAti,,iKS1317 specific
-CITRLt,,iKS1317 specific
-DAPLLabc,,iKS1317 specific
-DARBabc,,iKS1317 specific
-GLYCAt3,,iKS1317 specific
-LYXDabc,,iKS1317 specific
-DSERt2,,iKS1317 specific
-FRUpts2,,iKS1317 specific
-SUCFUMt,,iKS1317 specific
-GALabc,,iKS1317 specific
-GALt2,,iKS1317 specific
-GAMpts,,iKS1317 specific
-GLCpts,,iKS1317 specific
-GLUt4,,iKS1317 specific
-GLYCLTt,,iKS1317 specific
-GLYabc,,iKS1317 specific
-HISabc,,iKS1317 specific
-4A5HMPt,,iKS1317 specific
-2HXMPt6,,iKS1317 specific
-HYXNt,,iKS1317 specific
-ILEt2r,,iKS1317 specific
-ARBt2r,,iKS1317 specific
-LEUt2r,,iKS1317 specific
-LYXabc,,iKS1317 specific
-MALt2_3,,iKS1317 specific
-MANpts,,iKS1317 specific
-MNLpts,,iKS1317 specific
-MALTpts,,iKS1317 specific
-NAt3_15,,iKS1317 specific
-NO3t,,iKS1317 specific
-PACt,,iKS1317 specific
-PPAt6,,iKS1317 specific
-RMNt,,iKS1317 specific
-SERt4,,iKS1317 specific
-SBTpts,,iKS1317 specific
-SUCCt2_3,,iKS1317 specific
-SUCCt2b,,iKS1317 specific
-SUCRabc,,iKS1317 specific
-TARTRt7,,iKS1317 specific
-THRt4,,iKS1317 specific
-THYMabc,,iKS1317 specific
-TREpts,,iKS1317 specific
-REDt,,iKS1317 specific
-VALt2r,,iKS1317 specific
-XANt,,iKS1317 specific
-XYLt2,,iKS1317 specific
-EX_anth_e,,iKS1317 specific
-EX_citr__L_e,,iKS1317 specific
-EX_26dap_LL_e,,iKS1317 specific
-EX_arab__D_e,,iKS1317 specific
-EX_lyx__D_e,,iKS1317 specific
-EX_ser__D_e,,iKS1317 specific
-EX_gam_e,,iKS1317 specific
-EX_4ahmmp_e,,iKS1317 specific
-EX_hxan_e,,iKS1317 specific
-EX_pac_e,,iKS1317 specific
-EX_sucr_e,,iKS1317 specific
-CHIRAISO,,iKS1317 specific
-DHORD4,,iKS1317 specific
-URO,,iKS1317 specific
-DMT,,iKS1317 specific
-PPNCL3,,iKS1317 specific
-MECDPDH5_2,,iKS1317 specific
-IDPS2,,iKS1317 specific
-SUCD9,,iKS1317 specific
-CYO1ab,,iKS1317 specific
-SULR_syn,,iKS1317 specific
-SADT,,iKS1317 specific
-GF4GL_1,,iKS1317 specific
-ACTS16b,,iKS1317 specific
-NAACPHYD,,iKS1317 specific
-MALCOAMT,,iKS1317 specific
-ATNS_nh4,,iKS1317 specific
-HSDxi,,iKS1317 specific
-KARI_23dhmb,,iKS1317 specific
-KARI_3hmoa,,iKS1317 specific
-KARI,,iKS1317 specific
-KARI_23dhmp,,iKS1317 specific
-THDPLOR,,iKS1317 specific
-EN6LNOR,,iKS1317 specific
-r0163,,iKS1317 specific
-3CTHPPT,,iKS1317 specific
-ITPOCL,,iKS1317 specific
-FBA_1,,iKS1317 specific
-BFBP,,iKS1317 specific
-TALAb,,iKS1317 specific
-TKT2h,,iKS1317 specific
-G6PBDH,,iKS1317 specific
-G6PDH1b,,iKS1317 specific
-G6PI,,iKS1317 specific
-PGIA,,iKS1317 specific
-COBP3DH,,iKS1317 specific
-CODSCL5DA,,iKS1317 specific
-CODSCL5BMT,,iKS1317 specific
-UGAH,,iKS1317 specific
-ACON6LAT,,iKS1317 specific
-PKBBS,,iKS1317 specific
-MACPAL,,iKS1317 specific
-GLUTPAT,,iKS1317 specific
-GLUAAT,,iKS1317 specific
-SEPHCHCS,,iKS1317 specific
-SHCHCS3,,iKS1317 specific
-ACCOAC_1,,iKS1317 specific
-DIOP5OR,,iKS1317 specific
-PENAM,,iKS1317 specific
-GLCRD2,,iKS1317 specific
-GALM2,,iKS1317 specific
-LLEUDr,,iKS1317 specific
-DM_mmyA_c,,iKS1317 specific
-DM_mmyB_c,,iKS1317 specific
-MMSYNA,,iKS1317 specific
-MMYSYN1,,iKS1317 specific
-MMYSYN3,,iKS1317 specific
-MMYSYN2,,iKS1317 specific
-MMSYNB,,iKS1317 specific
-DM_grmcrnd_c,,iKS1317 specific
-DM_albflon_c,,iKS1317 specific
-DM_strprub_c,,iKS1317 specific
-DIFRNLY,,iKS1317 specific
-REDS35b,,iKS1317 specific
-PRODSYN,,iKS1317 specific
-PSQLDL,,iKS1317 specific
-FRNDIT,,iKS1317 specific
-REDS27b,,iKS1317 specific
-GRMCRDS,,iKS1317 specific
-GSMNSYN,,iKS1317 specific
-SRUBSYN,,iKS1317 specific
-CITCIa2,,iKS1317 specific
-ERTHMMOR,,iKS1317 specific
-CITCIb,,iKS1317 specific
-CITMS,,iKS1317 specific
-OAADC,,iKS1317 specific
-BIOMASS_SCO_tRNA,,iKS1317 specific
+iKS1317_ID;Sco4_ID;comment;Add
+ACTS1;ACTS1;identical;FALSE
+ACTS10;ACTS10;identical;FALSE
+ACTS11;ACTS11;identical;FALSE
+ACTS12;ACTS12;identical;FALSE
+ACTS13;ACTS13;identical;FALSE
+ACTS14;ACTS14;identical;FALSE
+ACTS15;ACTS15;identical;FALSE
+ACTS16;ACTS16;identical;FALSE
+ACTS2;ACTS2;identical;FALSE
+ACTS3;ACTS3;identical;FALSE
+ACTS4;ACTS4;identical;FALSE
+ACTS5;ACTS5;identical;FALSE
+ACTS6;ACTS6;identical;FALSE
+ACTS7;ACTS7;identical;FALSE
+ACTS8;ACTS8;identical;FALSE
+ACTS9;ACTS9;identical;FALSE
+ALAD_L;ALAD_L;identical;FALSE
+ALAR;ALAR;identical;FALSE
+ALATA_L;ALATA_L;identical;FALSE
+APAT2r;APAT2r;identical;FALSE
+ASNN;ASNN;identical;FALSE
+ASNS1;ASNS1;identical;FALSE
+ASPO1;ASPO1;identical;FALSE
+ASPTA;ASPTA;identical;FALSE
+3OXCOAT;3OXCOAT;identical;FALSE
+5DGLCNR;5DGLCNR;identical;FALSE
+6PHBG;6PHBG;identical;FALSE
+AAMYLe;AAMYLe;identical;FALSE
+ACM6PH;ACM6PH;identical;FALSE
+ACS2;ACS2;identical;FALSE
+ADNUC;ADNUC;identical;FALSE
+AGDC;AGDC;identical;FALSE
+ALCD19;ALCD19;identical;FALSE
+ALCD19y;ALCD19y;identical;FALSE
+ALDD1;ALDD1;identical;FALSE
+AMALT1;AMALT1;identical;FALSE
+AMALT2;AMALT2;identical;FALSE
+AMALT3;AMALT3;identical;FALSE
+AMALT4;AMALT4;identical;FALSE
+ARAI;ARAI;identical;FALSE
+CYTDH;CYTDH;identical;FALSE
+DCH;DCH;identical;FALSE
+DDGLK;DDGLK;identical;FALSE
+DHACOAH;DHACOAH;identical;FALSE
+DHAK;DHAK;identical;FALSE
+DRBK;DRBK;identical;FALSE
+DRPA;DRPA;identical;FALSE
+DTARTD;DTARTD;identical;FALSE
+EPMGH;EPMGH;identical;FALSE
+FDH;FDH;identical;FALSE
+FORCT;FORCT;identical;FALSE
+FRUK;FRUK;identical;FALSE
+G3PD2;G3PD2;identical;FALSE
+G6PDA;G6PDA;identical;FALSE
+GAL6PI;GAL6PI;identical;FALSE
+GALCTND;GALCTND;identical;FALSE
+GALIGH;GALIGH;identical;FALSE
+GALS3;GALS3;identical;FALSE
+GGLGH;GGLGH;identical;FALSE
+GLCATr;GLCATr;identical;FALSE
+GLCRAL;GLCRAL;identical;FALSE
+GLCRD;GLCRD;identical;FALSE
+GLYALDDr;GLYALDDr;identical;FALSE
+GLYCDx;GLYCDx;identical;FALSE
+GLYCTO1;GLYCTO1;identical;FALSE
+GLYCTO3;GLYCTO3;identical;FALSE
+GLYK;GLYK;identical;FALSE
+GNK;GNK;identical;FALSE
+HADPCOADH3;HADPCOADH3;identical;FALSE
+HEX4;HEX4;identical;FALSE
+HEX7;HEX7;identical;FALSE
+HPYRI;HPYRI;identical;FALSE
+IDOND;IDOND;identical;FALSE
+IDOND2;IDOND2;identical;FALSE
+LACZ;LACZ;identical;FALSE
+LCADi;LCADi;identical;FALSE
+LYXI;LYXI;identical;FALSE
+MALT;MALT;identical;FALSE
+MALTATr;MALTATr;identical;FALSE
+MAN6PI;MAN6PI;identical;FALSE
+MELTGH;MELTGH;identical;FALSE
+MLTG1;MLTG1;identical;FALSE
+MLTG1e;MLTG1e;identical;FALSE
+MLTG2;MLTG2;identical;FALSE
+MLTG2e;MLTG2e;identical;FALSE
+MLTG3;MLTG3;identical;FALSE
+MLTG3e;MLTG3e;identical;FALSE
+MLTG4;MLTG4;identical;FALSE
+MLTG4e;MLTG4e;identical;FALSE
+MLTG5;MLTG5;identical;FALSE
+MLTG5e;MLTG5e;identical;FALSE
+MLTP1;MLTP1;identical;FALSE
+MLTP2;MLTP2;identical;FALSE
+MLTP3;MLTP3;identical;FALSE
+MTI;MTI;identical;FALSE
+OXCDC;OXCDC;identical;FALSE
+OXDHCOAT;OXDHCOAT;identical;FALSE
+PACCOAE;PACCOAE;identical;FALSE
+PACCOAL;PACCOAL;identical;FALSE
+PFK_2;PFK_2;identical;FALSE
+PGMT;PGMT;identical;FALSE
+PMANM;PMANM;identical;FALSE
+PPAKr;PPAKr;identical;FALSE
+PPM;PPM;identical;FALSE
+PPM2;PPM2;identical;FALSE
+PTA2;PTA2;identical;FALSE
+RAFGH;RAFGH;identical;FALSE
+RBK;RBK;identical;FALSE
+RBK_L1;RBK_L1;identical;FALSE
+RBP4E;RBP4E;identical;FALSE
+REPHACCOAI;REPHACCOAI;identical;FALSE
+RMI;RMI;identical;FALSE
+RMK;RMK;identical;FALSE
+RMPA;RMPA;identical;FALSE
+SBTO;SBTO;identical;FALSE
+SUCR;SUCR;identical;FALSE
+TAUDO;TAUDO;identical;FALSE
+TGBPA;TGBPA;identical;FALSE
+TRE6PP;TRE6PP;identical;FALSE
+TRE6PS;TRE6PS;identical;FALSE
+TRSARr;TRSARr;identical;FALSE
+UDPG4E;UDPG4E;identical;FALSE
+UGLT;UGLT;identical;FALSE
+URIH;URIH;identical;FALSE
+X5PL3E;X5PL3E;identical;FALSE
+XYLI1;XYLI1;identical;FALSE
+XYLI2;XYLI2;identical;FALSE
+XYLK;XYLK;identical;FALSE
+XYLK2;XYLK2;identical;FALSE
+XYLTO;XYLTO;identical;FALSE
+ICL;ICL;identical;FALSE
+MALS;MALS;identical;FALSE
+ME1;ME1;identical;FALSE
+ME2;ME2;identical;FALSE
+PEPCK;PEPCK;identical;FALSE
+PPA;PPA;identical;FALSE
+PPA_1;PPA_1;identical;FALSE
+PPC;PPC;identical;FALSE
+4HGLSD;4HGLSD;identical;FALSE
+ABTA;ABTA;identical;FALSE
+ABUTD;ABUTD;identical;FALSE
+ACGK;ACGK;identical;FALSE
+ACGS;ACGS;identical;FALSE
+ACOTA;ACOTA;identical;FALSE
+ADMDC;ADMDC;identical;FALSE
+AGMT;AGMT;identical;FALSE
+AGPR;AGPR;identical;FALSE
+AMPTASEPG;AMPTASEPG;identical;FALSE
+APCS;APCS;identical;FALSE
+ARGDr;ARGD;identical;FALSE
+ARGSL;ARGSL;identical;FALSE
+ARGSS;ARGSS;identical;FALSE
+CBPS;CBPS;identical;FALSE
+DDPGA;DDPGA;identical;FALSE
+EHGLAT;EHGLAT;identical;FALSE
+G5SADs;G5SADs;identical;FALSE
+GLU5K;GLU5K;identical;FALSE
+HPROb;HPROb;identical;FALSE
+MTAN;MTAN;identical;FALSE
+ORNDC;ORNDC;identical;FALSE
+ORNTA;ORNTA;identical;FALSE
+ORNTAC;ORNTAC;identical;FALSE
+P5CD;P5CD;identical;FALSE
+P5CR;P5CR;identical;FALSE
+PHCD;PHCD;identical;FALSE
+PHCHGS;PHCHGS;identical;FALSE
+PROD2;PROD2;identical;FALSE
+PTRCTA;PTRCTA;identical;FALSE
+PUTA3;PUTA3;identical;FALSE
+SSALy;SSALy;identical;FALSE
+UREA;UREA;identical;FALSE
+3OADPCOAT;3OADPCOAT;identical;FALSE
+MUCCY;MUCCY;identical;FALSE
+OXOAEL;OXOAEL;identical;FALSE
+PCADYOX;PCADYOX;identical;FALSE
+VNTDM;VNTDM;identical;FALSE
+AACOATi;AACOATi;identical;FALSE
+BDH;BDH;identical;FALSE
+CDAS1;CDAS1;identical;FALSE
+CDAS10;CDAS10;identical;FALSE
+CDAS11;CDAS11;identical;FALSE
+CDAS13;CDAS13;identical;FALSE
+CDAS14a;CDAS14a;identical;FALSE
+CDAS14b;CDAS14b;identical;FALSE
+CDAS15;CDAS15;identical;FALSE
+CDAS16;CDAS16;identical;FALSE
+CDAS17;CDAS17;identical;FALSE
+CDAS18;CDAS18;identical;FALSE
+CDAS19;CDAS19;identical;FALSE
+CDAS2;CDAS2;identical;FALSE
+CDAS3;CDAS3;identical;FALSE
+CDAS4;CDAS4;identical;FALSE
+CDAS5x;CDAS5x;identical;FALSE
+CDAS5y;CDAS5y;identical;FALSE
+CDAS6;CDAS6;identical;FALSE
+CDAS7;CDAS7;identical;FALSE
+CDAS8;CDAS8;identical;FALSE
+CDAS9x;CDAS9x;identical;FALSE
+CDAS9y;CDAS9y;identical;FALSE
+3HAD100;3HAD100;identical;FALSE
+3HAD110;3HAD110;identical;FALSE
+3HAD120;3HAD120;identical;FALSE
+3HAD121;3HAD121;identical;FALSE
+3HAD130;3HAD130;identical;FALSE
+3HAD140;3HAD140;identical;FALSE
+3HAD141;3HAD141;identical;FALSE
+3HAD150;3HAD150;identical;FALSE
+3HAD160;3HAD160;identical;FALSE
+3HAD161;3HAD161;identical;FALSE
+3HAD170;3HAD170;identical;FALSE
+3HAD180;3HAD180;identical;FALSE
+3HAD181;3HAD181;identical;FALSE
+3HAD40;3HAD40;identical;FALSE
+3HAD50;3HAD50;identical;FALSE
+3HAD60;3HAD60;identical;FALSE
+3HAD70;3HAD70;identical;FALSE
+3HAD80;3HAD80;identical;FALSE
+3HAD90;3HAD90;identical;FALSE
+3HADai110;3HADai110;identical;FALSE
+3HADai130;3HADai130;identical;FALSE
+3HADai150;3HADai150;identical;FALSE
+3HADai170;3HADai170;identical;FALSE
+3HADai70;3HADai70;identical;FALSE
+3HADai90;3HADai90;identical;FALSE
+3HADi100;3HADi100;identical;FALSE
+3HADi110;3HADi110;identical;FALSE
+3HADi120;3HADi120;identical;FALSE
+3HADi130;3HADi130;identical;FALSE
+3HADi140;3HADi140;identical;FALSE
+3HADi150;3HADi150;identical;FALSE
+3HADi160;3HADi160;identical;FALSE
+3HADi170;3HADi170;identical;FALSE
+3HADi180;3HADi180;identical;FALSE
+3HADi60;3HADi60;identical;FALSE
+3HADi70;3HADi70;identical;FALSE
+3HADi80;3HADi80;identical;FALSE
+3HADi90;3HADi90;identical;FALSE
+3OAR100;3OAR100;identical;FALSE
+3OAR110;3OAR110;identical;FALSE
+3OAR120;3OAR120;identical;FALSE
+3OAR121;3OAR121;identical;FALSE
+3OAR130;3OAR130;identical;FALSE
+3OAR140;3OAR140;identical;FALSE
+3OAR141;3OAR141;identical;FALSE
+3OAR150;3OAR150;identical;FALSE
+3OAR160;3OAR160;identical;FALSE
+3OAR161;3OAR161;identical;FALSE
+3OAR170;3OAR170;identical;FALSE
+3OAR180;3OAR180;identical;FALSE
+3OAR181;3OAR181;identical;FALSE
+3OAR40;3OAR40;identical;FALSE
+3OAR50;3OAR50;identical;FALSE
+3OAR60;3OAR60;identical;FALSE
+3OAR70;3OAR70;identical;FALSE
+3OAR80;3OAR80;identical;FALSE
+3OAR90;3OAR90;identical;FALSE
+3OARai110;3OARai110;identical;FALSE
+3OARai130;3OARai130;identical;FALSE
+3OARai150;3OARai150;identical;FALSE
+3OARai170;3OARai170;identical;FALSE
+3OARai70;3OARai70;identical;FALSE
+3OARai90;3OARai90;identical;FALSE
+3OARi100;3OARi100;identical;FALSE
+3OARi110;3OARi110;identical;FALSE
+3OARi120;3OARi120;identical;FALSE
+3OARi130;3OARi130;identical;FALSE
+3OARi140;3OARi140;identical;FALSE
+3OARi150;3OARi150;identical;FALSE
+3OARi160;3OARi160;identical;FALSE
+3OARi170;3OARi170;identical;FALSE
+3OARi180;3OARi180;identical;FALSE
+3OARi60;3OARi60;identical;FALSE
+3OARi70;3OARi70;identical;FALSE
+3OARi80;3OARi80;identical;FALSE
+3OARi90;3OARi90;identical;FALSE
+3OAS100;3OAS100;identical;FALSE
+3OAS110;3OAS110;identical;FALSE
+3OAS120;3OAS120;identical;FALSE
+3OAS121;3OAS121;identical;FALSE
+3OAS130;3OAS130;identical;FALSE
+3OAS140;3OAS140;identical;FALSE
+3OAS141;3OAS141;identical;FALSE
+3OAS150;3OAS150;identical;FALSE
+3OAS160;3OAS160;identical;FALSE
+3OAS161;3OAS161;identical;FALSE
+3OAS170;3OAS170;identical;FALSE
+3OAS180;3OAS180;identical;FALSE
+3OAS181;3OAS181;identical;FALSE
+3OAS50;3OAS50;identical;FALSE
+3OAS60;3OAS60;identical;FALSE
+3OAS70;3OAS70;identical;FALSE
+3OAS80;3OAS80;identical;FALSE
+3OAS90;3OAS90;identical;FALSE
+3OASai110;3OASai110;identical;FALSE
+3OASai130;3OASai130;identical;FALSE
+3OASai150;3OASai150;identical;FALSE
+3OASai170;3OASai170;identical;FALSE
+3OASai70;3OASai70;identical;FALSE
+3OASai90;3OASai90;identical;FALSE
+3OASi100;3OASi100;identical;FALSE
+3OASi110;3OASi110;identical;FALSE
+3OASi120;3OASi120;identical;FALSE
+3OASi130;3OASi130;identical;FALSE
+3OASi140;3OASi140;identical;FALSE
+3OASi150;3OASi150;identical;FALSE
+3OASi160;3OASi160;identical;FALSE
+3OASi170;3OASi170;identical;FALSE
+3OASi180;3OASi180;identical;FALSE
+3OASi60;3OASi60;identical;FALSE
+3OASi70;3OASi70;identical;FALSE
+3OASi80;3OASi80;identical;FALSE
+3OASi90;3OASi90;identical;FALSE
+ALAALAD;ALAALAD;identical;FALSE
+ALALAC;ALALAC;identical;FALSE
+EAR100x;EAR100x;identical;FALSE
+EAR100y;EAR100y;identical;FALSE
+EAR110x;EAR110x;identical;FALSE
+EAR110y;EAR110y;identical;FALSE
+EAR120x;EAR120x;identical;FALSE
+EAR120y;EAR120y;identical;FALSE
+EAR121x;EAR121x;identical;FALSE
+EAR121y;EAR121y;identical;FALSE
+EAR130x;EAR130x;identical;FALSE
+EAR130y;EAR130y;identical;FALSE
+EAR140x;EAR140x;identical;FALSE
+EAR140y;EAR140y;identical;FALSE
+EAR141x;EAR141x;identical;FALSE
+EAR141y;EAR141y;identical;FALSE
+EAR150x;EAR150x;identical;FALSE
+EAR150y;EAR150y;identical;FALSE
+EAR160x;EAR160x;identical;FALSE
+EAR160y;EAR160y;identical;FALSE
+EAR161x;EAR161x;identical;FALSE
+EAR161y;EAR161y;identical;FALSE
+EAR170x;EAR170x;identical;FALSE
+EAR170y;EAR170y;identical;FALSE
+EAR180x;EAR180x;identical;FALSE
+EAR180y;EAR180y;identical;FALSE
+EAR181x;EAR181x;identical;FALSE
+EAR181y;EAR181y;identical;FALSE
+EAR40x;EAR40x;identical;FALSE
+EAR40y;EAR40y;identical;FALSE
+EAR50x;EAR50x;identical;FALSE
+EAR50y;EAR50y;identical;FALSE
+EAR60x;EAR60x;identical;FALSE
+EAR60y;EAR60y;identical;FALSE
+EAR70x;EAR70x;identical;FALSE
+EAR70y;EAR70y;identical;FALSE
+EAR80x;EAR80x;identical;FALSE
+EAR80y;EAR80y;identical;FALSE
+EAR90x;EAR90x;identical;FALSE
+EAR90y;EAR90y;identical;FALSE
+EARai110x;EARai110x;identical;FALSE
+EARai110y;EARai110y;identical;FALSE
+EARai130x;EARai130x;identical;FALSE
+EARai130y;EARai130y;identical;FALSE
+EARai150x;EARai150x;identical;FALSE
+EARai150y;EARai150y;identical;FALSE
+EARai170x;EARai170x;identical;FALSE
+EARai170y;EARai170y;identical;FALSE
+EARai70x;EARai70x;identical;FALSE
+EARai70y;EARai70y;identical;FALSE
+EARai90x;EARai90x;identical;FALSE
+EARai90y;EARai90y;identical;FALSE
+EARi100x;EARi100x;identical;FALSE
+EARi100y;EARi100y;identical;FALSE
+EARi110x;EARi110x;identical;FALSE
+EARi110y;EARi110y;identical;FALSE
+EARi120x;EARi120x;identical;FALSE
+EARi120y;EARi120y;identical;FALSE
+EARi130x;EARi130x;identical;FALSE
+EARi130y;EARi130y;identical;FALSE
+EARi140x;EARi140x;identical;FALSE
+EARi140y;EARi140y;identical;FALSE
+EARi150x;EARi150x;identical;FALSE
+EARi150y;EARi150y;identical;FALSE
+EARi160x;EARi160x;identical;FALSE
+EARi160y;EARi160y;identical;FALSE
+EARi170x;EARi170x;identical;FALSE
+EARi170y;EARi170y;identical;FALSE
+EARi180x;EARi180x;identical;FALSE
+EARi180y;EARi180y;identical;FALSE
+EARi60x;EARi60x;identical;FALSE
+EARi60y;EARi60y;identical;FALSE
+EARi70x;EARi70x;identical;FALSE
+EARi70y;EARi70y;identical;FALSE
+EARi80x;EARi80x;identical;FALSE
+EARi80y;EARi80y;identical;FALSE
+EARi90x;EARi90x;identical;FALSE
+EARi90y;EARi90y;identical;FALSE
+ETHAAL;ETHAAL;identical;FALSE
+FACOAE100;FACOAE100;identical;FALSE
+FACOAE120;FACOAE120;identical;FALSE
+FACOAE140;FACOAE140;identical;FALSE
+FACOAE141;FACOAE141;identical;FALSE
+FACOAE160;FACOAE160;identical;FALSE
+FACOAE161;FACOAE161;identical;FALSE
+FACOAE180;FACOAE180;identical;FALSE
+FACOAE181;FACOAE181;identical;FALSE
+FACOAE60;FACOAE60;identical;FALSE
+FACOAE80;FACOAE80;identical;FALSE
+FACOAL100;FACOAL100;identical;FALSE
+FACOAL120;FACOAL120;identical;FALSE
+FACOAL140;FACOAL140;identical;FALSE
+FACOAL141;FACOAL141;identical;FALSE
+FACOAL160;FACOAL160;identical;FALSE
+FACOAL161;FACOAL161;identical;FALSE
+FACOAL180;FACOAL180;identical;FALSE
+FACOAL181;FACOAL181;identical;FALSE
+FACOAL60;FACOAL60;identical;FALSE
+FACOAL80;FACOAL80;identical;FALSE
+G1PACT;G1PACT;identical;FALSE
+GALUi;GALUi;identical;FALSE
+GDPMNP;GDPMNP;identical;FALSE
+GF6PTA;GF6PTA;identical;FALSE
+GLUR;GLUR;identical;FALSE
+MAN1PT;MAN1PT;identical;FALSE
+MI1PP;MI1PP;identical;FALSE
+PAPPT3;PAPPT3;identical;FALSE
+PGAMT;PGAMT;identical;FALSE
+T2DECAI;T2DECAI;identical;FALSE
+TDPDRE;TDPDRE;identical;FALSE
+TDPDRR;TDPDRR;identical;FALSE
+TDPGDH;TDPGDH;identical;FALSE
+UAAGDS;UAAGDS;identical;FALSE
+UACMAMO;UACMAMO;identical;FALSE
+UAG2E;UAG2E;identical;FALSE
+UAGCVT;UAGCVT;identical;FALSE
+UAGDP;UAGDP;identical;FALSE
+UAGPT3;UAGPT3;identical;FALSE
+UAMAGS;UAMAGS;identical;FALSE
+UAMAS;UAMAS;identical;FALSE
+UAPGR;UAPGR;identical;FALSE
+UDCPDP;UDCPDP;identical;FALSE
+UDPGD;UDPGD;identical;FALSE
+UGMDDS;UGMDDS;identical;FALSE
+ACONTa;ACONTa;identical;FALSE
+ACONTb;ACONTb;identical;FALSE
+AKGDH;AKGDH;identical;FALSE
+AKGDH2;AKGDH2;identical;FALSE
+CITL;CITL;identical;FALSE
+CS;CS;identical;FALSE
+FUM;FUM;identical;FALSE
+ICDHyr;ICDHyr;identical;FALSE
+MDH;MDH;identical;FALSE
+SUCOAS;SUCOAS;identical;FALSE
+4HTHRS;4HTHRS;identical;FALSE
+5DOAN;5DOAN;identical;FALSE
+ACBIPGT;ACBIPGT;identical;FALSE
+ACPpds;ACPpds;identical;FALSE
+ACPpdsact;ACPpdsact;identical;FALSE
+ACPpdscda;ACPpdscda;identical;FALSE
+ACPpdsredL;ACPpdsredL;identical;FALSE
+ACPpdsredN;ACPpdsredN;identical;FALSE
+ACPpdsredQ;ACPpdsredQ;identical;FALSE
+ACPS1;ACPS1;identical;FALSE
+ACPSact;ACPSact;identical;FALSE
+ACPScda;ACPScda;identical;FALSE
+ACPSredL;ACPSredL;identical;FALSE
+ACPSredN;ACPSredN;identical;FALSE
+ACPSredQ;ACPSredQ;identical;FALSE
+ADCL;ADCL;identical;FALSE
+ADCPS1;ADCPS1;identical;FALSE
+ADCPS2;ADCPS2;identical;FALSE
+ADCS;ADCS;identical;FALSE
+ADCYRS;ADCYRS;identical;FALSE
+ADOCBIK;ADOCBIK;identical;FALSE
+ADOCBLS;ADOCBLS;identical;FALSE
+AHMMPS;AHMMPS;identical;FALSE
+AKP1;AKP1;identical;FALSE
+ALATA_D2;ALATA_D2;identical;FALSE
+ALATA_L2;ALATA_L2;identical;FALSE
+AMAOTr;AMAOTr;identical;FALSE
+AMMQLT9;AMMQLT9;identical;FALSE
+AOXSr2;AOXSr2;identical;FALSE
+APRAUR;APRAUR;identical;FALSE
+ASP1DC;ASP1DC;identical;FALSE
+ASPO5;ASPO5;identical;FALSE
+ASPO6;ASPO6;identical;FALSE
+BACCL;BACCL;identical;FALSE
+BMOCOS;BMOCOS;identical;FALSE
+BMOGDS1;BMOGDS1;identical;FALSE
+BMOGDS2;BMOGDS2;identical;FALSE
+BTS5;BTS5;identical;FALSE
+BWCOGDS1;BWCOGDS1;identical;FALSE
+BWCOGDS2;BWCOGDS2;identical;FALSE
+BWCOS;BWCOS;identical;FALSE
+CBIAT;CBIAT;identical;FALSE
+CBLAT;CBLAT;identical;FALSE
+CDPMEK;CDPMEK;identical;FALSE
+CFL;CFL;identical;FALSE
+CIGAMS;CIGAMS;identical;FALSE
+COCHL;COCHL;identical;FALSE
+CPC2MT;CPC2MT;identical;FALSE
+CPC3MT;CPC3MT;identical;FALSE
+CPC6R;CPC6R;identical;FALSE
+CPC8MM;CPC8MM;identical;FALSE
+CPMPS;CPMPS;identical;FALSE
+CPPPGO2;CPPPGO2;identical;FALSE
+CYRDAAT;CYRDAAT;identical;FALSE
+CYRDAR;CYRDAR;identical;FALSE
+CYRDAS;CYRDAS;identical;FALSE
+DB4PS;DB4PS;identical;FALSE
+DBTS;DBTS;identical;FALSE
+DHFR;DHFR;identical;FALSE
+DHFS;DHFS;identical;FALSE
+DHFUTALS;DHFUTALS;identical;FALSE
+DHNAI;DHNAI;identical;FALSE
+DHNANT4;DHNANT4;identical;FALSE
+DHNAS;DHNAS;identical;FALSE
+DHNPA2r;DHNPA2r;identical;FALSE
+DHNPTE;DHNPTE;identical;FALSE
+DHPPDA2;DHPPDA2;identical;FALSE
+DHPS2;DHPS2;identical;FALSE
+DMATT;DMATT;identical;FALSE
+DMBZIDS;DMBZIDS;identical;FALSE
+DMPPS;DMPPS;identical;FALSE
+DNADDP;DNADDP;identical;FALSE
+DPCOAK;DPCOAK;identical;FALSE
+DPR;DPR;identical;FALSE
+DXPRIi;DXPRIi;identical;FALSE
+DXPS;DXPS;identical;FALSE
+DXYLK;DXYLK;identical;FALSE
+E4PD;E4PD;identical;FALSE
+EGMEACPR;EGMEACPR;identical;FALSE
+EPMEACPR;EPMEACPR;identical;FALSE
+FADRx2;FADRx2;identical;FALSE
+FCLT;FCLT;identical;FALSE
+FE3Ri;FE3Ri;identical;FALSE
+FESD1s;FESD1s;identical;FALSE
+FESD2s;FESD2s;identical;FALSE
+FESR;FESR;identical;FALSE
+FLVR;FLVR;identical;FALSE
+FMNAT;FMNAT;identical;FALSE
+FMNRx;FMNRx;identical;FALSE
+FMNRx2;FMNRx2;identical;FALSE
+FRTT;FRTT;identical;FALSE
+G1SAT;G1SAT;identical;FALSE
+GDPDPK;GDPDPK;identical;FALSE
+GDPTPDP;GDPTPDP;identical;FALSE
+GGTT;GGTT;identical;FALSE
+GLUTRR;GLUTRR;identical;FALSE
+GLUTRS;GLUTRS;identical;FALSE
+GRTT;GRTT;identical;FALSE
+GTHRDH;GTHRDH;identical;FALSE
+GTPCI;GTPCI;identical;FALSE
+GTPCII2;GTPCII2;identical;FALSE
+GTPCIII2;GTPCIII2;identical;FALSE
+GTPDPDP;GTPDPDP;identical;FALSE
+GTPDPK;GTPDPK;identical;FALSE
+HBADAS;HBADAS;identical;FALSE
+HEMEAS;HEMEAS;identical;FALSE
+HEMEOS;HEMEOS;identical;FALSE
+HEPTT;HEPTT;identical;FALSE
+HEXTT;HEXTT;identical;FALSE
+HMBS;HMBS;identical;FALSE
+HMPK1;HMPK1;identical;FALSE
+HMPK2;HMPK2;identical;FALSE
+HMPK3;HMPK3;identical;FALSE
+HMPK4;HMPK4;identical;FALSE
+HPPK2;HPPK2;identical;FALSE
+IACGAMS2;IACGAMS2;identical;FALSE
+ICYSDS;ICYSDS;identical;FALSE
+IGAMD;IGAMD;identical;FALSE
+IPDDI;IPDDI;identical;FALSE
+IPDPS;IPDPS;identical;FALSE
+LIPAMPL;LIPAMPL;identical;FALSE
+LIPATPT;LIPATPT;identical;FALSE
+LIPOCT;LIPOCT;identical;FALSE
+LIPOS;LIPOS;identical;FALSE
+MALACPMT;MALACPMT;identical;FALSE
+MECDPDH2;MECDPDH2;identical;FALSE
+MECDPS;MECDPS;identical;FALSE
+MEPCT;MEPCT;identical;FALSE
+MOADSUx;MOADSUx;identical;FALSE
+MOCOS;MOCOS;identical;FALSE
+MOGDS;MOGDS;identical;FALSE
+MOHMT;MOHMT;identical;FALSE
+MPTAT;MPTAT;identical;FALSE
+MPTS;MPTS;identical;FALSE
+MPTSS;MPTSS;identical;FALSE
+MSHS;MSHS;identical;FALSE
+MYCTR;MYCTR;identical;FALSE
+NADDP;NADDP;identical;FALSE
+NADK;NADK;identical;FALSE
+NADS1;NADS1;identical;FALSE
+NADS2;NADS2;identical;FALSE
+NAMNPP;NAMNPP;identical;FALSE
+NMNAT;NMNAT;identical;FALSE
+NNAM;NNAM;identical;FALSE
+NNDMBRT;NNDMBRT;identical;FALSE
+NNDPR;NNDPR;identical;FALSE
+OCTNLL;OCTNLL;identical;FALSE
+OCTTT;OCTTT;identical;FALSE
+OGMEACPD;OGMEACPD;identical;FALSE
+OGMEACPR;OGMEACPR;identical;FALSE
+OGMEACPS2;OGMEACPS2;identical;FALSE
+OHPBAT;OHPBAT;identical;FALSE
+OPMEACPD;OPMEACPD;identical;FALSE
+OPMEACPR;OPMEACPR;identical;FALSE
+OPMEACPS;OPMEACPS;identical;FALSE
+PANTS;PANTS;identical;FALSE
+PC11M;PC11M;identical;FALSE
+PC17M;PC17M;identical;FALSE
+PC20M;PC20M;identical;FALSE
+PC3BS;PC3BS;identical;FALSE
+PC6AR;PC6AR;identical;FALSE
+PC6AS;PC6AS;identical;FALSE
+PC6YM;PC6YM;identical;FALSE
+PC8XM;PC8XM;identical;FALSE
+PCPpdsredO;PCPpdsredO;identical;FALSE
+PCPSredO;PCPSredO;identical;FALSE
+PDX5POi;PDX5POi;identical;FALSE
+PMDPHT;PMDPHT;identical;FALSE
+PMEACPE;PMEACPE;identical;FALSE
+PMPK;PMPK;identical;FALSE
+PNTK;PNTK;identical;FALSE
+PPBNGS;PPBNGS;identical;FALSE
+PPCDC;PPCDC;identical;FALSE
+PPGPPDP;PPGPPDP;identical;FALSE
+PPNCL2;PPNCL2;identical;FALSE
+PPPGO;PPPGO;identical;FALSE
+PTPATi;PTPATi;identical;FALSE
+PYAM5PO;PYAM5PO;identical;FALSE
+PYDAMK;PYDAMK;identical;FALSE
+PYDXK;PYDXK;identical;FALSE
+PYDXNK;PYDXNK;identical;FALSE
+PYDXPS;PYDXPS;identical;FALSE
+QULNS;QULNS;identical;FALSE
+RBFK;RBFK;identical;FALSE
+RBFSa;RBFSa;identical;FALSE
+RBFSb;RBFSb;identical;FALSE
+RZ5PP;RZ5PP;identical;FALSE
+S2FE2SR;S2FE2SR;identical;FALSE
+S2FE2SS;S2FE2SS;identical;FALSE
+S2FE2SS2;S2FE2SS2;identical;FALSE
+S2FE2ST;S2FE2ST;identical;FALSE
+S4FE4SR;S4FE4SR;identical;FALSE
+S4FE4ST;S4FE4ST;identical;FALSE
+SCYSDS;SCYSDS;identical;FALSE
+SHCHCC;SHCHCC;identical;FALSE
+SHCHD2;SHCHD2;identical;FALSE
+SHCHF;SHCHF;identical;FALSE
+THZPSN3;THZPSN3;identical;FALSE
+TMK;TMK;identical;FALSE
+TMPK;TMPK;identical;FALSE
+TMPPP;TMPPP;identical;FALSE
+TYRL;TYRL;identical;FALSE
+UDCPDPS;UDCPDPS;identical;FALSE
+UPP3MT;UPP3MT;identical;FALSE
+UPP3S;UPP3S;identical;FALSE
+UPPDC1;UPPDC1;identical;FALSE
+WCOS;WCOS;identical;FALSE
+ADSK;ADSK;identical;FALSE
+AMPTASECG;AMPTASECG;identical;FALSE
+BPNT;BPNT;identical;FALSE
+CYSDS;CYSDS;identical;FALSE
+CYSS;CYSS;identical;FALSE
+CYSTGL;CYSTGL;identical;FALSE
+CYSTS;CYSTS;identical;FALSE
+PAPSR;PAPSR;identical;FALSE
+PAPSR3;PAPSR3;identical;FALSE
+SADT2;SADT2;identical;FALSE
+SULRi;SULRi;identical;FALSE
+DABAACT;DABAACT;identical;FALSE
+DABAAT;DABAAT;identical;FALSE
+ECTH;ECTH;identical;FALSE
+ECTS;ECTS;identical;FALSE
+BIOMASS_SCO;Biomass_SCO;identical;FALSE
+DM_2hymeph_c;DM_2HYMEPH;identical;FALSE
+DM_4crsol_c;DM_4CRSOL;identical;FALSE
+DM_5drib_c;DM_5DRIB;identical;FALSE
+DM_aacald_c;DM_AACALD;identical;FALSE
+DM_aconm_c;DM_ACONM;identical;FALSE
+DM_ACT_c;DM_ACT;identical;FALSE
+DM_amob_c;DM_AMOB;identical;FALSE
+DM_dalua_c;DM_DALUA;identical;FALSE
+DM_ectoine__L_c;DM_ECTOINE;identical;FALSE
+DM_germicidinA_c;DM_GERMA;identical;FALSE
+DM_germicidinB_c;DM_GERMB;identical;FALSE
+DM_germicidinC_c;DM_GERMC;identical;FALSE
+DM_germicidinD_c;DM_GERMD;identical;FALSE
+DM_msh_c;DM_MSH;identical;FALSE
+DM_RED_c;DM_RED;identical;FALSE
+EX_14glucan_e;EX_14glucan(e);identical;FALSE
+EX_15dap_e;EX_15dap(e);identical;FALSE
+EX_1Dgali_e;EX_1Dgali(e);identical;FALSE
+EX_23camp_e;EX_23camp(e);identical;FALSE
+EX_23ccmp_e;EX_23ccmp(e);identical;FALSE
+EX_23cgmp_e;EX_23cgmp(e);identical;FALSE
+EX_23cump_e;EX_23cump(e);identical;FALSE
+EX_26dap__M_e;EX_26dap-M(e);identical;FALSE
+EX_2ddglcn_e;EX_2ddglcn(e);identical;FALSE
+EX_3amp_e;EX_3amp(e);identical;FALSE
+EX_3cmp_e;EX_3cmp(e);identical;FALSE
+EX_3gmp_e;EX_3gmp(e);identical;FALSE
+EX_3ump_e;EX_3ump(e);identical;FALSE
+EX_4abut_e;EX_4abut(e);identical;FALSE
+EX_5dglcn_e;EX_5dglcn(e);identical;FALSE
+EX_5mtr_e;EX_5mtr(e);identical;FALSE
+EX_abt__D_e;EX_abt-D(e);identical;FALSE
+EX_ac_e;EX_ac(e);identical;FALSE
+EX_acald_e;EX_acald(e);identical;FALSE
+EX_acgam_e;EX_acgam(e);identical;FALSE
+EX_acser_e;EX_acser(e);identical;FALSE
+EX_ade_e;EX_ade(e);identical;FALSE
+EX_adn_e;EX_adn(e);identical;FALSE
+EX_agm_e;EX_agm(e);identical;FALSE
+EX_akg_e;EX_akg(e);identical;FALSE
+EX_alaala_e;EX_alaala(e);identical;FALSE
+EX_ala_B_e;EX_ala-B(e);identical;FALSE
+EX_ala__D_e;EX_ala-D(e);identical;FALSE
+EX_ala__L_e;EX_ala-L(e);identical;FALSE
+EX_alltn_e;EX_alltn(e);identical;FALSE
+EX_amp_e;EX_amp(e);identical;FALSE
+EX_arab__L_e;EX_arab-L(e);identical;FALSE
+EX_arg__L_e;EX_arg-L(e);identical;FALSE
+EX_asn__L_e;EX_asn-L(e);identical;FALSE
+EX_aso3_e;EX_aso3(e);identical;FALSE
+EX_asp__L_e;EX_asp-L(e);identical;FALSE
+EX_bhb_e;EX_bhb(e);identical;FALSE
+EX_btn_e;EX_btn(e);identical;FALSE
+EX_ca2_e;EX_ca2(e);identical;FALSE
+EX_cbi_e;EX_cbi(e);identical;FALSE
+EX_cbl1_e;EX_cbl1(e);identical;FALSE
+EX_cd2_e;EX_cd2(e);identical;FALSE
+EX_CDA_e;EX_CDA(e);identical;FALSE
+EX_cellb_e;EX_celb(e);identical;FALSE
+EX_chol_e;EX_chol(e);identical;FALSE
+EX_chtbs_e;EX_chtbs(e);identical;FALSE
+EX_cit_e;EX_cit(e);identical;FALSE
+EX_cl_e;EX_cl(e);identical;FALSE
+EX_cmp_e;EX_cmp(e);identical;FALSE
+EX_co2_e;EX_co2(e);identical;FALSE
+EX_cobalt2_e;EX_cobalt2(e);identical;FALSE
+EX_coelichelin_e;EX_coelichelin(e);identical;FALSE
+EX_csn_e;EX_csn(e);identical;FALSE
+EX_cu_e;EX_cu(e);identical;FALSE
+EX_cu2_e;EX_cu2(e);identical;FALSE
+EX_cys__L_e;EX_cys-L(e);identical;FALSE
+EX_cytd_e;EX_cytd(e);identical;FALSE
+EX_dad_2_e;EX_dad-2(e);identical;FALSE
+EX_damp_e;EX_damp(e);identical;FALSE
+EX_dcmp_e;EX_dcmp(e);identical;FALSE
+EX_dcyt_e;EX_dcyt(e);identical;FALSE
+EX_desferrioxamB_e;EX_desferrioxamB(e);identical;FALSE
+EX_desferrioxamE_e;EX_desferrioxamE(e);identical;FALSE
+EX_dgmp_e;EX_dgmp(e);identical;FALSE
+EX_dgsn_e;EX_dgsn(e);identical;FALSE
+EX_dha_e;EX_dha(e);identical;FALSE
+EX_dimp_e;EX_dimp(e);identical;FALSE
+EX_din_e;EX_din(e);identical;FALSE
+EX_drib_e;EX_drib(e);identical;FALSE
+EX_dtmp_e;EX_dtmp(e);identical;FALSE
+EX_dump_e;EX_dump(e);identical;FALSE
+EX_duri_e;EX_duri(e);identical;FALSE
+EX_epm_e;EX_epm(e);identical;FALSE
+EX_etha_e;EX_etha(e);identical;FALSE
+EX_etoh_e;EX_etoh(e);identical;FALSE
+EX_fald_e;EX_fald(e);identical;FALSE
+EX_fe2_e;EX_fe2(e);identical;FALSE
+EX_fe3_e;EX_fe3(e);identical;FALSE
+EX_ferricoelichelin_e;EX_ferricoelichelin(e);identical;FALSE
+EX_feroxB_e;EX_ferrioxamB(e);identical;FALSE
+EX_feroxE_e;EX_ferrioxamE(e);identical;FALSE
+EX_for_e;EX_for(e);identical;FALSE
+EX_fru_e;EX_fru(e);identical;FALSE
+EX_fum_e;EX_fum(e);identical;FALSE
+EX_g3pc_e;EX_g3pc(e);identical;FALSE
+EX_g3pe_e;EX_g3pe(e);identical;FALSE
+EX_g3pg_e;EX_g3pg(e);identical;FALSE
+EX_g3pi_e;EX_g3pi(e);identical;FALSE
+EX_g3ps_e;EX_g3ps(e);identical;FALSE
+EX_gACT_e;EX_gACT(e);identical;FALSE
+EX_gal_e;EX_gal(e);identical;FALSE
+EX_galctn__D_e;EX_galctn-D(e);identical;FALSE
+EX_ggl_e;EX_ggl(e);identical;FALSE
+EX_glc__D_e;EX_glc(e);identical;FALSE
+EX_glcn_e;EX_glcn(e);identical;FALSE
+EX_glcr_e;EX_glcr(e);identical;FALSE
+EX_gln__L_e;EX_gln-L(e);identical;FALSE
+EX_glu__L_e;EX_glu-L(e);identical;FALSE
+EX_gly_e;EX_gly(e);identical;FALSE
+EX_glyald_e;EX_glyald(e);identical;FALSE
+EX_glyb_e;EX_glyb(e);identical;FALSE
+EX_glyc_e;EX_glyc(e);identical;FALSE
+EX_glyc3p_e;EX_glyc3p(e);identical;FALSE
+EX_glyclt_e;EX_glyclt(e);identical;FALSE
+EX_glyc__R_e;EX_glyc-R(e);identical;FALSE
+EX_gmp_e;EX_gmp(e);identical;FALSE
+EX_gsn_e;EX_gsn(e);identical;FALSE
+EX_gua_e;EX_gua(e);identical;FALSE
+EX_h_e;EX_h(e);identical;FALSE
+EX_h2o_e;EX_h2o(e);identical;FALSE
+EX_h2o2_e;EX_h2o2(e);identical;FALSE
+EX_h2s_e;EX_h2s(e);identical;FALSE
+EX_his__L_e;EX_his-L(e);identical;FALSE
+EX_hom__L_e;EX_hom-L(e);identical;FALSE
+EX_idon__L_e;EX_idon-L(e);identical;FALSE
+EX_ile__L_e;EX_ile-L(e);identical;FALSE
+EX_imp_e;EX_imp(e);identical;FALSE
+EX_indole_e;EX_indole(e);identical;FALSE
+EX_inost_e;EX_inost(e);identical;FALSE
+EX_ins_e;EX_ins(e);identical;FALSE
+EX_k_e;EX_k(e);identical;FALSE
+EX_lac__D_e;EX_lac-D(e);identical;FALSE
+EX_lac__L_e;EX_lac-L(e);identical;FALSE
+EX_LalaDglu_e;EX_LalaDglu(e);identical;FALSE
+EX_lcts_e;EX_lcts(e);identical;FALSE
+EX_leu__L_e;EX_leu-L(e);identical;FALSE
+EX_lipoate_e;EX_lipoate(e);identical;FALSE
+EX_lys__L_e;EX_lys-L(e);identical;FALSE
+EX_lyx__L_e;EX_lyx-L(e);identical;FALSE
+EX_mal__L_e;EX_mal-L(e);identical;FALSE
+EX_malt_e;EX_malt(e);identical;FALSE
+EX_malthp_e;EX_malthp(e);identical;FALSE
+EX_malthx_e;EX_malthx(e);identical;FALSE
+EX_maltpt_e;EX_maltpt(e);identical;FALSE
+EX_malttr_e;EX_malttr(e);identical;FALSE
+EX_maltttr_e;EX_maltttr(e);identical;FALSE
+EX_man_e;EX_man(e);identical;FALSE
+EX_melib_e;EX_melib(e);identical;FALSE
+EX_melt_e;EX_melt(e);identical;FALSE
+EX_meoh_e;EX_meoh(e);identical;FALSE
+EX_met__L_e;EX_met-L(e);identical;FALSE
+EX_mg2_e;EX_mg2(e);identical;FALSE
+EX_mn2_e;EX_mn2(e);identical;FALSE
+EX_mnl_e;EX_mnl(e);identical;FALSE
+EX_mobd_e;EX_mobd(e);identical;FALSE
+EX_n2o_e;EX_n2o(e);identical;FALSE
+EX_na1_e;EX_na1(e);identical;FALSE
+EX_nac_e;EX_nac(e);identical;FALSE
+EX_nh4_e;EX_nh4(e);identical;FALSE
+EX_ni2_e;EX_ni2(e);identical;FALSE
+EX_nmn_e;EX_nmn(e);identical;FALSE
+EX_no_e;EX_no(e);identical;FALSE
+EX_no2_e;EX_no2(e);identical;FALSE
+EX_no3_e;EX_no3(e);identical;FALSE
+EX_o2_e;EX_o2(e);identical;FALSE
+EX_orn_e;EX_orn(e);identical;FALSE
+EX_orot_e;EX_orot(e);identical;FALSE
+EX_pacald_e;EX_pacald(e);identical;FALSE
+EX_phe__L_e;EX_phe-L(e);identical;FALSE
+EX_pi_e;EX_pi(e);identical;FALSE
+EX_pnto__R_e;EX_pnto-R(e);identical;FALSE
+EX_ppa_e;EX_ppa(e);identical;FALSE
+EX_pro__L_e;EX_pro-L(e);identical;FALSE
+EX_ptrc_e;EX_ptrc(e);identical;FALSE
+EX_pydam_e;EX_pydam(e);identical;FALSE
+EX_pydx_e;EX_pydx(e);identical;FALSE
+EX_pydxn_e;EX_pydxn(e);identical;FALSE
+EX_pyr_e;EX_pyr(e);identical;FALSE
+EX_raffin_e;EX_raffin(e);identical;FALSE
+EX_rib__D_e;EX_rib-D(e);identical;FALSE
+EX_rmn_e;EX_rmn(e);identical;FALSE
+EX_salcn_e;EX_salcn(e);identical;FALSE
+EX_sbt__D_e;EX_sbt-D(e);identical;FALSE
+EX_ser__L_e;EX_ser-L(e);identical;FALSE
+EX_skm_e;EX_skm(e);identical;FALSE
+EX_so4_e;EX_so4(e);identical;FALSE
+EX_spmd_e;EX_spmd(e);identical;FALSE
+EX_succ_e;EX_succ(e);identical;FALSE
+EX_tartr__D_e;EX_tartr-D(e);identical;FALSE
+EX_taur_e;EX_taur(e);identical;FALSE
+EX_thm_e;EX_thm(e);identical;FALSE
+EX_thr__L_e;EX_thr-L(e);identical;FALSE
+EX_thym_e;EX_thym(e);identical;FALSE
+EX_thymd_e;EX_thymd(e);identical;FALSE
+EX_tre_e;EX_tre(e);identical;FALSE
+EX_trp__L_e;EX_trp-L(e);identical;FALSE
+EX_tungs_e;EX_tungs(e);identical;FALSE
+EX_tyr__L_e;EX_tyr-L(e);identical;FALSE
+EX_ump_e;EX_ump(e);identical;FALSE
+EX_ura_e;EX_ura(e);identical;FALSE
+EX_urea_e;EX_urea(e);identical;FALSE
+EX_uri_e;EX_uri(e);identical;FALSE
+EX_val__L_e;EX_val-L(e);identical;FALSE
+EX_vanlt_e;EX_vanlt(e);identical;FALSE
+EX_xan_e;EX_xan(e);identical;FALSE
+EX_xmp_e;EX_xmp(e);identical;FALSE
+EX_xtsn_e;EX_xtsn(e);identical;FALSE
+EX_xyl__D_e;EX_xyl-D(e);identical;FALSE
+EX_xylt_e;EX_xylt(e);identical;FALSE
+EX_zn2_e;EX_zn2(e);identical;FALSE
+FTHFD;FTHFD;identical;FALSE
+GCALDD;GCALDD;identical;FALSE
+GLYCL;GLYCL;identical;FALSE
+MTHFC;MTHFC;identical;FALSE
+MTHFD;MTHFD;identical;FALSE
+MTHFR2;MTHFR2;identical;FALSE
+THFAT;THFAT;identical;FALSE
+GERMA;GERMA;identical;FALSE
+GERMB;GERMB;identical;FALSE
+GERMC;GERMC;identical;FALSE
+GERMD;GERMD;identical;FALSE
+GLUDC;GLUDC;identical;FALSE
+GLUDxi;GLUDxi;identical;FALSE
+GLUDyi;GLUDyi;identical;FALSE
+GLUN;GLUN;identical;FALSE
+GLNS;GLNS;identical;FALSE
+GLUSx;GLUSx;identical;FALSE
+ACPPAT120;ACPPAT120;identical;FALSE
+ACPPAT140;ACPPAT140;identical;FALSE
+ACPPAT141;ACPPAT141;identical;FALSE
+ACPPAT150;ACPPAT150;identical;FALSE
+ACPPAT160;ACPPAT160;identical;FALSE
+ACPPAT161;ACPPAT161;identical;FALSE
+ACPPAT170;ACPPAT170;identical;FALSE
+ACPPAT180;ACPPAT180;identical;FALSE
+ACPPAT181;ACPPAT181;identical;FALSE
+ACPPATai150;ACPPATai150;identical;FALSE
+ACPPATai170;ACPPATai170;identical;FALSE
+ACPPATi140;ACPPATi140;identical;FALSE
+ACPPATi150;ACPPATi150;identical;FALSE
+ACPPATi160;ACPPATi160;identical;FALSE
+ACPPATi170;ACPPATi170;identical;FALSE
+ACPPATi180;ACPPATi180;identical;FALSE
+AGPAT120;AGPAT120;identical;FALSE
+AGPAT140;AGPAT140;identical;FALSE
+AGPAT141;AGPAT141;identical;FALSE
+AGPAT150;AGPAT150;identical;FALSE
+AGPAT160;AGPAT160;identical;FALSE
+AGPAT161;AGPAT161;identical;FALSE
+AGPAT170;AGPAT170;identical;FALSE
+AGPAT180;AGPAT180;identical;FALSE
+AGPAT181;AGPAT181;identical;FALSE
+AGPATai150;AGPATai150;identical;FALSE
+AGPATai170;AGPATai170;identical;FALSE
+AGPATi140;AGPATi140;identical;FALSE
+AGPATi150;AGPATi150;identical;FALSE
+AGPATi160;AGPATi160;identical;FALSE
+AGPATi170;AGPATi170;identical;FALSE
+AGPATi180;AGPATi180;identical;FALSE
+APG3PAT120;APG3PAT120;identical;FALSE
+APG3PAT140;APG3PAT140;identical;FALSE
+APG3PAT141;APG3PAT141;identical;FALSE
+APG3PAT150;APG3PAT150;identical;FALSE
+APG3PAT160;APG3PAT160;identical;FALSE
+APG3PAT161;APG3PAT161;identical;FALSE
+APG3PAT170;APG3PAT170;identical;FALSE
+APG3PAT180;APG3PAT180;identical;FALSE
+APG3PAT181;APG3PAT181;identical;FALSE
+APG3PATai150;APG3PATai150;identical;FALSE
+APG3PATai170;APG3PATai170;identical;FALSE
+APG3PATi140;APG3PATi140;identical;FALSE
+APG3PATi150;APG3PATi150;identical;FALSE
+APG3PATi160;APG3PATi160;identical;FALSE
+APG3PATi170;APG3PATi170;identical;FALSE
+APG3PATi180;APG3PATi180;identical;FALSE
+APH120;APH120;identical;FALSE
+APH140;APH140;identical;FALSE
+APH141;APH141;identical;FALSE
+APH150;APH150;identical;FALSE
+APH160;APH160;identical;FALSE
+APH161;APH161;identical;FALSE
+APH170;APH170;identical;FALSE
+APH180;APH180;identical;FALSE
+APH181;APH181;identical;FALSE
+APHai150;APHai150;identical;FALSE
+APHai170;APHai170;identical;FALSE
+APHi140;APHi140;identical;FALSE
+APHi150;APHi150;identical;FALSE
+APHi160;APHi160;identical;FALSE
+APHi170;APHi170;identical;FALSE
+APHi180;APHi180;identical;FALSE
+CLPNS120;CLPNS120;identical;FALSE
+CLPNS140;CLPNS140;identical;FALSE
+CLPNS141;CLPNS141;identical;FALSE
+CLPNS150;CLPNS150;identical;FALSE
+CLPNS160;CLPNS160;identical;FALSE
+CLPNS161;CLPNS161;identical;FALSE
+CLPNS170;CLPNS170;identical;FALSE
+CLPNS180;CLPNS180;identical;FALSE
+CLPNS181;CLPNS181;identical;FALSE
+CLPNSai150;CLPNSai150;identical;FALSE
+CLPNSai170;CLPNSai170;identical;FALSE
+CLPNSi140;CLPNSi140;identical;FALSE
+CLPNSi150;CLPNSi150;identical;FALSE
+CLPNSi160;CLPNSi160;identical;FALSE
+CLPNSi170;CLPNSi170;identical;FALSE
+CLPNSi180;CLPNSi180;identical;FALSE
+CLPNSII120;CLPNSII120;identical;FALSE
+CLPNSII140;CLPNSII140;identical;FALSE
+CLPNSII141;CLPNSII141;identical;FALSE
+CLPNSII150;CLPNSII150;identical;FALSE
+CLPNSII160;CLPNSII160;identical;FALSE
+CLPNSII161;CLPNSII161;identical;FALSE
+CLPNSII170;CLPNSII170;identical;FALSE
+CLPNSII180;CLPNSII180;identical;FALSE
+CLPNSII181;CLPNSII181;identical;FALSE
+CLPNSIIai150;CLPNSIIai150;identical;FALSE
+CLPNSIIai170;CLPNSIIai170;identical;FALSE
+CLPNSIIi140;CLPNSIIi140;identical;FALSE
+CLPNSIIi150;CLPNSIIi150;identical;FALSE
+CLPNSIIi160;CLPNSIIi160;identical;FALSE
+CLPNSIIi170;CLPNSIIi170;identical;FALSE
+CLPNSIIi180;CLPNSIIi180;identical;FALSE
+DASYN120;DASYN120;identical;FALSE
+DASYN140;DASYN140;identical;FALSE
+DASYN141;DASYN141;identical;FALSE
+DASYN150;DASYN150;identical;FALSE
+DASYN160;DASYN160;identical;FALSE
+DASYN161;DASYN161;identical;FALSE
+DASYN170;DASYN170;identical;FALSE
+DASYN180;DASYN180;identical;FALSE
+DASYN181;DASYN181;identical;FALSE
+DASYNai150;DASYNai150;identical;FALSE
+DASYNai170;DASYNai170;identical;FALSE
+DASYNi140;DASYNi140;identical;FALSE
+DASYNi150;DASYNi150;identical;FALSE
+DASYNi160;DASYNi160;identical;FALSE
+DASYNi170;DASYNi170;identical;FALSE
+DASYNi180;DASYNi180;identical;FALSE
+GPDDA1;GPDDA1;identical;FALSE
+GPDDA1e;GPDDA1e;identical;FALSE
+GPDDA2;GPDDA2;identical;FALSE
+GPDDA2e;GPDDA2e;identical;FALSE
+GPDDA3;GPDDA3;identical;FALSE
+GPDDA3e;GPDDA3e;identical;FALSE
+GPDDA4;GPDDA4;identical;FALSE
+GPDDA4e;GPDDA4e;identical;FALSE
+GPDDA5;GPDDA5;identical;FALSE
+GPDDA5e;GPDDA5e;identical;FALSE
+PAPA120;PAPA120;identical;FALSE
+PAPA140;PAPA140;identical;FALSE
+PAPA141;PAPA141;identical;FALSE
+PAPA150;PAPA150;identical;FALSE
+PAPA160;PAPA160;identical;FALSE
+PAPA161;PAPA161;identical;FALSE
+PAPA170;PAPA170;identical;FALSE
+PAPA180;PAPA180;identical;FALSE
+PAPA181;PAPA181;identical;FALSE
+PAPAai150;PAPAai150;identical;FALSE
+PAPAai170;PAPAai170;identical;FALSE
+PAPAi140;PAPAi140;identical;FALSE
+PAPAi150;PAPAi150;identical;FALSE
+PAPAi160;PAPAi160;identical;FALSE
+PAPAi170;PAPAi170;identical;FALSE
+PAPAi180;PAPAi180;identical;FALSE
+PGSA120;PGSA120;identical;FALSE
+PGSA140;PGSA140;identical;FALSE
+PGSA141;PGSA141;identical;FALSE
+PGSA150;PGSA150;identical;FALSE
+PGSA160;PGSA160;identical;FALSE
+PGSA161;PGSA161;identical;FALSE
+PGSA170;PGSA170;identical;FALSE
+PGSA180;PGSA180;identical;FALSE
+PGSA181;PGSA181;identical;FALSE
+PGSAai150;PGSAai150;identical;FALSE
+PGSAai170;PGSAai170;identical;FALSE
+PGSAi140;PGSAi140;identical;FALSE
+PGSAi150;PGSAi150;identical;FALSE
+PGSAi160;PGSAi160;identical;FALSE
+PGSAi170;PGSAi170;identical;FALSE
+PGSAi180;PGSAi180;identical;FALSE
+PINOS120;PINOS120;identical;FALSE
+PINOS140;PINOS140;identical;FALSE
+PINOS141;PINOS141;identical;FALSE
+PINOS150;PINOS150;identical;FALSE
+PINOS160;PINOS160;identical;FALSE
+PINOS161;PINOS161;identical;FALSE
+PINOS170;PINOS170;identical;FALSE
+PINOS180;PINOS180;identical;FALSE
+PINOS181;PINOS181;identical;FALSE
+PINOSai150;PINOSai150;identical;FALSE
+PINOSai170;PINOSai170;identical;FALSE
+PINOSi140;PINOSi140;identical;FALSE
+PINOSi150;PINOSi150;identical;FALSE
+PINOSi160;PINOSi160;identical;FALSE
+PINOSi170;PINOSi170;identical;FALSE
+PINOSi180;PINOSi180;identical;FALSE
+PSD120;PSD120;identical;FALSE
+PSD140;PSD140;identical;FALSE
+PSD141;PSD141;identical;FALSE
+PSD150;PSD150;identical;FALSE
+PSD160;PSD160;identical;FALSE
+PSD161;PSD161;identical;FALSE
+PSD170;PSD170;identical;FALSE
+PSD180;PSD180;identical;FALSE
+PSD181;PSD181;identical;FALSE
+PSDai150;PSDai150;identical;FALSE
+PSDai170;PSDai170;identical;FALSE
+PSDi140;PSDi140;identical;FALSE
+PSDi150;PSDi150;identical;FALSE
+PSDi160;PSDi160;identical;FALSE
+PSDi170;PSDi170;identical;FALSE
+PSDi180;PSDi180;identical;FALSE
+PSSA120;PSSA120;identical;FALSE
+PSSA140;PSSA140;identical;FALSE
+PSSA141;PSSA141;identical;FALSE
+PSSA150;PSSA150;identical;FALSE
+PSSA160;PSSA160;identical;FALSE
+PSSA161;PSSA161;identical;FALSE
+PSSA170;PSSA170;identical;FALSE
+PSSA180;PSSA180;identical;FALSE
+PSSA181;PSSA181;identical;FALSE
+PSSAai150;PSSAai150;identical;FALSE
+PSSAai170;PSSAai170;identical;FALSE
+PSSAi140;PSSAi140;identical;FALSE
+PSSAi150;PSSAi150;identical;FALSE
+PSSAi160;PSSAi160;identical;FALSE
+PSSAi170;PSSAi170;identical;FALSE
+PSSAi180;PSSAi180;identical;FALSE
+TAGS120;TAGS120;identical;FALSE
+TAGS140;TAGS140;identical;FALSE
+TAGS141;TAGS141;identical;FALSE
+TAGS150;TAGS150;identical;FALSE
+TAGS160;TAGS160;identical;FALSE
+TAGS161;TAGS161;identical;FALSE
+TAGS170;TAGS170;identical;FALSE
+TAGS180;TAGS180;identical;FALSE
+TAGS181;TAGS181;identical;FALSE
+TAGSai150;TAGSai150;identical;FALSE
+TAGSai170;TAGSai170;identical;FALSE
+TAGSi140;TAGSi140;identical;FALSE
+TAGSi150;TAGSi150;identical;FALSE
+TAGSi160;TAGSi160;identical;FALSE
+TAGSi170;TAGSi170;identical;FALSE
+TAGSi180;TAGSi180;identical;FALSE
+GLYAT;GLYAT;identical;FALSE
+GLYCK2;GLYCK2;identical;FALSE
+PGCD;PGCD;identical;FALSE
+PSERT;PSERT;identical;FALSE
+PSP_L;PSP_L;identical;FALSE
+SERD_L;SERD_L;identical;FALSE
+THRD;THRD;identical;FALSE
+ENO;ENO;identical;FALSE
+FBA;FBA;identical;FALSE
+FBA2;FBA2;identical;FALSE
+FBP;FBP;identical;FALSE
+GAPD;GAPD;identical;FALSE
+GLBRAN2;GLBRAN2;identical;FALSE
+GLCP;GLCP;identical;FALSE
+GLCP2;GLCP2;identical;FALSE
+GLCS1;GLCS1;identical;FALSE
+GLDBRAN2;GLDBRAN2;identical;FALSE
+GLGC;GLGC;identical;FALSE
+HEX1;HEX1;identical;FALSE
+PDH;PDH;identical;FALSE
+PFK;PFK;identical;FALSE
+PGI;PGI;identical;FALSE
+PGK;PGK;identical;FALSE
+PGM;PGM;identical;FALSE
+PPDK;PPDK;identical;FALSE
+PYK;PYK;identical;FALSE
+TPI;TPI;identical;FALSE
+GLXCL;GLXCL;identical;FALSE
+GLYCK;GLYCK;identical;FALSE
+ATPPRT;ATPPRT;identical;FALSE
+FGLU;FGLU;identical;FALSE
+FORAMD;FORAMD;identical;FALSE
+HISTD;HISTD;identical;FALSE
+HISTP;HISTP;identical;FALSE
+HSTPT;HSTPT;identical;FALSE
+IG3PS;IG3PS;identical;FALSE
+IGPDH;IGPDH;identical;FALSE
+IZPN;IZPN;identical;FALSE
+PRAMPC;PRAMPC;identical;FALSE
+PRATPP;PRATPP;identical;FALSE
+PRMICI;PRMICIi;identical;FALSE
+PRPPS;PRPPS;identical;FALSE
+URCN;URCN;identical;FALSE
+ASR;ASR;identical;FALSE
+CA2t4;CA2t4;identical;FALSE
+CD2abc;CD2abc;identical;FALSE
+CD2t4;CD2t4;identical;FALSE
+CLt3_2;CLt3_2;identical;FALSE
+COBALT2t;COBALT2t;identical;FALSE
+COBALT2t3;COBALT2t3;identical;FALSE
+COELICHELINabc;COELICHELINabc;identical;FALSE
+COELICHELINexs;COELICHELINexs;identical;FALSE
+COELICHELINR1;COELICHELINR1;identical;FALSE
+COELICHELINR2;COELICHELINR2;identical;FALSE
+COELICHELINR3;COELICHELINR3;identical;FALSE
+COELICHELINUt;COELICHELINUt;identical;FALSE
+CU1abc;CU1abc;identical;FALSE
+CU1O;CU1O;identical;FALSE
+CU2abc;CU2abc;identical;FALSE
+CU2t;CU2t;identical;FALSE
+CUt3;CUt3;identical;FALSE
+FE2t2;FE2t2;identical;FALSE
+FE2t3;FE2t3;identical;FALSE
+FE3abc;FE3abc;identical;FALSE
+FEOXAMBabc;FEOXAMBabc;identical;FALSE
+FEOXAMBexs;FEOXAMBexs;identical;FALSE
+FEOXAMBR1;FEOXAMBR1;identical;FALSE
+FEOXAMBR2;FEOXAMBR2;identical;FALSE
+FEOXAMBR3;FEOXAMBR3;identical;FALSE
+FEOXAMBUt;FEOXAMBUt;identical;FALSE
+FEOXAMEabc;FEOXAMEabc;identical;FALSE
+FEOXAMEexs;FEOXAMEexs;identical;FALSE
+FEOXAMER1;FEOXAMER1;identical;FALSE
+FEOXAMER2;FEOXAMER2;identical;FALSE
+FEOXAMER3;FEOXAMER3;identical;FALSE
+FEOXAMEUt;FEOXAMEUt;identical;FALSE
+FERO;FERO;identical;FALSE
+H2SO;H2SO;identical;FALSE
+Kabc;Kabc;identical;FALSE
+Kt2;Kt2;identical;FALSE
+Kt3;Kt3;identical;FALSE
+MG2t;MG2t;identical;FALSE
+MG2uabc;MG2uabc;identical;FALSE
+MN2t3;MN2t3;identical;FALSE
+MOBDabc;MOBDabc;identical;FALSE
+NAt3_1;NAt3;identical;FALSE
+NAt3_2;NAt3_2;identical;FALSE
+NH4t;NH4t;identical;FALSE
+NI2t;NI2t;identical;FALSE
+NI2t3;NI2t3;identical;FALSE
+Niabc;NI2uabc;identical;FALSE
+NO2t2r;NO2t2r;identical;FALSE
+NO3t7;NO3t7;identical;FALSE
+NOt;NOt;identical;FALSE
+O2t;O2t;identical;FALSE
+PIt2r;PIt2r;identical;FALSE
+Piabc;Piuabc;identical;FALSE
+SO4t2;SO4t2;identical;FALSE
+SULabc;SULabc;identical;FALSE
+TUNGSabc;TUNGSabc;identical;FALSE
+ZN2t3;ZN2t3;identical;FALSE
+ZNabc;ZNabc;identical;FALSE
+DGI;DGI;identical;FALSE
+INS2D;INS2D;identical;FALSE
+INSDH;INSDH;identical;FALSE
+MI1PS;MI1PS;identical;FALSE
+MI1PS2;MI1PS2;identical;FALSE
+THCHDH;THCHDH;identical;FALSE
+2MBCOATA;2MBCOATA;identical;FALSE
+ACACT1r;ACACT1r;identical;FALSE
+ACACT2r;ACACT2r;identical;FALSE
+ACACT3r;ACACT3r;identical;FALSE
+ACACT4r;ACACT4r;identical;FALSE
+ACACT5r;ACACT5r;identical;FALSE
+ACACT6r;ACACT6r;identical;FALSE
+ACACT7r;ACACT7r;identical;FALSE
+ACACT8r;ACACT8r;identical;FALSE
+ACCOAC;ACCOAC;identical;FALSE
+ACOAD1f;ACOAD1f;identical;FALSE
+ACOAD2f;ACOAD2f;identical;FALSE
+ACOAD3f;ACOAD3f;identical;FALSE
+ACOAD4f;ACOAD4f;identical;FALSE
+ACOAD5f;ACOAD5f;identical;FALSE
+ACOAD6f;ACOAD6f;identical;FALSE
+ACOAD7f;ACOAD7f;identical;FALSE
+ACOAD8f;ACOAD8f;identical;FALSE
+ACOATA;ACOATA;identical;FALSE
+BCOATA;BCOATA;identical;FALSE
+CTECOAI6;CTECOAI6;identical;FALSE
+CTECOAI7;CTECOAI7;identical;FALSE
+CTECOAI8;CTECOAI8;identical;FALSE
+ECOAH2;ECOAH2;identical;FALSE
+ECOAH3;ECOAH3;identical;FALSE
+ECOAH4;ECOAH4;identical;FALSE
+ECOAH5;ECOAH5;identical;FALSE
+ECOAH6;ECOAH6;identical;FALSE
+ECOAH7;ECOAH7;identical;FALSE
+ECOAH8;ECOAH8;identical;FALSE
+HACD1;HACD1;identical;FALSE
+HACD2;HACD2;identical;FALSE
+HACD3;HACD3;identical;FALSE
+HACD4;HACD4;identical;FALSE
+HACD5;HACD5;identical;FALSE
+HACD6;HACD6;identical;FALSE
+HACD7;HACD7;identical;FALSE
+HACD8;HACD8;identical;FALSE
+IBCOATA;IBCOATA;identical;FALSE
+IVCOATA;IVCOATA;identical;FALSE
+KAS14;KAS14;identical;FALSE
+KAS15;KAS15;identical;FALSE
+MACPD;MACPD;identical;FALSE
+MCOATA;MCOATA;identical;FALSE
+PCOATA;PCOATA;identical;FALSE
+AHCi;AHC;identical;FALSE
+AHSERL2;AHSERL2r;identical;FALSE
+CYSTL;CYSTL;identical;FALSE
+HCYSMT;HCYSMT;identical;FALSE
+HSST;HSST;identical;FALSE
+METAT;METAT;identical;FALSE
+METOX1s;METOX1s;identical;FALSE
+METOX2s;METOX2s;identical;FALSE
+METS;METS;identical;FALSE
+METSOXR1;METSOXR1;identical;FALSE
+METSOXR2;METSOXR2;identical;FALSE
+MHPGLUT;MHPGLUT;identical;FALSE
+MTAP;MTAP;identical;FALSE
+MTRI;MTRI;identical;FALSE
+SHSL1;SHSL1;identical;FALSE
+SHSL2;SHSL2;identical;FALSE
+SPMS;SPMS;identical;FALSE
+SPRMS;SPRMS;identical;FALSE
+MCTP1A;MCTP1A;identical;FALSE
+MCTP1B;MCTP1B;identical;FALSE
+MCTP2A;MCTP2A;identical;FALSE
+MDDCP1;MDDCP1;identical;FALSE
+MDDCP2;MDDCP2;identical;FALSE
+MDDCP3;MDDCP3;identical;FALSE
+MDDCP4;MDDCP4;identical;FALSE
+MDDCP5;MDDCP5;identical;FALSE
+MPTG;MPTG;identical;FALSE
+MPTG2;MPTG2;identical;FALSE
+4PCP;4PCP;identical;FALSE
+ACGAMK;ACGAMK;identical;FALSE
+AGM4PCP;AGM4PCP;identical;FALSE
+AM4PCP;AM4PCP;identical;FALSE
+ANHMK;ANHMK;identical;FALSE
+LADGMDH;LADGMDH;identical;FALSE
+MDDEP1;MDDEP1;identical;FALSE
+MDDEP2;MDDEP2;identical;FALSE
+MDDEP3;MDDEP3;identical;FALSE
+MDDEP4;MDDEP4;identical;FALSE
+UM4PCP;UM4PCP;identical;FALSE
+ALLTN;ALLTN;identical;FALSE
+NO3R2;NO3R2;identical;FALSE
+NODOx;NODOx;identical;FALSE
+NODOy;NODOy;identical;FALSE
+UGLYCH;UGLYCH;identical;FALSE
+23PDE2e;23PDE2e;identical;FALSE
+23PDE4e;23PDE4e;identical;FALSE
+23PDE7e;23PDE7e;identical;FALSE
+23PDE9e;23PDE9e;identical;FALSE
+3NTD2e;3NTD2e;identical;FALSE
+3NTD4e;3NTD4e;identical;FALSE
+3NTD7e;3NTD7e;identical;FALSE
+3NTD9e;3NTD9e;identical;FALSE
+ADA;ADA;identical;FALSE
+ADK1;ADK1;identical;FALSE
+ADK2;ADK2i;identical;FALSE
+ADK3;ADK3i;identical;FALSE
+ADK4;ADK4i;identical;FALSE
+ADNCYC;ADNCYC;identical;FALSE
+ADNK1;ADNK1;identical;FALSE
+ADPRDP;ADPRDP;identical;FALSE
+ADPT;ADPT;identical;FALSE
+ATPHs;ATPHs;identical;FALSE
+CSND;CSND;identical;FALSE
+CYTD;CYTD;identical;FALSE
+CYTK1;CYTK1;identical;FALSE
+CYTK2;CYTK2;identical;FALSE
+DADA;DADA;identical;FALSE
+DADK;DADK;identical;FALSE
+DATPHs;DATPHs;identical;FALSE
+DCTPD;DCTPD;identical;FALSE
+DCTPD2;DCTPD2;identical;FALSE
+DCYTD;DCYTD;identical;FALSE
+DGK1;DGK1;identical;FALSE
+DTMPK;DTMPK;identical;FALSE
+DURIK1;DURIK1;identical;FALSE
+DURIPP;DURIPP;identical;FALSE
+DUTPDP;DUTPDP;identical;FALSE
+GK1i;GK1i;identical;FALSE
+GK2i;GK2i;identical;FALSE
+GTPHs;GTPHs;identical;FALSE
+GUACYC;GUACYC;identical;FALSE
+GUAPRT;GUAPRT;identical;FALSE
+HXAND;HXAND;identical;FALSE
+HXPRT;HXPRT;identical;FALSE
+INSH;INSH;identical;FALSE
+NDPK1;NDPK1;identical;FALSE
+NDPK2;NDPK2;identical;FALSE
+NDPK3;NDPK3;identical;FALSE
+NDPK4;NDPK4;identical;FALSE
+NDPK5;NDPK5;identical;FALSE
+NDPK6;NDPK6;identical;FALSE
+NDPK7;NDPK7;identical;FALSE
+NDPK8;NDPK8;identical;FALSE
+NDPK9;NDPK9;identical;FALSE
+NNATr;NNAT;identical;FALSE
+NTD10e;NTD10e;identical;FALSE
+NTD11e;NTD11e;identical;FALSE
+NTD12e;NTD12e;identical;FALSE
+NTD1e;NTD1e;identical;FALSE
+NTD2e;NTD2e;identical;FALSE
+NTD3e;NTD3e;identical;FALSE
+NTD4e;NTD4e;identical;FALSE
+NTD5e;NTD5e;identical;FALSE
+NTD6e;NTD6e;identical;FALSE
+NTD7e;NTD7e;identical;FALSE
+NTD8e;NTD8e;identical;FALSE
+NTD9e;NTD9e;identical;FALSE
+NTP1;NTP1;identical;FALSE
+NTP10;NTP10;identical;FALSE
+NTP3;NTP3;identical;FALSE
+NTP5;NTP5;identical;FALSE
+NTPP1;NTPP1;identical;FALSE
+NTPP10;NTPP10;identical;FALSE
+NTPP11;NTPP11;identical;FALSE
+NTPP2;NTPP2;identical;FALSE
+NTPP3;NTPP3;identical;FALSE
+NTPP4;NTPP4;identical;FALSE
+NTPP5;NTPP5;identical;FALSE
+NTPP6;NTPP6;identical;FALSE
+NTPP7;NTPP7;identical;FALSE
+NTPP8;NTPP8;identical;FALSE
+NTPP9;NTPP9;identical;FALSE
+NTPTP1;NTPTP1;identical;FALSE
+NTPTP2;NTPTP2;identical;FALSE
+PDE1;PDE1;identical;FALSE
+PDE4;PDE4;identical;FALSE
+PUNP1;PUNP1;identical;FALSE
+PUNP2;PUNP2;identical;FALSE
+PUNP3;PUNP3;identical;FALSE
+PUNP4;PUNP4;identical;FALSE
+PUNP5;PUNP5;identical;FALSE
+PUNP6;PUNP6;identical;FALSE
+PUNP7;PUNP7;identical;FALSE
+RNDR1;RNDR1;identical;FALSE
+RNDR2;RNDR2;identical;FALSE
+RNDR3;RNDR3;identical;FALSE
+RNDR4;RNDR4;identical;FALSE
+TMDK1;TMDK1;identical;FALSE
+TMDPP;TMDPP;identical;FALSE
+TMDSf;TMDSf;identical;FALSE
+UMPK;UMPK;identical;FALSE
+UPPRT;UPPRT;identical;FALSE
+XAND;XAND;identical;FALSE
+XTSNH;XTSNH;identical;FALSE
+ATPS4r;ATPS4r;identical;FALSE
+CYO2a;CYO2a;identical;FALSE
+CYO2b;CYO2b;identical;FALSE
+CYTBD2;CYTBD2;identical;FALSE
+FRD8;FRD8;identical;FALSE
+G3PD6;G3PD6;identical;FALSE
+L_LACD4;L-LACD4;identical;FALSE
+NADH10b;NADH10;identical;FALSE
+NADH17b;NADH17;identical;FALSE
+NADTRHD;NADTRHD;identical;FALSE
+NTRIR2x;NTRIR2x;identical;FALSE
+POX3;POX3;identical;FALSE
+PPK2r;PPK2r;identical;FALSE
+QMO3;QMO3;identical;FALSE
+SUCD3;SUCD3;identical;FALSE
+THD2;THD2;identical;FALSE
+TRDR;TRDR;identical;FALSE
+EDA;EDA;identical;FALSE
+FBA3;FBA3;identical;FALSE
+GND;GND;identical;FALSE
+GND2;GND2;identical;FALSE
+PFK_3;PFK_3;identical;FALSE
+PGL;PGL;identical;FALSE
+RPE;RPE;identical;FALSE
+RPI;RPI;identical;FALSE
+TALA;TALA;identical;FALSE
+TKT1;TKT1;identical;FALSE
+TKT2;TKT2;identical;FALSE
+MME;MME;identical;FALSE
+MMM;MMM;identical;FALSE
+MMSAD3;MMSAD3;identical;FALSE
+MMSAD5;MMSAD5;identical;FALSE
+PPCOAC;PPCOAC;identical;FALSE
+ADSL1r;ADSL1r;identical;FALSE
+ADSL2r;ADSL2r;identical;FALSE
+ADSS;ADSS;identical;FALSE
+AICART;AICART;identical;FALSE
+AIRCr;AIRCr;identical;FALSE
+ASPCT;ASPCT;identical;FALSE
+CTPS1;CTPS1;identical;FALSE
+CTPS2;CTPS2;identical;FALSE
+DHORD5;DHORD5;identical;FALSE
+DHORTS;DHORTS;identical;FALSE
+GARFT;GARFT;identical;FALSE
+GLUPRT;GLUPRT;identical;FALSE
+GMPS2;GMPS2;identical;FALSE
+IMPC;IMPC;identical;FALSE
+IMPD;IMPD;identical;FALSE
+OMPDC;OMPDC;identical;FALSE
+ORPT;ORPT;identical;FALSE
+PRAGSr;PRAGSr;identical;FALSE
+PRAIS;PRAIS;identical;FALSE
+PRASCSi;PRASCSi;identical;FALSE
+PRFGS;PRFGS;identical;FALSE
+ACKr;ACKr;identical;FALSE
+ACS;ACS;identical;FALSE
+ALCD2x;ALCD2x;identical;FALSE
+ALCD2y;ALCD2y;identical;FALSE
+LDH_D;LDH_D;identical;FALSE
+PC;PC;identical;FALSE
+PTAr;PTAr;identical;FALSE
+G3PCT;G3PCT;identical;FALSE
+TAGO;TAGO;identical;FALSE
+TECA1S;TECA1S;identical;FALSE
+TECA2S;TECA2S;identical;FALSE
+TECA3S;TECA3S;identical;FALSE
+2OXOADOX;2OXOADOX;identical;FALSE
+AOBUTDs;AOBUTDs;identical;FALSE
+APTNAT;APTNAT;identical;FALSE
+ASAD;ASAD;identical;FALSE
+ASPK;ASPK;identical;FALSE
+DAPAT;DAPAT;identical;FALSE
+DAPDC;DAPDC;identical;FALSE
+DAPE;DAPE;identical;FALSE
+DHDPRy;DHDPRy;identical;FALSE
+DHDPS;DHDPS;identical;FALSE
+ECOAH1;ECOAH1;identical;FALSE
+GLCOAS;GLCOAS;identical;FALSE
+GLUTCOADHc;GLUTCOADHc;identical;FALSE
+HSDy;HSDy;identical;FALSE
+HSK;HSK;identical;FALSE
+LYSDC;LYSDC;identical;FALSE
+OXPTNDH;OXPTNDH;identical;FALSE
+PPRDNDH;PPRDNDH;identical;FALSE
+SDPDS;SDPDS;identical;FALSE
+SDPTA;SDPTA;identical;FALSE
+THDPS;THDPS;identical;FALSE
+THRA2i;THRA2i;identical;FALSE
+THRAi;THRAi;identical;FALSE
+THRS;THRS;identical;FALSE
+14GLUCANabc;14GLUCANabc;identical;FALSE
+5DGLCNt2r;5DGLCNt2r;identical;FALSE
+5MTRt2;5MTRt;identical;FALSE
+ABTabc;ABTabc;identical;FALSE
+ABUTt2r;ABUTt2;identical;FALSE
+ACALDt;ACALDt;identical;FALSE
+ACGApts;ACGApts;identical;FALSE
+ACSERt;ACSERt;identical;FALSE
+ACt4;ACt4;identical;FALSE
+ACTt;ACTt;identical;FALSE
+AKGt2r;AKGt2r;identical;FALSE
+ALAabc;ALAabc;identical;FALSE
+ALAALAabc;ALAALAabc;identical;FALSE
+ALAt2r;ALAt2r;identical;FALSE
+ALAt4;ALAt4;identical;FALSE
+ALLTNt2r;ALLTNt2r;identical;FALSE
+ARBabc;ARBabc;identical;FALSE
+ARGabc;ARGabc;identical;FALSE
+ARGAGMt7;ARGAGMt7;identical;FALSE
+ARGt3;ARGt3;identical;FALSE
+ASNt2r;ASNt2r;identical;FALSE
+ASO3t8;ASO3t8;identical;FALSE
+ASPabc;ASPabc;identical;FALSE
+BALAt2;BALAt2;identical;FALSE
+BHBt;BHBt;identical;FALSE
+BTNt2i;BTNt2i;identical;FALSE
+CADVt;CADVt;identical;FALSE
+CBL1abc;CBL1abc;identical;FALSE
+CDAabc;CDAabc;identical;FALSE
+CELLBabc;CELBabc;identical;FALSE
+CHLabc;CHLabc;identical;FALSE
+CHLt2;CHLt2;identical;FALSE
+CHTBSabc;CHTBSabc;identical;FALSE
+CITt3;CITt3;identical;FALSE
+CITt7;CITt7;identical;FALSE
+CO2t;CO2t;identical;FALSE
+CSNt2;CSNt2;identical;FALSE
+CSNt2r;CSNt2r;identical;FALSE
+CYSabc;CYSabc;identical;FALSE
+CYSabc2;CYSabc2;identical;FALSE
+CYSt;CYSt;identical;FALSE
+CYTDt2;CYTDt2r;identical;FALSE
+DADNt2;DADNt2;identical;FALSE
+DALAt2r;DALAt2;identical;FALSE
+DAPabc;DAPabc;identical;FALSE
+DCYTt2;DCYTt2;identical;FALSE
+DDGLCNt2r;DDGLCNt2r;identical;FALSE
+DGSNt2;DGSNt2;identical;FALSE
+DHAt;DHAt;identical;FALSE
+DINSt2;DINSt2;identical;FALSE
+D_LACt2;D-LACt2;identical;FALSE
+DRIBt;DRIBt;identical;FALSE
+DURIt2;DURIt2;identical;FALSE
+EPMt2;EPMt2;identical;FALSE
+ETHAt2;ETHAt2;identical;FALSE
+ETOHt;ETOHtr;identical;FALSE
+FALDt;FALDt;identical;FALSE
+FORti;FORti;identical;FALSE
+FRUpts;FRUpts;identical;FALSE
+FUMt2_2;FUMt2_2;identical;FALSE
+GALCTNt2;GALCTNt2;identical;FALSE
+GALIt2;GALIt2;identical;FALSE
+GALt4;GALt4;identical;FALSE
+GGLt2;GGLt2;identical;FALSE
+GLCNt2r;GLCNt2r;identical;FALSE
+GLCRt2r;GLCRt2r;identical;FALSE
+GLCt2;GLCt2;identical;FALSE
+GLNabc;GLNabc;identical;FALSE
+GLUabc;GLUabc;identical;FALSE
+GLUt2r;GLUt2r;identical;FALSE
+GLYALDt;GLYALDt;identical;FALSE
+GLYBabc;GLYBabc;identical;FALSE
+GLYCAt2r;GLYCAt2r;identical;FALSE
+GLYCLTt4;GLYCLTt4;identical;FALSE
+GLYCt;GLYCt;identical;FALSE
+GLYt2r;GLYt2r;identical;FALSE
+GLYt4;GLYt4;identical;FALSE
+GSNt2;GSNt2;identical;FALSE
+GUAt;GUAt;identical;FALSE
+GUAt2r;GUAt2;identical;FALSE
+H2O2t;H2O2t;identical;FALSE
+H2Ot;H2Ot;identical;FALSE
+H2St1;H2St1;identical;FALSE
+HISt2r;HISt2r;identical;FALSE
+HOMt2;HOMt2;identical;FALSE
+IDONt2r;IDONt2r;identical;FALSE
+ILEabc;ILEabc;identical;FALSE
+INDOLEt2r;INDOLEt2r;identical;FALSE
+INOSTt4;INOSTt4;identical;FALSE
+INSt2;INSt2r;identical;FALSE
+LALADGLUt;LALADGLUt;identical;FALSE
+LCTSabc;LCTSabc;identical;FALSE
+LEUabc;LEUabc;identical;FALSE
+LIPOt2;LIPOt2;identical;FALSE
+L_LACt2r;L-LACt2r;identical;FALSE
+LYSabc;LYSabc;identical;FALSE
+LYSt2r;LYSt2;identical;FALSE
+LYSt3r;LYSt3;identical;FALSE
+LYXt2;LYXt2;identical;FALSE
+MALt2_2;MALt2_2;identical;FALSE
+MALt3;MALt3;identical;FALSE
+MALTabc;MALTabc;identical;FALSE
+MALTHXabc;MALTHXabc;identical;FALSE
+MALTPTabc;MALTPTabc;identical;FALSE
+MALTTRabc;MALTTRabc;identical;FALSE
+MALTTTRabc;MALTTTRabc;identical;FALSE
+MANt2;MANt2;identical;FALSE
+MELIBt2;MELIBt2;identical;FALSE
+MELTt2;MELTt2;identical;FALSE
+MEOHtr;MEOHtr;identical;FALSE
+METabc;METabc;identical;FALSE
+MNLabc;MNLabc;identical;FALSE
+MNt2;MNt2;identical;FALSE
+N2Ot;N2Ot;identical;FALSE
+NACt;NACt;identical;FALSE
+NMNP;NMNPt;identical;FALSE
+ORNabc;ORNabc;identical;FALSE
+OROTt2_2;OROTt2_2;identical;FALSE
+PACALDt2r;PACALDt2r;identical;FALSE
+PHEt2r;PHEt2r;identical;FALSE
+PNTOt4;PNTOt4;identical;FALSE
+PPAt4;PPAt4;identical;FALSE
+PROabc;PROabc;identical;FALSE
+PROt2r;PROt2r;identical;FALSE
+PROt4;PROt4;identical;FALSE
+PTRCabc;PTRCabc;identical;FALSE
+PTRCt2;PTRCt2;identical;FALSE
+PYDAMt;PYDAMt;identical;FALSE
+PYDXNt;PYDXNt;identical;FALSE
+PYDXt;PYDXt;identical;FALSE
+RIBabc;RIBabc;identical;FALSE
+RMNabc;RMNabc;identical;FALSE
+SALCpts;SALCpts;identical;FALSE
+SBTabc;SBTabc;identical;FALSE
+SERt2r;SERt2r;identical;FALSE
+SKMt2;SKMt2;identical;FALSE
+SPMDabc;SPMDabc;identical;FALSE
+SPMDt3;SPMDt3;identical;FALSE
+SUCCt2_2;SUCCt2_2;identical;FALSE
+TARTt2_3;TARTt2_3;identical;FALSE
+TAURabc;TAURabc;identical;FALSE
+THMabc;THMabc;identical;FALSE
+THRabc;THRabc;identical;FALSE
+THRt2;THRt2;identical;FALSE
+THYMt3r;THYMt3r;identical;FALSE
+TREabc;TREabc;identical;FALSE
+TRPt2r;TRPt2r;identical;FALSE
+TYRt2r;TYRt2r;identical;FALSE
+UREAt;UREAt;identical;FALSE
+VALabc;VALabc;identical;FALSE
+VANK;VANK;identical;FALSE
+XANt2;XANt2;identical;FALSE
+XYLabc;XYLabc;identical;FALSE
+XYLTabc;XYLTabc;identical;FALSE
+ALATRS;ALATRS;identical;FALSE
+ARGTRS;ARGTRS;identical;FALSE
+ASNTRS;ASNTRS;identical;FALSE
+ASPTRS;ASPTRS;identical;FALSE
+CYSTRS;CYSTRS;identical;FALSE
+FMETTRS;FMETTRS;identical;FALSE
+GLNTRS;GLNTRS;identical;FALSE
+GLYTRS;GLYTRS;identical;FALSE
+HISTRS;HISTRS;identical;FALSE
+ILETRS;ILETRS;identical;FALSE
+LEUTRS;LEUTRS;identical;FALSE
+LYSTRS;LYSTRS;identical;FALSE
+METTRS;METTRS;identical;FALSE
+PHETRS;PHETRS;identical;FALSE
+PROTRS;PROTRS;identical;FALSE
+SERTRS;SERTRS;identical;FALSE
+THRTRS;THRTRS;identical;FALSE
+TRPTRS;TRPTRS;identical;FALSE
+TYRTRS;TYRTRS;identical;FALSE
+VALTRS;VALTRS;identical;FALSE
+34HPPOR;34HPPOR;identical;FALSE
+ANPRT;ANPRT;identical;FALSE
+ANS;ANS;identical;FALSE
+CHORM;CHORM;identical;FALSE
+CHORS;CHORS;identical;FALSE
+DDPA;DDPA;identical;FALSE
+DHQS;DHQS;identical;FALSE
+DHQTi;DHQTi;identical;FALSE
+FANH;FANH;identical;FALSE
+FKYNH;FKYNH;identical;FALSE
+FUMAC;FUMAC;identical;FALSE
+HGNTOR;HGNTOR;identical;FALSE
+HKYNH;HKYNH;identical;FALSE
+IGPS;IGPS;identical;FALSE
+KYN;KYN;identical;FALSE
+LFORKYNHYD;LFORKYNHYD;identical;FALSE
+MACACI;MACACI;identical;FALSE
+PEAMNO;PEAMNO;identical;FALSE
+PHETA1;PHETA1;identical;FALSE
+PHYCBOXL;PHYCBOXL;identical;FALSE
+PPND;PPND;identical;FALSE
+PPNDH;PPNDH;identical;FALSE
+PRAIi;PRAIi;identical;FALSE
+PSCVT;PSCVT;identical;FALSE
+SHK3Dr;SHK3Dr;identical;FALSE
+SHKK;SHKK;identical;FALSE
+TRPO2;TRPO2;identical;FALSE
+TRPS1;TRPS1;identical;FALSE
+TRPS2;TRPS2;identical;FALSE
+TRPS3;TRPS3;identical;FALSE
+TYRTA;TYRTA;identical;FALSE
+ACONIs;ACONIs;identical;FALSE
+ACONMT;ACONMT;identical;FALSE
+ATPM;ATPM;identical;FALSE
+BETALDHx;BETALDHx;identical;FALSE
+BETALDHy;BETALDHy;identical;FALSE
+CAT;CAT;identical;FALSE
+CCCR;CCCR;identical;FALSE
+CHOLD;CHOLD;identical;FALSE
+EMCCCM;EMCCCM;identical;FALSE
+EME;EME;identical;FALSE
+GTHPi;GTHPi;identical;FALSE
+HCO3E;HCO3E;identical;FALSE
+PRDX;PRDX;identical;FALSE
+SPODM;SPODM;identical;FALSE
+THIORDXi;THIORDXi;identical;FALSE
+REDS1;REDS1;identical;FALSE
+REDS10;REDS10;identical;FALSE
+REDS11;REDS11;identical;FALSE
+REDS12;REDS12;identical;FALSE
+REDS13x;REDS13x;identical;FALSE
+REDS13y;REDS13y;identical;FALSE
+REDS14;REDS14;identical;FALSE
+REDS15;REDS15;identical;FALSE
+REDS16;REDS16;identical;FALSE
+REDS17x;REDS17x;identical;FALSE
+REDS17y;REDS17y;identical;FALSE
+REDS18;REDS18;identical;FALSE
+REDS19;REDS19;identical;FALSE
+REDS2;REDS2;identical;FALSE
+REDS20;REDS20;identical;FALSE
+REDS21x;REDS21x;identical;FALSE
+REDS21y;REDS21y;identical;FALSE
+REDS22;REDS22;identical;FALSE
+REDS23;REDS23;identical;FALSE
+REDS24;REDS24;identical;FALSE
+REDS25;REDS25;identical;FALSE
+REDS26;REDS26;identical;FALSE
+REDS27;REDS27;identical;FALSE
+REDS28;REDS28;identical;FALSE
+REDS29;REDS29;identical;FALSE
+REDS3;REDS3;identical;FALSE
+REDS30;REDS30;identical;FALSE
+REDS31;REDS31;identical;FALSE
+REDS32;REDS32;identical;FALSE
+REDS33;REDS33;identical;FALSE
+REDS34;REDS34;identical;FALSE
+REDS35;REDS35;identical;FALSE
+REDS36;REDS36;identical;FALSE
+REDS37;REDS37;identical;FALSE
+REDS4;REDS4;identical;FALSE
+REDS5x;REDS5x;identical;FALSE
+REDS5y;REDS5y;identical;FALSE
+REDS6;REDS6;identical;FALSE
+REDS7;REDS7;identical;FALSE
+REDS8;REDS8;identical;FALSE
+REDS9x;REDS9x;identical;FALSE
+REDS9y;REDS9y;identical;FALSE
+3HBCOAHL;3HBCOAHL;identical;FALSE
+ACHBS;ACHBS;identical;FALSE
+ACLS;ACLS;identical;FALSE
+ACOAD9;ACOAD9;identical;FALSE
+ACOADH1;ACOADH1;identical;FALSE
+DHAD1;DHAD1;identical;FALSE
+DHAD2;DHAD2;identical;FALSE
+ECOAH12;ECOAH12;identical;FALSE
+ECOAH9ir;ECOAH9ir;identical;FALSE
+HACD9;HACD9;identical;FALSE
+HIBD;HIBD;identical;FALSE
+HMGL;HMGL;identical;FALSE
+ILEDHr;ILEDxi;identical;FALSE
+ILETA;ILETA;identical;FALSE
+IPMD;IPMD;identical;FALSE
+IPPMIa;IPPMIa;identical;FALSE
+IPPMIb;IPPMIb;identical;FALSE
+IPPS;IPPS;identical;FALSE
+KARA1i;KARA1i;identical;FALSE
+KARA2;KARA2i;identical;FALSE
+LEUTA;LEUTA;identical;FALSE
+MCCC;MCCC;identical;FALSE
+MGCH;MGCH;identical;FALSE
+OCOAT1;OCOAT1;identical;FALSE
+OIVD1r;OIVD1;identical;FALSE
+OIVD2;OIVD2;identical;FALSE
+OIVD3;OIVD3;identical;FALSE
+OMCDC;OMCDC;identical;FALSE
+THRD_L;THRD_L;identical;FALSE
+VALTA;VALTA;identical;FALSE
+ALDD19xr;ALDD19x;different name;FALSE
+ALDD2x;ALDD2x;different name;FALSE
+ALLTAMH2;ALLTAMH;different name;FALSE
+BGLA;BGLU;different name;FALSE
+ABTDG;DABTD;different name;FALSE
+D4DGCD;DHDGLCD;different name;FALSE
+MNLDH2;MNLD;different name;FALSE
+PHACTE;PACCOATE;different name;FALSE
+AGMDA;AGMD;different name;FALSE
+CMPA;CPTRCA;different name;FALSE
+G5SD;G5SD;different name;FALSE
+OCT;OCBTi;different name;FALSE
+CMLDC;4CMLCL;different name;FALSE
+IBTMr;IBMi;different name;FALSE
+CDAS12;CDAS12;different name;FALSE
+ALAALAr;ALAALA;different name;FALSE
+FUTH;FUTALH;different name;FALSE
+PPTT;PENTT;different name;FALSE
+THRPDC;THRPD;different name;FALSE
+LTHRK;THRPS;different name;FALSE
+GHMT2r;GHMT2;different name;FALSE
+G1PCTYT;GLGCc;different name;FALSE
+HISNH4L;HISD;different name;FALSE
+D5KGK;DDGK;different name;FALSE
+D5KGPA;DDPGA2;different name;FALSE
+METB1;METB1r;different name;FALSE
+SHSL4r;SHSL4;different name;FALSE
+ATAH;ALLTAH;different name;FALSE
+RNDR5;RNDR1c;different name;FALSE
+RNDR6;RNDR2c;different name;FALSE
+RNDR7;RNDR3c;different name;FALSE
+RNDR8;RNDR4c;different name;FALSE
+G1Dx;G1DH;different name;FALSE
+G6PDH2r;G6PDH2;different name;FALSE
+GLC15LACH;GLNLASE;different name;FALSE
+DX5PGLYCPL;PKT;different name;FALSE
+MMTSAO;MMSAD4;different name;FALSE
+ADEt;ADEt2r;different name;FALSE
+ADNt2;ADNt2r;different name;FALSE
+ASPt2r;ASPt2;different name;FALSE
+ASPt2_2;ASPt2_2;different name;FALSE
+CBIabc;CBIuabc;different name;FALSE
+GLYBt2r;GLYBt2;different name;FALSE
+GLYCLTt2r;GLYCLTt2i;different name;FALSE
+PYRt2;PYRt2r;different name;FALSE
+RAFFINt2;RAFt2;different name;FALSE
+THMDt2;THMDt2r;different name;FALSE
+URAt2;URAt2r;different name;FALSE
+URIt2;URIt2r;different name;FALSE
+XTSNt2;XTSNt2r;different name;FALSE
+MACCOAT;ACACT10r;different name;FALSE
+MBCOAi;ACOAD8;different name;FALSE
+VALDHr;VALDxi;different name;FALSE
+ACTS17;ACTS17;Identical ID;FALSE
+ACTS18;ACTS18;Identical ID;FALSE
+ACTS19;ACTS19;Identical ID;FALSE
+GALKr;GALKr;Identical ID;FALSE
+;CPC4MT;Sco4 specific;FALSE
+;CPC5MT;Sco4 specific;FALSE
+;FOMETRi;Sco4 specific;FALSE
+;URIC;Sco4 specific;FALSE
+ALBFLONS;RXN-9352;KEGG;FALSE
+;RXN-17569;Sco4 specific;TRUE
+;RXN-8783;Sco4 specific;TRUE
+;FUCPALDOL-RXN;Sco4 specific;TRUE
+;TRE6PHYDRO-RXN;Sco4 specific;TRUE
+;RXN-17568;Sco4 specific;TRUE
+;2.7.1.121-RXN;Sco4 specific;TRUE
+;BENZOYLFORMATE-DECARBOXYLASE-RXN;Sco4 specific;TRUE
+;RXN-18387;Sco4 specific;TRUE
+;BETA-UREIDOPROPIONASE-RXN;Sco4 specific;TRUE
+;RXN-11565;Sco4 specific;TRUE
+;STREPTOMYCIN-6-KINASE-RXN;Sco4 specific;TRUE
+HISTDa;HISTALDEHYD-RXN;KEGG;FALSE
+;SS-BUTANEDIOL-DEHYDROGENASE-RXN;Sco4 specific;TRUE
+SSALx;SUCCINATE-SEMIALDEHYDE-DEHYDROGENASE-RXN;biocyc and KEGG;FALSE
+;RXN-11081;Sco4 specific;TRUE
+;SOLDEHYD-RXN;Sco4 specific;TRUE
+;RXN-15902;Sco4 specific;TRUE
+;GUANIDINOBUTYRASE-RXN;Sco4 specific;TRUE
+LPFPLT;RXN-8078;biocyc and KEGG;FALSE
+;RXN-11080;Sco4 specific;TRUE
+;RXN-12931;Sco4 specific;TRUE
+;RXN-12398;Sco4 specific;TRUE
+;MHPHYDROXY-RXN;Sco4 specific;TRUE
+GMPS;GMP-SYN-NH3-RXN;KEGG;FALSE
+;RXN-15819;Sco4 specific;TRUE
+;AMINOBENZCOALIG-RXN;Sco4 specific;TRUE
+;RXN-9990;Sco4 specific;TRUE
+;UROPORIIIMETHYLTRANSA-RXN;Sco4 specific;TRUE
+;RXN-8460;Sco4 specific;TRUE
+;RXN-9932;Sco4 specific;TRUE
+;RXN-13783_NADPH;Sco4 specific;TRUE
+;RXN-9931;Sco4 specific;TRUE
+ALBFLOLS;RXN-9350;KEGG;FALSE
+;RXN-12752;Sco4 specific;TRUE
+;RXN-17129;Sco4 specific;TRUE
+;RXN-10901;Sco4 specific;TRUE
+;RXN-15586;Sco4 specific;TRUE
+;RXN-17615;Sco4 specific;TRUE
+EPIZSYN;RXN-9349;KEGG;FALSE
+;RXN-1126;Sco4 specific;TRUE
+;FORMIMINOGLUTAMATE-DEIMINASE-RXN;Sco4 specific;TRUE
+;RXN-10035;Sco4 specific;TRUE
+;FHLMULTI-RXN;Sco4 specific;TRUE
+;RXN-15585;Sco4 specific;TRUE
+;RXN-13072;Sco4 specific;TRUE
+;RXN-12976;Sco4 specific;TRUE
+;RXN-15892_NADPH;Sco4 specific;TRUE
+;RXN-8582;Sco4 specific;TRUE
+;AMINO-CARBOXYMUCONATE-SEMIALDEHYDE-RXN;Sco4 specific;TRUE
+;PYRIDOXINE-4-DEHYDROGENASE-RXN;Sco4 specific;TRUE
+;RXN-8024_NADPH;Sco4 specific;TRUE
+;RXN-663;Sco4 specific;TRUE
+;LINC-RXN;Sco4 specific;TRUE
+;RXN0-6727;Sco4 specific;TRUE
+;RXN-11211;Sco4 specific;TRUE
+;1.2.1.66-RXN;Sco4 specific;TRUE
+;RXN-16308;Sco4 specific;TRUE
+;DARABALDOL-RXN;Sco4 specific;TRUE
+;RXN-8003_NADPH;Sco4 specific;TRUE
+;XYLONATE-DEHYDRATASE-RXN;Sco4 specific;TRUE
+;RXN-15264;Sco4 specific;TRUE
+;RXNARA-8002;Sco4 specific;TRUE
+;RXN-17645;Sco4 specific;TRUE
+;RXN-9832;Sco4 specific;TRUE
+;RXN-14536;Sco4 specific;TRUE
+;HYDROXYPYRUVATE-REDUCTASE-RXN_NADPH;Sco4 specific;TRUE
+;RXN-13533;Sco4 specific;TRUE
+;2.4.1.83-RXN;Sco4 specific;TRUE
+;RXN-16912;Sco4 specific;TRUE
+;RXN0-3921;Sco4 specific;TRUE
+;RXN-12921;Sco4 specific;TRUE
+;ANTHRANILOYL-COA-MONOOXYGENASE-RXN_NADPH;Sco4 specific;TRUE
+;RXN-12900;Sco4 specific;TRUE
+;RXN-16262;Sco4 specific;TRUE
+;RXN-8959;Sco4 specific;TRUE
+;RXN-15131;Sco4 specific;TRUE
+;CHOLESTEROL-OXIDASE-RXN;Sco4 specific;TRUE
+;RXN-12707_NADPH;Sco4 specific;TRUE
+;RXN-18036;Sco4 specific;TRUE
+;2.1.1.137-RXN;Sco4 specific;TRUE
+;THIOSULFATE-SULFURTRANSFERASE-RXN;Sco4 specific;TRUE
+;HYDROXYBENZOYLFORMATE-DECARBOXYLASE-RXN;Sco4 specific;TRUE
+;RXN-865;Sco4 specific;TRUE
+;RXN0-4341;Sco4 specific;TRUE
+;RXN-12940_NADPH;Sco4 specific;TRUE
+;RXN-15907;Sco4 specific;TRUE
+;RXN-12402;Sco4 specific;TRUE
+;RXN-10996;Sco4 specific;TRUE
+;RXN-16164_NADPH;Sco4 specific;TRUE
+;RXN-9910;Sco4 specific;TRUE
+;RXN-14196;Sco4 specific;TRUE
+;RXN-8824;Sco4 specific;TRUE
+;RXN-15590;Sco4 specific;TRUE
+;TRANS-L-3-HYDROXYPROLINE-DEHYDRATASE-RXN;Sco4 specific;TRUE
+;RXN-17982;Sco4 specific;TRUE
+;BENZYL-ALC-DEHYDROGENASE-RXN;Sco4 specific;TRUE
+;RXN-12654;Sco4 specific;TRUE
+;RXN-11566;Sco4 specific;TRUE
+;RXN-11187;Sco4 specific;TRUE
+;RXN-15924;Sco4 specific;TRUE
+;4.1.1.86-RXN;Sco4 specific;TRUE
+;RXN-16964;Sco4 specific;TRUE
+4HXPUHBT;RXN-8079;KEGG;FALSE
+;4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN;Sco4 specific;TRUE
+;RXN-12399;Sco4 specific;TRUE
+;RXN-12975;Sco4 specific;TRUE
+MCPST;MERCAPYSTRANS-RXN;biocyc and KEGG;FALSE
+;RXN-14431;Sco4 specific;TRUE
+;RXN-8581;Sco4 specific;TRUE
+;RXN-11861;Sco4 specific;TRUE
+;4-NITROPHENOL-2-MONOOXYGENASE-RXN;Sco4 specific;TRUE
+;RXN-16310;Sco4 specific;TRUE
+PYNP2r;URPHOS-RXN;biocyc and KEGG;FALSE
+;RXN-9933;Sco4 specific;TRUE
+;RXN-8023_NADPH;Sco4 specific;TRUE
+;RXN0-1862;Sco4 specific;TRUE
+;MALYL-COA-LYASE-RXN;Sco4 specific;TRUE
+;RXN-8964;Sco4 specific;TRUE
+;RXN-11002;Sco4 specific;TRUE
+ALBFLOLR;RXN-9351;KEGG;FALSE
+;RXN-8568;Sco4 specific;TRUE
+;RXN0-1861;Sco4 specific;TRUE
+;RXN-8781_NADPH;Sco4 specific;TRUE
+;RXN-10898;Sco4 specific;TRUE
+;GDP-MANNOSE-6-DEHYDROGENASE-RXN;Sco4 specific;TRUE
+;RXN-13129;Sco4 specific;TRUE
+;RXNDQC-2;Sco4 specific;TRUE
+;RXN-1884;Sco4 specific;TRUE
+;TRYPTOPHAN-2-MONOOXYGENASE-RXN;Sco4 specific;TRUE
+;RXN-17612;Sco4 specific;TRUE
+;GLCNACPTRANS-RXN;Sco4 specific;TRUE
+;RXN-11791;Sco4 specific;TRUE
+;RXN-14724;Sco4 specific;TRUE
+;RXN-8743;Sco4 specific;TRUE
+;RXN-18404;Sco4 specific;TRUE
+;FRUCTOSE-6-PHOSPHATE-PHOSPHOKETOLASE-RXN;Sco4 specific;TRUE
+;6.3.2.7-RXN;Sco4 specific;TRUE
+;ACETOLACTREDUCTOISOM-RXN;Sco4 specific;TRUE
+SQLCYC1;5.4.99.17-RXN;KEGG;FALSE
+;RXN-11210;Sco4 specific;TRUE
+ICHORS;ISOCHORSYN-RXN;biocyc and KEGG;FALSE
+;2-AMINOADIPATE-AMINOTRANSFERASE-RXN;Sco4 specific;TRUE
+;RXN-15920;Sco4 specific;TRUE
+SQLCYC2;RXN-4961;KEGG;FALSE
+;RXN-9718;Sco4 specific;TRUE
+;RXN-15893;Sco4 specific;TRUE
+;BENZALDEHYDE-DEHYDROGENASE-NAD+-RXN;Sco4 specific;TRUE
+;RXN-8583;Sco4 specific;TRUE
+;RXN-11968;Sco4 specific;TRUE
+;4-COUMARATE--COA-LIGASE-RXN;Sco4 specific;TRUE
+;DIHYDROPYRIMIDINASE-RXN;Sco4 specific;TRUE
+HISTDb;HISTOLDEHYD-RXN;KEGG;FALSE
+;BUTYRYL-COA-DEHYDROGENASE-RXN;Sco4 specific;TRUE
+;DIENOYLCOAREDUCT-RXN;Sco4 specific;TRUE
+;RXN-8182;Sco4 specific;TRUE
+;RXN-14429;Sco4 specific;TRUE
+;DEHYDDEOXGALACTKIN-RXN;Sco4 specific;TRUE
+;URONATE-DEHYDROGENASE-RXN;Sco4 specific;TRUE
+;R125-RXN;Sco4 specific;TRUE
+;RXN1F-20;Sco4 specific;TRUE
+;1.14.13.8-RXN;Sco4 specific;TRUE
+;RXN-8060;Sco4 specific;TRUE
+;RXN-14395;Sco4 specific;TRUE
+;GLYCOLATE-REDUCTASE-RXN;Sco4 specific;TRUE
+;RXN-10139;Sco4 specific;TRUE
+;RXN-12735;Sco4 specific;TRUE
+;RXN-11407;Sco4 specific;TRUE
+;GALLATE-DECARBOXYLASE-RXN;Sco4 specific;TRUE
+;ALANINE--GLYOXYLATE-AMINOTRANSFERASE-RXN;Sco4 specific;TRUE
+;RXN-8;Sco4 specific;TRUE
+HPHL;RXN-6383;KEGG;FALSE
+;COLCYD-RXN;Sco4 specific;TRUE
+;CDPDIGLYSYN-RXN;Sco4 specific;TRUE
+;RXN-5921_NADPH;Sco4 specific;TRUE
+;RIBITOL-2-DEHYDROGENASE-RXN;Sco4 specific;TRUE
+;RXN-11805;Sco4 specific;TRUE
+;1.1.1.127-RXN;Sco4 specific;TRUE
+;RXN-17143;Sco4 specific;TRUE
+;RXN0-5398;Sco4 specific;TRUE
+;RXN66-81;Sco4 specific;TRUE
+;RXN-14671;Sco4 specific;TRUE
+;RXN-17165;Sco4 specific;TRUE
+;L-ARABINONATE-DEHYDRATASE-RXN;Sco4 specific;TRUE
+;RXN-13142;Sco4 specific;TRUE
+;R364-RXN_NADPH;Sco4 specific;TRUE
+NOR_syn;FERREDOXIN--NITRITE-REDUCTASE-RXN;KEGG;FALSE
+;RXN-14670;Sco4 specific;TRUE
+;2.1.1.138-RXN;Sco4 specific;TRUE
+;RXN-13141;Sco4 specific;TRUE
+;RXN-14430;Sco4 specific;TRUE
+;RXN-8580;Sco4 specific;TRUE
+;RXN-905;Sco4 specific;TRUE
+;1.2.1.67-RXN;Sco4 specific;TRUE
+;DEHYDOGLUCONOKINASE-RXN;Sco4 specific;TRUE
+;RXN-15946;Sco4 specific;TRUE
+;DHBAMPLIG-RXN;Sco4 specific;TRUE
+;RXN0-4342;Sco4 specific;TRUE
+;GLYOXII-RXN;Sco4 specific;TRUE
+;ALLOPHANATE-HYDROLASE-RXN;Sco4 specific;TRUE
+;RXN-10998;Sco4 specific;TRUE
+;RXN-12345;Sco4 specific;TRUE
+;RXN-10997;Sco4 specific;TRUE
+;GLUTCYSLIG-RXN;Sco4 specific;TRUE
+;RXN-12225_NADPH;Sco4 specific;TRUE
+;7-ALPHA-HYDROXYSTEROID-DEH-RXN;Sco4 specific;TRUE
+;RXN-17572;Sco4 specific;TRUE
+;RXN-12223_NADPH;Sco4 specific;TRUE
+;RXN-17571;Sco4 specific;TRUE
+;6-HEXANOLIDE-HYDROLYSIS-RXN;Sco4 specific;TRUE
+;RXN-12095;Sco4 specific;TRUE
+;HYDROXYBENZALDEHYDE-OXIDATION-NADP-RXN;Sco4 specific;TRUE
+SAMP1MET;RXN-8675;KEGG;FALSE
+;2.5.1.32-RXN;Sco4 specific;TRUE
+GRMCROS;RXN-8648;KEGG;FALSE
+;RXN-13528_NADPH;Sco4 specific;TRUE
+;2.5.1.68-RXN;Sco4 specific;TRUE
+;RXN0-4301;Sco4 specific;TRUE
+;RXN-8081;Sco4 specific;TRUE
+;SORBITOL-6-PHOSPHATASE-RXN;Sco4 specific;TRUE
+;2.4.1.216-RXN;Sco4 specific;TRUE
+;RXN-9476;Sco4 specific;TRUE
+GF4GL_0;RXN-8080;biocyc;FALSE
+;RXN-10995_NADPH;Sco4 specific;TRUE
+;RXN-12400;Sco4 specific;TRUE
+;RXN-9475;Sco4 specific;TRUE
+GALT;UTPHEXPURIDYLYLTRANS-RXN;biocyc and KEGG;FALSE
+;MANNITOL-1-PHOSPHATASE-RXN;Sco4 specific;TRUE
+;CYCLOHEXANOL-DEHYDROGENASE-RXN;Sco4 specific;TRUE
+;1.14.12.1-RXN_NADPH;Sco4 specific;TRUE
+;UREA-CARBOXYLASE-RXN;Sco4 specific;TRUE
+ALBFLONR;RXN-9353;KEGG;FALSE
+;RXN-10040;Sco4 specific;TRUE
+;RXN-9909;Sco4 specific;TRUE
+;RXN-12703_NADPH;Sco4 specific;TRUE
+;RXN-11728;Sco4 specific;TRUE
+GLUSy;GLUTAMATESYN-RXN;biocyc and KEGG;FALSE
+;METHYL-GLYOXAL-DEHYDROG-RXN;Sco4 specific;TRUE
+;ACETALD-DEHYDROG-RXN;Sco4 specific;TRUE
+;1.4.3.19-RXN;Sco4 specific;TRUE
+;1.14.13.59-RXN;Sco4 specific;TRUE
+;CYTIKIN-RXN;Sco4 specific;TRUE
+;CYTIDINEKIN-RXN;Sco4 specific;TRUE
+;RXN-8784;Sco4 specific;TRUE
+;RXN-5861;Sco4 specific;TRUE
+HOPNTAL3;MHPELY-RXN;biocyc and KEGG;FALSE
+SALOR;SALICYLATE-1-MONOOXYGENASE-RXN;KEGG;FALSE
+;1.2.1.27-RXN;Sco4 specific;TRUE
+PCFO;PROPCOASYN-RXN;KEGG;FALSE
+;URIDINEKIN-RXN;Sco4 specific;TRUE
+URIK2;URKI-RXN;biocyc and KEGG;FALSE
+;4.1.99.4-RXN;Sco4 specific;TRUE
+MALEI;MALEATE-ISOMERASE-RXN;biocyc and KEGG;FALSE
+;RXN-0;Sco4 specific;TRUE
+;MYO-INOSITOL-1OR-4-MONOPHOSPHATASE-RXN;Sco4 specific;TRUE
+;PYRUFLAVREDUCT-RXN;Sco4 specific;TRUE
+;VALINE-PYRUVATE-AMINOTRANSFER-RXN;Sco4 specific;TRUE
+;PROLINE-RACEMASE-RXN;Sco4 specific;TRUE
+;HYDROXYBENZALDEHYDE-OXIDATION-NAD-RXN;Sco4 specific;TRUE
+;GPH-RXN;Sco4 specific;TRUE
+;PHOSPHAGLYPSYN-RXN;Sco4 specific;TRUE
+;N-ACETYLNEURAMINATE-SYNTHASE-RXN;Sco4 specific;TRUE
+;CREATININASE-RXN;Sco4 specific;TRUE
+;PHOSPHASERDECARB-RXN;Sco4 specific;TRUE
+;NMNAMIDOHYDRO-RXN;Sco4 specific;TRUE
+OP4ENH3;2-OXOPENT-4-ENOATE-HYDRATASE-RXN;KEGG;FALSE
+;CREATININE-DEAMINASE-RXN;Sco4 specific;TRUE
+;CEPHALOSPORIN-C-DEACETYLASE-RXN;Sco4 specific;TRUE
+;RXNN-404;Sco4 specific;TRUE
+;GUANIDINOBUTANAMIDE-NH3-RXN;Sco4 specific;TRUE
+;L-GULONOLACTONE-OXIDASE-RXN;Sco4 specific;TRUE
+;RXN1F-151;Sco4 specific;TRUE
+;MALEYLPYRUVATE-ISOMERASE-RXN;Sco4 specific;TRUE
+;RXN-8529;Sco4 specific;TRUE
+;5.3.3.10-RXN;Sco4 specific;TRUE
+;6.3.2.10-RXN;Sco4 specific;TRUE
+;RXN-7908;Sco4 specific;TRUE
+;RXN-8022_NADPH;Sco4 specific;TRUE
+;3-OCTAPRENYL-4-OHBENZOATE-DECARBOX-RXN;Sco4 specific;TRUE
+;RXN-37;Sco4 specific;TRUE
+;LAUROYLACYLTRAN-RXN;Sco4 specific;TRUE
+;DHLBXANAU-RXN;Sco4 specific;TRUE
+;RXN1F-150;Sco4 specific;TRUE
+;R311-RXN;Sco4 specific;TRUE
+;MANNONDEHYDRAT-RXN;Sco4 specific;TRUE
+;GALACTARDEHYDRA-RXN;Sco4 specific;TRUE
+;4OHBENZOATE-OCTAPRENYLTRANSFER-RXN;Sco4 specific;TRUE
+;R229-RXN;Sco4 specific;TRUE
+;RXN-9394;Sco4 specific;TRUE
+;RXN-9421;Sco4 specific;TRUE
+HURH;3.5.2.17-RXN;KEGG;FALSE
+OHCUS;RXN-6201;KEGG;FALSE
+;HCAMULTI-RXN;Sco4 specific;TRUE
+;RXN-12072;Sco4 specific;TRUE
+;RXN-2962_NADPH;Sco4 specific;TRUE
+;1.2.7.4-RXN;Sco4 specific;TRUE
+;RXN-9382;Sco4 specific;TRUE
+;1-ACYLGLYCEROL-3-P-ACYLTRANSFER-RXN;Sco4 specific;TRUE
+LPPGS;RXN-8077;biocyc and KEGG;FALSE
+;RXN-13194;Sco4 specific;TRUE
+;RXN-14910;Sco4 specific;TRUE
+;RXN0-5306;Sco4 specific;TRUE
+;D-LACTATE-DEHYDROGENASE-CYTOCHROME-RXN;Sco4 specific;TRUE
+;ACETATE--COA-LIGASE-ADP-FORMING-RXN;Sco4 specific;TRUE
+;RXN-2464;Sco4 specific;TRUE
+;ASPARTASE-RXN;Sco4 specific;TRUE
+;SARCOX-RXN;Sco4 specific;TRUE
+;ACETYLORNDEACET-RXN;Sco4 specific;TRUE
+;UREIDOGLYCOLATE-LYASE-RXN;Sco4 specific;TRUE
+;CATECHOL-23-DIOXYGENASE-RXN;Sco4 specific;TRUE
+;RXN-7644;Sco4 specific;TRUE
+;2.6.1.18-RXN;Sco4 specific;TRUE
+;RXN-8961;Sco4 specific;TRUE
+;RXN-10445;Sco4 specific;TRUE
+;R11-RXN;Sco4 specific;TRUE
+;MALATE--COA-LIGASE-RXN;Sco4 specific;TRUE
+;DHBDEHYD-RXN;Sco4 specific;TRUE
+;MALTOSE-PHOSPHORYLASE-RXN;Sco4 specific;TRUE
+;RXN0-366;Sco4 specific;TRUE
+;RXN-5901;Sco4 specific;TRUE
+;CYCLOHEXANONE-MONOOXYGENASE-RXN;Sco4 specific;TRUE
+;DIACYLGLYKIN-RXN;Sco4 specific;TRUE
+;RXN-2001;Sco4 specific;TRUE
+;3.5.4.22-RXN;Sco4 specific;TRUE
+;RXN-8987;Sco4 specific;TRUE
+;RXN-12246;Sco4 specific;TRUE
+;RXN-11737;Sco4 specific;TRUE
+;ITACONYL-COA-HYDRATASE-RXN;Sco4 specific;TRUE
+;L-ARABINONOLACTONASE-RXN;Sco4 specific;TRUE
+;D-LACTALDEHYDE-DEHYDROGENASE-RXN;Sco4 specific;TRUE
+;4.1.1.77-RXN;Sco4 specific;TRUE
+;2.4.1.157-RXN;Sco4 specific;TRUE
+;ALPHAALPHA-TREHALOSE-PHOSPHORYLASE-RXN;Sco4 specific;TRUE
+;RXN-8527;Sco4 specific;TRUE
+;3.5.2.14-RXN;Sco4 specific;TRUE
+;1.17.1.1-RXN_NADPH;Sco4 specific;TRUE
+;RXN1F-10;Sco4 specific;TRUE
+;1.2.1.32-RXN;Sco4 specific;TRUE
+;24-DICHLOROPHENOL-6-MONOOXYGENASE-RXN;Sco4 specific;TRUE
+;RXN1K-87;Sco4 specific;TRUE
+;2.3.1.89-RXN;Sco4 specific;TRUE
+;CARBOXY-OXOHEPT-ENEDIOATE-DECARBOXY-RXN;Sco4 specific;TRUE
+;CHMS-DEHYDROGENASE-RXN;Sco4 specific;TRUE
+;RXN-4822;Sco4 specific;TRUE
+;SYDDEHYD-RXN;Sco4 specific;TRUE
+;RXN-864;Sco4 specific;TRUE
+;RXN-902;Sco4 specific;TRUE
+;R282-RXN;Sco4 specific;TRUE
+;RXN-11689;Sco4 specific;TRUE
+;RXN-5285;Sco4 specific;TRUE
+;HYDROXYHEPTA-DIENEDIOATE-HYDROXY-RXN;Sco4 specific;TRUE
+;RXN-14147;Sco4 specific;TRUE
+;RXN0-3922;Sco4 specific;TRUE
+;RXN-13704;Sco4 specific;TRUE
+;R8-RXN;Sco4 specific;TRUE
+;RXN-8956;Sco4 specific;TRUE
+;RXN-7933;Sco4 specific;TRUE
+;RXN-11023;Sco4 specific;TRUE
+;R265-RXN;Sco4 specific;TRUE
+;RXN-11186;Sco4 specific;TRUE
+;RXN-12848;Sco4 specific;TRUE
+;RXN-12653;Sco4 specific;TRUE
+;RXN-6902;Sco4 specific;TRUE
+;RXN0-6732;Sco4 specific;TRUE
+;R01172;Sco4 specific;TRUE
+;R01618;Sco4 specific;TRUE
+;R01902;Sco4 specific;TRUE
+;R02457;Sco4 specific;TRUE
+;R02894;Sco4 specific;TRUE
+;R02923;Sco4 specific;TRUE
+MCPST2;R03105;Changed ID;FALSE
+;R04221;Sco4 specific;TRUE
+;R04800_NADPH;Sco4 specific;TRUE
+;R05590;Sco4 specific;TRUE
+;R01176;Sco4 specific;TRUE
+;R01785;Sco4 specific;TRUE
+;R02252;Sco4 specific;TRUE
+;R03391;Sco4 specific;TRUE
+;R04215;Sco4 specific;TRUE
+;RXN-15356;Sco4 specific;TRUE
+;RXN-12753;Sco4 specific;TRUE
+;RXN-6423;Sco4 specific;TRUE
+;RXN-8406_NADPH;Sco4 specific;TRUE
+;RXN-7593_NADPH;Sco4 specific;TRUE
+;RXN-12943;Sco4 specific;TRUE
+;RXN-12440;Sco4 specific;TRUE
+;RXN-13530;Sco4 specific;TRUE
+;RXN-12876;Sco4 specific;TRUE
+;RXN-12540;Sco4 specific;TRUE
+;RXN-15999;Sco4 specific;TRUE
+;RXN-8461;Sco4 specific;TRUE
+;RXN-6268;Sco4 specific;TRUE
+;RXN-12754;Sco4 specific;TRUE
+;RXN-6081_NADPH;Sco4 specific;TRUE
+;RXN-2881;Sco4 specific;TRUE
+;RXN-15124;Sco4 specific;TRUE
+;RXN-13068_NADPH;Sco4 specific;TRUE
+;RXN-9193;Sco4 specific;TRUE
+;RXN0-5222;Sco4 specific;TRUE
+;RXN-5721;Sco4 specific;TRUE
+;RXN-2961;Sco4 specific;TRUE
+;RXN-6581;Sco4 specific;TRUE
+;RXN-4821;Sco4 specific;TRUE
+;RXN-10723;Sco4 specific;TRUE
+;RXN-16992;Sco4 specific;TRUE
+;RXN-7587;Sco4 specific;TRUE
+;RXN-14500;Sco4 specific;TRUE
+;RXN-14809;Sco4 specific;TRUE
+;RXN-12541;Sco4 specific;TRUE
+;RXN-14515;Sco4 specific;TRUE
+;RXN-13463;Sco4 specific;TRUE
+;RXN-15905;Sco4 specific;TRUE
+;RXN-18029;Sco4 specific;TRUE
+;TRANS-RXN0-575;Sco4 specific;TRUE
+;TRANS-RXN0-496;Sco4 specific;TRUE
+;3.6.3.8-RXN;Sco4 specific;TRUE
+;RXN66-447;Sco4 specific;TRUE
+;EXC_OUT_CPD-14016_c;Sco4 specific;TRUE
+;EXC_OUT_CPD-9962_c;Sco4 specific;TRUE
+EX_desferrioxamE_e;EXC_OUT_CPD-11957_c;Exchange of same compound;FALSE
+;EXC_OUT_CPD-10680_c;Sco4 specific;TRUE
+;EXC_OUT_CPD-10681_c;Sco4 specific;TRUE
+DM_geosmin_c;EXC_OUT_CPD-10158_c;Exchange of same compound;FALSE
+;EXC_OUT_ACETONE_c;Sco4 specific;TRUE
+;EXC_OUT_CPD-14522_c;Sco4 specific;TRUE
+;RXN-13783_NADH;Sco4 specific;TRUE
+;RXN-15892_NADH;Sco4 specific;TRUE
+;HYDROXYPYRUVATE-REDUCTASE-RXN_NADH;Sco4 specific;TRUE
+;ANTHRANILOYL-COA-MONOOXYGENASE-RXN_NADH;Sco4 specific;TRUE
+;RXN-12940_NADH;Sco4 specific;TRUE
+;RXN-16164_NADH;Sco4 specific;TRUE
+;RXN-5921_NADH;Sco4 specific;TRUE
+;R364-RXN_NADH;Sco4 specific;TRUE
+;1.14.12.1-RXN_NADH;Sco4 specific;TRUE
+;RXN-2962_NADH;Sco4 specific;TRUE
+;1.14.13.84-RXN_NADH;Sco4 specific;TRUE
+;RXN-8024_NADH;Sco4 specific;TRUE
+;RXN-8003_NADH;Sco4 specific;TRUE
+;RXN-12707_NADH;Sco4 specific;TRUE
+;RXN-8023_NADH;Sco4 specific;TRUE
+;RXN-8781_NADH;Sco4 specific;TRUE
+;RXN-12225_NADH;Sco4 specific;TRUE
+;RXN-12223_NADH;Sco4 specific;TRUE
+;RXN-13528_NADH;Sco4 specific;TRUE
+;RXN-10995_NADH;Sco4 specific;TRUE
+;RXN-12703_NADH;Sco4 specific;TRUE
+;RXN-8022_NADH;Sco4 specific;TRUE
+;R04800_NADH;Sco4 specific;TRUE
+GLUKB;;iKS1317 specific;FALSE
+PPS;;iKS1317 specific;FALSE
+PPCK;;iKS1317 specific;FALSE
+PDH3;;iKS1317 specific;FALSE
+SBP_1;;iKS1317 specific;FALSE
+DGC2D;;iKS1317 specific;FALSE
+ARAB2r;;iKS1317 specific;FALSE
+ABT2DG;;iKS1317 specific;FALSE
+ABTD;;iKS1317 specific;FALSE
+XYLR2;;iKS1317 specific;FALSE
+XYLR3;;iKS1317 specific;FALSE
+XYLTD_D;;iKS1317 specific;FALSE
+GMAND;;iKS1317 specific;FALSE
+KHK;;iKS1317 specific;FALSE
+G1PTT;;iKS1317 specific;FALSE
+DTDPG4E;;iKS1317 specific;FALSE
+STACHGALACT;;iKS1317 specific;FALSE
+GALM1;;iKS1317 specific;FALSE
+S6PGB;;iKS1317 specific;FALSE
+LYXE;;iKS1317 specific;FALSE
+LYXID;;iKS1317 specific;FALSE
+ADPT2;;iKS1317 specific;FALSE
+XPPT;;iKS1317 specific;FALSE
+TDP;;iKS1317 specific;FALSE
+SERAT;;iKS1317 specific;FALSE
+PPYRDC;;iKS1317 specific;FALSE
+r0686;;iKS1317 specific;FALSE
+MCSNAH;;iKS1317 specific;FALSE
+ABPYRATA;;iKS1317 specific;FALSE
+GCCc;;iKS1317 specific;FALSE
+GLYDHD;;iKS1317 specific;FALSE
+MTAM_nh4;;iKS1317 specific;FALSE
+PDHe3hr;;iKS1317 specific;FALSE
+HBCO_nadp;;iKS1317 specific;FALSE
+HBCOA3E;;iKS1317 specific;FALSE
+VOR3b;;iKS1317 specific;FALSE
+MBCOA2;;iKS1317 specific;FALSE
+VOR1b;;iKS1317 specific;FALSE
+MBCOA3;;iKS1317 specific;FALSE
+VOR2b;;iKS1317 specific;FALSE
+IBCOAQ9R;;iKS1317 specific;FALSE
+ALDH;;iKS1317 specific;FALSE
+MMCOAL;;iKS1317 specific;FALSE
+APPLDHr;;iKS1317 specific;FALSE
+D5KGPA2;;iKS1317 specific;FALSE
+UAMAGS2;;iKS1317 specific;FALSE
+NP1;;iKS1317 specific;FALSE
+NCTPPRT;;iKS1317 specific;FALSE
+NT5C;;iKS1317 specific;FALSE
+ASPO;;iKS1317 specific;FALSE
+ASPO3;;iKS1317 specific;FALSE
+ASPO6_2;;iKS1317 specific;FALSE
+NMNHYD;;iKS1317 specific;FALSE
+PNP;;iKS1317 specific;FALSE
+NADH2r;;iKS1317 specific;FALSE
+BACCL2;;iKS1317 specific;FALSE
+BTNC;;iKS1317 specific;FALSE
+r0120;;iKS1317 specific;FALSE
+r0775;;iKS1317 specific;FALSE
+r0777;;iKS1317 specific;FALSE
+r0708;;iKS1317 specific;FALSE
+DNTPPA_1;;iKS1317 specific;FALSE
+DNMPPA;;iKS1317 specific;FALSE
+DHPS;;iKS1317 specific;FALSE
+THFGLUS;;iKS1317 specific;FALSE
+MTHFR3_1;;iKS1317 specific;FALSE
+HOXPR2;;iKS1317 specific;FALSE
+PDH4;;iKS1317 specific;FALSE
+GLYCTO2;;iKS1317 specific;FALSE
+ALCD2s;;iKS1317 specific;FALSE
+G3PD5;;iKS1317 specific;FALSE
+G3PD;;iKS1317 specific;FALSE
+OXBPTA;;iKS1317 specific;FALSE
+APATc;;iKS1317 specific;FALSE
+PACPTc;;iKS1317 specific;FALSE
+HPCOR;;iKS1317 specific;FALSE
+OCDOR;;iKS1317 specific;FALSE
+NTRIR2y;;iKS1317 specific;FALSE
+3OXOR;;iKS1317 specific;FALSE
+CHOLD2;;iKS1317 specific;FALSE
+BTAOR;;iKS1317 specific;FALSE
+SUCBZS;;iKS1317 specific;FALSE
+SUCBZL;;iKS1317 specific;FALSE
+NPHS;;iKS1317 specific;FALSE
+DHNAOT9;;iKS1317 specific;FALSE
+AMMQT9;;iKS1317 specific;FALSE
+TOLOR;;iKS1317 specific;FALSE
+ALAS;;iKS1317 specific;FALSE
+G5SAT;;iKS1317 specific;FALSE
+UPP1S;;iKS1317 specific;FALSE
+UPPDC2;;iKS1317 specific;FALSE
+UPP3MT1;;iKS1317 specific;FALSE
+FNOR;;iKS1317 specific;FALSE
+ACt2r;;iKS1317 specific;FALSE
+ANTHte;;iKS1317 specific;FALSE
+ARGORNt7;;iKS1317 specific;FALSE
+ASNabc;;iKS1317 specific;FALSE
+CDAti;;iKS1317 specific;FALSE
+CITRLt;;iKS1317 specific;FALSE
+DAPLLabc;;iKS1317 specific;FALSE
+DARBabc;;iKS1317 specific;FALSE
+GLYCAt3;;iKS1317 specific;FALSE
+LYXDabc;;iKS1317 specific;FALSE
+DSERt2;;iKS1317 specific;FALSE
+FRUpts2;;iKS1317 specific;FALSE
+SUCFUMt;;iKS1317 specific;FALSE
+GALabc;;iKS1317 specific;FALSE
+GALt2;;iKS1317 specific;FALSE
+GAMpts;;iKS1317 specific;FALSE
+GLCpts;;iKS1317 specific;FALSE
+GLUt4;;iKS1317 specific;FALSE
+GLYCLTt;;iKS1317 specific;FALSE
+GLYabc;;iKS1317 specific;FALSE
+HISabc;;iKS1317 specific;FALSE
+4A5HMPt;;iKS1317 specific;FALSE
+2HXMPt6;;iKS1317 specific;FALSE
+HYXNt;;iKS1317 specific;FALSE
+ILEt2r;;iKS1317 specific;FALSE
+ARBt2r;;iKS1317 specific;FALSE
+LEUt2r;;iKS1317 specific;FALSE
+LYXabc;;iKS1317 specific;FALSE
+MALt2_3;;iKS1317 specific;FALSE
+MANpts;;iKS1317 specific;FALSE
+MNLpts;;iKS1317 specific;FALSE
+MALTpts;;iKS1317 specific;FALSE
+NAt3_15;;iKS1317 specific;FALSE
+NO3t;;iKS1317 specific;FALSE
+PACt;;iKS1317 specific;FALSE
+PPAt6;;iKS1317 specific;FALSE
+RMNt;;iKS1317 specific;FALSE
+SERt4;;iKS1317 specific;FALSE
+SBTpts;;iKS1317 specific;FALSE
+SUCCt2_3;;iKS1317 specific;FALSE
+SUCCt2b;;iKS1317 specific;FALSE
+SUCRabc;;iKS1317 specific;FALSE
+TARTRt7;;iKS1317 specific;FALSE
+THRt4;;iKS1317 specific;FALSE
+THYMabc;;iKS1317 specific;FALSE
+TREpts;;iKS1317 specific;FALSE
+REDt;;iKS1317 specific;FALSE
+VALt2r;;iKS1317 specific;FALSE
+XANt;;iKS1317 specific;FALSE
+XYLt2;;iKS1317 specific;FALSE
+EX_anth_e;;iKS1317 specific;FALSE
+EX_citr__L_e;;iKS1317 specific;FALSE
+EX_26dap_LL_e;;iKS1317 specific;FALSE
+EX_arab__D_e;;iKS1317 specific;FALSE
+EX_lyx__D_e;;iKS1317 specific;FALSE
+EX_ser__D_e;;iKS1317 specific;FALSE
+EX_gam_e;;iKS1317 specific;FALSE
+EX_4ahmmp_e;;iKS1317 specific;FALSE
+EX_hxan_e;;iKS1317 specific;FALSE
+EX_pac_e;;iKS1317 specific;FALSE
+EX_sucr_e;;iKS1317 specific;FALSE
+CHIRAISO;;iKS1317 specific;FALSE
+DHORD4;;iKS1317 specific;FALSE
+URO;;iKS1317 specific;FALSE
+DMT;;iKS1317 specific;FALSE
+PPNCL3;;iKS1317 specific;FALSE
+MECDPDH5_2;;iKS1317 specific;FALSE
+IDPS2;;iKS1317 specific;FALSE
+SUCD9;;iKS1317 specific;FALSE
+CYO1ab;;iKS1317 specific;FALSE
+SULR_syn;;iKS1317 specific;FALSE
+SADT;;iKS1317 specific;FALSE
+GF4GL_1;;iKS1317 specific;FALSE
+ACTS16b;;iKS1317 specific;FALSE
+NAACPHYD;;iKS1317 specific;FALSE
+MALCOAMT;;iKS1317 specific;FALSE
+ATNS_nh4;;iKS1317 specific;FALSE
+HSDxi;;iKS1317 specific;FALSE
+KARI_23dhmb;;iKS1317 specific;FALSE
+KARI_3hmoa;;iKS1317 specific;FALSE
+KARI;;iKS1317 specific;FALSE
+KARI_23dhmp;;iKS1317 specific;FALSE
+THDPLOR;;iKS1317 specific;FALSE
+EN6LNOR;;iKS1317 specific;FALSE
+r0163;;iKS1317 specific;FALSE
+3CTHPPT;;iKS1317 specific;FALSE
+ITPOCL;;iKS1317 specific;FALSE
+FBA_1;;iKS1317 specific;FALSE
+BFBP;;iKS1317 specific;FALSE
+TALAb;;iKS1317 specific;FALSE
+TKT2h;;iKS1317 specific;FALSE
+G6PBDH;;iKS1317 specific;FALSE
+G6PDH1b;;iKS1317 specific;FALSE
+G6PI;;iKS1317 specific;FALSE
+PGIA;;iKS1317 specific;FALSE
+COBP3DH;;iKS1317 specific;FALSE
+CODSCL5DA;;iKS1317 specific;FALSE
+CODSCL5BMT;;iKS1317 specific;FALSE
+UGAH;;iKS1317 specific;FALSE
+ACON6LAT;;iKS1317 specific;FALSE
+PKBBS;;iKS1317 specific;FALSE
+MACPAL;;iKS1317 specific;FALSE
+GLUTPAT;;iKS1317 specific;FALSE
+GLUAAT;;iKS1317 specific;FALSE
+SEPHCHCS;;iKS1317 specific;FALSE
+SHCHCS3;;iKS1317 specific;FALSE
+ACCOAC_1;;iKS1317 specific;FALSE
+DIOP5OR;;iKS1317 specific;FALSE
+PENAM;;iKS1317 specific;FALSE
+GLCRD2;;iKS1317 specific;FALSE
+GALM2;;iKS1317 specific;FALSE
+LLEUDr;;iKS1317 specific;FALSE
+DM_mmyA_c;;iKS1317 specific;FALSE
+DM_mmyB_c;;iKS1317 specific;FALSE
+MMSYNA;;iKS1317 specific;FALSE
+MMYSYN1;;iKS1317 specific;FALSE
+MMYSYN3;;iKS1317 specific;FALSE
+MMYSYN2;;iKS1317 specific;FALSE
+MMSYNB;;iKS1317 specific;FALSE
+DM_grmcrnd_c;;iKS1317 specific;FALSE
+DM_albflon_c;;iKS1317 specific;FALSE
+DM_strprub_c;;iKS1317 specific;FALSE
+DIFRNLY;;iKS1317 specific;FALSE
+REDS35b;;iKS1317 specific;FALSE
+PRODSYN;;iKS1317 specific;FALSE
+PSQLDL;;iKS1317 specific;FALSE
+FRNDIT;;iKS1317 specific;FALSE
+REDS27b;;iKS1317 specific;FALSE
+GRMCRDS;;iKS1317 specific;FALSE
+GSMNSYN;;iKS1317 specific;FALSE
+SRUBSYN;;iKS1317 specific;FALSE
+CITCIa2;;iKS1317 specific;FALSE
+ERTHMMOR;;iKS1317 specific;FALSE
+CITCIb;;iKS1317 specific;FALSE
+CITMS;;iKS1317 specific;FALSE
+OAADC;;iKS1317 specific;FALSE
+BIOMASS_SCO_tRNA;;iKS1317 specific;FALSE
