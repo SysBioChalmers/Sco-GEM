@@ -11,9 +11,14 @@ Date: 10.09.2018
 """
 import cobra
 import pandas as pd
+from collections import defaultdict
 
 def insert_ascii(reaction_id):
     return reaction_id.replace("-","__45__").replace("(","__40__").replace(")","__41__").replace(".", "__46__").replace("+", "__43__")
+
+def replace_ascii(reaction_id):
+    return reaction_id.replace("__45__", "-").replace("__40__", "(").replace("__41__", ")").replace( "__46__", ".").replace("__43__", "+")
+
 
 def fix_compartment(met_id):
     return met_id.replace("[", "_").replace("]", "")
@@ -34,6 +39,7 @@ def add_reactions(sco4_model, scoGEM, reaction_mapping_fn, metabolite_mapping_fn
     print(len(scoGEM.reactions))
     print(len(scoGEM.metabolites))
     all_missing = []
+    missing_reaction_dict = defaultdict(list)
     for reaction_id in new_reaction_id_list:
         ascii_reaction_id = insert_ascii(reaction_id)
         new_reaction = sco4_model.reactions.get_by_id(ascii_reaction_id)
@@ -41,27 +47,70 @@ def add_reactions(sco4_model, scoGEM, reaction_mapping_fn, metabolite_mapping_fn
             print("Reaction {0} is already in scoGEM".format(new_reaction.id))
             continue
 
-        has_all, missing = check_metabolites(new_reaction, scoGEM)
+        has_all, missing, missing_reactions = check_metabolites(new_reaction, scoGEM)
         all_missing += missing
+        for key, value in missing_reactions.items():
+            missing_reaction_dict[key] += value
         if has_all:
             scoGEM.add_reaction(new_reaction)
             print("Added reaction {0}:{1}".format(new_reaction.id, new_reaction.name))
     print(len(scoGEM.reactions))
     print(len(scoGEM.metabolites))
     print(set(all_missing))
+    evaluate_missing_reactions(missing_reaction_dict, reaction_mapping_df)
+
+def evaluate_missing_reactions(missing_reaction_dict, reaction_mapping_df):
+    for key, value in missing_reaction_dict.items():
+        matched_reactions = []
+        for r_id in value:
+            ascii_free = replace_ascii(r_id)
+            matched = reaction_mapping_df[reaction_mapping_df["Sco4_ID"] == ascii_free]
+            if matched.shape[0] == 1:
+                matched = matched.iloc[0]
+            else:
+                # print("Missing ", ascii_free)   
+                continue
+            if not pd.isnull(matched["iKS1317_ID"]):
+                matched_reactions.append(matched["iKS1317_ID"])
+        
+        print(key, list(set(matched_reactions)))
+
+      
 
         
-
+def add_met_annotations(scoGEM_met, met):
+    for key, value in met.annotation.items():
+        try:
+            scoGEM_met.annotation[key]
+        except KeyError:
+            scoGEM_met.annotation[key] = value
+        else:
+            sco_met_anno = scoGEM_met.annotation[key]
+            if isinstance(sco_met_anno, list):
+                if not value in sco_met_anno:
+                    scoGEM_met.annotation[key] = sco_met_anno.append(value)
+                    print("Appended annotation {0} to {1}".format(value, met.id))
+            else:
+                if value != sco_met_anno:
+                    scoGEM_met.annotation[key] = [sco_met_anno, value]  
+                    print("Appended annotation {0} to {1}".format(value, met.id))
+                  
 def check_metabolites(reaction, scoGEM):
     scoGEM_mets = [x.id for x in scoGEM.metabolites]
     has_all = True
     missing = []
+    missing_reactions = {}
     for met, coeff in reaction.metabolites.items():
-        if not met.id in scoGEM_mets:
+
+        if met.id in scoGEM_mets:
+            add_met_annotations(scoGEM.metabolites.get_by_id(met.id), met)
+        else:
             print("Missing ", met.id, "in reaction ", reaction.id)
             has_all = False
             missing.append(met.id)
-    return has_all, missing
+            missing_reactions[met.id] = [r.id for r in met.reactions if r.id != reaction.id]
+
+    return has_all, missing, missing_reactions
 
 def apply_metabolite_mapping(sco4_model, metabolite_mapping_fn):
     # Read metabolite mapping

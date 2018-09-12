@@ -1452,7 +1452,7 @@ d5kgp[c],5ddg6p_c,different name
 ,25-DICHLOROHYDROQUINONE_c,Sco4 specific
 ,3-HYDROXY-PROPIONYL-COA_c,Sco4 specific
 ,3-HYDROXYPHENYL-PROPIONATE_c,Sco4 specific
-,3-MERCAPTO-PYRUVATE_c,Sco4 specific
+mercppyr[c],3-MERCAPTO-PYRUVATE_c,Same metabolite
 ,3-METHYLBENZYL-ALCOHOL_c,Sco4 specific
 ,3-OCTAPRENYL-4-HYDROXYBENZOATE_c,Sco4 specific
 ,3-PHENYLPROPIONATE_c,Sco4 specific
@@ -1463,7 +1463,7 @@ d5kgp[c],5ddg6p_c,different name
 ,4-CARBOXYBENZALDEHYDE_c,Sco4 specific
 ,4-CARBOXYBENZYL-ALCOHOL_c,Sco4 specific
 ,4-GUANIDO-BUTYRAMIDE_c,Sco4 specific
-,4-HYDROXY-2-KETOVALERATE_c,Sco4 specific
+4h2opntn[c],4-HYDROXY-2-KETOVALERATE_c,Same metabolite
 ,4-HYDROXY-BUTYRATE_c,Sco4 specific
 ,4-HYDROXY-BUTYRYL-COA_c,Sco4 specific
 ,4-HYDROXYBENZALDEHYDE_c,Sco4 specific
@@ -1476,7 +1476,7 @@ d5kgp[c],5ddg6p_c,different name
 ,4-hydroxybenzoate_c,Sco4 specific
 ,5-AMINO-2-OXOPENTANOATE_c,Sco4 specific
 ,5-BETA-L-THREO-PENTAPYRANOSYL-4-ULOSE-_c,Sco4 specific
-,5-HYDROXYISOURATE_c,Sco4 specific
+5hiu[c],5-HYDROXYISOURATE_c,Same metabolite
 ,5-METHYLTHIOINOSINE_c,Sco4 specific
 ,ACETOIN_c,Sco4 specific
 ,ACETOL_c,Sco4 specific
@@ -1484,7 +1484,7 @@ d5kgp[c],5ddg6p_c,different name
 ,ACETYL-D-GLUCOSAMINYLDIPHOSPHO-UNDECAPRE_c,Sco4 specific
 ,ACRYLAMIDE_c,Sco4 specific
 ,ACRYLATE_c,Sco4 specific
-,ACRYLYL-COA_c,Sco4 specific
+prpncoa[c],ACRYLYL-COA_c,Same metabolite
 ,ACYL-ACP_c,Sco4 specific
 ,ACYL-SN-GLYCEROL-3P_c,Sco4 specific
 ,ADENOSYL-P4_c,Sco4 specific
@@ -1508,7 +1508,7 @@ nh4[c],AMMONIA_c, Identic
 ,CARBOXYETHYL-3-5-CYCLOHEXADIENE-1-2-DIOL_c,Sco4 specific
 ,CARBOXYMETHYL-HYDROXYPHENYLPROPCOA_c,Sco4 specific
 ,CARNITINE_c,Sco4 specific
-,CATECHOL_c,Sco4 specific
+catechol[c],CATECHOL_c,same metabolite
 ,CDPDIACYLGLYCEROL_c,Sco4 specific
 ,CEPHALOSPORIN-C_c,Sco4 specific
 ,CHLOROACETIC-ACID_c,Sco4 specific
@@ -1528,7 +1528,8 @@ nh4[c],AMMONIA_c, Identic
 ,CPD-10064_c,Sco4 specific
 ,CPD-10065_c,Sco4 specific
 ,CPD-101_c,Sco4 specific
-geosmin[c],CPD-10158_c,Sco4 specific,CPD-10159_c,Same metabolite
+geosmin[c],CPD-10158_c,Same metabolite
+grmcrol_c,CPD-10159_c,Same metabolite
 ,CPD-10160_c,Sco4 specific
 ,CPD-102_c,Sco4 specific
 ,CPD-10333_c,Sco4 specific
@@ -1558,7 +1559,7 @@ geosmin[c],CPD-10158_c,Sco4 specific,CPD-10159_c,Same metabolite
 ,CPD-11953_c,Sco4 specific
 ,CPD-11955_c,Sco4 specific
 ,CPD-11956_c,Sco4 specific
-,CPD-11957_c,Sco4 specific
+feroxE[c],CPD-11957_c,Same metabolite
 ,CPD-11984_c,Sco4 specific
 ,CPD-12040_c,Sco4 specific
 ,CPD-12041_c,Sco4 specific
@@ -1689,7 +1690,7 @@ geosmin[c],CPD-10158_c,Sco4 specific,CPD-10159_c,Same metabolite
 ,CPD-380_c,Sco4 specific
 ,CPD-448_c,Sco4 specific
 ,CPD-464_c,Sco4 specific
-,CPD-465_c,Sco4 specific
+psqldi[c],CPD-465_c,biocyc id
 ,CPD-468_c,Sco4 specific
 ,CPD-471_c,Sco4 specific
 ,CPD-479_c,Sco4 specific
@@ -1699,7 +1700,7 @@ geosmin[c],CPD-10158_c,Sco4 specific,CPD-10159_c,Same metabolite
 ,CPD-569_c,Sco4 specific
 ,CPD-577_c,Sco4 specific
 ,CPD-578_c,Sco4 specific
-,CPD-5821_c,Sco4 specific
+houdic[c],CPD-5821_c,Sco4 specific
 ,CPD-5881_c,Sco4 specific
 ,CPD-592_c,Sco4 specific
 ,CPD-600_c,Sco4 specific
@@ -1740,7 +1741,7 @@ geosmin[c],CPD-10158_c,Sco4 specific,CPD-10159_c,Same metabolite
 ,CPD-8973_c,Sco4 specific
 ,CPD-8974_c,Sco4 specific
 ,CPD-9000_c,Sco4 specific
-,CPD-9038_c,Sco4 specific
+pre1[c],CPD-9038_c,Same metabolite
 ,CPD-9055_c,Sco4 specific
 ,CPD-9137_c,Sco4 specific
 ,CPD-9159_c,Sco4 specific
@@ -1806,11 +1807,11 @@ albflon[c],CPD-9962_c, Same metabolite
 ,GERANIOL_c,Sco4 specific
 ,GLC-6-P_c,Sco4 specific
 ,H2SO3_c,Sco4 specific
-,HCN_c,Sco4 specific
+cyan[c],HCN_c,Sco4 specific
 ,HISTIDINAL_c,Sco4 specific
-,HOP-2229-ENE_c,Sco4 specific
+hop22en[c],HOP-2229-ENE_c,Same metabolite
 ,HOPAN-22-OL_c,Sco4 specific
-,HSCN_c,Sco4 specific
+tcynt[c],HSCN_c,Same metabolite
 ,HYDROGEN-MOLECULE_c,Sco4 specific
 ,HYDROXYMUCONATE-SALD_c,Sco4 specific
 ,INDOLE_ACETATE_AUXIN_c,Sco4 specific
@@ -1831,7 +1832,7 @@ albflon[c],CPD-9962_c, Same metabolite
 ,L-PHOSPHATIDATE_c,Sco4 specific
 ,L-PHOSPHINOTHRICIN_c,Sco4 specific
 ,MALEATE_c,Sco4 specific
-,MANNITOL-1P_c,Sco4 specific
+mnl1p[c],MANNITOL-1P_c,Same metabolite
 ,METHYL-ACETATE_c,Sco4 specific
 ,METHYL-GLYOXAL_c,Sco4 specific
 ,METHYLARSONATE_c,Sco4 specific
@@ -1846,9 +1847,9 @@ albflon[c],CPD-9962_c, Same metabolite
 ,NN-DIMETHYLANILINE_c,Sco4 specific
 ,NN-DIMETHYLANILINE-N-OXIDE_c,Sco4 specific
 ,OX-COENZYME-F420_c,Sco4 specific
-,OXOPENTENOATE_c,Sco4 specific
+op4en[c],OXOPENTENOATE_c,Same metabolite
 ,Oxidized-Factor-F420_c,Sco4 specific
-,Oxidized-ferredoxins_c,Sco4 specific
+fdxox[c],Oxidized-ferredoxins_c,Same metabolite
 ,P-COUMAROYL-COA_c,Sco4 specific
 ,P-NITROPHENOL_c,Sco4 specific
 ,PHENYLGLYOXYLATE_c,Sco4 specific
@@ -1857,15 +1858,15 @@ albflon[c],CPD-9962_c, Same metabolite
 ,RHAMNOSE_c,Sco4 specific
 ,RIBITOL_c,Sco4 specific
 ,Reduced-Factor-F420_c,Sco4 specific
-,Reduced-ferredoxins_c,Sco4 specific
-,S-ALLANTOIN_c,Sco4 specific
+fdxrd[c],Reduced-ferredoxins_c, Identical
+alltn[c],S-ALLANTOIN_c, Identical
 ,S-HYDROXYMETHYLGLUTATHIONE_c,Sco4 specific
 ,S-HYDROXYMETHYLMYCOTHIOL_c,Sco4 specific
 ,S-LACTOYL-GLUTATHIONE_c,Sco4 specific
 ,S-PHOSPHOLACTATE_c,Sco4 specific
-,S2O3_c,Sco4 specific
+tsul[c],S2O3_c,Same metabolite
 ,SARCOSINE_c,Sco4 specific
-,SQUALENE_c,Sco4 specific
+sql[c],SQUALENE_c,same metabolite
 ,STREPTOMYCIN_c,Sco4 specific
 ,T2-C4-DECADIENYL-COA_c,Sco4 specific
 ,TETRACHLOROHYDROQUINONE_c,Sco4 specific
@@ -1922,8 +1923,6 @@ alpam[c],,iKS1317 specific
 lpam[c],,iKS1317 specific
 dhlam[c],,iKS1317 specific
 3hbcoa__R[c],,iKS1317 specific
-fdxrd[c],,iKS1317 specific
-fdxox[c],,iKS1317 specific
 mmal[c],,iKS1317 specific
 nicrns[c],,iKS1317 specific
 rnam[c],,iKS1317 specific
@@ -1937,11 +1936,9 @@ dhpmp[c],,iKS1317 specific
 thfglu[c],,iKS1317 specific
 adhlam[c],,iKS1317 specific
 prpadnl[c],,iKS1317 specific
-prpncoa[c],,iKS1317 specific
 3hpcoa[c],,iKS1317 specific
 3opcoa[c],,iKS1317 specific
 salc[c],,iKS1317 specific
-catechol[c],,iKS1317 specific
 malon[c],,iKS1317 specific
 ichor[c],,iKS1317 specific
 2shchc[c],,iKS1317 specific
@@ -1950,11 +1947,8 @@ sbzcoa[c],,iKS1317 specific
 2dmmq9[c],,iKS1317 specific
 tc12dhdol[c],,iKS1317 specific
 tol[c],,iKS1317 specific
-4h2opntn[c],,iKS1317 specific
-op4en[c],,iKS1317 specific
 uppg1[c],,iKS1317 specific
 cpppg1[c],,iKS1317 specific
-pre1[c],,iKS1317 specific
 anth[e],,iKS1317 specific
 citr__L[e],,iKS1317 specific
 26dap_LL[e],,iKS1317 specific
@@ -1967,7 +1961,6 @@ gam[e],,iKS1317 specific
 4ahmmp[e],,iKS1317 specific
 2hxmp[e],,iKS1317 specific
 hxan[e],,iKS1317 specific
-mnl1p[c],,iKS1317 specific
 malt6p[c],,iKS1317 specific
 pac[e],,iKS1317 specific
 sucr[e],,iKS1317 specific
@@ -1975,8 +1968,6 @@ red[e],,iKS1317 specific
 chiralc[c],,iKS1317 specific
 qnon[c],,iKS1317 specific
 hqn[c],,iKS1317 specific
-5hiu[c],,iKS1317 specific
-houdic[c],,iKS1317 specific
 dnac[c],,iKS1317 specific
 dna5mtc[c],,iKS1317 specific
 fldox[c],,iKS1317 specific
@@ -2015,19 +2006,12 @@ allglutADP[c],,iKS1317 specific
 glutADP[c],,iKS1317 specific
 2sephchc[c],,iKS1317 specific
 male[c],,iKS1317 specific
-cyan[c],,iKS1317 specific
-mercppyr[c],,iKS1317 specific
-tcynt[c],,iKS1317 specific
-tsul[c],,iKS1317 specific
 peng[c],,iKS1317 specific
 6apa[c],,iKS1317 specific
 2dh3dglc[c],,iKS1317 specific
 hop22ol[c],,iKS1317 specific
-sql[c],,iKS1317 specific
 bfrn[c],,iKS1317 specific
 grmcrnd[c],,iKS1317 specific
-psqldi[c],,iKS1317 specific
-hop22en[c],,iKS1317 specific
 hbc[c],,iKS1317 specific
 actACPmmy[c],,iKS1317 specific
 mmyint1[c],,iKS1317 specific
