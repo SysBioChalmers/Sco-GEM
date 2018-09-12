@@ -1,4 +1,4 @@
-﻿iKS1317_ID,Sco4_ID,comment
+iKS1317_ID,Sco4_ID,comment
 ACTS1,ACTS1,identical
 ACTS10,ACTS10,identical
 ACTS11,ACTS11,identical
@@ -1850,15 +1850,15 @@ XTSNt2,XTSNt2r,different name
 MACCOAT,ACACT10r,different name
 MBCOAi,ACOAD8,different name
 VALDHr,VALDxi,different name
-,ACTS17,Sco4 specific
-,ACTS18,Sco4 specific
-,ACTS19,Sco4 specific
-,GALKr,Sco4 specific
+ACTS17,ACTS17,Identical ID
+ACTS18,ACTS18,Identical ID
+ACTS19,ACTS19,Identical ID
+GALKr,GALKr,Identical ID
 ,CPC4MT,Sco4 specific
 ,CPC5MT,Sco4 specific
 ,FOMETRi,Sco4 specific
 ,URIC,Sco4 specific
-,RXN-9352,Sco4 specific
+ALBFLONS,RXN-9352,KEGG
 ,RXN-17569,Sco4 specific
 ,RXN-8783,Sco4 specific
 ,FUCPALDOL-RXN,Sco4 specific
@@ -1870,19 +1870,19 @@ VALDHr,VALDxi,different name
 ,BETA-UREIDOPROPIONASE-RXN,Sco4 specific
 ,RXN-11565,Sco4 specific
 ,STREPTOMYCIN-6-KINASE-RXN,Sco4 specific
-,HISTALDEHYD-RXN,Sco4 specific
+HISTDa,HISTALDEHYD-RXN,KEGG
 ,SS-BUTANEDIOL-DEHYDROGENASE-RXN,Sco4 specific
-,SUCCINATE-SEMIALDEHYDE-DEHYDROGENASE-RXN,Sco4 specific
+SSALx,SUCCINATE-SEMIALDEHYDE-DEHYDROGENASE-RXN,biocyc and KEGG
 ,RXN-11081,Sco4 specific
 ,SOLDEHYD-RXN,Sco4 specific
 ,RXN-15902,Sco4 specific
 ,GUANIDINOBUTYRASE-RXN,Sco4 specific
-,RXN-8078,Sco4 specific
+LPFPLT,RXN-8078,biocyc and KEGG
 ,RXN-11080,Sco4 specific
 ,RXN-12931,Sco4 specific
 ,RXN-12398,Sco4 specific
 ,MHPHYDROXY-RXN,Sco4 specific
-,GMP-SYN-NH3-RXN,Sco4 specific
+GMPS,GMP-SYN-NH3-RXN,KEGG
 ,RXN-15819,Sco4 specific
 ,AMINOBENZCOALIG-RXN,Sco4 specific
 ,RXN-9990,Sco4 specific
@@ -1891,13 +1891,13 @@ VALDHr,VALDxi,different name
 ,RXN-9932,Sco4 specific
 ,RXN-13783_NADPH,Sco4 specific
 ,RXN-9931,Sco4 specific
-,RXN-9350,Sco4 specific
+ALBFLOLS,RXN-9350,KEGG
 ,RXN-12752,Sco4 specific
 ,RXN-17129,Sco4 specific
 ,RXN-10901,Sco4 specific
 ,RXN-15586,Sco4 specific
 ,RXN-17615,Sco4 specific
-,RXN-9349,Sco4 specific
+EPIZSYN,RXN-9349,KEGG
 ,RXN-1126,Sco4 specific
 ,FORMIMINOGLUTAMATE-DEIMINASE-RXN,Sco4 specific
 ,RXN-10035,Sco4 specific
@@ -1914,7 +1914,6 @@ VALDHr,VALDxi,different name
 ,LINC-RXN,Sco4 specific
 ,RXN0-6727,Sco4 specific
 ,RXN-11211,Sco4 specific
-,RXN0-5224,Sco4 specific
 ,1.2.1.66-RXN,Sco4 specific
 ,RXN-16308,Sco4 specific
 ,DARABALDOL-RXN,Sco4 specific
@@ -1962,28 +1961,26 @@ VALDHr,VALDxi,different name
 ,RXN-15924,Sco4 specific
 ,4.1.1.86-RXN,Sco4 specific
 ,RXN-16964,Sco4 specific
-,RXN-8079,Sco4 specific
-,METHYLGLUTACONYL-COA-HYDRATASE-RXN,Sco4 specific
+4HXPUHBT,RXN-8079,KEGG
 ,4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN,Sco4 specific
 ,RXN-12399,Sco4 specific
 ,RXN-12975,Sco4 specific
-,MERCAPYSTRANS-RXN,Sco4 specific
+MCPST,MERCAPYSTRANS-RXN,biocyc and KEGG
 ,RXN-14431,Sco4 specific
 ,RXN-8581,Sco4 specific
 ,RXN-11861,Sco4 specific
 ,4-NITROPHENOL-2-MONOOXYGENASE-RXN,Sco4 specific
 ,RXN-16310,Sco4 specific
-,URPHOS-RXN,Sco4 specific
+PYNP2r,URPHOS-RXN,biocyc and KEGG
 ,RXN-9933,Sco4 specific
 ,RXN-8023_NADPH,Sco4 specific
 ,RXN0-1862,Sco4 specific
 ,MALYL-COA-LYASE-RXN,Sco4 specific
 ,RXN-8964,Sco4 specific
 ,RXN-11002,Sco4 specific
-,RXN-9351,Sco4 specific
+ALBFLOLR,RXN-9351,KEGG
 ,RXN-8568,Sco4 specific
 ,RXN0-1861,Sco4 specific
-,GLU6PDEHYDROG-RXN,Sco4 specific
 ,RXN-8781_NADPH,Sco4 specific
 ,RXN-10898,Sco4 specific
 ,GDP-MANNOSE-6-DEHYDROGENASE-RXN,Sco4 specific
@@ -2000,12 +1997,12 @@ VALDHr,VALDxi,different name
 ,FRUCTOSE-6-PHOSPHATE-PHOSPHOKETOLASE-RXN,Sco4 specific
 ,6.3.2.7-RXN,Sco4 specific
 ,ACETOLACTREDUCTOISOM-RXN,Sco4 specific
-,5.4.99.17-RXN,Sco4 specific
+SQLCYC1,5.4.99.17-RXN,KEGG
 ,RXN-11210,Sco4 specific
-,ISOCHORSYN-RXN,Sco4 specific
+ICHORS,ISOCHORSYN-RXN,biocyc and KEGG
 ,2-AMINOADIPATE-AMINOTRANSFERASE-RXN,Sco4 specific
 ,RXN-15920,Sco4 specific
-,RXN-4961,Sco4 specific
+SQLCYC2,RXN-4961,KEGG
 ,RXN-9718,Sco4 specific
 ,RXN-15893,Sco4 specific
 ,BENZALDEHYDE-DEHYDROGENASE-NAD+-RXN,Sco4 specific
@@ -2013,7 +2010,7 @@ VALDHr,VALDxi,different name
 ,RXN-11968,Sco4 specific
 ,4-COUMARATE--COA-LIGASE-RXN,Sco4 specific
 ,DIHYDROPYRIMIDINASE-RXN,Sco4 specific
-,HISTOLDEHYD-RXN,Sco4 specific
+HISTDb,HISTOLDEHYD-RXN,KEGG
 ,BUTYRYL-COA-DEHYDROGENASE-RXN,Sco4 specific
 ,DIENOYLCOAREDUCT-RXN,Sco4 specific
 ,RXN-8182,Sco4 specific
@@ -2032,7 +2029,7 @@ VALDHr,VALDxi,different name
 ,GALLATE-DECARBOXYLASE-RXN,Sco4 specific
 ,ALANINE--GLYOXYLATE-AMINOTRANSFERASE-RXN,Sco4 specific
 ,RXN-8,Sco4 specific
-,RXN-6383,Sco4 specific
+HPHL,RXN-6383,KEGG
 ,COLCYD-RXN,Sco4 specific
 ,CDPDIGLYSYN-RXN,Sco4 specific
 ,RXN-5921_NADPH,Sco4 specific
@@ -2047,9 +2044,8 @@ VALDHr,VALDxi,different name
 ,L-ARABINONATE-DEHYDRATASE-RXN,Sco4 specific
 ,RXN-13142,Sco4 specific
 ,R364-RXN_NADPH,Sco4 specific
-,FERREDOXIN--NITRITE-REDUCTASE-RXN,Sco4 specific
+NOR_syn,FERREDOXIN--NITRITE-REDUCTASE-RXN,KEGG
 ,RXN-14670,Sco4 specific
-,RXN-15856,Sco4 specific
 ,2.1.1.138-RXN,Sco4 specific
 ,RXN-13141,Sco4 specific
 ,RXN-14430,Sco4 specific
@@ -2074,9 +2070,9 @@ VALDHr,VALDxi,different name
 ,6-HEXANOLIDE-HYDROLYSIS-RXN,Sco4 specific
 ,RXN-12095,Sco4 specific
 ,HYDROXYBENZALDEHYDE-OXIDATION-NADP-RXN,Sco4 specific
-,RXN-8675,Sco4 specific
+SAMP1MET,RXN-8675,KEGG
 ,2.5.1.32-RXN,Sco4 specific
-,RXN-8648,Sco4 specific
+GRMCROS,RXN-8648,KEGG
 ,RXN-13528_NADPH,Sco4 specific
 ,2.5.1.68-RXN,Sco4 specific
 ,RXN0-4301,Sco4 specific
@@ -2084,21 +2080,21 @@ VALDHr,VALDxi,different name
 ,SORBITOL-6-PHOSPHATASE-RXN,Sco4 specific
 ,2.4.1.216-RXN,Sco4 specific
 ,RXN-9476,Sco4 specific
-,RXN-8080,Sco4 specific
+GF4GL_0,RXN-8080,biocyc
 ,RXN-10995_NADPH,Sco4 specific
 ,RXN-12400,Sco4 specific
 ,RXN-9475,Sco4 specific
-,UTPHEXPURIDYLYLTRANS-RXN,Sco4 specific
+GALT,UTPHEXPURIDYLYLTRANS-RXN,biocyc and KEGG
 ,MANNITOL-1-PHOSPHATASE-RXN,Sco4 specific
 ,CYCLOHEXANOL-DEHYDROGENASE-RXN,Sco4 specific
 ,1.14.12.1-RXN_NADPH,Sco4 specific
 ,UREA-CARBOXYLASE-RXN,Sco4 specific
-,RXN-9353,Sco4 specific
+ALBFLONR,RXN-9353,KEGG
 ,RXN-10040,Sco4 specific
 ,RXN-9909,Sco4 specific
 ,RXN-12703_NADPH,Sco4 specific
 ,RXN-11728,Sco4 specific
-,GLUTAMATESYN-RXN,Sco4 specific
+GLUSy,GLUTAMATESYN-RXN,biocyc and KEGG
 ,METHYL-GLYOXAL-DEHYDROG-RXN,Sco4 specific
 ,ACETALD-DEHYDROG-RXN,Sco4 specific
 ,1.4.3.19-RXN,Sco4 specific
@@ -2107,14 +2103,14 @@ VALDHr,VALDxi,different name
 ,CYTIDINEKIN-RXN,Sco4 specific
 ,RXN-8784,Sco4 specific
 ,RXN-5861,Sco4 specific
-,MHPELY-RXN,Sco4 specific
-,SALICYLATE-1-MONOOXYGENASE-RXN,Sco4 specific
+HOPNTAL3,MHPELY-RXN,biocyc and KEGG
+SALOR,SALICYLATE-1-MONOOXYGENASE-RXN,KEGG
 ,1.2.1.27-RXN,Sco4 specific
-,PROPCOASYN-RXN,Sco4 specific
+PCFO,PROPCOASYN-RXN,KEGG
 ,URIDINEKIN-RXN,Sco4 specific
-,URKI-RXN,Sco4 specific
+URIK2,URKI-RXN,biocyc and KEGG
 ,4.1.99.4-RXN,Sco4 specific
-,MALEATE-ISOMERASE-RXN,Sco4 specific
+MALEI,MALEATE-ISOMERASE-RXN,biocyc and KEGG
 ,RXN-0,Sco4 specific
 ,MYO-INOSITOL-1OR-4-MONOPHOSPHATASE-RXN,Sco4 specific
 ,PYRUFLAVREDUCT-RXN,Sco4 specific
@@ -2127,7 +2123,7 @@ VALDHr,VALDxi,different name
 ,CREATININASE-RXN,Sco4 specific
 ,PHOSPHASERDECARB-RXN,Sco4 specific
 ,NMNAMIDOHYDRO-RXN,Sco4 specific
-,2-OXOPENT-4-ENOATE-HYDRATASE-RXN,Sco4 specific
+OP4ENH3,2-OXOPENT-4-ENOATE-HYDRATASE-RXN,KEGG
 ,CREATININE-DEAMINASE-RXN,Sco4 specific
 ,CEPHALOSPORIN-C-DEACETYLASE-RXN,Sco4 specific
 ,RXNN-404,Sco4 specific
@@ -2152,15 +2148,15 @@ VALDHr,VALDxi,different name
 ,R229-RXN,Sco4 specific
 ,RXN-9394,Sco4 specific
 ,RXN-9421,Sco4 specific
-,3.5.2.17-RXN,Sco4 specific
-,RXN-6201,Sco4 specific
+HURH,3.5.2.17-RXN,KEGG
+OHCUS,RXN-6201,KEGG
 ,HCAMULTI-RXN,Sco4 specific
 ,RXN-12072,Sco4 specific
 ,RXN-2962_NADPH,Sco4 specific
 ,1.2.7.4-RXN,Sco4 specific
 ,RXN-9382,Sco4 specific
 ,1-ACYLGLYCEROL-3-P-ACYLTRANSFER-RXN,Sco4 specific
-,RXN-8077,Sco4 specific
+LPPGS,RXN-8077,biocyc and KEGG
 ,RXN-13194,Sco4 specific
 ,RXN-14910,Sco4 specific
 ,RXN0-5306,Sco4 specific
@@ -2212,7 +2208,6 @@ VALDHr,VALDxi,different name
 ,R282-RXN,Sco4 specific
 ,RXN-11689,Sco4 specific
 ,RXN-5285,Sco4 specific
-,1.14.13.84-RXN_NADPH,Sco4 specific
 ,HYDROXYHEPTA-DIENEDIOATE-HYDROXY-RXN,Sco4 specific
 ,RXN-14147,Sco4 specific
 ,RXN0-3922,Sco4 specific
@@ -2233,12 +2228,10 @@ VALDHr,VALDxi,different name
 ,R02457,Sco4 specific
 ,R02894,Sco4 specific
 ,R02923,Sco4 specific
-,R03105,Sco4 specific
-,R03999,Sco4 specific
+MCPST2,R03105,Changed ID
 ,R04221,Sco4 specific
 ,R04800_NADPH,Sco4 specific
 ,R05590,Sco4 specific
-,R09692_NADPH,Sco4 specific
 ,R01176,Sco4 specific
 ,R01785,Sco4 specific
 ,R02252,Sco4 specific
@@ -2264,7 +2257,6 @@ VALDHr,VALDxi,different name
 ,RXN-13068_NADPH,Sco4 specific
 ,RXN-9193,Sco4 specific
 ,RXN0-5222,Sco4 specific
-,RXN-9930,Sco4 specific
 ,RXN-5721,Sco4 specific
 ,RXN-2961,Sco4 specific
 ,RXN-6581,Sco4 specific
@@ -2285,10 +2277,10 @@ VALDHr,VALDxi,different name
 ,RXN66-447,Sco4 specific
 ,EXC_OUT_CPD-14016_c,Sco4 specific
 ,EXC_OUT_CPD-9962_c,Sco4 specific
-,EXC_OUT_CPD-11957_c,Sco4 specific
+EX_desferrioxamE_e,EXC_OUT_CPD-11957_c,Exchange of same compound
 ,EXC_OUT_CPD-10680_c,Sco4 specific
 ,EXC_OUT_CPD-10681_c,Sco4 specific
-,EXC_OUT_CPD-10158_c,Sco4 specific
+DM_geosmin_c,EXC_OUT_CPD-10158_c,Exchange of same compound
 ,EXC_OUT_ACETONE_c,Sco4 specific
 ,EXC_OUT_CPD-14522_c,Sco4 specific
 ,RXN-13783_NADH,Sco4 specific
@@ -2301,7 +2293,6 @@ VALDHr,VALDxi,different name
 ,R364-RXN_NADH,Sco4 specific
 ,1.14.12.1-RXN_NADH,Sco4 specific
 ,RXN-2962_NADH,Sco4 specific
-,1.17.1.1-RXN_NADH,Sco4 specific
 ,1.14.13.84-RXN_NADH,Sco4 specific
 ,RXN-8024_NADH,Sco4 specific
 ,RXN-8003_NADH,Sco4 specific
@@ -2315,7 +2306,6 @@ VALDHr,VALDxi,different name
 ,RXN-12703_NADH,Sco4 specific
 ,RXN-8022_NADH,Sco4 specific
 ,R04800_NADH,Sco4 specific
-,R09692_NADH,Sco4 specific
 GLUKB,,iKS1317 specific
 PPS,,iKS1317 specific
 PPCK,,iKS1317 specific
@@ -2332,24 +2322,19 @@ GMAND,,iKS1317 specific
 KHK,,iKS1317 specific
 G1PTT,,iKS1317 specific
 DTDPG4E,,iKS1317 specific
-GALT,,iKS1317 specific
 STACHGALACT,,iKS1317 specific
 GALM1,,iKS1317 specific
 S6PGB,,iKS1317 specific
 LYXE,,iKS1317 specific
 LYXID,,iKS1317 specific
-URIK2,,iKS1317 specific
-PYNP2r,,iKS1317 specific
 ADPT2,,iKS1317 specific
 XPPT,,iKS1317 specific
 TDP,,iKS1317 specific
 SERAT,,iKS1317 specific
-GLUSy,,iKS1317 specific
 PPYRDC,,iKS1317 specific
 r0686,,iKS1317 specific
 MCSNAH,,iKS1317 specific
 ABPYRATA,,iKS1317 specific
-SSALx,,iKS1317 specific
 GCCc,,iKS1317 specific
 GLYDHD,,iKS1317 specific
 MTAM_nh4,,iKS1317 specific
@@ -2396,31 +2381,23 @@ G3PD,,iKS1317 specific
 OXBPTA,,iKS1317 specific
 APATc,,iKS1317 specific
 PACPTc,,iKS1317 specific
-PCFO,,iKS1317 specific
-HPHL,,iKS1317 specific
 HPCOR,,iKS1317 specific
 OCDOR,,iKS1317 specific
-SALOR,,iKS1317 specific
-NOR_syn,,iKS1317 specific
 NTRIR2y,,iKS1317 specific
 3OXOR,,iKS1317 specific
 CHOLD2,,iKS1317 specific
 BTAOR,,iKS1317 specific
-ICHORS,,iKS1317 specific
 SUCBZS,,iKS1317 specific
 SUCBZL,,iKS1317 specific
 NPHS,,iKS1317 specific
 DHNAOT9,,iKS1317 specific
 AMMQT9,,iKS1317 specific
 TOLOR,,iKS1317 specific
-HOPNTAL3,,iKS1317 specific
-OP4ENH3,,iKS1317 specific
 ALAS,,iKS1317 specific
 G5SAT,,iKS1317 specific
 UPP1S,,iKS1317 specific
 UPPDC2,,iKS1317 specific
 UPP3MT1,,iKS1317 specific
-SAMP1MET,,iKS1317 specific
 FNOR,,iKS1317 specific
 ACt2r,,iKS1317 specific
 ANTHte,,iKS1317 specific
@@ -2486,10 +2463,7 @@ EX_sucr_e,,iKS1317 specific
 CHIRAISO,,iKS1317 specific
 DHORD4,,iKS1317 specific
 URO,,iKS1317 specific
-OHCUS,,iKS1317 specific
-HURH,,iKS1317 specific
 DMT,,iKS1317 specific
-GMPS,,iKS1317 specific
 PPNCL3,,iKS1317 specific
 MECDPDH5_2,,iKS1317 specific
 IDPS2,,iKS1317 specific
@@ -2497,19 +2471,10 @@ SUCD9,,iKS1317 specific
 CYO1ab,,iKS1317 specific
 SULR_syn,,iKS1317 specific
 SADT,,iKS1317 specific
-4HXPUHBT,,iKS1317 specific
-LPFPLT,,iKS1317 specific
-LPPGS,,iKS1317 specific
 GF4GL_1,,iKS1317 specific
-GF4GL_0,,iKS1317 specific
-GALKr,,iKS1317 specific
-ACTS17,,iKS1317 specific
-ACTS18,,iKS1317 specific
 ACTS16b,,iKS1317 specific
 NAACPHYD,,iKS1317 specific
 MALCOAMT,,iKS1317 specific
-HISTDa,,iKS1317 specific
-HISTDb,,iKS1317 specific
 ATNS_nh4,,iKS1317 specific
 HSDxi,,iKS1317 specific
 KARI_23dhmb,,iKS1317 specific
@@ -2534,7 +2499,6 @@ CODSCL5DA,,iKS1317 specific
 CODSCL5BMT,,iKS1317 specific
 UGAH,,iKS1317 specific
 ACON6LAT,,iKS1317 specific
-ACTS19,,iKS1317 specific
 PKBBS,,iKS1317 specific
 MACPAL,,iKS1317 specific
 GLUTPAT,,iKS1317 specific
@@ -2543,9 +2507,6 @@ SEPHCHCS,,iKS1317 specific
 SHCHCS3,,iKS1317 specific
 ACCOAC_1,,iKS1317 specific
 DIOP5OR,,iKS1317 specific
-MALEI,,iKS1317 specific
-MCPST,,iKS1317 specific
-MCPST2,,iKS1317 specific
 PENAM,,iKS1317 specific
 GLCRD2,,iKS1317 specific
 GALM2,,iKS1317 specific
@@ -2557,23 +2518,14 @@ MMYSYN1,,iKS1317 specific
 MMYSYN3,,iKS1317 specific
 MMYSYN2,,iKS1317 specific
 MMSYNB,,iKS1317 specific
-DM_geosmin_c,,iKS1317 specific
 DM_grmcrnd_c,,iKS1317 specific
 DM_albflon_c,,iKS1317 specific
 DM_strprub_c,,iKS1317 specific
-GRMCROS,,iKS1317 specific
-ALBFLONR,,iKS1317 specific
 DIFRNLY,,iKS1317 specific
-ALBFLOLR,,iKS1317 specific
-ALBFLOLS,,iKS1317 specific
-EPIZSYN,,iKS1317 specific
 REDS35b,,iKS1317 specific
-SQLCYC2,,iKS1317 specific
-SQLCYC1,,iKS1317 specific
 PRODSYN,,iKS1317 specific
 PSQLDL,,iKS1317 specific
 FRNDIT,,iKS1317 specific
-ALBFLONS,,iKS1317 specific
 REDS27b,,iKS1317 specific
 GRMCRDS,,iKS1317 specific
 GSMNSYN,,iKS1317 specific
