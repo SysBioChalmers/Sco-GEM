@@ -1489,7 +1489,7 @@ d5kgp[c],5ddg6p_c,different name
 ,ACYL-SN-GLYCEROL-3P_c,Sco4 specific
 ,ADENOSYL-P4_c,Sco4 specific
 ,ADP-D-GLYCERO-D-MANNO-HEPTOSE_c,Sco4 specific
-,AMMONIA_c,Sco4 specific
+nh4[c],AMMONIA_c, Identic
 ,ASCORBATE_c,Sco4 specific
 ,BENZALDEHYDE_c,Sco4 specific
 ,BENZOATE_c,Sco4 specific
@@ -1528,8 +1528,7 @@ d5kgp[c],5ddg6p_c,different name
 ,CPD-10064_c,Sco4 specific
 ,CPD-10065_c,Sco4 specific
 ,CPD-101_c,Sco4 specific
-,CPD-10158_c,Sco4 specific
-,CPD-10159_c,Sco4 specific
+geosmin[c],CPD-10158_c,Sco4 specific,CPD-10159_c,Same metabolite
 ,CPD-10160_c,Sco4 specific
 ,CPD-102_c,Sco4 specific
 ,CPD-10333_c,Sco4 specific
@@ -1748,10 +1747,10 @@ d5kgp[c],5ddg6p_c,different name
 ,CPD-9408_c,Sco4 specific
 ,CPD-9409_c,Sco4 specific
 ,CPD-9444_c,Sco4 specific
-,CPD-9959_c,Sco4 specific
-,CPD-9960_c,Sco4 specific
-,CPD-9961_c,Sco4 specific
-,CPD-9962_c,Sco4 specific
+episz[c],CPD-9959_c, Same metabolite
+albflol__S[c],CPD-9960_c, Same metabolite
+albflol__R[c],CPD-9961_c, Same metabolite
+albflon[c],CPD-9962_c, Same metabolite
 ,CPD-9995_c,Sco4 specific
 ,CPD-9999_c,Sco4 specific
 ,CPD0-1068_c,Sco4 specific
@@ -2024,18 +2023,12 @@ peng[c],,iKS1317 specific
 6apa[c],,iKS1317 specific
 2dh3dglc[c],,iKS1317 specific
 hop22ol[c],,iKS1317 specific
-albflon[c],,iKS1317 specific
 sql[c],,iKS1317 specific
-episz[c],,iKS1317 specific
 bfrn[c],,iKS1317 specific
-albflol__S[c],,iKS1317 specific
 grmcrnd[c],,iKS1317 specific
 psqldi[c],,iKS1317 specific
 hop22en[c],,iKS1317 specific
-grmcrol[c],,iKS1317 specific
-geosmin[c],,iKS1317 specific
 hbc[c],,iKS1317 specific
-albflol__R[c],,iKS1317 specific
 actACPmmy[c],,iKS1317 specific
 mmyint1[c],,iKS1317 specific
 ACPmmy[c],,iKS1317 specific
