@@ -34,12 +34,14 @@ def add_reactions(sco4_model, scoGEM, reaction_mapping_fn, metabolite_mapping_fn
     # print(reaction_mapping_df)
     # Get new reactions
     new_reaction_id_list = list(reaction_mapping_df[reaction_mapping_df["Add"]]["Sco4_ID"])
-
+    print(new_reaction_id_list)
     scoGEM_reaction_ids = [r.id for r in scoGEM.reactions]
     print(len(scoGEM.reactions))
     print(len(scoGEM.metabolites))
     all_missing = []
     missing_reaction_dict = defaultdict(list)
+    not_added_reactions = []
+    i = 0
     for reaction_id in new_reaction_id_list:
         ascii_reaction_id = insert_ascii(reaction_id)
         new_reaction = sco4_model.reactions.get_by_id(ascii_reaction_id)
@@ -54,10 +56,16 @@ def add_reactions(sco4_model, scoGEM, reaction_mapping_fn, metabolite_mapping_fn
         if has_all:
             scoGEM.add_reaction(new_reaction)
             print("Added reaction {0}:{1}".format(new_reaction.id, new_reaction.name))
+            i += 1
+        else:
+            not_added_reactions.append(reaction_id)
+
     print(len(scoGEM.reactions))
     print(len(scoGEM.metabolites))
     print(set(all_missing))
     evaluate_missing_reactions(missing_reaction_dict, reaction_mapping_df)
+    print(not_added_reactions)
+    print(i)
 
 def evaluate_missing_reactions(missing_reaction_dict, reaction_mapping_df):
     for key, value in missing_reaction_dict.items():

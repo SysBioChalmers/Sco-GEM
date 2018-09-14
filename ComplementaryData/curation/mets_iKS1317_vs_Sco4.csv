@@ -1486,7 +1486,7 @@ mercppyr[c],3-MERCAPTO-PYRUVATE_c,Same metabolite
 ,ACRYLATE_c,Sco4 specific
 prpncoa[c],ACRYLYL-COA_c,Same metabolite
 ,ACYL-ACP_c,Sco4 specific
-,ACYL-SN-GLYCEROL-3P_c,Sco4 specific
+1aiC15g3p[c],ACYL-SN-GLYCEROL-3P_c,Duplicate
 ,ADENOSYL-P4_c,Sco4 specific
 ,ADP-D-GLYCERO-D-MANNO-HEPTOSE_c,Sco4 specific
 nh4[c],AMMONIA_c, Identic
@@ -1532,7 +1532,7 @@ geosmin[c],CPD-10158_c,Same metabolite
 grmcrol_c,CPD-10159_c,Same metabolite
 ,CPD-10160_c,Sco4 specific
 ,CPD-102_c,Sco4 specific
-,CPD-10333_c,Sco4 specific
+f420_0[c],CPD-10333_c,Same biocyc id
 ,CPD-10597_c,Sco4 specific
 ,CPD-10598_c,Sco4 specific
 ,CPD-10659_c,Sco4 specific
@@ -1658,7 +1658,7 @@ feroxE[c],CPD-11957_c,Same metabolite
 ,CPD-19317_c,Sco4 specific
 ,CPD-19762_c,Sco4 specific
 ,CPD-20_c,Sco4 specific
-,CPD-208_c,Sco4 specific
+malylcoa[c],CPD-208_c,Same metabolite
 ,CPD-209_c,Sco4 specific
 ,CPD-217_c,Sco4 specific
 ,CPD-220_c,Sco4 specific
@@ -1724,7 +1724,7 @@ houdic[c],CPD-5821_c,Sco4 specific
 ,CPD-7590_c,Sco4 specific
 ,CPD-7601_c,Sco4 specific
 ,CPD-7602_c,Sco4 specific
-f420_1[c],CPD-7607_c,Sco4 specific
+f420_1[c],CPD-7607_c,Same metabolite
 ,CPD-7643_c,Sco4 specific
 ,CPD-783_c,Sco4 specific
 ,CPD-784_c,Sco4 specific
@@ -1829,7 +1829,7 @@ tcynt[c],HSCN_c,Same metabolite
 ,L-GULONATE_c,Sco4 specific
 ,L-GULONO-1-4-LACTONE_c,Sco4 specific
 ,L-Galactopyranose_c,Sco4 specific
-,L-PHOSPHATIDATE_c,Sco4 specific
+pa120[c],L-PHOSPHATIDATE_c,Same metabolite
 ,L-PHOSPHINOTHRICIN_c,Sco4 specific
 ,MALEATE_c,Sco4 specific
 mnl1p[c],MANNITOL-1P_c,Same metabolite
@@ -1855,7 +1855,7 @@ fdxox[c],Oxidized-ferredoxins_c,Same metabolite
 ,PHENYLGLYOXYLATE_c,Sco4 specific
 ,PSEUDOURIDINE-5-P_c,Sco4 specific
 ,PYROGALLOL_c,Sco4 specific
-,RHAMNOSE_c,Sco4 specific
+rmn[c],RHAMNOSE_c, general vs alpha-specific
 ,RIBITOL_c,Sco4 specific
 ,Reduced-Factor-F420_c,Sco4 specific
 fdxrd[c],Reduced-ferredoxins_c, Identical
@@ -1974,7 +1974,6 @@ fldox[c],,iKS1317 specific
 fldrd[c],,iKS1317 specific
 ddhrb[c],,iKS1317 specific
 lppg[c],,iKS1317 specific
-f420_0[c],,iKS1317 specific
 2plac__L[c],,iKS1317 specific
 f420[c],,iKS1317 specific
 gal_aD[c],,iKS1317 specific
@@ -1986,7 +1985,6 @@ malmoACP[c],,iKS1317 specific
 histda[c],,iKS1317 specific
 3hmoa[c],,iKS1317 specific
 3hmop[c],,iKS1317 specific
-malylcoa[c],,iKS1317 specific
 N6dhliplys[c],,iKS1317 specific
 N6liplys[c],,iKS1317 specific
 3choptpp[c],,iKS1317 specific
