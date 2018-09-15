@@ -1198,7 +1198,7 @@ COELICHELINR2	fmnh2_c + 2 fcoelchl_c  -> 2 h_c + 2 fe2_c + fmn_c + 2 coelichelin
 COELICHELINR3	rbflvrd_c + 2 fcoelchl_c  -> 2 h_c + 2 fe2_c + ribflv_c + 2 coelichelin_c 		  0.00	1000.00	  0.00
 COELICHELINUt	h_e + coelichelin_c  -> h_c + coelichelin_e 	SCO0491 and SCO0493	  0.00	1000.00	  0.00
 CU1abc	h2o_c + atp_c + cu_c  -> h_c + adp_c + pi_c + cu_e 	SCO1046 or SCO2731	  0.00	1000.00	  0.00
-CU1O	4 h_c + o2_c + 4 cu_c  -> 2 h2o_c + 4 cu2_c 	(( SCO3439 and SCO3440 ) and SCO6712 )	  0.00	1000.00	  0.00
+CU1O	4 h_c + o2_c + 4 cu_c  -> 2 h2o_c + 4 cu2_c 	SCO3439 and SCO3440 and SCO6712	  0.00	1000.00	  0.00
 CU2abc	h2o_c + atp_c + cu2_c  -> h_c + adp_c + pi_c + cu2_e 	SCO6460	  0.00	1000.00	  0.00
 CU2t	cu2_e  -> cu2_c 		  0.00	1000.00	  0.00
 CUt3	h_c + cu_e  -> h_e + cu_c 		  0.00	1000.00	  0.00
@@ -1217,7 +1217,7 @@ FEOXAMER1	fadh2_c + 2 feroxEfe_c  -> 2 h_c + fad_c + 2 fe2_c + 2 feroxE_c 		  0.
 FEOXAMER2	fmnh2_c + 2 feroxEfe_c  -> 2 h_c + 2 fe2_c + fmn_c + 2 feroxE_c 		  0.00	1000.00	  0.00
 FEOXAMER3	rbflvrd_c + 2 feroxEfe_c  -> 2 h_c + 2 fe2_c + ribflv_c + 2 feroxE_c 		  0.00	1000.00	  0.00
 FEOXAMEUt	h_e + feroxE_c  -> h_c + feroxE_e 		  0.00	1000.00	  0.00
-FERO	4 h_c + o2_c + 4 fe2_c  -> 2 h2o_c + 4 fe3_c 	(( SCO3439 and SCO3440 ) and SCO6712 )	  0.00	1000.00	  0.00
+FERO	4 h_c + o2_c + 4 fe2_c  -> 2 h2o_c + 4 fe3_c 	SCO3439 and SCO3440 and SCO6712	  0.00	1000.00	  0.00
 H2SO	2 o2_c + h2s_c  -> 2 h_c + so4_c 	s0001	  0.00	1000.00	  0.00
 Kabc	h2o_c + atp_c + k_e  -> h_c + adp_c + pi_c + k_c 	SCO3716 and SCO3717 and SCO3718	  0.00	1000.00	  0.00
 Kt2	h_e + k_e  -> h_c + k_c 	SCO3826	  0.00	1000.00	  0.00
@@ -1484,7 +1484,7 @@ MMM	succoa_c  <=> mmcoa__R_c 	(( SCO4800 or SCO6833 ) and ( SCO4869 or SCO6832 o
 MMSAD3	coa_c + nad_c + msa_c  -> nadh_c + co2_c + accoa_res_c 	SCO2726	  0.00	1000.00	  0.00
 MMTSAO	coa_c + nad_c + mmtsa_c  -> nadh_c + co2_c + ppcoa_c 	SCO2726	  0.00	1000.00	  0.00
 MMSAD5	coa_c + nad_c + mmtsa_c  -> h_c + nadh_c + mmcoa__R_c 	SCO2726	  0.00	1000.00	  0.00
-PPCOAC	atp_c + ppcoa_c + hco3_c  -> h_c + adp_c + pi_c + mmcoa__S_c 	(( SCO2776 and SCO2777 ) or ( SCO4380 and SCO4381 ) or (( SCO4921 or SCO6271 ) and ( SCO4925 and SCO4926 )))	  0.00	1000.00	  0.00
+PPCOAC	atp_c + ppcoa_c + hco3_c  -> h_c + adp_c + pi_c + mmcoa__S_c 	(( SCO2776 and SCO2777 ) or ( SCO4380 and SCO4381 ) or (( SCO4921 or SCO6271 ) and SCO4925 and SCO4926 ))	  0.00	1000.00	  0.00
 ADSL1r	dcamp_c  <=> amp_c + fum_c 	SCO1254	-1000.00	1000.00	  0.00
 ADSL2r	25aics_c  <=> fum_c + aicar_c 	SCO1254	-1000.00	1000.00	  0.00
 ADSS	asp__L_c + gtp_c + imp_c  -> 2 h_c + pi_c + gdp_c + dcamp_c 	SCO3629	  0.00	1000.00	  0.00
