@@ -61201,328 +61201,328 @@
     - name: SCO0006
   - !!omap
     - id: SCO0015
-    - name: SCO0015
+    - name: SCJ30.11c
   - !!omap
     - id: SCO0046
-    - name: SCO0046
+    - name: SCJ4.27
   - !!omap
     - id: SCO0063
     - name: SCO0063
   - !!omap
     - id: SCO0158
-    - name: SCO0158
+    - name: SCJ1.07
   - !!omap
     - id: SCO0171
-    - name: SCO0171
+    - name: SCJ1.20
   - !!omap
     - id: SCO0185
-    - name: SCO0185
+    - name: crtB, SCJ1.34
   - !!omap
     - id: SCO0199
-    - name: SCO0199
+    - name: SCJ12.11c
   - !!omap
     - id: SCO0208
-    - name: SCO0208
+    - name: SCJ12.20
   - !!omap
     - id: SCO0213
-    - name: SCO0213
+    - name: SCJ12.25c
   - !!omap
     - id: SCO0216
-    - name: SCO0216
+    - name: narG2
   - !!omap
     - id: SCO0217
-    - name: SCO0217
+    - name: narH2
   - !!omap
     - id: SCO0218
-    - name: SCO0218
+    - name: narJ2
   - !!omap
     - id: SCO0219
-    - name: SCO0219
+    - name: narI2
   - !!omap
     - id: SCO0259
-    - name: SCO0259
+    - name: SCF1.01, SCF20.05
   - !!omap
     - id: SCO0274
-    - name: SCO0274
+    - name: SCF85.02
   - !!omap
     - id: SCO0280
-    - name: SCO0280
+    - name: SCF85.08c
   - !!omap
     - id: SCO0284
     - name: SCO0284
   - !!omap
     - id: SCO0285
-    - name: SCO0285
+    - name: SCF85.13
   - !!omap
     - id: SCO0293
-    - name: SCO0293
+    - name: SC5G9.02
   - !!omap
     - id: SCO0313
-    - name: SCO0313
+    - name: SC5G9.22
   - !!omap
     - id: SCO0315
     - name: SCO0315
   - !!omap
     - id: SCO0330
-    - name: SCO0330
+    - name: fabG
   - !!omap
     - id: SCO0364
-    - name: SCO0364
+    - name: SCF41.23
   - !!omap
     - id: SCO0379
-    - name: SCO0379
+    - name: katA
   - !!omap
     - id: SCO0386
-    - name: SCO0386
+    - name: SCF62.12
   - !!omap
     - id: SCO0393
-    - name: SCO0393
+    - name: SCF62.19
   - !!omap
     - id: SCO0400
-    - name: SCO0400
+    - name: SCF62.26
   - !!omap
     - id: SCO0401
-    - name: SCO0401
+    - name: SCF62.27
   - !!omap
     - id: SCO0410
     - name: SCO0410
   - !!omap
     - id: SCO0420
-    - name: SCO0420
+    - name: SCF51.19c
   - !!omap
     - id: SCO0434
-    - name: SCO0434
+    - name: malX
   - !!omap
     - id: SCO0435
-    - name: SCO0435
+    - name: malY
   - !!omap
     - id: SCO0458
-    - name: SCO0458
+    - name: SCF51A.36
   - !!omap
     - id: SCO0462
     - name: SCO0462
   - !!omap
     - id: SCO0473
-    - name: SCO0473
+    - name: SCF76.13c
   - !!omap
     - id: SCO0475
-    - name: SCO0475
+    - name: SCF76.15c
   - !!omap
     - id: SCO0476
-    - name: SCO0476
+    - name: SCF76.16
   - !!omap
     - id: SCO0479
     - name: SCO0479
   - !!omap
     - id: SCO0491
-    - name: SCO0491
+    - name: SCF34.10c
   - !!omap
     - id: SCO0493
-    - name: SCO0493
+    - name: SCF34.12c
   - !!omap
     - id: SCO0494
-    - name: SCO0494
+    - name: SCF34.13c
   - !!omap
     - id: SCO0495
-    - name: SCO0495
+    - name: SCF34.14c
   - !!omap
     - id: SCO0496
-    - name: SCO0496
+    - name: SCF34.15c
   - !!omap
     - id: SCO0497
-    - name: SCO0497
+    - name: SCF34.16c
   - !!omap
     - id: SCO0499
     - name: SCO0499
   - !!omap
     - id: SCO0506
-    - name: SCO0506
+    - name: nadE
   - !!omap
     - id: SCO0509
-    - name: SCO0509
+    - name: glpK
   - !!omap
     - id: SCO0524
-    - name: SCO0524
+    - name: SCF11.04
   - !!omap
     - id: SCO0534
     - name: SCO0534
   - !!omap
     - id: SCO0541
-    - name: SCO0541
+    - name: SCF11.21
   - !!omap
     - id: SCO0546
-    - name: SCO0546
+    - name: pyc, SCF11.26c
   - !!omap
     - id: SCO0548
-    - name: SCO0548
+    - name: fabB2, SCF11.28c
   - !!omap
     - id: SCO0549
-    - name: SCO0549
+    - name: SCF11.29c
   - !!omap
     - id: SCO0560
-    - name: SCO0560
+    - name: cpeB
   - !!omap
     - id: SCO0565
-    - name: SCO0565
+    - name: SCF73.12c
   - !!omap
     - id: SCO0568
     - name: SCO0568
   - !!omap
     - id: SCO0572
-    - name: SCO0572
+    - name: SC5G5.04c
   - !!omap
     - id: SCO0578
-    - name: SCO0578
+    - name: SCF55.02c
   - !!omap
     - id: SCO0579
-    - name: SCO0579
+    - name: SCF55.03c
   - !!omap
     - id: SCO0580
-    - name: SCO0580
+    - name: SCF55.04c
   - !!omap
     - id: SCO0613
-    - name: SCO0613
+    - name: arcA, SCF55.37
   - !!omap
     - id: SCO0617
-    - name: SCO0617
+    - name: SCF55.41c, SCF56.01c
   - !!omap
     - id: SCO0666
-    - name: SCO0666
+    - name: catB
   - !!omap
     - id: SCO0670
-    - name: SCO0670
+    - name: glpD, SCF91.30
   - !!omap
     - id: SCO0681
-    - name: SCO0681
+    - name: SCF15.02
   - !!omap
     - id: SCO0689
-    - name: SCO0689
+    - name: SCF15.10
   - !!omap
     - id: SCO0690
-    - name: SCO0690
+    - name: SCF15.11
   - !!omap
     - id: SCO0691
-    - name: SCO0691
+    - name: SCF15.12, SCF42.01
   - !!omap
     - id: SCO0706
-    - name: SCO0706
+    - name: SCF42.16c
   - !!omap
     - id: SCO0707
-    - name: SCO0707
+    - name: SCF42.17c
   - !!omap
     - id: SCO0708
-    - name: SCO0708
+    - name: SCF42.18c
   - !!omap
     - id: SCO0709
-    - name: SCO0709
+    - name: SCF42.19c
   - !!omap
     - id: SCO0710
-    - name: SCO0710
+    - name: SCF42.20c
   - !!omap
     - id: SCO0731
-    - name: SCO0731
+    - name: 3SC5B7.09c
   - !!omap
     - id: SCO0749
-    - name: SCO0749
+    - name: SCF81.08c
   - !!omap
     - id: SCO0763
-    - name: SCO0763
+    - name: SCF81.22
   - !!omap
     - id: SCO0766
-    - name: SCO0766
+    - name: SCF81.25c
   - !!omap
     - id: SCO0776
-    - name: SCO0776
+    - name: 3SCF60.08c
   - !!omap
     - id: SCO0782
-    - name: SCO0782
+    - name: 3SCF60.14c, prsA
   - !!omap
     - id: SCO0808
-    - name: SCO0808
+    - name: SCF43.19c
   - !!omap
     - id: SCO0809
-    - name: SCO0809
+    - name: SCF43.20c
   - !!omap
     - id: SCO0810
-    - name: SCO0810
+    - name: SCF43.21c
   - !!omap
     - id: SCO0811
-    - name: SCO0811
+    - name: SCF43.22c, SCF43A.01c
   - !!omap
     - id: SCO0812
-    - name: SCO0812
+    - name: SCF43A.02
   - !!omap
     - id: SCO0814
-    - name: SCO0814
+    - name: SCF43A.04
   - !!omap
     - id: SCO0815
-    - name: SCO0815
+    - name: SCF43A.05
   - !!omap
     - id: SCO0816
-    - name: SCO0816
+    - name: SCF43A.06
   - !!omap
     - id: SCO0817
-    - name: SCO0817
+    - name: SCF43A.07
   - !!omap
     - id: SCO0821
-    - name: SCO0821
+    - name: SCF43A.11c
   - !!omap
     - id: SCO0828
-    - name: SCO0828
+    - name: SCF43A.18
   - !!omap
     - id: SCO0851
-    - name: SCO0851
+    - name: SCM2.04c
   - !!omap
     - id: SCO0852
-    - name: SCO0852
+    - name: SCM2.05c
   - !!omap
     - id: SCO0884
-    - name: SCO0884
+    - name: SCM1.17c
   - !!omap
     - id: SCO0885
-    - name: SCO0885
+    - name: SCM1.18, trxA3
   - !!omap
     - id: SCO0907
-    - name: SCO0907
+    - name: SCM1.40c
   - !!omap
     - id: SCO0920
-    - name: SCO0920
+    - name: SCM10.08c
   - !!omap
     - id: SCO0922
-    - name: SCO0922
+    - name: SCM10.10c
   - !!omap
     - id: SCO0923
-    - name: SCO0923
+    - name: sdhA
   - !!omap
     - id: SCO0924
-    - name: SCO0924
+    - name: SCM10.12c
   - !!omap
     - id: SCO0961
-    - name: SCO0961
+    - name: glgC
   - !!omap
     - id: SCO0962
-    - name: SCO0962
+    - name: glgA, SCM11.17c
   - !!omap
     - id: SCO0975
-    - name: SCO0975
+    - name: SCBAC19F3.02, zwf3
   - !!omap
     - id: SCO0978
-    - name: SCO0978
+    - name: panD, SCBAC19F3.05c
   - !!omap
     - id: SCO0982
-    - name: SCO0982
+    - name: aceA, SCBAC19F3.09
   - !!omap
     - id: SCO0983
-    - name: SCO0983
+    - name: aceB2, SCBAC19F3.10
   - !!omap
     - id: SCO0984
-    - name: SCO0984
+    - name: SCBAC19F3.11
   - !!omap
     - id: SCO0985
-    - name: SCO0985
+    - name: metE, SCBAC19F3.12
   - !!omap
     - id: SCO0992
-    - name: SCO0992
+    - name: 2SCG2.05
   - !!omap
     - id: SCO0996
     - name: SCO0996
@@ -61534,808 +61534,808 @@
     - name: SCO0998
   - !!omap
     - id: SCO0999
-    - name: SCO0999
+    - name: 2SCG2.12c, sodF2
   - !!omap
     - id: SCO1010
-    - name: SCO1010
+    - name: 2SCG2.23
   - !!omap
     - id: SCO1012
-    - name: SCO1012
+    - name: 2SCG2.25c
   - !!omap
     - id: SCO1018
-    - name: SCO1018
+    - name: 2SCG2.32c
   - !!omap
     - id: SCO1028
-    - name: SCO1028
+    - name: SCG20A.08c
   - !!omap
     - id: SCO1046
-    - name: SCO1046
+    - name: SCG20A.26
   - !!omap
     - id: SCO1047
     - name: SCO1047
   - !!omap
     - id: SCO1059
-    - name: SCO1059
+    - name: SCG22.05
   - !!omap
     - id: SCO1077
-    - name: SCO1077
+    - name: SCG22.23c
   - !!omap
     - id: SCO1085
-    - name: SCO1085
+    - name: 2SCG4.01
   - !!omap
     - id: SCO1087
-    - name: SCO1087
+    - name: 2SCG4.03c
   - !!omap
     - id: SCO1090
-    - name: SCO1090
+    - name: 2SCG4.06
   - !!omap
     - id: SCO1132
-    - name: SCO1132
+    - name: 2SCG38.25c
   - !!omap
     - id: SCO1133
-    - name: SCO1133
+    - name: 2SCG38.26c
   - !!omap
     - id: SCO1134
-    - name: SCO1134
+    - name: 2SCG38.27c
   - !!omap
     - id: SCO1153
-    - name: SCO1153
+    - name: SCG8A.07
   - !!omap
     - id: SCO1169
-    - name: SCO1169
+    - name: 2SCG11.03c, xylA
   - !!omap
     - id: SCO1170
-    - name: SCO1170
+    - name: 2SCG11.04, SCG11A.01, xylB
   - !!omap
     - id: SCO1174
-    - name: SCO1174
+    - name: SCG11A.05, thcA
   - !!omap
     - id: SCO1176
-    - name: SCO1176
+    - name: SCG11A.07c
   - !!omap
     - id: SCO1204
-    - name: SCO1204
+    - name: gabD1
   - !!omap
     - id: SCO1214
-    - name: SCO1214
+    - name: 2SCG58.14, pfkA3
   - !!omap
     - id: SCO1223
-    - name: SCO1223
+    - name: 2SCG58.23, rocD
   - !!omap
     - id: SCO1224
-    - name: SCO1224
+    - name: 2SCG58.24c
   - !!omap
     - id: SCO1225
-    - name: SCO1225
+    - name: 2SCG58.25
   - !!omap
     - id: SCO1228
-    - name: SCO1228
+    - name: 2SCG1.03
   - !!omap
     - id: SCO1234
-    - name: SCO1234
+    - name: ureC
   - !!omap
     - id: SCO1235
-    - name: SCO1235
+    - name: ureB
   - !!omap
     - id: SCO1236
-    - name: SCO1236
+    - name: ureA
   - !!omap
     - id: SCO1243
-    - name: SCO1243
+    - name: 2SCG1.18c, bioF
   - !!omap
     - id: SCO1244
-    - name: SCO1244
+    - name: 2SCG1.19, bioB
   - !!omap
     - id: SCO1245
-    - name: SCO1245
+    - name: 2SCG1.20, bioA
   - !!omap
     - id: SCO1246
-    - name: SCO1246
+    - name: bioD
   - !!omap
     - id: SCO1254
-    - name: SCO1254
+    - name: 2SCG1.29, 2SCG18.01, purB
   - !!omap
     - id: SCO1266
-    - name: SCO1266
+    - name: 2SCG18.13c, fabF2
   - !!omap
     - id: SCO1267
-    - name: SCO1267
+    - name: 2SCG18.14c
   - !!omap
     - id: SCO1268
     - name: SCO1268
   - !!omap
     - id: SCO1269
-    - name: SCO1269
+    - name: 2SCG18.16c
   - !!omap
     - id: SCO1270
-    - name: SCO1270
+    - name: 2SCG18.17c
   - !!omap
     - id: SCO1271
-    - name: SCO1271
+    - name: 2SCG18.18c, fabH3
   - !!omap
     - id: SCO1272
-    - name: SCO1272
+    - name: 2SCG18.19c
   - !!omap
     - id: SCO1284
-    - name: SCO1284
+    - name: 2SCG18.31c
   - !!omap
     - id: SCO1290
-    - name: SCO1290
+    - name: 2SCG18.36, SCBAC36F5.01
   - !!omap
     - id: SCO1294
-    - name: SCO1294
+    - name: SCBAC36F5.05c
   - !!omap
     - id: SCO1310
-    - name: SCO1310
+    - name: SCBAC36F5.21
   - !!omap
     - id: SCO1324
-    - name: SCO1324
+    - name: 2SCG61.06c
   - !!omap
     - id: SCO1326
-    - name: SCO1326
+    - name: uppP
   - !!omap
     - id: SCO1335
-    - name: SCO1335
+    - name: 2SCG61.17c
   - !!omap
     - id: SCO1345
-    - name: SCO1345
+    - name: fabG
   - !!omap
     - id: SCO1346
-    - name: SCO1346
+    - name: 2SCG61.28c, fabG3
   - !!omap
     - id: SCO1378
-    - name: SCO1378
+    - name: SC10A9.20c
   - !!omap
     - id: SCO1388
-    - name: SCO1388
+    - name: SC1A8A.08c
   - !!omap
     - id: SCO1389
-    - name: SCO1389
+    - name: SC1A8A.09c
   - !!omap
     - id: SCO1390
-    - name: SCO1390
+    - name: SC1A8A.10
   - !!omap
     - id: SCO1391
-    - name: SCO1391
+    - name: SC1A8A.11
   - !!omap
     - id: SCO1393
-    - name: SCO1393
+    - name: acsA, SC1A8A.13c
   - !!omap
     - id: SCO1394
-    - name: SCO1394
+    - name: SC1A8A.14
   - !!omap
     - id: SCO1396
     - name: SCO1396
   - !!omap
     - id: SCO1419
-    - name: SCO1419
+    - name: SC6D7.20c
   - !!omap
     - id: SCO1438
-    - name: SCO1438
+    - name: hisG
   - !!omap
     - id: SCO1439
-    - name: SCO1439
+    - name: hisE
   - !!omap
     - id: SCO1440
-    - name: SCO1440
+    - name: ribH
   - !!omap
     - id: SCO1441
-    - name: SCO1441
+    - name: ribAB, SC6D7A.04c
   - !!omap
     - id: SCO1442
-    - name: SCO1442
+    - name: SC6D7A.05c
   - !!omap
     - id: SCO1443
-    - name: SCO1443
+    - name: SC6D7A.06c
   - !!omap
     - id: SCO1450
-    - name: SCO1450
+    - name: SCL6.07
   - !!omap
     - id: SCO1461
-    - name: SCO1461
+    - name: guaB2, SCL6.18c
   - !!omap
     - id: SCO1464
-    - name: SCO1464
+    - name: rpe, SCL6.21c
   - !!omap
     - id: SCO1473
-    - name: SCO1473
+    - name: fmt
   - !!omap
     - id: SCO1476
-    - name: SCO1476
+    - name: metK, SCL6.33c
   - !!omap
     - id: SCO1477
-    - name: SCO1477
+    - name: SC9C5.01c, SCL6.34c
   - !!omap
     - id: SCO1479
-    - name: SCO1479
+    - name: gmk
   - !!omap
     - id: SCO1481
-    - name: SCO1481
+    - name: pyrF
   - !!omap
     - id: SCO1482
-    - name: SCO1482
+    - name: pyrD, SC9C5.06c
   - !!omap
     - id: SCO1483
-    - name: SCO1483
+    - name: carB
   - !!omap
     - id: SCO1484
-    - name: SCO1484
+    - name: pyrAA, SC9C5.08c
   - !!omap
     - id: SCO1486
-    - name: SCO1486
+    - name: pyrC
   - !!omap
     - id: SCO1487
-    - name: SCO1487
+    - name: pyrB
   - !!omap
     - id: SCO1488
-    - name: SCO1488
+    - name: pyrR, SC9C5.12c
   - !!omap
     - id: SCO1494
-    - name: SCO1494
+    - name: aroB
   - !!omap
     - id: SCO1495
-    - name: SCO1495
+    - name: aroK
   - !!omap
     - id: SCO1496
-    - name: SCO1496
+    - name: aroF, SC9C5.20c
   - !!omap
     - id: SCO1498
-    - name: SCO1498
+    - name: aroE
   - !!omap
     - id: SCO1501
-    - name: SCO1501
+    - name: alaS
   - !!omap
     - id: SCO1508
-    - name: SCO1508
+    - name: hisS
   - !!omap
     - id: SCO1513
-    - name: SCO1513
+    - name: relA, SCL2.03c
   - !!omap
     - id: SCO1514
-    - name: SCO1514
+    - name: apt, SCL2.06c
   - !!omap
     - id: SCO1522
-    - name: SCO1522
+    - name: SCL2.12c
   - !!omap
     - id: SCO1523
-    - name: SCO1523
+    - name: SCL2.13c
   - !!omap
     - id: SCO1527
-    - name: SCO1527
+    - name: SCL2.17c
   - !!omap
     - id: SCO1531
-    - name: SCO1531
+    - name: thrS
   - !!omap
     - id: SCO1546
-    - name: SCO1546
+    - name: SCL11.02c
   - !!omap
     - id: SCO1547
     - name: SCO1547
   - !!omap
     - id: SCO1553
-    - name: SCO1553
+    - name: SCL11.09c
   - !!omap
     - id: SCO1554
-    - name: SCO1554
+    - name: SCL11.10c
   - !!omap
     - id: SCO1555
-    - name: SCO1555
+    - name: SCL11.11c
   - !!omap
     - id: SCO1557
-    - name: SCO1557
+    - name: SCL11.13c
   - !!omap
     - id: SCO1558
-    - name: SCO1558
+    - name: SCL11.14c
   - !!omap
     - id: SCO1559
-    - name: SCO1559
+    - name: SCL11.15c
   - !!omap
     - id: SCO1565
-    - name: SCO1565
+    - name: SCL11.21c, SCL24.01c
   - !!omap
     - id: SCO1566
-    - name: SCO1566
+    - name: SCL24.02
   - !!omap
     - id: SCO1570
-    - name: SCO1570
+    - name: argH, SCL24.06c
   - !!omap
     - id: SCO1577
-    - name: SCO1577
+    - name: argD
   - !!omap
     - id: SCO1578
-    - name: SCO1578
+    - name: argB, SCL24.14c
   - !!omap
     - id: SCO1579
-    - name: SCO1579
+    - name: argJ
   - !!omap
     - id: SCO1580
-    - name: SCO1580
+    - name: argC
   - !!omap
     - id: SCO1591
-    - name: SCO1591
+    - name: SCI35.13
   - !!omap
     - id: SCO1594
-    - name: SCO1594
+    - name: pheT
   - !!omap
     - id: SCO1595
-    - name: SCO1595
+    - name: pheS
   - !!omap
     - id: SCO1612
-    - name: SCO1612
+    - name: SCI35.34c
   - !!omap
     - id: SCO1613
     - name: SCO1613
   - !!omap
     - id: SCO1620
-    - name: SCO1620
+    - name: opuABC, SCI41.03c
   - !!omap
     - id: SCO1621
-    - name: SCO1621
+    - name: opuAA, SCI41.04c
   - !!omap
     - id: SCO1657
-    - name: SCO1657
+    - name: SCI46.02c
   - !!omap
     - id: SCO1659
-    - name: SCO1659
+    - name: glpF, SCI52.01
   - !!omap
     - id: SCO1660
-    - name: SCO1660
+    - name: glpK, SCI52.02
   - !!omap
     - id: SCO1661
-    - name: SCO1661
+    - name: SCI52.03
   - !!omap
     - id: SCO1663
-    - name: SCO1663
+    - name: cysS
   - !!omap
     - id: SCO1667
-    - name: SCO1667
+    - name: SCI52.09
   - !!omap
     - id: SCO1679
-    - name: SCO1679
+    - name: SCI52.21
   - !!omap
     - id: SCO1680
-    - name: SCO1680
+    - name: SCI30A.01, SCI52.22
   - !!omap
     - id: SCO1681
-    - name: SCO1681
+    - name: SCI30A.02
   - !!omap
     - id: SCO1682
-    - name: SCO1682
+    - name: SCI30A.03
   - !!omap
     - id: SCO1690
-    - name: SCO1690
+    - name: SCI30A.11
   - !!omap
     - id: SCO1705
     - name: SCO1705
   - !!omap
     - id: SCO1706
-    - name: SCO1706
+    - name: SCI30A.27c
   - !!omap
     - id: SCO1715
-    - name: SCO1715
+    - name: hgd, SCI11.04
   - !!omap
     - id: SCO1750
-    - name: SCO1750
+    - name: 2SCI34.03c
   - !!omap
     - id: SCO1759
-    - name: SCO1759
+    - name: 2SCI34.12c
   - !!omap
     - id: SCO1760
-    - name: SCO1760
+    - name: cmk
   - !!omap
     - id: SCO1761
-    - name: SCO1761
+    - name: 2SCI34.14c, SCI51.01c
   - !!omap
     - id: SCO1762
-    - name: SCO1762
+    - name: SCI51.02c
   - !!omap
     - id: SCO1773
-    - name: SCO1773
+    - name: SCI51.13c
   - !!omap
     - id: SCO1775
-    - name: SCO1775
+    - name: SCI51.15c
   - !!omap
     - id: SCO1776
-    - name: SCO1776
+    - name: pyrG
   - !!omap
     - id: SCO1781
-    - name: SCO1781
+    - name: ppnK
   - !!omap
     - id: SCO1808
-    - name: SCO1808
+    - name: SCI28.02
   - !!omap
     - id: SCO1814
-    - name: SCO1814
+    - name: inhA, SCI28.08c
   - !!omap
     - id: SCO1815
-    - name: SCO1815
+    - name: fabG, SCI28.09c
   - !!omap
     - id: SCO1818
-    - name: SCO1818
+    - name: tyrS
   - !!omap
     - id: SCO1821
-    - name: SCO1821
+    - name: moaA
   - !!omap
     - id: SCO1822
-    - name: SCO1822
+    - name: SCI8.07c
   - !!omap
     - id: SCO1831
-    - name: SCO1831
+    - name: SCI8.16
   - !!omap
     - id: SCO1845
-    - name: SCO1845
+    - name: SCI8.30
   - !!omap
     - id: SCO1847
-    - name: SCO1847
+    - name: cobD
   - !!omap
     - id: SCO1848
-    - name: SCO1848
+    - name: cobQ
   - !!omap
     - id: SCO1849
-    - name: SCO1849
+    - name: cobN
   - !!omap
     - id: SCO1851
-    - name: SCO1851
+    - name: cobO
   - !!omap
     - id: SCO1852
-    - name: SCO1852
+    - name: cobB
   - !!omap
     - id: SCO1853
-    - name: SCO1853
+    - name: cobI
   - !!omap
     - id: SCO1855
-    - name: SCO1855
+    - name: SCI39.02
   - !!omap
     - id: SCO1856
-    - name: SCO1856
+    - name: SCI39.03
   - !!omap
     - id: SCO1857
-    - name: SCO1857
+    - name: SCI39.04
   - !!omap
     - id: SCO1858
-    - name: SCO1858
+    - name: SCI39.05
   - !!omap
     - id: SCO1859
-    - name: SCO1859
+    - name: SCI39.06
   - !!omap
     - id: SCO1864
-    - name: SCO1864
+    - name: SCI39.11
   - !!omap
     - id: SCO1865
-    - name: SCO1865
+    - name: SCI39.12
   - !!omap
     - id: SCO1866
-    - name: SCO1866
+    - name: ectC
   - !!omap
     - id: SCO1867
-    - name: SCO1867
+    - name: SCI39.14
   - !!omap
     - id: SCO1882
-    - name: SCO1882
+    - name: SCI39.29c
   - !!omap
     - id: SCO1886
-    - name: SCO1886
+    - name: SCI7.04c
   - !!omap
     - id: SCO1887
-    - name: SCO1887
+    - name: SCI7.05c
   - !!omap
     - id: SCO1888
-    - name: SCO1888
+    - name: SCI7.06c
   - !!omap
     - id: SCO1889
-    - name: SCO1889
+    - name: SCI7.07c
   - !!omap
     - id: SCO1895
-    - name: SCO1895
+    - name: SCI7.13c
   - !!omap
     - id: SCO1898
-    - name: SCO1898
+    - name: SCI7.16
   - !!omap
     - id: SCO1899
-    - name: SCO1899
+    - name: SCI7.17
   - !!omap
     - id: SCO1900
-    - name: SCO1900
+    - name: SCI7.18
   - !!omap
     - id: SCO1912
-    - name: SCO1912
+    - name: SCI7.30
   - !!omap
     - id: SCO1916
-    - name: SCO1916
+    - name: SCI7.34c
   - !!omap
     - id: SCO1918
-    - name: SCO1918
+    - name: SCI7.36c
   - !!omap
     - id: SCO1921
-    - name: SCO1921
+    - name: SCC22.03c
   - !!omap
     - id: SCO1922
-    - name: SCO1922
+    - name: SCC22.04c
   - !!omap
     - id: SCO1924
-    - name: SCO1924
+    - name: SCC22.06c
   - !!omap
     - id: SCO1925
-    - name: SCO1925
+    - name: SCC22.07c
   - !!omap
     - id: SCO1930
-    - name: SCO1930
+    - name: SCC22.12
   - !!omap
     - id: SCO1934
-    - name: SCO1934
+    - name: SCC22.16c
   - !!omap
     - id: SCO1935
-    - name: SCO1935
+    - name: SCC22.17, tktA1
   - !!omap
     - id: SCO1936
-    - name: SCO1936
+    - name: SCC22.18, tal2
   - !!omap
     - id: SCO1937
-    - name: SCO1937
+    - name: SCC22.19, zwf2
   - !!omap
     - id: SCO1939
-    - name: SCO1939
+    - name: SCC22.21
   - !!omap
     - id: SCO1942
-    - name: SCO1942
+    - name: pgi
   - !!omap
     - id: SCO1945
-    - name: SCO1945
+    - name: tpiA
   - !!omap
     - id: SCO1946
-    - name: SCO1946
+    - name: pgk
   - !!omap
     - id: SCO1947
-    - name: SCO1947
+    - name: gap1, SCC54.07c
   - !!omap
     - id: SCO1948
-    - name: SCO1948
+    - name: SCC54.08c
   - !!omap
     - id: SCO1957
-    - name: SCO1957
+    - name: SCC54.17
   - !!omap
     - id: SCO1961
-    - name: SCO1961
+    - name: aroQ, SCC54.21c
   - !!omap
     - id: SCO1962
-    - name: SCO1962
+    - name: SCC54.22c
   - !!omap
     - id: SCO1968
-    - name: SCO1968
+    - name: SC3C9.03
   - !!omap
     - id: SCO1977
-    - name: SCO1977
+    - name: SC3C9.12
   - !!omap
     - id: SCO1996
-    - name: SCO1996
+    - name: coaE, SC7H2.10c
   - !!omap
     - id: SCO2008
-    - name: SCO2008
+    - name: SC7H2.22
   - !!omap
     - id: SCO2009
-    - name: SCO2009
+    - name: SC7H2.23
   - !!omap
     - id: SCO2010
-    - name: SCO2010
+    - name: SC7H2.24
   - !!omap
     - id: SCO2011
-    - name: SCO2011
+    - name: SC7H2.25
   - !!omap
     - id: SCO2012
-    - name: SCO2012
+    - name: SC7H2.26
   - !!omap
     - id: SCO2014
-    - name: SCO2014
+    - name: pyk1, SC7H2.28c
   - !!omap
     - id: SCO2015
-    - name: SCO2015
+    - name: SC7H2.29
   - !!omap
     - id: SCO2018
-    - name: SCO2018
+    - name: SC7H2.32c
   - !!omap
     - id: SCO2019
-    - name: SCO2019
+    - name: SC7H2.33c
   - !!omap
     - id: SCO2025
-    - name: SCO2025
+    - name: gltD
   - !!omap
     - id: SCO2026
-    - name: SCO2026
+    - name: gltB, SC3A3.04c
   - !!omap
     - id: SCO2033
-    - name: SCO2033
+    - name: SC4G6.02
   - !!omap
     - id: SCO2036
-    - name: SCO2036
+    - name: trpA
   - !!omap
     - id: SCO2037
-    - name: SCO2037
+    - name: SC4G6.06c, trpB
   - !!omap
     - id: SCO2039
-    - name: SCO2039
+    - name: trpC
   - !!omap
     - id: SCO2043
-    - name: SCO2043
+    - name: SC4G6.12c, trpE3
   - !!omap
     - id: SCO2044
-    - name: SCO2044
+    - name: hisI
   - !!omap
     - id: SCO2048
-    - name: SCO2048
+    - name: SC4G6.17c
   - !!omap
     - id: SCO2050
-    - name: SCO2050
+    - name: hisA, SC4G6.19c
   - !!omap
     - id: SCO2051
-    - name: SCO2051
+    - name: hisH
   - !!omap
     - id: SCO2052
-    - name: SCO2052
+    - name: hisB
   - !!omap
     - id: SCO2053
-    - name: SCO2053
+    - name: hisC1, SC4G6.22c
   - !!omap
     - id: SCO2054
-    - name: SCO2054
+    - name: hisD
   - !!omap
     - id: SCO2068
-    - name: SCO2068
+    - name: SC4A10.01, SC4G6.37
   - !!omap
     - id: SCO2076
-    - name: SCO2076
+    - name: ileS
   - !!omap
     - id: SCO2084
-    - name: SCO2084
+    - name: murG
   - !!omap
     - id: SCO2086
-    - name: SCO2086
+    - name: murD
   - !!omap
     - id: SCO2087
-    - name: SCO2087
+    - name: mraY
   - !!omap
     - id: SCO2088
-    - name: SCO2088
+    - name: murF, SC4A10.21c
   - !!omap
     - id: SCO2089
-    - name: SCO2089
+    - name: murE
   - !!omap
     - id: SCO2090
-    - name: SCO2090
+    - name: ftsI, SC4A10.23c
   - !!omap
     - id: SCO2093
-    - name: SCO2093
+    - name: SC4A10.26
   - !!omap
     - id: SCO2103
-    - name: SCO2103
+    - name: metF, SC4A10.36c
   - !!omap
     - id: SCO2104
-    - name: SCO2104
+    - name: thiE
   - !!omap
     - id: SCO2108
-    - name: SCO2108
+    - name: SC6E10.02
   - !!omap
     - id: SCO2109
-    - name: SCO2109
+    - name: thiG
   - !!omap
     - id: SCO2115
-    - name: SCO2115
+    - name: aroH, SC6E10.09c
   - !!omap
     - id: SCO2117
-    - name: SCO2117
+    - name: SC6E10.11, trpE1
   - !!omap
     - id: SCO2118
-    - name: SCO2118
+    - name: dldh2, SCE10.12c
   - !!omap
     - id: SCO2119
-    - name: SCO2119
+    - name: pfkA, SC6E10.13c
   - !!omap
     - id: SCO2122
-    - name: SCO2122
+    - name: SC6E10.16c
   - !!omap
     - id: SCO2126
-    - name: SCO2126
+    - name: glk, SC6E10.20c
   - !!omap
     - id: SCO2131
-    - name: SCO2131
+    - name: SC6G10.04
   - !!omap
     - id: SCO2144
-    - name: SCO2144
+    - name: SC6G10.17
   - !!omap
     - id: SCO2145
-    - name: SCO2145
+    - name: SC6G10.18
   - !!omap
     - id: SCO2147
-    - name: SCO2147
+    - name: trpD
   - !!omap
     - id: SCO2148
-    - name: SCO2148
+    - name: qcrB, SC6G10.21c
   - !!omap
     - id: SCO2149
-    - name: SCO2149
+    - name: qcrA, SC6G10.22c
   - !!omap
     - id: SCO2150
-    - name: SCO2150
+    - name: qcrC, SC6G10.23c
   - !!omap
     - id: SCO2151
-    - name: SCO2151
+    - name: cox3, SC6G10.24c
   - !!omap
     - id: SCO2155
-    - name: SCO2155
+    - name: cox1, SC6G10.28c
   - !!omap
     - id: SCO2156
-    - name: SCO2156
+    - name: cox, SC6G10.29c
   - !!omap
     - id: SCO2157
     - name: SCO2157
   - !!omap
     - id: SCO2158
-    - name: SCO2158
+    - name: SC6G10.31c
   - !!omap
     - id: SCO2162
-    - name: SCO2162
+    - name: SC6G10.35
   - !!omap
     - id: SCO2173
-    - name: SCO2173
+    - name: SC5F7.28
   - !!omap
     - id: SCO2175
-    - name: SCO2175
+    - name: cobT
   - !!omap
     - id: SCO2177
-    - name: SCO2177
+    - name: SC5F7.24
   - !!omap
     - id: SCO2179
     - name: SCO2179
   - !!omap
     - id: SCO2180
-    - name: SCO2180
+    - name: pdhL, SC5F7.21
   - !!omap
     - id: SCO2181
-    - name: SCO2181
+    - name: SC5F7.20, sucB
   - !!omap
     - id: SCO2183
-    - name: SCO2183
+    - name: aceE1, SC5F7.18
   - !!omap
     - id: SCO2193
-    - name: SCO2193
+    - name: lipB
   - !!omap
     - id: SCO2194
-    - name: SCO2194
+    - name: lipA, SC5F7.07
   - !!omap
     - id: SCO2198
-    - name: SCO2198
+    - name: glnA, SC3H12.06
   - !!omap
     - id: SCO2206
-    - name: SCO2206
+    - name: arsC, SC10B7.01, SC3H12.14
   - !!omap
     - id: SCO2210
-    - name: SCO2210
+    - name: glnII, SC10B7.05
   - !!omap
     - id: SCO2226
-    - name: SCO2226
+    - name: SC10B7.21c
   - !!omap
     - id: SCO2228
-    - name: SCO2228
+    - name: aglA, SC10B7.23c
   - !!omap
     - id: SCO2229
-    - name: SCO2229
+    - name: malG, SC10B7.24c
   - !!omap
     - id: SCO2230
-    - name: SCO2230
+    - name: malF, SC10B7.25c
   - !!omap
     - id: SCO2231
-    - name: SCO2231
+    - name: malE, SC10B7.26c
   - !!omap
     - id: SCO2234
-    - name: SCO2234
+    - name: glnE, SC10B7.29c, SCBAC17D6.01c
   - !!omap
     - id: SCO2238
-    - name: SCO2238
+    - name: nadE, SCBAC17D6.05c
   - !!omap
     - id: SCO2241
     - name: SCO2241
   - !!omap
     - id: SCO2256
-    - name: SCO2256
+    - name: panB
   - !!omap
     - id: SCO2272
     - name: SCO2272
@@ -62347,10 +62347,10 @@
     - name: SCO2274
   - !!omap
     - id: SCO2286
-    - name: SCO2286
+    - name: SCC75A.32c
   - !!omap
     - id: SCO2298
-    - name: SCO2298
+    - name: kdgA, SCC30.06
   - !!omap
     - id: SCO2299
     - name: SCO2299
@@ -62359,430 +62359,430 @@
     - name: SCO2328
   - !!omap
     - id: SCO2336
-    - name: SCO2336
+    - name: SCC53.27
   - !!omap
     - id: SCO2371
-    - name: SCO2371
+    - name: aceE
   - !!omap
     - id: SCO2387
-    - name: SCO2387
+    - name: fabD, SC4A7.15
   - !!omap
     - id: SCO2388
-    - name: SCO2388
+    - name: fabH, SC4A7.16
   - !!omap
     - id: SCO2389
-    - name: SCO2389
+    - name: acpP
   - !!omap
     - id: SCO2390
-    - name: SCO2390
+    - name: fabF, SC4A7.18
   - !!omap
     - id: SCO2393
-    - name: SCO2393
+    - name: SC4A7.21
   - !!omap
     - id: SCO2401
-    - name: SCO2401
+    - name: SC4A7.29
   - !!omap
     - id: SCO2407
-    - name: SCO2407
+    - name: SC4A7.35
   - !!omap
     - id: SCO2428
-    - name: SCO2428
+    - name: SCC42.09
   - !!omap
     - id: SCO2444
-    - name: SCO2444
+    - name: SCC24.15
   - !!omap
     - id: SCO2445
-    - name: SCO2445
+    - name: SCC24.16
   - !!omap
     - id: SCO2455
-    - name: SCO2455
+    - name: SCC24.26c
   - !!omap
     - id: SCO2462
-    - name: SCO2462
+    - name: SC7A8.01, SCC24.33
   - !!omap
     - id: SCO2470
-    - name: SCO2470
+    - name: SC7A8.09c
   - !!omap
     - id: SCO2473
-    - name: SCO2473
+    - name: SC7A8.12
   - !!omap
     - id: SCO2487
-    - name: SCO2487
+    - name: nirB, SC7A8.26
   - !!omap
     - id: SCO2488
-    - name: SCO2488
+    - name: nirC, SC7A8.27
   - !!omap
     - id: SCO2494
-    - name: SCO2494
+    - name: SC7A8.33c
   - !!omap
     - id: SCO2499
-    - name: SCO2499
+    - name: SCC121.02c
   - !!omap
     - id: SCO2504
-    - name: SCO2504
+    - name: glyS, SCC121.07c
   - !!omap
     - id: SCO2505
-    - name: SCO2505
+    - name: SCC121.08
   - !!omap
     - id: SCO2506
-    - name: SCO2506
+    - name: SCC121.09
   - !!omap
     - id: SCO2507
-    - name: SCO2507
+    - name: SCC121.10
   - !!omap
     - id: SCO2509
-    - name: SCO2509
+    - name: SCC121.12c, uppS
   - !!omap
     - id: SCO2528
-    - name: SCO2528
+    - name: leuA, SCC121.31c
   - !!omap
     - id: SCO2529
-    - name: SCO2529
+    - name: SCC117.02
   - !!omap
     - id: SCO2531
-    - name: SCO2531
+    - name: SCC117.04
   - !!omap
     - id: SCO2541
-    - name: SCO2541
+    - name: SCC77.08c
   - !!omap
     - id: SCO2542
-    - name: SCO2542
+    - name: SCC77.09c
   - !!omap
     - id: SCO2543
-    - name: SCO2543
+    - name: SCC77.10c
   - !!omap
     - id: SCO2546
-    - name: SCO2546
+    - name: SCC77.13c
   - !!omap
     - id: SCO2559
-    - name: SCO2559
+    - name: SCC77.26c
   - !!omap
     - id: SCO2561
-    - name: SCO2561
+    - name: SCC77.28c
   - !!omap
     - id: SCO2571
-    - name: SCO2571
+    - name: leuS
   - !!omap
     - id: SCO2576
-    - name: SCO2576
+    - name: pgm2, SCC123.14c
   - !!omap
     - id: SCO2579
-    - name: SCO2579
+    - name: nadD
   - !!omap
     - id: SCO2585
-    - name: SCO2585
+    - name: proA
   - !!omap
     - id: SCO2587
-    - name: SCO2587
+    - name: proB
   - !!omap
     - id: SCO2608
-    - name: SCO2608
+    - name: pbp2, SCC88.19c
   - !!omap
     - id: SCO2612
-    - name: SCO2612
+    - name: ndk
   - !!omap
     - id: SCO2614
-    - name: SCO2614
+    - name: fpgS, SCC88.25c
   - !!omap
     - id: SCO2615
-    - name: SCO2615
+    - name: valS
   - !!omap
     - id: SCO2627
-    - name: SCO2627
+    - name: SC8E4.02c
   - !!omap
     - id: SCO2628
-    - name: SCO2628
+    - name: SC8E4.03
   - !!omap
     - id: SCO2631
-    - name: SCO2631
+    - name: SC8E4A.01
   - !!omap
     - id: SCO2633
-    - name: SCO2633
+    - name: SC8E4A.03, sodF
   - !!omap
     - id: SCO2635
-    - name: SCO2635
+    - name: SC8E4A.05
   - !!omap
     - id: SCO2640
-    - name: SCO2640
+    - name: asd1, SC8E4A.10
   - !!omap
     - id: SCO2643
-    - name: SCO2643
+    - name: pepN, SC8E4A.13
   - !!omap
     - id: SCO2649
-    - name: SCO2649
+    - name: SC8E4A.19c
   - !!omap
     - id: SCO2661
-    - name: SCO2661
+    - name: SC6D10.04
   - !!omap
     - id: SCO2687
-    - name: SCO2687
+    - name: ribA
   - !!omap
     - id: SCO2688
-    - name: SCO2688
+    - name: ribD, SCC61A.09
   - !!omap
     - id: SCO2709
-    - name: SCO2709
+    - name: SCC61A.30
   - !!omap
     - id: SCO2720
-    - name: SCO2720
+    - name: SCC46.05c
   - !!omap
     - id: SCO2726
-    - name: SCO2726
+    - name: msdA, SCC46.11c
   - !!omap
     - id: SCO2731
-    - name: SCO2731
+    - name: SCC57A.02
   - !!omap
     - id: SCO2736
-    - name: SCO2736
+    - name: gltA
   - !!omap
     - id: SCO2746
-    - name: SCO2746
+    - name: SCC57A.17
   - !!omap
     - id: SCO2747
-    - name: SCO2747
+    - name: SCC57A.18
   - !!omap
     - id: SCO2748
-    - name: SCO2748
+    - name: SCC57A.19
   - !!omap
     - id: SCO2749
-    - name: SCO2749
+    - name: SCC57A.20
   - !!omap
     - id: SCO2756
-    - name: SCO2756
+    - name: SCC57A.27c
   - !!omap
     - id: SCO2758
-    - name: SCO2758
+    - name: nagA
   - !!omap
     - id: SCO2769
-    - name: SCO2769
+    - name: SCC57A.40c
   - !!omap
     - id: SCO2770
-    - name: SCO2770
+    - name: SCC105.01c, SCC57A.41c, speB
   - !!omap
     - id: SCO2772
-    - name: SCO2772
+    - name: SCC105.03c
   - !!omap
     - id: SCO2773
-    - name: SCO2773
+    - name: SCC105.04c, tesB2
   - !!omap
     - id: SCO2774
-    - name: SCO2774
+    - name: acdH2, SCC105.05c
   - !!omap
     - id: SCO2776
-    - name: SCO2776
+    - name: accD1, SCC105.07
   - !!omap
     - id: SCO2777
-    - name: SCO2777
+    - name: accC, SCC105.08
   - !!omap
     - id: SCO2778
-    - name: SCO2778
+    - name: hmgL, SCC105.09
   - !!omap
     - id: SCO2779
-    - name: SCO2779
+    - name: acdH, SCC105.10
   - !!omap
     - id: SCO2780
-    - name: SCO2780
+    - name: SCC105.11
   - !!omap
     - id: SCO2786
-    - name: SCO2786
+    - name: hexA, SCC105.17c
   - !!omap
     - id: SCO2789
-    - name: SCO2789
+    - name: glmS2, SCC105.20
   - !!omap
     - id: SCO2795
-    - name: SCO2795
+    - name: 2SCC13.03
   - !!omap
     - id: SCO2796
-    - name: SCO2796
+    - name: 2SCC13.04
   - !!omap
     - id: SCO2797
-    - name: SCO2797
+    - name: 2SCC13.05
   - !!omap
     - id: SCO2798
-    - name: SCO2798
+    - name: 2SCC13.06
   - !!omap
     - id: SCO2823
     - name: SCO2823
   - !!omap
     - id: SCO2828
-    - name: SCO2828
+    - name: SCE20.02
   - !!omap
     - id: SCO2829
-    - name: SCO2829
+    - name: SCE20.03
   - !!omap
     - id: SCO2830
-    - name: SCO2830
+    - name: SCE20.04
   - !!omap
     - id: SCO2831
-    - name: SCO2831
+    - name: SCE20.05
   - !!omap
     - id: SCO2901
-    - name: SCO2901
+    - name: SCE19A.01, SCE6.38
   - !!omap
     - id: SCO2902
-    - name: SCO2902
+    - name: SCE19A.02c
   - !!omap
     - id: SCO2905
-    - name: SCO2905
+    - name: SCE19A.05c
   - !!omap
     - id: SCO2906
-    - name: SCO2906
+    - name: SCE19A.06
   - !!omap
     - id: SCO2907
-    - name: SCO2907
+    - name: SCE19A.07
   - !!omap
     - id: SCO2910
-    - name: SCO2910
+    - name: SCE19A.10c
   - !!omap
     - id: SCO2914
-    - name: SCO2914
+    - name: SCE19A.14c
   - !!omap
     - id: SCO2917
-    - name: SCO2917
+    - name: SCE19A.17
   - !!omap
     - id: SCO2918
-    - name: SCO2918
+    - name: SCE19A.18
   - !!omap
     - id: SCO2925
-    - name: SCO2925
+    - name: SCE19A.25c
   - !!omap
     - id: SCO2927
-    - name: SCO2927
+    - name: SCE19A.27c
   - !!omap
     - id: SCO2930
-    - name: SCO2930
+    - name: SCE19A.30
   - !!omap
     - id: SCO2931
-    - name: SCO2931
+    - name: SCE19A.31
   - !!omap
     - id: SCO2932
-    - name: SCO2932
+    - name: SCE19A.32
   - !!omap
     - id: SCO2933
-    - name: SCO2933
+    - name: SCE19A.33
   - !!omap
     - id: SCO2943
-    - name: SCO2943
+    - name: SCE59.02c
   - !!omap
     - id: SCO2949
-    - name: SCO2949
+    - name: murA, SCE59.08
   - !!omap
     - id: SCO2951
-    - name: SCO2951
+    - name: SCE59.10c
   - !!omap
     - id: SCO2958
-    - name: SCO2958
+    - name: SCE59.17c
   - !!omap
     - id: SCO2959
-    - name: SCO2959
+    - name: SCE59.18c
   - !!omap
     - id: SCO2988
-    - name: SCO2988
+    - name: galE2, SCE50.16
   - !!omap
     - id: SCO2999
-    - name: SCO2999
+    - name: SCE33.01c, SCE99.06c
   - !!omap
     - id: SCO3014
-    - name: SCO3014
+    - name: SCE33.16c
   - !!omap
     - id: SCO3023
-    - name: SCO3023
+    - name: sahH, SCE34.04c
   - !!omap
     - id: SCO3025
-    - name: SCO3025
+    - name: manA, SCE34.06c
   - !!omap
     - id: SCO3028
-    - name: SCO3028
+    - name: manB
   - !!omap
     - id: SCO3029
-    - name: SCO3029
+    - name: SCE34.10c
   - !!omap
     - id: SCO3036
-    - name: SCO3036
+    - name: SCE34.17
   - !!omap
     - id: SCO3037
-    - name: SCO3037
+    - name: SCE34.18
   - !!omap
     - id: SCO3039
-    - name: SCO3039
+    - name: SCE34.20c
   - !!omap
     - id: SCO3052
-    - name: SCO3052
+    - name: SCBAC19G2.07
   - !!omap
     - id: SCO3059
-    - name: SCO3059
+    - name: purE, SCBAC19G2.14c
   - !!omap
     - id: SCO3060
-    - name: SCO3060
+    - name: purK, SCBAC19G2.15c, SCE25.01c
   - !!omap
     - id: SCO3064
-    - name: SCO3064
+    - name: SCE25.05
   - !!omap
     - id: SCO3070
-    - name: SCO3070
+    - name: SCE25.11c
   - !!omap
     - id: SCO3072
-    - name: SCO3072
+    - name: SCE25.13c
   - !!omap
     - id: SCO3073
-    - name: SCO3073
+    - name: hutU, SCE25.14c
   - !!omap
     - id: SCO3077
-    - name: SCO3077
+    - name: SCE25.18c
   - !!omap
     - id: SCO3079
-    - name: SCO3079
+    - name: SCE25.20
   - !!omap
     - id: SCO3092
-    - name: SCO3092
+    - name: SCE25.33c, SCE41.01c
   - !!omap
     - id: SCO3093
-    - name: SCO3093
+    - name: SCE41.02c
   - !!omap
     - id: SCO3096
-    - name: SCO3096
+    - name: eno
   - !!omap
     - id: SCO3100
-    - name: SCO3100
+    - name: SCE41.09c
   - !!omap
     - id: SCO3122
-    - name: SCO3122
+    - name: glmU
   - !!omap
     - id: SCO3123
-    - name: SCO3123
+    - name: prsA2, SCE66.02
   - !!omap
     - id: SCO3127
-    - name: SCO3127
+    - name: ppc, SCE66.06c
   - !!omap
     - id: SCO3132
-    - name: SCO3132
+    - name: SCE66.11c
   - !!omap
     - id: SCO3136
-    - name: SCO3136
+    - name: galK, SCE66.15c
   - !!omap
     - id: SCO3137
-    - name: SCO3137
+    - name: galE1, SCE66.16c
   - !!omap
     - id: SCO3138
-    - name: SCO3138
+    - name: galT, SCE66.17c
   - !!omap
     - id: SCO3139
-    - name: SCO3139
+    - name: SCE66.18
   - !!omap
     - id: SCO3148
-    - name: SCO3148
+    - name: SCE66.27c
   - !!omap
     - id: SCO3179
-    - name: SCO3179
+    - name: moaB
   - !!omap
     - id: SCO3180
-    - name: SCO3180
+    - name: moaC
   - !!omap
     - id: SCO3181
-    - name: SCO3181
+    - name: moeA
   - !!omap
     - id: SCO3182
-    - name: SCO3182
+    - name: gtaB
   - !!omap
     - id: SCO3183
     - name: SCO3183
@@ -62791,223 +62791,223 @@
     - name: SCO3184
   - !!omap
     - id: SCO3185
-    - name: SCO3185
+    - name: cvrA, nhaP2, ycgO
   - !!omap
     - id: SCO3188
-    - name: SCO3188
+    - name: SCE22.05
   - !!omap
     - id: SCO3196
-    - name: SCO3196
+    - name: SCE22.13c
   - !!omap
     - id: SCO3197
-    - name: SCO3197
+    - name: SCE22.14c
   - !!omap
     - id: SCO3210
-    - name: SCO3210
+    - name: SCE8.03c
   - !!omap
     - id: SCO3211
-    - name: SCO3211
+    - name: SCE8.04c, trpC2
   - !!omap
     - id: SCO3212
-    - name: SCO3212
+    - name: SCE8.05c, trpD2
   - !!omap
     - id: SCO3213
-    - name: SCO3213
+    - name: SCE8.06c, trpG
   - !!omap
     - id: SCO3214
-    - name: SCO3214
+    - name: SCE8.07c, trpE2
   - !!omap
     - id: SCO3215
-    - name: SCO3215
+    - name: SCE8.08c
   - !!omap
     - id: SCO3221
-    - name: SCO3221
+    - name: SCE8.14c
   - !!omap
     - id: SCO3223
-    - name: SCO3223
+    - name: SCE8.16c
   - !!omap
     - id: SCO3224
-    - name: SCO3224
+    - name: SCE8.17c
   - !!omap
     - id: SCO3227
-    - name: SCO3227
+    - name: SCE63.06, SCE8.20c
   - !!omap
     - id: SCO3228
-    - name: SCO3228
+    - name: SCE63.05
   - !!omap
     - id: SCO3229
-    - name: SCO3229
+    - name: SCE63.04
   - !!omap
     - id: SCO3230
-    - name: SCO3230
+    - name: cdaPSI, SCE63.03c
   - !!omap
     - id: SCO3231
-    - name: SCO3231
+    - name: cdaPS2, SCE63.02c
   - !!omap
     - id: SCO3232
-    - name: SCO3232
+    - name: cdaPS3, SCE29.01, SCE63.01
   - !!omap
     - id: SCO3234
-    - name: SCO3234
+    - name: SCE29.03
   - !!omap
     - id: SCO3235
-    - name: SCO3235
+    - name: SCE29.04c
   - !!omap
     - id: SCO3236
-    - name: SCO3236
+    - name: SCE29.05c
   - !!omap
     - id: SCO3243
-    - name: SCO3243
+    - name: SCE29.12c
   - !!omap
     - id: SCO3245
-    - name: SCO3245
+    - name: SCE29.14c
   - !!omap
     - id: SCO3246
-    - name: SCO3246
+    - name: fabH4, SCE29.15c
   - !!omap
     - id: SCO3247
-    - name: SCO3247
+    - name: SCE29.16c
   - !!omap
     - id: SCO3248
-    - name: SCO3248
+    - name: fabF3, SCE29.17c
   - !!omap
     - id: SCO3249
-    - name: SCO3249
+    - name: SCE29.18c
   - !!omap
     - id: SCO3276
-    - name: SCO3276
+    - name: SCE39.26
   - !!omap
     - id: SCO3282
-    - name: SCO3282
+    - name: cobH
   - !!omap
     - id: SCO3283
-    - name: SCO3283
+    - name: cbiJ, cobK
   - !!omap
     - id: SCO3295
-    - name: SCO3295
+    - name: SCE15.12c
   - !!omap
     - id: SCO3303
-    - name: SCO3303
+    - name: lysK
   - !!omap
     - id: SCO3304
-    - name: SCO3304
+    - name: argS
   - !!omap
     - id: SCO3311
-    - name: SCO3311
+    - name: hemB, SCE68.09c
   - !!omap
     - id: SCO3317
-    - name: SCO3317
+    - name: SCE68.15c
   - !!omap
     - id: SCO3318
-    - name: SCO3318
+    - name: hemC
   - !!omap
     - id: SCO3319
-    - name: SCO3319
+    - name: hemA
   - !!omap
     - id: SCO3326
-    - name: SCO3326
+    - name: SCE68.24c
   - !!omap
     - id: SCO3334
-    - name: SCO3334
+    - name: SCE68.32, SCE7.01, trpS
   - !!omap
     - id: SCO3337
-    - name: SCO3337
+    - name: proC, SCE7.04c
   - !!omap
     - id: SCO3345
-    - name: SCO3345
+    - name: SCE7.12c
   - !!omap
     - id: SCO3348
-    - name: SCO3348
+    - name: SCE7.15c
   - !!omap
     - id: SCO3362
-    - name: SCO3362
+    - name: SCE94.13
   - !!omap
     - id: SCO3376
-    - name: SCO3376
+    - name: SCE94.27c
   - !!omap
     - id: SCO3380
-    - name: SCO3380
+    - name: SCE94.31c
   - !!omap
     - id: SCO3381
-    - name: SCO3381
+    - name: nadC, SCE94.32c
   - !!omap
     - id: SCO3382
-    - name: SCO3382
+    - name: nadB, SCE94.33c
   - !!omap
     - id: SCO3383
-    - name: SCO3383
+    - name: panC
   - !!omap
     - id: SCO3392
-    - name: SCO3392
+    - name: nuoD2, SCE126.10
   - !!omap
     - id: SCO3397
-    - name: SCO3397
+    - name: SCE9.04
   - !!omap
     - id: SCO3398
-    - name: SCO3398
+    - name: folP, SCE9.05
   - !!omap
     - id: SCO3400
-    - name: SCO3400
+    - name: folB, SCE9.07
   - !!omap
     - id: SCO3401
-    - name: SCO3401
+    - name: folK, SCE9.08
   - !!omap
     - id: SCO3403
-    - name: SCO3403
+    - name: folE
   - !!omap
     - id: SCO3405
-    - name: SCO3405
+    - name: hprT, SCE9.12c
   - !!omap
     - id: SCO3408
-    - name: SCO3408
+    - name: SCE9.15c
   - !!omap
     - id: SCO3409
-    - name: SCO3409
+    - name: ppa, SCE9.16
   - !!omap
     - id: SCO3416
-    - name: SCO3416
+    - name: gad, SCE9.23
   - !!omap
     - id: SCO3420
-    - name: SCO3420
+    - name: SCE9.27c
   - !!omap
     - id: SCO3436
-    - name: SCO3436
+    - name: SCE36.03
   - !!omap
     - id: SCO3439
-    - name: SCO3439
+    - name: SCE36.06
   - !!omap
     - id: SCO3440
-    - name: SCO3440
+    - name: SCE36.07
   - !!omap
     - id: SCO3463
     - name: SCO3463
   - !!omap
     - id: SCO3473
-    - name: SCO3473
+    - name: SCE65.09c
   - !!omap
     - id: SCO3474
-    - name: SCO3474
+    - name: SCE65.10c
   - !!omap
     - id: SCO3475
-    - name: SCO3475
+    - name: SCE65.11c
   - !!omap
     - id: SCO3476
-    - name: SCO3476
+    - name: SCE65.12c
   - !!omap
     - id: SCO3478
     - name: SCO3478
   - !!omap
     - id: SCO3479
-    - name: SCO3479
+    - name: SCE65.15c
   - !!omap
     - id: SCO3486
-    - name: SCO3486
+    - name: SCE65.22
   - !!omap
     - id: SCO3494
-    - name: SCO3494
+    - name: SCE65.30c
   - !!omap
     - id: SCO3495
-    - name: SCO3495
+    - name: SCE65.31c
   - !!omap
     - id: SCO3502
     - name: SCO3502
@@ -63016,823 +63016,823 @@
     - name: SCO3542
   - !!omap
     - id: SCO3547
-    - name: SCO3547
+    - name: hppA
   - !!omap
     - id: SCO3562
-    - name: SCO3562
+    - name: SCH5.25
   - !!omap
     - id: SCO3563
-    - name: SCO3563
+    - name: acsA, SCH5.26
   - !!omap
     - id: SCO3564
-    - name: SCO3564
+    - name: nhaA
   - !!omap
     - id: SCO3577
-    - name: SCO3577
+    - name: SCH17.11
   - !!omap
     - id: SCO3578
-    - name: SCO3578
+    - name: SCH17.12
   - !!omap
     - id: SCO3594
-    - name: SCO3594
+    - name: dldh, SC66T3.05
   - !!omap
     - id: SCO3595
-    - name: SCO3595
+    - name: vanB
   - !!omap
     - id: SCO3596
-    - name: SCO3596
+    - name: SC66T3.07
   - !!omap
     - id: SCO3603
-    - name: SCO3603
+    - name: cvrA, nhaP2, ycgO
   - !!omap
     - id: SCO3614
-    - name: SCO3614
+    - name: asd2, SC66T3.25c
   - !!omap
     - id: SCO3615
-    - name: SCO3615
+    - name: ask, SC66T3.26c
   - !!omap
     - id: SCO3622
-    - name: SCO3622
+    - name: SC66T3.33
   - !!omap
     - id: SCO3629
-    - name: SCO3629
+    - name: purA, SCH10.07c
   - !!omap
     - id: SCO3644
-    - name: SCO3644
+    - name: SCH10.22c
   - !!omap
     - id: SCO3645
-    - name: SCO3645
+    - name: SCH10.23c
   - !!omap
     - id: SCO3646
-    - name: SCO3646
+    - name: SCH10.24c
   - !!omap
     - id: SCO3649
-    - name: SCO3649
+    - name: fba, SCH10.27c
   - !!omap
     - id: SCO3650
-    - name: SCO3650
+    - name: pyrE
   - !!omap
     - id: SCO3655
-    - name: SCO3655
+    - name: SCH10.33c
   - !!omap
     - id: SCO3658
-    - name: SCO3658
+    - name: SCH10.36
   - !!omap
     - id: SCO3678
-    - name: SCO3678
+    - name: dcd
   - !!omap
     - id: SCO3691
     - name: SCO3691
   - !!omap
     - id: SCO3704
-    - name: SCO3704
+    - name: SCH35.20c
   - !!omap
     - id: SCO3705
-    - name: SCO3705
+    - name: SCH35.19c
   - !!omap
     - id: SCO3706
-    - name: SCO3706
+    - name: SCH35.18c
   - !!omap
     - id: SCO3716
-    - name: SCO3716
+    - name: SCH35.08
   - !!omap
     - id: SCO3717
-    - name: SCO3717
+    - name: SCH35.07
   - !!omap
     - id: SCO3718
-    - name: SCO3718
+    - name: SCH35.06
   - !!omap
     - id: SCO3721
-    - name: SCO3721
+    - name: SCH35.03
   - !!omap
     - id: SCO3739
-    - name: SCO3739
+    - name: SCH22A.17
   - !!omap
     - id: SCO3778
-    - name: SCO3778
+    - name: SCH63.25
   - !!omap
     - id: SCO3779
-    - name: SCO3779
+    - name: SCH63.26
   - !!omap
     - id: SCO3780
-    - name: SCO3780
+    - name: SCH63.27
   - !!omap
     - id: SCO3792
-    - name: SCO3792
+    - name: SCH63.39
   - !!omap
     - id: SCO3795
-    - name: SCO3795
+    - name: aspS
   - !!omap
     - id: SCO3811
-    - name: SCO3811
+    - name: dacA, SCGD3.12
   - !!omap
     - id: SCO3815
-    - name: SCO3815
+    - name: bkdC1, SCGD3.16c
   - !!omap
     - id: SCO3816
-    - name: SCO3816
+    - name: bkdB1, SCGD3.17c
   - !!omap
     - id: SCO3817
-    - name: SCO3817
+    - name: bkdA1, SCGD3.18c
   - !!omap
     - id: SCO3826
-    - name: SCO3826
+    - name: SCGD3.27c
   - !!omap
     - id: SCO3827
-    - name: SCO3827
+    - name: SCGD3.28c
   - !!omap
     - id: SCO3828
-    - name: SCO3828
+    - name: SCGD3.29c
   - !!omap
     - id: SCO3829
-    - name: SCO3829
+    - name: bkdC2, SCGD3.30c
   - !!omap
     - id: SCO3830
-    - name: SCO3830
+    - name: bkdB2, SCGD3.31c
   - !!omap
     - id: SCO3831
-    - name: SCO3831
+    - name: bkdA2, SCGD3.32c, SCH69.01c
   - !!omap
     - id: SCO3834
-    - name: SCO3834
+    - name: SCH69.04c
   - !!omap
     - id: SCO3847
-    - name: SCO3847
+    - name: SCH69.17
   - !!omap
     - id: SCO3851
-    - name: SCO3851
+    - name: SCH69.21c
   - !!omap
     - id: SCO3871
-    - name: SCO3871
+    - name: SCH18.08
   - !!omap
     - id: SCO3877
-    - name: SCO3877
+    - name: SCH18.14c
   - !!omap
     - id: SCO3889
-    - name: SCO3889
+    - name: SCH24.11c, trxA
   - !!omap
     - id: SCO3890
-    - name: SCO3890
+    - name: SCH24.12c, trxB
   - !!omap
     - id: SCO3894
-    - name: SCO3894
+    - name: SCH24.16c
   - !!omap
     - id: SCO3899
-    - name: SCO3899
+    - name: SCH24.21c
   - !!omap
     - id: SCO3920
-    - name: SCO3920
+    - name: cysA, SCQ11.03c
   - !!omap
     - id: SCO3928
-    - name: SCO3928
+    - name: SCQ11.11, thiC
   - !!omap
     - id: SCO3944
-    - name: SCO3944
+    - name: hisC2, SCD78.11
   - !!omap
     - id: SCO3945
-    - name: SCO3945
+    - name: cydA, SCD78.12
   - !!omap
     - id: SCO3946
-    - name: SCO3946
+    - name: cydB, SCD78.13
   - !!omap
     - id: SCO3947
-    - name: SCO3947
+    - name: cydCD, SCD78.14
   - !!omap
     - id: SCO3961
-    - name: SCO3961
+    - name: SCD78.28c, serS
   - !!omap
     - id: SCO3962
-    - name: SCO3962
+    - name: pheA, SCD78.29c
   - !!omap
     - id: SCO3976
-    - name: SCO3976
+    - name: SCBAC25E3.13c
   - !!omap
     - id: SCO4006
-    - name: SCO4006
+    - name: 2SC10A7.10
   - !!omap
     - id: SCO4041
-    - name: SCO4041
+    - name: upp
   - !!omap
     - id: SCO4049
     - name: SCO4049
   - !!omap
     - id: SCO4055
-    - name: SCO4055
+    - name: 2SCD60.21c
   - !!omap
     - id: SCO4057
-    - name: SCO4057
+    - name: 2SCD60.23c
   - !!omap
     - id: SCO4068
-    - name: SCO4068
+    - name: purD, SCD25.04
   - !!omap
     - id: SCO4071
-    - name: SCO4071
+    - name: hemH
   - !!omap
     - id: SCO4077
-    - name: SCO4077
+    - name: SCD25.13
   - !!omap
     - id: SCO4078
-    - name: SCO4078
+    - name: purQ, SCD25.14
   - !!omap
     - id: SCO4079
-    - name: SCO4079
+    - name: purL, SCD25.15
   - !!omap
     - id: SCO4086
-    - name: SCO4086
+    - name: purF, SCD25.22
   - !!omap
     - id: SCO4087
-    - name: SCO4087
+    - name: purM, SCD25.23
   - !!omap
     - id: SCO4089
-    - name: SCO4089
+    - name: SCD25.25c, vdh
   - !!omap
     - id: SCO4106
-    - name: SCO4106
+    - name: SCD17.10
   - !!omap
     - id: SCO4119
-    - name: SCO4119
+    - name: SCD72A.05
   - !!omap
     - id: SCO4133
     - name: SCO4133
   - !!omap
     - id: SCO4138
-    - name: SCO4138
+    - name: pitH, SCD84.05
   - !!omap
     - id: SCO4139
-    - name: SCO4139
+    - name: pstB, SCD84.06c
   - !!omap
     - id: SCO4140
-    - name: SCO4140
+    - name: pstA, SCD84.07c
   - !!omap
     - id: SCO4141
-    - name: SCO4141
+    - name: pstC, SCD84.08c
   - !!omap
     - id: SCO4142
-    - name: SCO4142
+    - name: pstS, SCD84.09c
   - !!omap
     - id: SCO4145
-    - name: SCO4145
+    - name: ppk, SCD84.12c
   - !!omap
     - id: SCO4151
-    - name: SCO4151
+    - name: SCD84.18c
   - !!omap
     - id: SCO4152
-    - name: SCO4152
+    - name: SCD84.19
   - !!omap
     - id: SCO4164
     - name: SCO4164
   - !!omap
     - id: SCO4204
-    - name: SCO4204
+    - name: 2SCD46.18
   - !!omap
     - id: SCO4209
-    - name: SCO4209
+    - name: gpmA
   - !!omap
     - id: SCO4233
-    - name: SCO4233
+    - name: ispD
   - !!omap
     - id: SCO4234
-    - name: SCO4234
+    - name: ispF
   - !!omap
     - id: SCO4235
-    - name: SCO4235
+    - name: cysS
   - !!omap
     - id: SCO4240
-    - name: SCO4240
+    - name: msiK, SCD8A.13c
   - !!omap
     - id: SCO4271
-    - name: SCO4271
+    - name: SCD95A.04
   - !!omap
     - id: SCO4283
     - name: SCO4283
   - !!omap
     - id: SCO4284
-    - name: SCO4284
+    - name: SCD95A.17c
   - !!omap
     - id: SCO4285
-    - name: SCO4285
+    - name: SCD95A.18c
   - !!omap
     - id: SCO4288
-    - name: SCO4288
+    - name: SCD95A.21
   - !!omap
     - id: SCO4290
-    - name: SCO4290
+    - name: SCD95A.23c
   - !!omap
     - id: SCO4293
-    - name: SCO4293
+    - name: SCD95A.26
   - !!omap
     - id: SCO4307
-    - name: SCO4307
+    - name: murQ
   - !!omap
     - id: SCO4326
-    - name: SCO4326
+    - name: SCD12A.09c
   - !!omap
     - id: SCO4327
-    - name: SCO4327
+    - name: SCD12A.10c
   - !!omap
     - id: SCO4334
-    - name: SCO4334
+    - name: SCD12A.17
   - !!omap
     - id: SCO4366
-    - name: SCO4366
+    - name: SCD19.21c
   - !!omap
     - id: SCO4374
-    - name: SCO4374
+    - name: SCD10.06
   - !!omap
     - id: SCO4380
-    - name: SCO4380
+    - name: SCD10.12
   - !!omap
     - id: SCO4381
-    - name: SCO4381
+    - name: SCD10.13
   - !!omap
     - id: SCO4384
-    - name: SCO4384
+    - name: SCD10.16
   - !!omap
     - id: SCO4387
-    - name: SCO4387
+    - name: SCD10.19c
   - !!omap
     - id: SCO4388
-    - name: SCO4388
+    - name: SCD10.20
   - !!omap
     - id: SCO4403
-    - name: SCO4403
+    - name: purU
   - !!omap
     - id: SCO4418
-    - name: SCO4418
+    - name: SC6F11.16c
   - !!omap
     - id: SCO4429
-    - name: SCO4429
+    - name: fbiC
   - !!omap
     - id: SCO4439
-    - name: SCO4439
+    - name: SCD6.17c
   - !!omap
     - id: SCO4444
-    - name: SCO4444
+    - name: SCD6.22c
   - !!omap
     - id: SCO4469
-    - name: SCO4469
+    - name: hemL, SCD65.12
   - !!omap
     - id: SCO4498
-    - name: SCO4498
+    - name: SCD35.05
   - !!omap
     - id: SCO4501
-    - name: SCO4501
+    - name: fabG
   - !!omap
     - id: SCO4502
-    - name: SCO4502
+    - name: SCD35.09
   - !!omap
     - id: SCO4503
     - name: SCO4503
   - !!omap
     - id: SCO4506
-    - name: SCO4506
+    - name: SCD35.13
   - !!omap
     - id: SCO4515
     - name: SCO4515
   - !!omap
     - id: SCO4550
-    - name: SCO4550
+    - name: SCD16A.33c
   - !!omap
     - id: SCO4556
-    - name: SCO4556
+    - name: ubiE
   - !!omap
     - id: SCO4562
-    - name: SCO4562
+    - name: nuoA, SCD16A.21c
   - !!omap
     - id: SCO4563
-    - name: SCO4563
+    - name: nuoB, SCD16A.20c
   - !!omap
     - id: SCO4564
-    - name: SCO4564
+    - name: nuoC, SCD16A.19c
   - !!omap
     - id: SCO4565
-    - name: SCO4565
+    - name: nuoD, SCD16A.18c
   - !!omap
     - id: SCO4566
-    - name: SCO4566
+    - name: nuoE, SCD16A.17c
   - !!omap
     - id: SCO4567
-    - name: SCO4567
+    - name: nuoF, SCD16A.16c
   - !!omap
     - id: SCO4568
-    - name: SCO4568
+    - name: nuoG, SCD16A.15c
   - !!omap
     - id: SCO4569
-    - name: SCO4569
+    - name: nuoH, SCD16A.14c
   - !!omap
     - id: SCO4570
-    - name: SCO4570
+    - name: nuoI, SCD16A.13c
   - !!omap
     - id: SCO4571
-    - name: SCO4571
+    - name: nuoJ, SCD16A.12c
   - !!omap
     - id: SCO4572
-    - name: SCO4572
+    - name: nuoK, SCD16A.11c
   - !!omap
     - id: SCO4573
-    - name: SCO4573
+    - name: nuoL, SCD16A.10c
   - !!omap
     - id: SCO4574
-    - name: SCO4574
+    - name: nuoM, SCD16A.09c
   - !!omap
     - id: SCO4575
-    - name: SCO4575
+    - name: nuoN, SCD16A.08c
   - !!omap
     - id: SCO4580
-    - name: SCO4580
+    - name: SCD16A.03
   - !!omap
     - id: SCO4583
-    - name: SCO4583
+    - name: SCD20.01
   - !!omap
     - id: SCO4593
     - name: SCO4593
   - !!omap
     - id: SCO4594
-    - name: SCO4594
+    - name: SCD20.12c
   - !!omap
     - id: SCO4595
-    - name: SCO4595
+    - name: SCD20.13c
   - !!omap
     - id: SCO4599
-    - name: SCO4599
+    - name: nuoA2, SCD20.17
   - !!omap
     - id: SCO4600
-    - name: SCO4600
+    - name: nuoB2, SCD20.18
   - !!omap
     - id: SCO4602
-    - name: SCO4602
+    - name: nuoH2, SCD39.02
   - !!omap
     - id: SCO4603
-    - name: SCO4603
+    - name: nuoI2, SCD39.03
   - !!omap
     - id: SCO4604
-    - name: SCO4604
+    - name: nuoJ2, SCD39.04
   - !!omap
     - id: SCO4605
-    - name: SCO4605
+    - name: nuoK2, SCD39.05
   - !!omap
     - id: SCO4606
-    - name: SCO4606
+    - name: nuoL2, SCD39.06
   - !!omap
     - id: SCO4607
-    - name: SCO4607
+    - name: nuoM2, SCD39.07
   - !!omap
     - id: SCO4608
-    - name: SCO4608
+    - name: nuoN2, SCD39.08
   - !!omap
     - id: SCO4634
-    - name: SCO4634
+    - name: SCD82.05c
   - !!omap
     - id: SCO4643
-    - name: SCO4643
+    - name: murB
   - !!omap
     - id: SCO4644
-    - name: SCO4644
+    - name: add, SCD82.15c
   - !!omap
     - id: SCO4645
-    - name: SCO4645
+    - name: aspC, SCD82.16c
   - !!omap
     - id: SCO4681
-    - name: SCO4681
+    - name: SCD31.06
   - !!omap
     - id: SCO4683
-    - name: SCO4683
+    - name: gdhA, SCD31.08
   - !!omap
     - id: SCO4723
-    - name: SCO4723
+    - name: adk
   - !!omap
     - id: SCO4736
-    - name: SCO4736
+    - name: glmM
   - !!omap
     - id: SCO4738
-    - name: SCO4738
+    - name: coaA
   - !!omap
     - id: SCO4740
-    - name: SCO4740
+    - name: glmS1, SC6G4.18
   - !!omap
     - id: SCO4744
-    - name: SCO4744
+    - name: acpS
   - !!omap
     - id: SCO4745
-    - name: SCO4745
+    - name: alr
   - !!omap
     - id: SCO4770
-    - name: SCO4770
+    - name: guaB, SCD63.02
   - !!omap
     - id: SCO4771
-    - name: SCO4771
+    - name: SCD63.03
   - !!omap
     - id: SCO4773
-    - name: SCO4773
+    - name: SCD63.05c
   - !!omap
     - id: SCO4774
-    - name: SCO4774
+    - name: SCD63.06
   - !!omap
     - id: SCO4780
-    - name: SCO4780
+    - name: gabD2
   - !!omap
     - id: SCO4784
     - name: SCO4784
   - !!omap
     - id: SCO4785
-    - name: SCO4785
+    - name: guaA
   - !!omap
     - id: SCO4800
-    - name: SCO4800
+    - name: icmB, SCD63A.11
   - !!omap
     - id: SCO4808
-    - name: SCO4808
+    - name: sucC
   - !!omap
     - id: SCO4809
-    - name: SCO4809
+    - name: SCD63A.20, sucD
   - !!omap
     - id: SCO4813
-    - name: SCO4813
+    - name: purN
   - !!omap
     - id: SCO4814
-    - name: SCO4814
+    - name: purH
   - !!omap
     - id: SCO4824
-    - name: SCO4824
+    - name: folD, SC2A6.09
   - !!omap
     - id: SCO4827
-    - name: SCO4827
+    - name: mdh, SC2A6.12
   - !!omap
     - id: SCO4828
-    - name: SCO4828
+    - name: gbsA, SC2A6.13
   - !!omap
     - id: SCO4829
-    - name: SCO4829
+    - name: SC2A6.14
   - !!omap
     - id: SCO4830
-    - name: SCO4830
+    - name: SC2A6.15
   - !!omap
     - id: SCO4831
-    - name: SCO4831
+    - name: SC2A6.16
   - !!omap
     - id: SCO4832
-    - name: SCO4832
+    - name: SC2A6.17
   - !!omap
     - id: SCO4837
-    - name: SCO4837
+    - name: glyA
   - !!omap
     - id: SCO4839
-    - name: SCO4839
+    - name: SC5G8.07, trpS2
   - !!omap
     - id: SCO4847
-    - name: SCO4847
+    - name: SC5G8.15c
   - !!omap
     - id: SCO4855
-    - name: SCO4855
+    - name: sdhB
   - !!omap
     - id: SCO4856
-    - name: SCO4856
+    - name: sdhA
   - !!omap
     - id: SCO4857
-    - name: SCO4857
+    - name: SC5G8.25c
   - !!omap
     - id: SCO4858
-    - name: SCO4858
+    - name: SC5G8.26c
   - !!omap
     - id: SCO4860
-    - name: SCO4860
+    - name: SC5G8.28, SCK20.01
   - !!omap
     - id: SCO4869
-    - name: SCO4869
+    - name: mutA2, SCK20.10
   - !!omap
     - id: SCO4889
-    - name: SCO4889
+    - name: 2SCK8.15
   - !!omap
     - id: SCO4890
-    - name: SCO4890
+    - name: deoA
   - !!omap
     - id: SCO4901
-    - name: SCO4901
+    - name: 2SCK8.27
   - !!omap
     - id: SCO4909
     - name: SCO4909
   - !!omap
     - id: SCO4913
-    - name: SCO4913
+    - name: SCK13.05c
   - !!omap
     - id: SCO4914
-    - name: SCO4914
+    - name: SCK13.06c
   - !!omap
     - id: SCO4916
-    - name: SCO4916
+    - name: SCK13.08c
   - !!omap
     - id: SCO4917
-    - name: SCO4917
+    - name: SCK13.09c
   - !!omap
     - id: SCO4919
-    - name: SCO4919
+    - name: SCK13.11
   - !!omap
     - id: SCO4921
-    - name: SCO4921
+    - name: accA2, SCK13.13c
   - !!omap
     - id: SCO4925
-    - name: SCO4925
+    - name: SCK13.17c
   - !!omap
     - id: SCO4926
-    - name: SCO4926
+    - name: pccB, SCK13.18c
   - !!omap
     - id: SCO4927
-    - name: SCO4927
+    - name: SCK13.19
   - !!omap
     - id: SCO4928
-    - name: SCO4928
+    - name: cya, SCK13.20
   - !!omap
     - id: SCO4930
-    - name: SCO4930
+    - name: SCK13.22
   - !!omap
     - id: SCO4932
-    - name: SCO4932
+    - name: hutH
   - !!omap
     - id: SCO4945
-    - name: SCO4945
+    - name: 2SCK31.05
   - !!omap
     - id: SCO4947
-    - name: SCO4947
+    - name: 2SCK31.07, narG3
   - !!omap
     - id: SCO4948
-    - name: SCO4948
+    - name: 2SCK31.08, narH3
   - !!omap
     - id: SCO4949
-    - name: SCO4949
+    - name: 2SCK31.09, narJ3
   - !!omap
     - id: SCO4950
-    - name: SCO4950
+    - name: 2SCK31.10, narI3
   - !!omap
     - id: SCO4956
-    - name: SCO4956
+    - name: 2SCK31.16
   - !!omap
     - id: SCO4958
-    - name: SCO4958
+    - name: 2SCK31.18, metB
   - !!omap
     - id: SCO4962
-    - name: SCO4962
+    - name: 2SCK31.22
   - !!omap
     - id: SCO4967
-    - name: SCO4967
+    - name: 2SCK31.27
   - !!omap
     - id: SCO4971
-    - name: SCO4971
+    - name: 2SCK31.31
   - !!omap
     - id: SCO4972
-    - name: SCO4972
+    - name: 2SCK31.32
   - !!omap
     - id: SCO4979
-    - name: SCO4979
+    - name: 2SCK36.02
   - !!omap
     - id: SCO4984
-    - name: SCO4984
+    - name: 2SCK36.07c
   - !!omap
     - id: SCO4988
     - name: SCO4988
   - !!omap
     - id: SCO4991
-    - name: SCO4991
+    - name: 2SCK36.14
   - !!omap
     - id: SCO4993
-    - name: SCO4993
+    - name: 2SCK36.16
   - !!omap
     - id: SCO5023
-    - name: SCO5023
+    - name: SCK15.25
   - !!omap
     - id: SCO5042
-    - name: SCO5042
+    - name: fumC
   - !!omap
     - id: SCO5044
-    - name: SCO5044
+    - name: fumB, SCK7.17c
   - !!omap
     - id: SCO5047
-    - name: SCO5047
+    - name: glpX
   - !!omap
     - id: SCO5050
-    - name: SCO5050
+    - name: SCK7.23
   - !!omap
     - id: SCO5057
-    - name: SCO5057
+    - name: SCK7.30c
   - !!omap
     - id: SCO5058
-    - name: SCO5058
+    - name: ispH
   - !!omap
     - id: SCO5059
-    - name: SCO5059
+    - name: ppgK, SCBAC20F6.02
   - !!omap
     - id: SCO5071
-    - name: SCO5071
+    - name: SCBAC20F6.14c
   - !!omap
     - id: SCO5072
-    - name: SCO5072
+    - name: SCBAC20F6.15
   - !!omap
     - id: SCO5074
-    - name: SCO5074
+    - name: SCBAC20F6.17
   - !!omap
     - id: SCO5075
-    - name: SCO5075
+    - name: ORF4, SCBAC20F6.18, SCBAC28G1.01
   - !!omap
     - id: SCO5080
-    - name: SCO5080
+    - name: actVA5, SCBAC28G1.06
   - !!omap
     - id: SCO5081
-    - name: SCO5081
+    - name: actVA6, SCBAC28G1.07
   - !!omap
     - id: SCO5083
-    - name: SCO5083
+    - name: actII-2, SCBAC28G1.09
   - !!omap
     - id: SCO5084
-    - name: SCO5084
+    - name: actII-3, SCBAC28G1.10
   - !!omap
     - id: SCO5086
-    - name: SCO5086
+    - name: actIII, SCBAC28G1.12c
   - !!omap
     - id: SCO5087
-    - name: SCO5087
+    - name: actIORF1, SCBAC28G1.13
   - !!omap
     - id: SCO5088
-    - name: SCO5088
+    - name: actIORF2, SCBAC28G1.14
   - !!omap
     - id: SCO5089
-    - name: SCO5089
+    - name: actIORF3, SCBAC28G1.15
   - !!omap
     - id: SCO5090
-    - name: SCO5090
+    - name: actVII, SCBAC28G1.16
   - !!omap
     - id: SCO5091
-    - name: SCO5091
+    - name: actIV, SCBAC28G1.17
   - !!omap
     - id: SCO5092
-    - name: SCO5092
+    - name: actVB, SCBAC28G1.18
   - !!omap
     - id: SCO5106
-    - name: SCO5106
+    - name: SCBAC31E11.02c, shdB2
   - !!omap
     - id: SCO5107
-    - name: SCO5107
+    - name: sdhA
   - !!omap
     - id: SCO5110
-    - name: SCO5110
+    - name: SCBAC31E11.06
   - !!omap
     - id: SCO5112
-    - name: SCO5112
+    - name: bldKA, SCBAC31E11.08
   - !!omap
     - id: SCO5113
-    - name: SCO5113
+    - name: bldKB, SCBAC31E11.09
   - !!omap
     - id: SCO5114
-    - name: SCO5114
+    - name: bldKC, SCBAC31E11.10
   - !!omap
     - id: SCO5115
-    - name: SCO5115
+    - name: bldKD, SCBAC31E11.11
   - !!omap
     - id: SCO5117
-    - name: SCO5117
+    - name: SC9E12.02
   - !!omap
     - id: SCO5118
-    - name: SCO5118
+    - name: SC9E12.03
   - !!omap
     - id: SCO5119
-    - name: SCO5119
+    - name: SC9E12.04
   - !!omap
     - id: SCO5120
-    - name: SCO5120
+    - name: SC9E12.05
   - !!omap
     - id: SCO5121
-    - name: SCO5121
+    - name: SC9E12.06
   - !!omap
     - id: SCO5126
-    - name: SCO5126
+    - name: SC9E12.11
   - !!omap
     - id: SCO5139
-    - name: SCO5139
+    - name: dapE, SCP8.02
   - !!omap
     - id: SCO5141
-    - name: SCO5141
+    - name: folP, SCP8.04c
   - !!omap
     - id: SCO5144
-    - name: SCO5144
+    - name: SCP8.07c
   - !!omap
     - id: SCO5157
-    - name: SCO5157
+    - name: SCP8.20c
   - !!omap
     - id: SCO5161
     - name: SCO5161
   - !!omap
     - id: SCO5178
-    - name: SCO5178
+    - name: 2SC3B6.02
   - !!omap
     - id: SCO5186
-    - name: SCO5186
+    - name: 2SC3B6.10
   - !!omap
     - id: SCO5201
-    - name: SCO5201
+    - name: 2SC3B6.25
   - !!omap
     - id: SCO5208
-    - name: SCO5208
+    - name: SC7E4.05c
   - !!omap
     - id: SCO5212
-    - name: SCO5212
+    - name: aroA2, SC7E4.09c
   - !!omap
     - id: SCO5222
     - name: SCO5222
@@ -63841,370 +63841,370 @@
     - name: SCO5223
   - !!omap
     - id: SCO5225
-    - name: SCO5225
+    - name: nrdM, SC7E4.22c
   - !!omap
     - id: SCO5226
-    - name: SCO5226
+    - name: nrdL, SC7E4.23c
   - !!omap
     - id: SCO5229
-    - name: SCO5229
+    - name: SC7E4.26c
   - !!omap
     - id: SCO5232
-    - name: SCO5232
+    - name: SC7E4.29
   - !!omap
     - id: SCO5233
-    - name: SCO5233
+    - name: SC7E4.30
   - !!omap
     - id: SCO5234
-    - name: SCO5234
+    - name: SC7E4.31
   - !!omap
     - id: SCO5235
     - name: SCO5235
   - !!omap
     - id: SCO5236
-    - name: SCO5236
+    - name: nagB
   - !!omap
     - id: SCO5246
-    - name: SCO5246
+    - name: 2SC7G11.08
   - !!omap
     - id: SCO5250
-    - name: SCO5250
+    - name: 2SC7G11.12, gtr
   - !!omap
     - id: SCO5254
-    - name: SCO5254
+    - name: 2SC7G11.16c, sodN
   - !!omap
     - id: SCO5258
-    - name: SCO5258
+    - name: 2SC7G11.20c, atrC
   - !!omap
     - id: SCO5259
-    - name: SCO5259
+    - name: 2SC7G11.21c, atrB
   - !!omap
     - id: SCO5260
-    - name: SCO5260
+    - name: 2SC7G11.22c, atrA
   - !!omap
     - id: SCO5261
-    - name: SCO5261
+    - name: 2SC7G11.23
   - !!omap
     - id: SCO5262
-    - name: SCO5262
+    - name: 2SC7G11.24
   - !!omap
     - id: SCO5281
-    - name: SCO5281
+    - name: kgd
   - !!omap
     - id: SCO5301
-    - name: SCO5301
+    - name: SC6G9.32
   - !!omap
     - id: SCO5352
-    - name: SCO5352
+    - name: SCBAC5H2.21
   - !!omap
     - id: SCO5353
-    - name: SCO5353
+    - name: lysA, SCBAC5H2.22
   - !!omap
     - id: SCO5354
-    - name: SCO5354
+    - name: SCBAC5H2.23, thrA
   - !!omap
     - id: SCO5355
-    - name: SCO5355
+    - name: SCBAC5H2.24, thrC
   - !!omap
     - id: SCO5356
-    - name: SCO5356
+    - name: SCBAC5H2.25, thrB
   - !!omap
     - id: SCO5364
-    - name: SCO5364
+    - name: 2SC6G5.08, glyA3
   - !!omap
     - id: SCO5366
-    - name: SCO5366
+    - name: 2SC6G5.10, atpI
   - !!omap
     - id: SCO5367
-    - name: SCO5367
+    - name: 2SC6G5.11, atpB
   - !!omap
     - id: SCO5368
-    - name: SCO5368
+    - name: 2SC6G5.12, atpE
   - !!omap
     - id: SCO5369
-    - name: SCO5369
+    - name: 2SC6G5.13, atpf
   - !!omap
     - id: SCO5370
-    - name: SCO5370
+    - name: 2SC6G5.14, atpH
   - !!omap
     - id: SCO5371
-    - name: SCO5371
+    - name: 2SC6G5.15, atpA
   - !!omap
     - id: SCO5372
-    - name: SCO5372
+    - name: 2SC6G5.16, atpG
   - !!omap
     - id: SCO5373
-    - name: SCO5373
+    - name: 2SC6G5.17, atpD
   - !!omap
     - id: SCO5374
-    - name: SCO5374
+    - name: atpC
   - !!omap
     - id: SCO5381
     - name: SCO5381
   - !!omap
     - id: SCO5385
-    - name: SCO5385
+    - name: 2SC6G5.29
   - !!omap
     - id: SCO5398
-    - name: SCO5398
+    - name: SC8F4.02c
   - !!omap
     - id: SCO5399
-    - name: SCO5399
+    - name: SC8F4.03
   - !!omap
     - id: SCO5415
-    - name: SCO5415
+    - name: icmA, SC8F4.19
   - !!omap
     - id: SCO5419
-    - name: SCO5419
+    - name: SC8F4.23, trxA4
   - !!omap
     - id: SCO5423
-    - name: SCO5423
+    - name: pyk2, SC8F4.27c
   - !!omap
     - id: SCO5424
-    - name: SCO5424
+    - name: ackA, SC8F4.28c
   - !!omap
     - id: SCO5425
-    - name: SCO5425
+    - name: pta, SC6A11.01c, SC8F4.29c
   - !!omap
     - id: SCO5426
-    - name: SCO5426
+    - name: pfkA2, SC6A11.02
   - !!omap
     - id: SCO5431
-    - name: SCO5431
+    - name: SC6A11.07c
   - !!omap
     - id: SCO5436
-    - name: SCO5436
+    - name: SC6A11.12
   - !!omap
     - id: SCO5438
-    - name: SCO5438
+    - name: SC6A11.14, trxA2
   - !!omap
     - id: SCO5440
-    - name: SCO5440
+    - name: glgBI, SC6A11.16c
   - !!omap
     - id: SCO5442
-    - name: SCO5442
+    - name: SC6A11.18c
   - !!omap
     - id: SCO5444
-    - name: SCO5444
+    - name: glgP, SC3D11.01, SC6A11.20
   - !!omap
     - id: SCO5456
-    - name: SCO5456
+    - name: glgX2, SC3D11.13c
   - !!omap
     - id: SCO5469
-    - name: SCO5469
+    - name: sdaA
   - !!omap
     - id: SCO5470
-    - name: SCO5470
+    - name: glyA
   - !!omap
     - id: SCO5471
-    - name: SCO5471
+    - name: gcvH
   - !!omap
     - id: SCO5472
-    - name: SCO5472
+    - name: gcvT
   - !!omap
     - id: SCO5486
-    - name: SCO5486
+    - name: SC2A11.20
   - !!omap
     - id: SCO5512
-    - name: SCO5512
+    - name: ilvB, SC8D9.24
   - !!omap
     - id: SCO5513
-    - name: SCO5513
+    - name: ilvH
   - !!omap
     - id: SCO5514
-    - name: SCO5514
+    - name: ilvC, SC8D9.26
   - !!omap
     - id: SCO5515
-    - name: SCO5515
+    - name: SC8D9.27, serA
   - !!omap
     - id: SCO5520
-    - name: SCO5520
+    - name: SC1C2.01, SC8D9.32
   - !!omap
     - id: SCO5522
-    - name: SCO5522
+    - name: leuB
   - !!omap
     - id: SCO5523
-    - name: SCO5523
+    - name: ilvE
   - !!omap
     - id: SCO5524
-    - name: SCO5524
+    - name: SC1C2.05c
   - !!omap
     - id: SCO5525
-    - name: SCO5525
+    - name: ureAB
   - !!omap
     - id: SCO5526
-    - name: SCO5526
+    - name: ureC
   - !!omap
     - id: SCO5527
-    - name: SCO5527
+    - name: SC1C2.08
   - !!omap
     - id: SCO5529
-    - name: SCO5529
+    - name: SC1C2.10
   - !!omap
     - id: SCO5535
-    - name: SCO5535
+    - name: SC1C2.16
   - !!omap
     - id: SCO5536
-    - name: SCO5536
+    - name: SC1C2.17
   - !!omap
     - id: SCO5547
-    - name: SCO5547
+    - name: gltX
   - !!omap
     - id: SCO5553
-    - name: SCO5553
+    - name: leuC
   - !!omap
     - id: SCO5554
-    - name: SCO5554
+    - name: leuD
   - !!omap
     - id: SCO5557a
-    - name: SCO5557a
+    - name: SC7A1.01c
   - !!omap
     - id: SCO5559
-    - name: SCO5559
+    - name: gpsA
   - !!omap
     - id: SCO5560
-    - name: SCO5560
+    - name: ddl
   - !!omap
     - id: SCO5562
-    - name: SCO5562
+    - name: SC7A1.06
   - !!omap
     - id: SCO5563
-    - name: SCO5563
+    - name: SC7A1.07
   - !!omap
     - id: SCO5568
-    - name: SCO5568
+    - name: coaD
   - !!omap
     - id: SCO5576
-    - name: SCO5576
+    - name: SC7A1.20
   - !!omap
     - id: SCO5578
-    - name: SCO5578
+    - name: SC7A1.22
   - !!omap
     - id: SCO5579
-    - name: SCO5579
+    - name: SC7A1.23c
   - !!omap
     - id: SCO5583
-    - name: SCO5583
+    - name: SC7A1.27
   - !!omap
     - id: SCO5586
     - name: SCO5586
   - !!omap
     - id: SCO5626
-    - name: SCO5626
+    - name: pyrH
   - !!omap
     - id: SCO5628
-    - name: SCO5628
+    - name: SC6A9.39c
   - !!omap
     - id: SCO5646
-    - name: SCO5646
+    - name: SC6A9.21c
   - !!omap
     - id: SCO5647
-    - name: SCO5647
+    - name: SC6A9.20c
   - !!omap
     - id: SCO5648
-    - name: SCO5648
+    - name: SC6A9.19c
   - !!omap
     - id: SCO5657
-    - name: SCO5657
+    - name: SC6A9.10c
   - !!omap
     - id: SCO5658
-    - name: SCO5658
+    - name: SC6A9.09c
   - !!omap
     - id: SCO5661
-    - name: SCO5661
+    - name: SC6A9.06
   - !!omap
     - id: SCO5662
-    - name: SCO5662
+    - name: SC6A9.05
   - !!omap
     - id: SCO5666
-    - name: SCO5666
+    - name: SC6A9.01c, SC8B7.12c
   - !!omap
     - id: SCO5667
-    - name: SCO5667
+    - name: SC8B7.11c
   - !!omap
     - id: SCO5668
-    - name: SCO5668
+    - name: SC8B7.10c
   - !!omap
     - id: SCO5669
-    - name: SCO5669
+    - name: SC8B7.09c
   - !!omap
     - id: SCO5670
-    - name: SCO5670
+    - name: SC8B7.08c
   - !!omap
     - id: SCO5676
-    - name: SCO5676
+    - name: gabT
   - !!omap
     - id: SCO5679
-    - name: SCO5679
+    - name: SC5H4.03
   - !!omap
     - id: SCO5680
-    - name: SCO5680
+    - name: SC5H4.04c
   - !!omap
     - id: SCO5685
-    - name: SCO5685
+    - name: SC5H4.09c
   - !!omap
     - id: SCO5689
-    - name: SCO5689
+    - name: SC5H4.13
   - !!omap
     - id: SCO5694
-    - name: SCO5694
+    - name: dxr, SC5H4.18
   - !!omap
     - id: SCO5696
-    - name: SCO5696
+    - name: ispG
   - !!omap
     - id: SCO5699
-    - name: SCO5699
+    - name: proS, SC5H4.23
   - !!omap
     - id: SCO5711
-    - name: SCO5711
+    - name: ribC, ribF
   - !!omap
     - id: SCO5712
-    - name: SCO5712
+    - name: SC9F2.04
   - !!omap
     - id: SCO5713
-    - name: SCO5713
+    - name: SC9F2.03
   - !!omap
     - id: SCO5714
-    - name: SCO5714
+    - name: SC9F2.02
   - !!omap
     - id: SCO5716
-    - name: SCO5716
+    - name: SC3C3.02c
   - !!omap
     - id: SCO5739
-    - name: SCO5739
+    - name: dapB
   - !!omap
     - id: SCO5743
-    - name: SCO5743
+    - name: thyX
   - !!omap
     - id: SCO5744
-    - name: SCO5744
+    - name: dapA
   - !!omap
     - id: SCO5753
-    - name: SCO5753
+    - name: pgsA
   - !!omap
     - id: SCO5774
-    - name: SCO5774
+    - name: gluD
   - !!omap
     - id: SCO5775
-    - name: SCO5775
+    - name: gluC
   - !!omap
     - id: SCO5776
-    - name: SCO5776
+    - name: gluB
   - !!omap
     - id: SCO5777
-    - name: SCO5777
+    - name: gluA
   - !!omap
     - id: SCO5793
-    - name: SCO5793
+    - name: dapF
   - !!omap
     - id: SCO5794
-    - name: SCO5794
+    - name: SC4H2.15
   - !!omap
     - id: SCO5799
-    - name: SCO5799
+    - name: SC4H2.20
   - !!omap
     - id: SCO5805
-    - name: SCO5805
+    - name: nrdJ
   - !!omap
     - id: SCO5831
     - name: SCO5831
@@ -64213,310 +64213,310 @@
     - name: SCO5832
   - !!omap
     - id: SCO5841
-    - name: SCO5841
+    - name: ptsH
   - !!omap
     - id: SCO5845
-    - name: SCO5845
+    - name: SC9B10.12
   - !!omap
     - id: SCO5848
-    - name: SCO5848
+    - name: agaZ
   - !!omap
     - id: SCO5849
-    - name: SCO5849
+    - name: agaS, SC9B10.16
   - !!omap
     - id: SCO5852
-    - name: SCO5852
+    - name: agaY
   - !!omap
     - id: SCO5854
     - name: SCO5854
   - !!omap
     - id: SCO5859
-    - name: SCO5859
+    - name: hemH
   - !!omap
     - id: SCO5860
-    - name: SCO5860
+    - name: SC9B10.27, suhB
   - !!omap
     - id: SCO5868
-    - name: SCO5868
+    - name: dut
   - !!omap
     - id: SCO5878
-    - name: SCO5878
+    - name: redX
   - !!omap
     - id: SCO5879
-    - name: SCO5879
+    - name: redW
   - !!omap
     - id: SCO5882
     - name: SCO5882
   - !!omap
     - id: SCO5883
-    - name: SCO5883
+    - name: redU, SC3F7.03c
   - !!omap
     - id: SCO5886
-    - name: SCO5886
+    - name: redR, SC3F7.06c
   - !!omap
     - id: SCO5887
-    - name: SCO5887
+    - name: redQ, SC3F7.07c
   - !!omap
     - id: SCO5888
-    - name: SCO5888
+    - name: redP, SC3F7.08
   - !!omap
     - id: SCO5889
-    - name: SCO5889
+    - name: redO, SC3F7.09
   - !!omap
     - id: SCO5890
-    - name: SCO5890
+    - name: redN, SC3F7.10
   - !!omap
     - id: SCO5891
-    - name: SCO5891
+    - name: redM, St3F7.11
   - !!omap
     - id: SCO5892
-    - name: SCO5892
+    - name: redL, SC3F7.12
   - !!omap
     - id: SCO5893
-    - name: SCO5893
+    - name: redK, SC3F7.13
   - !!omap
     - id: SCO5894
-    - name: SCO5894
+    - name: redJ, SC3F7.14
   - !!omap
     - id: SCO5895
-    - name: SCO5895
+    - name: redI, SC3F7.15
   - !!omap
     - id: SCO5896
-    - name: SCO5896
+    - name: redH, SC10A5.01, SC3F7.16
   - !!omap
     - id: SCO5897
-    - name: SCO5897
+    - name: SCO5897, redG, SC10A5.02
   - !!omap
     - id: SCO5923
-    - name: SCO5923
+    - name: SC10A5.28c
   - !!omap
     - id: SCO5924
-    - name: SCO5924
+    - name: SC10A5.29c
   - !!omap
     - id: SCO5925
-    - name: SCO5925
+    - name: SC10A5.30c
   - !!omap
     - id: SCO5940
-    - name: SCO5940
+    - name: SC7H1.10
   - !!omap
     - id: SCO5945
-    - name: SCO5945
+    - name: SC7H1.15
   - !!omap
     - id: SCO5964
-    - name: SCO5964
+    - name: SC7H1.34c
   - !!omap
     - id: SCO5975
-    - name: SCO5975
+    - name: arcA2, StBAC16H6.10
   - !!omap
     - id: SCO5976
-    - name: SCO5976
+    - name: arcB, StBAC16H6.11
   - !!omap
     - id: SCO5979
-    - name: SCO5979
+    - name: StBAC16H6.14
   - !!omap
     - id: SCO5983
-    - name: SCO5983
+    - name: StBAC16H6.18c
   - !!omap
     - id: SCO5998
-    - name: SCO5998
+    - name: murA2, SCBAC1C11.01c, StBAC16H6.33c
   - !!omap
     - id: SCO5999
-    - name: SCO5999
+    - name: sacA, SCBAC1C11.02
   - !!omap
     - id: SCO6005
-    - name: SCO6005
+    - name: SC7B7.02
   - !!omap
     - id: SCO6006
-    - name: SCO6006
+    - name: SC7b7.03
   - !!omap
     - id: SCO6007
-    - name: SCO6007
+    - name: SC7b7.04
   - !!omap
     - id: SCO6009
-    - name: SCO6009
+    - name: SC7B7.06
   - !!omap
     - id: SCO6010
-    - name: SCO6010
+    - name: SC7B7.07
   - !!omap
     - id: SCO6011
-    - name: SCO6011
+    - name: SC7B7.08
   - !!omap
     - id: SCO6013
-    - name: SCO6013
+    - name: SC1C3.01, SC7B7.10
   - !!omap
     - id: SCO6027
-    - name: SCO6027
+    - name: SC1C3.15c
   - !!omap
     - id: SCO6031
-    - name: SCO6031
+    - name: hemE
   - !!omap
     - id: SCO6032
     - name: SCO6032
   - !!omap
     - id: SCO6035
-    - name: SCO6035
+    - name: SC1C3.23
   - !!omap
     - id: SCO6041
-    - name: SCO6041
+    - name: SC1B5.01, SC1C3.29
   - !!omap
     - id: SCO6055
-    - name: SCO6055
+    - name: SC9B1.02c
   - !!omap
     - id: SCO6058
-    - name: SCO6058
+    - name: SC9B1.05
   - !!omap
     - id: SCO6060
-    - name: SCO6060
+    - name: murC, SC9B1.07
   - !!omap
     - id: SCO6061
-    - name: SCO6061
+    - name: SC9B1.08
   - !!omap
     - id: SCO6062
-    - name: SCO6062
+    - name: SC9B1.09
   - !!omap
     - id: SCO6063
-    - name: SCO6063
+    - name: SC9B1.10
   - !!omap
     - id: SCO6064
-    - name: SCO6064
+    - name: SC9B1.11
   - !!omap
     - id: SCO6065
-    - name: SCO6065
+    - name: SC9B1.12
   - !!omap
     - id: SCO6073
     - name: SCO6073
   - !!omap
     - id: SCO6075
-    - name: SCO6075
+    - name: SC9B1.22c
   - !!omap
     - id: SCO6082
-    - name: SCO6082
+    - name: glgX3, SCBAC1A6.06c
   - !!omap
     - id: SCO6097
-    - name: SCO6097
+    - name: cysN, SCBAC1A6.21c
   - !!omap
     - id: SCO6098
-    - name: SCO6098
+    - name: cysD, SCBAC1A6.22c
   - !!omap
     - id: SCO6099
-    - name: SCO6099
+    - name: cysC, SCBAC1A6.23c
   - !!omap
     - id: SCO6100
-    - name: SCO6100
+    - name: cysH, SCBAC1A6.24c
   - !!omap
     - id: SCO6102
-    - name: SCO6102
+    - name: SCBAC1A6.26c
   - !!omap
     - id: SCO6110
     - name: SCO6110
   - !!omap
     - id: SCO6131
-    - name: SCO6131
+    - name: SC9B2.18c
   - !!omap
     - id: SCO6137
-    - name: SCO6137
+    - name: mmuM
   - !!omap
     - id: SCO6147
-    - name: SCO6147
+    - name: aldo
   - !!omap
     - id: SCO6149
-    - name: SCO6149
+    - name: SC1A9.13
   - !!omap
     - id: SCO6155
-    - name: SCO6155
+    - name: SC1A9.19
   - !!omap
     - id: SCO6173
-    - name: SCO6173
+    - name: SC6C5.09
   - !!omap
     - id: SCO6179
-    - name: SCO6179
+    - name: SC6C5.15
   - !!omap
     - id: SCO6195
-    - name: SCO6195
+    - name: SC2G5.16
   - !!omap
     - id: SCO6196
-    - name: SCO6196
+    - name: SC2G5.17
   - !!omap
     - id: SCO6201
-    - name: SCO6201
+    - name: SC2G5.22
   - !!omap
     - id: SCO6204
-    - name: SCO6204
+    - name: SC2G5.25c
   - !!omap
     - id: SCO6205
-    - name: SCO6205
+    - name: SC2G5.26c
   - !!omap
     - id: SCO6206
-    - name: SCO6206
+    - name: SC2G5.27c
   - !!omap
     - id: SCO6209
-    - name: SCO6209
+    - name: SC2G5.30
   - !!omap
     - id: SCO6210
-    - name: SCO6210
+    - name: SC2G5.31
   - !!omap
     - id: SCO6211
-    - name: SCO6211
+    - name: SC2G5.32, SC9G1.01
   - !!omap
     - id: SCO6212
-    - name: SCO6212
+    - name: SC9G1.02
   - !!omap
     - id: SCO6214
-    - name: SCO6214
+    - name: SC9G1.04
   - !!omap
     - id: SCO6222
-    - name: SCO6222
+    - name: SC2H4.04c
   - !!omap
     - id: SCO6243
-    - name: SCO6243
+    - name: aceB1, SCAH10.08c
   - !!omap
     - id: SCO6247
-    - name: SCO6247
+    - name: SCAH10.12
   - !!omap
     - id: SCO6248
-    - name: SCO6248
+    - name: SCAH10.13
   - !!omap
     - id: SCO6255
-    - name: SCO6255
+    - name: SCAH10.20c
   - !!omap
     - id: SCO6257
-    - name: SCO6257
+    - name: SCAH10.22
   - !!omap
     - id: SCO6258
-    - name: SCO6258
+    - name: SCAH10.23
   - !!omap
     - id: SCO6259
-    - name: SCO6259
+    - name: SCAH10.24
   - !!omap
     - id: SCO6260
-    - name: SCO6260
+    - name: SCAH10.25
   - !!omap
     - id: SCO6264
     - name: SCO6264
   - !!omap
     - id: SCO6269
-    - name: SCO6269
+    - name: SCAH10.34c
   - !!omap
     - id: SCO6270
-    - name: SCO6270
+    - name: SCAH10.35c
   - !!omap
     - id: SCO6271
-    - name: SCO6271
+    - name: accA1, SC2C4.01c, SCAH10.36c
   - !!omap
     - id: SCO6292
-    - name: SCO6292
+    - name: SCBAC8D1.05
   - !!omap
     - id: SCO6297
-    - name: SCO6297
+    - name: SCBAC8D1.10c
   - !!omap
     - id: SCO6320
-    - name: SCO6320
+    - name: SCIF3.22c
   - !!omap
     - id: SCO6339
-    - name: SCO6339
+    - name: SC3A7.07
   - !!omap
     - id: SCO6347
-    - name: SCO6347
+    - name: SC3A7.15
   - !!omap
     - id: SCO6355
     - name: SCO6355
@@ -64525,124 +64525,124 @@
     - name: SCO6356
   - !!omap
     - id: SCO6384
-    - name: SCO6384
+    - name: SC3C8.03c
   - !!omap
     - id: SCO6407
-    - name: SCO6407
+    - name: SC3C8.26
   - !!omap
     - id: SCO6412
     - name: SCO6412
   - !!omap
     - id: SCO6414
-    - name: SCO6414
+    - name: SC1A6.03
   - !!omap
     - id: SCO6417
-    - name: SCO6417
+    - name: SC1A6.06
   - !!omap
     - id: SCO6423
-    - name: SCO6423
+    - name: SC1A6.12c
   - !!omap
     - id: SCO6436
-    - name: SCO6436
+    - name: SC9B5.03
   - !!omap
     - id: SCO6438
-    - name: SCO6438
+    - name: SC9B5.05
   - !!omap
     - id: SCO6444
-    - name: SCO6444
+    - name: SC9B5.11
   - !!omap
     - id: SCO6451
-    - name: SCO6451
+    - name: SC9B5.18
   - !!omap
     - id: SCO6452
-    - name: SCO6452
+    - name: SC9B5.19
   - !!omap
     - id: SCO6453
-    - name: SCO6453
+    - name: SC9B5.20
   - !!omap
     - id: SCO6454
-    - name: SCO6454
+    - name: SC9B5.21
   - !!omap
     - id: SCO6457
-    - name: SCO6457
+    - name: SC9B5.24
   - !!omap
     - id: SCO6460
-    - name: SCO6460
+    - name: SC9B5.27
   - !!omap
     - id: SCO6466
-    - name: SCO6466
+    - name: SC9C7.02
   - !!omap
     - id: SCO6467
-    - name: SCO6467
+    - name: SC9C7.03c
   - !!omap
     - id: SCO6468
-    - name: SCO6468
+    - name: SC9C7.04c
   - !!omap
     - id: SCO6471
-    - name: SCO6471
+    - name: SC9C7.07c
   - !!omap
     - id: SCO6472
-    - name: SCO6472
+    - name: SC9C7.08c
   - !!omap
     - id: SCO6473
-    - name: SCO6473
+    - name: SC9C7.09c
   - !!omap
     - id: SCO6475
     - name: SCO6475
   - !!omap
     - id: SCO6489
-    - name: SCO6489
+    - name: SC9C7.25
   - !!omap
     - id: SCO6496
-    - name: SCO6496
+    - name: SC1E6.05
   - !!omap
     - id: SCO6497
-    - name: SCO6497
+    - name: tktA2
   - !!omap
     - id: SCO6511
     - name: SCO6511
   - !!omap
     - id: SCO6528
-    - name: SCO6528
+    - name: SC5C7.13
   - !!omap
     - id: SCO6532
-    - name: SCO6532
+    - name: narI
   - !!omap
     - id: SCO6533
-    - name: SCO6533
+    - name: narJ
   - !!omap
     - id: SCO6534
-    - name: SCO6534
+    - name: narH
   - !!omap
     - id: SCO6535
-    - name: SCO6535
+    - name: narG
   - !!omap
     - id: SCO6552
-    - name: SCO6552
+    - name: SC4B5.02c
   - !!omap
     - id: SCO6560
-    - name: SCO6560
+    - name: SC4B5.10c
   - !!omap
     - id: SCO6561
-    - name: SCO6561
+    - name: SC4B5.11c
   - !!omap
     - id: SCO6562
-    - name: SCO6562
+    - name: SC4B5.12c
   - !!omap
     - id: SCO6564
-    - name: SCO6564
+    - name: fabH2, SC4B5.14
   - !!omap
     - id: SCO6567
-    - name: SCO6567
+    - name: SC3F9.02
   - !!omap
     - id: SCO6568
-    - name: SCO6568
+    - name: SC3F9.03
   - !!omap
     - id: SCO6569
-    - name: SCO6569
+    - name: SC3F9.04
   - !!omap
     - id: SCO6573
-    - name: SCO6573
+    - name: SC3F9.08
   - !!omap
     - id: SCO6583
     - name: SCO6583
@@ -64651,7 +64651,7 @@
     - name: SCO6584
   - !!omap
     - id: SCO6585
-    - name: SCO6585
+    - name: sucC
   - !!omap
     - id: SCO6586
     - name: SCO6586
@@ -64669,274 +64669,274 @@
     - name: SCO6603
   - !!omap
     - id: SCO6604
-    - name: SCO6604
+    - name: SC1F2.01
   - !!omap
     - id: SCO6655
-    - name: SCO6655
+    - name: ribA2, SC5A7.05
   - !!omap
     - id: SCO6658
-    - name: SCO6658
+    - name: SC5A7.08c
   - !!omap
     - id: SCO6659
-    - name: SCO6659
+    - name: pgi
   - !!omap
     - id: SCO6661
-    - name: SCO6661
+    - name: SC5A7.11c, zwf
   - !!omap
     - id: SCO6662
-    - name: SCO6662
+    - name: tal1
   - !!omap
     - id: SCO6663
-    - name: SCO6663
+    - name: tktB
   - !!omap
     - id: SCO6670
-    - name: SCO6670
+    - name: SC5A7.20
   - !!omap
     - id: SCO6673
-    - name: SCO6673
+    - name: SC5A7.23
   - !!omap
     - id: SCO6680
-    - name: SCO6680
+    - name: SC5A7.30c
   - !!omap
     - id: SCO6690
-    - name: SCO6690
+    - name: SC6G3.06c
   - !!omap
     - id: SCO6697
-    - name: SCO6697
+    - name: pcaL, SC4C6.07c
   - !!omap
     - id: SCO6698
-    - name: SCO6698
+    - name: pcaB, SC4C6.08c
   - !!omap
     - id: SCO6699
-    - name: SCO6699
+    - name: pcaG, SC4C6.09c
   - !!omap
     - id: SCO6700
-    - name: SCO6700
+    - name: pcaH, SC4C6.10c
   - !!omap
     - id: SCO6701
-    - name: SCO6701
+    - name: pcaF, SC4C6.11c
   - !!omap
     - id: SCO6702
-    - name: SCO6702
+    - name: pcaJ, SC4C6.12c
   - !!omap
     - id: SCO6703
-    - name: SCO6703
+    - name: pcaI, SC4C6.13c
   - !!omap
     - id: SCO6712
-    - name: SCO6712
+    - name: SC4C6.22
   - !!omap
     - id: SCO6731
-    - name: SCO6731
+    - name: SC5F2A.14
   - !!omap
     - id: SCO6732
-    - name: SCO6732
+    - name: SC5F2A.15
   - !!omap
     - id: SCO6734
-    - name: SCO6734
+    - name: SC5F2A.17
   - !!omap
     - id: SCO6739
-    - name: SCO6739
+    - name: SC5F2A.22
   - !!omap
     - id: SCO6750
-    - name: SCO6750
+    - name: SC5F2A.33c
   - !!omap
     - id: SCO6751
-    - name: SCO6751
+    - name: SC5F2A.34c
   - !!omap
     - id: SCO6754
-    - name: SCO6754
+    - name: SC6A5.03
   - !!omap
     - id: SCO6763
-    - name: SCO6763
+    - name: SC6A5.12
   - !!omap
     - id: SCO6764
     - name: SCO6764
   - !!omap
     - id: SCO6767
-    - name: SCO6767
+    - name: ispG
   - !!omap
     - id: SCO6768
-    - name: SCO6768
+    - name: SC6A5.17
   - !!omap
     - id: SCO6769
     - name: SCO6769
   - !!omap
     - id: SCO6787
-    - name: SCO6787
+    - name: acdH3, SC6A5.36
   - !!omap
     - id: SCO6788
-    - name: SCO6788
+    - name: SC6A5.37
   - !!omap
     - id: SCO6789
-    - name: SCO6789
+    - name: SC6A5.38
   - !!omap
     - id: SCO6790
     - name: SCO6790
   - !!omap
     - id: SCO6799
-    - name: SCO6799
+    - name: tdh
   - !!omap
     - id: SCO6800
-    - name: SCO6800
+    - name: kbl, SC1A2.09
   - !!omap
     - id: SCO6814
-    - name: SCO6814
+    - name: SC1A2.23c
   - !!omap
     - id: SCO6815
-    - name: SCO6815
+    - name: SC1A2.24c
   - !!omap
     - id: SCO6816
-    - name: SCO6816
+    - name: SC1A2.25c
   - !!omap
     - id: SCO6818
-    - name: SCO6818
+    - name: SC1A2.27c.
   - !!omap
     - id: SCO6819
-    - name: SCO6819
+    - name: aroA
   - !!omap
     - id: SCO6826
     - name: SCO6826
   - !!omap
     - id: SCO6832
-    - name: SCO6832
+    - name: mutA
   - !!omap
     - id: SCO6833
-    - name: SCO6833
+    - name: SC3D9.01
   - !!omap
     - id: SCO6834
-    - name: SCO6834
+    - name: trxB2
   - !!omap
     - id: SCO6835
-    - name: SCO6835
+    - name: arsC
   - !!omap
     - id: SCO6844
-    - name: SCO6844
+    - name: SC3D9.12c
   - !!omap
     - id: SCO6948
-    - name: SCO6948
+    - name: SC1G8.20, SC6F7.01
   - !!omap
     - id: SCO6954
-    - name: SCO6954
+    - name: SC6F7.07
   - !!omap
     - id: SCO6962
     - name: SCO6962
   - !!omap
     - id: SCO6967
-    - name: SCO6967
+    - name: pcaF
   - !!omap
     - id: SCO6968
-    - name: SCO6968
+    - name: SC6F7.21
   - !!omap
     - id: SCO6971
-    - name: SCO6971
+    - name: SC6F7.24c
   - !!omap
     - id: SCO6975
-    - name: SCO6975
+    - name: SC6F7.28c, SC8F11.01c
   - !!omap
     - id: SCO6976
-    - name: SCO6976
+    - name: SC8F11.02c
   - !!omap
     - id: SCO6978
-    - name: SCO6978
+    - name: SC8F11.04c
   - !!omap
     - id: SCO6982
-    - name: SCO6982
+    - name: SC8F11.08
   - !!omap
     - id: SCO6984
-    - name: SCO6984
+    - name: SC8F11.10c
   - !!omap
     - id: SCO7000
-    - name: SCO7000
+    - name: idh, SC8F11.26c
   - !!omap
     - id: SCO7004
-    - name: SCO7004
+    - name: SC8F11.30
   - !!omap
     - id: SCO7005
-    - name: SCO7005
+    - name: SC8F11.31
   - !!omap
     - id: SCO7006
-    - name: SCO7006
+    - name: SC8F11.32
   - !!omap
     - id: SCO7010
-    - name: SCO7010
+    - name: aglA
   - !!omap
     - id: SCO7019
-    - name: SCO7019
+    - name: aml
   - !!omap
     - id: SCO7020
-    - name: SCO7020
+    - name: amlB
   - !!omap
     - id: SCO7031
-    - name: SCO7031
+    - name: SC1H10.20
   - !!omap
     - id: SCO7034
-    - name: SCO7034
+    - name: SC1H10.23, SC2C3.01
   - !!omap
     - id: SCO7035
-    - name: SCO7035
+    - name: gabD, SC2C3.02, SC4G1.01
   - !!omap
     - id: SCO7036
-    - name: SCO7036
+    - name: argG, SC4G1.02
   - !!omap
     - id: SCO7040
-    - name: SCO7040
+    - name: gap2, SC4G1.06c
   - !!omap
     - id: SCO7047
-    - name: SCO7047
+    - name: uppP
   - !!omap
     - id: SCO7049
-    - name: SCO7049
+    - name: SC4G1.15
   - !!omap
     - id: SCO7050
-    - name: SCO7050
+    - name: SC4G1.16c
   - !!omap
     - id: SCO7081
-    - name: SCO7081
+    - name: SC3A4.07c
   - !!omap
     - id: SCO7094
-    - name: SCO7094
+    - name: hmpA2
   - !!omap
     - id: SCO7101
-    - name: SCO7101
+    - name: SC4B10.02
   - !!omap
     - id: SCO7109
-    - name: SCO7109
+    - name: SC4B10.10c
   - !!omap
     - id: SCO7120
-    - name: SCO7120
+    - name: qrcB2, SC4B10.21
   - !!omap
     - id: SCO7123
-    - name: SCO7123
+    - name: SC4B10.24c
   - !!omap
     - id: SCO7124
-    - name: SCO7124
+    - name: aceE
   - !!omap
     - id: SCO7153
-    - name: SCO7153
+    - name: SC9A4.15
   - !!omap
     - id: SCO7154
-    - name: SCO7154
+    - name: ilvC2, SC9A4.16c
   - !!omap
     - id: SCO7181
-    - name: SCO7181
+    - name: SC8A11.09
   - !!omap
     - id: SCO7182
-    - name: SCO7182
+    - name: SC8A11.10
   - !!omap
     - id: SCO7183
-    - name: SCO7183
+    - name: SC8A11.11
   - !!omap
     - id: SCO7184
-    - name: SCO7184
+    - name: SC8A11.12
   - !!omap
     - id: SCO7185
-    - name: SCO7185
+    - name: SC8A11.13
   - !!omap
     - id: SCO7194
-    - name: SCO7194
+    - name: SC8A11.22
   - !!omap
     - id: SCO7197
-    - name: SCO7197
+    - name: SC8A11.25c
   - !!omap
     - id: SCO7216
     - name: SCO7216
@@ -64948,187 +64948,187 @@
     - name: SCO7218
   - !!omap
     - id: SCO7221
-    - name: SCO7221
+    - name: SC2H12.20c
   - !!omap
     - id: SCO7234
-    - name: SCO7234
+    - name: ctaD, SC2H12.33
   - !!omap
     - id: SCO7236
-    - name: SCO7236
+    - name: qcrB3
   - !!omap
     - id: SCO7244
-    - name: SCO7244
+    - name: SC7A12.11
   - !!omap
     - id: SCO7254
-    - name: SCO7254
+    - name: SC5H1.38
   - !!omap
     - id: SCO7266
     - name: SCO7266
   - !!omap
     - id: SCO7268
-    - name: SCO7268
+    - name: add, SC5H1.24c
   - !!omap
     - id: SCO7292
     - name: SCO7292
   - !!omap
     - id: SCO7298
-    - name: SCO7298
+    - name: SC5F8.08c
   - !!omap
     - id: SCO7308
-    - name: SCO7308
+    - name: SC5F8.18
   - !!omap
     - id: SCO7311
-    - name: SCO7311
+    - name: SC5F8.21c
   - !!omap
     - id: SCO7319
-    - name: SCO7319
+    - name: SC5F8.29c
   - !!omap
     - id: SCO7332
-    - name: SCO7332
+    - name: glgBII
   - !!omap
     - id: SCO7334
-    - name: SCO7334
+    - name: SC4G10.13c
   - !!omap
     - id: SCO7338
-    - name: SCO7338
+    - name: glgX
   - !!omap
     - id: SCO7343
-    - name: SCO7343
+    - name: hemC
   - !!omap
     - id: SCO7353
-    - name: SCO7353
+    - name: SC9H11.07
   - !!omap
     - id: SCO7357
-    - name: SCO7357
+    - name: SC9H11.11
   - !!omap
     - id: SCO7362
-    - name: SCO7362
+    - name: SC9H11.16c.
   - !!omap
     - id: SCO7367
-    - name: SCO7367
+    - name: SC9H11.21c
   - !!omap
     - id: SCO7395
-    - name: SCO7395
+    - name: SC10G8.23c
   - !!omap
     - id: SCO7398
-    - name: SCO7398
+    - name: SC10G8.26c
   - !!omap
     - id: SCO7399
-    - name: SCO7399
+    - name: SC10G8.27c
   - !!omap
     - id: SCO7400
-    - name: SCO7400
+    - name: SC10G8.28c
   - !!omap
     - id: SCO7407
-    - name: SCO7407
+    - name: SC6D11.03c
   - !!omap
     - id: SCO7408
-    - name: SCO7408
+    - name: SC6D11.04c
   - !!omap
     - id: SCO7409
-    - name: SCO7409
+    - name: SC6D11.05c
   - !!omap
     - id: SCO7410
-    - name: SCO7410
+    - name: SC6D11.06c
   - !!omap
     - id: SCO7412
-    - name: SCO7412
+    - name: SC6D11.08
   - !!omap
     - id: SCO7428
-    - name: SCO7428
+    - name: hmpA1
   - !!omap
     - id: SCO7443
-    - name: SCO7443
+    - name: pgm
   - !!omap
     - id: SCO7469
-    - name: SCO7469
+    - name: paaK, SCBAC17A6.02c
   - !!omap
     - id: SCO7470
-    - name: SCO7470
+    - name: paaI, SCBAC17A6.03c
   - !!omap
     - id: SCO7471
-    - name: SCO7471
+    - name: paaA
   - !!omap
     - id: SCO7472
-    - name: SCO7472
+    - name: paaB
   - !!omap
     - id: SCO7473
-    - name: SCO7473
+    - name: paaC, SCBAC17A6.06
   - !!omap
     - id: SCO7474
-    - name: SCO7474
+    - name: paaD, SCBAC17A6.07
   - !!omap
     - id: SCO7475
-    - name: SCO7475
+    - name: SCBAC17A6.08
   - !!omap
     - id: SCO7500
-    - name: SCO7500
+    - name: SCBAC17A6.33c
   - !!omap
     - id: SCO7507
-    - name: SCO7507
+    - name: SCBAC17A6.40c
   - !!omap
     - id: SCO7511
-    - name: SCO7511
+    - name: gap2, SCBAC25F8.03c
   - !!omap
     - id: SCO7519
-    - name: SCO7519
+    - name: SCBAC25F8.11c
   - !!omap
     - id: SCO7521
-    - name: SCO7521
+    - name: SCBAC25F8.13c
   - !!omap
     - id: SCO7544
-    - name: SCO7544
+    - name: SC8G12.20
   - !!omap
     - id: SCO7545
-    - name: SCO7545
+    - name: SC8G12.21
   - !!omap
     - id: SCO7546
-    - name: SCO7546
+    - name: SC8G12.22
   - !!omap
     - id: SCO7550
-    - name: SCO7550
+    - name: SC5F1.04c
   - !!omap
     - id: SCO7555
-    - name: SCO7555
+    - name: SC5F1.09
   - !!omap
     - id: SCO7556
-    - name: SCO7556
+    - name: SC5F1.10
   - !!omap
     - id: SCO7557
-    - name: SCO7557
+    - name: SC5F1.11
   - !!omap
     - id: SCO7558
-    - name: SCO7558
+    - name: SC5F1.12
   - !!omap
     - id: SCO7570
     - name: SCO7570
   - !!omap
     - id: SCO7590
-    - name: SCO7590
+    - name: katA2, SC7H9.02c
   - !!omap
     - id: SCO7595
-    - name: SCO7595
+    - name: anmK
   - !!omap
     - id: SCO7622
-    - name: SCO7622
+    - name: pntB, SC2H2.20c
   - !!omap
     - id: SCO7623
-    - name: SCO7623
+    - name: pntA
   - !!omap
     - id: SCO7638
-    - name: SCO7638
+    - name: eno
   - !!omap
     - id: SCO7691
     - name: SCO7691
   - !!omap
     - id: SCO7832
-    - name: SCO7832
+    - name: SC8E7.29
   - !!omap
     - id: SCP1233
-    - name: SCP1233
+    - name: SCP1.233, mmyD
   - !!omap
     - id: SCP1233B
-    - name: SCP1233B
+    - name: SCP1.233B, mmyC
   - !!omap
     - id: SCP1299
     - name: SCP1299
