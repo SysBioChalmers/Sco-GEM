@@ -67,24 +67,48 @@ def fix(model):
     # SCO6297 - Add reaction R02395
     add_R02395(model)
 
+    # ADD R02301
+    add_R02301(model)
 
     # Metabolites without reactions
     model.metabolites.get_by_id("3hmp_c").remove_from_model()
     model.metabolites.get_by_id("malylcoa_c").remove_from_model()
     model.metabolites.get_by_id("c78dhguantp_c").remove_from_model()
 
+def add_R02301(model):
+    reaction = cobra.Reaction("FTHFCL_1")
+    reaction.name = "5-Formyltetrahydrofolate cyclo-ligase"
+    metabolite_dict = {model.metabolites.atp_c: -1,
+                       model.metabolites.get_by_id("5fthf_c"): -1,
+                       model.metabolites.adp_c: 1,
+                       model.metabolites.pi_c: 1,
+                       model.metabolites.methf_c: 1}
+
+    reaction.add_metabolites(metabolite_dict)
+    reaction.annotation["ec-code"] = "6.3.3.2"
+    reaction.annotation["kegg.reaction"] = "R02301"
+    reaction.annotation["origin"] = "KEGG"
+    reaction.gene_reaction_rule = "SCO3183"
+    reaction.bounds = (0, 1000)
+    model.add_reaction(reaction)
+    # return model
+
+
 def add_R02395(model):
     carnitine_c = cobra.Metabolite("carnitine_c", "C7H16NO3", charge = 0, compartment = "c")
+    carnitine_c.name = "Carnitine"
     carnitine_c.annotation["kegg.compound"] = "C00487"
     carnitine_c.annotation["origin"] = "KEGG"
     
     dhdcarn_c = cobra.Metabolite("dhdcarn_c", "C7H14NO3", charge = 0, compartment = "c")
+    dhdcarn_c.name = "3-Dehydrocarnitine"
     dhdcarn_c.annotation["kegg.compound"] = "C02636"
     dhdcarn_c.annotation["origin"] = "KEGG"
 
     model.add_metabolites([carnitine_c, dhdcarn_c])
 
     reaction = cobra.Reaction("CARNOX")
+    reaction.name = "Carnitine:NAD+ 3-oxidoreductase"
     metabolite_dict = {model.metabolites.get_by_id("carnitine_c"): -1,
                        model.metabolites.get_by_id("dhdcarn_c"): 1,
                        model.metabolites.nad_c: -1,
@@ -101,6 +125,7 @@ def add_R02395(model):
     model.add_reaction(reaction)
 
 if __name__ == '__main__':
-    iKS1317_PATH = "C:/Users/snorres/git/gem_sco/iKS1317.xml"
-    model = cobra.io.read_sbml_model(iKS1317_PATH)
+    scoGEM_PATH = "../../ModelFiles/scoGEM.xml"
+    model = cobra.io.read_sbml_model(scoGEM_PATH)
     add_R02395(model)
+    print(model.optimize)
