@@ -72519,8 +72519,8 @@
     - name: s0001
     - annotation: !!omap
       - SBO: SBO:0000252
-- id: scoGEM
-- name: scoGEM
+- id: iKS1317
+- name: iKS1317
 - compartments: !!omap
   - c: Cytoplasm
   - e: Extracellular
