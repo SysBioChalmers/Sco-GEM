@@ -46,8 +46,8 @@ def add_file(sbml_path, file_path, file_type):
 
 
 def main():
-    config_path = osp.join(
-        osp.dirname(__file__), osp.pardir, osp.pardir, "memote.ini")
+    repository_dir = osp.join(osp.dirname(__file__), osp.pardir, osp.pardir)
+    config_path = osp.join(repository_dir, "memote.ini")
     if not osp.exists(config_path):
         LOGGER.warning(
             "No configuration file found. Expected '%s'. Skipping pre-commit.",
@@ -55,11 +55,7 @@ def main():
         return
     config = configparser.ConfigParser()
     config.read(config_path)
-    
-    # Patch by Snorre September 16 2018
-    # model_path = osp.basename(config.get("memote", "model"))
-    model_path = config.get("memote", "model")
-
+    model_path = osp.normpath(osp.join(repository_dir, config.get("memote", "model")))
     if not osp.exists(model_path):
         LOGGER.info("Model '%s' not found, skipping YAML addition.", model_path)
         return
@@ -67,9 +63,7 @@ def main():
     if yaml_path == "default":
         yaml_path = osp.splitext(model_path)[0] + ".yml"
     else:
-        # Patch by Snorre September 16 2018
-        # yaml_path = osp.basename(yaml_path)
-        pass
+        yaml_path = osp.normpath(osp.join(repository_dir, yaml_path))
     add_file(model_path, yaml_path, "yaml")
 
 
