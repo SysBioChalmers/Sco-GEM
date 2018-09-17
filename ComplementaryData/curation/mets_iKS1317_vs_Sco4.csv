@@ -1480,7 +1480,7 @@ mercppyr[c],3-MERCAPTO-PYRUVATE_c,Same metabolite
 ,5-METHYLTHIOINOSINE_c,Sco4 specific
 ,ACETOIN_c,Sco4 specific
 ,ACETOL_c,Sco4 specific
-,ACETONE_c,Sco4 specific
+acetone[c],ACETONE_c,Same metabolite
 ,ACETYL-D-GLUCOSAMINYLDIPHOSPHO-UNDECAPRE_c,Sco4 specific
 ,ACRYLAMIDE_c,Sco4 specific
 ,ACRYLATE_c,Sco4 specific
@@ -1773,8 +1773,8 @@ albflon[c],CPD-9962_c, Same metabolite
 ,CYCLOHEXA-15-DIENE-1-CARBONYL-COA_c,Sco4 specific
 ,CYCLOHEXANOL_c,Sco4 specific
 ,CYCLOHEXANONE_c,Sco4 specific
-,Cytochromes-C-Oxidized_c,Sco4 specific
-,Cytochromes-C-Reduced_c,Sco4 specific
+ficytc[c],Cytochromes-C-Oxidized_c,Same metabolite
+focytc[c],Cytochromes-C-Reduced_c,Same metabolite
 ,D-ALPHABETA-D-HEPTOSE-7-PHOSPHATE_c,Sco4 specific
 ,D-BETA-D-HEPTOSE-1-P_c,Sco4 specific
 ,D-BETA-D-HEPTOSE-17-DIPHOSPHATE_c,Sco4 specific
@@ -1783,7 +1783,7 @@ albflon[c],CPD-9962_c, Same metabolite
 ,D-PROLINE_c,Sco4 specific
 ,D-RIBULOSE_c,Sco4 specific
 ,D-RIBULOSE-1-P_c,Sco4 specific
-,D-SORBITOL-6-P_c,Sco4 specific
+sbt6p[c],D-SORBITOL-6-P_c,Same metabolite
 ,D-XYLONATE_c,Sco4 specific
 ,DEACETYLCEPHALOSPORIN-C_c,Sco4 specific
 ,DEHYDRO-3-DEOXY-L-RHAMNONATE_c,Sco4 specific
@@ -1805,7 +1805,7 @@ albflon[c],CPD-9962_c, Same metabolite
 ,GAMMA-GLUTAMYL-PUTRESCINE_c,Sco4 specific
 ,GERANIAL_c,Sco4 specific
 ,GERANIOL_c,Sco4 specific
-,GLC-6-P_c,Sco4 specific
+g6p_B[c],GLC-6-P_c,Same metabolite
 ,H2SO3_c,Sco4 specific
 cyan[c],HCN_c,Sco4 specific
 ,HISTIDINAL_c,Sco4 specific
@@ -1876,7 +1876,7 @@ sql[c],SQUALENE_c,same metabolite
 ,UDP-4-AMINO-4-DEOXY-L-ARABINOSE_c,Sco4 specific
 ,UDP-L-ARA4-FORMYL-N_c,Sco4 specific
 ,VANILLIN_c,Sco4 specific
-,XYLOSE_c,Sco4 specific
+xyl__D[c],XYLOSE_c,Sco4 specific
 ,4-OXOGLUTARAMATE_c,Sco4 specific
 ,BETA-D-FRUCTOSE_c,Sco4 specific
 ,BETAINE-ALDEHYDE-HYDRATE_c,Sco4 specific
@@ -1906,7 +1906,6 @@ sql[c],SQUALENE_c,same metabolite
 ,ENTEROBACTIN_c,Sco4 specific
 ,ENTEROBACTIN_e,Sco4 specific
 glc__bD[c],,iKS1317 specific
-g6p_B[c],,iKS1317 specific
 q8h2[c],,iKS1317 specific
 q8[c],,iKS1317 specific
 2dglcn[c],,iKS1317 specific
@@ -1998,7 +1997,6 @@ codscl5a[c],,iKS1317 specific
 codscl5b[c],,iKS1317 specific
 urdgci[c],,iKS1317 specific
 hdhk[c],,iKS1317 specific
-sbt6p[c],,iKS1317 specific
 allglutADP[c],,iKS1317 specific
 glutADP[c],,iKS1317 specific
 2sephchc[c],,iKS1317 specific
@@ -2019,7 +2017,6 @@ mmyA[c],,iKS1317 specific
 mmyB[c],,iKS1317 specific
 mmyC[c],,iKS1317 specific
 strprub[c],,iKS1317 specific
-acetone[c],,iKS1317 specific
 C21572[c],,iKS1317 specific
 C21565[c],,iKS1317 specific
 accoa_res[c],,iKS1317 specific
