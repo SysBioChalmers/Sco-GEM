@@ -1,11 +1,13 @@
 import unittest
 import cobra
+import os
 
 class TestScoGem(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.model = cobra.io.read_sbml_model("../ModelFiles/xml/scoGEM.xml")
+        path = os.path.join(os.path.dirname(__file__), "../ModelFiles/xml/scoGEM.xml") 
+        cls.model = cobra.io.read_sbml_model(path)
 
     def test_read(self):
         self.assertTrue(bool(self.model))
