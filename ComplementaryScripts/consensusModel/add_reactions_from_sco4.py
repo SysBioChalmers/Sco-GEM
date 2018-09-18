@@ -14,6 +14,55 @@ import pandas as pd
 from collections import defaultdict
 import re
 
+def add_reactions(sco4_model, scoGEM, reaction_mapping_fn, metabolite_mapping_fn, add_new_metabolites = True):
+    # Apply metabolite mapping to Sco4
+    apply_metabolite_mapping(sco4_model, metabolite_mapping_fn)
+
+    #Read reaction mapping
+    reaction_mapping_df = pd.read_csv(reaction_mapping_fn, header = 0, sep = ";")
+
+    # Get new reactions
+    new_reactions_id_list = list(reaction_mapping_df[reaction_mapping_df["Add"]]["Sco4_ID"])
+
+    scoGEM_reaction_ids = [r.id for r in scoGEM.reactions]
+    N_r = len(scoGEM.reactions)
+    N_m = len(scoGEM.metabolites)
+    N_g = len(scoGEM.genes)
+
+    all_missing = []
+    missing_reaction_dict = defaultdict(list)
+    not_added_reactions = []
+    i = 0
+    for reaction_id in new_reactions_id_list:
+        ascii_reaction_id = insert_ascii(reaction_id)
+        new_reaction = sco4_model.reactions.get_by_id(ascii_reaction_id)
+        new_reaction.annotation["origin"] = "Sco4"
+        if new_reaction.id in scoGEM_reaction_ids:
+            print("Reaction {0} is already in scoGEM".format(new_reaction.id))
+            check_extra_reaction_annotations(scoGEM.reactions.get_by_id(new_reaction.id), new_reaction)
+        else:
+            has_all, missing_metabolites, missing_reactions = check_metabolites(new_reaction, scoGEM)
+            all_missing += missing_metabolites
+            for key, value in missing_reactions.items():
+                missing_reaction_dict[key] += value
+            if has_all or add_new_metabolites:
+                scoGEM.add_reaction(new_reaction)
+                print("Added reaction {0}:{1}".format(new_reaction.id, new_reaction.name))
+                if len(missing_metabolites):
+                    print("\t and added new metabolites: {0}".format(", ".join([m.id for m in missing_metabolites])))
+                i += 1
+            else:
+                not_added_reactions.append(reaction_id)
+
+    # evaluate_missing_reactions(missing_reaction_dict, reaction_mapping_df)
+    print("Added {0} reactions".format(i))
+    print("Previously: {0} metabolites, {1} reactions, {2} genes".format(N_m, N_r, N_g))
+    print("Now: {0} metabolites, {1} reactions, {2} genes".format(len(scoGEM.metabolites), len(scoGEM.reactions), len(scoGEM.genes)))
+    return scoGEM
+
+
+
+
 def insert_ascii(reaction_id):
     return reaction_id.replace("-","__45__").replace("(","__40__").replace(")","__41__").replace(".", "__46__").replace("+", "__43__")
 
@@ -50,50 +99,7 @@ def print_new_reactions(new_reactions_id_list, sco4_model):
     print(df)
     df.to_csv("new_reactions.csv", index = False, sep = ";")
 
-def add_reactions(sco4_model, scoGEM, reaction_mapping_fn, metabolite_mapping_fn, add_new_metabolites = True):
-    # Apply metabolite mapping to Sco4
-    apply_metabolite_mapping(sco4_model, metabolite_mapping_fn)
 
-    #Read reaction mapping
-    reaction_mapping_df = pd.read_csv(reaction_mapping_fn, header = 0, sep = ";")
-
-    # Get new reactions
-    new_reactions_id_list = list(reaction_mapping_df[reaction_mapping_df["Add"]]["Sco4_ID"])
-
-    scoGEM_reaction_ids = [r.id for r in scoGEM.reactions]
-    N_r = len(scoGEM.reactions)
-    N_m = len(scoGEM.metabolites)
-    N_g = len(scoGEM.genes)
-
-    all_missing = []
-    missing_reaction_dict = defaultdict(list)
-    not_added_reactions = []
-    i = 0
-    for reaction_id in new_reactions_id_list:
-        ascii_reaction_id = insert_ascii(reaction_id)
-        new_reaction = sco4_model.reactions.get_by_id(ascii_reaction_id)
-        if new_reaction.id in scoGEM_reaction_ids:
-            print("Reaction {0} is already in scoGEM".format(new_reaction.id))
-            check_extra_reaction_annotations(scoGEM.reactions.get_by_id(new_reaction.id), new_reaction)
-        else:
-            has_all, missing, missing_reactions = check_metabolites(new_reaction, scoGEM)
-            all_missing += missing
-            for key, value in missing_reactions.items():
-                missing_reaction_dict[key] += value
-            if has_all or add_new_metabolites:
-                scoGEM.add_reaction(new_reaction)
-                print("Added reaction {0}:{1}".format(new_reaction.id, new_reaction.name))
-                if len(missing):
-                    print("\t and added new metabolites: {0}".format(", ".join(missing)))
-                i += 1
-            else:
-                not_added_reactions.append(reaction_id)
-
-    # evaluate_missing_reactions(missing_reaction_dict, reaction_mapping_df)
-    print("Added {0} reactions".format(i))
-    print("Previously: {0} metabolites, {1} reactions, {2} genes".format(N_m, N_r, N_g))
-    print("Now: {0} metabolites, {1} reactions, {2} genes".format(len(scoGEM.metabolites), len(scoGEM.reactions), len(scoGEM.genes)))
-    return scoGEM
 
 def check_extra_reaction_annotations(scoGEM_reaction, sco4_reaction):
     # Genes
@@ -169,7 +175,8 @@ def check_metabolites(reaction, scoGEM):
         else:
             print("Missing ", met.id, "in reaction ", reaction.id)
             has_all = False
-            missing.append(met.id)
+            met.annotation["origin"] = "Sco4"
+            missing.append(met)
             missing_reactions[met.id] = [r.id for r in met.reactions if r.id != reaction.id]
 
     return has_all, missing, missing_reactions
