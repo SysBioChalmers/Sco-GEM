@@ -13,10 +13,12 @@ The scoGEM community model of Streptomyces coelicolor is constructed using the t
 
 
 import cobra
+import logging
 
 import fix_iKS1317_issues
 import fix_sco4_issues
 import add_reactions_from_sco4
+import add_missing_gene_annotations
 
 SAVE_PATH = "../../ModelFiles/xml/scoGEM.xml"
 iKS1317_PATH = "../../ComplementaryData/models/iKS1317.xml"
@@ -42,8 +44,12 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
     sco4_model = cobra.io.read_sbml_model(SCO4_PATH)
     fix_sco4_issues.fix(sco4_model)
 
+    ## 1c) Add missing gene annotations in iMK1208 identifed in Sco4 (Raven 2.0)
+    add_missing_gene_annotations.add_gene_annotations(scoGEM)
+
     # Part 2: Add reactions from Sco4
     scoGEM = add_reactions_from_sco4.add_reactions(sco4_model, scoGEM, SCO4_REACTION_MAPPING_FN, SCO4_METABOLITE_MAPPING_FN)
+
 
     # Save model
     ## Version number
@@ -51,4 +57,5 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
 
 
 if __name__ == '__main__':
+    logging.basicConfig(filename='reconstruct_scoGEM.log', level=logging.INFO)
     reconstruct_scoGEM(iKS1317_PATH, SAVE_PATH)

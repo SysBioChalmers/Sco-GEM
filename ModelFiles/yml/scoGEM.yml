@@ -28080,7 +28080,7 @@
       - xylu__D_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: SCO1901
     - annotation: !!omap
       - bigg.reaction: ABTDG
       - biocyc: D-ARABINITOL-4-DEHYDROGENASE-RXN
@@ -30165,7 +30165,7 @@
       - pyr_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: SCO1546
     - annotation: !!omap
       - bigg.reaction: ADCL
       - biocyc: ADCLY-RXN
@@ -49149,7 +49149,7 @@
       - trnagln_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: SCO5547
     - annotation: !!omap
       - bigg.reaction: GLNTRS
       - biocyc: GLUTAMINE--TRNA-LIGASE-RXN
@@ -57759,11 +57759,12 @@
       - h_c: 8.0
       - nh4_c: -1.0
       - no2_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000.0
+    - upper_bound: 0.0
     - gene_reaction_rule: SCO6102
     - annotation: !!omap
       - bigg.reaction: NOR_syn
+      - biocyc: FERREDOXIN--NITRITE-REDUCTASE-RXN
       - ec-code: 1.7.7.1
       - kegg.pathway: Nitrogen metabolism
       - kegg.reaction: R00790
@@ -59256,7 +59257,8 @@
       - oxptn_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO1204 or SCO4780 or SCO7035
+    - gene_reaction_rule: SCO1204 or SCO1612 or SCO1706 or SCO3420 or SCO3486 or SCO4780
+        or SCO5666 or SCO5679 or SCO6441 or SCO6793 or SCO7035 or SCO7139
     - annotation: !!omap
       - bigg.reaction: OXPTNDH
       - biocyc: GLUTARATE-SEMIALDEHYDE-DEHYDROGENASE-RXN
@@ -62558,7 +62560,7 @@
       - pro__L_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: SCO5519
     - annotation: !!omap
       - bigg.reaction: PROD2
       - ec-code: 1.5.99.8
@@ -65937,7 +65939,7 @@
       - rml1p_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: SCO0813
     - annotation: !!omap
       - bigg.reaction: RMPA
       - biocyc: RHAMNULPALDOL-RXN
@@ -72314,7 +72316,7 @@
       - thrp_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: SCO1859
     - annotation: !!omap
       - bigg.reaction: THRPDC
       - biocyc: 4.1.1.81-RXN
@@ -75355,8 +75357,6 @@
   - !!omap
     - id: SCO0813
     - name: SCO0813
-    - annotation: !!omap
-      - SBO: SBO:0000252
   - !!omap
     - id: SCO0814
     - name: SCF43A.04
@@ -76090,8 +76090,6 @@
   - !!omap
     - id: SCO1901
     - name: SCO1901
-    - annotation: !!omap
-      - SBO: SBO:0000252
   - !!omap
     - id: SCO1912
     - name: SCI7.30
@@ -78533,6 +78531,9 @@
     - id: SCO5515
     - name: SC8D9.27, serA
   - !!omap
+    - id: SCO5519
+    - name: SCO5519
+  - !!omap
     - id: SCO5520
     - name: SC1C2.01, SC8D9.32
   - !!omap
@@ -79241,8 +79242,6 @@
   - !!omap
     - id: SCO6441
     - name: SCO6441
-    - annotation: !!omap
-      - SBO: SBO:0000252
   - !!omap
     - id: SCO6442
     - name: SCO6442
@@ -79571,8 +79570,6 @@
   - !!omap
     - id: SCO6793
     - name: SCO6793
-    - annotation: !!omap
-      - SBO: SBO:0000252
   - !!omap
     - id: SCO6799
     - name: tdh
@@ -79774,8 +79771,6 @@
   - !!omap
     - id: SCO7139
     - name: SCO7139
-    - annotation: !!omap
-      - SBO: SBO:0000252
   - !!omap
     - id: SCO7153
     - name: SC9A4.15
