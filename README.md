@@ -1,5 +1,10 @@
 # scoGEM
 
+## Naming conventions
+We try to use IDs for reactions, metabolites and genes according to the standards used in the BiGG database, as described in 
+Zachary A. King et al al; BiGG Models: A platform for integrating, standardizing and sharing genome-scale models, Nucleic Acids Research, 2016,  https://doi.org/10.1093/nar/gkv1049
+This is described in Supplementary S4, and this pdf is also available in /ComplementaryData/curation/naming_standards_BiGG.pdf
+
 Congratulations! You successfully set up your genome-scale metabolic model
 repository.
 
@@ -27,6 +32,7 @@ to do is:
 2. Create an account at https://travis-ci.org using your GitHub account.
 3. Run `memote online`.
 4. A history report will be publicly visible at https://edkerk.github.io/scoGEM.
+
 
 ---
 
