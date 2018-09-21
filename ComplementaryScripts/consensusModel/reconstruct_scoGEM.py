@@ -44,7 +44,7 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
     sco4_model = cobra.io.read_sbml_model(SCO4_PATH)
     fix_sco4_issues.fix(sco4_model)
 
-    ## 1c) Add missing gene annotations in iMK1208 identifed in Sco4 (Raven 2.0)
+    ## 1c) Add missing / changeds gene annotations in iMK1208 identifed in Sco4 / and by Snorre 21.09.2018
     add_missing_gene_annotations.add_gene_annotations(scoGEM)
 
     # Part 2: Add reactions from Sco4
