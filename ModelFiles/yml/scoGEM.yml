@@ -34997,7 +34997,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: SCO2273
     - annotation: !!omap
       - bigg.reaction: CBIabc
       - ec-code: ''
@@ -35018,7 +35018,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: SCO2273
     - annotation: !!omap
       - bigg.reaction: CBL1abc
       - biocyc: META:ABC-5-RXN
@@ -37486,7 +37486,7 @@
       - pi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO6460
+    - gene_reaction_rule: SCO0164 or SCO6460
     - annotation: !!omap
       - bigg.reaction: CU2abc
       - ec-code: ''
@@ -50656,7 +50656,7 @@
       - h_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: SCO3915 or SCO0079
     - annotation: !!omap
       - bigg.reaction: GSNt2
       - biocyc: RXN0-22
@@ -53000,7 +53000,7 @@
       - ins_e: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: SCO3915 or SCO0079
     - annotation: !!omap
       - bigg.reaction: INSt2
       - biocyc: TRANS-RXN-108G
@@ -60243,8 +60243,9 @@
       - pyr_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ( SCO2183 or SCO2371 or SCO7124 or ( SCO1269 and SCO1270
-        ) ) and ( SCO3815 or SCO3829 ) and ( SCO0884 or SCO2180 or SCO4919 )
+    - gene_reaction_rule: SCO1269 and SCO1270 and ( SCO2183 or SCO2371 or SCO7124
+        ) and ( SCO0884 or SCO04919 or SCO2180 ) and ( SCO1268 or SCO7123 or SCO2181
+        )
     - annotation: !!omap
       - bigg.reaction: PDH
       - biocyc: PYRUVDEH-RXN
@@ -74913,6 +74914,9 @@
     - id: SCO0063
     - name: SCO0063
   - !!omap
+    - id: SCO0079
+    - name: SCO0079
+  - !!omap
     - id: SCO0103
     - name: SCO0103
     - annotation: !!omap
@@ -74930,6 +74934,9 @@
   - !!omap
     - id: SCO0158
     - name: SCJ1.07
+  - !!omap
+    - id: SCO0164
+    - name: SCO0164
   - !!omap
     - id: SCO0171
     - name: SCJ1.20
@@ -75150,6 +75157,9 @@
   - !!omap
     - id: SCO0491
     - name: SCF34.10c
+  - !!omap
+    - id: SCO04919
+    - name: SCO04919
   - !!omap
     - id: SCO0493
     - name: SCF34.12c
@@ -77499,6 +77509,9 @@
   - !!omap
     - id: SCO3899
     - name: SCH24.21c
+  - !!omap
+    - id: SCO3915
+    - name: SCO3915
   - !!omap
     - id: SCO3920
     - name: cysA, SCQ11.03c
