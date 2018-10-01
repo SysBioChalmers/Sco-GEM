@@ -149,6 +149,7 @@ def change_biomass(iAA1259_model, scoGEM):
     scoGEM.reactions.BIOMASS_SCO_tRNA.add_metabolites(changed_mets)
     
     scoGEM.reactions.BIOMASS_SCO.annotation["origin"] = "iAA1259"
+    scoGEM.reactions.BIOMASS_SCO.name = "S. coelicolor biomass objective function - with 75.79 GAM estimate"
     scoGEM.reactions.BIOMASS_SCO_tRNA.annotation["origin"] = "iAA1259"
     print("Changed biomass according to iAA1259")
     return scoGEM
