@@ -205,19 +205,111 @@ def replace_metabolite(old_id, new_id, sco4_model):
         coeff = r.get_coefficient(old_id)
         r.add_metabolites({old_m: -coeff, new_m: coeff})
 
+def map_new_reactions_using_BiGG():
+    BIGG_REACTIONS_FN = "../../ComplementaryData/curation/bigg_models_reactions.txt"
+    NEW_REACTIONS_FN = "../../ComplementaryData/curation/added_sco4_reactions.csv"
+    bigg_df = pd.read_csv(BIGG_REACTIONS_FN, sep = "\t")
+    # bigg_df.drop("model_list", inplace = True)
+
+    new_reactions_df = pd.read_csv(NEW_REACTIONS_FN, sep = ";")
+    
+    bigg_df["KEGG Reaction"] = None
+    bigg_df["MetaNetX (MNX) Equation"] = None
+    bigg_df["BioCyc"] = None
+    for idx, row in bigg_df.iterrows():
+        if not isinstance(row["database_links"], str):
+            # print(type(row["database_links"]), row["database_links"])
+            continue
+
+        for link in row["database_links"].split(";"):
+            db, full_key = link.split(":", maxsplit = 1)
+            key = full_key.split("/")[-1]
+            # print("{0}: {1}".format(db, key),  end= "\t")
+            if db in ["KEGG Reaction", "MetaNetX (MNX) Equation", "BioCyc"]:
+                row[db] = key
+                # print(bigg_df.loc[idx])
+
+
+    print(bigg_df["KEGG Reaction"][bigg_df["KEGG Reaction"].str[0] == "R"])
+
+    new_reactions_df["Fixed ID"] = new_reactions_df["Reaction ID"].apply(replace_ascii)
+    print(new_reactions_df)
+
+    # merged = new_reactions_df.merge(bigg_df, how = "left", left_on = ["Fixed ID", "KEGG annotation"], right_on = ["bigg_id", "KEGG Reaction"])
+    # print(merged["bigg_id"])
+    # merged = new_reactions_df.merge(bigg_df, how = "left", left_on = "Fixed ID", right_on = "BioCyc")
+    merged = pd.merge(left = new_reactions_df, right = bigg_df, how = "left", left_on = "KEGG annotation", right_on = "KEGG Reaction")
+    print(merged)
+
+    for i, row in new_reactions_df.iterrows():
+        kegg_id = row["KEGG annotation"]
+        print(kegg_id)
+        if isinstance(kegg_id, float):
+            continue
+        if isinstance(kegg_id, str):
+            kegg_id = [kegg_id]
+        for kegg_id_i in kegg_id:
+            if kegg_id_i in bigg_df["KEGG Reaction"]:
+                print("###!")
+
+    for i, row in new_reactions_df.iterrows():
+        biocyc_id = row["Fixed ID"]
+        print(biocyc_id)
+        if biocyc_id in bigg_df["BioCyc"]:
+            print("#############")
+
+
+def map_reactions_using_metanetx():
+    bigg_metanetx_fn = "../../ComplementaryData/curation/metanetx_reaction_ref.tsv"
+    NEW_REACTIONS_FN = "../../ComplementaryData/curation/added_sco4_reactions.csv"
+    mnx_df = pd.read_csv(bigg_metanetx_fn, sep = "\t")
+    new_reactions_df = pd.read_csv(NEW_REACTIONS_FN, sep = ";")
+    new_reactions_df["Fixed ID"] = new_reactions_df["Reaction ID"].apply(replace_ascii)
+
+    merged = new_reactions_df.merge(mnx_df, how = "left", left_on = "Fixed ID", right_on = "metacyc")
+    # print(merged)
+    # unmerged_idx = merged["metacyc"].isnull()
+    # merged[unmerged_idx] = pd.merge(left = merged[unmerged_idx], right = mnx_df, how = "left", left_on = "KEGG annotation", right_on = "kegg")
+
+
+
+    # merged = merged.merge(mnx_df, how = "left", left_on = "KEGG annotation", right_on = "kegg")
+    merged.to_csv("../../ComplementaryData/curation/added_sco4_reactions2.csv", columns = ["Reaction ID", "Fixed ID", "Reaction name", "KEGG annotation", "metanetx", "bigg", "New ID"], index = False, sep = ";")
+
+    # print(mnx_df["kegg"])
+    # for i, row in new_reactions_df.iterrows():
+    #     kegg_id = row["KEGG annotation"]
+    #     if isinstance(kegg_id, float):
+    #         continue
+    #     print(kegg_id)
+    #     if isinstance(kegg_id, str):
+    #         kegg_id = [kegg_id]
+    #     for kegg_id_i in kegg_id:
+    #         print(mnx_df[mnx_df["kegg"].str.contains(kegg_id_i, na = False)])
+
+    # for i, row in new_reactions_df.iterrows():
+    #     biocyc_id = row["Fixed ID"]
+    #     print(biocyc_id)
+    #     if biocyc_id in mnx_df["metacyc"]:
+    #         print("#############")
+
+
+
+    
 
 if __name__ == '__main__':
-    SCO4_PATH = "../../ComplementaryData/models/Sco4.xml"
-    sco4_model = cobra.io.read_sbml_model(SCO4_PATH)
+    # SCO4_PATH = "../../ComplementaryData/models/Sco4.xml"
+    # sco4_model = cobra.io.read_sbml_model(SCO4_PATH)
 
-    MODEL_PATH = "../../ModelFiles/xml/scoGEM.xml"
-    scoGEM = cobra.io.read_sbml_model(MODEL_PATH)
+    # MODEL_PATH = "../../ModelFiles/xml/scoGEM.xml"
+    # scoGEM = cobra.io.read_sbml_model(MODEL_PATH)
 
     reaction_mapping_fn = "../../ComplementaryData/curation/rxns_iKS1317_vs_Sco4.csv"
     metabolite_mapping_fn = "../../ComplementaryData/curation/mets_iKS1317_vs_Sco4.csv"
     
 
-    logging.basicConfig(filename='add_reactions_from_sco4.log', level=logging.INFO)
-    scoGEM = add_reactions(sco4_model, scoGEM, reaction_mapping_fn, metabolite_mapping_fn)
-    cobra.io.write_sbml_model(scoGEM, MODEL_PATH)
+    # logging.basicConfig(filename='add_reactions_from_sco4.log', level=logging.INFO)
+    # scoGEM = add_reactions(sco4_model, scoGEM, reaction_mapping_fn, metabolite_mapping_fn)
+    # cobra.io.write_sbml_model(scoGEM, MODEL_PATH)
 
+    map_reactions_using_metanetx()
