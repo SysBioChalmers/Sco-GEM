@@ -1,0 +1,402 @@
+Reaction ID	Reaction name	KEGG annotation	New ID	MNXID	BIGGID
+RXN__45__17569	acetone 1-monooxygenase			MNXR121004	
+RXN__45__8783	gluconolactonase	R02933		MNXR100250	GLNLASEer
+FUCPALDOL__45__RXN	L-fuculose-phosphate aldolase;fuculose-1-phosphate aldolase	R02262		MNXR99470	FCLPA
+TRE6PHYDRO__45__RXN	trehalose-6-phosphate hydrolase	R00837		MNXR104925	TRE6PH
+RXN__45__17568	propane 2-monooxygenase	R10702		MNXR114022	
+2__46__7__46__1__46__121__45__RXN	dihydroxyacetone kinase	R01012		MNXR97364	DHAPT
+BENZOYLFORMATE__45__DECARBOXYLASE__45__RXN	benzoylformate carboxy-lyase	R01764		MNXR107162	
+RXN__45__18387	4-hydroxybutyrate:CoA ligase (ADP-forming)	R10758		MNXR114074	
+BETA__45__UREIDOPROPIONASE__45__RXN	beta-ureidopropionase;beta-alanine synthase	R00905		MNXR96347	UPPN
+RXN__45__11565	carboxynorspermidine dehydrogenase	R09080		MNXR112525	
+STREPTOMYCIN__45__6__45__KINASE__45__RXN	streptomycin 6-kinase	R02225		MNXR107388	
+SS__45__BUTANEDIOL__45__DEHYDROGENASE__45__RXN	"(S,S)-butanediol dehydrogenase;[(S,S)-2,3-butanediol-forming]-(S)-acetoin reductase;(S)-acetoin reductase [(S,S)-2,3-butanediol forming];[(S)-acetoin forming]-(S,S)-2,3-butanediol dehydrogenase"	R02344		MNXR108359	
+RXN__45__11081	decaprenyl-phosphoryl-2-keto-beta-D-erythro-pentofuranose reductase;decaprenylphospho-beta-D-erythro-pentofuranosid-2-ulose 2-reductase	R10113		MNXR113488	
+SOLDEHYD__45__RXN	4-sulfobenzyl alcohol dehydrogenase	R05271		MNXR109444	
+RXN__45__15902	D-galactarolactone cycloisomerase	R10847		MNXR114162	
+GUANIDINOBUTYRASE__45__RXN	guanidinobutyrase;guanidinobutyrate amidinohydrolase	R01990		MNXR100467	GUDBUTNAH
+RXN__45__11080	decaprenylphospho-beta-D-ribofuranose 2-dehydrogenase	R10112		MNXR113487	
+RXN__45__12931	"dTDP-4-oxo-2,6-dideoxy-D-glucose 3-C-methyltransferase"			MNXR117811	
+RXN__45__12398	XXLG xyloglucan oligosaccharide beta-galactosidase			MNXR117526	
+MHPHYDROXY__45__RXN	3-(3-hydroxyphenyl)propanoate hydroxylase	R06786		MNXR94903	3HPPPNH
+RXN__45__15819	(-)-dehydrodiconiferyl aldehyde dehydrogenase			MNXR119648	
+AMINOBENZCOALIG__45__RXN	2-aminobenzoate-CoA ligase;anthranilate-CoA ligase;anthranilate-coenzyme A ligase	R00982		MNXR106771	
+RXN__45__9990	cytidine 5'-monophosphate N-acetylneuraminate synthetase	R01117		MNXR123098	
+UROPORIIIMETHYLTRANSA__45__RXN	uroporphyrin-III (C2)-methyltransferase;uroporphyrinogen-III (C2)-methyltransferase;uroporphyrinogen-III C-methyltransferase;S-adenosyl-L-methionine:uroporphyrinogen-III C-methyltransferase	R07237		MNXR110922	
+RXN__45__8460	"4,5-DOPA dioxygenase extradiol;4,5-DOPA-dioxygenase"	"['R02075', 'R08836']"		MNXR107298	
+RXN__45__9932	"3,3'-biflaviolin synthase"	R08912		MNXR112403	
+RXN__45__13783_NADPH	ornithine N-hydroxylase (NADPH)	R10789		MNXR114105	
+RXN__45__9931	"1,3,6,8-tetrahydroxynaphthalene synthase"	R10965		MNXR114272	
+RXN__45__12752	NADHX epimerase	R10280		MNXR113637	
+RXN__45__17129	hydroxysqualene synthase	R11410		MNXR114707	
+RXN__45__10901	"(+)-(alphaS,betaS)-guaiacylglycerol-beta-guaiacyl ether dehydrogenase"			MNXR116580	
+RXN__45__15586	"1,3,6,8-tetrahydroxynaphthalene monooxygenase (quinone-forming)"			MNXR119468	
+RXN__45__17615	tert-butyl formate deformylase			MNXR121038	
+RXN__45__1126	trans-caffeate:CoA ligase;caffeate coenzyme A ligase;caffeate-CoA ligase;trans-caffeate coenzyme A ligase;caffeoyl-CoA synthetase;trans-caffeate--CoA ligase	R01943		MNXR96446	CAFFCOA
+FORMIMINOGLUTAMATE__45__DEIMINASE__45__RXN	formiminoglutamate deiminase	R02286		MNXR99617	FORGLUIH
+RXN__45__10035	5-methylthioadenosine deaminase;S-methyl-5'-thioadenosine deaminase	R09660		MNXR113074	
+FHLMULTI__45__RXN	formate hydrogenlyase complex			MNXR99594	FHL
+RXN__45__15585	flaviolin monooxygenase			MNXR119467	
+RXN__45__13072	2-oxoglutaramate amidase;2-ketoglutaramate amidase;2-oxoglutaramate omega-amidase	R00269	2OGLUAH	MNXR105306	r0085
+RXN__45__12976	2-methylisoborneol synthase	R09973		MNXR113366	
+RXN__45__15892_NADPH	"3,6-anhydro-L-galactose dehydrogenase (NADPH)"				
+RXN__45__8582	4-tolualdehyde dehydrogenase			MNXR95031	4MBZDH
+AMINO__45__CARBOXYMUCONATE__45__SEMIALDEHYDE__45__RXN	2-amino-3-carboxymuconate 6-semialdehyde decarboxylase;2-amino-3-carboxymuconate-6-semialdehyde decarboxylase;2-amino 3-carboxymuconate 6-semialdehyde decarboxylase;aminocarboxymuconate-semialdehyde decarboxylase	R04323		MNXR115698	
+PYRIDOXINE__45__4__45__DEHYDROGENASE__45__RXN	pyridoxal reductase;pyridoxine 4-dehydrogenase/pyridoxal reductase	R01708		MNXR103366	PYDXOR
+RXN__45__8024_NADPH	all-trans phytofluene desaturase (NADPH)	R04787			
+RXN__45__663	cumic aldehyde dehydrogenase	R05235		MNXR109411	
+LINC__45__RXN	"2,5-dichloro-2,5-cyclohexadiene-1,4-diol dehydrogenase"	R05243		MNXR109418	
+RXN0__45__6727	(S)-NADHX dehydratase	R10267		MNXR113625	
+RXN__45__11211	dihydrothymine hydrolase;dihydrothymine amidohydrolase;dihydrothyminidase	R03055		MNXR116784	
+1__46__2__46__1__46__66__45__RXN	mycothiol-dependent formaldehyde dehydrogenase	R09129		MNXR112566	
+RXN__45__16308	O-[5-(oxidonitroso)-4-oxocyclohex-2-en-1-ylidenenitroso]oxidanidolate reductase			MNXR120004	
+DARABALDOL__45__RXN	D-ribulose-phosphate aldolase			MNXR115814	
+RXN__45__8003_NADPH	cis-4-hydroxy-D-proline dehydrogenase;D-hydroxyproline dehydrogenase (NADPH)				
+XYLONATE__45__DEHYDRATASE__45__RXN	D-xylonate dehydratase	R02429		MNXR107501	
+RXN__45__15264	aminodeoxyfutalosine synthase	R10667		MNXR113988	
+RXNARA__45__8002	phytoene synthase	R07270		MNXR108741	
+RXN__45__17645	(25S)-3-oxocholest-4-en-26-oyl-CoA racemase			MNXR121061	
+RXN__45__9832	S-1-(4-hydroxyphenyl)-ethanol dehydrogenase;cyclohexanol dehydrogenase	R06891		MNXR123017	
+RXN__45__14536	2-chloroacrylate reductase	R10418		MNXR113760	
+HYDROXYPYRUVATE__45__REDUCTASE__45__RXN_NADPH	hydroxypyruvate reductase;hydroxypyruvate reductase Me (NADPH)	R01392		MNXR100336	HPYRR
+RXN__45__13533	aminobacteriohopanetriol synthase			MNXR118154	
+2__46__4__46__1__46__83__45__RXN	dolichyl-phosphate mannose synthase;dolichol phosphate mannose synthase	R01009		MNXR115158	
+RXN__45__16912	guadinomine carbamoyltransferase			MNXR120493	
+RXN0__45__3921	gamma-glutamylputrescine oxidase	R07415		MNXR111058	
+RXN__45__12921	"dTDP-4-oxo-2,6-dideoxy-D-glucose 4-ketoreductase (dTDP-D-olivose producing)"			MNXR117809	
+ANTHRANILOYL__45__COA__45__MONOOXYGENASE__45__RXN_NADPH	2-amninobenzoyl-CoA monooxygenase/reductase (NADPH)	R03999		MNXR108579	
+RXN__45__12900	trimethylamine monooxygenase	R05623		MNXR109720	
+RXN__45__16262	"dTDP-3,4-diketo-2,6-dideoxy-D-glucose 3-ketoreductase;dTDP-2,6-dideoxy-D-glycero-hex-2-enos-4-ulose 3-ketoreductase;dTDP-3,4-didehydro-2,6-dideoxy-alpha-D-glucose reductase"	R05526		MNXR109656	
+RXN__45__8959	(2S)-methylsuccinyl-CoA dehydrogenase			MNXR122568	
+RXN__45__15131	cystathionine beta-lyase;L-cystathione beta-lyase;cystathionine-beta-lyase			MNXR119158	
+CHOLESTEROL__45__OXIDASE__45__RXN	cholesterol oxidase	R01459		MNXR107006	
+RXN__45__12707_NADPH	3-oxochol-4-en-24-oyl-CoA dehydrogenase (NADPH)				
+RXN__45__18036	undecaprenyl phosphate-N-acetyl-alpha-D-glucosamine transferase			MNXR121352	
+2__46__1__46__1__46__137__45__RXN	S-adenosyl-L-methionine:arsenite As-methyltransferase	R05755		MNXR109811	
+THIOSULFATE__45__SULFURTRANSFERASE__45__RXN	thiosulfate sulfurtransferase;thiosulfate-sulfurtransferase;thiosulfite-cleaving enzyme	R01931		MNXR96956	CYANST
+HYDROXYBENZOYLFORMATE__45__DECARBOXYLASE__45__RXN	p-hydroxybenzoylformate carboxy-lyase;benzoylformate decarboxylase	R02672		MNXR107657	
+RXN__45__865	benzylsuccinyl-CoA dehydrogenase			MNXR122413	
+RXN0__45__4341	heptose 7-phosphate kinase	R05646		MNXR109732	
+RXN__45__12940_NADPH	"dTDP-(2R,6S)-6-hydroxy-2-methyl-3-oxo-3,6-dihydro-2H-pyran-4-olate 3-ketoreductase (dTDP-4-dehydro-2,6-dideoxy-alpha-D-allose-forming) (NADPH)"	R11051		MNXR114354	
+RXN__45__15907	D-glucarolactone cycloisomerase	R11083		MNXR114384	
+RXN__45__12402	isoprimeverose alpha-xylosidase			MNXR117529	
+RXN__45__10996	hydroxycadaverine acyl transferase;hydroxycadaverine succinyl-transferase			MNXR116635	
+RXN__45__16164_NADPH	GDP-6-deoxy-4-keto-D-lyxo-heptose 4-reductase (NADPH)				
+RXN__45__9910	3-chlorobenzaldehyde dehydrogenase			MNXR123073	
+RXN__45__14196	carbamate phosphorylase	R01395		MNXR106966	
+RXN__45__8824	4-hydroxy-2-keto-5-methyl-6-oxo-3-hexenoate hydrolase			MNXR122501	
+RXN__45__15590	L-lyxonate dehydratase			MNXR119472	
+TRANS__45__L__45__3__45__HYDROXYPROLINE__45__DEHYDRATASE__45__RXN	trans-3-hydroxy-L-proline dehydratase	R04374		MNXR108851	
+RXN__45__17982	pretetramide C-6-methyltransferase	R09189		MNXR112626	
+BENZYL__45__ALC__45__DEHYDROGENASE__45__RXN	benzyl alcohol dehydrogenase	R01763		MNXR96362	BZALDH
+RXN__45__12654	1-deoxy-11-oxopentalenate oxygenase	R10154		MNXR113520	
+RXN__45__11566	carboxyspermidine dehydrogenase	R09079		MNXR96936	CSPMDDH
+RXN__45__11187	mycothiol-arsenate ligase			MNXR116769	
+RXN__45__15924	L-galactose dehydrogenase			MNXR119713	
+4__46__1__46__1__46__86__45__RXN	"L-2,4-diaminobutyrate decarboxylase"	R07650		MNXR111249	
+RXN__45__16964	2-dehydro-3-deoxy-L-galactonate 5-dehydrogenase	R11035		MNXR114338	
+4__45__HYDROXYBENZOATE__45__3__45__MONOOXYGENASE__45__RXN	p-hydroxybenzoate hydroxylase;4-hydroxybenzoate hydroxylase	R01298		MNXR95009	4HBHYOX
+RXN__45__12399	XLXG xyloglucan oligosaccharide beta-galactosidase			MNXR117527	
+RXN__45__12975	geranyl diphosphate 2-C-methyltransferase	R09940		MNXR113337	
+RXN__45__14431	L-histidine Nalpha-methyltransferase	R01169		MNXR106850	
+RXN__45__8581	4-methylbenzyl alcohol dehydrogenase	R05282		MNXR95030	4MBZALDH
+RXN__45__11861	"gallate:oxygen 3,4-oxidoreductase"	R03549		MNXR108242	
+4__45__NITROPHENOL__45__2__45__MONOOXYGENASE__45__RXN	4-nitrophenol 2-monooxygenase	R03023		MNXR107895	
+RXN__45__16310	O-[3-nitro-5-(oxidonitroso)-4-oxocyclohex-2-en-1-ylidenenitroso]oxidanidolate reductase			MNXR120006	
+RXN__45__9933	"3,8'-biflaviolin synthase"	R08913		MNXR112404	
+RXN__45__8023_NADPH	phytoene desaturase;all-trans-phytoene desaturase;15-cis-phytoene desaturase (NADPH)				
+RXN0__45__1862	UDP-4-amino-4-deoxy-L-arabinose formyltransferase	R07660		MNXR105113	ULA4NFT
+MALYL__45__COA__45__LYASE__45__RXN	malyl-CoA lyase;malyl coenzyme A lyase;(S)-malyl-CoA lyase;L-malyl CoA lyase	R00473		MNXR106546	
+RXN__45__8964	succinyl CoA:L-malate CoA transferase	R00406		MNXR106517	
+RXN__45__11002	succinate semialdehyde reductase;succinate semialdehyde reductase (NADPH)	R09281		MNXR100141	GHBDHy
+RXN__45__8568	acryloyl-CoA reductase	R10161		MNXR113527	
+RXN0__45__1861	UDP-glucuronate dehydrogenase	R07658		MNXR105064	UDPGDC
+RXN__45__8781_NADPH	L-sorbosone dehydrogenase (NADPH)				
+RXN__45__10898	"(-)-(alphaS,betaR)-guaiacylglycerol-beta-guaiacyl ether dehydrogenase"			MNXR116577	
+GDP__45__MANNOSE__45__6__45__DEHYDROGENASE__45__RXN	GDP-mannose 6-dehydrogenase;GDP-mannose dehydrogenase	R00880		MNXR106733	
+RXN__45__13129	4-hydroxyacetophenone monooxygenase	R06892		MNXR110620	
+RXNDQC__45__2	indole-3-pyruvate monooxygenase	R10181		MNXR113547	
+RXN__45__1884	L-galactose dehydrogenase	R07675		MNXR111270	
+TRYPTOPHAN__45__2__45__MONOOXYGENASE__45__RXN	tryptophan 2-monooxygenase;tryptophan 2'-monooxygenase	R00679		MNXR106639	
+RXN__45__17612	methyl tert-butyl ether monooxygenase			MNXR121036	
+GLCNACPTRANS__45__RXN	UDP-N-acetylglucosaminemdashundecaprenyl-phosphate N-acetylglucosaminephosphotransferase;undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase	R08856		MNXR95251	ACGAMT
+RXN__45__11791	undecaprenyl-phosphate glucose phosphotransferase			MNXR117153	
+RXN__45__14724	succinyl-CoA-glutarate CoA-transferase			MNXR118875	
+RXN__45__8743	methyl parathion hydrolase			MNXR122461	
+RXN__45__18404	tetrachlorobenzoquinone reductase			MNXR129302	
+FRUCTOSE__45__6__45__PHOSPHATE__45__PHOSPHOKETOLASE__45__RXN	D-fructose-6-phosphate D-erythrose-4-phosphate-lyase (adding phosphate acetyl-phosphate-forming);fructose-6-phosphate phosphoketolase;D-fructose 6-phosphate phosphoketolase	R00761		MNXR106669	
+6__46__3__46__2__46__7__45__RXN	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--lysine ligase;UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--L-lysine ligase	"['R02786', 'R02785']"		MNXR105015	UAAGLS2
+ACETOLACTREDUCTOISOM__45__RXN	"2,3-dihydroxy-isovalerate:NADP+ oxidoreductase (isomerizing);(R)-2,3-dihydroxy-3-methylbutanoate isomeroreductase"	R04439		MNXR97523	KARA1
+RXN__45__11210	3-amino-isobutyrate synthase;beta-ureidopropionase;3-ureido-isobutyrate amidohydrolase	R04666		MNXR109033	
+2__45__AMINOADIPATE__45__AMINOTRANSFERASE__45__RXN	alpha-aminoadipate aminotransferase;L-2-aminoadipate aminotransferase;2-aminoadipate-2-oxoglutarate aminotransferase	R01939		MNXR95160	AATA
+RXN__45__15920	L-gulonate 5-dehydrogenase	R10848		MNXR114163	
+RXN__45__9718	acetoin dehydrogenase	R09524		MNXR112943	
+RXN__45__15893	"3,6-anhydro-L-galactonate cycloisomerase"	R10900		MNXR114212	
+BENZALDEHYDE__45__DEHYDROGENASE__45__NAD__43____45__RXN	benzaldehyde dehydrogenase;4-hydroxybenzaldehyde dehydrogenase	R01419		MNXR96365	BZDH
+RXN__45__8583	3-tolualdehyde dehydrogenase		3TOLDHD	MNXR94915	3MBZDH
+RXN__45__11968	geraniol dehydrogenase;geraniol dehydrogenase (NAD+)	R10308		MNXR113664	
+4__45__COUMARATE__45____45__COA__45__LIGASE__45__RXN	4-coumarate coenzyme A ligase;4-coumarate:CoA ligase;4-coumaroyl-CoA synthetase;4-coumarate-CoA ligase;4-coumarate--CoA ligase	R01616		MNXR94998	4CMCOAS
+DIHYDROPYRIMIDINASE__45__RXN	"dihydropyrimidase;5,6-dihydrouracil dihydropyrimidinase;dihydrouracil hydrolase;dihydrouracil amidohydrolase"	R02269		MNXR97432	DHPM1
+BUTYRYL__45__COA__45__DEHYDROGENASE__45__RXN	butyryl-CoA dehydrogenase;butanoyl-CoA dehydrogenase	R01178		MNXR115742	
+DIENOYLCOAREDUCT__45__RXN	"2,4-dienoyl-CoA reductase"			MNXR115833	
+RXN__45__8182	glutarate semialdehyde dehydrogenase	R10982		MNXR114287	
+RXN__45__14429	gamma-glutamyl-hercynylcysteine sulfoxide hydrolase	R11021		MNXR114325	
+DEHYDDEOXGALACTKIN__45__RXN	2-dehydro-3-deoxygalactonokinase	R03387		MNXR97213	DDGALK
+URONATE__45__DEHYDROGENASE__45__RXN	D-galacturonate dehydrogenase	R01981		MNXR124094	
+R125__45__RXN	"3-keto-5-aminohexanoate cleavage enzyme;3-keto,5-aminohexanoate cleavage enzyme"	R10564		MNXR113893	
+RXN1F__45__20	magnesium chelatase	R03877		MNXR101721	MPML
+1__46__14__46__13__46__8__45__RXN	dimethylaniline monooxygenase	R03344		MNXR108107	
+RXN__45__8060	"Ni-sirohydrochlorin a,c-diamide synthase"				
+RXN__45__14395	"L-gulono-1,4-lactone dehydrogenase"			MNXR118666	
+GLYCOLATE__45__REDUCTASE__45__RXN	glycolate dehydrogenase;glyoxylate reductase	R00717		MNXR100331	GLYCLTD
+RXN__45__10139	L-tryptophan:pyruvate aminotransferase;tryptophanmdashpyruvate aminotransferase	R10180		MNXR113546	
+RXN__45__11407	D-glucuronate dehydrogenase	R09447		MNXR116911	
+GALLATE__45__DECARBOXYLASE__45__RXN	gallate decarboxylase	R03247		MNXR108044	
+ALANINE__45____45__GLYOXYLATE__45__AMINOTRANSFERASE__45__RXN	alanine:glyoxylate aminotransferase;alanine--glyoxylate aminotransferase;serine--pyruvate aminotransferase	R00369		MNXR95618	AGT
+RXN__45__8	polyamine aminotransferase;putrescine aminotransferase	R08714		MNXR112228	
+COLCYD__45__RXN	4-carboxybenzyl alcohol dehydrogenase			MNXR115784	
+CDPDIGLYSYN__45__RXN	phosphatidate cytidylyltransferase;CDP-diacylglycerol synthase;CTP:phosphatidate cytidyltransferase	R01799		MNXR115751	
+RXN__45__5921_NADPH	carnitine monooxygenase (NADPH)				
+RIBITOL__45__2__45__DEHYDROGENASE__45__RXN	ribitol dehydrogenase	R01895		MNXR103437	RBTDG
+RXN__45__11805	"beta-D-glucoronate-(1,2)-alpha-D-mannosyl-(1,3)-beta-D-glucosyl-(1,4)-alpha-D-glucosyl-diphosphoundecaprenol glucosyltransferase"				
+1__46__1__46__1__46__127__45__RXN	"2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase;2,5-didehydro-3-deoxy-L-galactonate 5-reductase;2-keto-3-deoxy-D-gluconate dehydrogenase"	R01542		MNXR107048	
+RXN__45__17143	3-hydroxykynurenate reductase/dehydratase			MNXR120686	
+RXN0__45__5398	pseudouridine-5'-phosphate glycosidase	R01055		MNXR106808	
+RXN66__45__81	nicotine monooxygenase			MNXR123801	
+RXN__45__14671	3-dimethylallyl-4-hydroxyphenylpyruvate oxygenase	R06758		MNXR110510	
+RXN__45__17165	"2,4-dihydroxy-5-methyl-6-oxohexa-2,4-dienoate isomerase"			MNXR120707	
+L__45__ARABINONATE__45__DEHYDRATASE__45__RXN	L-arabinonate dehydratase;L-arabonate dehydratase	R02522		MNXR107563	
+RXN__45__13142	NADPHX epimerase	R10281		MNXR113638	
+R364__45__RXN_NADPH	4-nitrobenzoate reductase (NADPH)				
+RXN__45__14670	3-dimethylallyl-4-hydroxymandelate oxygenase	R06759		MNXR110511	
+2__46__1__46__1__46__138__45__RXN	S-adenosyl-L-methionine:methylarsonite As-methyltransferase	R05756		MNXR109812	
+RXN__45__13141	(S)-NADPHX dehydratase	R10268		MNXR113626	
+RXN__45__14430	hercynine oxygenase (gamma-glutamyl-hercynylcysteine sulfoxide-forming)	R11013		MNXR114317	
+RXN__45__8580	3-methylbenzyl alcohol dehydrogenase	R05347	3METBADH	MNXR94914	3MBZALDH
+RXN__45__905	3-hydroxyacyl-CoA dehydrogenase			MNXR122604	
+1__46__2__46__1__46__67__45__RXN	vanillin dehydrogenase	R05699		MNXR105208	VNDH
+DEHYDOGLUCONOKINASE__45__RXN	2-ketogluconokinase	R02658	2KETGLK	MNXR94789	2DHGLCK
+RXN__45__15946	2-furaldehyde phosphate synthase	R10935		MNXR114244	
+DHBAMPLIG__45__RXN	"2,3-dihydroxybenzoate-AMP ligase;(2,3-dihydroxybenzoyl)adenylate synthase"	R01504		MNXR97369	DHBS
+RXN0__45__4342	heptose 1-phosphate adenyltransferase	R05644		MNXR100378	GMHEPAT
+GLYOXII__45__RXN	S-lactoylglutathione hydrolase;hydroxyacylglutathione hydrolase;glyoxalase II (cytoplasmic)	R01736		MNXR100353	GLYOX
+ALLOPHANATE__45__HYDROLASE__45__RXN	allophanate hydrolase	R00005		MNXR95786	ALPHNH
+RXN__45__10998	desferrioxamine cyclase			MNXR116637	
+RXN__45__12345	chorismate dehydratase	R10666		MNXR113987	
+RXN__45__10997	desferrioxamine G1 synthetase			MNXR116636	
+GLUTCYSLIG__45__RXN	glutamate--cysteine ligase;glutamate-cysteine ligase;glutamatemdashcysteine ligase;gamma-glutamylcysteine synthetase	R00894		MNXR100074	GLUCYS
+RXN__45__12225_NADPH	"4,4'-diapolycopenedial dehydrogenase (NADPH)"				
+7__45__ALPHA__45__HYDROXYSTEROID__45__DEH__45__RXN	cholate 7alpha-hydroxy dehydrogenase;7-alpha-hydroxysteroid dehydrogenase	R02792		MNXR107726	
+RXN__45__17572	methyl acetate hydrolase	R10705		MNXR114025	
+RXN__45__12223_NADPH	diapolycopene oxygenase (NADPH)	R09671			
+RXN__45__17571	propan-2-ol dehydrogenase;isopropanol dehydrogenase	R10703		MNXR114023	
+6__45__HEXANOLIDE__45__HYDROLYSIS__45__RXN	6-hexanolide hydrolase	R03751		MNXR108397	
+RXN__45__12095	2-keto-3-deoxy-L-rhamnonate 4-dehydrogenase	R11339		MNXR114636	
+HYDROXYBENZALDEHYDE__45__OXIDATION__45__NADP__45__RXN	4-hydroxybenzaldehyde dehydrogenase;NADP+-4-hydroxybenzaldehyde dehydrogenase;NADP+-benzaldehyde dehydrogenase	R01294		MNXR106904	
+2__46__5__46__1__46__32__45__RXN	phytoene synthase;prephytoene diphosphate synthase;prephytoene-diphosphate synthase;prephytoene synthase	R02065		MNXR102655	PHYTES
+RXN__45__13528_NADPH	adenosyl hopane synthase (NADPH)				
+2__46__5__46__1__46__68__45__RXN	"E,Z-farnesyl diphosphate synthase"	R08528		MNXR112069	
+RXN0__45__4301	D-sedoheptulose 7-phosphate isomerase	"['R09768', 'R05645']"		MNXR104235	S7PI
+RXN__45__8081	F420-1:gamma-glutamyl ligase	R09400		MNXR100101	GF4GL_1
+SORBITOL__45__6__45__PHOSPHATASE__45__RXN	sorbitol-6-phosphatase;sorbitol-6-phosphate phosphatase	R02866		MNXR107787	
+2__46__4__46__1__46__216__45__RXN	trehalose-6-phosphate phosphorylase	R05767		MNXR115126	
+RXN__45__9476	geosmin synthase			MNXR122842	
+RXN__45__10995_NADPH	cadaverine hydroxylase (NADPH)				
+RXN__45__12400	XLLG xyloglucan oligosaccharide beta-galactosidase			MNXR117528	
+RXN__45__9475	octalin synthase			MNXR122841	
+MANNITOL__45__1__45__PHOSPHATASE__45__RXN	mannose-1-phosphate phosphatase;mannitol-1-phosphatase	R02167		MNXR107343	
+CYCLOHEXANOL__45__DEHYDROGENASE__45__RXN	cyclohexanol dehydrogenase	R02229		MNXR107392	
+1__46__14__46__12__46__1__45__RXN_NADPH	anthranilate dioxygenase (NADPH)	R00825		MNXR106708	
+UREA__45__CARBOXYLASE__45__RXN	urea carboxylase	R00774		MNXR124092	
+RXN__45__10040	3-hydroxy-trans-cinnamate hydroxylase	R06787		MNXR94893	3HCINNMH
+RXN__45__9909	3-chlorobenzyl alcohol dehydrogenase			MNXR123071	
+RXN__45__12703_NADPH	3-oxocholest-4-en-26-oyl-CoA dehydrogenase (NADPH)				
+RXN__45__11728	(S)-sulfopropanediol 2-dehydrogenase			MNXR117124	
+METHYL__45__GLYOXAL__45__DEHYDROG__45__RXN	methylglyoxal oxidase	R00203		MNXR106430	
+1__46__4__46__3__46__19__45__RXN	glycine oxidase/deaminase	R00366		MNXR100352	GLYO
+1__46__14__46__13__46__59__45__RXN	L-lysine 6-monooxygenase	R00448		MNXR106536	
+CYTIKIN__45__RXN	cytidine kinase	R00513		MNXR97041	CYTDK1
+CYTIDINEKIN__45__RXN	cytidine kinase	R00517		MNXR97042	CYTDK2
+RXN__45__8784	RXN-8784	"['R00647', 'R00647']"		MNXR106625	
+RXN__45__5861	L-tyrosinase monooxygenase (membrane-bound);L-tyrosine monooxygenase;L-tyrosinase monooxygenase (soluble)	"['R00731', 'R00031']"		MNXR106346	
+1__46__2__46__1__46__27__45__RXN	methylmalonate-semialdehyde dehydrogenase	R00922		MNXR114956	
+URIDINEKIN__45__RXN	uridine kinase	R00964		MNXR105162	URIK1
+4__46__1__46__99__46__4__45__RXN	4.1.99.4-RXN	R00997		MNXR95217	ACCAH
+RXN__45__0	putrescine acetyltransferase	R01154		MNXR103335	PTRCAT1
+MYO__45__INOSITOL__45__1OR__45__4__45__MONOPHOSPHATASE__45__RXN	myo-inositol-3-phosphate monophosphatase;inositol monopohsphatase;inositol-1(or 4)-monophosphatase;myo-inositol 3-phosphate monophosphatase;inositol monophosphatase	R01187		MNXR101574	MI3PP
+PYRUFLAVREDUCT__45__RXN	pyruvate:ferredoxin oxidoreductase;pyruvate ferredoxin oxidoreductase;pyruvate-ferredoxin oxidoreductase;pyruvate synthase	R01196		MNXR103066	PYRS
+VALINE__45__PYRUVATE__45__AMINOTRANSFER__45__RXN	valinemdashpyruvate aminotransferase	R01215		MNXR105217	VPAMTr
+PROLINE__45__RACEMASE__45__RXN	proline racemase	R01255		MNXR106886	
+HYDROXYBENZALDEHYDE__45__OXIDATION__45__NAD__45__RXN	NAD+-4-hydroxybenzaldehyde dehydrogenase;4-hydroxybenzoate dehydrogenase	R01293		MNXR105209	VNDH_2
+GPH__45__RXN	2-phosphoglycerate phosphatase;phosphoglycolate phosphatase;	R01334		MNXR102543	PGLYCP
+PHOSPHAGLYPSYN__45__RXN	phosphatidylglycerophosphate synthase;phosphatidylglycerolphosphate synthase;CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase;CDP-diacylglycerol glycerol-3-phosphate 3-phosphatidyltransferase	R01801		MNXR107179	
+N__45__ACETYLNEURAMINATE__45__SYNTHASE__45__RXN	N-acetylneuraminate synthase	R01804		MNXR116074	
+CREATININASE__45__RXN	creatininase	R01884		MNXR107216	
+PHOSPHASERDECARB__45__RXN	phosphatidylserine decarboxylase	R02055		MNXR116127	
+NMNAMIDOHYDRO__45__RXN	NMN amidohydrolase	R02322		MNXR101969	NMNDA
+CREATININE__45__DEAMINASE__45__RXN	creatinine deaminase	R02922		MNXR107828	
+CEPHALOSPORIN__45__C__45__DEACETYLASE__45__RXN	CEPHALOSPORIN-C-DEACETYLASE-RXN	R03062		MNXR107922	
+RXNN__45__404	indole-3-acetamide amidohydrolase;indole-3-acetamide amidase;indoleacetamide hydrolase	R03096		MNXR95814	AMID3
+GUANIDINOBUTANAMIDE__45__NH3__45__RXN	guanidinobutyramidase	R03180	4GAMIDAH	MNXR95812	AMID
+L__45__GULONOLACTONE__45__OXIDASE__45__RXN	L-gulono-gamma-lactone oxidase;gulonolactone (L-) oxidase	R03184		MNXR108006	
+RXN1F__45__151	lycopene beta cyclase;gamma-carotene beta-cyclase;gamma-carotene beta- cyclase	R03824		MNXR100063	GCATENEC
+MALEYLPYRUVATE__45__ISOMERASE__45__RXN	maleylpyruvate cis-trans isomerase;maleylpyruvate isomerase	R03868	MALPYRISO	MNXR108488	
+RXN__45__8529	2-hydroxymuconate tautomerase;4-oxalocrotonate tautomerase	R03966		MNXR126540	
+5__46__3__46__3__46__10__45__RXN	5-carboxymethyl-2-hydroxymuconate isomerase	R04379		MNXR115626	
+6__46__3__46__2__46__10__45__RXN	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase	R04573		MNXR108972	
+RXN__45__7908	pterin-4-alpha-carbinolamine dehydratase;pterin-4alpha-carbinolamine dehydratase	R04734		MNXR122085	
+RXN__45__8022_NADPH	zeta-carotene desaturase;all-trans-zeta-carotene desaturase (NADPH)	R04798			
+3__45__OCTAPRENYL__45__4__45__OHBENZOATE__45__DECARBOX__45__RXN	3-octaprenyl-4-hydroxybenzoate decarboxylase	R04986		MNXR102201	OPHBDC
+RXN__45__37	4-acetamidobutanal dehydrogenase	R05050		MNXR101805	NABTNO
+LAUROYLACYLTRAN__45__RXN	lauroyl acyltransferase	R05146		MNXR116017	
+DHLBXANAU__45__RXN	chloroacetate dehalogenase	R05287		MNXR109458	
+RXN1F__45__150	lycopene beta cyclase;lycopene beta-cyclase;trans lycopene beta- cyclase;trans -lycopene beta-cyclase	R05341		MNXR101031	LYCOPC
+R311__45__RXN	amidase;acrylamide amidase	R05551		MNXR95816	AMID5
+MANNONDEHYDRAT__45__RXN	D-mannonate dehydratase	R05606		MNXR101679	MNNH
+GALACTARDEHYDRA__45__RXN	galactarate dehydratase;D-galactarate dehydratase	R05608		MNXR99955	GALCTD
+4OHBENZOATE__45__OCTAPRENYLTRANSFER__45__RXN	4-hydroxybenzoate octaprenyltransferase	R05615		MNXR100566	HBZOPT
+R229__45__RXN	2-phospho-3-sulfolactate phosphohydrolase	R05789		MNXR109837	
+RXN__45__9394	"(4R,7R)-4-isopropenyl-7-methyloxepan-2-one hydrolase"	R06390		MNXR122793	
+RXN__45__9421	"(4S,7R)-4-isopropenyl-7-methyloxepan-2-one hydrolase"	R06392		MNXR122810	
+HCAMULTI__45__RXN	3-phenylpropionate dioxygenase	R06782		MNXR103134	PPPNDO
+RXN__45__12072	cinnamate dioxygenase	R06783		MNXR117332	
+RXN__45__2962_NADPH	S-hydroxymethyl-glutathione dehydrogenase;NAD- and glutathione-dependent formaldehyde dehydrogenase;hydroxymethylglutathione dehydrogenase (NADPH)	"['R06983', 'R07140']"		MNXR110840	
+1__46__2__46__7__46__4__45__RXN	carbon monoxide dehydrogenase (ferredoxin);carbon-monoxide dehydrogenase	"['R00296', 'R07157']"		MNXR110856	
+RXN__45__9382	phosphinothricin N-acetyltransferase	R08938		MNXR112429	
+RXN__45__13194	RXN-13194	R10072		MNXR113454	
+RXN__45__14910	6-aminodeoxyfutalosine deaminase	R10695		MNXR114015	
+D__45__LACTATE__45__DEHYDROGENASE__45__CYTOCHROME__45__RXN	D-lactate dehydrogenase (cytochrome)	R00197		MNXR115807	
+ACETATE__45____45__COA__45__LIGASE__45__ADP__45__FORMING__45__RXN	acetate-CoA ligase (ADP-forming)	R00229		MNXR106436	
+RXN__45__2464	4-carboxy-4-hydroxy-2-oxoadipate aldolase;4-oxalocitramalate aldolase	R00350		MNXR106486	
+ASPARTASE__45__RXN	aspartate ammonia-lyase	R00490		MNXR96099	ASPT
+SARCOX__45__RXN	sarcosine oxidase	R00610		MNXR104272	SARCOX
+ACETYLORNDEACET__45__RXN	N-acetylornithinase;acetylornithine deacetylase	R00669		MNXR95377	ACODA
+UREIDOGLYCOLATE__45__LYASE__45__RXN	ureidoglycolate urea-lyase;ureidoglycolate lyase	R00776		MNXR106681	
+CATECHOL__45__23__45__DIOXYGENASE__45__RXN	"catechol 2,3-dioxygenase;catechol dioxygenase"	R00816		MNXR96456	CAT23DOX
+RXN__45__7644	D-sorbitol dehydrogenase;L-sorbitol dehydrogenase	R00875		MNXR104283	SBTD_D2
+2__46__6__46__1__46__18__45__RXN	beta-alanine aminotransferase;beta-alanine transaminase	R00907		MNXR95865	APAT
+RXN__45__8961	beta-methylmalyl-CoA lyase;beta-methylmalyl CoA lyase	R00934		MNXR106758	
+RXN__45__10445	3-fumarylpyruvate hydrolase	R01085	3FPYRHD	MNXR99707	FUMAH
+R11__45__RXN	acetate CoA-transferase	R01179		MNXR106854	
+MALATE__45____45__COA__45__LIGASE__45__RXN	malate thiokinase	R01256		MNXR106887	
+DHBDEHYD__45__RXN	"2,3-dihydro-2,3-dihydroxybenzoate dehydrogenase"	R01505		MNXR97368	DHBD
+MALTOSE__45__PHOSPHORYLASE__45__RXN	maltose phosphorylase	R01555		MNXR101717	MPL
+RXN0__45__366	guanosine nucleosidase;guanosine deaminase	R01677		MNXR100392	GNNUC
+RXN__45__5901	3-hydroxybutyryl-CoA dehydrogenase;acetoacetyl-CoA reductase	R01977		MNXR107256	
+CYCLOHEXANONE__45__MONOOXYGENASE__45__RXN	cyclohexanone monooxygenase	R02231		MNXR107393	
+DIACYLGLYKIN__45__RXN	diacylglycerol kinase	R02240		MNXR115829	
+RXN__45__2001	cinnamate:CoA ligase;trans-cinnamate:CoA ligase	R02255		MNXR107411	
+3__46__5__46__4__46__22__45__RXN	Delta1-pyrroline-4-hydroxy-2-carboxylate deaminase	R02280		MNXR107426	
+RXN__45__8987	succinyl-CoA:itaconate CoA transferase	R02407		MNXR107488	
+RXN__45__12246	D-xylonolactonase	R02427		MNXR107499	
+RXN__45__11737	L-cysteate aminotransferase	R02433		MNXR95161	LCYSTAT
+L__45__ARABINONOLACTONASE__45__RXN	L-arabinolactonase	R02526		MNXR107564	
+D__45__LACTALDEHYDE__45__DEHYDROGENASE__45__RXN	methylglyoxal reductase;methylglyoxal reductase (NADH-dependent)	R02527		MNXR101008	LALDD
+2__46__4__46__1__46__157__45__RXN	"alpha-monoglucosyldiacylglycerol synthase;1,2-diacylglycerol 3-alpha-glucosyltransferase"	R02689		MNXR114165	
+ALPHAALPHA__45__TREHALOSE__45__PHOSPHORYLASE__45__RXN	trehalose phosphorylase	R02727		MNXR107696	
+RXN__45__8527	2-hydroxymuconate 6-semialdehyde dehydrogenase;2-hydroxymuconate-6-semialdehyde dehydrogenase;2-hydroxymuconate semialdehyde dehydrogenase	R02762		MNXR100669	HMSD
+3__46__5__46__2__46__14__45__RXN	N-methylhydantoin amidohydrolase	R03187		MNXR108009	
+1__46__17__46__1__46__1__45__RXN_NADPH	CDP-4-dehydro-6-deoxyglucose reductase (NADPH)	R03392		MNXR108140	
+RXN1F__45__10	protochlorophyllide oxidoreductase	R03845		MNXR103065	POR_1
+1__46__2__46__1__46__32__45__RXN	2-aminomucoate semialdehyde dehydrogenase;2-aminomuconate 6-semialdehyde dehydrogenase;2-aminomuconate semialdehyde dehydrogenase;2-aminomuconic 6-semialdehyde dehydrogenase;2-aminomuconate-semialdehyde dehydrogenase	R03889		MNXR114958	
+24__45__DICHLOROPHENOL__45__6__45__MONOOXYGENASE__45__RXN	"2,4-dichlorophenol 6-monooxygenase;2,4-dichlorophenol monooxygenase"	R03997		MNXR108577	
+RXN1K__45__87	RXN1K-87	R04134		MNXR108679	
+2__46__3__46__1__46__89__45__RXN	tetrahydrodipicolinate acetyltransferase	R04364		MNXR95864	APAT
+CARBOXY__45__OXOHEPT__45__ENEDIOATE__45__DECARBOXY__45__RXN	CARBOXY-OXOHEPT-ENEDIOATE-DECARBOXY-RXN	R04380		MNXR115744	
+CHMS__45__DEHYDROGENASE__45__RXN	2-hydroxy-5-carboxymethylmuconate semialdehyde dehydrogenase	R04418		MNXR94997	CMCMSAD
+RXN__45__4822	acetyl-diaminopimelate aminotransferase	R04467		MNXR95434	ADAPAT
+SYDDEHYD__45__RXN	4-sulfobenzaldehyde dehydrogenase	R05272		MNXR109445	
+RXN__45__864	succinyl-CoA:benzylsuccinate CoA-transferase	R05588		MNXR96368	BZSCT
+RXN__45__902	phenylitaconyl-CoA hydratase	R05599		MNXR122588	
+R282__45__RXN	cyclohexane-1-carbonyl-CoA dehydrogenase;cyclohexanecarboxyl-CoA dehydrogenase	R05619		MNXR116210	
+RXN__45__11689	S-sulfolactate dehydrogenase	R05693		MNXR104442	SLD
+RXN__45__5285	"3,8-divinyl-protochlorophyllide oxidoreductase"	R06286		MNXR110109	
+RXN__45__14147	RXN-14147	R07396		MNXR95923	ARAT
+RXN0__45__3922	gamma-glutamyl-gamma-aminobutyraldehyde dehydrogenase	"['R07417', 'R07418']"		MNXR111060	
+RXN__45__13704	"2,3-dihydroxybenzenesulfonate 2,3-dioxygenase"	R07795		MNXR111380	
+R8__45__RXN	acetate CoA-transferase	R07832		MNXR111417	
+RXN__45__8956	L-arginine:pyruvate transaminase	R08197		MNXR96038	ARUH
+RXN__45__7933	acetylcitrulline deacetylase	R09107		MNXR112547	
+R265__45__RXN	cyclohex-1-ene-1-carbonyl-CoA dehydrogenase	R09252		MNXR116208	
+RXN__45__11186	FAD-dependent urate hydroxylase	R09514		MNXR112934	
+RXN__45__12848	RXN-12848	R09859		MNXR113260	
+RXN__45__12653	pentalenolactone synthase	R10162		MNXR113528	
+RXN__45__6902	gamma aminobutyrate transaminase;gamma-aminobutyrate transaminase (pyruvate dependent)	R10178		MNXR113544	
+RXN0__45__6732	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase	R10185		MNXR113550	
+R01172	butanal:NAD+ oxidoreductase (CoA-acylating)	R01172		MNXR96320	BTCOAR
+R01618	APS:ATP adenylyltransferase	R01618		MNXR95863	APATT
+R01902	ATP:L-xylulose 1-phosphotransferase	R01902		MNXR100937	KHK2
+R02457	D-Ornithine:oxygen oxidoreductase (deaminating)	R02457		MNXR97759	DORNOp
+R02894	D-Proline:oxygen oxidoreductase	R02894	DPROLORED	MNXR107807	
+R02923	D-Arginine:oxygen oxidoreductase (deaminating)	R02923		MNXR97150	DARGOp
+R04221	cis-4-Hydroxy-D-proline:oxygen oxidoreductase (deaminating)	R04221		MNXR108742	
+R04800_NADPH	"Neurosporene, hydrogen-donor:oxygen oxidoreductase (NADPH)"	R04800		MNXR105275	ZCAROTDH2
+R05590	Acylamide aminohydrolase	R05590		MNXR109702	
+R01176	Butanoate:CoA ligase (AMP-forming)	R01176		MNXR106852	
+R01785	L-xylulose 1-phosphate glycolaldehyde-lyase (glycerone-phosphate-forming)	R01785		MNXR99462	FBA4
+R02252	phenylpropanoate:NAD+ delta2-oxidoreductase	R02252		MNXR107408	
+R03391	"CDP-4-dehydro-3,6-dideoxy-D-glucose:NAD+ 3-oxydoreductase"	R03391		MNXR108139	
+R04215	CTP:N-glycoloylneuraminate cytidylyltransferase	R04215		MNXR108739	
+RXN__45__15356				MNXR119310	
+RXN__45__12753				MNXR117736	
+RXN__45__6423		R07408		MNXR103470	RE0691C
+RXN__45__12943				MNXR128737	
+RXN__45__12440		R00644		MNXR106622	
+RXN__45__13530	formyl hopane synthase			MNXR118151	
+RXN__45__12876		R07679		MNXR117786	
+RXN__45__12540	Fenton reaction				
+RXN__45__15999				MNXR119769	
+RXN__45__8461		R08837		MNXR112330	
+RXN__45__6268				MNXR121837	
+RXN__45__12754				MNXR117737	
+RXN__45__2881		R09093		MNXR112536	
+RXN__45__15124		R11100		MNXR114400	
+RXN__45__9193		R08099		MNXR111678	
+RXN0__45__5222	cyanase	R07316		MNXR96481	CBMD
+RXN__45__5721		R04293		MNXR121824	
+RXN__45__2961		R06982		MNXR99239	FALGTHLs
+RXN__45__6581		R10302		MNXR113658	
+RXN__45__4821		R04336		MNXR108820	
+RXN__45__10723				MNXR116488	
+RXN__45__16992					
+RXN__45__7587		R04282		MNXR121962	
+RXN__45__14500				MNXR118723	
+RXN__45__14809				MNXR118947	
+RXN__45__12541				MNXR117620	
+RXN__45__14515				MNXR118735	
+RXN__45__13463				MNXR126514	
+RXN__45__15905				MNXR119698	
+RXN__45__18029	teichoic acid transporter				
+TRANS__45__RXN0__45__575	transport of maltose				
+TRANS__45__RXN0__45__496	enterobactin exporter EntS				
+3__46__6__46__3__46__8__45__RXN	calcium-transporting ATPase			MNXR125117	
+RXN66__45__447	Sodium independent leucine transport				
+EXC_OUT_CPD__45__14016_c	EXC_OUT_CPD-14016_c				
+EXC_OUT_CPD__45__9962_c	EXC_OUT_CPD-9962_c				
+EXC_OUT_CPD__45__10680_c	EXC_OUT_CPD-10680_c				
+EXC_OUT_CPD__45__10681_c	EXC_OUT_CPD-10681_c				
+EXC_OUT_ACETONE_c	EXC_OUT_ACETONE_c			MNXR98200	EX_acetone_e
+EXC_OUT_CPD__45__14522_c	EXC_OUT_CPD-14522_c				
+RXN__45__13783_NADH	ornithine N-hydroxylase (NADH)	R10790		MNXR114106	
+RXN__45__15892_NADH	"3,6-anhydro-L-galactose dehydrogenase (NADH)"				
+HYDROXYPYRUVATE__45__REDUCTASE__45__RXN_NADH	hydroxypyruvate reductase;hydroxypyruvate reductase Me (NADH)	R01388		MNXR100325	HPYRR
+ANTHRANILOYL__45__COA__45__MONOOXYGENASE__45__RXN_NADH	2-amninobenzoyl-CoA monooxygenase/reductase (NADH)	R03998		MNXR108578	
+RXN__45__12940_NADH	"dTDP-(2R,6S)-6-hydroxy-2-methyl-3-oxo-3,6-dihydro-2H-pyran-4-olate 3-ketoreductase (dTDP-4-dehydro-2,6-dideoxy-alpha-D-allose-forming) (NADH)"				
+RXN__45__16164_NADH	GDP-6-deoxy-4-keto-D-lyxo-heptose 4-reductase (NADH)				
+RXN__45__5921_NADH	carnitine monooxygenase (NADH)	R11875			
+R364__45__RXN_NADH	4-nitrobenzoate reductase (NADH)				
+1__46__14__46__12__46__1__45__RXN_NADH	anthranilate dioxygenase (NADH)	R00825		MNXR106707	
+RXN__45__2962_NADH	S-hydroxymethyl-glutathione dehydrogenase;NAD- and glutathione-dependent formaldehyde dehydrogenase;hydroxymethylglutathione dehydrogenase (NADH)	"['R06983', 'R07140']"		MNXR99237	FALDH2
+1__46__14__46__13__46__84__45__RXN_NADH	1.14.13.84-RXN (NADH)	R06892			
+RXN__45__8024_NADH	all-trans phytofluene desaturase (NADH)	R04787			
+RXN__45__8003_NADH	cis-4-hydroxy-D-proline dehydrogenase;D-hydroxyproline dehydrogenase (NADH)				
+RXN__45__12707_NADH	3-oxochol-4-en-24-oyl-CoA dehydrogenase (NADH)				
+RXN__45__8023_NADH	phytoene desaturase;all-trans-phytoene desaturase;15-cis-phytoene desaturase (NADH)				
+RXN__45__8781_NADH	L-sorbosone dehydrogenase (NADH)				
+RXN__45__12225_NADH	"4,4'-diapolycopenedial dehydrogenase (NADH)"				
+RXN__45__12223_NADH	diapolycopene oxygenase (NADH)	R09671			
+RXN__45__13528_NADH	adenosyl hopane synthase (NADH)				
+RXN__45__10995_NADH	cadaverine hydroxylase (NADH)				
+RXN__45__12703_NADH	3-oxocholest-4-en-26-oyl-CoA dehydrogenase (NADH)				
+RXN__45__8022_NADH	zeta-carotene desaturase;all-trans-zeta-carotene desaturase (NADH)	R04798			
+R04800_NADH	"Neurosporene, hydrogen-donor:oxygen oxidoreductase (NADH)"	R04800			
