@@ -131,8 +131,28 @@ def modify_reactions(scoGEM):
                 raise NotImplementedError
     return scoGEM
 
-def change_biomass():
-    pass
+def change_biomass(iAA1259_model, scoGEM):
+    iAA1259_biomass = iAA1259_model.reactions.Biomass
+
+    changed_mets = {}
+    for m, s in iAA1259_biomass.metabolites.items():
+        try:
+            coeff = scoGEM.reactions.BIOMASS_SCO.get_coefficient(m.id)
+        except KeyError:
+            coeff = 0
+
+        if s != coeff:
+            changed_mets[m] = s - coeff
+            logging.info("{0}: {1}, {2}".format(m.id, s, coeff))
+    
+    scoGEM.reactions.BIOMASS_SCO.add_metabolites(changed_mets)
+    scoGEM.reactions.BIOMASS_SCO_tRNA.add_metabolites(changed_mets)
+    
+    scoGEM.reactions.BIOMASS_SCO.annotation["origin"] = "iAA1259"
+    scoGEM.reactions.BIOMASS_SCO_tRNA.annotation["origin"] = "iAA1259"
+    print("Changed biomass according to iAA1259")
+    return scoGEM
+
 
 def get_suppl_sheets():
     S4_df = pd.read_csv(S4_FN, sep = ";")
@@ -176,6 +196,7 @@ if __name__ == '__main__':
     scoGEM = cobra.io.read_sbml_model(scoGEM_FN)
     fix_iAA1259(iAA1259_model)
     add_reactions(iAA1259_model, scoGEM, S4_FN, True)
+    change_biomass(iAA1259_model, scoGEM)
     # map_S4()
 
     # with open(S4_FN, "r") as f:

@@ -61,7 +61,9 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
     add_and_modify_reactions_according_to_iAA1259.fix_iAA1259(iAA1259_model)
     scoGEM = add_and_modify_reactions_according_to_iAA1259.add_reactions(iAA1259_model, scoGEM, iAA1259_NEW_REACTIONS_FN)
     scoGEM = add_and_modify_reactions_according_to_iAA1259.modify_reactions(scoGEM)
-    # ToDo: Biomass reaction
+    # Change biomass
+    scoGEM = add_and_modify_reactions_according_to_iAA1259.change_biomass(iAA1259_model, scoGEM)
+    
 
     # Save model
     ## Version number

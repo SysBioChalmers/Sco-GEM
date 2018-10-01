@@ -34586,15 +34586,16 @@
       - subsystem: Transport, Membrane
   - !!omap
     - id: BIOMASS_SCO
-    - name: S. coelicolor biomass objective function - with 75.7 GAM estimate
+    - name: S. coelicolor biomass objective function - with 75.79 GAM estimate
     - metabolites: !!omap
       - 10fthf_c: -0.004309
       - 15dap_c: -0.019494
+      - 2dmmql9_c: -0.0118
       - 2fe2s_c: -0.011698
       - 4fe4s_c: -0.005849
       - 5mthf_c: -0.004431
       - adocbl_c: -0.001286
-      - adp_c: 75.7
+      - adp_c: 75.79
       - ala__L_c: -0.60978
       - amet_c: -0.005085
       - arg__L_c: -0.10195
@@ -34651,7 +34652,7 @@
       - mn2_c: -0.000658
       - mobd_c: -7e-06
       - mocogdp_c: -0.00235
-      - mql9_c: -0.00258
+      - mql9_c: -0.0118
       - msh_c: -0.004185
       - murein4p4p_c: -0.02984
       - murein4px4p_c: -0.030136
@@ -34687,7 +34688,7 @@
       - pi150_c: -1.7e-05
       - pi160_c: -0.00031
       - pi161_c: -8e-05
-      - pi_c: 75.7
+      - pi_c: 75.79
       - piai150_c: -0.000293
       - piai170_c: -0.000269
       - pii140_c: -5.9e-05
@@ -34695,6 +34696,7 @@
       - pii160_c: -0.000344
       - pii170_c: -0.000125
       - ppi_c: 0.635847
+      - pppi_c: -0.000141
       - pro__L_c: -0.37332
       - ptrc_c: -0.022527
       - pydx5p_c: -0.008287
@@ -34735,7 +34737,7 @@
       - bigg.reaction: BIOMASS_SCO
       - ec-code: ''
       - kegg.subsystem: Other
-      - origin: iMK1208
+      - origin: iAA1259
       - subsystem: Biomass and maintenance functions
   - !!omap
     - id: BIOMASS_SCO_tRNA
@@ -34743,11 +34745,12 @@
     - metabolites: !!omap
       - 10fthf_c: -0.004309
       - 15dap_c: -0.019494
+      - 2dmmql9_c: -0.0118
       - 2fe2s_c: -0.011698
       - 4fe4s_c: -0.005849
       - 5mthf_c: -0.004431
       - adocbl_c: -0.001286
-      - adp_c: 71.62443
+      - adp_c: 71.71443
       - alatrna_c: -0.60978
       - amet_c: -0.005085
       - argtrna_c: -0.10195
@@ -34804,7 +34807,7 @@
       - mn2_c: -0.000658
       - mobd_c: -7e-06
       - mocogdp_c: -0.00235
-      - mql9_c: -0.00258
+      - mql9_c: -0.0118
       - msh_c: -0.004185
       - murein4p4p_c: -0.02984
       - murein4px4p_c: -0.030136
@@ -34840,7 +34843,7 @@
       - pi150_c: -1.7e-05
       - pi160_c: -0.00031
       - pi161_c: -8e-05
-      - pi_c: 71.62443
+      - pi_c: 71.71443
       - piai150_c: -0.000293
       - piai170_c: -0.000269
       - pii140_c: -5.9e-05
@@ -34848,6 +34851,7 @@
       - pii160_c: -0.000344
       - pii170_c: -0.000125
       - ppi_c: 0.635847
+      - pppi_c: -0.000141
       - protrna_c: -0.37332
       - ptrc_c: -0.022527
       - pydx5p_c: -0.008287
@@ -34907,7 +34911,7 @@
       - bigg.reaction: BIOMASS_SCO
       - ec-code: ''
       - kegg.subsystem: Other
-      - origin: iMK1208
+      - origin: iAA1259
       - subsystem: Biomass and maintenance functions
   - !!omap
     - id: BMOCOS
