@@ -13,6 +13,7 @@ import cobra
 import pandas as pd
 from collections import defaultdict
 import re
+import logging
 
 def add_reactions(sco4_model, scoGEM, reaction_mapping_fn, metabolite_mapping_fn, add_new_metabolites = True):
     # Apply metabolite mapping to Sco4
@@ -38,18 +39,18 @@ def add_reactions(sco4_model, scoGEM, reaction_mapping_fn, metabolite_mapping_fn
         new_reaction = sco4_model.reactions.get_by_id(ascii_reaction_id)
         new_reaction.annotation["origin"] = "Sco4"
         if new_reaction.id in scoGEM_reaction_ids:
-            print("Reaction {0} is already in scoGEM".format(new_reaction.id))
+            logging.info("Reaction {0} is already in scoGEM".format(new_reaction.id))
             check_extra_reaction_annotations(scoGEM.reactions.get_by_id(new_reaction.id), new_reaction)
         else:
-            has_all, missing_metabolites, missing_reactions = check_metabolites(new_reaction, scoGEM)
+            has_all, missing_metabolites, missing_reactions = check_metabolites(new_reaction, scoGEM, origin = "Sco4")
             all_missing += missing_metabolites
             for key, value in missing_reactions.items():
                 missing_reaction_dict[key] += value
             if has_all or add_new_metabolites:
                 scoGEM.add_reaction(new_reaction)
-                print("Added reaction {0}:{1}".format(new_reaction.id, new_reaction.name))
+                logging.info("Added reaction {0}:{1}".format(new_reaction.id, new_reaction.name))
                 if len(missing_metabolites):
-                    print("\t and added new metabolites: {0}".format(", ".join([m.id for m in missing_metabolites])))
+                    logging.info("\t and added new metabolites: {0}".format(", ".join([m.id for m in missing_metabolites])))
                 i += 1
             else:
                 not_added_reactions.append(reaction_id)
@@ -101,7 +102,7 @@ def print_new_reactions(new_reactions_id_list, sco4_model):
 
 
 
-def check_extra_reaction_annotations(scoGEM_reaction, sco4_reaction):
+def check_extra_reaction_annotations(scoGEM_reaction, sco4_reaction, print_new_annotations = False):
     # Genes
     scoGEM_genes = [g.id for g in scoGEM_reaction.genes]
     for gene in sco4_reaction.genes:
@@ -114,17 +115,17 @@ def check_extra_reaction_annotations(scoGEM_reaction, sco4_reaction):
             scoGEM_reaction.annotation[key]
         except KeyError:
             scoGEM_reaction.annotation[key] = value
-            print("Added annotation {0}: {1} to {2}".format(key, value, scoGEM_reaction.id))
+            logging.info("Added annotation {0}: {1} to {2}".format(key, value, scoGEM_reaction.id))
         else:
             sco_rxn_anno = scoGEM_reaction.annotation[key]
             if isinstance(sco_rxn_anno, list):
                 if not value in sco_rxn_anno:
                     scoGEM_reaction.annotation[key] = sco_rxn_anno.append(value)
-                    print("Appended annotation {0} to {1}".format(value, scoGEM_reaction.id))
+                    logging.info("Appended annotation {0} to {1}".format(value, scoGEM_reaction.id))
             else:
                 if value != sco_rxn_anno:
                     scoGEM_reaction.annotation[key] = [sco_rxn_anno, value]  
-                    print("Appended annotation {0} to {1}".format(value, scoGEM_reaction.id))
+                    logging.info("Appended annotation {0} to {1}".format(value, scoGEM_reaction.id))
 
 def evaluate_missing_reactions(missing_reaction_dict, reaction_mapping_df):
     for key, value in missing_reaction_dict.items():
@@ -151,19 +152,19 @@ def add_met_annotations(scoGEM_met, met):
             scoGEM_met.annotation[key]
         except KeyError:
             scoGEM_met.annotation[key] = value
-            print("Added annotation {0}: {1} to {2}".format(key, value, met.id))
+            logging.info("Added annotation {0}: {1} to {2}".format(key, value, met.id))
         else:
             sco_met_anno = scoGEM_met.annotation[key]
             if isinstance(sco_met_anno, list):
                 if not value in sco_met_anno:
                     scoGEM_met.annotation[key] = sco_met_anno.append(value)
-                    print("Appended annotation {0} to {1}".format(value, met.id))
+                    logging.info("Appended annotation {0} to {1}".format(value, met.id))
             else:
                 if value != sco_met_anno:
                     scoGEM_met.annotation[key] = [sco_met_anno, value]  
-                    print("Appended annotation {0} to {1}".format(value, met.id))
+                    logging.info("Appended annotation {0} to {1}".format(value, met.id))
                   
-def check_metabolites(reaction, scoGEM):
+def check_metabolites(reaction, scoGEM, origin):
     scoGEM_mets = [x.id for x in scoGEM.metabolites]
     has_all = True
     missing = []
@@ -173,9 +174,9 @@ def check_metabolites(reaction, scoGEM):
         if met.id in scoGEM_mets:
             add_met_annotations(scoGEM.metabolites.get_by_id(met.id), met)
         else:
-            print("Missing ", met.id, "in reaction ", reaction.id)
+            logging.info("Missing {0} in reaction {1}".format(met.id, reaction.id))
             has_all = False
-            met.annotation["origin"] = "Sco4"
+            met.annotation["origin"] = origin
             missing.append(met)
             missing_reactions[met.id] = [r.id for r in met.reactions if r.id != reaction.id]
 
@@ -215,6 +216,8 @@ if __name__ == '__main__':
     reaction_mapping_fn = "../../ComplementaryData/curation/rxns_iKS1317_vs_Sco4.csv"
     metabolite_mapping_fn = "../../ComplementaryData/curation/mets_iKS1317_vs_Sco4.csv"
     
+
+    logging.basicConfig(filename='add_reactions_from_sco4.log', level=logging.INFO)
     scoGEM = add_reactions(sco4_model, scoGEM, reaction_mapping_fn, metabolite_mapping_fn)
     cobra.io.write_sbml_model(scoGEM, MODEL_PATH)
 

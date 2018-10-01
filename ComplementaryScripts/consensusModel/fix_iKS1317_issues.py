@@ -13,6 +13,8 @@ def fix(model):
 
     # Mass and charge balance
     model.reactions.NOR_syn.add_metabolites({model.metabolites.fdxox_c:-12, model.metabolites.fdxrd_c:12})
+    model.reactions.NOR_syn.bounds = (-1000, 0) # According to metacyc
+    model.reactions.NOR_syn.annotation["biocyc"] = "FERREDOXIN--NITRITE-REDUCTASE-RXN"
 
     
 

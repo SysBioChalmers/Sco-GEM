@@ -2274,7 +2274,7 @@ MCPST2;R03105;Changed ID;FALSE
 ;TRANS-RXN0-575;Sco4 specific;TRUE
 ;TRANS-RXN0-496;Sco4 specific;TRUE
 ;3.6.3.8-RXN;Sco4 specific;TRUE
-;RXN66-447;Sco4 specific;TRUE
+;RXN66-447;Sco4 specific but maybe not likely;FALSE
 ;EXC_OUT_CPD-14016_c;Sco4 specific;TRUE
 ;EXC_OUT_CPD-9962_c;Sco4 specific;TRUE
 EX_desferrioxamE_e;EXC_OUT_CPD-11957_c;Exchange of same compound;FALSE
