@@ -12,9 +12,9 @@ ACCt;N-acetylcysteine transport;accys[c] <=> accys[e];;TRUE;
 ACPScpk;acyl-carrier protein synthase (cpk);coa[c] + apoACPcpk[c] -> h[c] +  ACPcpk[c] + pap[c];SCO4744;TRUE;
 ACPSpdscpk;acyl-carrier-protein phosphodiesterase (cpk);ACPcpk[c] + h2o[c] -> apoACPcpk[c] + pan4p[c] + h[c];SCO0046;TRUE;
 XYLAN_DEGe;Xylan degradation (extracellular);xylan[e] + 527 h2o[e] -> 528 xyl_D[e];(SCO5931 or SCO2292 or SCO1883 or SCO0674 or SCO0105);TRUE;
-EX_xylan(e);Xylan exchange;xylan[e]  <=>;;TRUE;
+EX_xylan_e;Xylan exchange;xylan[e]  <=>;;TRUE;
 CELLUL_DEGe;Cellulose degradation (extracellular);cellul[e] + 499 h2o[e] -> 250 celb[e];SCO6548 ;TRUE;
-EX_cellul(e);Cellulose exchange;cellul[e]  <=>;;TRUE;
+EX_cellul_e;Cellulose exchange;cellul[e]  <=>;;TRUE;
 CHTNDG;Chitin degradation;chitin[e] + h2o[e] -> acgam[e] + h[e];(SCO7263 or SCO0482 or SCO1429 or SCO1444 or SCO5376 or SCO5954 or SCO6345 or SCO5003 or SCO5673 or SCO2833  or SCO6012 or SCO2503 or SCO7225);TRUE;
 CHDHR;Chorismate dehydratase;chor[c] -> 3cvobz[c] + h2o[c];SCO4506;FALSE;In Sco4
 ADXFUTSNT;Aminodeoxyfutalosine synthase;3cvobz[c] + amet[c] + h2o[c] -> 6adxfut[c] + met-L[c] + hco3[c];SCO4494;FALSE;In Sco4

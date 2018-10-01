@@ -42,7 +42,7 @@ def add_reactions(sco4_model, scoGEM, reaction_mapping_fn, metabolite_mapping_fn
             logging.info("Reaction {0} is already in scoGEM".format(new_reaction.id))
             check_extra_reaction_annotations(scoGEM.reactions.get_by_id(new_reaction.id), new_reaction)
         else:
-            has_all, missing_metabolites, missing_reactions = check_metabolites(new_reaction, scoGEM)
+            has_all, missing_metabolites, missing_reactions = check_metabolites(new_reaction, scoGEM, origin = "Sco4")
             all_missing += missing_metabolites
             for key, value in missing_reactions.items():
                 missing_reaction_dict[key] += value
@@ -164,7 +164,7 @@ def add_met_annotations(scoGEM_met, met):
                     scoGEM_met.annotation[key] = [sco_met_anno, value]  
                     logging.info("Appended annotation {0} to {1}".format(value, met.id))
                   
-def check_metabolites(reaction, scoGEM):
+def check_metabolites(reaction, scoGEM, origin):
     scoGEM_mets = [x.id for x in scoGEM.metabolites]
     has_all = True
     missing = []
@@ -176,7 +176,7 @@ def check_metabolites(reaction, scoGEM):
         else:
             logging.info("Missing {0} in reaction {1}".format(met.id, reaction.id))
             has_all = False
-            met.annotation["origin"] = "Sco4"
+            met.annotation["origin"] = origin
             missing.append(met)
             missing_reactions[met.id] = [r.id for r in met.reactions if r.id != reaction.id]
 

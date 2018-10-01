@@ -1286,6 +1286,20 @@
       - metanetx.chemical: MNXM947
       - origin: iMK1208
   - !!omap
+    - id: 2o3pop3odn_c
+    - name: 2-oxo-3-(phosphonooxy)propyl 3-oxodecanoate
+    - compartment: c
+    - formula: C13H23O8P
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: 2o3pp8m3onn_c
+    - name: 2-oxo-3-(phosphonooxy)propyl 8-methyl-3-oxononanoate
+    - compartment: c
+    - formula: C13H23O8P
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
     - id: 2obut_c
     - name: 2-Oxobutanoate
     - compartment: c
@@ -3084,6 +3098,21 @@
       - metanetx.chemical: MNXM2184
       - origin: iMK1208
   - !!omap
+    - id: 465mo5othf3mdhp_c
+    - name: (3S,4S)-4-(6-methyloctanoyl)-5-oxotetrahydrofuran-3-yl)methyl dihydrogen
+        phosphate
+    - compartment: c
+    - formula: C14H25O7P
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: 46mo5o25dhf3mdhp_c
+    - name: (4-(6-methyloctanoyl)-5-oxo-2,5-dihydrofuran-3-yl)methyl dihydrogen phosphate
+    - compartment: c
+    - formula: C14H23O7P
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
     - id: 4__45__CARBOXYBENZALDEHYDE_c
     - name: 4-carboxybenzaldehyde
     - compartment: c
@@ -3445,6 +3474,20 @@
       - metanetx.chemical: MNXM2687
       - origin: iMK1208
   - !!omap
+    - id: 4hm36modhf2o_c
+    - name: (3S,4R)-4-(hydroxymethyl)-3-(6-methyloctanoyl)dihydrofuran-2(3H)-one
+    - compartment: c
+    - formula: C14H24O5
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: 4hm3odhf2o_c
+    - name: (3S,4R)-4-(hydroxymethyl)-3-octanoyldihydrofuran-2(3H)-one
+    - compartment: c
+    - formula: C13H22O4
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
     - id: 4hmda_c
     - name: (S)-4-Hydroxymandelate
     - compartment: c
@@ -3557,6 +3600,20 @@
       - kegg.compound: C04327
       - metanetx.chemical: MNXM960
       - origin: iMK1208
+  - !!omap
+    - id: 4o5odhmdhp_c
+    - name: (4-octanoyl-5-oxo-2,5-dihydrofuran-3-yl)methyl dihydrogen phosphate
+    - compartment: c
+    - formula: C13H21O7P
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: 4o5othf3mdp_c
+    - name: ((3S,4S)-4-octanoyl-5-oxotetrahydrofuran-3-yl)methyl dihydrogen phosphate
+    - compartment: c
+    - formula: C13H23O7P
+    - annotation: !!omap
+      - origin: iAA1259
   - !!omap
     - id: 4pasp_c
     - name: 4-Phospho-L-aspartate
@@ -4096,6 +4153,14 @@
       - kegg.compound: C00229
       - metanetx.chemical: MNXM925
       - origin: iMK1208
+  - !!omap
+    - id: ACPcpk_c
+    - name: Acyl carrier protein (specific to coelimycin)
+    - compartment: c
+    - charge: -1
+    - formula: C11H21N2O7PRS
+    - annotation: !!omap
+      - origin: iAA1259
   - !!omap
     - id: ACPmmy_c
     - name: MmyA
@@ -8681,6 +8746,20 @@
       - metanetx.chemical: MNXM96175
       - origin: iMA789
   - !!omap
+    - id: accys_c
+    - name: N-Acetyl-L-Cysteine
+    - compartment: c
+    - formula: C5H9NO3S
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: accys_e
+    - name: N-Acetyl-L-Cysteine
+    - compartment: e
+    - formula: C5H9NO3S
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
     - id: acetone_c
     - name: Acetone
     - compartment: c
@@ -9080,6 +9159,14 @@
       - metanetx.chemical: MNXM877
       - origin: iMK1208
   - !!omap
+    - id: add26810t5o_c
+    - name: 1-Aminododeca-2,6,8,10-tetraen-5-ol
+    - compartment: c
+    - charge: 0
+    - formula: C12H19NO
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
     - id: ade_c
     - name: Adenine
     - compartment: c
@@ -9225,6 +9312,13 @@
       - kegg.compound: C00301
       - metanetx.chemical: MNXM453
       - origin: iMK1208
+  - !!omap
+    - id: afactor_c
+    - name: 'A-factor: (4R)-4-(hydroxymethyl)-3-(6-methylheptanoyl)oxolan-2-one'
+    - compartment: c
+    - formula: C13H22O5
+    - annotation: !!omap
+      - origin: iAA1259
   - !!omap
     - id: agdpcbi_c
     - name: Adenosine-GDP-cobinamide
@@ -9892,6 +9986,14 @@
       - kegg.compound: C03688
       - metanetx.chemical: MNXM21
       - origin: iMK1208
+  - !!omap
+    - id: apoACPcpk_c
+    - name: apoprotein [acyl carrier protein] (cpk)
+    - compartment: c
+    - charge: -1
+    - formula: RHO
+    - annotation: !!omap
+      - origin: iAA1259
   - !!omap
     - id: apoACPredL_c
     - name: apoprotein [acyl carrier protein] (RED - redL)
@@ -11055,6 +11157,13 @@
       - metanetx.chemical: MNXM337
       - origin: iMK1208
   - !!omap
+    - id: cellul_e
+    - name: Cellulose (chain length 500 glc_D assumed)
+    - compartment: e
+    - formula: C3000H5002O2501
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
     - id: cgly_c
     - name: Cys-Gly
     - compartment: c
@@ -11079,6 +11188,13 @@
       - kegg.compound: C18354
       - metanetx.chemical: MNXM6562
       - origin: KEGG
+  - !!omap
+    - id: chitin_e
+    - name: Chitin monomer
+    - compartment: e
+    - formula: C8H13NO5
+    - annotation: !!omap
+      - origin: iAA1259
   - !!omap
     - id: chol_c
     - name: Choline
@@ -11732,6 +11848,22 @@
       - kegg.compound: C11545
       - metanetx.chemical: MNXM145761
       - origin: iMK1208
+  - !!omap
+    - id: cpkepox_c
+    - name: 6-(3-(prop-1-en-1-yl)-[2,2-bioxiran]-3-yl)-2,3-dihydropyridine
+    - compartment: c
+    - charge: 0
+    - formula: C12H15NO2
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: cpkepox_e
+    - name: 6-(3-(prop-1-en-1-yl)-[2,2-bioxiran]-3-yl)-2,3-dihydropyridine
+    - compartment: e
+    - charge: 0
+    - formula: C12H15NO2
+    - annotation: !!omap
+      - origin: iAA1259
   - !!omap
     - id: cpmp_c
     - name: cyclic pyranopterin monophosphate
@@ -15249,6 +15381,14 @@
       - metanetx.chemical: MNXM259
       - origin: iMK1208
   - !!omap
+    - id: h246dectACPcpk_c
+    - name: 3-Hydroxy-2,4,6-Decatetraenoyl-[acyl-carrier protein]
+    - compartment: c
+    - charge: -1
+    - formula: C21H33N2O9PRS
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
     - id: h2mb4p_c
     - name: 1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate
     - compartment: c
@@ -15490,6 +15630,14 @@
       - metanetx.chemical: MNXM581
       - origin: iMK1208
   - !!omap
+    - id: hdd2610t_c
+    - name: 5-Hydroxydodeca-2,6,8,10-tetraenal
+    - compartment: c
+    - charge: 0
+    - formula: C12H15O2
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
     - id: hdd2coa_c
     - name: trans-Hexadec-2-enoyl-CoA
     - compartment: c
@@ -15605,6 +15753,14 @@
       - kegg.compound: C04216
       - metanetx.chemical: MNXM1722
       - origin: iMK1208
+  - !!omap
+    - id: hex24dACPcpk_c
+    - name: 2,4-Hexadienoyl-ACP (n-C6:2ACP)
+    - compartment: c
+    - charge: -1
+    - formula: C17H29N2O8PRS
+    - annotation: !!omap
+      - origin: iAA1259
   - !!omap
     - id: hexACP_c
     - name: Hexanoyl-ACP (n-C6:0ACP)
@@ -17554,6 +17710,21 @@
       - kegg.compound: C00305
       - metanetx.chemical: MNXM63
       - origin: iMK1208
+  - !!omap
+    - id: mh5odhfmdp_c
+    - name: (4-(6-methylheptanoyl)-5-oxo-2,5-dihydrofuran-3-yl)methyl dihydrogen phosphate
+    - compartment: c
+    - formula: C13H21O7P
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: mh5othfmdp_c
+    - name: ((3S,4S)-4-(6-methylheptanoyl)-5-oxotetrahydrofuran-3-yl)methyl dihydrogen
+        phosphate
+    - compartment: c
+    - formula: C13H23O7P
+    - annotation: !!omap
+      - origin: iAA1259
   - !!omap
     - id: mhpglu_c
     - name: 5-Methyltetrahydropteroyltri-L-glutamate
@@ -21680,6 +21851,48 @@
       - metanetx.chemical: MNXM1132
       - origin: iMA789
   - !!omap
+    - id: scb1_c
+    - name: 'SCB1: (3S,4R)-3-((R)-1-hydroxy-6-methylheptyl)-4-(hydroxymethyl)dihydrofuran-2(3H)-one'
+    - compartment: c
+    - formula: C13H24O4
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: scb1_e
+    - name: 'SCB1: (3S,4R)-3-((R)-1-hydroxy-6-methylheptyl)-4-(hydroxymethyl)dihydrofuran-2(3H)-one'
+    - compartment: e
+    - formula: C13H24O4
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: scb2_c
+    - name: 'SCB2: (3S,4R)-4-(hydroxymethyl)-3-((R)-1-hydroxyoctyl)dihydrofuran-2(3H)-one'
+    - compartment: c
+    - formula: C13H24O4
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: scb2_e
+    - name: 'SCB2: (3S,4R)-4-(hydroxymethyl)-3-((R)-1-hydroxyoctyl)dihydrofuran-2(3H)-one'
+    - compartment: e
+    - formula: C13H24O4
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: scb3_c
+    - name: 'SCB3: (3S,4R)-3-((1R)-1-hydroxy-6-methyloctyl)-4-(hydroxymethyl)dihydrofuran-2(3H)-one'
+    - compartment: c
+    - formula: C14H26O4
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: scb3_e
+    - name: 'SCB3: (3S,4R)-3-((1R)-1-hydroxy-6-methyloctyl)-4-(hydroxymethyl)dihydrofuran-2(3H)-one'
+    - compartment: e
+    - formula: C14H26O4
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
     - id: scl_c
     - name: sirohydrochlorin
     - compartment: c
@@ -24374,6 +24587,13 @@
       - metanetx.chemical: MNXM1140
       - origin: iMK1208
   - !!omap
+    - id: xylan_e
+    - name: Xylan (Oat spelt)
+    - compartment: e
+    - formula: C2640H4226O2113
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
     - id: xylt_c
     - name: Xylitol
     - compartment: c
@@ -24426,6 +24646,13 @@
       - kegg.compound: C00312
       - metanetx.chemical: MNXM597
       - origin: iMK1208
+  - !!omap
+    - id: ycpk_e
+    - name: yellow Cpk compound
+    - compartment: e
+    - formula: C17H20N2O4S
+    - annotation: !!omap
+      - origin: iAA1259
   - !!omap
     - id: zn2_c
     - name: Zinc
@@ -27553,7 +27780,7 @@
       - nadh_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO5520
+    - gene_reaction_rule: SCO5520 or SCO3835
     - annotation: !!omap
       - bigg.reaction: 4HGLSD
       - biocyc: RXN-14472
@@ -28078,7 +28305,7 @@
       - xylu__D_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO1901
+    - gene_reaction_rule: SCO0737
     - annotation: !!omap
       - bigg.reaction: ABTDG
       - biocyc: D-ARABINITOL-4-DEHYDROGENASE-RXN
@@ -28448,6 +28675,30 @@
       - metanetx.reaction: MNXR69673
       - origin: KEGG
       - subsystem: Membrane Lipid metabolism
+  - !!omap
+    - id: ACCS
+    - name: N-acetylcysteine synthase (putative acyl-transferase)
+    - metabolites: !!omap
+      - accoa_c: -1.0
+      - accys_c: 1.0
+      - coa_c: 1.0
+      - cys__L_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO5134
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: ACCt
+    - name: N-acetylcysteine transport
+    - metabolites: !!omap
+      - accys_c: -1.0
+      - accys_e: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - origin: iAA1259
   - !!omap
     - id: ACETATE__45____45__COA__45__LIGASE__45__ADP__45__FORMING__45__RXN
     - name: acetate-CoA ligase (ADP-forming)
@@ -29411,6 +29662,34 @@
       - metanetx.reaction: MNXR107095
       - origin: iMK1208
       - subsystem: Cofactor and Prosthetic Group Biosynthesis
+  - !!omap
+    - id: ACPScpk
+    - name: acyl-carrier protein synthase (cpk)
+    - metabolites: !!omap
+      - ACPcpk_c: 1.0
+      - apoACPcpk_c: -1.0
+      - coa_c: -1.0
+      - h_c: 1.0
+      - pap_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: ACPSpdscpk
+    - name: acyl-carrier-protein phosphodiesterase (cpk)
+    - metabolites: !!omap
+      - ACPcpk_c: -1.0
+      - apoACPcpk_c: 1.0
+      - h2o_c: -1.0
+      - h_c: 1.0
+      - pan4p_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO0046
+    - annotation: !!omap
+      - origin: iAA1259
   - !!omap
     - id: ACPSredL
     - name: acyl-carrier protein synthase (redL)
@@ -30684,6 +30963,20 @@
       - origin: iMK1208
       - rhea: '15756'
       - subsystem: Purine and pyrimidine biosynthesis
+  - !!omap
+    - id: ADXFUTNS
+    - name: Aminodeoxyfutalosine nucleosidase
+    - metabolites: !!omap
+      - CPD__45__13324_c: -1.0
+      - ade_c: 1.0
+      - dhxfut_c: 1.0
+      - h2o_c: -1.0
+      - h_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - origin: iAA1259
   - !!omap
     - id: AGDC
     - name: N-acetylglucosamine-6-phosphate deacetylase
@@ -32391,7 +32684,7 @@
       - pimACP_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO1243 or SCO5890
+    - gene_reaction_rule: SCO1243
     - annotation: !!omap
       - bigg.reaction: AOXSr2
       - biocyc: RXN-11484
@@ -33952,7 +34245,7 @@
       - h2o_c: -1.0
       - h_c: 1.0
       - pi_c: 1.0
-    - lower_bound: 2.65
+    - lower_bound: 2.64
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -34018,7 +34311,7 @@
       - ppi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO4927
+    - gene_reaction_rule: SCO4927 or SCO4655
     - annotation: !!omap
       - bigg.reaction: BACCL
       - ec-code: 6.3.4.15
@@ -35702,6 +35995,18 @@
       - origin: iMK1208
       - subsystem: Transport, Membrane
   - !!omap
+    - id: CELLUL_DEGe
+    - name: Cellulose degradation (extracellular)
+    - metabolites: !!omap
+      - cellb_e: 250.0
+      - cellul_e: -1.0
+      - h2o_c: -499.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6548
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
     - id: CEPHALOSPORIN__45__C__45__DEACETYLASE__45__RXN
     - name: CEPHALOSPORIN-C-DEACETYLASE-RXN
     - metabolites: !!omap
@@ -35719,28 +36024,6 @@
       - kegg.reaction: R03062
       - origin: Sco4
       - rhea: '22596'
-  - !!omap
-    - id: CFL
-    - name: chorismate futalosine-lyase
-    - metabolites: !!omap
-      - chor_c: -1.0
-      - co2_c: 1.0
-      - fut_c: 1.0
-      - h2o_c: 1.0
-      - h_c: -1.0
-      - ins_c: -1.0
-      - pep_c: -1.0
-      - pi_c: 1.0
-      - pyr_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO4506
-    - annotation: !!omap
-      - bigg.reaction: CFL
-      - ec-code: ''
-      - kegg.subsystem: Metabolism of cofactors and vitamins
-      - origin: iMK1208
-      - subsystem: Cofactor and Prosthetic Group Biosynthesis
   - !!omap
     - id: CHIRAISO
     - name: R09307
@@ -35940,6 +36223,20 @@
       - kegg.subsystem: Transport
       - origin: iMK1208
       - subsystem: Transport, Membrane
+  - !!omap
+    - id: CHTNDG
+    - name: Chitin degradation (chitinase)
+    - metabolites: !!omap
+      - acgam_e: 1.0
+      - chitin_e: -1.0
+      - h2o_c: -1.0
+      - h_e: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO7263 or SCO0482 or SCO1429 or SCO1444 or SCO5376 or SCO5954
+        or SCO6345 or SCO5003 or SCO5673 or SCO2833 or SCO6012 or SCO2503 or SCO7225
+    - annotation: !!omap
+      - origin: iAA1259
   - !!omap
     - id: CIGAMS
     - name: cys-1L-myo-inositol 2-deoxy-D-glucopyranoside synthase
@@ -37177,6 +37474,123 @@
       - rhea: '16212'
       - subsystem: Cofactor and Prosthetic Group Biosynthesis
   - !!omap
+    - id: CPKS1
+    - name: CpkA initiation
+    - metabolites: !!omap
+      - ACPcpk_c: -1.0
+      - co2_c: 3.0
+      - coa_c: 3.0
+      - h2o_c: 2.0
+      - h_c: -9.0
+      - hex24dACPcpk_c: 1.0
+      - malcoa_c: -3.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6275
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: CPKS2
+    - name: CpkB polyketide elongation 1
+    - metabolites: !!omap
+      - co2_c: 2.0
+      - coa_c: 2.0
+      - h246dectACPcpk_c: 1.0
+      - h2o_c: 1.0
+      - h_c: -4.0
+      - hex24dACPcpk_c: -1.0
+      - malcoa_c: -2.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6274
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: CPKS3
+    - name: CpkC polyketide elongation 2 and thioester reductase
+    - metabolites: !!omap
+      - ACPcpk_c: 1.0
+      - co2_c: 1.0
+      - coa_c: 1.0
+      - h246dectACPcpk_c: -1.0
+      - h2o_c: 1.0
+      - h_c: -3.0
+      - hdd2610t_c: 1.0
+      - malcoa_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6273
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: CPKS4a
+    - name: CpkG transaminase (with L-Ala)
+    - metabolites: !!omap
+      - add26810t5o_c: 1.0
+      - ala__L_c: -1.0
+      - hdd2610t_c: -1.0
+      - pyr_c: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6279
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: CPKS4b
+    - name: CpkG transaminase (with L-Glu)
+    - metabolites: !!omap
+      - add26810t5o_c: 1.0
+      - akg_c: 1.0
+      - glu__L_c: -1.0
+      - hdd2610t_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6279
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: CPKS5
+    - name: Flavin dependent epoxidases/dehydrogenases
+    - metabolites: !!omap
+      - add26810t5o_c: -1.0
+      - cpkepox_c: 1.0
+      - fad_c: 1.0
+      - fadh2_c: -1.0
+      - h2o_c: 3.0
+      - o2_c: -2.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6276 or SCO6281 or SCO6272
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: CPKS6
+    - name: Extracellular spontaneous reaction
+    - metabolites: !!omap
+      - accys_e: -1.0
+      - cpkepox_e: -1.0
+      - h2o_c: 1.0
+      - h_c: 2.0
+      - ycpk_e: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: s0001
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: CPKSt
+    - name: Putative transmembrane efflux protein CpkF
+    - metabolites: !!omap
+      - cpkepox_c: -1.0
+      - cpkepox_e: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6278
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
     - id: CPMPS
     - name: cyclic pyranopterin monophosphate synthase
     - metabolites: !!omap
@@ -37616,7 +38030,7 @@
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1934 and SCO2156 and ( SCO7234 or SCO2155 ) and SCO2151
-        and SCO1930
+        and SCO1930 and SCO2154
     - annotation: !!omap
       - bigg.reaction: CYO2b
       - ec-code: 1.9.3.1
@@ -37901,7 +38315,7 @@
       - o2_c: -0.5
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO3945 and SCO3946
+    - gene_reaction_rule: SCO7234 and SCO7235 and SCO7236 and SCO1934 and SCO7120
     - annotation: !!omap
       - bigg.reaction: CYTBD2
       - ec-code: ''
@@ -39373,24 +39787,6 @@
       - rhea: '23587'
       - subsystem: Cofactor and Prosthetic Group Biosynthesis
   - !!omap
-    - id: DHFUTALS
-    - name: de-hypoxanthine futalosine synthase
-    - metabolites: !!omap
-      - cdhxfut_c: 1.0
-      - dhxfut_c: -1.0
-      - h_c: 1.0
-      - nad_c: -1.0
-      - nadh_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO4550
-    - annotation: !!omap
-      - bigg.reaction: DHFUTALS
-      - ec-code: ''
-      - kegg.subsystem: Metabolism of cofactors and vitamins
-      - origin: iMK1208
-      - subsystem: Cofactor and Prosthetic Group Biosynthesis
-  - !!omap
     - id: DHLBXANAU__45__RXN
     - name: chloroacetate dehalogenase
     - metabolites: !!omap
@@ -39435,7 +39831,7 @@
       - ppi_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: SCO4491 and SCO4556
     - annotation: !!omap
       - bigg.reaction: DHNANT4
       - ec-code: ''
@@ -40527,6 +40923,21 @@
       - origin: iMK1208
       - rhea: '10471'
       - subsystem: Pentose phosphate pathway
+  - !!omap
+    - id: DXFUTOR
+    - name: Dehypoxanthine futalosine:S-adenosyl-L-methionine oxidoreductase
+    - metabolites: !!omap
+      - amet_c: -1.0
+      - cdhxfut_c: 1.0
+      - dad_5_c: 1.0
+      - dhxfut_c: -1.0
+      - h_c: 1.0
+      - met__L_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO4550
+    - annotation: !!omap
+      - origin: iAA1259
   - !!omap
     - id: DXPRIi
     - name: 1-deoxy-D-xylulose reductoisomerase
@@ -43502,6 +43913,16 @@
       - origin: iMK1208
       - subsystem: Exchange
   - !!omap
+    - id: EX_cellul_e
+    - name: Cellulose exchange reaction
+    - metabolites: !!omap
+      - cellul_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
     - id: EX_chol_e
     - name: Choline exchange
     - metabolites: !!omap
@@ -45958,6 +46379,16 @@
       - origin: iMK1208
       - subsystem: Exchange
   - !!omap
+    - id: EX_xylan_e
+    - name: Xylan exchange reaction
+    - metabolites: !!omap
+      - xylan_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
     - id: EX_xylt_e
     - name: Xylitol exchange
     - metabolites: !!omap
@@ -46944,7 +47375,7 @@
       - o2_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ( SCO3439 and SCO3440 ) and SCO6712
+    - gene_reaction_rule: SCO3439 and SCO3440
     - annotation: !!omap
       - bigg.reaction: FERO
       - biocyc: RXN0-1483
@@ -47298,6 +47729,19 @@
       - metanetx.reaction: MNXR31780
       - origin: iMK1208
       - subsystem: Transport, Membrane
+  - !!omap
+    - id: FRD3
+    - name: fumarate reductase(2-demthylmenaquinone-9)
+    - metabolites: !!omap
+      - 2dmmq9_c: 1.0
+      - 2dmmql9_c: -1.0
+      - fum_c: -1.0
+      - succ_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO0923 and SCO0922 and SCO0924
+    - annotation: !!omap
+      - origin: iAA1259
   - !!omap
     - id: FRD8
     - name: fumarate reductase (menaquione-9)
@@ -47804,6 +48248,19 @@
       - metanetx.reaction: MNXR69191
       - origin: iMK1208
       - subsystem: Oxidative phosphorylation
+  - !!omap
+    - id: G3PD7
+    - name: glycerol-3-phosphate 9demethylmenaquinone-9)
+    - metabolites: !!omap
+      - 2dmmq9_c: -1.0
+      - 2dmmql9_c: 1.0
+      - dhap_c: 1.0
+      - glyc3p_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO0670 or SCO1661 or SCO4774 or ( SCO7005 and SCO7006 )
+    - annotation: !!omap
+      - origin: iAA1259
   - !!omap
     - id: G5SADs
     - name: L-glutamate 5-semialdehyde dehydratase (spontaneous)
@@ -48784,7 +49241,7 @@
       - glycogen_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO5440 or SCO7332
+    - gene_reaction_rule: SCO5440 or SCO7332 or SCO0765 or SCO0554 or SCO7637
     - annotation: !!omap
       - bigg.reaction: GLBRAN2
       - ec-code: 2.4.1.18
@@ -49561,7 +50018,7 @@
       - trnaglu_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO5547
+    - gene_reaction_rule: SCO5547 or SCO5498 or SCO5499
     - annotation: !!omap
       - bigg.reaction: GLUTRS
       - ec-code: 6.1.1.17
@@ -50032,6 +50489,19 @@
       - metanetx.reaction: MNXR984
       - origin: iMK1208
       - subsystem: Alternate Carbon metabolism
+  - !!omap
+    - id: GLYCTO4
+    - name: Glycolate oxidase
+    - metabolites: !!omap
+      - 2dmmq9_c: -1.0
+      - 2dmmql9_c: 1.0
+      - glx_c: 1.0
+      - glyclt_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - origin: iAA1259
   - !!omap
     - id: GLYCt
     - name: glycerol transport via channel
@@ -51028,7 +51498,7 @@
       - nadh_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO6732
+    - gene_reaction_rule: SCO6732 or SCO0984
     - annotation: !!omap
       - bigg.reaction: HACD1
       - biocyc: RXN-11662
@@ -51058,7 +51528,7 @@
       - nadh_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO6732
+    - gene_reaction_rule: SCO6732 or SCO0984
     - annotation: !!omap
       - bigg.reaction: HACD2
       - biocyc: RXN-12570
@@ -51083,7 +51553,7 @@
       - nadh_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO6732
+    - gene_reaction_rule: SCO6732 or SCO0984
     - annotation: !!omap
       - bigg.reaction: HACD3
       - biocyc: RXN-14275
@@ -51108,7 +51578,7 @@
       - nadh_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO6732
+    - gene_reaction_rule: SCO6732 or SCO0984
     - annotation: !!omap
       - bigg.reaction: HACD4
       - biocyc: RXN-12490
@@ -51133,7 +51603,7 @@
       - nadh_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO6732
+    - gene_reaction_rule: SCO6732 or SCO0984
     - annotation: !!omap
       - bigg.reaction: HACD5
       - ec-code: 1.1.1.35
@@ -51157,7 +51627,7 @@
       - nadh_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO6732
+    - gene_reaction_rule: SCO6732 or SCO0984
     - annotation: !!omap
       - bigg.reaction: HACD6
       - biocyc: RXN-12507
@@ -51182,7 +51652,7 @@
       - nadh_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO6732
+    - gene_reaction_rule: SCO6732 or SCO0984
     - annotation: !!omap
       - bigg.reaction: HACD7
       - biocyc: RXN-14271
@@ -51207,7 +51677,7 @@
       - nadh_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO6732
+    - gene_reaction_rule: SCO6732 or SCO0984
     - annotation: !!omap
       - bigg.reaction: HACD8
       - ec-code: 1.1.1.35
@@ -56971,7 +57441,7 @@
         and ( SCO3392 or SCO4565 ) and SCO4566 and ( SCO4567 or SCO6560 ) and SCO4568
         and ( SCO4569 or SCO4602 ) and ( SCO4570 or SCO4603 ) and ( SCO4571 or SCO4604
         ) and ( SCO4572 or SCO4605 ) and ( SCO4573 or SCO4606 or SCO6954 ) and ( SCO4574
-        or SCO4607 ) and ( SCO4575 or SCO4608 )
+        or SCO4607 ) and ( SCO4575 or SCO4608 or SCO6956 )
     - annotation: !!omap
       - bigg.reaction: NADH17b
       - ec-code: 1.6.5.3
@@ -57009,6 +57479,39 @@
       - rhea: '23155'
       - subsystem: Nicotinate and nicotinamide metabolism
   - !!omap
+    - id: NADH8
+    - name: NADH dehydrogenase (demethylmenaquinone-9; 3 protons)
+    - metabolites: !!omap
+      - 2dmmq9_c: -1.0
+      - 2dmmql9_c: 1.0
+      - h_c: -4.0
+      - h_e: 3.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ( SCO4562 or SCO4599 ) and ( SCO4563 or SCO4600 ) and SCO4564
+        and ( SCO3392 or SCO4565 ) and SCO4566 and ( SCO4567 or SCO6560 ) and SCO4568
+        and ( SCO4569 or SCO4602 ) and ( SCO4570 or SCO4603 ) and ( SCO4571 or SCO4604
+        ) and ( SCO4572 or SCO4605 ) and ( SCO4573 or SCO4606 or SCO6954 ) and ( SCO4574
+        or SCO4607 ) and ( SCO4575 or SCO4608 or SCO6956 )
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: NADH9
+    - name: NADH dehydrogenase(demethylmenaquinone-9; 0 protons)
+    - metabolites: !!omap
+      - 2dmmq9_c: -1.0
+      - 2dmmql9_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
     - id: NADK
     - name: NAD kinase
     - metabolites: !!omap
@@ -57031,6 +57534,20 @@
       - origin: iMK1208
       - rhea: '18632'
       - subsystem: Cofactor and Prosthetic Group Biosynthesis
+  - !!omap
+    - id: NADPHQR4
+    - name: 'NADPH Quinone reductase '
+    - metabolites: !!omap
+      - 2dmmq9_c: -1.0
+      - 2dmmql9_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO3823
+    - annotation: !!omap
+      - origin: iAA1259
   - !!omap
     - id: NADS1
     - name: NAD synthase (nh3)
@@ -59280,7 +59797,7 @@
       - nadh_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO5520
+    - gene_reaction_rule: SCO5520 or SCO3835
     - annotation: !!omap
       - bigg.reaction: P5CD
       - biocyc: PYRROLINECARBDEHYDROG-RXN
@@ -60245,7 +60762,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1269 and SCO1270 and ( SCO2183 or SCO2371 or SCO7124
         ) and ( SCO0884 or SCO04919 or SCO2180 ) and ( SCO1268 or SCO7123 or SCO2181
-        )
+        ) and ( SCO3815 or SCO3829 )
     - annotation: !!omap
       - bigg.reaction: PDH
       - biocyc: PYRUVDEH-RXN
@@ -61045,7 +61562,7 @@
       - nadh_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO5520
+    - gene_reaction_rule: SCO5520 or SCO3835
     - annotation: !!omap
       - bigg.reaction: PHCD
       - biocyc: HYDROXYPYRROLINEDEH-RXN
@@ -63852,7 +64369,7 @@
       - nadh_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO5520
+    - gene_reaction_rule: SCO5520 or SCO3835
     - annotation: !!omap
       - bigg.reaction: PUTA3
       - biocyc: RXN-14116
@@ -70285,6 +70802,250 @@
       - origin: iMA789
       - subsystem: Transport, Membrane
   - !!omap
+    - id: SCB11
+    - name: Acyl-transferase (using beta keto-acyl ACP precursor)
+    - metabolites: !!omap
+      - 2o3pp8m3onn_c: 1.0
+      - 3oiC9ACP_c: -1.0
+      - apoACP_c: 1.0
+      - dhap_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6266
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: SCB12
+    - name: Aldol condensation SCB1 precursor (infered as spontaneous)
+    - metabolites: !!omap
+      - 2o3pp8m3onn_c: -1.0
+      - h2o_c: 1.0
+      - mh5odhfmdp_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: s0001
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: SCB13
+    - name: Butenolide phosphatase reductase (SCB1 precursor)
+    - metabolites: !!omap
+      - h_c: -1.0
+      - mh5odhfmdp_c: -1.0
+      - mh5othfmdp_c: 1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6267
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: SCB14
+    - name: SCB1 precursor phosphatase
+    - metabolites: !!omap
+      - afactor_c: 1.0
+      - h2o_c: -1.0
+      - mh5othfmdp_c: -1.0
+      - pi_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: SCB15
+    - name: Beta-keto-acid-CoA/ACP reductase
+    - metabolites: !!omap
+      - afactor_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - scb1_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6264
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: SCB1t
+    - name: SCB1 transport (diffusible molecule)
+    - metabolites: !!omap
+      - scb1_c: -1.0
+      - scb1_e: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: s0001
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: SCB21a
+    - name: Acyl-transferase (using beta keto-acyl CoA precursor)
+    - metabolites: !!omap
+      - 2o3pop3odn_c: 1.0
+      - 3odcoa_c: -1.0
+      - coa_c: 1.0
+      - dhap_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6266
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: SCB21b
+    - name: Acyl-transferase (using beta keto-acyl ACP precursor)
+    - metabolites: !!omap
+      - 2o3pop3odn_c: 1.0
+      - 3oddecACP_c: -1.0
+      - apoACP_c: 1.0
+      - dhap_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6266
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: SCB22
+    - name: Aldol condensation SCB2 precursor (infered as spontaneous)
+    - metabolites: !!omap
+      - 2o3pop3odn_c: -1.0
+      - 4o5odhmdhp_c: 1.0
+      - h2o_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: s0001
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: SCB23
+    - name: Butenolide phosphatase reductase (SCB2 precursor)
+    - metabolites: !!omap
+      - 4o5odhmdhp_c: -1.0
+      - 4o5othf3mdp_c: 1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6267
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: SCB24
+    - name: SCB2 precursor phosphatase
+    - metabolites: !!omap
+      - 4hm3odhf2o_c: 1.0
+      - 4o5othf3mdp_c: -1.0
+      - h2o_c: -1.0
+      - pi_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: SCB25
+    - name: Beta-keto-acid-CoA/ACP reductase
+    - metabolites: !!omap
+      - 4hm3odhf2o_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - scb2_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6264
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: SCB2t
+    - name: SCB2 transport (diffusible molecule)
+    - metabolites: !!omap
+      - scb2_c: -1.0
+      - scb2_e: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: s0001
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: SCB31
+    - name: Acyl-transferase (using beta keto-acyl ACP precursor)
+    - metabolites: !!omap
+      - 2o3pp8m3onn_c: 1.0
+      - 3oiC10ACP_c: -1.0
+      - apoACP_c: 1.0
+      - dhap_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6266
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: SCB32
+    - name: Aldol condensation SCB3 precursor (infered as spontaneous)
+    - metabolites: !!omap
+      - 2o3pp8m3onn_c: -1.0
+      - 46mo5o25dhf3mdhp_c: 1.0
+      - h2o_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: s0001
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: SCB33
+    - name: Butenolide phosphatase reductase (SCB3 precursor)
+    - metabolites: !!omap
+      - 465mo5othf3mdhp_c: 1.0
+      - 46mo5o25dhf3mdhp_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6267
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: SCB34
+    - name: SCB3 precursor phosphatase
+    - metabolites: !!omap
+      - 465mo5othf3mdhp_c: -1.0
+      - 4hm36modhf2o_c: 1.0
+      - h2o_c: -1.0
+      - pi_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: SCB35
+    - name: Beta-keto-acid-CoA/ACP reductase
+    - metabolites: !!omap
+      - 4hm36modhf2o_c: -1.0
+      - h_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+      - scb3_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6264
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
+    - id: SCB3t
+    - name: SCB3 transport (diffusible molecule)
+    - metabolites: !!omap
+      - scb3_c: -1.0
+      - scb3_e: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: s0001
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
     - id: SCYSDS
     - name: SUF Cysteine desulfuration
     - metabolites: !!omap
@@ -73509,7 +74270,7 @@
       - udpglcur_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO3052
+    - gene_reaction_rule: SCO3052 or SCO0382
     - annotation: !!omap
       - bigg.reaction: UDPGD
       - biocyc: UGD-RXN
@@ -74491,6 +75252,18 @@
       - origin: iMK1208
       - subsystem: Transport, Membrane
   - !!omap
+    - id: XYLAN_DEGe
+    - name: Xylan degradation (extracellular)
+    - metabolites: !!omap
+      - h2o_c: -527.0
+      - xyl__D_e: 528.0
+      - xylan_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO5931 or SCO2292 or SCO1883 or SCO0674 or SCO0105
+    - annotation: !!omap
+      - origin: iAA1259
+  - !!omap
     - id: XYLI1
     - name: xylose isomerase
     - metabolites: !!omap
@@ -74922,6 +75695,9 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
+    - id: SCO0105
+    - name: SCO0105
+  - !!omap
     - id: SCO0122
     - name: SCO0122
     - annotation: !!omap
@@ -75155,6 +75931,9 @@
     - id: SCO0479
     - name: SCO0479
   - !!omap
+    - id: SCO0482
+    - name: SCO0482
+  - !!omap
     - id: SCO0491
     - name: SCF34.10c
   - !!omap
@@ -75207,6 +75986,9 @@
   - !!omap
     - id: SCO0549
     - name: SCF11.29c
+  - !!omap
+    - id: SCO0554
+    - name: SCO0554
   - !!omap
     - id: SCO0560
     - name: cpeB
@@ -75271,6 +76053,9 @@
     - id: SCO0670
     - name: glpD, SCF91.30
   - !!omap
+    - id: SCO0674
+    - name: SCO0674
+  - !!omap
     - id: SCO0681
     - name: SCF15.02
   - !!omap
@@ -75321,6 +76106,9 @@
   - !!omap
     - id: SCO0763
     - name: SCF81.22
+  - !!omap
+    - id: SCO0765
+    - name: SCO0765
   - !!omap
     - id: SCO0766
     - name: SCF81.25c
@@ -75707,6 +76495,9 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
+    - id: SCO1429
+    - name: SCO1429
+  - !!omap
     - id: SCO1438
     - name: hisG
   - !!omap
@@ -75724,6 +76515,9 @@
   - !!omap
     - id: SCO1443
     - name: SC6D7A.06c
+  - !!omap
+    - id: SCO1444
+    - name: SCO1444
   - !!omap
     - id: SCO1450
     - name: SCL6.07
@@ -76055,6 +76849,9 @@
     - id: SCO1882
     - name: SCI39.29c
   - !!omap
+    - id: SCO1883
+    - name: SCO1883
+  - !!omap
     - id: SCO1886
     - name: SCI7.04c
   - !!omap
@@ -76354,6 +77151,9 @@
     - id: SCO2151
     - name: cox3, SC6G10.24c
   - !!omap
+    - id: SCO2154
+    - name: SCO2154
+  - !!omap
     - id: SCO2155
     - name: cox1, SC6G10.28c
   - !!omap
@@ -76463,6 +77263,9 @@
   - !!omap
     - id: SCO2286
     - name: SCC75A.32c
+  - !!omap
+    - id: SCO2292
+    - name: SCO2292
   - !!omap
     - id: SCO2298
     - name: kdgA, SCC30.06
@@ -76577,6 +77380,9 @@
   - !!omap
     - id: SCO2499
     - name: SCC121.02c
+  - !!omap
+    - id: SCO2503
+    - name: SCO2503
   - !!omap
     - id: SCO2504
     - name: glyS, SCC121.07c
@@ -76810,6 +77616,9 @@
   - !!omap
     - id: SCO2831
     - name: SCE20.05
+  - !!omap
+    - id: SCO2833
+    - name: SCO2833
   - !!omap
     - id: SCO2850
     - name: SCO2850
@@ -77481,6 +78290,9 @@
     - id: SCO3834
     - name: SCH69.04c
   - !!omap
+    - id: SCO3835
+    - name: SCO3835
+  - !!omap
     - id: SCO3847
     - name: SCH69.17
   - !!omap
@@ -77920,6 +78732,9 @@
     - id: SCO4645
     - name: aspC, SCD82.16c
   - !!omap
+    - id: SCO4655
+    - name: SCO4655
+  - !!omap
     - id: SCO4658
     - name: SCO4658
     - annotation: !!omap
@@ -78174,6 +78989,9 @@
     - id: SCO4993
     - name: 2SCK36.16
   - !!omap
+    - id: SCO5003
+    - name: SCO5003
+  - !!omap
     - id: SCO5023
     - name: SCK15.25
   - !!omap
@@ -78286,6 +79104,9 @@
   - !!omap
     - id: SCO5126
     - name: SC9E12.11
+  - !!omap
+    - id: SCO5134
+    - name: SCO5134
   - !!omap
     - id: SCO5136
     - name: SCO5136
@@ -78447,6 +79268,9 @@
     - id: SCO5374
     - name: atpC
   - !!omap
+    - id: SCO5376
+    - name: SCO5376
+  - !!omap
     - id: SCO5381
     - name: SCO5381
   - !!omap
@@ -78512,6 +79336,12 @@
   - !!omap
     - id: SCO5486
     - name: SC2A11.20
+  - !!omap
+    - id: SCO5498
+    - name: SCO5498
+  - !!omap
+    - id: SCO5499
+    - name: SCO5499
   - !!omap
     - id: SCO5508
     - name: SCO5508
@@ -78661,6 +79491,9 @@
     - name: SCO5671
     - annotation: !!omap
       - SBO: SBO:0000252
+  - !!omap
+    - id: SCO5673
+    - name: SCO5673
   - !!omap
     - id: SCO5676
     - name: gabT
@@ -78857,6 +79690,9 @@
     - id: SCO5925
     - name: SC10A5.30c
   - !!omap
+    - id: SCO5931
+    - name: SCO5931
+  - !!omap
     - id: SCO5940
     - name: SC7H1.10
   - !!omap
@@ -78867,6 +79703,9 @@
   - !!omap
     - id: SCO5945
     - name: SC7H1.15
+  - !!omap
+    - id: SCO5954
+    - name: SCO5954
   - !!omap
     - id: SCO5964
     - name: SC7H1.34c
@@ -78921,6 +79760,9 @@
   - !!omap
     - id: SCO6011
     - name: SC7B7.08
+  - !!omap
+    - id: SCO6012
+    - name: SCO6012
   - !!omap
     - id: SCO6013
     - name: SC1C3.01, SC7B7.10
@@ -79115,6 +79957,12 @@
     - id: SCO6264
     - name: SCO6264
   - !!omap
+    - id: SCO6266
+    - name: SCO6266
+  - !!omap
+    - id: SCO6267
+    - name: SCO6267
+  - !!omap
     - id: SCO6269
     - name: SCAH10.34c
   - !!omap
@@ -79123,6 +79971,30 @@
   - !!omap
     - id: SCO6271
     - name: accA1, SC2C4.01c, SCAH10.36c
+  - !!omap
+    - id: SCO6272
+    - name: SCO6272
+  - !!omap
+    - id: SCO6273
+    - name: SCO6273
+  - !!omap
+    - id: SCO6274
+    - name: SCO6274
+  - !!omap
+    - id: SCO6275
+    - name: SCO6275
+  - !!omap
+    - id: SCO6276
+    - name: SCO6276
+  - !!omap
+    - id: SCO6278
+    - name: SCO6278
+  - !!omap
+    - id: SCO6279
+    - name: SCO6279
+  - !!omap
+    - id: SCO6281
+    - name: SCO6281
   - !!omap
     - id: SCO6289
     - name: SCO6289
@@ -79175,6 +80047,9 @@
     - name: SCO6344
     - annotation: !!omap
       - SBO: SBO:0000252
+  - !!omap
+    - id: SCO6345
+    - name: SCO6345
   - !!omap
     - id: SCO6347
     - name: SC3A7.15
@@ -79330,6 +80205,9 @@
     - name: SCO6540
     - annotation: !!omap
       - SBO: SBO:0000252
+  - !!omap
+    - id: SCO6548
+    - name: SCO6548
   - !!omap
     - id: SCO6550
     - name: SCO6550
@@ -79630,6 +80508,9 @@
     - id: SCO6954
     - name: SC6F7.07
   - !!omap
+    - id: SCO6956
+    - name: SCO6956
+  - !!omap
     - id: SCO6962
     - name: SCO6962
   - !!omap
@@ -79815,8 +80696,14 @@
     - id: SCO7221
     - name: SC2H12.20c
   - !!omap
+    - id: SCO7225
+    - name: SCO7225
+  - !!omap
     - id: SCO7234
     - name: ctaD, SC2H12.33
+  - !!omap
+    - id: SCO7235
+    - name: SCO7235
   - !!omap
     - id: SCO7236
     - name: qcrB3
@@ -79826,6 +80713,9 @@
   - !!omap
     - id: SCO7254
     - name: SC5H1.38
+  - !!omap
+    - id: SCO7263
+    - name: SCO7263
   - !!omap
     - id: SCO7264
     - name: SCO7264
@@ -80044,6 +80934,9 @@
     - name: SCO7629
     - annotation: !!omap
       - SBO: SBO:0000252
+  - !!omap
+    - id: SCO7637
+    - name: SCO7637
   - !!omap
     - id: SCO7638
     - name: eno
