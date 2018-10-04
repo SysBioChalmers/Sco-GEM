@@ -58,7 +58,7 @@ RXNARA__45__8002;RXNARA-8002;phytoene synthase;R07270;MNXR108741;;PHYSYN
 RXN__45__17645;RXN-17645;(25S)-3-oxocholest-4-en-26-oyl-CoA racemase;;MNXR121061;;O426ISO
 RXN__45__9832;RXN-9832;"S-1-(4-hydroxyphenyl)-ethanol dehydrogenase;cyclohexanol dehydrogenase";R06891;MNXR123017;;CYCHEXDH
 RXN__45__14536;RXN-14536;2-chloroacrylate reductase;;MNXR113760;;2CLRED
-HYDROXYPYRUVATE__45__REDUCTASE__45__RXN_NADPH;HYDROXYPYRUVATE-REDUCTASE-RXN_NADPH;"hydroxypyruvate reductase;hydroxypyruvate reductase Me (NADPH)";;;;HYDPYR
+HYDROXYPYRUVATE__45__REDUCTASE__45__RXN_NADPH;HYDROXYPYRUVATE-REDUCTASE-RXN_NADPH;"hydroxypyruvate reductase;hydroxypyruvate reductase Me (NADPH)";;MNXR100336;HPYRR;HPYRR
 RXN__45__13533;RXN-13533;aminobacteriohopanetriol synthase;;MNXR118154;;AMBACS
 2__46__4__46__1__46__83__45__RXN;2.4.1.83-RXN;"dolichyl-phosphate mannose synthase;dolichol phosphate mannose synthase";R01009;MNXR115158;;DPMSYN
 RXN__45__16912;RXN-16912;guadinomine carbamoyltransferase;;MNXR120493;;GDCARBM
@@ -105,7 +105,7 @@ RXN__45__11861;RXN-11861;gallate:oxygen 3,4-oxidoreductase;R03549;MNXR108242;;GA
 RXN__45__16310;RXN-16310;O-[3-nitro-5-(oxidonitroso)-4-oxocyclohex-2-en-1-ylidenenitroso]oxidanidolate reductase;;MNXR120006;;
 RXN__45__9933;RXN-9933;3,8'-biflaviolin synthase;R08913;MNXR112404;;
 RXN__45__8023_NADPH;RXN-8023_NADPH;"phytoene desaturase;all-trans-phytoene desaturase;15-cis-phytoene desaturase (NADPH)";;;;
-RXN0__45__1862;RXN0-1862;UDP-4-amino-4-deoxy-L-arabinose formyltransferase;R07660;MNXR123124;;
+RXN0__45__1862;RXN0-1862;UDP-4-amino-4-deoxy-L-arabinose formyltransferase;R07660;MNXR105113;ULA4NFT;ULA4NFT
 MALYL__45__COA__45__LYASE__45__RXN;MALYL-COA-LYASE-RXN;"malyl-CoA lyase;malyl coenzyme A lyase;(S)-malyl-CoA lyase;L-malyl CoA lyase";R00473;MNXR106546;;
 RXN__45__8964;RXN-8964;succinyl CoA:L-malate CoA transferase;R00406;MNXR106517;;
 RXN__45__11002;RXN-11002;"succinate semialdehyde reductase;succinate semialdehyde reductase (NADPH)";R09281;MNXR100141;GHBDHy;GHBDHy
@@ -148,7 +148,7 @@ RXN1F__45__20;RXN1F-20;magnesium chelatase;R03877;MNXR101721;MPML, MPML_1;MPML
 1__46__14__46__13__46__8__45__RXN;1.14.13.8-RXN;dimethylaniline monooxygenase;R03344;MNXR108107;;
 RXN__45__8060;RXN-8060;Ni-sirohydrochlorin a,c-diamide synthase;;MNXR122122;;
 RXN__45__14395;RXN-14395;L-gulono-1,4-lactone dehydrogenase;;MNXR118666;;
-GLYCOLATE__45__REDUCTASE__45__RXN;GLYCOLATE-REDUCTASE-RXN;"glycolate dehydrogenase;glyoxylate reductase";R00717;MNXR100331;GLYCTO_syn, GLYCLTDx;GLYCTO_syn
+GLYCOLATE__45__REDUCTASE__45__RXN;GLYCOLATE-REDUCTASE-RXN;"glycolate dehydrogenase;glyoxylate reductase";R00717;MNXR100331;GLYCTO_syn, GLYCLTDx;GLYCTD
 RXN__45__10139;RXN-10139;"L-tryptophan:pyruvate aminotransferase;tryptophanmdashpyruvate aminotransferase";;MNXR113546;;
 RXN__45__11407;RXN-11407;D-glucuronate dehydrogenase;R09447;MNXR116911;;
 GALLATE__45__DECARBOXYLASE__45__RXN;GALLATE-DECARBOXYLASE-RXN;gallate decarboxylase;R03247;MNXR108044;;
@@ -224,7 +224,7 @@ URIDINEKIN__45__RXN;URIDINEKIN-RXN;uridine kinase;R00964;MNXR105162;URIK1;URIK1
 4__46__1__46__99__46__4__45__RXN;4.1.99.4-RXN;4.1.99.4-RXN;R00997;MNXR95217;ACCAHh;ACCAHh
 RXN__45__0;RXN-0;putrescine acetyltransferase;R01154;MNXR103335;PTRCAT1;PTRCAT1
 MYO__45__INOSITOL__45__1OR__45__4__45__MONOPHOSPHATASE__45__RXN;MYO-INOSITOL-1OR-4-MONOPHOSPHATASE-RXN;"myo-inositol-3-phosphate monophosphatase;inositol monopohsphatase;inositol-1(or 4)-monophosphatase;myo-inositol 3-phosphate monophosphatase;inositol monophosphatase";R01187;MNXR101574;MI3PP;MI3PP
-PYRUFLAVREDUCT__45__RXN;PYRUFLAVREDUCT-RXN;"pyruvate:ferredoxin oxidoreductase;pyruvate ferredoxin oxidoreductase;pyruvate-ferredoxin oxidoreductase;pyruvate synthase";R01196;MNXR103066;PYRShi, POR_syn;POR_syn
+PYRUFLAVREDUCT__45__RXN;PYRUFLAVREDUCT-RXN;"pyruvate:ferredoxin oxidoreductase;pyruvate ferredoxin oxidoreductase;pyruvate-ferredoxin oxidoreductase;pyruvate synthase";R01196;MNXR103066;PYRShi, POR_syn;PYRS
 VALINE__45__PYRUVATE__45__AMINOTRANSFER__45__RXN;VALINE-PYRUVATE-AMINOTRANSFER-RXN;valinemdashpyruvate aminotransferase;R01215;MNXR105217;VPAMTr;VPAMTr
 PROLINE__45__RACEMASE__45__RXN;PROLINE-RACEMASE-RXN;proline racemase;R01255;MNXR106886;;
 HYDROXYBENZALDEHYDE__45__OXIDATION__45__NAD__45__RXN;HYDROXYBENZALDEHYDE-OXIDATION-NAD-RXN;"NAD+-4-hydroxybenzaldehyde dehydrogenase;4-hydroxybenzoate dehydrogenase";R01293;MNXR105209;VNDH_2;VNDH_2
@@ -309,7 +309,7 @@ SYDDEHYD__45__RXN;SYDDEHYD-RXN;4-sulfobenzaldehyde dehydrogenase;R05272;MNXR1094
 RXN__45__864;RXN-864;succinyl-CoA:benzylsuccinate CoA-transferase;R05588;MNXR96368;BZSCT;BZSCT
 RXN__45__902;RXN-902;phenylitaconyl-CoA hydratase;R05599;MNXR122588;;
 R282__45__RXN;R282-RXN;"cyclohexane-1-carbonyl-CoA dehydrogenase;cyclohexanecarboxyl-CoA dehydrogenase";R05619;MNXR116210;;
-RXN__45__11689;RXN-11689;S-sulfolactate dehydrogenase;;MNXR104442;SLDx;SLDx
+RXN__45__11689;RXN-11689;S-sulfolactate dehydrogenase;;MNXR104442;SLDx;SLD
 RXN__45__5285;RXN-5285;3,8-divinyl-protochlorophyllide oxidoreductase;R06286;MNXR121794;;
 RXN__45__14147;RXN-14147;RXN-14147;;MNXR95923;ARAT, UNK3;ARAT
 RXN0__45__3922;RXN0-3922;gamma-glutamyl-gamma-aminobutyraldehyde dehydrogenase;['R07417', 'R07418'];MNXR123175;;
@@ -323,20 +323,20 @@ RXN__45__12848;RXN-12848;RXN-12848;R09859;MNXR113260;;
 RXN__45__12653;RXN-12653;pentalenolactone synthase;R10162;MNXR113528;;
 RXN__45__6902;RXN-6902;"gamma aminobutyrate transaminase;gamma-aminobutyrate transaminase (pyruvate dependent)";;MNXR113544;;
 RXN0__45__6732;RXN0-6732;alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase;;MNXR113550;;
-R01172;R01172;butanal:NAD+ oxidoreductase (CoA-acylating);R01172;;;
-R01618;R01618;APS:ATP adenylyltransferase;R01618;;;
-R01902;R01902;ATP:L-xylulose 1-phosphotransferase;R01902;;;
-R02457;R02457;D-Ornithine:oxygen oxidoreductase (deaminating);R02457;;;
-R02894;R02894;D-Proline:oxygen oxidoreductase;R02894;;;DPROLORED
-R02923;R02923;D-Arginine:oxygen oxidoreductase (deaminating);R02923;;;
-R04221;R04221;cis-4-Hydroxy-D-proline:oxygen oxidoreductase (deaminating);R04221;;;
-R04800_NADPH;R04800_NADPH;Neurosporene, hydrogen-donor:oxygen oxidoreductase (NADPH);R04800;;;
-R05590;R05590;Acylamide aminohydrolase;R05590;;;
-R01176;R01176;Butanoate:CoA ligase (AMP-forming);R01176;;;
-R01785;R01785;L-xylulose 1-phosphate glycolaldehyde-lyase (glycerone-phosphate-forming);R01785;;;
-R02252;R02252;phenylpropanoate:NAD+ delta2-oxidoreductase;R02252;;;
-R03391;R03391;CDP-4-dehydro-3,6-dideoxy-D-glucose:NAD+ 3-oxydoreductase;R03391;;;
-R04215;R04215;CTP:N-glycoloylneuraminate cytidylyltransferase;R04215;;;
+R01172;R01172;butanal:NAD+ oxidoreductase (CoA-acylating);R01172;MNXR96320;BTCOAR;BTCOAR
+R01618;R01618;APS:ATP adenylyltransferase;R01618;MNXR95863;APATT;APATT
+R01902;R01902;ATP:L-xylulose 1-phosphotransferase;R01902;MNXR100937;KHK2;KHK2
+R02457;R02457;D-Ornithine:oxygen oxidoreductase (deaminating);R02457;MNXR97759;DORNOp;DORNO
+R02894;R02894;D-Proline:oxygen oxidoreductase;R02894;MNXR107807;;DPROLORED
+R02923;R02923;D-Arginine:oxygen oxidoreductase (deaminating);R02923;MNXR97150;DARGOp;DARGO
+R04221;R04221;cis-4-Hydroxy-D-proline:oxygen oxidoreductase (deaminating);R04221;MNXR108742;;
+R04800_NADPH;R04800_NADPH;Neurosporene, hydrogen-donor:oxygen oxidoreductase (NADPH);R04800;MNXR105275;ZCAROTDH2;ZCAROTDH2
+R05590;R05590;Acylamide aminohydrolase;R05590;MNXR109702;;
+R01176;R01176;Butanoate:CoA ligase (AMP-forming);R01176;MNXR106852;;
+R01785;R01785;L-xylulose 1-phosphate glycolaldehyde-lyase (glycerone-phosphate-forming);R01785;MNXR99462;FBA4;FBA4
+R02252;R02252;phenylpropanoate:NAD+ delta2-oxidoreductase;R02252;MNXR107408;;
+R03391;R03391;CDP-4-dehydro-3,6-dideoxy-D-glucose:NAD+ 3-oxydoreductase;R03391;MNXR108139;;
+R04215;R04215;CTP:N-glycoloylneuraminate cytidylyltransferase;R04215;MNXR108739;;
 RXN__45__15356;RXN-15356;;;MNXR119310;;
 RXN__45__12753;RXN-12753;;;MNXR117736;;
 RXN__45__6423;RXN-6423;;R07408;MNXR103470;RE0691C;RE0691C
@@ -375,18 +375,18 @@ EXC_OUT_CPD__45__14016_c;EXC_OUT_CPD-14016_c;EXC_OUT_CPD-14016_c;;;;
 EXC_OUT_CPD__45__9962_c;EXC_OUT_CPD-9962_c;EXC_OUT_CPD-9962_c;;;;
 EXC_OUT_CPD__45__10680_c;EXC_OUT_CPD-10680_c;EXC_OUT_CPD-10680_c;;;;
 EXC_OUT_CPD__45__10681_c;EXC_OUT_CPD-10681_c;EXC_OUT_CPD-10681_c;;;;
-EXC_OUT_ACETONE_c;EXC_OUT_ACETONE_c;EXC_OUT_ACETONE_c;;;;
+EXC_OUT_ACETONE_c;EXC_OUT_ACETONE_c;EXC_OUT_ACETONE_c;;;;EX_acetone_e
 EXC_OUT_CPD__45__14522_c;EXC_OUT_CPD-14522_c;EXC_OUT_CPD-14522_c;;;;
 RXN__45__13783_NADH;RXN-13783_NADH;ornithine N-hydroxylase (NADH);;;;
 RXN__45__15892_NADH;RXN-15892_NADH;3,6-anhydro-L-galactose dehydrogenase (NADH);;;;
-HYDROXYPYRUVATE__45__REDUCTASE__45__RXN_NADH;HYDROXYPYRUVATE-REDUCTASE-RXN_NADH;"hydroxypyruvate reductase;hydroxypyruvate reductase Me (NADH)";;;;
-ANTHRANILOYL__45__COA__45__MONOOXYGENASE__45__RXN_NADH;ANTHRANILOYL-COA-MONOOXYGENASE-RXN_NADH;2-amninobenzoyl-CoA monooxygenase/reductase (NADH);;;;
+HYDROXYPYRUVATE__45__REDUCTASE__45__RXN_NADH;HYDROXYPYRUVATE-REDUCTASE-RXN_NADH;"hydroxypyruvate reductase;hydroxypyruvate reductase Me (NADH)";;MNXR100325;HPYRR2;HPYRR2
+ANTHRANILOYL__45__COA__45__MONOOXYGENASE__45__RXN_NADH;ANTHRANILOYL-COA-MONOOXYGENASE-RXN_NADH;2-amninobenzoyl-CoA monooxygenase/reductase (NADH);;MNXR108578;;
 RXN__45__12940_NADH;RXN-12940_NADH;dTDP-(2R,6S)-6-hydroxy-2-methyl-3-oxo-3,6-dihydro-2H-pyran-4-olate 3-ketoreductase (dTDP-4-dehydro-2,6-dideoxy-alpha-D-allose-forming) (NADH);;;;
 RXN__45__16164_NADH;RXN-16164_NADH;GDP-6-deoxy-4-keto-D-lyxo-heptose 4-reductase (NADH);;;;
 RXN__45__5921_NADH;RXN-5921_NADH;carnitine monooxygenase (NADH);R11875;;;
 R364__45__RXN_NADH;R364-RXN_NADH;4-nitrobenzoate reductase (NADH);;;;
-1__46__14__46__12__46__1__45__RXN_NADH;1.14.12.1-RXN_NADH;anthranilate dioxygenase (NADH);R00825;;;
-RXN__45__2962_NADH;RXN-2962_NADH;"S-hydroxymethyl-glutathione dehydrogenase;NAD- and glutathione-dependent formaldehyde dehydrogenase;hydroxymethylglutathione dehydrogenase (NADH)";['R06983', 'R07140'];;;
+1__46__14__46__12__46__1__45__RXN_NADH;1.14.12.1-RXN_NADH;anthranilate dioxygenase (NADH);R00825;MNXR106707;;
+RXN__45__2962_NADH;RXN-2962_NADH;"S-hydroxymethyl-glutathione dehydrogenase;NAD- and glutathione-dependent formaldehyde dehydrogenase;hydroxymethylglutathione dehydrogenase (NADH)";['R06983', 'R07140'];MNXR99237;FALDH2;FALDH2
 1__46__14__46__13__46__84__45__RXN_NADH;1.14.13.84-RXN_NADH;1.14.13.84-RXN (NADH);R06892;;;
 RXN__45__8024_NADH;RXN-8024_NADH;all-trans phytofluene desaturase (NADH);R04787;;;
 RXN__45__8003_NADH;RXN-8003_NADH;"cis-4-hydroxy-D-proline dehydrogenase;D-hydroxyproline dehydrogenase (NADH)";;;;
