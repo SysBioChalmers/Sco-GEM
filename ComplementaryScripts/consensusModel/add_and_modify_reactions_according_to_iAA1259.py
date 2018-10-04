@@ -73,6 +73,7 @@ CHANGED_REACTIONS = {
     "CYTBD2":   "genes:SCO7234 and SCO7235 and SCO7236 and SCO1934 and SCO7120",
     "NADH17b":   "genes:(SCO4562 or SCO4599) and (SCO4563 or SCO4600) and SCO4564 and (SCO3392 or SCO4565) and SCO4566 and (SCO4567 or SCO6560) and SCO4568 and (SCO4569 or SCO4602) and (SCO4570 or SCO4603) and (SCO4571 or SCO4604) and (SCO4572 or SCO4605) and (SCO4573 or SCO4606 or SCO6954) and (SCO4574 or SCO4607) and (SCO4575 or SCO4608 or SCO6956)",
     "ATPM":     "bounds:(2.64, 1000)",
+    "AMMQT9":   "bounds:(-1000,1000);genes:SCO4556 or SCO5940", 
     }
 
 
