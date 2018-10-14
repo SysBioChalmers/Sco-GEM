@@ -1,4 +1,4 @@
-﻿MetaboliteID;Name;NewID;KEGG;BIGG;MNX
+﻿Metabolite ID;Name;New ID;KEGG;BIGG;MNX
 CPD-16467_c;3-[(1-carboxyvinyl)oxy]benzoate;3ovobenz;C20772;;MNXM145735
 5-AMINO-2-OXOPENTANOATE_c;5-amino-2-oxopentanoate;5a2opntn;C01110;5a2opntn;MNXM1714
 L-GULONO-1-4-LACTONE_c;L-gulono-1,4-lactone;gullac;C01040;gullac;MNXM928
@@ -97,7 +97,7 @@ CPD-13621_c;pentalenolactoneD;pentlacd;C20399;;MNXM12598
 CPD-12040_c;trans,octacis-decaprenylphospho-beta-D-ribofuranose;todcpribfur;C20368;;MNXM11308
 CPD-17077_c;(-)-dehydrodiconiferylacid;dhiconf;;;MNXM147621
 CPD-13692_c;3-oxocholest-4,24-dien-26-oyl-CoA;3ocd26ocoa;;;MNXM8126
-BENZYLSUCCINYL-COA_c;(R)-benzylsuccinyl-CoA;bzsuccoa;C09817;bzsuccoa;MNXM2899
+BENZYLSUCCINYL-COA_c;(R)-benzylsuccinyl-CoA;bzsuccoa__R;C09817;;MNXM2899
 CPD-11867_c;(-)-(alphaS,betaR)-guaiacylglycerol-beta-guaiacylether;gcgguaiac;;;MNXM13439
 2-KETO-GLUTARAMATE_c;2-oxoglutaramate;HC00591;C00940;HC00591;MNXM575
 25-DDOL_c;2,5-dichloro-2,5-cyclohexadiene-1,4-diol;25dc25chx;C06599;;MNXM4960
