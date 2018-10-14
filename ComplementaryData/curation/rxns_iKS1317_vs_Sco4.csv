@@ -2076,7 +2076,7 @@ GRMCROS;RXN-8648;KEGG;FALSE
 ;RXN-13528_NADPH;Sco4 specific;TRUE
 ;2.5.1.68-RXN;Sco4 specific;TRUE
 ;RXN0-4301;Sco4 specific;TRUE
-;RXN-8081;Sco4 specific;TRUE
+GF4GL_1;RXN-8081;Same reaction;FALSE
 ;SORBITOL-6-PHOSPHATASE-RXN;Sco4 specific;TRUE
 ;2.4.1.216-RXN;Sco4 specific;TRUE
 ;RXN-9476;Sco4 specific;TRUE
@@ -2268,7 +2268,7 @@ MCPST2;R03105;Changed ID;FALSE
 ;RXN-14809;Sco4 specific;TRUE
 ;RXN-12541;Sco4 specific but does not add any value;FALSE
 ;RXN-14515;Sco4 specific;TRUE
-;RXN-13463;Sco4 specific;TRUE
+;RXN-13463;Sco4 specific but produce a metabolite that isn't used;FALSE
 ;RXN-15905;Sco4 specific;TRUE
 ;RXN-18029;Sco4 specific;TRUE
 ;TRANS-RXN0-575;Sco4 specific;TRUE
@@ -2276,7 +2276,7 @@ MCPST2;R03105;Changed ID;FALSE
 ;3.6.3.8-RXN;Sco4 specific;TRUE
 ;RXN66-447;Sco4 specific but maybe not likely;FALSE
 ;EXC_OUT_CPD-14016_c;Sco4 specific;TRUE
-;EXC_OUT_CPD-9962_c;Sco4 specific;TRUE
+DM_albflon_c;EXC_OUT_CPD-9962_c;Same reaction;FALSE
 EX_desferrioxamE_e;EXC_OUT_CPD-11957_c;Exchange of same compound;FALSE
 ;EXC_OUT_CPD-10680_c;Sco4 specific;TRUE
 ;EXC_OUT_CPD-10681_c;Sco4 specific;TRUE
@@ -2471,7 +2471,6 @@ SUCD9;;iKS1317 specific;FALSE
 CYO1ab;;iKS1317 specific;FALSE
 SULR_syn;;iKS1317 specific;FALSE
 SADT;;iKS1317 specific;FALSE
-GF4GL_1;;iKS1317 specific;FALSE
 ACTS16b;;iKS1317 specific;FALSE
 NAACPHYD;;iKS1317 specific;FALSE
 MALCOAMT;;iKS1317 specific;FALSE
@@ -2519,7 +2518,6 @@ MMYSYN3;;iKS1317 specific;FALSE
 MMYSYN2;;iKS1317 specific;FALSE
 MMSYNB;;iKS1317 specific;FALSE
 DM_grmcrnd_c;;iKS1317 specific;FALSE
-DM_albflon_c;;iKS1317 specific;FALSE
 DM_strprub_c;;iKS1317 specific;FALSE
 DIFRNLY;;iKS1317 specific;FALSE
 REDS35b;;iKS1317 specific;FALSE
