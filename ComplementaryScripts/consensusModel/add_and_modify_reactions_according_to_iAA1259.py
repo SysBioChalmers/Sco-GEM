@@ -120,18 +120,19 @@ def add_reactions(iAA1259_model, scoGEM, reaction_mapping_fn, add_new_metabolite
     return scoGEM
 
 def modify_reactions(scoGEM):
-    for reaction_id, change_string in CHANGED_REACTIONS.items():
-        key, value = change_string.split(":")
-        if key == "remove":
-            scoGEM.reactions.get_by_id(reaction_id).remove_from_model()
-        else:
-            if key == "genes":
-                scoGEM.reactions.get_by_id(reaction_id).gene_reaction_rule = value
-            elif key == "bounds":
-                bounds = literal_eval(value)
-                scoGEM.reactions.get_by_id(reaction_id).bounds = bounds
+    for reaction_id, change_string_temp in CHANGED_REACTIONS.items():
+        for change_string in change_string_temp.split(";"):
+            key, value = change_string.split(":")
+            if key == "remove":
+                scoGEM.reactions.get_by_id(reaction_id).remove_from_model()
             else:
-                raise NotImplementedError
+                if key == "genes":
+                    scoGEM.reactions.get_by_id(reaction_id).gene_reaction_rule = value
+                elif key == "bounds":
+                    bounds = literal_eval(value)
+                    scoGEM.reactions.get_by_id(reaction_id).bounds = bounds
+                else:
+                    raise NotImplementedError
     return scoGEM
 
 def change_biomass(iAA1259_model, scoGEM):

@@ -5693,13 +5693,6 @@
       - metanetx.chemical: MNXM3227;MNXM59381;MNXM90267
       - origin: Sco4
   - !!omap
-    - id: CPD__45__13324_c
-    - name: 6-Amino-6-deoxyfutalosine
-    - compartment: c
-    - formula: C19H19N5O6
-    - annotation: !!omap
-      - origin: iAA1259
-  - !!omap
     - id: ETFred_c
     - name: ETF-Reduced
     - compartment: c
@@ -33467,7 +33460,7 @@
     - id: ADXFUTNS
     - name: Aminodeoxyfutalosine nucleosidase
     - metabolites: !!omap
-      - CPD__45__13324_c: -1.0
+      - 6a6doxf_c: -1.0
       - ade_c: 1.0
       - dhxfut_c: 1.0
       - h2o_c: -1.0
@@ -35111,9 +35104,9 @@
       - ahcys_c: 1.0
       - amet_c: -1.0
       - mqn9_c: 1.0
-    - lower_bound: 0.0
+    - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO4556
+    - gene_reaction_rule: SCO4556 or SCO5940
     - annotation: !!omap
       - bigg.reaction: AMMQT9
       - ec-code: 2.1.1.163
