@@ -27,21 +27,23 @@ scoGEM_FN = "../../ModelFiles/xml/scoGEM.xml"
 iAA1259_PATH = "../../ComplementaryData/models/iAA1259.xml"
 
 
-metabolite_mappings = {
+METABOLITE_MAPPINGS = {
     "3cvobz_c": "CPD__45__16467_c",
-    "6adxfut_c": "CPD__45__13324_c",
+    "6adxfut_c": "6a6doxf_c",
     "dad__5_c": "dad_5_c",
-    "celb_e": "cellb_e"
+    "celb_e": "cellb_e",
+    #"6adxfut_c"
 }
 
 reaction_mappings = {
+# Not used, but was used as notes when idenentifying reactions that should be added
     "CHDHR": "RXN__45__12345",
     "ADXFUTSNT": "RXN__45__15264",
     "ADXFUTDA": "RXN__45__14910",
     "CYOO": "CYTBD2", # Check gene annotation
     "AMMQT9r": "AMMQT9", #Bounds changed and genes
-
 }
+
 # Changed reactions
 """These is a manually curated dict of reactions that are modified in iAA1259.
 There were a few reactions where the number of hydrogens were changed, but this resulted in unbalanced 
@@ -167,7 +169,7 @@ def fix_iAA1259(model):
 
 
 def apply_metabolite_mapping(iAA1259_model):
-    for old_id, new_id in metabolite_mappings.items():
+    for old_id, new_id in METABOLITE_MAPPINGS.items():
         m = iAA1259_model.metabolites.get_by_id(old_id)
         m.id = new_id
 
