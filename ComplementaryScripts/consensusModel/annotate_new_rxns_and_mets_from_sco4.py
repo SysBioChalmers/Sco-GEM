@@ -10,7 +10,6 @@ BIGG_METABOLITE_URL_BASE = "http://bigg.ucsd.edu/universal/metabolites/"
 
 
 def in_BiGG(BiGG_id, id_type = "Reaction"):
-
     # If last characheter is lower, check if the main reaction exists
     if id_type.lower() == "reaction":
         url_base = BIGG_REACTION_URL_BASE
@@ -31,7 +30,7 @@ def in_BiGG(BiGG_id, id_type = "Reaction"):
         except requests.exceptions.ConnectionError:
             print("Can't connect to BiGG, check your internet connection")
             exit()
-            
+
         soup = BS(html_text, "html.parser")
 
         if soup.title.contents[0][:3] == "404":
@@ -40,7 +39,7 @@ def in_BiGG(BiGG_id, id_type = "Reaction"):
             in_BiGG = True
     return in_BiGG
 
-def add_rxn_annotations(model, rxn_annotation_fn):
+def add_rxn_annotations(model, rxn_annotation_fn, check_BiGG = True):
     reaction_annotation_df = pd.read_csv(rxn_annotation_fn, sep = ";", keep_default_na = False)
     
     for index, row in reaction_annotation_df.iterrows():
@@ -54,9 +53,10 @@ def add_rxn_annotations(model, rxn_annotation_fn):
         if not len(row["bigg"]):
             # The BiGG id is created and should not be an existing BiGG id
             # Check that it isn't used
-            if in_BiGG(row["New ID"]):
-                raise ValueError("""The BiGG id {0} is already defined in BiGG,
-                 but it is defined as new in spreadsheet. Check that it is correct""".format(row["New ID"]))
+            if check_BiGG:
+                if in_BiGG(row["New ID"]):
+                    raise ValueError("""The BiGG id {0} is already defined in BiGG,
+                     but it is defined as new in spreadsheet. Check that it is correct""".format(row["New ID"]))
         
         try:
             reaction.id = row["New ID"]
@@ -79,7 +79,7 @@ def add_rxn_annotations(model, rxn_annotation_fn):
 def insert_ascii(reaction_id):
     return reaction_id.replace("-","__45__").replace("(","__40__").replace(")","__41__").replace(".", "__46__").replace("+", "__43__")
 
-def add_met_annotations(model, met_annotation_fn):
+def add_met_annotations(model, met_annotation_fn, , check_BiGG = True):
     met_annotation_df = pd.read_csv(met_annotation_fn, sep = ";", keep_default_na = False)
     
     for index, row in met_annotation_df.iterrows():
@@ -88,15 +88,16 @@ def add_met_annotations(model, met_annotation_fn):
         try:
             metabolite = model.metabolites.get_by_id(fixed_id)
         except KeyError:
-            print("Can't find metabolite {1} with proper id: {0}".format(row["Metabolite ID"], fixed_id))
+            logging.info("Can't find metabolite {1} with proper id: {0}".format(row["Metabolite ID"], fixed_id))
             continue
 
         if not len(row["BIGG"]):
             # The BiGG id is created and should not be an existing BiGG id
             # Check that it isn't used
-            if in_BiGG(row["New ID"]):
-                raise ValueError("""The BiGG id {0} is already defined in BiGG,
-                 but it is defined as new in spreadsheet. Check that it is correct""".format(row["New ID"]))
+            if check_BiGG:
+                if in_BiGG(row["New ID"]):
+                    raise ValueError("""The BiGG id {0} is already defined in BiGG,
+                     but it is defined as new in spreadsheet. Check that it is correct""".format(row["New ID"]))
         
         new_m_id = "{0}_{1}".format(row["New ID"], metabolite.id.rsplit("_", maxsplit = 1)[-1])
         try:
@@ -111,7 +112,7 @@ def add_met_annotations(model, met_annotation_fn):
         metabolite.name = row["Name"]
         metabolite.annotation["bigg.metabolite"] = row["New ID"]
         logging.info("Changed metabolite id from {0} to {1}".format(row["Metabolite ID"], row["New ID"]))
-
+    print("Done!")
 
 if __name__ == '__main__':
     fn = "../../ComplementaryData/curation/added_sco4_reactions.csv"
