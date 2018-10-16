@@ -1611,7 +1611,7 @@ feroxE[c],CPD-11957_c,Same metabolite
 ,CPD-15277_c,Sco4 specific
 ,CPD-15279_c,Sco4 specific
 ,CPD-15280_c,Sco4 specific
-,CPD-15317_c,Sco4 specific
+r5p[c],CPD-15317_c,Same metabolite
 ,CPD-15408_c,Sco4 specific
 ,CPD-15409_c,Sco4 specific
 ,CPD-15423_c,Sco4 specific
@@ -1706,7 +1706,7 @@ houdic[c],CPD-5821_c,Sco4 specific
 ,CPD-600_c,Sco4 specific
 ,CPD-62_c,Sco4 specific
 ,CPD-627_c,Sco4 specific
-,CPD-650_c,Sco4 specific
+3hbcoa__R[c],CPD-650_c,Same metabolite
 ,CPD-653_c,Sco4 specific
 ,CPD-658_c,Sco4 specific
 ,CPD-664_c,Sco4 specific
@@ -1767,7 +1767,7 @@ albflon[c],CPD-9962_c, Same metabolite
 ,CPD1F-129_c,Sco4 specific
 ,CPD1F-98_c,Sco4 specific
 ,CPD1G-121_c,Sco4 specific
-,CPD1G-2_c,Sco4 specific
+msh[c],CPD1G-2_c,Same metabolite
 ,CREATINE_c,Sco4 specific
 ,CREATININE_c,Sco4 specific
 ,CYCLOHEXA-15-DIENE-1-CARBONYL-COA_c,Sco4 specific
@@ -1846,7 +1846,7 @@ mnl1p[c],MANNITOL-1P_c,Same metabolite
 ,NICOTINE_c,Sco4 specific
 ,NN-DIMETHYLANILINE_c,Sco4 specific
 ,NN-DIMETHYLANILINE-N-OXIDE_c,Sco4 specific
-,OX-COENZYME-F420_c,Sco4 specific
+f420[c],OX-COENZYME-F420_c,Same metabolite
 op4en[c],OXOPENTENOATE_c,Same metabolite
 ,Oxidized-Factor-F420_c,Sco4 specific
 fdxox[c],Oxidized-ferredoxins_c,Same metabolite
@@ -1876,7 +1876,7 @@ sql[c],SQUALENE_c,same metabolite
 ,UDP-4-AMINO-4-DEOXY-L-ARABINOSE_c,Sco4 specific
 ,UDP-L-ARA4-FORMYL-N_c,Sco4 specific
 ,VANILLIN_c,Sco4 specific
-xyl__D[c],XYLOSE_c,Sco4 specific
+xyl__D[c],XYLOSE_c,Same metabolite
 ,4-OXOGLUTARAMATE_c,Sco4 specific
 ,BETA-D-FRUCTOSE_c,Sco4 specific
 ,BETAINE-ALDEHYDE-HYDRATE_c,Sco4 specific
@@ -1884,7 +1884,7 @@ xyl__D[c],XYLOSE_c,Sco4 specific
 ,CPD-13430_c,Sco4 specific
 ,CPD-14081_c,Sco4 specific
 ,CPD-14083_c,Sco4 specific
-,CPD-14447_c,Sco4 specific
+,CPD-14447_c,Sco4 specific but maybe C00596
 ,CPD-14523_c,Sco4 specific
 ,CPD-15373_c,Sco4 specific
 ,CPD-15826_c,Sco4 specific
@@ -1974,7 +1974,6 @@ fldrd[c],,iKS1317 specific
 ddhrb[c],,iKS1317 specific
 lppg[c],,iKS1317 specific
 2plac__L[c],,iKS1317 specific
-f420[c],,iKS1317 specific
 gal_aD[c],,iKS1317 specific
 dhkdhqn[c],,iKS1317 specific
 noeicoylACP[c],,iKS1317 specific

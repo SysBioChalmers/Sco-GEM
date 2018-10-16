@@ -19,6 +19,7 @@ import fix_iKS1317_issues
 import fix_sco4_issues
 import add_reactions_from_sco4
 import add_missing_gene_annotations_sco4
+import annotate_new_rxns_and_mets_from_sco4
 import add_and_modify_reactions_according_to_iAA1259
 
 SAVE_PATH = "../../ModelFiles/xml/scoGEM.xml"
@@ -27,6 +28,9 @@ iKS1317_PATH = "../../ComplementaryData/models/iKS1317.xml"
 SCO4_PATH = "../../ComplementaryData/models/Sco4.xml"
 SCO4_REACTION_MAPPING_FN = "../../ComplementaryData/curation/rxns_iKS1317_vs_Sco4.csv"
 SCO4_METABOLITE_MAPPING_FN =  "../../ComplementaryData/curation/mets_iKS1317_vs_Sco4.csv"
+SCO4_REACTION_ANNOTATION_FN = "../../ComplementaryData/curation/added_sco4_reactions.csv"
+SCO4_METABOLITE_ANNOTATION_FN = "../../ComplementaryData/curation/added_sco4_metabolites.csv"
+
 
 iAA1259_PATH = "../../ComplementaryData/models/iAA1259.xml"
 iAA1259_NEW_REACTIONS_FN = "../../ComplementaryData/curation/iAA1259_suppl_S4.csv" # New reactions
@@ -49,12 +53,15 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
     sco4_model = cobra.io.read_sbml_model(SCO4_PATH)
     fix_sco4_issues.fix(sco4_model)
 
-    ## 1c) Add missing / changeds gene annotations in iMK1208 identifed in Sco4 / and by Snorre 21.09.2018
+    ## 1c) Add missing / changed gene annotations in iMK1208 identifed in Sco4 / and by Snorre 21.09.2018
     add_missing_gene_annotations_sco4.add_gene_annotations(scoGEM)
 
     # Part 2: Add reactions from Sco4
     scoGEM = add_reactions_from_sco4.add_reactions(sco4_model, scoGEM, SCO4_REACTION_MAPPING_FN, SCO4_METABOLITE_MAPPING_FN)
 
+    ## 2b) Rename metabolites added from Sco4 to BIGGish Ids
+    annotate_new_rxns_and_mets_from_sco4.add_rxn_annotations(scoGEM, SCO4_REACTION_ANNOTATION_FN)
+    annotate_new_rxns_and_mets_from_sco4.add_met_annotations(scoGEM, SCO4_METABOLITE_ANNOTATION_FN)
 
     # Part 3: Add and modify reactions according to iAA1259
     iAA1259_model = cobra.io.read_sbml_model(iAA1259_PATH)
