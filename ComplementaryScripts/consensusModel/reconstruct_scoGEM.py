@@ -21,6 +21,7 @@ import add_reactions_from_sco4
 import add_missing_gene_annotations_sco4
 import annotate_new_rxns_and_mets_from_sco4
 import add_and_modify_reactions_according_to_iAA1259
+import fix_issue12_reversibility
 
 SAVE_PATH = "../../ModelFiles/xml/scoGEM.xml"
 iKS1317_PATH = "../../ComplementaryData/models/iKS1317.xml"
@@ -60,8 +61,8 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
     scoGEM = add_reactions_from_sco4.add_reactions(sco4_model, scoGEM, SCO4_REACTION_MAPPING_FN, SCO4_METABOLITE_MAPPING_FN)
 
     ## 2b) Rename metabolites added from Sco4 to BIGGish Ids
-    annotate_new_rxns_and_mets_from_sco4.add_rxn_annotations(scoGEM, SCO4_REACTION_ANNOTATION_FN)
-    annotate_new_rxns_and_mets_from_sco4.add_met_annotations(scoGEM, SCO4_METABOLITE_ANNOTATION_FN)
+    annotate_new_rxns_and_mets_from_sco4.add_rxn_annotations(scoGEM, SCO4_REACTION_ANNOTATION_FN, False)
+    annotate_new_rxns_and_mets_from_sco4.add_met_annotations(scoGEM, SCO4_METABOLITE_ANNOTATION_FN, False)
 
     # Part 3: Add and modify reactions according to iAA1259
     iAA1259_model = cobra.io.read_sbml_model(iAA1259_PATH)
@@ -72,7 +73,7 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
     scoGEM = add_and_modify_reactions_according_to_iAA1259.change_biomass(iAA1259_model, scoGEM)
     
     # Part 4
-    
+    fix_issue12_reversibility.fix(scoGEM)
 
     # Save model
     ## Version number
