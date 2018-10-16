@@ -79,7 +79,7 @@ def add_rxn_annotations(model, rxn_annotation_fn, check_BiGG = True):
 def insert_ascii(reaction_id):
     return reaction_id.replace("-","__45__").replace("(","__40__").replace(")","__41__").replace(".", "__46__").replace("+", "__43__")
 
-def add_met_annotations(model, met_annotation_fn, , check_BiGG = True):
+def add_met_annotations(model, met_annotation_fn, check_BiGG = True):
     met_annotation_df = pd.read_csv(met_annotation_fn, sep = ";", keep_default_na = False)
     
     for index, row in met_annotation_df.iterrows():
