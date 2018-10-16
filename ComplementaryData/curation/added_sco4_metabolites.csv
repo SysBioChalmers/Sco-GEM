@@ -125,7 +125,7 @@ SARCOSINE_c;sarcosine;sarcs;C00213;sarcs;MNXM300
 ENTEROBACTIN_c;enterobactin;enter;C05821;enter;"MNXM499451;MNXM883"
 CPD-13380_c;dTDP-2,6-dideoxy-D-glycero-hex-2-enos-4-ulose;dtdp26ddgh2e2u;C06620;;"MNXM162672;MNXM6260"
 CPD-20_c;3-hydroxy-5-oxohexanoyl-CoA;3hd4oxhxcoa;C16273;;MNXM5524
-CPD-1117_c;L-arabinonate;arab__L;C00545;;MNXM1836
+CPD-1117_c;L-arabinonate;arabat__L;C00545;;MNXM1836
 CPD0-1198_c;L-lyxonate;lyxat__L;C05412;;MNXM59473
 BETA-D-FRUCTOSE_c;beta-D-fructofuranose;fru_B;C02336;fru_B;MNXM1542
 4-hydroxybenzoate_c;4-hydroxybenzoate;4hbz;C00156;4hbz;MNXM164
@@ -167,7 +167,7 @@ FUCULOSE-1P_c;L-fuculose1-phosphate;fc1p;C01099;fc1p;MNXM1749
 S-HYDROXYMETHYLMYCOTHIOL_c;S-hydroxymethylmycothiol;hmmsh;C18235;;MNXM2726
 METHYL-GLYOXAL_c;methylglyoxal;mthgxl;C00546;mthgxl;MNXM310
 CPD-323_c;cholest-4-en-3-one;chol4e3o;C00599;;MNXM973
-CPD-8742_c;(3E)-2-oxohex-3-enedioate;2hmc;C02501;2hmc;MNXM6068
+CPD-8742_c;(3E)-2-oxohex-3-enedioate;2oxalc;;;
 DIVINYLCHLOROPHYLLIDE-A_c;3,8-divinylchlorophyllidea;dvchlda;C11832;dvchlda;MNXM1047
 CPD-19_c;3-hydroxy-5-oxohexanoate;3hd5ohexa;C16272;;MNXM5523
 ACETOL_c;acetol;acetol;C05235;acetol;MNXM1744

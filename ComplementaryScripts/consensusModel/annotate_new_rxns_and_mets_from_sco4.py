@@ -26,7 +26,12 @@ def in_BiGG(BiGG_id, id_type = "Reaction"):
     in_BiGG = False    
     for b_id in bigg_ids:
         url = url_base + BiGG_id.strip()
-        html_text = requests.get(url).text
+        try:
+            html_text = requests.get(url).text
+        except requests.exceptions.ConnectionError:
+            print("Can't connect to BiGG, check your internet connection")
+            exit()
+            
         soup = BS(html_text, "html.parser")
 
         if soup.title.contents[0][:3] == "404":
@@ -112,7 +117,7 @@ if __name__ == '__main__':
     fn = "../../ComplementaryData/curation/added_sco4_reactions.csv"
     model = cobra.io.read_sbml_model("../../ModelFiles/xml/scoGEM.xml")
     fnm = "../../ComplementaryData/curation/added_sco4_metabolites.csv"
-    # add_rxn_annotations(model, fn)
+    add_rxn_annotations(model, fn)
     add_met_annotations(model, fnm)
 
     
