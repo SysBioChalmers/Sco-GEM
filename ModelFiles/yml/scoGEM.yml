@@ -40722,15 +40722,16 @@
       - subsystem: Glycine, serine and threonine metabolism
   - !!omap
     - id: BIOMASS_SCO
-    - name: S. coelicolor biomass objective function - with 75.7 GAM estimate
+    - name: S. coelicolor biomass objective function - with 75.79 GAM estimate
     - metabolites: !!omap
       - 10fthf_c: -0.004309
       - 15dap_c: -0.019494
+      - 2dmmql9_c: -0.0118
       - 2fe2s_c: -0.011698
       - 4fe4s_c: -0.005849
       - 5mthf_c: -0.004431
       - adocbl_c: -0.001286
-      - adp_c: 75.7
+      - adp_c: 75.79
       - ala__L_c: -0.60978
       - amet_c: -0.005085
       - arg__L_c: -0.10195
@@ -40787,7 +40788,7 @@
       - mn2_c: -0.000658
       - mobd_c: -7.0e-06
       - mocogdp_c: -0.00235
-      - mql9_c: -0.00258
+      - mql9_c: -0.011799999999999998
       - msh_c: -0.004185
       - murein4p4p_c: -0.02984
       - murein4px4p_c: -0.030136
@@ -40823,7 +40824,7 @@
       - pi150_c: -1.7e-05
       - pi160_c: -0.00031
       - pi161_c: -8.0e-05
-      - pi_c: 75.7
+      - pi_c: 75.79
       - piai150_c: -0.000293
       - piai170_c: -0.000269
       - pii140_c: -5.9e-05
@@ -40831,6 +40832,7 @@
       - pii160_c: -0.000344
       - pii170_c: -0.000125
       - ppi_c: 0.635847
+      - pppi_c: -0.000141
       - pro__L_c: -0.37332
       - ptrc_c: -0.022527
       - pydx5p_c: -0.008287
@@ -40871,7 +40873,7 @@
       - bigg.reaction: BIOMASS_SCO
       - ec-code: ''
       - kegg.subsystem: Other
-      - origin: iMK1208
+      - origin: iAA1259
       - subsystem: Biomass and maintenance functions
   - !!omap
     - id: DM_2hymeph_c
@@ -69693,11 +69695,12 @@
     - metabolites: !!omap
       - 10fthf_c: -0.004309
       - 15dap_c: -0.019494
+      - 2dmmql9_c: -0.0118
       - 2fe2s_c: -0.011698
       - 4fe4s_c: -0.005849
       - 5mthf_c: -0.004431
       - adocbl_c: -0.001286
-      - adp_c: 71.62443
+      - adp_c: 71.71443000000001
       - alatrna_c: -0.60978
       - amet_c: -0.005085
       - argtrna_c: -0.10195
@@ -69754,7 +69757,7 @@
       - mn2_c: -0.000658
       - mobd_c: -7.0e-06
       - mocogdp_c: -0.00235
-      - mql9_c: -0.00258
+      - mql9_c: -0.011799999999999998
       - msh_c: -0.004185
       - murein4p4p_c: -0.02984
       - murein4px4p_c: -0.030136
@@ -69790,7 +69793,7 @@
       - pi150_c: -1.7e-05
       - pi160_c: -0.00031
       - pi161_c: -8.0e-05
-      - pi_c: 71.62443
+      - pi_c: 71.71443000000001
       - piai150_c: -0.000293
       - piai170_c: -0.000269
       - pii140_c: -5.9e-05
@@ -69798,6 +69801,7 @@
       - pii160_c: -0.000344
       - pii170_c: -0.000125
       - ppi_c: 0.635847
+      - pppi_c: -0.000141
       - protrna_c: -0.37332
       - ptrc_c: -0.022527
       - pydx5p_c: -0.008287
@@ -69857,7 +69861,7 @@
       - bigg.reaction: BIOMASS_SCO
       - ec-code: ''
       - kegg.subsystem: Other
-      - origin: iMK1208
+      - origin: iAA1259
       - subsystem: Biomass and maintenance functions
   - !!omap
     - id: CARNOX
@@ -82684,10 +82688,10 @@
     - id: SCO0164
     - name: ''
   - !!omap
-    - id: SCO0079
+    - id: SCO3915
     - name: ''
   - !!omap
-    - id: SCO3915
+    - id: SCO0079
     - name: ''
   - !!omap
     - id: SCO04919
@@ -82818,13 +82822,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO1206
-    - name: SCO1206
+    - id: SCO7671
+    - name: SCO7671
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO7671
-    - name: SCO7671
+    - id: SCO1206
+    - name: SCO1206
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82903,8 +82907,8 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3730
-    - name: SCO3730
+    - id: SCO0429
+    - name: SCO0429
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82913,8 +82917,8 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO0429
-    - name: SCO0429
+    - id: SCO3730
+    - name: SCO3730
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82953,18 +82957,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6760
-    - name: SCO6760
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
     - id: SCO0187
     - name: SCO0187
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6785
-    - name: SCO6785
+    - id: SCO6760
+    - name: SCO6760
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82973,18 +82972,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
+    - id: SCO6785
+    - name: SCO6785
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
     - id: SCO2490
     - name: SCO2490
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO1199
-    - name: SCO1199
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO3823
-    - name: SCO3823
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82993,13 +82987,23 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
+    - id: SCO0780
+    - name: SCO0780
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO3823
+    - name: SCO3823
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
     - id: SCO5073
     - name: SCO5073
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO0780
-    - name: SCO0780
+    - id: SCO1199
+    - name: SCO1199
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83023,11 +83027,6 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO7285
-    - name: SCO7285
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
     - id: SCO5980
     - name: SCO5980
     - annotation: !!omap
@@ -83035,6 +83034,11 @@
   - !!omap
     - id: SCO1109
     - name: SCO1109
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO7285
+    - name: SCO7285
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83068,8 +83072,8 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO4875
-    - name: SCO4875
+    - id: SCO6374
+    - name: SCO6374
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83078,8 +83082,8 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6374
-    - name: SCO6374
+    - id: SCO4875
+    - name: SCO4875
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83093,13 +83097,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO4339
-    - name: SCO4339
+    - id: SCO4352
+    - name: SCO4352
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO4352
-    - name: SCO4352
+    - id: SCO4339
+    - name: SCO4339
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83178,13 +83182,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3084
-    - name: SCO3084
+    - id: SCO1308
+    - name: SCO1308
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO1308
-    - name: SCO1308
+    - id: SCO3084
+    - name: SCO3084
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83213,8 +83217,8 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO0312
-    - name: SCO0312
+    - id: SCO6938
+    - name: SCO6938
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83223,8 +83227,8 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6938
-    - name: SCO6938
+    - id: SCO0312
+    - name: SCO0312
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83273,13 +83277,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3130
-    - name: SCO3130
+    - id: SCO0362
+    - name: SCO0362
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO0362
-    - name: SCO0362
+    - id: SCO3130
+    - name: SCO3130
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83293,13 +83297,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3306
-    - name: SCO3306
+    - id: SCO1417
+    - name: SCO1417
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO1417
-    - name: SCO1417
+    - id: SCO3306
+    - name: SCO3306
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83308,13 +83312,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO0358
-    - name: SCO0358
+    - id: SCO3480
+    - name: SCO3480
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3480
-    - name: SCO3480
+    - id: SCO0358
+    - name: SCO0358
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83333,13 +83337,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3051
-    - name: SCO3051
+    - id: SCO1428
+    - name: SCO1428
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO1428
-    - name: SCO1428
+    - id: SCO3051
+    - name: SCO3051
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83503,11 +83507,6 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6308
-    - name: SCO6308
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
     - id: SCO0346
     - name: SCO0346
     - annotation: !!omap
@@ -83515,6 +83514,11 @@
   - !!omap
     - id: SCO2850
     - name: SCO2850
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO6308
+    - name: SCO6308
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83668,6 +83672,26 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
+    - id: SCO1097
+    - name: SCO1097
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO0899
+    - name: SCO0899
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO7440
+    - name: SCO7440
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO3446
+    - name: SCO3446
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
     - id: SCO0404
     - name: SCO0404
     - annotation: !!omap
@@ -83678,23 +83702,8 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3446
-    - name: SCO3446
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO0899
-    - name: SCO0899
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO1097
-    - name: SCO1097
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO7440
-    - name: SCO7440
+    - id: SCO4491
+    - name: SCO4491
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83708,23 +83717,8 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO4491
-    - name: SCO4491
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
     - id: SCO7611
     - name: SCO7611
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO1923
-    - name: SCO1923
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO2469
-    - name: SCO2469
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83733,8 +83727,18 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6172
-    - name: SCO6172
+    - id: SCO2469
+    - name: SCO2469
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO1923
+    - name: SCO1923
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO6170
+    - name: SCO6170
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83753,8 +83757,8 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6170
-    - name: SCO6170
+    - id: SCO6172
+    - name: SCO6172
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83773,13 +83777,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6487
-    - name: SCO6487
+    - id: SCO1676
+    - name: SCO1676
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO1676
-    - name: SCO1676
+    - id: SCO6487
+    - name: SCO6487
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83828,23 +83832,23 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO7693
-    - name: SCO7693
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
     - id: SCO0235
     - name: SCO0235
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO0240
-    - name: SCO0240
+    - id: SCO2491
+    - name: SCO2491
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO2491
-    - name: SCO2491
+    - id: SCO7693
+    - name: SCO7693
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO0240
+    - name: SCO0240
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83923,13 +83927,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3216
-    - name: SCO3216
+    - id: SCO4332
+    - name: SCO4332
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO4332
-    - name: SCO4332
+    - id: SCO3216
+    - name: SCO3216
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83945,10 +83949,10 @@
     - id: SCO6279
     - name: ''
   - !!omap
-    - id: SCO6272
+    - id: SCO6276
     - name: ''
   - !!omap
-    - id: SCO6276
+    - id: SCO6272
     - name: ''
   - !!omap
     - id: SCO6281
@@ -83960,19 +83964,19 @@
     - id: SCO5134
     - name: ''
   - !!omap
-    - id: SCO0105
-    - name: ''
-  - !!omap
-    - id: SCO2292
+    - id: SCO0674
     - name: ''
   - !!omap
     - id: SCO1883
     - name: ''
   - !!omap
-    - id: SCO0674
+    - id: SCO2292
     - name: ''
   - !!omap
     - id: SCO5931
+    - name: ''
+  - !!omap
+    - id: SCO0105
     - name: ''
   - !!omap
     - id: SCO6548
@@ -83981,19 +83985,19 @@
     - id: SCO7225
     - name: ''
   - !!omap
-    - id: SCO1444
+    - id: SCO5954
     - name: ''
   - !!omap
-    - id: SCO5954
+    - id: SCO5673
     - name: ''
   - !!omap
     - id: SCO5376
     - name: ''
   - !!omap
-    - id: SCO5003
+    - id: SCO1444
     - name: ''
   - !!omap
-    - id: SCO7263
+    - id: SCO1429
     - name: ''
   - !!omap
     - id: SCO0482
@@ -84002,19 +84006,19 @@
     - id: SCO6345
     - name: ''
   - !!omap
-    - id: SCO2503
-    - name: ''
-  - !!omap
     - id: SCO6012
     - name: ''
   - !!omap
-    - id: SCO1429
+    - id: SCO2503
+    - name: ''
+  - !!omap
+    - id: SCO7263
+    - name: ''
+  - !!omap
+    - id: SCO5003
     - name: ''
   - !!omap
     - id: SCO2833
-    - name: ''
-  - !!omap
-    - id: SCO5673
     - name: ''
   - !!omap
     - id: SCO6266
@@ -84032,16 +84036,16 @@
     - id: SCO4655
     - name: ''
   - !!omap
-    - id: SCO5499
-    - name: ''
-  - !!omap
     - id: SCO5498
     - name: ''
   - !!omap
-    - id: SCO0765
+    - id: SCO5499
     - name: ''
   - !!omap
     - id: SCO7637
+    - name: ''
+  - !!omap
+    - id: SCO0765
     - name: ''
   - !!omap
     - id: SCO0554
