@@ -14,6 +14,8 @@ The scoGEM community model of Streptomyces coelicolor is constructed using the t
 import cobra
 import logging
 
+import fix_iKS1317_issues
+
 SAVE_PATH = "../../ModelFiles/xml/scoGEM.xml"
 iKS1317_PATH = "../../ComplementaryData/models/iKS1317.xml"
 
@@ -24,6 +26,11 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
     
     if save_fn is None:
         save_fn = model_fn
+
+    # Part 1: Fix known issues in models
+    ## 1a) Issues in iKS1317
+    fix_iKS1317_issues.fix(scoGEM)
+
 
     # Save model
     ## Version number

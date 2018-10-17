@@ -1985,7 +1985,7 @@
     - formula: C29H38N7O18P3S
     - annotation: !!omap
       - bigg.metabolite: rephaccoa_c
-      - kegg.compound: ''
+      - kegg.compound: C20062
       - metanetx.chemical: MNXM159
       - origin: iMK1208
   - !!omap
@@ -2127,8 +2127,8 @@
     - annotation: !!omap
       - bigg.metabolite: 2oxpaccoa_c
       - biocyc: CPD0-2363
-      - chebi: '63251'
-      - kegg.compound: ''
+      - chebi: '63252'
+      - kegg.compound: C19975
       - metanetx.chemical: MNXM2187
       - origin: iMK1208
   - !!omap
@@ -17439,19 +17439,6 @@
       - metanetx.chemical: MNXM446
       - origin: iMK1208
   - !!omap
-    - id: 3hmp_c
-    - name: 3-Hydroxy-2-methylpropanoate
-    - compartment: c
-    - charge: -1
-    - formula: C4H7O3
-    - annotation: !!omap
-      - bigg.metabolite: 3hmp_c
-      - biocyc: 3-HYDROXY-ISOBUTYRATE
-      - chebi: '11805'
-      - kegg.compound: C01188
-      - metanetx.chemical: MNXM396
-      - origin: iMK1208
-  - !!omap
     - id: 2maacoa_c
     - name: 2-Methyl-3-acetoacetyl-CoA
     - compartment: c
@@ -18822,18 +18809,6 @@
       - metanetx.chemical: MNXM114594
       - origin: KEGG
   - !!omap
-    - id: malylcoa_c
-    - name: L-Malyl-CoA
-    - compartment: c
-    - charge: -5
-    - formula: C25H35N7O20P3S
-    - annotation: !!omap
-      - bigg.metabolite: malylcoa_c
-      - chebi: '57317'
-      - kegg.compound: C04348
-      - metanetx.chemical: MNXM1611
-      - origin: KEGG
-  - !!omap
     - id: N6dhliplys_c
     - name: Enzyme N6-(dihydrolipoyl)lysine
     - compartment: c
@@ -18919,17 +18894,6 @@
       - chebi: '10245'
       - kegg.compound: C00668
       - metanetx.chemical: MNXM215
-      - origin: KEGG
-  - !!omap
-    - id: c78dhguantp_c
-    - name: (8S)-3',8-Cyclo-7,8-dihydroguanosine 5'-triphosphate
-    - compartment: c
-    - charge: -2
-    - formula: C10H16N5O14P3
-    - annotation: !!omap
-      - bigg.metabolite: c78dhguantp_c
-      - kegg.compound: C21310
-      - metanetx.chemical: MNXM162448
       - origin: KEGG
   - !!omap
     - id: cofac3_c
@@ -19284,7 +19248,7 @@
       - kegg.compound: C17955
       - origin: KEGG
   - !!omap
-    - id: actACPmmy_c
+    - id: temp
     - name: malonyl-MmyA
     - compartment: c
     - charge: 0
@@ -19330,7 +19294,7 @@
     - id: malACPmmy_c
     - name: acetoacetyl-MmyA
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C4H7O2S1R1
     - annotation: !!omap
       - bigg.metabolite: malACPmmy_c
@@ -19460,6 +19424,24 @@
     - annotation: !!omap
       - bigg.metabolite: 3hib_c
       - kegg.compound: C06001
+      - origin: KEGG
+  - !!omap
+    - id: carnitine_c
+    - name: Carnitine
+    - compartment: c
+    - charge: 0
+    - formula: C7H16NO3
+    - annotation: !!omap
+      - kegg.compound: C00487
+      - origin: KEGG
+  - !!omap
+    - id: dhdcarn_c
+    - name: 3-Dehydrocarnitine
+    - compartment: c
+    - charge: 0
+    - formula: C7H14NO3
+    - annotation: !!omap
+      - kegg.compound: C02636
       - origin: KEGG
 - reactions:
   - !!omap
@@ -19984,11 +19966,11 @@
       - succoa_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO6701 or SCO6967 or SCO3079 or SCO6731
+    - gene_reaction_rule: SCO1324 or SCO6027 or SCO6701 or SCO6967
     - annotation: !!omap
       - bigg.reaction: 3OXCOAT
       - biocyc: RXN-3641
-      - ec-code: 2.3.1.174
+      - ec-code: 2.3.1.16
       - kegg.pathway:
         - Benzoate degradation
         - Phenylalanine metabolism
@@ -20281,7 +20263,7 @@
       - urdgci_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: SCO3072
     - annotation: !!omap
       - bigg.reaction: ALLTAMH2
       - ec-code: ''
@@ -21660,7 +21642,8 @@
     - gene_reaction_rule: SCO7471 and SCO7472 and SCO7473 and SCO7474 and SCO7475
     - annotation: !!omap
       - bigg.reaction: PACCOAE
-      - ec-code: ''
+      - ec-code: 1.14.13.149
+      - kegg.reaction: R09838
       - kegg.subsystem: Amino acid metabolism
       - metanetx.reaction: MNXR1479
       - origin: iMK1208
@@ -21746,7 +21729,7 @@
     - annotation: !!omap
       - bigg.reaction: PGMT
       - biocyc: RXN66-532
-      - ec-code: 5.4.2.5
+      - ec-code: 5.4.2.2
       - kegg.pathway:
         - Starch and sucrose metabolism
         - Streptomycin biosynthesis
@@ -21813,7 +21796,7 @@
     - annotation: !!omap
       - bigg.reaction: PPM
       - biocyc: RXN-14456
-      - ec-code: 5.4.2.7
+      - ec-code: 5.4.2.2
       - kegg.pathway:
         - Purine metabolism
         - Pentose phosphate pathway
@@ -21965,7 +21948,8 @@
     - gene_reaction_rule: SCO5144
     - annotation: !!omap
       - bigg.reaction: REPHACCOAI
-      - ec-code: ''
+      - ec-code: 5.3.3.18
+      - kegg.reaction: R09837
       - kegg.subsystem: Amino acid metabolism
       - metanetx.reaction: MNXR68784
       - origin: iMK1208
@@ -22442,7 +22426,7 @@
     - annotation: !!omap
       - bigg.reaction: ME1
       - biocyc: 1.1.1.39-RXN
-      - ec-code: 1.1.1.39
+      - ec-code: 1.1.1.38
       - kegg.pathway:
         - Carbon fixation in photosynthetic organisms
         - Pyruvate metabolism
@@ -37731,10 +37715,10 @@
       - nh4_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO4683 or SCO1977 or SCO2025 or SCO2026
+    - gene_reaction_rule: SCO4683
     - annotation: !!omap
       - bigg.reaction: GLUDyi
-      - ec-code: 1.4.1.4 or 1.4.1.13
+      - ec-code: 1.4.1.4
       - kegg.pathway:
         - Arginine biosynthesis
         - Alanine, aspartate and glutamate metabolism
@@ -37762,7 +37746,7 @@
     - gene_reaction_rule: SCO7049
     - annotation: !!omap
       - bigg.reaction: GLUN
-      - ec-code: 6.3.5.5
+      - ec-code: 3.5.1.2
       - kegg.pathway:
         - Arginine biosynthesis
         - D-Glutamine and D-glutamate metabolism
@@ -37818,7 +37802,7 @@
       - nadh_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO1977 or ( SCO2025 and SCO2026 )
+    - gene_reaction_rule: (SCO1977 or SCO2025) and SCO2026
     - annotation: !!omap
       - bigg.reaction: GLUSx
       - biocyc: GLUTAMATE-SYNTHASE-NADH-RXN
@@ -58075,7 +58059,7 @@
       - nadph_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO1977 or ( SCO2025 and SCO2026 )
+    - gene_reaction_rule: (SCO1977 or SCO2025) and SCO2026
     - annotation: !!omap
       - bigg.reaction: GLUSy
       - biocyc: GLUTAMATESYN-RXN
@@ -59295,17 +59279,18 @@
     - id: NOR_syn
     - name: nitrite/sulphite reductase
     - metabolites: !!omap
-      - fdxox_c: 6.0
-      - fdxrd_c: -6.0
+      - fdxox_c: -6.0
+      - fdxrd_c: 6.0
       - h2o_c: -2.0
       - h_c: 8.0
       - nh4_c: -1.0
       - no2_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO6102
     - annotation: !!omap
       - bigg.reaction: NOR_syn
+      - biocyc: FERREDOXIN--NITRITE-REDUCTASE-RXN
       - ec-code: 1.7.7.1
       - kegg.pathway: Nitrogen metabolism
       - kegg.reaction: R00790
@@ -62151,6 +62136,7 @@
       - 2sephchc_c: 1.0
       - akg_c: -1.0
       - co2_c: 1.0
+      - h_c: -1
       - ichor_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
@@ -62213,7 +62199,7 @@
       - 25dop_c: -1.0
       - akg_c: 1.0
       - h2o_c: -1.0
-      - h_c: 1.0
+      - h_c: 2.0
       - nadp_c: -1.0
       - nadph_c: 1.0
     - lower_bound: -1000.0
@@ -62415,10 +62401,10 @@
     - name: MMYSYN1
     - metabolites: !!omap
       - accoa_c: -1.0
-      - actACPmmy_c: -1.0
       - co2_c: 1.0
       - coa_c: 1.0
       - malACPmmy_c: 1.0
+      - temp: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCP1233B
@@ -62466,7 +62452,7 @@
       - mmyC_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: s0001
     - annotation: !!omap
       - biocyc: RXN1A0-6144
       - kegg.subsystem: Biosynthesis of other secondary metabolites
@@ -62934,6 +62920,7 @@
     - name: oxaloacetate carboxy-lyase (pyruvate-forming)
     - metabolites: !!omap
       - co2_c: 1.0
+      - h_c: -1
       - oaa_c: -1.0
       - pyr_c: 1.0
     - lower_bound: 0.0
@@ -63118,6 +63105,38 @@
       - kegg.subsystem: Other
       - origin: iMK1208
       - subsystem: Biomass and maintenance functions
+  - !!omap
+    - id: CARNOX
+    - name: Carnitine:NAD+ 3-oxidoreductase
+    - metabolites: !!omap
+      - carnitine_c: -1
+      - dhdcarn_c: 1
+      - h_c: 1
+      - nad_c: -1
+      - nadh_c: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: SCO6297
+    - annotation: !!omap
+      - ec-code: 1.1.1.108
+      - kegg.reaction: R02395
+      - origin: KEGG
+  - !!omap
+    - id: FTHFCL_1
+    - name: 5-Formyltetrahydrofolate cyclo-ligase
+    - metabolites: !!omap
+      - 5fthf_c: -1
+      - adp_c: 1
+      - atp_c: -1
+      - methf_c: 1
+      - pi_c: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: SCO3183
+    - annotation: !!omap
+      - ec-code: 6.3.3.2
+      - kegg.reaction: R02301
+      - origin: KEGG
 - genes:
   - !!omap
     - id: SCO5089
@@ -66777,15 +66796,6 @@
     - id: SCO4930
     - name: SCK13.22
   - !!omap
-    - id: SCO5184
-    - name: 2SC3B6.08
-  - !!omap
-    - id: SCO6640
-    - name: SC4G2.14
-  - !!omap
-    - id: SCO5188
-    - name: 2SC3B6.12
-  - !!omap
     - id: SCO2958
     - name: SCE59.17c
   - !!omap
@@ -67073,8 +67083,11 @@
   - !!omap
     - id: SCP1299
     - name: SCP1299
-- id: iKS1317
-- name: iKS1317
+  - !!omap
+    - id: SCO3183
+    - name: ''
+- id: scoGEM
+- name: scoGEM
 - compartments: !!omap
   - c: Cytoplasm
   - e: Extracellular
