@@ -1,96 +1,131 @@
 .. highlight:: shell
 
-============
+==============================================================
 Contributing
-============
-
+==============================================================
 Contributions are welcome, and they are greatly appreciated! Every
 little bit helps, and credit will always be given.
 
-You can contribute in many ways:
+**[TODO: mention Gitter room when implemented]**
+
+You can contribute in many ways, but please follow the guidelines given below.
+
+--------------------------------------------------------------
 
 Types of Contributions
-----------------------
+--------------------------------------------------------------
 
-Report Problems
-~~~~~~~~~~~~~~~
-
+Report problems or suggestions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Report problems with the metabolic model at https://github.com/edkerk/scoGEM/issues.
 
 If you are reporting a problem, please include:
 
 * Your operating system name and version.
-* Any details about your local setup that might be helpful in troubleshooting, such as cobrapy version, memote version.
+* Any details about your local setup that might be helpful in troubleshooting, such as COBRA/RAVEN/cobrapy version.
 * Detailed steps to reproduce the problem.
 
-Fix Problems
-~~~~~~~~~~~~
+Modify the model
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Look through the GitHub issues for bugs. Anything tagged with "bug"
-is open to whoever wants to implement it.
+Besides reporting issues, you are of course welcome to directly contribute to development of the model by making modifications yourself. This can be related to your own issues, but you are also welcome to contribute to any of the other issues that are raised by others at the [`GitHub issues <https://github.com/edkerk/scoGEM/issues>`_] page. Please make sure you read the Contribution Guidelines below.
 
-Implement Features
-~~~~~~~~~~~~~~~~~~
+--------------------------------------------------------------
 
-Look through the GitHub issues for features. Anything tagged with "feature"
-is open to whoever wants to implement it.
+Contribution Guidelines
+--------------------------------------------------------------
 
-Write Documentation
-~~~~~~~~~~~~~~~~~~~
+Getting started
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Regular developers can work directly on the main repo and should clone the ``scoGEM`` repo locally using your favourite Git software::
 
-scoGEM could always use more documentation, whether as part of the
-official scoGEM docs, in docstrings, or even on the web in blog posts,
-articles, and such.
+    $ git clone git@github.com:edkerk/scoGEM.git
 
-Submit Feedback
-~~~~~~~~~~~~~~~
-
-The best way to send feedback is to file an issue at https://github.com/edkerk/scoGEM/issues.
-
-If you are proposing a feature:
-
-* Explain in detail how it would work.
-* Keep the scope as narrow as possible, to make it easier to implement.
-* Remember that this is a volunteer-driven project, and that contributions
-  are welcome :)
-
-Get Started!
-------------
-
-Ready to contribute? Here's how to set up `scoGEM` for local development.
-
-1. Fork the `scoGEM` repo on GitHub.
-2. Clone your fork locally::
+2. If you've not been added as regular contributor, you can still fork the ``scoGEM`` repo on GitHub and clone your fork locally::
 
     $ git clone git@github.com:your_name_here/scoGEM.git
 
-3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development::
+3. Regardless, develop the model using the guidelines below, make pull requests to the main repo using the guidelines below.
 
-    $ mkvirtualenv scoGEM
-    $ cd scoGEM/
-    $ pip install -e .
+Software
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To ensure consistency between model versions, allowing for easy diffing and merging of changes, all modifications of ``scoGEM`` should be for the moment be performed using `cobrapy <https://opencobra.github.io/cobrapy/>`_. If you're not fluent in using `cobrapy` but still want to directly submit changes to the model, please contact the repo maintainers on Gitter **[LINK]**.
 
-4. Create a branch for local development::
+Branches
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* The ``master`` branch is protected, which means that direct commits are not allowed. Generally all pull requests should come from the ``devel`` branch and should be carefully reviewed before merged. **[Mention memote results]**. An update in the ``master`` branch triggers an update in model version.
+* The ``devel`` branch is protected, which means that direct commits are not allowed. All pull requests should come from semantically named feature branches.
+* When starting development, either contribute to an existing (relevant) feature branch, or make a new branch that is connected to the latest commit on the ``devel`` branch.
 
-    $ git checkout -b name-of-your-bugfix-or-feature
+Semantic naming of feature branches, commits and pull requests
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Every feature branch name, commit title and pull request title should follow semanting naming containing an "action" and "keyword/phrase". An "action" is one of the following:
 
-   Now you can make your changes locally.
+========  ==============================  ============================================================
+Action    Type of changes                 Examples
+========  ==============================  ============================================================
+feat      new feature added               new annotations, new reactions, new dataset
+fix       fixing of bugs, errors          remove duplicate metabolites, fix reaction reversibility
+refactor  code refactoring                changes in scripts that don't change output
+style     style/formatting of files       
+docs      documentation                   update readme, this file
+chore     maintenance chores              export model with new version of cobrapy
+========  ==============================  ============================================================
 
-5. When you're done making changes, check that your changes pass the memote test suite::
+* Format of feature branch name: ``action/keyword``, where keyword is descriptive, but short and has no spaces
 
-    $ memote scoGEM
+  * Examples: ``feat/newPathway`` or ``fix/geneAssocation`` or ``docs/updateReadme``
 
-6. Commit your changes and push your branch to GitHub::
+* Format of commit and pull request titles: ``action: keyphrase``, where keyphrase is a short descriptive phrase
 
-    $ git add .
-    $ git commit -m "Your detailed description of your changes."
-    $ git push origin name-of-your-bugfix-or-feature
+  * Examples: ``feat: new antibiotic pathway`` or ``fix: correct genes in reaction FBP`` or ``docs: attribute new developers``
+  * Besides the title, commits and pull requests have descriptions that are more descriptive of the changes, and should use the templates that are automatically provided when making a new commit or pull request.
 
-7. Submit a pull request through the GitHub website.
+Reproducible changes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To strive for reproducible science, ``scoGEM`` aims to provide scripts describing all changes to the model. Such scripts are stored in the `ComplementaryScripts` folder (detailed below), in a relevant subfolder. Please pay attention to existing scripts to get an idea of how these scripts should look like. Any data files required for this, such as tables with new annotations, are stored in the relevant subfolder of `ComplementaryData`.
 
-Pull Request Guidelines
------------------------
+Model consistency and conventions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- For metabolite and reaction IDs, ``scoGEM`` aims to use `BIGG <http://bigg.ucsd.edu>`_ IDs were possible, as they are human readable, relatively well defined and compatible with e.g. SBML, short and memorable. If no BIGG ID exists, ``scoGEM`` uses BIGG-ish IDs.
+- ... (other conventions being followed?)
 
-Before you submit a pull request, check that it meets these guidelines:
+Directory structure, file formats and names
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The repo contains of a number of folders and subfolders, as specified here:
 
-1. The pull request should pass the memote test suite.
+* ComplementaryData: contains data files required for model curation and simulation, all in CSV or tab-delimited format
+  
+  - curation: files required for model curation
+  - essentiality: data for essentiality testing by memote
+  - growth: experimentally measured growth data
+  - media: details on media compositions for testing by memote
+  - models: earlier *S. coelicolor* models that were used to construct the consensus ``scoGEM``
+
+* ComplementaryScripts: contains scripts required for model curation and simulation, in either python or 
+  
+  - consensusModel: scripts to generate the consensus model ``scoGEM`` version 1.0
+  - gecko: scripts to generate the enzyme-constrained version ``ecScoGEM``, using the `Gecko toolbox <https://github.com/SysBioChalmers/GECKO>`_
+
+* ModelFiles
+
+  - txt: ``scoGEM`` in text format, to facilitate diffing changes between models, automatically generated by cobrapy
+  - xml: ``scoGEM`` in SBML L3V1 FBCv2 format as stored by cobrapy, ready for use in simulations by any other SBML-compatible software package, or further curation
+  - yml: ``scoGEM`` in YAML format, to facilitate diffing changes between models, automatically generated by cobrapy
+
+--------------------------------------------------------------
+
+Contributors
+--------------------------------------------------------------
+-
+-
+-
+
+In addition, ``scoGEM`` leverages the hard labour that has previously been performed in the development of genome-scale models of *Streptomyces coelicolor*, as published in the following papers:
+
+- Borodina I, Krabben P, Nielsen J. Genome Res. 2005;15: 820–9. `doi <http://doi.org/10.1101/gr.3364705>`_
+- Alam MT, Merlo ME, Hodgson DA, Wellington EMH, Takano E, Breitling R. BMC Genomics. 2010;11: 202. `doi <http://doi.org/10.1186/1471-2164-11-202>`_
+- Kim M, Sang Yi J, Kim J, Kim J-N, Kim MW, Kim B-G. Biotechnol J. 2014;9: 1185–94. `doi <http://doi.org/doi:10.1002/biot.201300539>`_
+- Amara A, Takano E, Breitling R. BMC Genomics. 2018;19: 519. `doi <https://doi.org/10.1186/s12864-018-4905-5>`_
+- Wang H, Marcišauskas S, Sánchez BJ, Domenzain I, Hermansson D, Agren R, Nielsen J, Kerkhoven EJ. bioRxiv. 2018; 321067. `doi <http://doi.org/10.1101/321067>`_ **[change to PLOS Comp Biol]**
+- Sulheim S, Kumelj T, Wentzel A, Almaas E. **[further details]**
