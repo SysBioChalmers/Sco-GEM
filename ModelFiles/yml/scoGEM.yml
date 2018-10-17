@@ -63763,12 +63763,12 @@
     - id: ILETA
     - name: isoleucine transaminase
     - metabolites: !!omap
-      - 3mop_c: 1.0
-      - akg_c: -1.0
-      - glu__L_c: 1.0
-      - ile__L_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 0.0
+      - 3mop_c: -1.0
+      - akg_c: 1.0
+      - glu__L_c: -1.0
+      - ile__L_c: 1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1546 or SCO5523
     - annotation: !!omap
       - bigg.reaction: ILETA
@@ -63924,12 +63924,12 @@
     - id: LEUTA
     - name: leucine transaminase
     - metabolites: !!omap
-      - 4mop_c: 1.0
-      - akg_c: -1.0
-      - glu__L_c: 1.0
-      - leu__L_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 0.0
+      - 4mop_c: -1.0
+      - akg_c: 1.0
+      - glu__L_c: -1.0
+      - leu__L_c: 1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1546 or SCO5523
     - annotation: !!omap
       - bigg.reaction: LEUTA
@@ -64162,12 +64162,12 @@
     - id: VALTA
     - name: valine transaminase
     - metabolites: !!omap
-      - 3mob_c: 1.0
-      - akg_c: -1.0
-      - glu__L_c: 1.0
-      - val__L_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 0.0
+      - 3mob_c: -1.0
+      - akg_c: 1.0
+      - glu__L_c: -1.0
+      - val__L_c: 1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1546 or SCO5523
     - annotation: !!omap
       - bigg.reaction: VALTA
@@ -66035,14 +66035,14 @@
     - id: NOR_syn
     - name: nitrite/sulphite reductase
     - metabolites: !!omap
-      - fdxox_c: -6.0
-      - fdxrd_c: 6.0
-      - h2o_c: -2.0
-      - h_c: 8.0
-      - nh4_c: -1.0
-      - no2_c: 1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - fdxox_c: 6.0
+      - fdxrd_c: -6.0
+      - h2o_c: 2.0
+      - h_c: -8.0
+      - nh4_c: 1.0
+      - no2_c: -1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6102
     - annotation: !!omap
       - bigg.reaction: NOR_syn
@@ -66477,13 +66477,13 @@
     - id: FNOR
     - name: putative ferredoxin/ferredoxin-NADP reductase
     - metabolites: !!omap
-      - fdxox_c: 2.0
-      - fdxrd_c: -2.0
-      - h_c: -1.0
-      - nadp_c: -1.0
-      - nadph_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 0.0
+      - fdxox_c: -2.0
+      - fdxrd_c: 2.0
+      - h_c: 1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0681
     - annotation: !!omap
       - bigg.reaction: FNOR
@@ -68523,8 +68523,8 @@
       - fdp_B_c: -1.0
       - h2o_c: -1.0
       - pi_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5047
     - annotation: !!omap
       - bigg.reaction: BFBP
@@ -82676,10 +82676,10 @@
     - id: SCO5519
     - name: ''
   - !!omap
-    - id: SCO6441
+    - id: SCO6793
     - name: ''
   - !!omap
-    - id: SCO6793
+    - id: SCO6441
     - name: ''
   - !!omap
     - id: SCO7139
@@ -82688,10 +82688,10 @@
     - id: SCO0164
     - name: ''
   - !!omap
-    - id: SCO3915
+    - id: SCO0079
     - name: ''
   - !!omap
-    - id: SCO0079
+    - id: SCO3915
     - name: ''
   - !!omap
     - id: SCO04919
@@ -82747,13 +82747,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO4264
-    - name: SCO4264
+    - id: SCO5700
+    - name: SCO5700
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO5700
-    - name: SCO5700
+    - id: SCO4264
+    - name: SCO4264
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82802,13 +82802,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6998
-    - name: SCO6998
+    - id: SCO1207
+    - name: SCO1207
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO1207
-    - name: SCO1207
+    - id: SCO6998
+    - name: SCO6998
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82897,11 +82897,6 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO7264
-    - name: SCO7264
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
     - id: SCO0299
     - name: SCO0299
     - annotation: !!omap
@@ -82914,6 +82909,11 @@
   - !!omap
     - id: SCO7654
     - name: SCO7654
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO7264
+    - name: SCO7264
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82967,13 +82967,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6730
-    - name: SCO6730
+    - id: SCO6785
+    - name: SCO6785
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6785
-    - name: SCO6785
+    - id: SCO6730
+    - name: SCO6730
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82982,18 +82982,18 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO4266
-    - name: SCO4266
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO0780
-    - name: SCO0780
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
     - id: SCO3823
     - name: SCO3823
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO1199
+    - name: SCO1199
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO4266
+    - name: SCO4266
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83002,8 +83002,8 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO1199
-    - name: SCO1199
+    - id: SCO0780
+    - name: SCO0780
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83027,11 +83027,6 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO5980
-    - name: SCO5980
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
     - id: SCO1109
     - name: SCO1109
     - annotation: !!omap
@@ -83039,6 +83034,11 @@
   - !!omap
     - id: SCO7285
     - name: SCO7285
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO5980
+    - name: SCO5980
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83072,6 +83072,11 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
+    - id: SCO4875
+    - name: SCO4875
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
     - id: SCO6374
     - name: SCO6374
     - annotation: !!omap
@@ -83079,11 +83084,6 @@
   - !!omap
     - id: SCO4658
     - name: SCO4658
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO4875
-    - name: SCO4875
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83097,13 +83097,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO4352
-    - name: SCO4352
+    - id: SCO4339
+    - name: SCO4339
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO4339
-    - name: SCO4339
+    - id: SCO4352
+    - name: SCO4352
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83157,13 +83157,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3698
-    - name: SCO3698
+    - id: SCO6837
+    - name: SCO6837
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6837
-    - name: SCO6837
+    - id: SCO3698
+    - name: SCO3698
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83182,13 +83182,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO1308
-    - name: SCO1308
+    - id: SCO3084
+    - name: SCO3084
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3084
-    - name: SCO3084
+    - id: SCO1308
+    - name: SCO1308
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83217,13 +83217,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6938
-    - name: SCO6938
+    - id: SCO5984
+    - name: SCO5984
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO5984
-    - name: SCO5984
+    - id: SCO6938
+    - name: SCO6938
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83277,13 +83277,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO0362
-    - name: SCO0362
+    - id: SCO3130
+    - name: SCO3130
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3130
-    - name: SCO3130
+    - id: SCO0362
+    - name: SCO0362
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83297,13 +83297,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO1417
-    - name: SCO1417
+    - id: SCO3306
+    - name: SCO3306
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3306
-    - name: SCO3306
+    - id: SCO1417
+    - name: SCO1417
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83317,18 +83317,23 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO0358
-    - name: SCO0358
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
     - id: SCO0347
     - name: SCO0347
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
+    - id: SCO0358
+    - name: SCO0358
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
     - id: SCO6782
     - name: SCO6782
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO3051
+    - name: SCO3051
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83339,11 +83344,6 @@
   - !!omap
     - id: SCO1428
     - name: SCO1428
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO3051
-    - name: SCO3051
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83492,13 +83492,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6706
-    - name: SCO6706
+    - id: SCO0179
+    - name: SCO0179
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO0179
-    - name: SCO0179
+    - id: SCO6706
+    - name: SCO6706
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83672,23 +83672,8 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO1097
-    - name: SCO1097
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO0899
-    - name: SCO0899
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
     - id: SCO7440
     - name: SCO7440
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO3446
-    - name: SCO3446
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83702,13 +83687,28 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO4491
-    - name: SCO4491
+    - id: SCO1097
+    - name: SCO1097
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO3446
+    - name: SCO3446
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO0899
+    - name: SCO0899
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
     - id: SCO3242
     - name: SCO3242
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO4491
+    - name: SCO4491
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83722,6 +83722,11 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
+    - id: SCO1923
+    - name: SCO1923
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
     - id: SCO6039
     - name: SCO6039
     - annotation: !!omap
@@ -83732,18 +83737,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO1923
-    - name: SCO1923
+    - id: SCO2941
+    - name: SCO2941
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
     - id: SCO6170
     - name: SCO6170
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO2941
-    - name: SCO2941
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83777,13 +83777,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO1676
-    - name: SCO1676
+    - id: SCO6487
+    - name: SCO6487
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6487
-    - name: SCO6487
+    - id: SCO1676
+    - name: SCO1676
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83832,13 +83832,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO0235
-    - name: SCO0235
+    - id: SCO2491
+    - name: SCO2491
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO2491
-    - name: SCO2491
+    - id: SCO0240
+    - name: SCO0240
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83847,8 +83847,8 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO0240
-    - name: SCO0240
+    - id: SCO0235
+    - name: SCO0235
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -83949,13 +83949,13 @@
     - id: SCO6279
     - name: ''
   - !!omap
-    - id: SCO6276
+    - id: SCO6281
     - name: ''
   - !!omap
     - id: SCO6272
     - name: ''
   - !!omap
-    - id: SCO6281
+    - id: SCO6276
     - name: ''
   - !!omap
     - id: SCO6278
@@ -83967,9 +83967,6 @@
     - id: SCO0674
     - name: ''
   - !!omap
-    - id: SCO1883
-    - name: ''
-  - !!omap
     - id: SCO2292
     - name: ''
   - !!omap
@@ -83979,46 +83976,49 @@
     - id: SCO0105
     - name: ''
   - !!omap
+    - id: SCO1883
+    - name: ''
+  - !!omap
     - id: SCO6548
-    - name: ''
-  - !!omap
-    - id: SCO7225
-    - name: ''
-  - !!omap
-    - id: SCO5954
-    - name: ''
-  - !!omap
-    - id: SCO5673
-    - name: ''
-  - !!omap
-    - id: SCO5376
-    - name: ''
-  - !!omap
-    - id: SCO1444
-    - name: ''
-  - !!omap
-    - id: SCO1429
     - name: ''
   - !!omap
     - id: SCO0482
     - name: ''
   - !!omap
+    - id: SCO6012
+    - name: ''
+  - !!omap
+    - id: SCO5376
+    - name: ''
+  - !!omap
     - id: SCO6345
     - name: ''
   - !!omap
-    - id: SCO6012
+    - id: SCO1429
+    - name: ''
+  - !!omap
+    - id: SCO5673
+    - name: ''
+  - !!omap
+    - id: SCO1444
+    - name: ''
+  - !!omap
+    - id: SCO2833
+    - name: ''
+  - !!omap
+    - id: SCO5954
+    - name: ''
+  - !!omap
+    - id: SCO5003
+    - name: ''
+  - !!omap
+    - id: SCO7225
     - name: ''
   - !!omap
     - id: SCO2503
     - name: ''
   - !!omap
     - id: SCO7263
-    - name: ''
-  - !!omap
-    - id: SCO5003
-    - name: ''
-  - !!omap
-    - id: SCO2833
     - name: ''
   - !!omap
     - id: SCO6266
@@ -84042,13 +84042,13 @@
     - id: SCO5499
     - name: ''
   - !!omap
+    - id: SCO0554
+    - name: ''
+  - !!omap
     - id: SCO7637
     - name: ''
   - !!omap
     - id: SCO0765
-    - name: ''
-  - !!omap
-    - id: SCO0554
     - name: ''
   - !!omap
     - id: SCO2154
