@@ -10,8 +10,8 @@
 
 function model = reorderBiomass(model)
 
-fID          = fopen('../ComplementaryData/curation/biomass.txt');
-data_cell    = textscan(fID,'%s %s %f %f %s','delimiter','\t');
+fID          = fopen('../../ComplementaryData/biomass/standard_biomass.tab');
+data_cell    = textscan(fID,'%s %s %f %f %s','delimiter','\t','HeaderLines',1);
 fclose(fID);
 
 BM.met=data_cell{1};
