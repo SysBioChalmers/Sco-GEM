@@ -21,6 +21,7 @@ import add_reactions_from_sco4
 import annotate_new_rxns_and_mets_from_sco4
 import add_and_modify_reactions_according_to_iAA1259
 import fix_issue12_reversibility
+import fix_issue33_annotation_bugs
 
 SAVE_PATH = "../../ModelFiles/xml/scoGEM.xml"
 iKS1317_PATH = "../../ComplementaryData/models/iKS1317.xml"
@@ -70,6 +71,7 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
 
     # Part 4
     fix_issue12_reversibility.fix(scoGEM)
+    fix_issue33_annotation_bugs.fix(scoGEM)
 
     # Save model
     ## Version number
