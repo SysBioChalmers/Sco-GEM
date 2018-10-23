@@ -19524,22 +19524,6 @@
       - origin: Sco4
       - pubchem.compound: '8299'
   - !!omap
-    - id: guln__L_c
-    - name: L-gulonate
-    - compartment: c
-    - charge: -1
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C(O)C(O)C(O)C(O)C(O)C(=O)[O-]
-      - bigg.metabolite: guln__L
-      - biocyc: L-GULONATE
-      - chebi: CHEBI:3115
-      - inchi: InChI=1S/C6H12O7/c7-1-2(8)3(9)4(10)5(11)6(12)13/h2-5,7-11H,1H2,(H,12,13)/p-1/t2-,3+,4-,5-/m0/s1
-      - kegg.compound: C00800
-      - metanetx.chemical: MNXM1927
-      - origin: Sco4
-      - pubchem.compound: '6857680'
-  - !!omap
     - id: gullac_c
     - name: L-gulono-1,4-lactone
     - compartment: c
@@ -19555,6 +19539,22 @@
       - metanetx.chemical: MNXM928
       - origin: Sco4
       - pubchem.compound: '439373'
+  - !!omap
+    - id: guln__L_c
+    - name: L-gulonate
+    - compartment: c
+    - charge: -1
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C(O)C(O)C(O)C(O)C(O)C(=O)[O-]
+      - bigg.metabolite: guln__L
+      - biocyc: L-GULONATE
+      - chebi: CHEBI:3115
+      - inchi: InChI=1S/C6H12O7/c7-1-2(8)3(9)4(10)5(11)6(12)13/h2-5,7-11H,1H2,(H,12,13)/p-1/t2-,3+,4-,5-/m0/s1
+      - kegg.compound: C00800
+      - metanetx.chemical: MNXM1927
+      - origin: Sco4
+      - pubchem.compound: '6857680'
   - !!omap
     - id: fc1p_c
     - name: L-fuculose1-phosphate
@@ -19572,22 +19572,6 @@
       - origin: Sco4
       - pubchem.compound: '6857414'
   - !!omap
-    - id: 2ppoh_c
-    - name: propan-2-ol
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CC(O)C
-      - bigg.metabolite: 2ppoh
-      - biocyc: ISO-PROPANOL
-      - chebi: CHEBI:7824
-      - inchi: InChI=1S/C3H8O/c1-3(2)4/h3-4H,1-2H3
-      - kegg.compound: C01845
-      - metanetx.chemical: MNXM156926;MNXM3085
-      - origin: Sco4
-      - pubchem.compound: '3776'
-  - !!omap
     - id: propane_c
     - name: propane
     - compartment: c
@@ -19603,6 +19587,22 @@
       - metanetx.chemical: MNXM78182
       - origin: Sco4
       - pubchem.compound: '6334'
+  - !!omap
+    - id: 2ppoh_c
+    - name: propan-2-ol
+    - compartment: c
+    - charge: 0
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC(O)C
+      - bigg.metabolite: 2ppoh
+      - biocyc: ISO-PROPANOL
+      - chebi: CHEBI:7824
+      - inchi: InChI=1S/C3H8O/c1-3(2)4/h3-4H,1-2H3
+      - kegg.compound: C01845
+      - metanetx.chemical: MNXM156926;MNXM3085
+      - origin: Sco4
+      - pubchem.compound: '3776'
   - !!omap
     - id: phgkyx_c
     - name: phenylglyoxylate
@@ -19636,22 +19636,6 @@
       - origin: Sco4
       - pubchem.compound: '240'
   - !!omap
-    - id: 4hbutcoa_c
-    - name: 4-hydroxybutanoyl-CoA
-    - compartment: c
-    - charge: -4
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CC(C)(C(O)C(=O)NCCC(=O)NCCSC(=O)CCCO)COP(=O)(OP(=O)(OCC1(C(OP([O-])(=O)[O-])C(O)C(O1)N3(C2(=C(C(N)=NC=N2)N=C3))))[O-])[O-]
-      - bigg.metabolite: 4hbutcoa
-      - biocyc: 4-HYDROXY-BUTYRYL-COA
-      - chebi: CHEBI:8574
-      - inchi: InChI=1S/C25H42N7O18P3S/c1-25(2,20(37)23(38)28-6-5-15(34)27-7-9-54-16(35)4-3-8-33)11-47-53(44,45)50-52(42,43)46-10-14-19(49-51(39,40)41)18(36)24(48-14)32-13-31-17-21(26)29-12-30-22(17)32/h12-14,18-20,24,33,36-37H,3-11H2,1-2H3,(H,27,34)(H,28,38)(H,42,43)(H,44,45)(H2,26,29,30)(H2,39,40,41)/p-4/t14-,18-,19-,20+,24-/m1/s1
-      - kegg.compound: C11062
-      - metanetx.chemical: MNXM2334
-      - origin: Sco4
-      - pubchem.compound: '45266688'
-  - !!omap
     - id: ghb_c
     - name: 4-hydroxybutanoate
     - compartment: c
@@ -19667,6 +19651,22 @@
       - metanetx.chemical: MNXM514
       - origin: Sco4
       - pubchem.compound: '3037032'
+  - !!omap
+    - id: 4hbutcoa_c
+    - name: 4-hydroxybutanoyl-CoA
+    - compartment: c
+    - charge: -4
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC(C)(C(O)C(=O)NCCC(=O)NCCSC(=O)CCCO)COP(=O)(OP(=O)(OCC1(C(OP([O-])(=O)[O-])C(O)C(O1)N3(C2(=C(C(N)=NC=N2)N=C3))))[O-])[O-]
+      - bigg.metabolite: 4hbutcoa
+      - biocyc: 4-HYDROXY-BUTYRYL-COA
+      - chebi: CHEBI:8574
+      - inchi: InChI=1S/C25H42N7O18P3S/c1-25(2,20(37)23(38)28-6-5-15(34)27-7-9-54-16(35)4-3-8-33)11-47-53(44,45)50-52(42,43)46-10-14-19(49-51(39,40)41)18(36)24(48-14)32-13-31-17-21(26)29-12-30-22(17)32/h12-14,18-20,24,33,36-37H,3-11H2,1-2H3,(H,27,34)(H,28,38)(H,42,43)(H,44,45)(H2,26,29,30)(H2,39,40,41)/p-4/t14-,18-,19-,20+,24-/m1/s1
+      - kegg.compound: C11062
+      - metanetx.chemical: MNXM2334
+      - origin: Sco4
+      - pubchem.compound: '45266688'
   - !!omap
     - id: cala_c
     - name: 3-ureidopropanoate
@@ -19684,22 +19684,6 @@
       - origin: Sco4
       - pubchem.compound: '6971254'
   - !!omap
-    - id: coxsperm_c
-    - name: carboxynorspermidine
-    - compartment: c
-    - charge: 2
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C(CC[N+])[N+]CCC([N+])C([O-])=O
-      - bigg.metabolite: coxsperm
-      - biocyc: CPD-9995
-      - chebi: CHEBI:5070
-      - inchi: InChI=1S/C7H17N3O2/c8-3-1-4-10-5-2-6(9)7(11)12/h6,10H,1-5,8-9H2,(H,11,12)/p+2
-      - kegg.compound: C18174
-      - metanetx.chemical: MNXM6202
-      - origin: Sco4
-      - pubchem.compound: '77908549'
-  - !!omap
     - id: prp13da_c
     - name: propane-1,3-diamine
     - compartment: c
@@ -19716,21 +19700,21 @@
       - origin: Sco4
       - pubchem.compound: '4030255'
   - !!omap
-    - id: strep6p_c
-    - name: streptomycin6-phosphate
+    - id: coxsperm_c
+    - name: carboxynorspermidine
     - compartment: c
-    - charge: 1
+    - charge: 2
     - annotation: !!omap
       - SBO: SBO:0000247
-      - SMILES: CC3(OC(OC1(C(O)C(OP(=O)([O-])[O-])C(NC(N)=[N+])C(O)C(NC(N)=[N+])1))C(OC2(OC(CO)C(O)C(O)C([N+]C)2))C(O)(C=O)3)
-      - bigg.metabolite: strep6p
-      - biocyc: CPD-529
-      - chebi: CHEBI:7787
-      - inchi: InChI=1S/C21H40N7O15P/c1-5-21(35,4-30)16(42-17-9(26-2)12(33)10(31)6(3-29)40-17)18(39-5)41-14-7(27-19(22)23)11(32)8(28-20(24)25)15(13(14)34)43-44(36,37)38/h4-18,26,29,31-35H,3H2,1-2H3,(H4,22,23,27)(H4,24,25,28)(H2,36,37,38)/p+1/t5-,6-,7-,8+,9-,10-,11-,12-,13-,14+,15-,16-,17-,18-,21+/m0/s1
-      - kegg.compound: C01138
-      - metanetx.chemical: MNXM2286
+      - SMILES: C(CC[N+])[N+]CCC([N+])C([O-])=O
+      - bigg.metabolite: coxsperm
+      - biocyc: CPD-9995
+      - chebi: CHEBI:5070
+      - inchi: InChI=1S/C7H17N3O2/c8-3-1-4-10-5-2-6(9)7(11)12/h6,10H,1-5,8-9H2,(H,11,12)/p+2
+      - kegg.compound: C18174
+      - metanetx.chemical: MNXM6202
       - origin: Sco4
-      - pubchem.compound: '25245473'
+      - pubchem.compound: '77908549'
   - !!omap
     - id: stmyn_c
     - name: streptomycin
@@ -19748,21 +19732,21 @@
       - origin: Sco4
       - pubchem.compound: '25245365'
   - !!omap
-    - id: acetoin__S_c
-    - name: (S)-acetoin
+    - id: strep6p_c
+    - name: streptomycin6-phosphate
     - compartment: c
-    - charge: 0
+    - charge: 1
     - annotation: !!omap
       - SBO: SBO:0000247
-      - SMILES: CC(O)C(=O)C
-      - bigg.metabolite: acetoin__S
-      - biocyc: CPD-255
-      - chebi: CHEBI:5687
-      - inchi: InChI=1S/C4H8O2/c1-3(5)4(2)6/h3,5H,1-2H3/t3-/m0/s1
-      - kegg.compound: C01769
-      - metanetx.chemical: MNXM1967
+      - SMILES: CC3(OC(OC1(C(O)C(OP(=O)([O-])[O-])C(NC(N)=[N+])C(O)C(NC(N)=[N+])1))C(OC2(OC(CO)C(O)C(O)C([N+]C)2))C(O)(C=O)3)
+      - bigg.metabolite: strep6p
+      - biocyc: CPD-529
+      - chebi: CHEBI:7787
+      - inchi: InChI=1S/C21H40N7O15P/c1-5-21(35,4-30)16(42-17-9(26-2)12(33)10(31)6(3-29)40-17)18(39-5)41-14-7(27-19(22)23)11(32)8(28-20(24)25)15(13(14)34)43-44(36,37)38/h4-18,26,29,31-35H,3H2,1-2H3,(H4,22,23,27)(H4,24,25,28)(H2,36,37,38)/p+1/t5-,6-,7-,8+,9-,10-,11-,12-,13-,14+,15-,16-,17-,18-,21+/m0/s1
+      - kegg.compound: C01138
+      - metanetx.chemical: MNXM2286
       - origin: Sco4
-      - pubchem.compound: '447765'
+      - pubchem.compound: '25245473'
   - !!omap
     - id: 23btd_c
     - name: (S,S)-2,3-butanediol
@@ -19780,21 +19764,21 @@
       - origin: Sco4
       - pubchem.compound: '439888'
   - !!omap
-    - id: decda_tb_c
-    - name: trans,octacis-decaprenylphospho-beta-D-arabinofuranose
+    - id: acetoin__S_c
+    - name: (S)-acetoin
     - compartment: c
-    - charge: -1
+    - charge: 0
     - annotation: !!omap
       - SBO: SBO:0000247
-      - SMILES: CC(C)=CCCC(C)=CCCC(C)=CCCC(C)=CCCC(C)=CCCC(C)=CCCC(C)=CCCC(C)=CCCC(C)=CCCC(C)=CCOP(=O)([O-])OC1(OC(CO)C(O)C(O)1)
-      - bigg.metabolite: decda_tb
-      - biocyc: CPD-14550
-      - chebi: CHEBI:5066
-      - inchi: InChI=1S/C55H91O8P/c1-42(2)21-12-22-43(3)23-13-24-44(4)25-14-26-45(5)27-15-28-46(6)29-16-30-47(7)31-17-32-48(8)33-18-34-49(9)35-19-36-50(10)37-20-38-51(11)39-40-61-64(59,60)63-55-54(58)53(57)52(41-56)62-55/h21,23,25,27,29,31,33,35,37,39,52-58H,12-20,22,24,26,28,30,32,34,36,38,40-41H2,1-11H3,(H,59,60)/p-1/b43-23+,44-25-,45-27-,46-29-,47-31-,48-33-,49-35-,50-37-,51-39-/t52-,53-,54+,55+/m1/s1
-      - kegg.compound: C20370
-      - metanetx.chemical: MNXM97075
+      - SMILES: CC(O)C(=O)C
+      - bigg.metabolite: acetoin__S
+      - biocyc: CPD-255
+      - chebi: CHEBI:5687
+      - inchi: InChI=1S/C4H8O2/c1-3(5)4(2)6/h3,5H,1-2H3/t3-/m0/s1
+      - kegg.compound: C01769
+      - metanetx.chemical: MNXM1967
       - origin: Sco4
-      - pubchem.compound: '45479346'
+      - pubchem.compound: '447765'
   - !!omap
     - id: dpperypfur_c
     - name: trans,octacis-decaprenylphospho-beta-D-erythro-pentofuranosid-2-ulose
@@ -19812,21 +19796,21 @@
       - origin: Sco4
       - pubchem.compound: '45479278'
   - !!omap
-    - id: 4sulbza_c
-    - name: 4-sulfobenzaldehyde
+    - id: decda_tb_c
+    - name: trans,octacis-decaprenylphospho-beta-D-arabinofuranose
     - compartment: c
     - charge: -1
     - annotation: !!omap
       - SBO: SBO:0000247
-      - SMILES: C(C1(C=CC(S([O-])(=O)=O)=CC=1))=O
-      - bigg.metabolite: 4sulbza
-      - biocyc: 4-SULFOBENZALDEHYDE
-      - chebi: CHEBI:1987
-      - inchi: InChI=1S/C7H6O4S/c8-5-6-1-3-7(4-2-6)12(9,10)11/h1-5H,(H,9,10,11)/p-1
-      - kegg.compound: C06679
-      - metanetx.chemical: MNXM2194
+      - SMILES: CC(C)=CCCC(C)=CCCC(C)=CCCC(C)=CCCC(C)=CCCC(C)=CCCC(C)=CCCC(C)=CCCC(C)=CCCC(C)=CCOP(=O)([O-])OC1(OC(CO)C(O)C(O)1)
+      - bigg.metabolite: decda_tb
+      - biocyc: CPD-14550
+      - chebi: CHEBI:5066
+      - inchi: InChI=1S/C55H91O8P/c1-42(2)21-12-22-43(3)23-13-24-44(4)25-14-26-45(5)27-15-28-46(6)29-16-30-47(7)31-17-32-48(8)33-18-34-49(9)35-19-36-50(10)37-20-38-51(11)39-40-61-64(59,60)63-55-54(58)53(57)52(41-56)62-55/h21,23,25,27,29,31,33,35,37,39,52-58H,12-20,22,24,26,28,30,32,34,36,38,40-41H2,1-11H3,(H,59,60)/p-1/b43-23+,44-25-,45-27-,46-29-,47-31-,48-33-,49-35-,50-37-,51-39-/t52-,53-,54+,55+/m1/s1
+      - kegg.compound: C20370
+      - metanetx.chemical: MNXM97075
       - origin: Sco4
-      - pubchem.compound: '9543138'
+      - pubchem.compound: '45479346'
   - !!omap
     - id: 4sulfbzalc_c
     - name: 4-sulfobenzylalcohol
@@ -19843,6 +19827,22 @@
       - metanetx.chemical: MNXM3180
       - origin: Sco4
       - pubchem.compound: '9543135'
+  - !!omap
+    - id: 4sulbza_c
+    - name: 4-sulfobenzaldehyde
+    - compartment: c
+    - charge: -1
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C(C1(C=CC(S([O-])(=O)=O)=CC=1))=O
+      - bigg.metabolite: 4sulbza
+      - biocyc: 4-SULFOBENZALDEHYDE
+      - chebi: CHEBI:1987
+      - inchi: InChI=1S/C7H6O4S/c8-5-6-1-3-7(4-2-6)12(9,10)11/h1-5H,(H,9,10,11)/p-1
+      - kegg.compound: C06679
+      - metanetx.chemical: MNXM2194
+      - origin: Sco4
+      - pubchem.compound: '9543138'
   - !!omap
     - id: gal14lac__D_c
     - name: D-galactaro-1,4-lactone
@@ -19892,20 +19892,6 @@
       - origin: Sco4
       - pubchem.compound: '45479569'
   - !!omap
-    - id: dtdp4dh3m26ddglc_c
-    - name: dTDP-4-dehydro-3-C-methyl-2,6-dideoxy-alpha-D-glucose
-    - compartment: c
-    - charge: -2
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CC1(=CN(C(=O)NC(=O)1)C3(CC(O)C(COP([O-])(=O)OP([O-])(=O)OC2(OC(C)C(=O)C(O)(C)C2))O3))
-      - bigg.metabolite: dtdp4dh3m26ddglc
-      - biocyc: CPD-13958
-      - inchi: InChI=1S/C17H26N2O14P2/c1-8-6-19(16(23)18-15(8)22)12-4-10(20)11(31-12)7-29-34(25,26)33-35(27,28)32-13-5-17(3,24)14(21)9(2)30-13/h6,9-13,20,24H,4-5,7H2,1-3H3,(H,25,26)(H,27,28)(H,18,22,23)/p-2/t9-,10+,11-,12-,13-,17+/m1/s1
-      - metanetx.chemical: MNXM11454
-      - origin: Sco4
-      - pubchem.compound: '90658753'
-  - !!omap
     - id: dtdp4h26dthp_c
     - name: dTDP-4-dehydro-2,6-dideoxy-alpha-D-threo-hexopyranose
     - compartment: c
@@ -19921,6 +19907,20 @@
       - metanetx.chemical: MNXM5728
       - origin: Sco4
       - pubchem.compound: '86583512'
+  - !!omap
+    - id: dtdp4dh3m26ddglc_c
+    - name: dTDP-4-dehydro-3-C-methyl-2,6-dideoxy-alpha-D-glucose
+    - compartment: c
+    - charge: -2
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC1(=CN(C(=O)NC(=O)1)C3(CC(O)C(COP([O-])(=O)OP([O-])(=O)OC2(OC(C)C(=O)C(O)(C)C2))O3))
+      - bigg.metabolite: dtdp4dh3m26ddglc
+      - biocyc: CPD-13958
+      - inchi: InChI=1S/C17H26N2O14P2/c1-8-6-19(16(23)18-15(8)22)12-4-10(20)11(31-12)7-29-34(25,26)33-35(27,28)32-13-5-17(3,24)14(21)9(2)30-13/h6,9-13,20,24H,4-5,7H2,1-3H3,(H,25,26)(H,27,28)(H,18,22,23)/p-2/t9-,10+,11-,12-,13-,17+/m1/s1
+      - metanetx.chemical: MNXM11454
+      - origin: Sco4
+      - pubchem.compound: '90658753'
   - !!omap
     - id: xxlgsacc_c
     - name: XXLGxyloglucanoligosaccharide
@@ -19950,22 +19950,6 @@
       - origin: Sco4
       - pubchem.compound: '52940180'
   - !!omap
-    - id: dhpppn_c
-    - name: 3-(2,3-dihydroxyphenyl)propanoate
-    - compartment: c
-    - charge: -1
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C(CCC1(C(=C(C=CC=1)O)O))([O-])=O
-      - bigg.metabolite: dhpppn
-      - biocyc: 2-3-DIHYDROXYPHENYL-PROPIONATE
-      - chebi: CHEBI:6951
-      - inchi: InChI=1S/C9H10O4/c10-7-3-1-2-6(9(7)13)4-5-8(11)12/h1-3,10,13H,4-5H2,(H,11,12)/p-1
-      - kegg.compound: C04044
-      - metanetx.chemical: MNXM826
-      - origin: Sco4
-      - pubchem.compound: '9543123'
-  - !!omap
     - id: 3hpppn_c
     - name: 3-(3-hydroxyphenyl)propanoate
     - compartment: c
@@ -19981,6 +19965,22 @@
       - metanetx.chemical: MNXM1634
       - origin: Sco4
       - pubchem.compound: '6931501'
+  - !!omap
+    - id: dhpppn_c
+    - name: 3-(2,3-dihydroxyphenyl)propanoate
+    - compartment: c
+    - charge: -1
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C(CCC1(C(=C(C=CC=1)O)O))([O-])=O
+      - bigg.metabolite: dhpppn
+      - biocyc: 2-3-DIHYDROXYPHENYL-PROPIONATE
+      - chebi: CHEBI:6951
+      - inchi: InChI=1S/C9H10O4/c10-7-3-1-2-6(9(7)13)4-5-8(11)12/h1-3,10,13H,4-5H2,(H,11,12)/p-1
+      - kegg.compound: C04044
+      - metanetx.chemical: MNXM826
+      - origin: Sco4
+      - pubchem.compound: '9543123'
   - !!omap
     - id: dhiconfa_c
     - name: (-)-dehydrodiconiferylaldehyde
@@ -20091,22 +20091,6 @@
       - origin: Sco4
       - pubchem.compound: '91820361'
   - !!omap
-    - id: 33biflav_c
-    - name: 3,3'-biflaviolin
-    - compartment: c
-    - charge: -2
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C1(C4(=C(C(O)=CC(O)=1)C(C(C3(C(C2(C(O)=CC(O)=CC=2C(=O)C=3[O-]))=O))=C([O-])C(=O)4)=O))
-      - bigg.metabolite: 33biflav
-      - biocyc: CPD-10680
-      - chebi: CHEBI:8871
-      - inchi: InChI=1S/C20H10O10/c21-5-1-7-11(9(23)3-5)17(27)13(19(29)15(7)25)14-18(28)12-8(16(26)20(14)30)2-6(22)4-10(12)24/h1-4,21-24,29-30H/p-2
-      - kegg.compound: C18013
-      - metanetx.chemical: MNXM4979
-      - origin: Sco4
-      - pubchem.compound: '25244895'
-  - !!omap
     - id: flaviolin_c
     - name: flaviolin
     - compartment: c
@@ -20122,6 +20106,22 @@
       - metanetx.chemical: MNXM90984
       - origin: Sco4
       - pubchem.compound: '25203726'
+  - !!omap
+    - id: 33biflav_c
+    - name: 3,3'-biflaviolin
+    - compartment: c
+    - charge: -2
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C1(C4(=C(C(O)=CC(O)=1)C(C(C3(C(C2(C(O)=CC(O)=CC=2C(=O)C=3[O-]))=O))=C([O-])C(=O)4)=O))
+      - bigg.metabolite: 33biflav
+      - biocyc: CPD-10680
+      - chebi: CHEBI:8871
+      - inchi: InChI=1S/C20H10O10/c21-5-1-7-11(9(23)3-5)17(27)13(19(29)15(7)25)14-18(28)12-8(16(26)20(14)30)2-6(22)4-10(12)24/h1-4,21-24,29-30H/p-2
+      - kegg.compound: C18013
+      - metanetx.chemical: MNXM4979
+      - origin: Sco4
+      - pubchem.compound: '25244895'
   - !!omap
     - id: hycorn_c
     - name: N5-hydroxy-L-ornithine
@@ -20155,22 +20155,6 @@
       - origin: Sco4
       - pubchem.compound: '440202'
   - !!omap
-    - id: nadhx__S_c
-    - name: (S)-NADHX
-    - compartment: c
-    - charge: -2
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C1(=C(CCC(O)N1C5(OC(COP(=O)([O-])OP(=O)([O-])OCC2(OC(C(O)C(O)2)N4(C=NC3(C(N)=NC=NC=34))))C(O)C(O)5))C(N)=O)
-      - bigg.metabolite: nadhx__S
-      - biocyc: CPD-653
-      - chebi: CHEBI:4074
-      - inchi: InChI=1S/C21H31N7O15P2/c22-17-12-19(25-6-24-17)28(7-26-12)21-16(33)14(31)10(42-21)5-40-45(37,38)43-44(35,36)39-4-9-13(30)15(32)20(41-9)27-3-8(18(23)34)1-2-11(27)29/h3,6-7,9-11,13-16,20-21,29-33H,1-2,4-5H2,(H2,23,34)(H,35,36)(H,37,38)(H2,22,24,25)/p-2/t9-,10-,11+,13-,14-,15-,16-,20-,21-/m1/s1
-      - kegg.compound: C04856
-      - metanetx.chemical: MNXM1964
-      - origin: Sco4
-      - pubchem.compound: '25203523'
-  - !!omap
     - id: nadhx__R_c
     - name: (R)-NADHX
     - compartment: c
@@ -20186,6 +20170,22 @@
       - metanetx.chemical: MNXM5377
       - origin: Sco4
       - pubchem.compound: '56927860'
+  - !!omap
+    - id: nadhx__S_c
+    - name: (S)-NADHX
+    - compartment: c
+    - charge: -2
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C1(=C(CCC(O)N1C5(OC(COP(=O)([O-])OP(=O)([O-])OCC2(OC(C(O)C(O)2)N4(C=NC3(C(N)=NC=NC=34))))C(O)C(O)5))C(N)=O)
+      - bigg.metabolite: nadhx__S
+      - biocyc: CPD-653
+      - chebi: CHEBI:4074
+      - inchi: InChI=1S/C21H31N7O15P2/c22-17-12-19(25-6-24-17)28(7-26-12)21-16(33)14(31)10(42-21)5-40-45(37,38)43-44(35,36)39-4-9-13(30)15(32)20(41-9)27-3-8(18(23)34)1-2-11(27)29/h3,6-7,9-11,13-16,20-21,29-33H,1-2,4-5H2,(H2,23,34)(H,35,36)(H,37,38)(H2,22,24,25)/p-2/t9-,10-,11+,13-,14-,15-,16-,20-,21-/m1/s1
+      - kegg.compound: C04856
+      - metanetx.chemical: MNXM1964
+      - origin: Sco4
+      - pubchem.compound: '25203523'
   - !!omap
     - id: hsql_c
     - name: hydroxysqualene
@@ -20203,20 +20203,6 @@
       - origin: Sco4
       - pubchem.compound: '92136125'
   - !!omap
-    - id: mphpv__S_c
-    - name: (+)-(betaS)-MPHPV
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: COC1(=CC=CC=C1OC(CO)C(=O)C2(C=C(OC)C(O)=CC=2))
-      - bigg.metabolite: mphpv__S
-      - biocyc: CPD-11871
-      - inchi: InChI=1S/C17H18O6/c1-21-13-5-3-4-6-14(13)23-16(10-18)17(20)11-7-8-12(19)15(9-11)22-2/h3-9,16,18-19H,10H2,1-2H3/t16-/m0/s1
-      - metanetx.chemical: MNXM7906
-      - origin: Sco4
-      - pubchem.compound: '45479541'
-  - !!omap
     - id: gcgguaiace_c
     - name: (+)-(alphaS,betaS)-guaiacylglycerol-beta-guaiacylether
     - compartment: c
@@ -20230,6 +20216,20 @@
       - metanetx.chemical: MNXM13411
       - origin: Sco4
       - pubchem.compound: '13117026'
+  - !!omap
+    - id: mphpv__S_c
+    - name: (+)-(betaS)-MPHPV
+    - compartment: c
+    - charge: 0
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: COC1(=CC=CC=C1OC(CO)C(=O)C2(C=C(OC)C(O)=CC=2))
+      - bigg.metabolite: mphpv__S
+      - biocyc: CPD-11871
+      - inchi: InChI=1S/C17H18O6/c1-21-13-5-3-4-6-14(13)23-16(10-18)17(20)11-7-8-12(19)15(9-11)22-2/h3-9,16,18-19H,10H2,1-2H3/t16-/m0/s1
+      - metanetx.chemical: MNXM7906
+      - origin: Sco4
+      - pubchem.compound: '45479541'
   - !!omap
     - id: tbutfor_c
     - name: tert-butylformate
@@ -20260,22 +20260,6 @@
       - origin: Sco4
       - pubchem.compound: '6386'
   - !!omap
-    - id: caffcoa_c
-    - name: trans-caffeoyl-CoA
-    - compartment: c
-    - charge: -4
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CC(C)(C(O)C(=O)NCCC(=O)NCCSC(=O)C=CC1(=CC=C(O)C(=C1)O))COP(=O)(OP(=O)(OCC2(C(OP([O-])(=O)[O-])C(O)C(O2)N4(C3(=C(C(N)=NC=N3)N=C4))))[O-])[O-]
-      - bigg.metabolite: caffcoa
-      - biocyc: CAFFEOYL-COA
-      - chebi: CHEBI:7372
-      - inchi: InChI=1S/C30H42N7O19P3S/c1-30(2,25(43)28(44)33-8-7-20(40)32-9-10-60-21(41)6-4-16-3-5-17(38)18(39)11-16)13-53-59(50,51)56-58(48,49)52-12-19-24(55-57(45,46)47)23(42)29(54-19)37-15-36-22-26(31)34-14-35-27(22)37/h3-6,11,14-15,19,23-25,29,38-39,42-43H,7-10,12-13H2,1-2H3,(H,32,40)(H,33,44)(H,48,49)(H,50,51)(H2,31,34,35)(H2,45,46,47)/p-4/b6-4+/t19-,23-,24-,25+,29-/m1/s1
-      - kegg.compound: C00323
-      - metanetx.chemical: MNXM443
-      - origin: Sco4
-      - pubchem.compound: '45266599'
-  - !!omap
     - id: 34dhcinm_c
     - name: trans-caffeate
     - compartment: c
@@ -20291,6 +20275,22 @@
       - metanetx.chemical: MNXM890
       - origin: Sco4
       - pubchem.compound: '54691412'
+  - !!omap
+    - id: caffcoa_c
+    - name: trans-caffeoyl-CoA
+    - compartment: c
+    - charge: -4
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC(C)(C(O)C(=O)NCCC(=O)NCCSC(=O)C=CC1(=CC=C(O)C(=C1)O))COP(=O)(OP(=O)(OCC2(C(OP([O-])(=O)[O-])C(O)C(O2)N4(C3(=C(C(N)=NC=N3)N=C4))))[O-])[O-]
+      - bigg.metabolite: caffcoa
+      - biocyc: CAFFEOYL-COA
+      - chebi: CHEBI:7372
+      - inchi: InChI=1S/C30H42N7O19P3S/c1-30(2,25(43)28(44)33-8-7-20(40)32-9-10-60-21(41)6-4-16-3-5-17(38)18(39)11-16)13-53-59(50,51)56-58(48,49)52-12-19-24(55-57(45,46)47)23(42)29(54-19)37-15-36-22-26(31)34-14-35-27(22)37/h3-6,11,14-15,19,23-25,29,38-39,42-43H,7-10,12-13H2,1-2H3,(H,32,40)(H,33,44)(H,48,49)(H,50,51)(H2,31,34,35)(H2,45,46,47)/p-4/b6-4+/t19-,23-,24-,25+,29-/m1/s1
+      - kegg.compound: C00323
+      - metanetx.chemical: MNXM443
+      - origin: Sco4
+      - pubchem.compound: '45266599'
   - !!omap
     - id: Nforglu_c
     - name: N-formyl-L-glutamate
@@ -20402,6 +20402,20 @@
       - origin: Sco4
       - pubchem.compound: '16913'
   - !!omap
+    - id: 36ahgalfur_c
+    - name: 3,6-anhydro-L-galactofuranose
+    - compartment: c
+    - charge: 0
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: '[CH](=O)C(O)[CH]1(OCC(O)C(O)1)'
+      - bigg.metabolite: 36ahgalfur
+      - biocyc: CPD-8938
+      - inchi: InChI=1S/C6H10O5/c7-1-3(8)6-5(10)4(9)2-11-6/h1,3-6,8-10H,2H2/t3-,4+,5-,6+/m1/s1
+      - metanetx.chemical: MNXM36133
+      - origin: Sco4
+      - pubchem.compound: '21145406'
+  - !!omap
     - id: ahgalac__L_c
     - name: 3,6-anhydro-L-galactonate
     - compartment: c
@@ -20417,20 +20431,6 @@
       - metanetx.chemical: MNXM145639
       - origin: Sco4
       - pubchem.compound: '86290074'
-  - !!omap
-    - id: 36ahgalfur_c
-    - name: 3,6-anhydro-L-galactofuranose
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: '[CH](=O)C(O)[CH]1(OCC(O)C(O)1)'
-      - bigg.metabolite: 36ahgalfur
-      - biocyc: CPD-8938
-      - inchi: InChI=1S/C6H10O5/c7-1-3(8)6-5(10)4(9)2-11-6/h1,3-6,8-10H,2H2/t3-,4+,5-,6+/m1/s1
-      - metanetx.chemical: MNXM36133
-      - origin: Sco4
-      - pubchem.compound: '21145406'
   - !!omap
     - id: 4mbzald_c
     - name: 4-methylbenzaldehyde
@@ -20464,21 +20464,6 @@
       - origin: Sco4
       - pubchem.compound: '154342'
   - !!omap
-    - id: amucsam_c
-    - name: (2Z,4E)-2-amino-6-oxohexa-2,4-dienoate
-    - compartment: c
-    - charge: -1
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C(C=C(C([O-])=O)N)=C[CH]=O
-      - bigg.metabolite: amucsam
-      - biocyc: 2-AMINOMUCONATE_SEMIALDEHYDE
-      - chebi: CHEBI:7495
-      - inchi: InChI=1S/C6H7NO3/c7-5(6(9)10)3-1-2-4-8/h1-4H,7H2,(H,9,10)/p-1/b2-1+,5-3-
-      - metanetx.chemical: MNXM163034
-      - origin: Sco4
-      - pubchem.compound: '122706506'
-  - !!omap
     - id: acarbmucosad_c
     - name: aminocarboxymuconatesemialdehyde
     - compartment: c
@@ -20493,6 +20478,21 @@
       - metanetx.chemical: MNXM163733
       - origin: Sco4
       - pubchem.compound: '20843235'
+  - !!omap
+    - id: amucsam_c
+    - name: (2Z,4E)-2-amino-6-oxohexa-2,4-dienoate
+    - compartment: c
+    - charge: -1
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C(C=C(C([O-])=O)N)=C[CH]=O
+      - bigg.metabolite: amucsam
+      - biocyc: 2-AMINOMUCONATE_SEMIALDEHYDE
+      - chebi: CHEBI:7495
+      - inchi: InChI=1S/C6H7NO3/c7-5(6(9)10)3-1-2-4-8/h1-4H,7H2,(H,9,10)/p-1/b2-1+,5-3-
+      - metanetx.chemical: MNXM163034
+      - origin: Sco4
+      - pubchem.compound: '122706506'
   - !!omap
     - id: atphyflu_c
     - name: all-transphytofluene
@@ -20526,22 +20526,6 @@
       - origin: Sco4
       - pubchem.compound: '5280788'
   - !!omap
-    - id: pcumat_c
-    - name: p-cumate
-    - compartment: c
-    - charge: -1
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CC(C1(C=CC(C([O-])=O)=CC=1))C
-      - bigg.metabolite: pcumat
-      - biocyc: CPD-1004
-      - chebi: CHEBI:5822
-      - inchi: InChI=1S/C10H12O2/c1-7(2)8-3-5-9(6-4-8)10(11)12/h3-7H,1-2H3,(H,11,12)/p-1
-      - kegg.compound: C06578
-      - metanetx.chemical: MNXM4764
-      - origin: Sco4
-      - pubchem.compound: '3417835'
-  - !!omap
     - id: pcumald_c
     - name: p-cumicaldehyde
     - compartment: c
@@ -20557,6 +20541,22 @@
       - metanetx.chemical: MNXM5879
       - origin: Sco4
       - pubchem.compound: '326'
+  - !!omap
+    - id: pcumat_c
+    - name: p-cumate
+    - compartment: c
+    - charge: -1
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC(C1(C=CC(C([O-])=O)=CC=1))C
+      - bigg.metabolite: pcumat
+      - biocyc: CPD-1004
+      - chebi: CHEBI:5822
+      - inchi: InChI=1S/C10H12O2/c1-7(2)8-3-5-9(6-4-8)10(11)12/h3-7H,1-2H3,(H,11,12)/p-1
+      - kegg.compound: C06578
+      - metanetx.chemical: MNXM4764
+      - origin: Sco4
+      - pubchem.compound: '3417835'
   - !!omap
     - id: 25dc25chx_c
     - name: 2,5-dichloro-2,5-cyclohexadiene-1,4-diol
@@ -20589,22 +20589,6 @@
       - origin: Sco4
       - pubchem.compound: '65'
   - !!omap
-    - id: 3uribut_c
-    - name: (R)-3-ureido-isobutanoate
-    - compartment: c
-    - charge: -1
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CC(CNC(N)=O)C(=O)[O-]
-      - bigg.metabolite: 3uribut
-      - biocyc: 3-UREIDO-ISOBUTYRATE
-      - chebi: CHEBI:4414
-      - inchi: InChI=1S/C5H10N2O3/c1-3(4(8)9)2-7-5(6)10/h3H,2H2,1H3,(H,8,9)(H3,6,7,10)/p-1/t3-/m1/s1
-      - kegg.compound: C21029
-      - metanetx.chemical: MNXM163065
-      - origin: Sco4
-      - pubchem.compound: '91820371'
-  - !!omap
     - id: 56dthm_c
     - name: 5,6-dihydrothymine
     - compartment: c
@@ -20620,6 +20604,22 @@
       - metanetx.chemical: MNXM772
       - origin: Sco4
       - pubchem.compound: '93556'
+  - !!omap
+    - id: 3uribut_c
+    - name: (R)-3-ureido-isobutanoate
+    - compartment: c
+    - charge: -1
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC(CNC(N)=O)C(=O)[O-]
+      - bigg.metabolite: 3uribut
+      - biocyc: 3-UREIDO-ISOBUTYRATE
+      - chebi: CHEBI:4414
+      - inchi: InChI=1S/C5H10N2O3/c1-3(4(8)9)2-7-5(6)10/h3H,2H2,1H3,(H,8,9)(H3,6,7,10)/p-1/t3-/m1/s1
+      - kegg.compound: C21029
+      - metanetx.chemical: MNXM163065
+      - origin: Sco4
+      - pubchem.compound: '91820371'
   - !!omap
     - id: hmmsh_c
     - name: S-hydroxymethylmycothiol
@@ -20653,31 +20653,6 @@
       - origin: Sco4
       - pubchem.compound: '11953886'
   - !!omap
-    - id: f420ox_c
-    - name: Oxidized-Factor-F420
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - bigg.metabolite: f420ox
-      - biocyc: Oxidized-Factor-F420
-      - metanetx.chemical: MNXM5253
-      - origin: Sco4
-  - !!omap
-    - id: 24dtcho_c
-    - name: 2,4-dinitrocyclohexan-1-one
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C1(CC(C(CC([N+]([O-])=O)1)[N+](=O)[O-])=O)
-      - bigg.metabolite: 24dtcho
-      - biocyc: CPD-17568
-      - inchi: InChI=1S/C6H8N2O5/c9-6-2-1-4(7(10)11)3-5(6)8(12)13/h4-5H,1-3H2
-      - metanetx.chemical: MNXM147711
-      - origin: Sco4
-      - pubchem.compound: '9543365'
-  - !!omap
     - id: o54ocyo_c
     - name: O-[5-(oxidonitroso)-4-oxocyclohex-2-en-1-ylidenenitroso]oxidanidolate
     - compartment: c
@@ -20701,6 +20676,31 @@
       - biocyc: Reduced-Factor-F420
       - kegg.compound: C01080
       - metanetx.chemical: MNXM5291
+      - origin: Sco4
+  - !!omap
+    - id: 24dtcho_c
+    - name: 2,4-dinitrocyclohexan-1-one
+    - compartment: c
+    - charge: 0
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C1(CC(C(CC([N+]([O-])=O)1)[N+](=O)[O-])=O)
+      - bigg.metabolite: 24dtcho
+      - biocyc: CPD-17568
+      - inchi: InChI=1S/C6H8N2O5/c9-6-2-1-4(7(10)11)3-5(6)8(12)13/h4-5H,1-3H2
+      - metanetx.chemical: MNXM147711
+      - origin: Sco4
+      - pubchem.compound: '9543365'
+  - !!omap
+    - id: f420ox_c
+    - name: Oxidized-Factor-F420
+    - compartment: c
+    - charge: 0
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - bigg.metabolite: f420ox
+      - biocyc: Oxidized-Factor-F420
+      - metanetx.chemical: MNXM5253
       - origin: Sco4
   - !!omap
     - id: ru1p__D_c
@@ -20846,20 +20846,6 @@
       - origin: Sco4
       - pubchem.compound: '9963391'
   - !!omap
-    - id: 3ocl4e26ocoa_c
-    - name: (25R)-3-oxocholest-4-en-26-oyl-CoA
-    - compartment: c
-    - charge: -4
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CC(CCCC(C(=O)SCCNC(=O)CCNC(=O)C(O)C(C)(C)COP(=O)(OP(=O)(OCC1(C(OP([O-])(=O)[O-])C(O)C(O1)N3(C2(=C(C(N)=NC=N2)N=C3))))[O-])[O-])C)[CH]6(CC[CH]7([CH]5(CCC4(=CC(=O)CCC(C)4[CH]5CCC(C)67))))
-      - bigg.metabolite: 3ocl4e26ocoa
-      - biocyc: CPD-19066
-      - inchi: InChI=1S/C48H76N7O18P3S/c1-27(32-12-13-33-31-11-10-29-22-30(56)14-17-47(29,5)34(31)15-18-48(32,33)6)8-7-9-28(2)45(61)77-21-20-50-36(57)16-19-51-43(60)40(59)46(3,4)24-70-76(67,68)73-75(65,66)69-23-35-39(72-74(62,63)64)38(58)44(71-35)55-26-54-37-41(49)52-25-53-42(37)55/h22,25-28,31-35,38-40,44,58-59H,7-21,23-24H2,1-6H3,(H,50,57)(H,51,60)(H,65,66)(H,67,68)(H2,49,52,53)(H2,62,63,64)/p-4/t27-,28-,31+,32-,33+,34+,35-,38-,39-,40+,44-,47+,48-/m1/s1
-      - metanetx.chemical: MNXM163944
-      - origin: Sco4
-      - pubchem.compound: '122706645'
-  - !!omap
     - id: 3oce26ocoa_c
     - name: (25S)-3-oxocholest-4-en-26-oyl-CoA
     - compartment: c
@@ -20875,6 +20861,35 @@
       - metanetx.chemical: MNXM8127
       - origin: Sco4
       - pubchem.compound: '86290149'
+  - !!omap
+    - id: 3ocl4e26ocoa_c
+    - name: (25R)-3-oxocholest-4-en-26-oyl-CoA
+    - compartment: c
+    - charge: -4
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC(CCCC(C(=O)SCCNC(=O)CCNC(=O)C(O)C(C)(C)COP(=O)(OP(=O)(OCC1(C(OP([O-])(=O)[O-])C(O)C(O1)N3(C2(=C(C(N)=NC=N2)N=C3))))[O-])[O-])C)[CH]6(CC[CH]7([CH]5(CCC4(=CC(=O)CCC(C)4[CH]5CCC(C)67))))
+      - bigg.metabolite: 3ocl4e26ocoa
+      - biocyc: CPD-19066
+      - inchi: InChI=1S/C48H76N7O18P3S/c1-27(32-12-13-33-31-11-10-29-22-30(56)14-17-47(29,5)34(31)15-18-48(32,33)6)8-7-9-28(2)45(61)77-21-20-50-36(57)16-19-51-43(60)40(59)46(3,4)24-70-76(67,68)73-75(65,66)69-23-35-39(72-74(62,63)64)38(58)44(71-35)55-26-54-37-41(49)52-25-53-42(37)55/h22,25-28,31-35,38-40,44,58-59H,7-21,23-24H2,1-6H3,(H,50,57)(H,51,60)(H,65,66)(H,67,68)(H2,49,52,53)(H2,62,63,64)/p-4/t27-,28-,31+,32-,33+,34+,35-,38-,39-,40+,44-,47+,48-/m1/s1
+      - metanetx.chemical: MNXM163944
+      - origin: Sco4
+      - pubchem.compound: '122706645'
+  - !!omap
+    - id: 14hdphet_c
+    - name: S-1-(4-hydroxyphenyl)-ethanol
+    - compartment: c
+    - charge: 0
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC(O)C1(C=CC(O)=CC=1)
+      - bigg.metabolite: 14hdphet
+      - biocyc: CPD-10597
+      - chebi: CHEBI:1042
+      - inchi: InChI=1S/C8H10O2/c1-6(9)7-2-4-8(10)5-3-7/h2-6,9-10H,1H3/t6-/m0/s1
+      - metanetx.chemical: MNXM163894
+      - origin: Sco4
+      - pubchem.compound: '10866400'
   - !!omap
     - id: haphenon_c
     - name: 4-hydroxyacetophenone
@@ -20892,20 +20907,21 @@
       - origin: Sco4
       - pubchem.compound: '7469'
   - !!omap
-    - id: 14hdphet_c
-    - name: S-1-(4-hydroxyphenyl)-ethanol
+    - id: 2chloacr_c
+    - name: 2-chloroacrylate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - annotation: !!omap
       - SBO: SBO:0000247
-      - SMILES: CC(O)C1(C=CC(O)=CC=1)
-      - bigg.metabolite: 14hdphet
-      - biocyc: CPD-10597
-      - chebi: CHEBI:1042
-      - inchi: InChI=1S/C8H10O2/c1-6(9)7-2-4-8(10)5-3-7/h2-6,9-10H,1H3/t6-/m0/s1
-      - metanetx.chemical: MNXM163894
+      - SMILES: C=C(Cl)C(=O)[O-]
+      - bigg.metabolite: 2chloacr
+      - biocyc: CPD-15408
+      - chebi: CHEBI:3935
+      - inchi: InChI=1S/C3H3ClO2/c1-2(4)3(5)6/h1H2,(H,5,6)/p-1
+      - kegg.compound: C20609
+      - metanetx.chemical: MNXM101621
       - origin: Sco4
-      - pubchem.compound: '10866400'
+      - pubchem.compound: '6993312'
   - !!omap
     - id: 2clprop_c
     - name: (S)-2-chloropropanoate
@@ -20922,22 +20938,6 @@
       - metanetx.chemical: MNXM18845
       - origin: Sco4
       - pubchem.compound: '6999783'
-  - !!omap
-    - id: 2chloacr_c
-    - name: 2-chloroacrylate
-    - compartment: c
-    - charge: -1
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C=C(Cl)C(=O)[O-]
-      - bigg.metabolite: 2chloacr
-      - biocyc: CPD-15408
-      - chebi: CHEBI:3935
-      - inchi: InChI=1S/C3H3ClO2/c1-2(4)3(5)6/h1H2,(H,5,6)/p-1
-      - kegg.compound: C20609
-      - metanetx.chemical: MNXM101621
-      - origin: Sco4
-      - pubchem.compound: '6993312'
   - !!omap
     - id: formhop_c
     - name: formylhopane
@@ -20968,18 +20968,6 @@
       - origin: Sco4
       - pubchem.compound: '90658246'
   - !!omap
-    - id: dolmanp_c
-    - name: Dolichyl phosphate D-mannose
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - bigg.metabolite: dolmanp
-      - biocyc: CPD-171
-      - kegg.compound: C03862
-      - metanetx.chemical: MNXM507024;MNXM7322
-      - origin: Sco4
-  - !!omap
     - id: dolichol_c
     - name: DOLICHOLP
     - compartment: c
@@ -20992,19 +20980,17 @@
       - metanetx.chemical: MNXM278;MNXM511600
       - origin: Sco4
   - !!omap
-    - id: 23dahxoc_c
-    - name: (2S,3S,7R)-2,3-diamino-8-(1-carbamoyl-2-iminoimidazolidin-4-yl)-7-hydroxyoctanoate
+    - id: dolmanp_c
+    - name: Dolichyl phosphate D-mannose
     - compartment: c
-    - charge: 1
+    - charge: 0
     - annotation: !!omap
       - SBO: SBO:0000247
-      - SMILES: C1(N(C(N)=O)C(=N)NC1CC(O)CCCC([N+])C([N+])C([O-])=O)
-      - bigg.metabolite: 23dahxoc
-      - biocyc: CPD-18229
-      - inchi: InChI=1S/C12H24N6O4/c13-8(9(14)10(20)21)3-1-2-7(19)4-6-5-18(12(16)22)11(15)17-6/h6-9,19H,1-5,13-14H2,(H2,15,17)(H2,16,22)(H,20,21)/p+1/t6?,7-,8+,9+/m1/s1
-      - metanetx.chemical: MNXM163618
+      - bigg.metabolite: dolmanp
+      - biocyc: CPD-171
+      - kegg.compound: C03862
+      - metanetx.chemical: MNXM507024;MNXM7322
       - origin: Sco4
-      - pubchem.compound: '102515505'
   - !!omap
     - id: aahxioct_c
     - name: (2S,3S,7R)-2-amino-3-amino-7-hydroxy-8-(2-iminoimidazolidin-4-yl)octanoate
@@ -21019,6 +21005,20 @@
       - metanetx.chemical: MNXM163960
       - origin: Sco4
       - pubchem.compound: '102514923'
+  - !!omap
+    - id: 23dahxoc_c
+    - name: (2S,3S,7R)-2,3-diamino-8-(1-carbamoyl-2-iminoimidazolidin-4-yl)-7-hydroxyoctanoate
+    - compartment: c
+    - charge: 1
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C1(N(C(N)=O)C(=N)NC1CC(O)CCCC([N+])C([N+])C([O-])=O)
+      - bigg.metabolite: 23dahxoc
+      - biocyc: CPD-18229
+      - inchi: InChI=1S/C12H24N6O4/c13-8(9(14)10(20)21)3-1-2-7(19)4-6-5-18(12(16)22)11(15)17-6/h6-9,19H,1-5,13-14H2,(H2,15,17)(H2,16,22)(H,20,21)/p+1/t6?,7-,8+,9+/m1/s1
+      - metanetx.chemical: MNXM163618
+      - origin: Sco4
+      - pubchem.compound: '102515505'
   - !!omap
     - id: ggputresc_c
     - name: gamma-glutamyl-L-putrescine
@@ -21129,15 +21129,15 @@
       - origin: Sco4
       - pubchem.compound: '86583511'
   - !!omap
-    - id: ETFred_c
-    - name: ETF-Reduced
+    - id: etf_ox_c
+    - name: ETF-Oxidized
     - compartment: c
     - charge: 0
     - annotation: !!omap
       - SBO: SBO:0000247
-      - bigg.metabolite: ETFred
-      - biocyc: ETF-Reduced
-      - metanetx.chemical: MNXM2229
+      - bigg.metabolite: etf_ox
+      - biocyc: ETF-Oxidized
+      - metanetx.chemical: MNXM53428
       - origin: Sco4
   - !!omap
     - id: 2mfumcoa_c
@@ -21156,15 +21156,15 @@
       - origin: Sco4
       - pubchem.compound: '71728453'
   - !!omap
-    - id: etf_ox_c
-    - name: ETF-Oxidized
+    - id: ETFred_c
+    - name: ETF-Reduced
     - compartment: c
     - charge: 0
     - annotation: !!omap
       - SBO: SBO:0000247
-      - bigg.metabolite: etf_ox
-      - biocyc: ETF-Oxidized
-      - metanetx.chemical: MNXM53428
+      - bigg.metabolite: ETFred
+      - biocyc: ETF-Reduced
+      - metanetx.chemical: MNXM2229
       - origin: Sco4
   - !!omap
     - id: 2amac_c
@@ -21183,22 +21183,6 @@
       - origin: Sco4
       - pubchem.compound: '22022579'
   - !!omap
-    - id: chol4e3o_c
-    - name: cholest-4-en-3-one
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CC(C)CCCC(C)[CH]3(CC[CH]4([CH]2(CCC1(=CC(=O)CCC(C)1[CH]2CCC(C)34))))
-      - bigg.metabolite: chol4e3o
-      - biocyc: CPD-323
-      - chebi: CHEBI:6175
-      - inchi: InChI=1S/C27H44O/c1-18(2)7-6-8-19(3)23-11-12-24-22-10-9-20-17-21(28)13-15-26(20,4)25(22)14-16-27(23,24)5/h17-19,22-25H,6-16H2,1-5H3/t19-,22+,23-,24+,25+,26+,27-/m1/s1
-      - kegg.compound: C00599
-      - metanetx.chemical: MNXM973
-      - origin: Sco4
-      - pubchem.compound: '91477'
-  - !!omap
     - id: chsterol_c
     - name: cholesterol
     - compartment: c
@@ -21215,20 +21199,21 @@
       - origin: Sco4
       - pubchem.compound: '5997'
   - !!omap
-    - id: 3ocdncoa_c
-    - name: 3-oxochol-4,22-dien-24-oyl-CoA
+    - id: chol4e3o_c
+    - name: cholest-4-en-3-one
     - compartment: c
-    - charge: -4
+    - charge: 0
     - annotation: !!omap
       - SBO: SBO:0000247
-      - SMILES: CC(C=CC(=O)SCCNC(=O)CCNC(=O)C(O)C(C)(C)COP(=O)(OP(=O)(OCC1(C(OP([O-])(=O)[O-])C(O)C(O1)N3(C2(=C(C(N)=NC=N2)N=C3))))[O-])[O-])[CH]6(CC[CH]7([CH]5(CCC4(=CC(=O)CCC(C)4[CH]5CCC(C)67))))
-      - bigg.metabolite: 3ocdncoa
-      - biocyc: CPD-13697
-      - chebi: CHEBI:6413
-      - inchi: InChI=1S/C45H68N7O18P3S/c1-25(29-9-10-30-28-8-7-26-20-27(53)12-15-44(26,4)31(28)13-16-45(29,30)5)6-11-34(55)74-19-18-47-33(54)14-17-48-41(58)38(57)43(2,3)22-67-73(64,65)70-72(62,63)66-21-32-37(69-71(59,60)61)36(56)42(68-32)52-24-51-35-39(46)49-23-50-40(35)52/h6,11,20,23-25,28-32,36-38,42,56-57H,7-10,12-19,21-22H2,1-5H3,(H,47,54)(H,48,58)(H,62,63)(H,64,65)(H2,46,49,50)(H2,59,60,61)/p-4/b11-6+/t25-,28+,29-,30+,31+,32-,36-,37-,38+,42-,44+,45-/m1/s1
-      - metanetx.chemical: MNXM10108
+      - SMILES: CC(C)CCCC(C)[CH]3(CC[CH]4([CH]2(CCC1(=CC(=O)CCC(C)1[CH]2CCC(C)34))))
+      - bigg.metabolite: chol4e3o
+      - biocyc: CPD-323
+      - chebi: CHEBI:6175
+      - inchi: InChI=1S/C27H44O/c1-18(2)7-6-8-19(3)23-11-12-24-22-10-9-20-17-21(28)13-15-26(20,4)25(22)14-16-27(23,24)5/h17-19,22-25H,6-16H2,1-5H3/t19-,22+,23-,24+,25+,26+,27-/m1/s1
+      - kegg.compound: C00599
+      - metanetx.chemical: MNXM973
       - origin: Sco4
-      - pubchem.compound: '90658407'
+      - pubchem.compound: '91477'
   - !!omap
     - id: 3oc4en24ocoa_c
     - name: 3-oxochol-4-en-24-oyl-CoA
@@ -21244,6 +21229,21 @@
       - metanetx.chemical: MNXM10109
       - origin: Sco4
       - pubchem.compound: '90657746'
+  - !!omap
+    - id: 3ocdncoa_c
+    - name: 3-oxochol-4,22-dien-24-oyl-CoA
+    - compartment: c
+    - charge: -4
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC(C=CC(=O)SCCNC(=O)CCNC(=O)C(O)C(C)(C)COP(=O)(OP(=O)(OCC1(C(OP([O-])(=O)[O-])C(O)C(O1)N3(C2(=C(C(N)=NC=N2)N=C3))))[O-])[O-])[CH]6(CC[CH]7([CH]5(CCC4(=CC(=O)CCC(C)4[CH]5CCC(C)67))))
+      - bigg.metabolite: 3ocdncoa
+      - biocyc: CPD-13697
+      - chebi: CHEBI:6413
+      - inchi: InChI=1S/C45H68N7O18P3S/c1-25(29-9-10-30-28-8-7-26-20-27(53)12-15-44(26,4)31(28)13-16-45(29,30)5)6-11-34(55)74-19-18-47-33(54)14-17-48-41(58)38(57)43(2,3)22-67-73(64,65)70-72(62,63)66-21-32-37(69-71(59,60)61)36(56)42(68-32)52-24-51-35-39(46)49-23-50-40(35)52/h6,11,20,23-25,28-32,36-38,42,56-57H,7-10,12-19,21-22H2,1-5H3,(H,47,54)(H,48,58)(H,62,63)(H,64,65)(H2,46,49,50)(H2,59,60,61)/p-4/b11-6+/t25-,28+,29-,30+,31+,32-,36-,37-,38+,42-,44+,45-/m1/s1
+      - metanetx.chemical: MNXM10108
+      - origin: Sco4
+      - pubchem.compound: '90658407'
   - !!omap
     - id: gpdtoucap_c
     - name: N-acetyl-alpha-D-glucosaminyl-phospho-ditrans,octacis-undecaprenol
@@ -21291,22 +21291,6 @@
       - origin: Sco4
       - pubchem.compound: '126'
   - !!omap
-    - id: phitcoa_c
-    - name: (E)-2-benzylidenesuccinyl-CoA
-    - compartment: c
-    - charge: -5
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CC(C)(C(O)C(=O)NCCC(=O)NCCSC(=O)C(CC(=O)[O-])=CC1(C=CC=CC=1))COP(=O)(OP(=O)(OCC2(C(OP([O-])(=O)[O-])C(O)C(O2)N4(C3(=C(C(N)=NC=N3)N=C4))))[O-])[O-]
-      - bigg.metabolite: phitcoa
-      - biocyc: E-PHENYLITACONYL-COA
-      - chebi: CHEBI:7639
-      - inchi: InChI=1S/C32H44N7O19P3S/c1-32(2,26(44)29(45)35-9-8-21(40)34-10-11-62-31(46)19(13-22(41)42)12-18-6-4-3-5-7-18)15-55-61(52,53)58-60(50,51)54-14-20-25(57-59(47,48)49)24(43)30(56-20)39-17-38-23-27(33)36-16-37-28(23)39/h3-7,12,16-17,20,24-26,30,43-44H,8-11,13-15H2,1-2H3,(H,34,40)(H,35,45)(H,41,42)(H,50,51)(H,52,53)(H2,33,36,37)(H2,47,48,49)/p-5/b19-12-/t20-,24-,25-,26+,30-/m1/s1
-      - kegg.compound: C09818
-      - metanetx.chemical: MNXM4923
-      - origin: Sco4
-      - pubchem.compound: '50986140'
-  - !!omap
     - id: bzsuccoa__R_c
     - name: (R)-benzylsuccinyl-CoA
     - compartment: c
@@ -21323,6 +21307,34 @@
       - origin: Sco4
       - pubchem.compound: '45266532'
   - !!omap
+    - id: phitcoa_c
+    - name: (E)-2-benzylidenesuccinyl-CoA
+    - compartment: c
+    - charge: -5
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC(C)(C(O)C(=O)NCCC(=O)NCCSC(=O)C(CC(=O)[O-])=CC1(C=CC=CC=1))COP(=O)(OP(=O)(OCC2(C(OP([O-])(=O)[O-])C(O)C(O2)N4(C3(=C(C(N)=NC=N3)N=C4))))[O-])[O-]
+      - bigg.metabolite: phitcoa
+      - biocyc: E-PHENYLITACONYL-COA
+      - chebi: CHEBI:7639
+      - inchi: InChI=1S/C32H44N7O19P3S/c1-32(2,26(44)29(45)35-9-8-21(40)34-10-11-62-31(46)19(13-22(41)42)12-18-6-4-3-5-7-18)15-55-61(52,53)58-60(50,51)54-14-20-25(57-59(47,48)49)24(43)30(56-20)39-17-38-23-27(33)36-16-37-28(23)39/h3-7,12,16-17,20,24-26,30,43-44H,8-11,13-15H2,1-2H3,(H,34,40)(H,35,45)(H,41,42)(H,50,51)(H,52,53)(H2,33,36,37)(H2,47,48,49)/p-5/b19-12-/t20-,24-,25-,26+,30-/m1/s1
+      - kegg.compound: C09818
+      - metanetx.chemical: MNXM4923
+      - origin: Sco4
+      - pubchem.compound: '50986140'
+  - !!omap
+    - id: gmhep7p_c
+    - name: D-ALPHABETA-D-HEPTOSE-7-PHOSPHATE
+    - compartment: c
+    - charge: 0
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - bigg.metabolite: gmhep7p
+      - biocyc: D-ALPHABETA-D-HEPTOSE-7-PHOSPHATE
+      - kegg.compound: C07836
+      - metanetx.chemical: MNXM17114
+      - origin: Sco4
+  - !!omap
     - id: gmhep17bp__B_c
     - name: D-glycero-beta-D-manno-heptose1,7-bisphosphate
     - compartment: c
@@ -21338,18 +21350,6 @@
       - metanetx.chemical: MNXM1736
       - origin: Sco4
       - pubchem.compound: '46173363'
-  - !!omap
-    - id: gmhep7p_c
-    - name: D-ALPHABETA-D-HEPTOSE-7-PHOSPHATE
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - bigg.metabolite: gmhep7p
-      - biocyc: D-ALPHABETA-D-HEPTOSE-7-PHOSPHATE
-      - kegg.compound: C07836
-      - metanetx.chemical: MNXM17114
-      - origin: Sco4
   - !!omap
     - id: dtdp26ddgh2e2u_c
     - name: dTDP-2,6-dideoxy-D-glycero-hex-2-enos-4-ulose
@@ -21410,21 +21410,6 @@
       - origin: Sco4
       - pubchem.compound: '12305733'
   - !!omap
-    - id: hyxsuccad_c
-    - name: N-hydroxy-N-succinylcadaverine
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C([N+])CCCCN(O)C(CCC([O-])=O)=O
-      - bigg.metabolite: hyxsuccad
-      - biocyc: CPD-11955
-      - chebi: CHEBI:0443
-      - inchi: InChI=1S/C9H18N2O4/c10-6-2-1-3-7-11(15)8(12)4-5-9(13)14/h15H,1-7,10H2,(H,13,14)
-      - metanetx.chemical: MNXM6341
-      - origin: Sco4
-      - pubchem.compound: '91820326'
-  - !!omap
     - id: hdoxcad_c
     - name: N-hydroxycadaverine
     - compartment: c
@@ -21439,6 +21424,21 @@
       - metanetx.chemical: MNXM8919
       - origin: Sco4
       - pubchem.compound: '44123536'
+  - !!omap
+    - id: hyxsuccad_c
+    - name: N-hydroxy-N-succinylcadaverine
+    - compartment: c
+    - charge: 0
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C([N+])CCCCN(O)C(CCC([O-])=O)=O
+      - bigg.metabolite: hyxsuccad
+      - biocyc: CPD-11955
+      - chebi: CHEBI:0443
+      - inchi: InChI=1S/C9H18N2O4/c10-6-2-1-3-7-11(15)8(12)4-5-9(13)14/h15H,1-7,10H2,(H,13,14)
+      - metanetx.chemical: MNXM6341
+      - origin: Sco4
+      - pubchem.compound: '91820326'
   - !!omap
     - id: gdp6dklh_c
     - name: GDP-6-deoxy-4-keto-D-lyxo-heptose
@@ -21513,18 +21513,6 @@
       - origin: Sco4
       - pubchem.compound: '276'
   - !!omap
-    - id: 2mop_c
-    - name: CPD-12179
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - bigg.metabolite: 2mop
-      - biocyc: CPD-12179
-      - kegg.compound: C00349
-      - metanetx.chemical: MNXM305
-      - origin: Sco4
-  - !!omap
     - id: 4h2mohexn_c
     - name: 4-hydroxy-2-keto-5-methyl-6-oxo-3-hexenoate
     - compartment: c
@@ -21539,6 +21527,33 @@
       - metanetx.chemical: MNXM164298;MNXM6681
       - origin: Sco4
       - pubchem.compound: '91820578'
+  - !!omap
+    - id: 2mop_c
+    - name: CPD-12179
+    - compartment: c
+    - charge: 0
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - bigg.metabolite: 2mop
+      - biocyc: CPD-12179
+      - kegg.compound: C00349
+      - metanetx.chemical: MNXM305
+      - origin: Sco4
+  - !!omap
+    - id: lyxat__L_c
+    - name: L-lyxonate
+    - compartment: c
+    - charge: -1
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C([O-])(=O)C(O)C(O)C(O)CO
+      - bigg.metabolite: lyxat__L
+      - biocyc: CPD0-1198
+      - inchi: InChI=1S/C5H10O6/c6-1-2(7)3(8)4(9)5(10)11/h2-4,6-9H,1H2,(H,10,11)/p-1/t2-,3+,4+/m0/s1
+      - kegg.compound: C05412
+      - metanetx.chemical: MNXM59473
+      - origin: Sco4
+      - pubchem.compound: '23616890'
   - !!omap
     - id: 2ddara__L_c
     - name: 2-dehydro-3-deoxy-L-arabinonate
@@ -21556,20 +21571,21 @@
       - origin: Sco4
       - pubchem.compound: '6857400'
   - !!omap
-    - id: lyxat__L_c
-    - name: L-lyxonate
+    - id: t3hdprol_c
+    - name: trans-3-hydroxy-L-proline
     - compartment: c
-    - charge: -1
+    - charge: 0
     - annotation: !!omap
       - SBO: SBO:0000247
-      - SMILES: C([O-])(=O)C(O)C(O)C(O)CO
-      - bigg.metabolite: lyxat__L
-      - biocyc: CPD0-1198
-      - inchi: InChI=1S/C5H10O6/c6-1-2(7)3(8)4(9)5(10)11/h2-4,6-9H,1H2,(H,10,11)/p-1/t2-,3+,4+/m0/s1
-      - kegg.compound: C05412
-      - metanetx.chemical: MNXM59473
+      - SMILES: C1(CC(O)C([N+]1)C(=O)[O-])
+      - bigg.metabolite: t3hdprol
+      - biocyc: CPD-664
+      - chebi: CHEBI:7938
+      - inchi: InChI=1S/C5H9NO3/c7-3-1-2-6-4(3)5(8)9/h3-4,6-7H,1-2H2,(H,8,9)/t3-,4-/m0/s1
+      - kegg.compound: C05147
+      - metanetx.chemical: MNXM4849
       - origin: Sco4
-      - pubchem.compound: '23616890'
+      - pubchem.compound: '11877126'
   - !!omap
     - id: pyr2cbox_c_c
     - name: 1-pyrroline-2-carboxylate
@@ -21586,22 +21602,6 @@
       - metanetx.chemical: MNXM957
       - origin: Sco4
       - pubchem.compound: '11966218'
-  - !!omap
-    - id: t3hdprol_c
-    - name: trans-3-hydroxy-L-proline
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C1(CC(O)C([N+]1)C(=O)[O-])
-      - bigg.metabolite: t3hdprol
-      - biocyc: CPD-664
-      - chebi: CHEBI:7938
-      - inchi: InChI=1S/C5H9NO3/c7-3-1-2-6-4(3)5(8)9/h3-4,6-7H,1-2H2,(H,8,9)/t3-,4-/m0/s1
-      - kegg.compound: C05147
-      - metanetx.chemical: MNXM4849
-      - origin: Sco4
-      - pubchem.compound: '11877126'
   - !!omap
     - id: pttamid_c
     - name: pretetramide
@@ -21651,22 +21651,6 @@
       - origin: Sco4
       - pubchem.compound: '244'
   - !!omap
-    - id: pentlacd_c
-    - name: pentalenolactoneD
-    - compartment: c
-    - charge: -1
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CC1(C(=O)OCC2(C31(CC(C)(C)CC(C=C(C([O-])=O)2)3)))
-      - bigg.metabolite: pentlacd
-      - biocyc: CPD-13621
-      - chebi: CHEBI:0805
-      - inchi: InChI=1S/C15H20O4/c1-8-13(18)19-6-11-10(12(16)17)4-9-5-14(2,3)7-15(8,9)11/h4,8-9,11H,5-7H2,1-3H3,(H,16,17)/p-1/t8-,9?,11+,15-/m1/s1
-      - kegg.compound: C20399
-      - metanetx.chemical: MNXM12598
-      - origin: Sco4
-      - pubchem.compound: '90658832'
-  - !!omap
     - id: d11oxpen_c
     - name: 1-deoxy-11-oxopentalenate
     - compartment: c
@@ -21682,6 +21666,22 @@
       - metanetx.chemical: MNXM7994
       - origin: Sco4
       - pubchem.compound: '38356048'
+  - !!omap
+    - id: pentlacd_c
+    - name: pentalenolactoneD
+    - compartment: c
+    - charge: -1
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC1(C(=O)OCC2(C31(CC(C)(C)CC(C=C(C([O-])=O)2)3)))
+      - bigg.metabolite: pentlacd
+      - biocyc: CPD-13621
+      - chebi: CHEBI:0805
+      - inchi: InChI=1S/C15H20O4/c1-8-13(18)19-6-11-10(12(16)17)4-9-5-14(2,3)7-15(8,9)11/h4,8-9,11H,5-7H2,1-3H3,(H,16,17)/p-1/t8-,9?,11+,15-/m1/s1
+      - kegg.compound: C20399
+      - metanetx.chemical: MNXM12598
+      - origin: Sco4
+      - pubchem.compound: '90658832'
   - !!omap
     - id: cspmd_c
     - name: carboxyspermidine
@@ -21834,22 +21834,6 @@
       - origin: Sco4
       - pubchem.compound: '11505'
   - !!omap
-    - id: 2pyr46dcox_c
-    - name: 2-pyrone-4,6-dicarboxylate
-    - compartment: c
-    - charge: -2
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C1(OC(=CC(=C1)C([O-])=O)C([O-])=O)(=O)
-      - bigg.metabolite: 2pyr46dcox
-      - biocyc: CPD-184
-      - chebi: CHEBI:8304
-      - inchi: InChI=1S/C7H4O6/c8-5-2-3(6(9)10)1-4(13-5)7(11)12/h1-2H,(H,9,10)(H,11,12)/p-2
-      - kegg.compound: C03671
-      - metanetx.chemical: MNXM1211
-      - origin: Sco4
-      - pubchem.compound: '22483467'
-  - !!omap
     - id: ga_c
     - name: gallate
     - compartment: c
@@ -21866,21 +21850,21 @@
       - origin: Sco4
       - pubchem.compound: '54675821'
   - !!omap
-    - id: 4nitrocc_c
-    - name: 4-nitrocatechol
+    - id: 2pyr46dcox_c
+    - name: 2-pyrone-4,6-dicarboxylate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - annotation: !!omap
       - SBO: SBO:0000247
-      - SMILES: C1(=CC(=C(C=C1[N+]([O-])=O)O)O)
-      - bigg.metabolite: 4nitrocc
-      - biocyc: CPD-158
-      - chebi: CHEBI:6318
-      - inchi: InChI=1S/C6H5NO4/c8-5-2-1-4(7(10)11)3-6(5)9/h1-3,8-9H
-      - kegg.compound: C02235
-      - metanetx.chemical: MNXM1982
+      - SMILES: C1(OC(=CC(=C1)C([O-])=O)C([O-])=O)(=O)
+      - bigg.metabolite: 2pyr46dcox
+      - biocyc: CPD-184
+      - chebi: CHEBI:8304
+      - inchi: InChI=1S/C7H4O6/c8-5-2-3(6(9)10)1-4(13-5)7(11)12/h1-2H,(H,9,10)(H,11,12)/p-2
+      - kegg.compound: C03671
+      - metanetx.chemical: MNXM1211
       - origin: Sco4
-      - pubchem.compound: '3505109'
+      - pubchem.compound: '22483467'
   - !!omap
     - id: 4nitroph_c
     - name: 4-nitrophenol
@@ -21897,6 +21881,22 @@
       - metanetx.chemical: MNXM526
       - origin: Sco4
       - pubchem.compound: '644235'
+  - !!omap
+    - id: 4nitrocc_c
+    - name: 4-nitrocatechol
+    - compartment: c
+    - charge: 0
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C1(=CC(=C(C=C1[N+]([O-])=O)O)O)
+      - bigg.metabolite: 4nitrocc
+      - biocyc: CPD-158
+      - chebi: CHEBI:6318
+      - inchi: InChI=1S/C6H5NO4/c8-5-2-1-4(7(10)11)3-6(5)9/h1-3,8-9H
+      - kegg.compound: C02235
+      - metanetx.chemical: MNXM1982
+      - origin: Sco4
+      - pubchem.compound: '3505109'
   - !!omap
     - id: o3n54ocyo_c
     - name: O-[3-nitro-5-(oxidonitroso)-4-oxocyclohex-2-en-1-ylidenenitroso]oxidanidolate
@@ -21940,22 +21940,6 @@
       - origin: Sco4
       - pubchem.compound: '25201298'
   - !!omap
-    - id: udpLa4fn_c
-    - name: UDP-4-deoxy-4-formamido-beta-L-arabinopyranose
-    - compartment: c
-    - charge: -2
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C3(OC(OP(=O)([O-])OP(=O)([O-])OCC1(OC(C(O)C(O)1)N2(C=CC(=O)NC(=O)2)))C(O)C(O)C3N[CH]=O)
-      - bigg.metabolite: udpLa4fn
-      - biocyc: UDP-L-ARA4-FORMYL-N
-      - chebi: CHEBI:7027
-      - inchi: InChI=1S/C15H23N3O16P2/c19-5-16-6-3-30-14(12(24)9(6)21)33-36(28,29)34-35(26,27)31-4-7-10(22)11(23)13(32-7)18-2-1-8(20)17-15(18)25/h1-2,5-7,9-14,21-24H,3-4H2,(H,16,19)(H,26,27)(H,28,29)(H,17,20,25)/p-2/t6-,7+,9-,10+,11+,12+,13?,14+/m0/s1
-      - kegg.compound: C16154
-      - metanetx.chemical: MNXM1390
-      - origin: Sco4
-      - pubchem.compound: '25245185'
-  - !!omap
     - id: udpLa4n_c
     - name: UDP-4-amino-4-deoxy-beta-L-arabinopyranose
     - compartment: c
@@ -21971,6 +21955,22 @@
       - metanetx.chemical: MNXM1786
       - origin: Sco4
       - pubchem.compound: '25201108'
+  - !!omap
+    - id: udpLa4fn_c
+    - name: UDP-4-deoxy-4-formamido-beta-L-arabinopyranose
+    - compartment: c
+    - charge: -2
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C3(OC(OP(=O)([O-])OP(=O)([O-])OCC1(OC(C(O)C(O)1)N2(C=CC(=O)NC(=O)2)))C(O)C(O)C3N[CH]=O)
+      - bigg.metabolite: udpLa4fn
+      - biocyc: UDP-L-ARA4-FORMYL-N
+      - chebi: CHEBI:7027
+      - inchi: InChI=1S/C15H23N3O16P2/c19-5-16-6-3-30-14(12(24)9(6)21)33-36(28,29)34-35(26,27)31-4-7-10(22)11(23)13(32-7)18-2-1-8(20)17-15(18)25/h1-2,5-7,9-14,21-24H,3-4H2,(H,16,19)(H,26,27)(H,28,29)(H,17,20,25)/p-2/t6-,7+,9-,10+,11+,12+,13?,14+/m0/s1
+      - kegg.compound: C16154
+      - metanetx.chemical: MNXM1390
+      - origin: Sco4
+      - pubchem.compound: '25245185'
   - !!omap
     - id: malylcoa_c
     - name: (S)-malyl-CoA
@@ -22000,6 +22000,20 @@
       - origin: Sco4
       - pubchem.compound: '45266733'
   - !!omap
+    - id: sorb14lac_c
+    - name: L-sorbosone1,4-lactone
+    - compartment: c
+    - charge: 0
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C(O)C(O)C1(C(O)C(=O)C(O)O1)
+      - bigg.metabolite: sorb14lac
+      - biocyc: CPD-9055
+      - inchi: InChI=1S/C6H10O6/c7-1-2(8)5-3(9)4(10)6(11)12-5/h2-3,5-9,11H,1H2
+      - metanetx.chemical: MNXM12065
+      - origin: Sco4
+      - pubchem.compound: '25203461'
+  - !!omap
     - id: ascb__L_c
     - name: L-ascorbate
     - compartment: c
@@ -22016,19 +22030,19 @@
       - origin: Sco4
       - pubchem.compound: '54679076'
   - !!omap
-    - id: sorb14lac_c
-    - name: L-sorbosone1,4-lactone
+    - id: gcgguaiac_c
+    - name: (-)-(alphaS,betaR)-guaiacylglycerol-beta-guaiacylether
     - compartment: c
     - charge: 0
     - annotation: !!omap
       - SBO: SBO:0000247
-      - SMILES: C(O)C(O)C1(C(O)C(=O)C(O)O1)
-      - bigg.metabolite: sorb14lac
-      - biocyc: CPD-9055
-      - inchi: InChI=1S/C6H10O6/c7-1-2(8)5-3(9)4(10)6(11)12-5/h2-3,5-9,11H,1H2
-      - metanetx.chemical: MNXM12065
+      - SMILES: COC1(=CC=CC=C1OC(CO)C(O)C2(C=C(OC)C(O)=CC=2))
+      - bigg.metabolite: gcgguaiac
+      - biocyc: CPD-11867
+      - inchi: InChI=1S/C17H20O6/c1-21-13-5-3-4-6-14(13)23-16(10-18)17(20)11-7-8-12(19)15(9-11)22-2/h3-9,16-20H,10H2,1-2H3/t16-,17+/m1/s1
+      - metanetx.chemical: MNXM13439
       - origin: Sco4
-      - pubchem.compound: '25203461'
+      - pubchem.compound: '27282242'
   - !!omap
     - id: mphpv__R_c
     - name: (-)-(betaR)-MPHPV
@@ -22044,20 +22058,6 @@
       - metanetx.chemical: MNXM7910
       - origin: Sco4
       - pubchem.compound: '12846318'
-  - !!omap
-    - id: gcgguaiac_c
-    - name: (-)-(alphaS,betaR)-guaiacylglycerol-beta-guaiacylether
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: COC1(=CC=CC=C1OC(CO)C(O)C2(C=C(OC)C(O)=CC=2))
-      - bigg.metabolite: gcgguaiac
-      - biocyc: CPD-11867
-      - inchi: InChI=1S/C17H20O6/c1-21-13-5-3-4-6-14(13)23-16(10-18)17(20)11-7-8-12(19)15(9-11)22-2/h3-9,16-20H,10H2,1-2H3/t16-,17+/m1/s1
-      - metanetx.chemical: MNXM13439
-      - origin: Sco4
-      - pubchem.compound: '27282242'
   - !!omap
     - id: gdpmannur_c
     - name: GDP-alpha-D-mannuronate
@@ -22091,22 +22091,6 @@
       - origin: Sco4
       - pubchem.compound: '4693933'
   - !!omap
-    - id: ind3ac_c
-    - name: indole-3-acetate
-    - compartment: c
-    - charge: -1
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C([O-])(=O)CC1(=CNC2(C=CC=CC1=2))
-      - bigg.metabolite: ind3ac
-      - biocyc: INDOLE_ACETATE_AUXIN
-      - chebi: CHEBI:0854
-      - inchi: InChI=1S/C10H9NO2/c12-10(13)5-7-6-11-9-4-2-1-3-8(7)9/h1-4,6,11H,5H2,(H,12,13)/p-1
-      - kegg.compound: C00954
-      - metanetx.chemical: MNXM383
-      - origin: Sco4
-      - pubchem.compound: '801'
-  - !!omap
     - id: indpyr_c
     - name: (indol-3-yl)pyruvate
     - compartment: c
@@ -22122,6 +22106,22 @@
       - metanetx.chemical: MNXM315
       - origin: Sco4
       - pubchem.compound: '5460337'
+  - !!omap
+    - id: ind3ac_c
+    - name: indole-3-acetate
+    - compartment: c
+    - charge: -1
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C([O-])(=O)CC1(=CNC2(C=CC=CC1=2))
+      - bigg.metabolite: ind3ac
+      - biocyc: INDOLE_ACETATE_AUXIN
+      - chebi: CHEBI:0854
+      - inchi: InChI=1S/C10H9NO2/c12-10(13)5-7-6-11-9-4-2-1-3-8(7)9/h1-4,6,11H,5H2,(H,12,13)/p-1
+      - kegg.compound: C00954
+      - metanetx.chemical: MNXM383
+      - origin: Sco4
+      - pubchem.compound: '801'
   - !!omap
     - id: galac14lac_c
     - name: L-galactono-1,4-lactone
@@ -22245,6 +22245,21 @@
       - origin: Sco4
       - pubchem.compound: '3539116'
   - !!omap
+    - id: tcl14bzq_c
+    - name: 2,3,5,6-tetrachloro-1,4-benzoquinone
+    - compartment: c
+    - charge: 0
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C1(=C(C(C(=C(Cl)C1=O)Cl)=O)Cl)(Cl)
+      - bigg.metabolite: tcl14bzq
+      - biocyc: CPD-19762
+      - chebi: CHEBI:6703
+      - inchi: InChI=1S/C6Cl4O2/c7-1-2(8)6(12)4(10)3(9)5(1)11
+      - kegg.compound: C18933
+      - metanetx.chemical: MNXM12994
+      - origin: Sco4
+  - !!omap
     - id: tclhqn_c
     - name: 2,3,5,6-tetrachlorohydroquinone
     - compartment: c
@@ -22260,21 +22275,6 @@
       - metanetx.chemical: MNXM1622
       - origin: Sco4
       - pubchem.compound: '10911805'
-  - !!omap
-    - id: tcl14bzq_c
-    - name: 2,3,5,6-tetrachloro-1,4-benzoquinone
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C1(=C(C(C(=C(Cl)C1=O)Cl)=O)Cl)(Cl)
-      - bigg.metabolite: tcl14bzq
-      - biocyc: CPD-19762
-      - chebi: CHEBI:6703
-      - inchi: InChI=1S/C6Cl4O2/c7-1-2(8)6(12)4(10)3(9)5(1)11
-      - kegg.compound: C18933
-      - metanetx.chemical: MNXM12994
-      - origin: Sco4
   - !!omap
     - id: uGgl_c
     - name: UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-gamma-D-glutamyl-L-lysine
@@ -22364,22 +22364,6 @@
       - origin: Sco4
       - pubchem.compound: '242'
   - !!omap
-    - id: m_tol_c
-    - name: m-toluate
-    - compartment: c
-    - charge: -1
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CC1(=CC(=CC=C1)C(=O)[O-])
-      - bigg.metabolite: m_tol
-      - biocyc: CPD-8775
-      - chebi: CHEBI:8795
-      - inchi: InChI=1S/C8H8O2/c1-6-3-2-4-7(5-6)8(9)10/h2-5H,1H3,(H,9,10)/p-1
-      - kegg.compound: C07211
-      - metanetx.chemical: MNXM4661
-      - origin: Sco4
-      - pubchem.compound: '6946312'
-  - !!omap
     - id: 3metbzal_c
     - name: 3-methylbenzaldehyde
     - compartment: c
@@ -22395,6 +22379,22 @@
       - metanetx.chemical: MNXM4040
       - origin: Sco4
       - pubchem.compound: '12105'
+  - !!omap
+    - id: m_tol_c
+    - name: m-toluate
+    - compartment: c
+    - charge: -1
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC1(=CC(=CC=C1)C(=O)[O-])
+      - bigg.metabolite: m_tol
+      - biocyc: CPD-8775
+      - chebi: CHEBI:8795
+      - inchi: InChI=1S/C8H8O2/c1-6-3-2-4-7(5-6)8(9)10/h2-5H,1H3,(H,9,10)/p-1
+      - kegg.compound: C07211
+      - metanetx.chemical: MNXM4661
+      - origin: Sco4
+      - pubchem.compound: '6946312'
   - !!omap
     - id: geraniol_c
     - name: geraniol
@@ -22538,22 +22538,6 @@
       - origin: Sco4
       - pubchem.compound: '44229080'
   - !!omap
-    - id: gal15lac_c
-    - name: D-galactaro-1,5-lactone
-    - compartment: c
-    - charge: -1
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C(C1(C(C(C(C(O1)=O)O)O)O))([O-])=O
-      - bigg.metabolite: gal15lac
-      - biocyc: CPD-17138
-      - chebi: CHEBI:3383
-      - inchi: InChI=1S/C6H8O7/c7-1-2(8)4(5(10)11)13-6(12)3(1)9/h1-4,7-9H,(H,10,11)/p-1/t1-,2+,3+,4-/m0/s1
-      - kegg.compound: C20889
-      - metanetx.chemical: MNXM145762
-      - origin: Sco4
-      - pubchem.compound: '86290100'
-  - !!omap
     - id: bgalac__D_c
     - name: beta-D-galacturonate
     - compartment: c
@@ -22570,21 +22554,21 @@
       - origin: Sco4
       - pubchem.compound: '6992022'
   - !!omap
-    - id: 3ambutcoa_c
-    - name: (S)-3-aminobutanoyl-CoA
+    - id: gal15lac_c
+    - name: D-galactaro-1,5-lactone
     - compartment: c
-    - charge: -3
+    - charge: -1
     - annotation: !!omap
       - SBO: SBO:0000247
-      - SMILES: CC(CC(SCCNC(=O)CCNC(=O)C(O)C(C)(C)COP(=O)(OP(=O)(OCC1(C(OP([O-])(=O)[O-])C(O)C(O1)N3(C2(=C(C(N)=NC=N2)N=C3))))[O-])[O-])=O)[N+]
-      - bigg.metabolite: 3ambutcoa
-      - biocyc: CPD-672
-      - chebi: CHEBI:7366
-      - inchi: InChI=1S/C25H43N8O17P3S/c1-13(26)8-16(35)54-7-6-28-15(34)4-5-29-23(38)20(37)25(2,3)10-47-53(44,45)50-52(42,43)46-9-14-19(49-51(39,40)41)18(36)24(48-14)33-12-32-17-21(27)30-11-31-22(17)33/h11-14,18-20,24,36-37H,4-10,26H2,1-3H3,(H,28,34)(H,29,38)(H,42,43)(H,44,45)(H2,27,30,31)(H2,39,40,41)/p-3/t13-,14+,18+,19+,20-,24+/m0/s1
-      - kegg.compound: C05231
-      - metanetx.chemical: MNXM4025
+      - SMILES: C(C1(C(C(C(C(O1)=O)O)O)O))([O-])=O
+      - bigg.metabolite: gal15lac
+      - biocyc: CPD-17138
+      - chebi: CHEBI:3383
+      - inchi: InChI=1S/C6H8O7/c7-1-2(8)4(5(10)11)13-6(12)3(1)9/h1-4,7-9H,(H,10,11)/p-1/t1-,2+,3+,4-/m0/s1
+      - kegg.compound: C20889
+      - metanetx.chemical: MNXM145762
       - origin: Sco4
-      - pubchem.compound: '45266594'
+      - pubchem.compound: '86290100'
   - !!omap
     - id: 5am3ohex_c
     - name: (S)-5-amino-3-oxohexanoate
@@ -22601,6 +22585,22 @@
       - metanetx.chemical: MNXM2894
       - origin: Sco4
       - pubchem.compound: '25246292'
+  - !!omap
+    - id: 3ambutcoa_c
+    - name: (S)-3-aminobutanoyl-CoA
+    - compartment: c
+    - charge: -3
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC(CC(SCCNC(=O)CCNC(=O)C(O)C(C)(C)COP(=O)(OP(=O)(OCC1(C(OP([O-])(=O)[O-])C(O)C(O1)N3(C2(=C(C(N)=NC=N2)N=C3))))[O-])[O-])=O)[N+]
+      - bigg.metabolite: 3ambutcoa
+      - biocyc: CPD-672
+      - chebi: CHEBI:7366
+      - inchi: InChI=1S/C25H43N8O17P3S/c1-13(26)8-16(35)54-7-6-28-15(34)4-5-29-23(38)20(37)25(2,3)10-47-53(44,45)50-52(42,43)46-9-14-19(49-51(39,40)41)18(36)24(48-14)33-12-32-17-21(27)30-11-31-22(17)33/h11-14,18-20,24,36-37H,4-10,26H2,1-3H3,(H,28,34)(H,29,38)(H,42,43)(H,44,45)(H2,27,30,31)(H2,39,40,41)/p-3/t13-,14+,18+,19+,20-,24+/m0/s1
+      - kegg.compound: C05231
+      - metanetx.chemical: MNXM4025
+      - origin: Sco4
+      - pubchem.compound: '45266594'
   - !!omap
     - id: mppp9_c
     - name: Mg-protoporphyrin
@@ -22724,20 +22724,6 @@
       - origin: Sco4
       - pubchem.compound: '1057'
   - !!omap
-    - id: 4cboxald_c
-    - name: 4-carboxybenzaldehyde
-    - compartment: c
-    - charge: -1
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C(C1(C=CC(C(=O)[O-])=CC=1))=O
-      - bigg.metabolite: 4cboxald
-      - biocyc: 4-CARBOXYBENZALDEHYDE
-      - inchi: InChI=1S/C8H6O3/c9-5-6-1-3-7(4-2-6)8(10)11/h1-5H,(H,10,11)/p-1
-      - metanetx.chemical: MNXM10176
-      - origin: Sco4
-      - pubchem.compound: '4289537'
-  - !!omap
     - id: 4carbzal_c
     - name: 4-carboxybenzylalcohol
     - compartment: c
@@ -22751,6 +22737,20 @@
       - metanetx.chemical: MNXM10177
       - origin: Sco4
       - pubchem.compound: '7009454'
+  - !!omap
+    - id: 4cboxald_c
+    - name: 4-carboxybenzaldehyde
+    - compartment: c
+    - charge: -1
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C(C1(C=CC(C(=O)[O-])=CC=1))=O
+      - bigg.metabolite: 4cboxald
+      - biocyc: 4-CARBOXYBENZALDEHYDE
+      - inchi: InChI=1S/C8H6O3/c9-5-6-1-3-7(4-2-6)8(10)11/h1-5H,(H,10,11)/p-1
+      - metanetx.chemical: MNXM10176
+      - origin: Sco4
+      - pubchem.compound: '4289537'
   - !!omap
     - id: crn_c
     - name: L-carnitine
@@ -22813,6 +22813,20 @@
       - origin: Sco4
       - pubchem.compound: '151261'
   - !!omap
+    - id: agdppdtundec_c
+    - name: beta-D-GlcA-(1rarr2)-alpha-D-Man-(1rarr3)-beta-D-Glc-(1rarr4)-alpha-D-Glc-1-diphospho-ditrans,octacis-undecaprenol
+    - compartment: c
+    - charge: -3
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC=C(CCC=C(CCC=C(CCC=C(CCC=C(C)CCC=C(CCC=C(CCC=C(CCC=C(C)CCC=C(C)CCC=C(C)COP(=O)([O-])OP(=O)([O-])OC4(OC(CO)C(OC3(OC(CO)C(O)C(OC2(OC(CO)C(O)C(O)C(OC1(OC(C([O-])=O)C(O)C(O)C(O)1))2))C(O)3))C(O)C(O)4))C)C)C)C)C)C)C
+      - bigg.metabolite: agdppdtundec
+      - biocyc: CPD-12771
+      - chebi: CHEBI:1227
+      - inchi: InChI=1S/C79H130O28P2/c1-13-48(2)24-14-25-49(3)26-15-27-50(4)28-16-29-51(5)30-17-31-52(6)32-18-33-53(7)34-19-35-54(8)36-20-37-55(9)38-21-39-56(10)40-22-41-57(11)42-23-43-58(12)47-98-108(94,95)107-109(96,97)106-78-69(90)67(88)71(61(46-82)101-78)102-77-70(91)72(63(84)60(45-81)99-77)103-79-74(65(86)62(83)59(44-80)100-79)105-76-68(89)64(85)66(87)73(104-76)75(92)93/h13,25,27,29,31,33,35,37,39,41,43,59-74,76-91H,14-24,26,28,30,32,34,36,38,40,42,44-47H2,1-12H3,(H,92,93)(H,94,95)(H,96,97)/p-3/b48-13-,49-25-,50-27-,51-29-,52-31-,53-33-,54-35-,55-37-,56-39+,57-41+,58-43+/t59-,60-,61-,62-,63-,64+,65+,66+,67-,68-,69-,70-,71-,72+,73+,74+,76+,77+,78-,79-/m1/s1
+      - origin: Sco4
+      - pubchem.compound: '52940195'
+  - !!omap
     - id: ggaggdcap_c
     - name: alpha-D-glucosyl-(1,2)-beta-D-glucuronate-(1,2)-alpha-D-mannosyl-(1,3)-beta-D-glucosyl-(1,4)-alpha-D-glucosyl-diphosphoundecaprenol
     - compartment: c
@@ -22827,19 +22841,19 @@
       - origin: Sco4
       - pubchem.compound: '52940164'
   - !!omap
-    - id: agdppdtundec_c
-    - name: beta-D-GlcA-(1rarr2)-alpha-D-Man-(1rarr3)-beta-D-Glc-(1rarr4)-alpha-D-Glc-1-diphospho-ditrans,octacis-undecaprenol
+    - id: 3hdkynu_c
+    - name: 3-hydroxykynurenate
     - compartment: c
-    - charge: -3
+    - charge: -1
     - annotation: !!omap
       - SBO: SBO:0000247
-      - SMILES: CC=C(CCC=C(CCC=C(CCC=C(CCC=C(C)CCC=C(CCC=C(CCC=C(CCC=C(C)CCC=C(C)CCC=C(C)COP(=O)([O-])OP(=O)([O-])OC4(OC(CO)C(OC3(OC(CO)C(O)C(OC2(OC(CO)C(O)C(O)C(OC1(OC(C([O-])=O)C(O)C(O)C(O)1))2))C(O)3))C(O)C(O)4))C)C)C)C)C)C)C
-      - bigg.metabolite: agdppdtundec
-      - biocyc: CPD-12771
-      - chebi: CHEBI:1227
-      - inchi: InChI=1S/C79H130O28P2/c1-13-48(2)24-14-25-49(3)26-15-27-50(4)28-16-29-51(5)30-17-31-52(6)32-18-33-53(7)34-19-35-54(8)36-20-37-55(9)38-21-39-56(10)40-22-41-57(11)42-23-43-58(12)47-98-108(94,95)107-109(96,97)106-78-69(90)67(88)71(61(46-82)101-78)102-77-70(91)72(63(84)60(45-81)99-77)103-79-74(65(86)62(83)59(44-80)100-79)105-76-68(89)64(85)66(87)73(104-76)75(92)93/h13,25,27,29,31,33,35,37,39,41,43,59-74,76-91H,14-24,26,28,30,32,34,36,38,40,42,44-47H2,1-12H3,(H,92,93)(H,94,95)(H,96,97)/p-3/b48-13-,49-25-,50-27-,51-29-,52-31-,53-33-,54-35-,55-37-,56-39+,57-41+,58-43+/t59-,60-,61-,62-,63-,64+,65+,66+,67-,68-,69-,70-,71-,72+,73+,74+,76+,77+,78-,79-/m1/s1
+      - SMILES: C([O-])(=O)C1(C(O)=C(O)C2(C=CC=CC(N=1)=2))
+      - bigg.metabolite: 3hdkynu
+      - biocyc: CPD-18536
+      - inchi: InChI=1S/C10H7NO4/c12-8-5-3-1-2-4-6(5)11-7(9(8)13)10(14)15/h1-4,13H,(H,11,12)(H,14,15)/p-1
+      - metanetx.chemical: MNXM164240
       - origin: Sco4
-      - pubchem.compound: '52940195'
+      - pubchem.compound: '102515341'
   - !!omap
     - id: 3hxquin_c
     - name: 3-hydroxyquinaldate
@@ -22855,20 +22869,6 @@
       - metanetx.chemical: MNXM36552
       - origin: Sco4
       - pubchem.compound: '54746762'
-  - !!omap
-    - id: 3hdkynu_c
-    - name: 3-hydroxykynurenate
-    - compartment: c
-    - charge: -1
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C([O-])(=O)C1(C(O)=C(O)C2(C=CC=CC(N=1)=2))
-      - bigg.metabolite: 3hdkynu
-      - biocyc: CPD-18536
-      - inchi: InChI=1S/C10H7NO4/c12-8-5-3-1-2-4-6(5)11-7(9(8)13)10(14)15/h1-4,13H,(H,11,12)(H,14,15)/p-1
-      - metanetx.chemical: MNXM164240
-      - origin: Sco4
-      - pubchem.compound: '102515341'
   - !!omap
     - id: puri4pp_c
     - name: pseudouridine5'-phosphate
@@ -22886,20 +22886,6 @@
       - origin: Sco4
       - pubchem.compound: '25245232'
   - !!omap
-    - id: nic1ox_c
-    - name: nicotine-1'-N-oxide
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C1(CC[CH](N(=O)(C)1)C2(=CN=CC=C2))
-      - bigg.metabolite: nic1ox
-      - biocyc: CPD-2743
-      - inchi: InChI=1S/C10H14N2O/c1-12(13)7-3-5-10(12)9-4-2-6-11-8-9/h2,4,6,8,10H,3,5,7H2,1H3/t10-,12?/m0/s1
-      - metanetx.chemical: MNXM12464
-      - origin: Sco4
-      - pubchem.compound: '68107'
-  - !!omap
     - id: nico__S_c
     - name: (S)-nicotine
     - compartment: c
@@ -22915,6 +22901,20 @@
       - metanetx.chemical: MNXM1254
       - origin: Sco4
       - pubchem.compound: '6919000'
+  - !!omap
+    - id: nic1ox_c
+    - name: nicotine-1'-N-oxide
+    - compartment: c
+    - charge: 0
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C1(CC[CH](N(=O)(C)1)C2(=CN=CC=C2))
+      - bigg.metabolite: nic1ox
+      - biocyc: CPD-2743
+      - inchi: InChI=1S/C10H14N2O/c1-12(13)7-3-5-10(12)9-4-2-6-11-8-9/h2,4,6,8,10H,3,5,7H2,1H3/t10-,12?/m0/s1
+      - metanetx.chemical: MNXM12464
+      - origin: Sco4
+      - pubchem.compound: '68107'
   - !!omap
     - id: 3dm4hdppyr_c
     - name: 3-dimethylallyl-4-hydroxyphenylpyruvate
@@ -23119,6 +23119,21 @@
       - origin: Sco4
       - pubchem.compound: '11476'
   - !!omap
+    - id: 2cm3hppc_c
+    - name: 2-carboxymethyl-3-hydroxyphenylpropanoyl-CoA
+    - compartment: c
+    - charge: -5
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC(C)(C(O)C(=O)NCCC(=O)NCCSC(C(CC([O-])=O)C(O)C1(=CC=CC=C1))=O)COP(=O)(OP(=O)(OCC2(C(OP([O-])(=O)[O-])C(O)C(O2)N4(C3(=C(C(N)=NC=N3)N=C4))))[O-])[O-]
+      - bigg.metabolite: 2cm3hppc
+      - biocyc: CARBOXYMETHYL-HYDROXYPHENYLPROPCOA
+      - chebi: CHEBI:8202
+      - inchi: InChI=1S/C32H46N7O20P3S/c1-32(2,26(45)29(46)35-9-8-20(40)34-10-11-63-31(47)18(12-21(41)42)23(43)17-6-4-3-5-7-17)14-56-62(53,54)59-61(51,52)55-13-19-25(58-60(48,49)50)24(44)30(57-19)39-16-38-22-27(33)36-15-37-28(22)39/h3-7,15-16,18-19,23-26,30,43-45H,8-14H2,1-2H3,(H,34,40)(H,35,46)(H,41,42)(H,51,52)(H,53,54)(H2,33,36,37)(H2,48,49,50)/p-5/t18?,19-,23-,24-,25-,26+,30-/m1/s1
+      - metanetx.chemical: MNXM5460
+      - origin: Sco4
+      - pubchem.compound: '122706521'
+  - !!omap
     - id: bzsuccoa_c
     - name: benzoylsuccinyl-CoA
     - compartment: c
@@ -23134,21 +23149,6 @@
       - metanetx.chemical: MNXM5635
       - origin: Sco4
       - pubchem.compound: '90659089'
-  - !!omap
-    - id: 2cm3hppc_c
-    - name: 2-carboxymethyl-3-hydroxyphenylpropanoyl-CoA
-    - compartment: c
-    - charge: -5
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CC(C)(C(O)C(=O)NCCC(=O)NCCSC(C(CC([O-])=O)C(O)C1(=CC=CC=C1))=O)COP(=O)(OP(=O)(OCC2(C(OP([O-])(=O)[O-])C(O)C(O2)N4(C3(=C(C(N)=NC=N3)N=C4))))[O-])[O-]
-      - bigg.metabolite: 2cm3hppc
-      - biocyc: CARBOXYMETHYL-HYDROXYPHENYLPROPCOA
-      - chebi: CHEBI:8202
-      - inchi: InChI=1S/C32H46N7O20P3S/c1-32(2,26(45)29(46)35-9-8-20(40)34-10-11-63-31(47)18(12-21(41)42)23(43)17-6-4-3-5-7-17)14-56-62(53,54)59-61(51,52)55-13-19-25(58-60(48,49)50)24(44)30(57-19)39-16-38-22-27(33)36-15-37-28(22)39/h3-7,15-16,18-19,23-26,30,43-45H,8-14H2,1-2H3,(H,34,40)(H,35,46)(H,41,42)(H,51,52)(H,53,54)(H2,33,36,37)(H2,48,49,50)/p-5/t18?,19-,23-,24-,25-,26+,30-/m1/s1
-      - metanetx.chemical: MNXM5460
-      - origin: Sco4
-      - pubchem.compound: '122706521'
   - !!omap
     - id: vanln_c
     - name: vanillin
@@ -23166,22 +23166,6 @@
       - origin: Sco4
       - pubchem.compound: '1183'
   - !!omap
-    - id: 6p2dgluc_c_c
-    - name: 2-dehydro-6-phospho-D-gluconate
-    - compartment: c
-    - charge: -3
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C(OP([O-])(=O)[O-])C(C(C(C(C([O-])=O)=O)O)O)O
-      - bigg.metabolite: 6p2dgluc
-      - biocyc: CPD-339
-      - chebi: CHEBI:0750
-      - inchi: InChI=1S/C6H11O10P/c7-2(1-16-17(13,14)15)3(8)4(9)5(10)6(11)12/h2-4,7-9H,1H2,(H,11,12)(H2,13,14,15)/p-3/t2-,3-,4+/m1/s1
-      - kegg.compound: C01218
-      - metanetx.chemical: MNXM1218
-      - origin: Sco4
-      - pubchem.compound: '15942886'
-  - !!omap
     - id: 2dhglcn_c
     - name: 2-keto-D-gluconate
     - compartment: c
@@ -23197,6 +23181,22 @@
       - metanetx.chemical: MNXM480329;MNXM582
       - origin: Sco4
       - pubchem.compound: '6857381'
+  - !!omap
+    - id: 6p2dgluc_c_c
+    - name: 2-dehydro-6-phospho-D-gluconate
+    - compartment: c
+    - charge: -3
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C(OP([O-])(=O)[O-])C(C(C(C(C([O-])=O)=O)O)O)O
+      - bigg.metabolite: 6p2dgluc
+      - biocyc: CPD-339
+      - chebi: CHEBI:0750
+      - inchi: InChI=1S/C6H11O10P/c7-2(1-16-17(13,14)15)3(8)4(9)5(10)6(11)12/h2-4,7-9H,1H2,(H,11,12)(H2,13,14,15)/p-3/t2-,3-,4+/m1/s1
+      - kegg.compound: C01218
+      - metanetx.chemical: MNXM1218
+      - origin: Sco4
+      - pubchem.compound: '15942886'
   - !!omap
     - id: forfurmpp_c
     - name: (5-formylfuran-3-yl)methylphosphate
@@ -23246,22 +23246,6 @@
       - origin: Sco4
       - pubchem.compound: '636431'
   - !!omap
-    - id: adphep_DD_c
-    - name: ADP-D-glycero-beta-D-manno-heptose
-    - compartment: c
-    - charge: -2
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C(C([CH]4(OC(OP(OP(OCC3(C(C(C(N2(C1(=C(C(=NC=N1)N)N=C2)))O3)O)O))([O-])=O)(=O)[O-])C(C(C4O)O)O))O)O
-      - bigg.metabolite: adphep_DD
-      - biocyc: ADP-D-GLYCERO-D-MANNO-HEPTOSE
-      - chebi: CHEBI:9967
-      - inchi: InChI=1S/C17H27N5O16P2/c18-14-7-15(20-3-19-14)22(4-21-7)16-11(28)8(25)6(35-16)2-34-39(30,31)38-40(32,33)37-17-12(29)9(26)10(27)13(36-17)5(24)1-23/h3-6,8-13,16-17,23-29H,1-2H2,(H,30,31)(H,32,33)(H2,18,19,20)/p-2/t5-,6-,8-,9+,10+,11-,12+,13-,16-,17+/m1/s1
-      - kegg.compound: C06397
-      - metanetx.chemical: MNXM1648
-      - origin: Sco4
-      - pubchem.compound: '46173177'
-  - !!omap
     - id: gmhep1p_c
     - name: D-glycero-beta-D-manno-heptose1-phosphate
     - compartment: c
@@ -23277,6 +23261,22 @@
       - metanetx.chemical: MNXM1661
       - origin: Sco4
       - pubchem.compound: '40473183'
+  - !!omap
+    - id: adphep_DD_c
+    - name: ADP-D-glycero-beta-D-manno-heptose
+    - compartment: c
+    - charge: -2
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C(C([CH]4(OC(OP(OP(OCC3(C(C(C(N2(C1(=C(C(=NC=N1)N)N=C2)))O3)O)O))([O-])=O)(=O)[O-])C(C(C4O)O)O))O)O
+      - bigg.metabolite: adphep_DD
+      - biocyc: ADP-D-GLYCERO-D-MANNO-HEPTOSE
+      - chebi: CHEBI:9967
+      - inchi: InChI=1S/C17H27N5O16P2/c18-14-7-15(20-3-19-14)22(4-21-7)16-11(28)8(25)6(35-16)2-34-39(30,31)38-40(32,33)37-17-12(29)9(26)10(27)13(36-17)5(24)1-23/h3-6,8-13,16-17,23-29H,1-2H2,(H,30,31)(H,32,33)(H2,18,19,20)/p-2/t5-,6-,8-,9+,10+,11-,12+,13-,16-,17+/m1/s1
+      - kegg.compound: C06397
+      - metanetx.chemical: MNXM1648
+      - origin: Sco4
+      - pubchem.compound: '46173177'
   - !!omap
     - id: lgt__S_c
     - name: (R)-S-lactoylglutathione
@@ -23356,22 +23356,6 @@
       - origin: Sco4
       - pubchem.compound: '52940249'
   - !!omap
-    - id: dh7oxcho_c
-    - name: 3alpha,12alpha-dihydroxy-7-oxo-5beta-cholan-24-oate
-    - compartment: c
-    - charge: -1
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CC([CH]3(CC[CH]4([CH]2(C(=O)C[CH]1(CC(O)CCC(C)1[CH]2CC(O)C(C)34)))))CCC(=O)[O-]
-      - bigg.metabolite: dh7oxcho
-      - biocyc: CHOLANATE2
-      - chebi: CHEBI:1893
-      - inchi: InChI=1S/C24H38O5/c1-13(4-7-21(28)29)16-5-6-17-22-18(12-20(27)24(16,17)3)23(2)9-8-15(25)10-14(23)11-19(22)26/h13-18,20,22,25,27H,4-12H2,1-3H3,(H,28,29)/p-1/t13-,14+,15-,16-,17+,18+,20+,22+,23+,24-/m1/s1
-      - kegg.compound: C04643
-      - metanetx.chemical: MNXM3493
-      - origin: Sco4
-      - pubchem.compound: '9548790'
-  - !!omap
     - id: cholate_c
     - name: cholate
     - compartment: c
@@ -23387,6 +23371,22 @@
       - metanetx.chemical: MNXM1183;MNXM450;MNXM90232
       - origin: Sco4
       - pubchem.compound: '5460314'
+  - !!omap
+    - id: dh7oxcho_c
+    - name: 3alpha,12alpha-dihydroxy-7-oxo-5beta-cholan-24-oate
+    - compartment: c
+    - charge: -1
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC([CH]3(CC[CH]4([CH]2(C(=O)C[CH]1(CC(O)CCC(C)1[CH]2CC(O)C(C)34)))))CCC(=O)[O-]
+      - bigg.metabolite: dh7oxcho
+      - biocyc: CHOLANATE2
+      - chebi: CHEBI:1893
+      - inchi: InChI=1S/C24H38O5/c1-13(4-7-21(28)29)16-5-6-17-22-18(12-20(27)24(16,17)3)23(2)9-8-15(25)10-14(23)11-19(22)26/h13-18,20,22,25,27H,4-12H2,1-3H3,(H,28,29)/p-1/t13-,14+,15-,16-,17+,18+,20+,22+,23+,24-/m1/s1
+      - kegg.compound: C04643
+      - metanetx.chemical: MNXM3493
+      - origin: Sco4
+      - pubchem.compound: '9548790'
   - !!omap
     - id: metac_c
     - name: methylacetate
@@ -23452,22 +23452,6 @@
       - origin: Sco4
       - pubchem.compound: '5460267'
   - !!omap
-    - id: 24ddhrham_c
-    - name: 2,4-didehydro-3-deoxy-L-rhamnonate
-    - compartment: c
-    - charge: -1
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CC(O)C(=O)CC(=O)C([O-])=O
-      - bigg.metabolite: 24ddhrham
-      - biocyc: CPD-13044
-      - chebi: CHEBI:31847
-      - inchi: InChI=1S/C6H8O5/c1-3(7)4(8)2-5(9)6(10)11/h3,7H,2H2,1H3,(H,10,11)/p-1/t3-/m0/s1
-      - kegg.compound: C20781
-      - metanetx.chemical: MNXM12042
-      - origin: Sco4
-      - pubchem.compound: '50986245'
-  - !!omap
     - id: 2dh3dorham_c
     - name: 2-dehydro-3-deoxy-L-rhamnonate
     - compartment: c
@@ -23483,6 +23467,22 @@
       - metanetx.chemical: MNXM2319
       - origin: Sco4
       - pubchem.compound: '49852300'
+  - !!omap
+    - id: 24ddhrham_c
+    - name: 2,4-didehydro-3-deoxy-L-rhamnonate
+    - compartment: c
+    - charge: -1
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC(O)C(=O)CC(=O)C([O-])=O
+      - bigg.metabolite: 24ddhrham
+      - biocyc: CPD-13044
+      - chebi: CHEBI:31847
+      - inchi: InChI=1S/C6H8O5/c1-3(7)4(8)2-5(9)6(10)11/h3,7H,2H2,1H3,(H,10,11)/p-1/t3-/m0/s1
+      - kegg.compound: C20781
+      - metanetx.chemical: MNXM12042
+      - origin: Sco4
+      - pubchem.compound: '50986245'
   - !!omap
     - id: ahop_c
     - name: adenosylhopane
@@ -23560,22 +23560,6 @@
       - origin: Sco4
       - pubchem.compound: '52940189'
   - !!omap
-    - id: cychex_c
-    - name: cyclohexanone
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C1(CCC(CC1)=O)
-      - bigg.metabolite: cychex
-      - biocyc: CYCLOHEXANONE
-      - chebi: CHEBI:7854
-      - inchi: InChI=1S/C6H10O/c7-6-4-2-1-3-5-6/h1-5H2
-      - kegg.compound: C00414
-      - metanetx.chemical: MNXM835
-      - origin: Sco4
-      - pubchem.compound: '7967'
-  - !!omap
     - id: cychxaol_c
     - name: cyclohexanol
     - compartment: c
@@ -23591,6 +23575,22 @@
       - metanetx.chemical: MNXM3002
       - origin: Sco4
       - pubchem.compound: '7966'
+  - !!omap
+    - id: cychex_c
+    - name: cyclohexanone
+    - compartment: c
+    - charge: 0
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C1(CCC(CC1)=O)
+      - bigg.metabolite: cychex
+      - biocyc: CYCLOHEXANONE
+      - chebi: CHEBI:7854
+      - inchi: InChI=1S/C6H10O/c7-6-4-2-1-3-5-6/h1-5H2
+      - kegg.compound: C00414
+      - metanetx.chemical: MNXM835
+      - origin: Sco4
+      - pubchem.compound: '7967'
   - !!omap
     - id: 3hcinnm_c
     - name: 3-hydroxy-trans-cinnamate
@@ -23805,22 +23805,6 @@
       - metanetx.chemical: MNXM2403;MNXM90854
       - origin: Sco4
   - !!omap
-    - id: creat_c
-    - name: creatine
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C(C(=O)[O-])N(C)C(N)=[N+]
-      - bigg.metabolite: creat
-      - biocyc: CREATINE
-      - chebi: CHEBI:7947
-      - inchi: InChI=1S/C4H9N3O2/c1-7(4(5)6)2-3(8)9/h2H2,1H3,(H3,5,6)(H,8,9)
-      - kegg.compound: C00300
-      - metanetx.chemical: MNXM400
-      - origin: Sco4
-      - pubchem.compound: '7058172'
-  - !!omap
     - id: crtn_c
     - name: creatinine
     - compartment: c
@@ -23836,6 +23820,22 @@
       - metanetx.chemical: MNXM1470
       - origin: Sco4
       - pubchem.compound: '588'
+  - !!omap
+    - id: creat_c
+    - name: creatine
+    - compartment: c
+    - charge: 0
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C(C(=O)[O-])N(C)C(N)=[N+]
+      - bigg.metabolite: creat
+      - biocyc: CREATINE
+      - chebi: CHEBI:7947
+      - inchi: InChI=1S/C4H9N3O2/c1-7(4(5)6)2-3(8)9/h2H2,1H3,(H3,5,6)(H,8,9)
+      - kegg.compound: C00300
+      - metanetx.chemical: MNXM400
+      - origin: Sco4
+      - pubchem.compound: '7058172'
   - !!omap
     - id: ppdyletamin_c
     - name: L-1-PHOSPHATIDYL-ETHANOLAMINE
@@ -23864,22 +23864,6 @@
       - origin: Sco4
       - pubchem.compound: '69217'
   - !!omap
-    - id: dacepspo_c
-    - name: deacetylcephalosporin-C
-    - compartment: c
-    - charge: -1
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C(O)C2(CS[CH]1(N(C(=O)C(NC(=O)CCCC([N+])C(=O)[O-])1)C=2C(=O)[O-]))
-      - bigg.metabolite: dacepspo
-      - biocyc: DEACETYLCEPHALOSPORIN-C
-      - chebi: CHEBI:8366
-      - inchi: InChI=1S/C14H19N3O7S/c15-7(13(21)22)2-1-3-8(19)16-9-11(20)17-10(14(23)24)6(4-18)5-25-12(9)17/h7,9,12,18H,1-5,15H2,(H,16,19)(H,21,22)(H,23,24)/p-1/t7-,9-,12-/m1/s1
-      - kegg.compound: C03112
-      - metanetx.chemical: MNXM1081
-      - origin: Sco4
-      - pubchem.compound: '25246073'
-  - !!omap
     - id: cepspoc_c
     - name: cephalosporin-C
     - compartment: c
@@ -23895,6 +23879,22 @@
       - metanetx.chemical: MNXM1321
       - origin: Sco4
       - pubchem.compound: '21627817'
+  - !!omap
+    - id: dacepspo_c
+    - name: deacetylcephalosporin-C
+    - compartment: c
+    - charge: -1
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C(O)C2(CS[CH]1(N(C(=O)C(NC(=O)CCCC([N+])C(=O)[O-])1)C=2C(=O)[O-]))
+      - bigg.metabolite: dacepspo
+      - biocyc: DEACETYLCEPHALOSPORIN-C
+      - chebi: CHEBI:8366
+      - inchi: InChI=1S/C14H19N3O7S/c15-7(13(21)22)2-1-3-8(19)16-9-11(20)17-10(14(23)24)6(4-18)5-25-12(9)17/h7,9,12,18H,1-5,15H2,(H,16,19)(H,21,22)(H,23,24)/p-1/t7-,9-,12-/m1/s1
+      - kegg.compound: C03112
+      - metanetx.chemical: MNXM1081
+      - origin: Sco4
+      - pubchem.compound: '25246073'
   - !!omap
     - id: 4gubuty_c_c
     - name: 4-guanidinobutyramide
@@ -23912,22 +23912,6 @@
       - origin: Sco4
       - pubchem.compound: '25243936'
   - !!omap
-    - id: caro_c
-    - name: all-trans-beta-carotene
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CC(C=CC=C(C=CC1(C(C)(C)CCCC=1C))C)=CC=CC=C(C=CC=C(C=CC2(=C(CCCC(C)(C)2)C))C)C
-      - bigg.metabolite: caro
-      - biocyc: CPD1F-129
-      - chebi: CHEBI:7579
-      - inchi: InChI=1S/C40H56/c1-31(19-13-21-33(3)25-27-37-35(5)23-15-29-39(37,7)8)17-11-12-18-32(2)20-14-22-34(4)26-28-38-36(6)24-16-30-40(38,9)10/h11-14,17-22,25-28H,15-16,23-24,29-30H2,1-10H3/b12-11+,19-13+,20-14+,27-25+,28-26+,31-17+,32-18+,33-21+,34-22+
-      - kegg.compound: C02094
-      - metanetx.chemical: MNXM614
-      - origin: Sco4
-      - pubchem.compound: '5280489'
-  - !!omap
     - id: gcarote_c
     - name: gamma-carotene
     - compartment: c
@@ -23944,21 +23928,21 @@
       - origin: Sco4
       - pubchem.compound: '5280791'
   - !!omap
-    - id: fumpyr_c
-    - name: 3-fumarylpyruvate
+    - id: caro_c
+    - name: all-trans-beta-carotene
     - compartment: c
-    - charge: -2
+    - charge: 0
     - annotation: !!omap
       - SBO: SBO:0000247
-      - SMILES: C([O-])(=O)C=CC(CC(C([O-])=O)=O)=O
-      - bigg.metabolite: fumpyr
-      - biocyc: CPD-277
-      - chebi: CHEBI:6854
-      - inchi: InChI=1S/C7H6O6/c8-4(1-2-6(10)11)3-5(9)7(12)13/h1-2H,3H2,(H,10,11)(H,12,13)/p-2/b2-1+
-      - kegg.compound: C02514
-      - metanetx.chemical: MNXM162338
+      - SMILES: CC(C=CC=C(C=CC1(C(C)(C)CCCC=1C))C)=CC=CC=C(C=CC=C(C=CC2(=C(CCCC(C)(C)2)C))C)C
+      - bigg.metabolite: caro
+      - biocyc: CPD1F-129
+      - chebi: CHEBI:7579
+      - inchi: InChI=1S/C40H56/c1-31(19-13-21-33(3)25-27-37-35(5)23-15-29-39(37,7)8)17-11-12-18-32(2)20-14-22-34(4)26-28-38-36(6)24-16-30-40(38,9)10/h11-14,17-22,25-28H,15-16,23-24,29-30H2,1-10H3/b12-11+,19-13+,20-14+,27-25+,28-26+,31-17+,32-18+,33-21+,34-22+
+      - kegg.compound: C02094
+      - metanetx.chemical: MNXM614
       - origin: Sco4
-      - pubchem.compound: '6857354'
+      - pubchem.compound: '5280489'
   - !!omap
     - id: malpyr_c
     - name: 3-maleylpyruvate
@@ -23975,6 +23959,22 @@
       - metanetx.chemical: MNXM162338;MNXM2190
       - origin: Sco4
       - pubchem.compound: '6857405'
+  - !!omap
+    - id: fumpyr_c
+    - name: 3-fumarylpyruvate
+    - compartment: c
+    - charge: -2
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C([O-])(=O)C=CC(CC(C([O-])=O)=O)=O
+      - bigg.metabolite: fumpyr
+      - biocyc: CPD-277
+      - chebi: CHEBI:6854
+      - inchi: InChI=1S/C7H6O6/c8-4(1-2-6(10)11)3-5(9)7(12)13/h1-2H,3H2,(H,10,11)(H,12,13)/p-2/b2-1+
+      - kegg.compound: C02514
+      - metanetx.chemical: MNXM162338
+      - origin: Sco4
+      - pubchem.compound: '6857354'
   - !!omap
     - id: 2hmc_c
     - name: (2Z,4E)-2-hydroxyhexa-2,4-dienedioate
@@ -24006,21 +24006,6 @@
       - origin: Sco4
       - pubchem.compound: '25245156'
   - !!omap
-    - id: 5c2oh3ed_c
-    - name: (3E,5R)-5-carboxy-2-oxohept-3-enedioate
-    - compartment: c
-    - charge: -3
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C(CC(C=CC(C([O-])=O)=O)C([O-])=O)([O-])=O
-      - bigg.metabolite: 5c2oh3ed
-      - biocyc: CPD-785
-      - chebi: CHEBI:7491
-      - inchi: InChI=1S/C8H8O7/c9-5(8(14)15)2-1-4(7(12)13)3-6(10)11/h1-2,4H,3H2,(H,10,11)(H,12,13)(H,14,15)/p-3/b2-1+/t4-/m0/s1
-      - metanetx.chemical: MNXM162386
-      - origin: Sco4
-      - pubchem.compound: '91828236'
-  - !!omap
     - id: 5cmhm_c
     - name: 5-carboxymethyl-2-hydroxymuconate
     - compartment: c
@@ -24036,6 +24021,21 @@
       - metanetx.chemical: MNXM1163
       - origin: Sco4
       - pubchem.compound: '54711925'
+  - !!omap
+    - id: 5c2oh3ed_c
+    - name: (3E,5R)-5-carboxy-2-oxohept-3-enedioate
+    - compartment: c
+    - charge: -3
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C(CC(C=CC(C([O-])=O)=O)C([O-])=O)([O-])=O
+      - bigg.metabolite: 5c2oh3ed
+      - biocyc: CPD-785
+      - chebi: CHEBI:7491
+      - inchi: InChI=1S/C8H8O7/c9-5(8(14)15)2-1-4(7(12)13)3-6(10)11/h1-2,4H,3H2,(H,10,11)(H,12,13)(H,14,15)/p-3/b2-1+/t4-/m0/s1
+      - metanetx.chemical: MNXM162386
+      - origin: Sco4
+      - pubchem.compound: '91828236'
   - !!omap
     - id: uGgla_c
     - name: UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine
@@ -24096,22 +24096,6 @@
       - origin: Sco4
       - pubchem.compound: '5280789'
   - !!omap
-    - id: 2oph_c
-    - name: 2-octaprenylphenol
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CC(=CCCC(=CCCC(=CCCC(=CCCC(=CCCC(=CCCC(=CCCC(=CCC1(C(O)=CC=CC=1))C)C)C)C)C)C)C)C
-      - bigg.metabolite: 2oph
-      - biocyc: 2-OCTAPRENYLPHENOL
-      - chebi: CHEBI:0407
-      - inchi: InChI=1S/C46H70O/c1-37(2)19-12-20-38(3)21-13-22-39(4)23-14-24-40(5)25-15-26-41(6)27-16-28-42(7)29-17-30-43(8)31-18-32-44(9)35-36-45-33-10-11-34-46(45)47/h10-11,19,21,23,25,27,29,31,33-35,47H,12-18,20,22,24,26,28,30,32,36H2,1-9H3/b38-21+,39-23+,40-25+,41-27+,42-29+,43-31+,44-35+
-      - kegg.compound: C05810
-      - metanetx.chemical: MNXM1886
-      - origin: Sco4
-      - pubchem.compound: '5280832'
-  - !!omap
     - id: 3ophb_c
     - name: 3-octaprenyl-4-hydroxybenzoate
     - compartment: c
@@ -24127,6 +24111,22 @@
       - metanetx.chemical: MNXM2195
       - origin: Sco4
       - pubchem.compound: '54685638'
+  - !!omap
+    - id: 2oph_c
+    - name: 2-octaprenylphenol
+    - compartment: c
+    - charge: 0
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC(=CCCC(=CCCC(=CCCC(=CCCC(=CCCC(=CCCC(=CCCC(=CCC1(C(O)=CC=CC=1))C)C)C)C)C)C)C)C
+      - bigg.metabolite: 2oph
+      - biocyc: 2-OCTAPRENYLPHENOL
+      - chebi: CHEBI:0407
+      - inchi: InChI=1S/C46H70O/c1-37(2)19-12-20-38(3)21-13-22-39(4)23-14-24-40(5)25-15-26-41(6)27-16-28-42(7)29-17-30-43(8)31-18-32-44(9)35-36-45-33-10-11-34-46(45)47/h10-11,19,21,23,25,27,29,31,33-35,47H,12-18,20,22,24,26,28,30,32,36H2,1-9H3/b38-21+,39-23+,40-25+,41-27+,42-29+,43-31+,44-35+
+      - kegg.compound: C05810
+      - metanetx.chemical: MNXM1886
+      - origin: Sco4
+      - pubchem.compound: '5280832'
   - !!omap
     - id: n4abutn_c
     - name: 4-acetamidobutanal
@@ -24160,21 +24160,6 @@
       - origin: Sco4
       - pubchem.compound: '6991994'
   - !!omap
-    - id: kdo2laur_c
-    - name: alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-(lauroyl)-lipidIVA
-    - compartment: c
-    - charge: -6
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CCCCCCCCCCCC(O)CC(=O)NC1(C(OP([O-])([O-])=O)OC(C(O)C(OC(CC(O)CCCCCCCCCCC)=O)1)COC2(C(NC(CC(OC(CCCCCCCCCCC)=O)CCCCCCCCCCC)=O)C(OC(CC(O)CCCCCCCCCCC)=O)C(C(O2)COC4(C([O-])=O)(O[CH](C(CO)O)C(O)C(OC3(C([O-])=O)(O[CH](C(CO)O)C(O)C(O)C3))C4))OP([O-])([O-])=O))
-      - bigg.metabolite: kdo2laur
-      - biocyc: KDO2-LAUROYL-LIPID-IVA
-      - chebi: CHEBI:1524
-      - inchi: InChI=1S/C96H176N2O38P2/c1-6-11-16-21-26-31-36-41-46-51-66(101)56-76(107)97-81-89(130-79(110)57-67(102)52-47-42-37-32-27-22-17-12-7-2)85(114)74(128-92(81)136-138(122,123)124)64-125-91-82(98-77(108)59-69(54-49-44-39-34-29-24-19-14-9-4)127-78(109)55-50-45-40-35-30-25-20-15-10-5)90(131-80(111)58-68(103)53-48-43-38-33-28-23-18-13-8-3)88(135-137(119,120)121)75(129-91)65-126-95(93(115)116)61-73(84(113)87(133-95)72(106)63-100)132-96(94(117)118)60-70(104)83(112)86(134-96)71(105)62-99/h66-75,81-92,99-106,112-114H,6-65H2,1-5H3,(H,97,107)(H,98,108)(H,115,116)(H,117,118)(H2,119,120,121)(H2,122,123,124)/p-6/t66-,67-,68-,69-,70-,71-,72-,73-,74-,75-,81-,82-,83-,84-,85-,86-,87-,88-,89-,90-,91-,92-,95+,96-/m1/s1
-      - metanetx.chemical: MNXM164518
-      - origin: Sco4
-      - pubchem.compound: '91819851'
-  - !!omap
     - id: kdo2lipid4_c
     - name: alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-lipidIVA
     - compartment: c
@@ -24190,6 +24175,21 @@
       - metanetx.chemical: MNXM824
       - origin: Sco4
       - pubchem.compound: '91820576'
+  - !!omap
+    - id: kdo2laur_c
+    - name: alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-(lauroyl)-lipidIVA
+    - compartment: c
+    - charge: -6
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CCCCCCCCCCCC(O)CC(=O)NC1(C(OP([O-])([O-])=O)OC(C(O)C(OC(CC(O)CCCCCCCCCCC)=O)1)COC2(C(NC(CC(OC(CCCCCCCCCCC)=O)CCCCCCCCCCC)=O)C(OC(CC(O)CCCCCCCCCCC)=O)C(C(O2)COC4(C([O-])=O)(O[CH](C(CO)O)C(O)C(OC3(C([O-])=O)(O[CH](C(CO)O)C(O)C(O)C3))C4))OP([O-])([O-])=O))
+      - bigg.metabolite: kdo2laur
+      - biocyc: KDO2-LAUROYL-LIPID-IVA
+      - chebi: CHEBI:1524
+      - inchi: InChI=1S/C96H176N2O38P2/c1-6-11-16-21-26-31-36-41-46-51-66(101)56-76(107)97-81-89(130-79(110)57-67(102)52-47-42-37-32-27-22-17-12-7-2)85(114)74(128-92(81)136-138(122,123)124)64-125-91-82(98-77(108)59-69(54-49-44-39-34-29-24-19-14-9-4)127-78(109)55-50-45-40-35-30-25-20-15-10-5)90(131-80(111)58-68(103)53-48-43-38-33-28-23-18-13-8-3)88(135-137(119,120)121)75(129-91)65-126-95(93(115)116)61-73(84(113)87(133-95)72(106)63-100)132-96(94(117)118)60-70(104)83(112)86(134-96)71(105)62-99/h66-75,81-92,99-106,112-114H,6-65H2,1-5H3,(H,97,107)(H,98,108)(H,115,116)(H,117,118)(H2,119,120,121)(H2,122,123,124)/p-6/t66-,67-,68-,69-,70-,71-,72-,73-,74-,75-,81-,82-,83-,84-,85-,86-,87-,88-,89-,90-,91-,92-,95+,96-/m1/s1
+      - metanetx.chemical: MNXM164518
+      - origin: Sco4
+      - pubchem.compound: '91819851'
   - !!omap
     - id: chlorac_c
     - name: chloroacetate
@@ -24223,22 +24223,6 @@
       - origin: Sco4
       - pubchem.compound: '446925'
   - !!omap
-    - id: acryl_c
-    - name: acrylate
-    - compartment: c
-    - charge: -1
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C=CC([O-])=O
-      - bigg.metabolite: acryl
-      - biocyc: ACRYLATE
-      - chebi: CHEBI:7080
-      - inchi: InChI=1S/C3H4O2/c1-2-3(4)5/h2H,1H2,(H,4,5)/p-1
-      - kegg.compound: C00511
-      - metanetx.chemical: MNXM1368
-      - origin: Sco4
-      - pubchem.compound: '25188'
-  - !!omap
     - id: aa_c
     - name: acrylamide
     - compartment: c
@@ -24254,6 +24238,22 @@
       - metanetx.chemical: MNXM151798;MNXM3208
       - origin: Sco4
       - pubchem.compound: '6579'
+  - !!omap
+    - id: acryl_c
+    - name: acrylate
+    - compartment: c
+    - charge: -1
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C=CC([O-])=O
+      - bigg.metabolite: acryl
+      - biocyc: ACRYLATE
+      - chebi: CHEBI:7080
+      - inchi: InChI=1S/C3H4O2/c1-2-3(4)5/h2H,1H2,(H,4,5)/p-1
+      - kegg.compound: C00511
+      - metanetx.chemical: MNXM1368
+      - origin: Sco4
+      - pubchem.compound: '25188'
   - !!omap
     - id: mana_c
     - name: D-mannonate
@@ -24319,21 +24319,6 @@
       - origin: Sco4
       - pubchem.compound: '25246047'
   - !!omap
-    - id: 6hd3iphep_c
-    - name: (3R,6R)-6-hydroxy-3-isopropenylheptanoate
-    - compartment: c
-    - charge: -1
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C=C(C)C(CCC(O)C)CC([O-])=O
-      - bigg.metabolite: 6hd3iphep
-      - biocyc: CPD-10047
-      - chebi: CHEBI:4225
-      - inchi: InChI=1S/C10H18O3/c1-7(2)9(6-10(12)13)5-4-8(3)11/h8-9,11H,1,4-6H2,2-3H3,(H,12,13)/p-1/t8-,9-/m1/s1
-      - metanetx.chemical: MNXM3398
-      - origin: Sco4
-      - pubchem.compound: '25201562'
-  - !!omap
     - id: 4ip7moxo_c
     - name: (4R,7R)-4-isopropenyl-7-methyloxepan-2-one
     - compartment: c
@@ -24350,20 +24335,20 @@
       - origin: Sco4
       - pubchem.compound: '443168'
   - !!omap
-    - id: 6h3iphep_c
-    - name: (3S,6R)-6-hydroxy-3-isopropenyl-heptanoate
+    - id: 6hd3iphep_c
+    - name: (3R,6R)-6-hydroxy-3-isopropenylheptanoate
     - compartment: c
     - charge: -1
     - annotation: !!omap
       - SBO: SBO:0000247
       - SMILES: C=C(C)C(CCC(O)C)CC([O-])=O
-      - bigg.metabolite: 6h3iphep
-      - biocyc: CPD-10065
-      - chebi: CHEBI:4226
-      - inchi: InChI=1S/C10H18O3/c1-7(2)9(6-10(12)13)5-4-8(3)11/h8-9,11H,1,4-6H2,2-3H3,(H,12,13)/p-1/t8-,9+/m1/s1
-      - metanetx.chemical: MNXM2891
+      - bigg.metabolite: 6hd3iphep
+      - biocyc: CPD-10047
+      - chebi: CHEBI:4225
+      - inchi: InChI=1S/C10H18O3/c1-7(2)9(6-10(12)13)5-4-8(3)11/h8-9,11H,1,4-6H2,2-3H3,(H,12,13)/p-1/t8-,9-/m1/s1
+      - metanetx.chemical: MNXM3398
       - origin: Sco4
-      - pubchem.compound: '25245389'
+      - pubchem.compound: '25201562'
   - !!omap
     - id: 4ipropmo_c
     - name: (4S,7R)-4-isopropenyl-7-methyloxepan-2-one
@@ -24381,20 +24366,20 @@
       - origin: Sco4
       - pubchem.compound: '443182'
   - !!omap
-    - id: cechddd_c
-    - name: 3-(5,6-dihydroxycyclohexa-1,3-dien-1-yl)propanoate
+    - id: 6h3iphep_c
+    - name: (3S,6R)-6-hydroxy-3-isopropenyl-heptanoate
     - compartment: c
     - charge: -1
     - annotation: !!omap
       - SBO: SBO:0000247
-      - SMILES: C(CCC1(=CC=CC(C(O)1)O))(=O)[O-]
-      - bigg.metabolite: cechddd
-      - biocyc: CARBOXYETHYL-3-5-CYCLOHEXADIENE-1-2-DIOL
-      - chebi: CHEBI:0088
-      - inchi: InChI=1S/C9H12O4/c10-7-3-1-2-6(9(7)13)4-5-8(11)12/h1-3,7,9-10,13H,4-5H2,(H,11,12)/p-1/t7-,9+/m1/s1
-      - metanetx.chemical: MNXM1636
+      - SMILES: C=C(C)C(CCC(O)C)CC([O-])=O
+      - bigg.metabolite: 6h3iphep
+      - biocyc: CPD-10065
+      - chebi: CHEBI:4226
+      - inchi: InChI=1S/C10H18O3/c1-7(2)9(6-10(12)13)5-4-8(3)11/h8-9,11H,1,4-6H2,2-3H3,(H,12,13)/p-1/t8-,9+/m1/s1
+      - metanetx.chemical: MNXM2891
       - origin: Sco4
-      - pubchem.compound: '9543127'
+      - pubchem.compound: '25245389'
   - !!omap
     - id: pppn_c
     - name: 3-phenylpropanoate
@@ -24411,6 +24396,21 @@
       - metanetx.chemical: MNXM1403
       - origin: Sco4
       - pubchem.compound: '4740700'
+  - !!omap
+    - id: cechddd_c
+    - name: 3-(5,6-dihydroxycyclohexa-1,3-dien-1-yl)propanoate
+    - compartment: c
+    - charge: -1
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C(CCC1(=CC=CC(C(O)1)O))(=O)[O-]
+      - bigg.metabolite: cechddd
+      - biocyc: CARBOXYETHYL-3-5-CYCLOHEXADIENE-1-2-DIOL
+      - chebi: CHEBI:0088
+      - inchi: InChI=1S/C9H12O4/c10-7-3-1-2-6(9(7)13)4-5-8(11)12/h1-3,7,9-10,13H,4-5H2,(H,11,12)/p-1/t7-,9+/m1/s1
+      - metanetx.chemical: MNXM1636
+      - origin: Sco4
+      - pubchem.compound: '9543127'
   - !!omap
     - id: cinnm_c
     - name: trans-cinnamate
@@ -24443,22 +24443,6 @@
       - origin: Sco4
       - pubchem.compound: '46878522'
   - !!omap
-    - id: Sfglutth_c
-    - name: S-formylglutathione
-    - compartment: c
-    - charge: -1
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C(NC(=O)C(CSC=O)NC(=O)CCC([N+])C(=O)[O-])C(=O)[O-]
-      - bigg.metabolite: Sfglutth
-      - biocyc: CPD-548
-      - chebi: CHEBI:6225
-      - inchi: InChI=1S/C11H17N3O7S/c12-6(11(20)21)1-2-8(16)14-7(4-22-5-15)10(19)13-3-9(17)18/h5-7H,1-4,12H2,(H,13,19)(H,14,16)(H,17,18)(H,20,21)/p-1/t6-,7-/m0/s1
-      - kegg.compound: C01031
-      - metanetx.chemical: MNXM952
-      - origin: Sco4
-      - pubchem.compound: '25246250'
-  - !!omap
     - id: hmgth_c
     - name: S-(hydroxymethyl)glutathione
     - compartment: c
@@ -24474,6 +24458,22 @@
       - metanetx.chemical: MNXM1051
       - origin: Sco4
       - pubchem.compound: '25244017'
+  - !!omap
+    - id: Sfglutth_c
+    - name: S-formylglutathione
+    - compartment: c
+    - charge: -1
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C(NC(=O)C(CSC=O)NC(=O)CCC([N+])C(=O)[O-])C(=O)[O-]
+      - bigg.metabolite: Sfglutth
+      - biocyc: CPD-548
+      - chebi: CHEBI:6225
+      - inchi: InChI=1S/C11H17N3O7S/c12-6(11(20)21)1-2-8(16)14-7(4-22-5-15)10(19)13-3-9(17)18/h5-7H,1-4,12H2,(H,13,19)(H,14,16)(H,17,18)(H,20,21)/p-1/t6-,7-/m0/s1
+      - kegg.compound: C01031
+      - metanetx.chemical: MNXM952
+      - origin: Sco4
+      - pubchem.compound: '25246250'
   - !!omap
     - id: co_c
     - name: carbonmonoxide
@@ -24491,22 +24491,6 @@
       - origin: Sco4
       - pubchem.compound: '281'
   - !!omap
-    - id: nacpphin_c
-    - name: N-acetylphosphinothricin
-    - compartment: c
-    - charge: -2
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CC(=O)NC(C(=O)[O-])CCP(C)([O-])=O
-      - bigg.metabolite: nacpphin
-      - biocyc: CPD-9999
-      - chebi: CHEBI:0940
-      - inchi: InChI=1S/C7H14NO5P/c1-5(9)8-6(7(10)11)3-4-14(2,12)13/h6H,3-4H2,1-2H3,(H,8,9)(H,10,11)(H,12,13)/p-2/t6-/m0/s1
-      - kegg.compound: C17952
-      - metanetx.chemical: MNXM2844
-      - origin: Sco4
-      - pubchem.compound: '102515364'
-  - !!omap
     - id: pphinit_c
     - name: L-phosphinothricin
     - compartment: c
@@ -24522,6 +24506,22 @@
       - metanetx.chemical: MNXM59248
       - origin: Sco4
       - pubchem.compound: '28305642'
+  - !!omap
+    - id: nacpphin_c
+    - name: N-acetylphosphinothricin
+    - compartment: c
+    - charge: -2
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC(=O)NC(C(=O)[O-])CCP(C)([O-])=O
+      - bigg.metabolite: nacpphin
+      - biocyc: CPD-9999
+      - chebi: CHEBI:0940
+      - inchi: InChI=1S/C7H14NO5P/c1-5(9)8-6(7(10)11)3-4-14(2,12)13/h6H,3-4H2,1-2H3,(H,8,9)(H,10,11)(H,12,13)/p-2/t6-/m0/s1
+      - kegg.compound: C17952
+      - metanetx.chemical: MNXM2844
+      - origin: Sco4
+      - pubchem.compound: '102515364'
   - !!omap
     - id: 2h4oxbut_c
     - name: 2-hydroxy-4-oxobutane-1,2,4-tricarboxylate
@@ -24635,22 +24635,6 @@
       - origin: Sco4
       - pubchem.compound: '44229143'
   - !!omap
-    - id: itaccoa_c
-    - name: itaconyl-CoA
-    - compartment: c
-    - charge: -5
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C=C(CC(SCCNC(=O)CCNC(=O)C(O)C(C)(C)COP(=O)(OP(=O)(OCC1(C(OP([O-])(=O)[O-])C(O)C(O1)N3(C2(=C(C(N)=NC=N2)N=C3))))[O-])[O-])=O)C([O-])=O
-      - bigg.metabolite: itaccoa
-      - biocyc: CPD-1137
-      - chebi: CHEBI:7381
-      - inchi: InChI=1S/C26H40N7O19P3S/c1-13(25(39)40)8-16(35)56-7-6-28-15(34)4-5-29-23(38)20(37)26(2,3)10-49-55(46,47)52-54(44,45)48-9-14-19(51-53(41,42)43)18(36)24(50-14)33-12-32-17-21(27)30-11-31-22(17)33/h11-12,14,18-20,24,36-37H,1,4-10H2,2-3H3,(H,28,34)(H,29,38)(H,39,40)(H,44,45)(H,46,47)(H2,27,30,31)(H2,41,42,43)/p-5/t14-,18-,19-,20+,24-/m1/s1
-      - kegg.compound: C00531
-      - metanetx.chemical: MNXM1671
-      - origin: Sco4
-      - pubchem.compound: '45266606'
-  - !!omap
     - id: itacon_c
     - name: itaconate
     - compartment: c
@@ -24666,6 +24650,22 @@
       - metanetx.chemical: MNXM1747
       - origin: Sco4
       - pubchem.compound: '5459996'
+  - !!omap
+    - id: itaccoa_c
+    - name: itaconyl-CoA
+    - compartment: c
+    - charge: -5
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C=C(CC(SCCNC(=O)CCNC(=O)C(O)C(C)(C)COP(=O)(OP(=O)(OCC1(C(OP([O-])(=O)[O-])C(O)C(O1)N3(C2(=C(C(N)=NC=N2)N=C3))))[O-])[O-])=O)C([O-])=O
+      - bigg.metabolite: itaccoa
+      - biocyc: CPD-1137
+      - chebi: CHEBI:7381
+      - inchi: InChI=1S/C26H40N7O19P3S/c1-13(25(39)40)8-16(35)56-7-6-28-15(34)4-5-29-23(38)20(37)26(2,3)10-49-55(46,47)52-54(44,45)48-9-14-19(51-53(41,42)43)18(36)24(50-14)33-12-32-17-21(27)30-11-31-22(17)33/h11-12,14,18-20,24,36-37H,1,4-10H2,2-3H3,(H,28,34)(H,29,38)(H,39,40)(H,44,45)(H,46,47)(H2,27,30,31)(H2,41,42,43)/p-5/t14-,18-,19-,20+,24-/m1/s1
+      - kegg.compound: C00531
+      - metanetx.chemical: MNXM1671
+      - origin: Sco4
+      - pubchem.compound: '45266606'
   - !!omap
     - id: xylnact__D_c
     - name: D-xylonolactone
@@ -24807,22 +24807,6 @@
       - origin: Sco4
       - pubchem.compound: '25245089'
   - !!omap
-    - id: pchlld_c
-    - name: protochlorophyllidea
-    - compartment: c
-    - charge: -2
-    - formula: C35H30N4O5MG1
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C=CC2(C(C)=C4(C=C9(C(C)=C(CCC(=O)[O-])C5(=N([Mg]36(N1(=C(C(CC)=C(C)C1=CC=2N34)C=C7(C(C)=C8(C(=O)[C-](C(OC)=O)C5=C(N67)8)))))9))))
-      - bigg.metabolite: pchlld
-      - biocyc: MONO-VINYL-PROTOCHLOROPHYLLIDE-A
-      - chebi: CHEBI:7855
-      - kegg.compound: C02880
-      - metanetx.chemical: MNXM158130;MNXM163566;MNXM62503
-      - origin: Sco4
-      - pubchem.compound: '122706005'
-  - !!omap
     - id: chlld_c
     - name: chlorophyllidea
     - compartment: c
@@ -24838,6 +24822,22 @@
       - metanetx.chemical: MNXM39843;MNXM631
       - origin: Sco4
       - pubchem.compound: '122706261'
+  - !!omap
+    - id: pchlld_c
+    - name: protochlorophyllidea
+    - compartment: c
+    - charge: -2
+    - formula: C35H30N4O5MG1
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C=CC2(C(C)=C4(C=C9(C(C)=C(CCC(=O)[O-])C5(=N([Mg]36(N1(=C(C(CC)=C(C)C1=CC=2N34)C=C7(C(C)=C8(C(=O)[C-](C(OC)=O)C5=C(N67)8)))))9))))
+      - bigg.metabolite: pchlld
+      - biocyc: MONO-VINYL-PROTOCHLOROPHYLLIDE-A
+      - chebi: CHEBI:7855
+      - kegg.compound: C02880
+      - metanetx.chemical: MNXM158130;MNXM163566;MNXM62503
+      - origin: Sco4
+      - pubchem.compound: '122706005'
   - !!omap
     - id: amuco_c
     - name: (2Z,4E)-2-aminomuconate
@@ -24855,22 +24855,6 @@
       - origin: Sco4
       - pubchem.compound: '86289384'
   - !!omap
-    - id: 3dclcatc_c
-    - name: 3,5-dichlorocatechol
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C1(C(Cl)=CC(=C(C(Cl)=1)O)O)
-      - bigg.metabolite: 3dclcatc
-      - biocyc: 35-DICHLOROCATECHOL
-      - chebi: CHEBI:5788
-      - inchi: InChI=1S/C6H4Cl2O2/c7-3-1-4(8)6(10)5(9)2-3/h1-2,9-10H
-      - kegg.compound: C02933
-      - metanetx.chemical: MNXM2780
-      - origin: Sco4
-      - pubchem.compound: '26173'
-  - !!omap
     - id: 24dclphen_c
     - name: 2,4-dichlorophenol
     - compartment: c
@@ -24886,6 +24870,22 @@
       - metanetx.chemical: MNXM2600
       - origin: Sco4
       - pubchem.compound: '8449'
+  - !!omap
+    - id: 3dclcatc_c
+    - name: 3,5-dichlorocatechol
+    - compartment: c
+    - charge: 0
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C1(C(Cl)=CC(=C(C(Cl)=1)O)O)
+      - bigg.metabolite: 3dclcatc
+      - biocyc: 35-DICHLOROCATECHOL
+      - chebi: CHEBI:5788
+      - inchi: InChI=1S/C6H4Cl2O2/c7-3-1-4(8)6(10)5(9)2-3/h1-2,9-10H
+      - kegg.compound: C02933
+      - metanetx.chemical: MNXM2780
+      - origin: Sco4
+      - pubchem.compound: '26173'
   - !!omap
     - id: 2hdhepdd_c
     - name: (2Z,4Z)-2-hydroxyhepta-2,4-dienedioate
@@ -24999,22 +24999,6 @@
       - origin: Sco4
       - pubchem.compound: '6944015'
   - !!omap
-    - id: cyccarcoa_c
-    - name: cyclohex-1-ene-1-carbonyl-CoA
-    - compartment: c
-    - charge: -4
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CC(C)(C(O)C(=O)NCCC(=O)NCCSC(=O)C1(=CCCCC1))COP(=O)(OP(=O)(OCC2(C(OP([O-])(=O)[O-])C(O)C(O2)N4(C3(=C(C(N)=NC=N3)N=C4))))[O-])[O-]
-      - bigg.metabolite: cyccarcoa
-      - biocyc: CPD-533
-      - chebi: CHEBI:6270
-      - inchi: InChI=1S/C28H44N7O17P3S/c1-28(2,22(38)25(39)31-9-8-18(36)30-10-11-56-27(40)16-6-4-3-5-7-16)13-49-55(46,47)52-54(44,45)48-12-17-21(51-53(41,42)43)20(37)26(50-17)35-15-34-19-23(29)32-14-33-24(19)35/h6,14-15,17,20-22,26,37-38H,3-5,7-13H2,1-2H3,(H,30,36)(H,31,39)(H,44,45)(H,46,47)(H2,29,32,33)(H2,41,42,43)/p-4/t17-,20-,21-,22+,26-/m1/s1
-      - kegg.compound: C09811
-      - metanetx.chemical: MNXM3956
-      - origin: Sco4
-      - pubchem.compound: '72193726'
-  - !!omap
     - id: cychex1coa_c
     - name: cyclohexane-1-carbonyl-CoA
     - compartment: c
@@ -25030,6 +25014,22 @@
       - metanetx.chemical: MNXM5111
       - origin: Sco4
       - pubchem.compound: '44123337'
+  - !!omap
+    - id: cyccarcoa_c
+    - name: cyclohex-1-ene-1-carbonyl-CoA
+    - compartment: c
+    - charge: -4
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CC(C)(C(O)C(=O)NCCC(=O)NCCSC(=O)C1(=CCCCC1))COP(=O)(OP(=O)(OCC2(C(OP([O-])(=O)[O-])C(O)C(O2)N4(C3(=C(C(N)=NC=N3)N=C4))))[O-])[O-]
+      - bigg.metabolite: cyccarcoa
+      - biocyc: CPD-533
+      - chebi: CHEBI:6270
+      - inchi: InChI=1S/C28H44N7O17P3S/c1-28(2,22(38)25(39)31-9-8-18(36)30-10-11-56-27(40)16-6-4-3-5-7-16)13-49-55(46,47)52-54(44,45)48-12-17-21(51-53(41,42)43)20(37)26(50-17)35-15-34-19-23(29)32-14-33-24(19)35/h6,14-15,17,20-22,26,37-38H,3-5,7-13H2,1-2H3,(H,30,36)(H,31,39)(H,44,45)(H,46,47)(H2,29,32,33)(H2,41,42,43)/p-4/t17-,20-,21-,22+,26-/m1/s1
+      - kegg.compound: C09811
+      - metanetx.chemical: MNXM3956
+      - origin: Sco4
+      - pubchem.compound: '72193726'
   - !!omap
     - id: sl__L_c
     - name: (2S)-3-sulfolactate
@@ -25255,22 +25255,6 @@
       - origin: Sco4
       - pubchem.compound: '90658936'
   - !!omap
-    - id: rib1mpp5tpp_c
-    - name: alpha-D-ribose-1-methylphosphonate-5-triphosphate
-    - compartment: c
-    - charge: -5
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: CP([O-])(=O)OC1(C(C(C(O1)COP(OP(=O)([O-])OP(=O)([O-])[O-])([O-])=O)O)O)
-      - bigg.metabolite: rib1mpp5tpp
-      - biocyc: CPD0-2479
-      - chebi: CHEBI:8823
-      - inchi: InChI=1S/C6H16O16P4/c1-23(9,10)20-6-5(8)4(7)3(19-6)2-18-25(14,15)22-26(16,17)21-24(11,12)13/h3-8H,2H2,1H3,(H,9,10)(H,14,15)(H,16,17)(H2,11,12,13)/p-5/t3-,4-,5-,6-/m1/s1
-      - kegg.compound: C20422
-      - metanetx.chemical: MNXM13284
-      - origin: Sco4
-      - pubchem.compound: '70678977'
-  - !!omap
     - id: mppate_c
     - name: methylphosphonate
     - compartment: c
@@ -25286,6 +25270,22 @@
       - metanetx.chemical: MNXM19346
       - origin: Sco4
       - pubchem.compound: '21680363'
+  - !!omap
+    - id: rib1mpp5tpp_c
+    - name: alpha-D-ribose-1-methylphosphonate-5-triphosphate
+    - compartment: c
+    - charge: -5
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: CP([O-])(=O)OC1(C(C(C(O1)COP(OP(=O)([O-])OP(=O)([O-])[O-])([O-])=O)O)O)
+      - bigg.metabolite: rib1mpp5tpp
+      - biocyc: CPD0-2479
+      - chebi: CHEBI:8823
+      - inchi: InChI=1S/C6H16O16P4/c1-23(9,10)20-6-5(8)4(7)3(19-6)2-18-25(14,15)22-26(16,17)21-24(11,12)13/h3-8H,2H2,1H3,(H,9,10)(H,14,15)(H,16,17)(H2,11,12,13)/p-5/t3-,4-,5-,6-/m1/s1
+      - kegg.compound: C20422
+      - metanetx.chemical: MNXM13284
+      - origin: Sco4
+      - pubchem.compound: '70678977'
   - !!omap
     - id: btal_c
     - name: butan-1-al
@@ -25335,22 +25335,6 @@
       - origin: Sco4
       - pubchem.compound: '21145156'
   - !!omap
-    - id: 5a2opntn_c
-    - name: 5-amino-2-oxopentanoate
-    - compartment: c
-    - charge: 0
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C(C[N+])CC(=O)C([O-])=O
-      - bigg.metabolite: 5a2opntn
-      - biocyc: 5-AMINO-2-OXOPENTANOATE
-      - chebi: CHEBI:8802
-      - inchi: InChI=1S/C5H9NO3/c6-3-1-2-4(7)5(8)9/h1-3,6H2,(H,8,9)
-      - kegg.compound: C01110
-      - metanetx.chemical: MNXM1714
-      - origin: Sco4
-      - pubchem.compound: '25200452'
-  - !!omap
     - id: orn__D_c
     - name: D-ornithine
     - compartment: c
@@ -25366,6 +25350,22 @@
       - metanetx.chemical: MNXM1148
       - origin: Sco4
       - pubchem.compound: '6992105'
+  - !!omap
+    - id: 5a2opntn_c
+    - name: 5-amino-2-oxopentanoate
+    - compartment: c
+    - charge: 0
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C(C[N+])CC(=O)C([O-])=O
+      - bigg.metabolite: 5a2opntn
+      - biocyc: 5-AMINO-2-OXOPENTANOATE
+      - chebi: CHEBI:8802
+      - inchi: InChI=1S/C5H9NO3/c6-3-1-2-4(7)5(8)9/h1-3,6H2,(H,8,9)
+      - kegg.compound: C01110
+      - metanetx.chemical: MNXM1714
+      - origin: Sco4
+      - pubchem.compound: '25200452'
   - !!omap
     - id: arg__D_c
     - name: D-arginine
@@ -25399,22 +25399,6 @@
       - origin: Sco4
       - pubchem.compound: '2331'
   - !!omap
-    - id: cmpglna_c
-    - name: CMP-N-glycoloyl-beta-neuraminate
-    - compartment: c
-    - charge: -2
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - SMILES: C(O)C(O)C(O)[CH]3(OC(C(=O)[O-])(OP(=O)([O-])OCC2(C(C(C(N1(C(N=C(C=C1)N)=O))O2)O)O))CC(O)C(NC(CO)=O)3)
-      - bigg.metabolite: cmpglna
-      - biocyc: CPD-262
-      - chebi: CHEBI:8376
-      - inchi: InChI=1S/C20H31N4O17P/c21-10-1-2-24(19(35)22-10)17-15(32)14(31)9(39-17)6-38-42(36,37)41-20(18(33)34)3-7(27)12(23-11(29)5-26)16(40-20)13(30)8(28)4-25/h1-2,7-9,12-17,25-28,30-32H,3-6H2,(H,23,29)(H,33,34)(H,36,37)(H2,21,22,35)/p-2/t7-,8+,9+,12+,13+,14+,15+,16+,17+,20+/m0/s1
-      - kegg.compound: C03691
-      - metanetx.chemical: MNXM3240
-      - origin: Sco4
-      - pubchem.compound: '49852311'
-  - !!omap
     - id: HC01115_c
     - name: N-glycolylneuraminate
     - compartment: c
@@ -25430,6 +25414,22 @@
       - metanetx.chemical: MNXM5842
       - origin: Sco4
       - pubchem.compound: '16738688'
+  - !!omap
+    - id: cmpglna_c
+    - name: CMP-N-glycoloyl-beta-neuraminate
+    - compartment: c
+    - charge: -2
+    - annotation: !!omap
+      - SBO: SBO:0000247
+      - SMILES: C(O)C(O)C(O)[CH]3(OC(C(=O)[O-])(OP(=O)([O-])OCC2(C(C(C(N1(C(N=C(C=C1)N)=O))O2)O)O))CC(O)C(NC(CO)=O)3)
+      - bigg.metabolite: cmpglna
+      - biocyc: CPD-262
+      - chebi: CHEBI:8376
+      - inchi: InChI=1S/C20H31N4O17P/c21-10-1-2-24(19(35)22-10)17-15(32)14(31)9(39-17)6-38-42(36,37)41-20(18(33)34)3-7(27)12(23-11(29)5-26)16(40-20)13(30)8(28)4-25/h1-2,7-9,12-17,25-28,30-32H,3-6H2,(H,23,29)(H,33,34)(H,36,37)(H2,21,22,35)/p-2/t7-,8+,9+,12+,13+,14+,15+,16+,17+,20+/m0/s1
+      - kegg.compound: C03691
+      - metanetx.chemical: MNXM3240
+      - origin: Sco4
+      - pubchem.compound: '49852311'
   - !!omap
     - id: rmnf_c
     - name: L-rhamnulofuranose
@@ -25913,6 +25913,26 @@
     - formula: C14H26O4
     - annotation: !!omap
       - origin: iAA1259
+  - !!omap
+    - id: donor_c
+    - name: Hydrogen-donor
+    - compartment: c
+    - charge: -1
+    - formula: RH
+    - annotation: !!omap
+      - biocyc: Donor-H2
+      - chebi: '17499'
+      - kegg.compound: C00030
+  - !!omap
+    - id: acceptor_c
+    - name: Hydrogen-acceptor
+    - compartment: c
+    - charge: 0
+    - formula: R
+    - annotation: !!omap
+      - biocyc: Acceptor
+      - chebi: '15339'
+      - kegg.compound: C00028
 - reactions:
   - !!omap
     - id: ACTS1
@@ -40359,7 +40379,7 @@
       - mg2_c: -0.008253
       - mlthf_c: -0.00446
       - mn2_c: -0.000658
-      - mobd_c: -7e-06
+      - mobd_c: -7.0e-06
       - mocogdp_c: -0.00235
       - mql9_c: -0.011799999999999998
       - msh_c: -0.004185
@@ -40396,7 +40416,7 @@
       - pi140_c: -2.7e-05
       - pi150_c: -1.7e-05
       - pi160_c: -0.00031
-      - pi161_c: -8e-05
+      - pi161_c: -8.0e-05
       - pi_c: 75.79
       - piai150_c: -0.000293
       - piai170_c: -0.000269
@@ -68648,7 +68668,7 @@
       - mg2_c: -0.008253
       - mlthf_c: -0.00446
       - mn2_c: -0.000658
-      - mobd_c: -7e-06
+      - mobd_c: -7.0e-06
       - mocogdp_c: -0.00235
       - mql9_c: -0.011799999999999998
       - msh_c: -0.004185
@@ -68685,7 +68705,7 @@
       - pi140_c: -2.7e-05
       - pi150_c: -1.7e-05
       - pi160_c: -0.00031
-      - pi161_c: -8e-05
+      - pi161_c: -8.0e-05
       - pi_c: 71.71443000000001
       - piai150_c: -0.000293
       - piai170_c: -0.000269
@@ -69321,7 +69341,7 @@
       - origin: Sco4
       - rhea: '26031'
   - !!omap
-    - id: ORNHYDX_NADPH
+    - id: ORNHYDXy
     - name: ornithine N-hydroxylase (NADPH)
     - metabolites: !!omap
       - h2o_c: 1.0
@@ -69335,9 +69355,10 @@
     - gene_reaction_rule: SCO0498 or SCO6434
     - annotation: !!omap
       - SBO: SBO:0000176
-      - bigg.reaction: ORNHYDX_NADPH
+      - bigg.reaction: ORNHYDXy
       - biocyc: RXN-13783_NADPH
       - ec-code: 1.14.13.196
+      - kegg.reaction: R10789
       - origin: Sco4
   - !!omap
     - id: THYDNAPS
@@ -69591,25 +69612,6 @@
       - origin: Sco4
       - rhea: '32574'
   - !!omap
-    - id: AHLGAL_NADPH
-    - name: 3,6-anhydro-L-galactose dehydrogenase (NADPH)
-    - metabolites: !!omap
-      - 36ahgalfur_c: -1.0
-      - ahgalac__L_c: 1.0
-      - h2o_c: -1.0
-      - h_c: 2.0
-      - nadp_c: -1.0
-      - nadph_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO3486
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: AHLGAL_NADPH
-      - biocyc: RXN-15892_NADPH
-      - ec-code: 1.2.1.92
-      - origin: Sco4
-  - !!omap
     - id: 4MBZDH
     - name: 4-tolualdehyde dehydrogenase
     - metabolites: !!omap
@@ -69672,24 +69674,6 @@
       - metanetx.reaction: MNXR103366
       - origin: Sco4
       - rhea: '16129'
-  - !!omap
-    - id: PHYFLUDS_NADPH
-    - name: all-trans phytofluene desaturase (NADPH)
-    - metabolites: !!omap
-      - atphyflu_c: -1.0
-      - nadp_c: -1.0
-      - nadph_c: 1.0
-      - zcarote_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO0186
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: PHYFLUDS_NADPH
-      - biocyc: RXN-8024_NADPH
-      - kegg.reaction: R04787
-      - origin: Sco4
-      - rhea: '30610'
   - !!omap
     - id: CUMALDH
     - name: cumic aldehyde dehydrogenase
@@ -69828,26 +69812,6 @@
       - metanetx.reaction: MNXR115814
       - origin: Sco4
   - !!omap
-    - id: 4HYDPRO_NADPH
-    - name: cis-4-hydroxy-D-proline dehydrogenase;D-hydroxyproline dehydrogenase (NADPH)
-    - metabolites: !!omap
-      - 1p4h2cbxl_c: 1.0
-      - chdpro__D_c: -1.0
-      - h2o_c: 2.0
-      - h_c: 1.0
-      - nadp_c: 1.0
-      - nadph_c: -1.0
-      - o2_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO6289
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: 4HYDPRO_NADPH
-      - biocyc: RXN-8003_NADPH
-      - ec-code: 1.14.19
-      - origin: Sco4
-  - !!omap
     - id: DXYLDH
     - name: D-xylonate dehydratase
     - metabolites: !!omap
@@ -69960,7 +69924,7 @@
       - metanetx.reaction: MNXR113760
       - origin: Sco4
   - !!omap
-    - id: HPYRR_NADPH
+    - id: HPYRRy
     - name: hydroxypyruvate reductase;hydroxypyruvate reductase Me (NADPH)
     - metabolites: !!omap
       - glyc__R_c: -1.0
@@ -69973,9 +69937,10 @@
     - gene_reaction_rule: SCO2696
     - annotation: !!omap
       - SBO: SBO:0000176
-      - bigg.reaction: HPYRR_NADPH
+      - bigg.reaction: HPYRRy
       - biocyc: HYDROXYPYRUVATE-REDUCTASE-RXN_NADPH
       - ec-code: 1.1.1.81
+      - kegg.reaction: R01392
       - metanetx.reaction: MNXR100336
       - origin: Sco4
   - !!omap
@@ -70075,7 +70040,7 @@
       - metanetx.reaction: MNXR117809
       - origin: Sco4
   - !!omap
-    - id: 2ABZMO_NADPH
+    - id: 2ABZMOy
     - name: 2-amninobenzoyl-CoA monooxygenase/reductase (NADPH)
     - metabolites: !!omap
       - 2a5ocyc1eccoa_c: 1.0
@@ -70090,9 +70055,10 @@
     - gene_reaction_rule: SCO7285 or SCO1109 or SCO5980
     - annotation: !!omap
       - SBO: SBO:0000176
-      - bigg.reaction: 2ABZMO_NADPH
+      - bigg.reaction: 2ABZMOy
       - biocyc: ANTHRANILOYL-COA-MONOOXYGENASE-RXN_NADPH
       - ec-code: 1.14.13.40
+      - kegg.reaction: R03999
       - origin: Sco4
       - rhea:
         - '16000'
@@ -70194,23 +70160,6 @@
       - metanetx.reaction: MNXR107006
       - origin: Sco4
       - rhea: '21328'
-  - !!omap
-    - id: 3OXCOADH_NADPH
-    - name: 3-oxochol-4-en-24-oyl-CoA dehydrogenase (NADPH)
-    - metabolites: !!omap
-      - 3oc4en24ocoa_c: -1.0
-      - 3ocdncoa_c: 1.0
-      - nadp_c: -1.0
-      - nadph_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO1198
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: 3OXCOADH_NADPH
-      - biocyc: RXN-12707_NADPH
-      - ec-code: 1.3.99
-      - origin: Sco4
   - !!omap
     - id: UNDEGLCT
     - name: undecaprenyl phosphate-N-acetyl-alpha-D-glucosamine transferase
@@ -70332,25 +70281,6 @@
       - origin: Sco4
       - rhea: '27473'
   - !!omap
-    - id: DDALLO_NADPH
-    - name: dTDP-(2R,6S)-6-hydroxy-2-methyl-3-oxo-3,6-dihydro-2H-pyran-4-olate 3-ketoreductase
-        (dTDP-4-dehydro-2,6-dideoxy-alpha-D-allose-forming) (NADPH)
-    - metabolites: !!omap
-      - dtdp26ddgh2e2u_c: -1.0
-      - dtdp4dh26dall_c: 1.0
-      - h_c: -2.0
-      - nadp_c: 1.0
-      - nadph_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO4339 or SCO4352
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: DDALLO_NADPH
-      - biocyc: RXN-12940_NADPH
-      - ec-code: 1.17.1
-      - origin: Sco4
-  - !!omap
     - id: DGLUCYC
     - name: D-glucarolactone cycloisomerase
     - metabolites: !!omap
@@ -70401,24 +70331,6 @@
       - bigg.reaction: HCSUCT
       - biocyc: RXN-10996
       - metanetx.reaction: MNXR116635
-      - origin: Sco4
-  - !!omap
-    - id: GDP64HRD_NADPH
-    - name: GDP-6-deoxy-4-keto-D-lyxo-heptose 4-reductase (NADPH)
-    - metabolites: !!omap
-      - gdp6dklh_c: -1.0
-      - gdp6domanhep_c: 1.0
-      - h_c: -1.0
-      - nadp_c: 1.0
-      - nadph_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO0395
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: GDP64HRD_NADPH
-      - biocyc: RXN-16164_NADPH
-      - ec-code: 1.1.1
       - origin: Sco4
   - !!omap
     - id: 3CLBZDH
@@ -70862,24 +70774,6 @@
       - origin: Sco4
       - rhea: '26035'
   - !!omap
-    - id: PHYTDES_NADPH
-    - name: phytoene desaturase;all-trans-phytoene desaturase;15-cis-phytoene desaturase
-        (NADPH)
-    - metabolites: !!omap
-      - 15cphyt_c: -1.0
-      - atphyflu_c: 1.0
-      - nadp_c: -1.0
-      - nadph_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO0186
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: PHYTDES_NADPH
-      - biocyc: RXN-8023_NADPH
-      - origin: Sco4
-      - rhea: '30606'
-  - !!omap
     - id: ULA4NFT
     - name: UDP-4-amino-4-deoxy-L-arabinose formyltransferase
     - metabolites: !!omap
@@ -71002,23 +70896,6 @@
       - origin: Sco4
       - rhea: '24702'
   - !!omap
-    - id: SORBDH_NADPH
-    - name: L-sorbosone dehydrogenase (NADPH)
-    - metabolites: !!omap
-      - ascb__L_c: 1.0
-      - h_c: 1.0
-      - nadp_c: -1.0
-      - nadph_c: 1.0
-      - sorb14lac_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO5508
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: SORBDH_NADPH
-      - biocyc: RXN-8781_NADPH
-      - origin: Sco4
-  - !!omap
     - id: GCGUAIDH
     - name: (-)-(alphaS,betaR)-guaiacylglycerol-beta-guaiacyl ether dehydrogenase
     - metabolites: !!omap
@@ -71058,26 +70935,6 @@
       - metanetx.reaction: MNXR106733
       - origin: Sco4
       - rhea: '21731'
-  - !!omap
-    - id: 4HDAPMO
-    - name: 4-hydroxyacetophenone monooxygenase
-    - metabolites: !!omap
-      - 4hphac_c: 1.0
-      - h2o_c: 1.0
-      - haphenon_c: -1.0
-      - nadp_c: 1.0
-      - nadph_c: -1.0
-      - o2_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO3172
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: 4HDAPMO
-      - biocyc: RXN-13129
-      - ec-code: 1.14.13.84
-      - metanetx.reaction: MNXR110620
-      - origin: Sco4
   - !!omap
     - id: I3PYRMO
     - name: indole-3-pyruvate monooxygenase
@@ -71903,7 +71760,7 @@
       - metanetx.reaction: MNXR115784
       - origin: Sco4
   - !!omap
-    - id: CARNMO_NADPH
+    - id: CARNMOy
     - name: carnitine monooxygenase (NADPH)
     - metabolites: !!omap
       - 3h4oxbut_c: 1.0
@@ -71919,9 +71776,10 @@
     - gene_reaction_rule: SCO2222
     - annotation: !!omap
       - SBO: SBO:0000176
-      - bigg.reaction: CARNMO_NADPH
+      - bigg.reaction: CARNMOy
       - biocyc: RXN-5921_NADPH
       - ec-code: 1.14.13.M4
+      - kegg.reaction: R11911
       - origin: Sco4
   - !!omap
     - id: RBTDG
@@ -72116,25 +71974,6 @@
       - metanetx.reaction: MNXR113638
       - origin: Sco4
       - rhea: '32227'
-  - !!omap
-    - id: 4NITROB_NADPH
-    - name: 4-nitrobenzoate reductase (NADPH)
-    - metabolites: !!omap
-      - 4hambz_c: 1.0
-      - 4nitrobz_c: -1.0
-      - h2o_c: 1.0
-      - h_c: -2.0
-      - nadp_c: 2.0
-      - nadph_c: -2.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO0044
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: 4NITROB_NADPH
-      - biocyc: R364-RXN_NADPH
-      - ec-code: 1.7.1
-      - origin: Sco4
   - !!omap
     - id: 3DMA4HMO
     - name: 3-dimethylallyl-4-hydroxymandelate oxygenase
@@ -72483,25 +72322,6 @@
       - origin: Sco4
       - rhea: '13285'
   - !!omap
-    - id: 44DPCDH_NADPH
-    - name: 4,4'-diapolycopenedial dehydrogenase (NADPH)
-    - metabolites: !!omap
-      - 44dpcop_c: -1.0
-      - 44dpcopd_c: 1.0
-      - h2o_c: -2.0
-      - h_c: 2.0
-      - nadp_c: -2.0
-      - nadph_c: 2.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO6793
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: 44DPCDH_NADPH
-      - biocyc: RXN-12225_NADPH
-      - ec-code: 1.2.99
-      - origin: Sco4
-  - !!omap
     - id: C7AHXDH
     - name: cholate 7alpha-hydroxy dehydrogenase;7-alpha-hydroxysteroid dehydrogenase
     - metabolites: !!omap
@@ -72541,27 +72361,6 @@
       - ec-code: 3.1.1.M3
       - metanetx.reaction: MNXR114025
       - origin: Sco4
-  - !!omap
-    - id: DPCOX_NADPH
-    - name: diapolycopene oxygenase (NADPH)
-    - metabolites: !!omap
-      - 44dpcop_c: 1.0
-      - at44dcop_c: -1.0
-      - h2o_c: 6.0
-      - nadp_c: 4.0
-      - nadph_c: -4.0
-      - o2_c: -4.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO2101
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: DPCOX_NADPH
-      - biocyc: RXN-12223_NADPH
-      - ec-code: 1.14.99.44
-      - kegg.reaction: R09671
-      - origin: Sco4
-      - rhea: '31022'
   - !!omap
     - id: P2OLDH
     - name: propan-2-ol dehydrogenase;isopropanol dehydrogenase
@@ -72661,25 +72460,6 @@
       - origin: Sco4
       - rhea: '22296'
   - !!omap
-    - id: AHOPS_NADPH
-    - name: adenosyl hopane synthase (NADPH)
-    - metabolites: !!omap
-      - ahop_c: 1.0
-      - amet_c: -1.0
-      - h_c: 1.0
-      - hop22en_c: -1.0
-      - met__L_c: 1.0
-      - nadp_c: 1.0
-      - nadph_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO6766
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: AHOPS_NADPH
-      - biocyc: RXN-13528_NADPH
-      - origin: Sco4
-  - !!omap
     - id: FARNDPPS
     - name: E,Z-farnesyl diphosphate synthase
     - metabolites: !!omap
@@ -72776,25 +72556,6 @@
       - origin: Sco4
       - rhea: '30458'
   - !!omap
-    - id: CADHX_NADPH
-    - name: cadaverine hydroxylase (NADPH)
-    - metabolites: !!omap
-      - 15dap_c: -1.0
-      - h2o_c: 1.0
-      - h_c: 1.0
-      - hdoxcad_c: 1.0
-      - nadp_c: 1.0
-      - nadph_c: -1.0
-      - o2_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO2016 or SCO2783
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: CADHX_NADPH
-      - biocyc: RXN-10995_NADPH
-      - origin: Sco4
-  - !!omap
     - id: XLLGXYL
     - name: XLLG xyloglucan oligosaccharide beta-galactosidase
     - metabolites: !!omap
@@ -72872,7 +72633,7 @@
       - origin: Sco4
       - rhea: '10044'
   - !!omap
-    - id: ANTDIO_NADPH
+    - id: ANTDIOy
     - name: anthranilate dioxygenase (NADPH)
     - metabolites: !!omap
       - anth_c: -1.0
@@ -72888,7 +72649,7 @@
     - gene_reaction_rule: SCO7117
     - annotation: !!omap
       - SBO: SBO:0000176
-      - bigg.reaction: ANTDIO_NADPH
+      - bigg.reaction: ANTDIOy
       - biocyc: 1.14.12.1-RXN_NADPH
       - ec-code: 1.14.12.1
       - kegg.reaction: R00825
@@ -72961,23 +72722,6 @@
       - biocyc: RXN-9909
       - ec-code: 1.1.1.90
       - metanetx.reaction: MNXR123071
-      - origin: Sco4
-  - !!omap
-    - id: 3OCHOCDH_NADPH
-    - name: 3-oxocholest-4-en-26-oyl-CoA dehydrogenase (NADPH)
-    - metabolites: !!omap
-      - 3ocd26ocoa_c: 1.0
-      - 3oce26ocoa_c: -1.0
-      - nadp_c: -1.0
-      - nadph_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO1197
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: 3OCHOCDH_NADPH
-      - biocyc: RXN-12703_NADPH
-      - ec-code: 1.3.99
       - origin: Sco4
   - !!omap
     - id: SULFPDH
@@ -73648,24 +73392,6 @@
       - metanetx.reaction: MNXR122085
       - origin: Sco4
       - rhea: '11920'
-  - !!omap
-    - id: ZCARDS_NADPH
-    - name: zeta-carotene desaturase;all-trans-zeta-carotene desaturase (NADPH)
-    - metabolites: !!omap
-      - nadp_c: -1.0
-      - nadph_c: 1.0
-      - neuspn_c: 1.0
-      - zcarote_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO0186 or SCO2101
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: ZCARDS_NADPH
-      - biocyc: RXN-8022_NADPH
-      - kegg.reaction: R04798
-      - origin: Sco4
-      - rhea: '30614'
   - !!omap
     - id: OPHBDC
     - name: 3-octaprenyl-4-hydroxybenzoate decarboxylase
@@ -74693,7 +74419,7 @@
       - origin: Sco4
       - rhea: '11720'
   - !!omap
-    - id: CDP4D6DG_NADPH
+    - id: CDP4DGNOy
     - name: CDP-4-dehydro-6-deoxyglucose reductase (NADPH)
     - metabolites: !!omap
       - cdp4dh36ddglc_c: 1.0
@@ -74707,7 +74433,7 @@
     - gene_reaction_rule: SCO0103
     - annotation: !!omap
       - SBO: SBO:0000176
-      - bigg.reaction: CDP4D6DG_NADPH
+      - bigg.reaction: CDP4DGNOy
       - biocyc: 1.17.1.1-RXN_NADPH
       - ec-code: 1.17.1.1
       - kegg.reaction: R03392
@@ -75409,38 +75135,6 @@
       - metanetx.reaction: MNXR108742
       - origin: Sco4
   - !!omap
-    - id: ZCAROTDH2_NADPH
-    - name: Neurosporene, hydrogen-donor:oxygen oxidoreductase (NADPH)
-    - metabolites: !!omap
-      - h2o_c: 2.0
-      - lycop_c: 1.0
-      - nadp_c: 1.0
-      - nadph_c: -1.0
-      - neuspn_c: -1.0
-      - o2_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO0186 or SCO2101
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: ZCAROTDH2_NADPH
-      - biocyc: R04800_NADPH
-      - ec-code:
-        - 1.3.5.6
-        - 1.3.99.26
-        - 1.3.99.30
-        - 1.3.99.31
-      - kegg.orthology:
-        - K00514
-        - K10027
-        - K15745
-      - kegg.pathway:
-        - rn00906
-        - rn01110
-      - kegg.reaction: R04800
-      - metanetx.reaction: MNXR105275
-      - origin: Sco4
-  - !!omap
     - id: AAAHYD
     - name: Acylamide aminohydrolase
     - metabolites: !!omap
@@ -75531,7 +75225,7 @@
       - metanetx.reaction: MNXR107408
       - origin: Sco4
   - !!omap
-    - id: CDP4DGNO
+    - id: CDP4DGNOx
     - name: CDP-4-dehydro-3,6-dideoxy-D-glucose:NAD+ 3-oxydoreductase
     - metabolites: !!omap
       - cdp4dh36ddglc_c: 1.0
@@ -75545,7 +75239,7 @@
     - gene_reaction_rule: SCO0103
     - annotation: !!omap
       - SBO: SBO:0000176
-      - bigg.reaction: CDP4DGNO
+      - bigg.reaction: CDP4DGNOx
       - biocyc: R03391
       - ec-code: 1.17.1.1
       - kegg.orthology: K00523
@@ -76166,7 +75860,7 @@
       - biocyc: EXC_OUT_CPD-14522_c
       - origin: Sco4
   - !!omap
-    - id: ORNHYDX_NADH
+    - id: ORNHYDXx
     - name: ornithine N-hydroxylase (NADH)
     - metabolites: !!omap
       - h2o_c: 1.0
@@ -76180,31 +75874,13 @@
     - gene_reaction_rule: SCO0498 or SCO6434
     - annotation: !!omap
       - SBO: SBO:0000176
-      - bigg.reaction: ORNHYDX_NADH
+      - bigg.reaction: ORNHYDXx
       - biocyc: RXN-13783_NADH
       - ec-code: 1.14.13.196
+      - kegg.reaction: R10790
       - origin: Sco4
   - !!omap
-    - id: AHLGAL_NADH
-    - name: 3,6-anhydro-L-galactose dehydrogenase (NADH)
-    - metabolites: !!omap
-      - 36ahgalfur_c: -1.0
-      - ahgalac__L_c: 1.0
-      - h2o_c: -1.0
-      - h_c: 2.0
-      - nad_c: -1.0
-      - nadh_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO3486
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: AHLGAL_NADH
-      - biocyc: RXN-15892_NADH
-      - ec-code: 1.2.1.92
-      - origin: Sco4
-  - !!omap
-    - id: HPYRR2_NADH
+    - id: HPYRRx
     - name: hydroxypyruvate reductase;hydroxypyruvate reductase Me (NADH)
     - metabolites: !!omap
       - glyc__R_c: -1.0
@@ -76217,13 +75893,14 @@
     - gene_reaction_rule: SCO2696
     - annotation: !!omap
       - SBO: SBO:0000176
-      - bigg.reaction: HPYRR2_NADH
+      - bigg.reaction: HPYRRx
       - biocyc: HYDROXYPYRUVATE-REDUCTASE-RXN_NADH
       - ec-code: 1.1.1.81
+      - kegg.reaction: R01388
       - metanetx.reaction: MNXR100325
       - origin: Sco4
   - !!omap
-    - id: 2ABZMO_NADH
+    - id: 2ABZMOx
     - name: 2-amninobenzoyl-CoA monooxygenase/reductase (NADH)
     - metabolites: !!omap
       - 2a5ocyc1eccoa_c: 1.0
@@ -76238,53 +75915,17 @@
     - gene_reaction_rule: SCO7285 or SCO1109 or SCO5980
     - annotation: !!omap
       - SBO: SBO:0000176
-      - bigg.reaction: 2ABZMO_NADH
+      - bigg.reaction: 2ABZMOx
       - biocyc: ANTHRANILOYL-COA-MONOOXYGENASE-RXN_NADH
       - ec-code: 1.14.13.40
+      - kegg.reaction: R03998
       - metanetx.reaction: MNXR108578
       - origin: Sco4
       - rhea:
         - '16000'
         - '15996'
   - !!omap
-    - id: DDALLO_NADH
-    - name: dTDP-(2R,6S)-6-hydroxy-2-methyl-3-oxo-3,6-dihydro-2H-pyran-4-olate 3-ketoreductase
-        (dTDP-4-dehydro-2,6-dideoxy-alpha-D-allose-forming) (NADH)
-    - metabolites: !!omap
-      - dtdp26ddgh2e2u_c: -1.0
-      - dtdp4dh26dall_c: 1.0
-      - h_c: -2.0
-      - nad_c: 1.0
-      - nadh_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO4339 or SCO4352
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: DDALLO_NADH
-      - biocyc: RXN-12940_NADH
-      - ec-code: 1.17.1
-      - origin: Sco4
-  - !!omap
-    - id: GDP64HRD_NADH
-    - name: GDP-6-deoxy-4-keto-D-lyxo-heptose 4-reductase (NADH)
-    - metabolites: !!omap
-      - gdp6dklh_c: -1.0
-      - gdp6domanhep_c: 1.0
-      - h_c: -1.0
-      - nad_c: 1.0
-      - nadh_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO0395
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: GDP64HRD_NADH
-      - biocyc: RXN-16164_NADH
-      - ec-code: 1.1.1
-      - origin: Sco4
-  - !!omap
-    - id: CARNMO_NADH
+    - id: CARNMOx
     - name: carnitine monooxygenase (NADH)
     - metabolites: !!omap
       - 3h4oxbut_c: 1.0
@@ -76300,32 +75941,13 @@
     - gene_reaction_rule: SCO2222
     - annotation: !!omap
       - SBO: SBO:0000176
-      - bigg.reaction: CARNMO_NADH
+      - bigg.reaction: CARNMOx
       - biocyc: RXN-5921_NADH
       - ec-code: 1.14.13.M4
       - kegg.reaction: R11875
       - origin: Sco4
   - !!omap
-    - id: 4NITROB_NADH
-    - name: 4-nitrobenzoate reductase (NADH)
-    - metabolites: !!omap
-      - 4hambz_c: 1.0
-      - 4nitrobz_c: -1.0
-      - h2o_c: 1.0
-      - h_c: -2.0
-      - nad_c: 2.0
-      - nadh_c: -2.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO0044
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: 4NITROB_NADH
-      - biocyc: R364-RXN_NADH
-      - ec-code: 1.7.1
-      - origin: Sco4
-  - !!omap
-    - id: ANTDIO_NADH
+    - id: ANTDIOx
     - name: anthranilate dioxygenase (NADH)
     - metabolites: !!omap
       - anth_c: -1.0
@@ -76341,10 +75963,10 @@
     - gene_reaction_rule: SCO7117
     - annotation: !!omap
       - SBO: SBO:0000176
-      - bigg.reaction: ANTDIO_NADH
+      - bigg.reaction: ANTDIOx
       - biocyc: 1.14.12.1-RXN_NADH
       - ec-code: 1.14.12.1
-      - kegg.reaction: R00825
+      - kegg.reaction: R00823
       - metanetx.reaction: MNXR106707
       - origin: Sco4
       - rhea:
@@ -76370,261 +75992,6 @@
       - ec-code: 1.1.1.284
       - kegg.reaction: R06983
       - metanetx.reaction: MNXR99237
-      - origin: Sco4
-  - !!omap
-    - id: CDP4D6DG_NADH
-    - name: 1.14.13.84-RXN (NADH)
-    - metabolites: !!omap
-      - 4hphac_c: 1.0
-      - h2o_c: 1.0
-      - haphenon_c: -1.0
-      - nad_c: 1.0
-      - nadh_c: -1.0
-      - o2_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO3172
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: CDP4D6DG_NADH
-      - biocyc: 1.14.13.84-RXN_NADH
-      - ec-code: 1.14.13.84
-      - kegg.reaction: R06892
-      - origin: Sco4
-      - rhea: '22916'
-  - !!omap
-    - id: PHYFLUDS_NADH
-    - name: all-trans phytofluene desaturase (NADH)
-    - metabolites: !!omap
-      - atphyflu_c: -1.0
-      - nad_c: -1.0
-      - nadh_c: 1.0
-      - zcarote_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO0186
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: PHYFLUDS_NADH
-      - biocyc: RXN-8024_NADH
-      - kegg.reaction: R04787
-      - origin: Sco4
-      - rhea: '30610'
-  - !!omap
-    - id: 4HYDPRO_NADH
-    - name: cis-4-hydroxy-D-proline dehydrogenase;D-hydroxyproline dehydrogenase (NADH)
-    - metabolites: !!omap
-      - 1p4h2cbxl_c: 1.0
-      - chdpro__D_c: -1.0
-      - h2o_c: 2.0
-      - h_c: 1.0
-      - nad_c: 1.0
-      - nadh_c: -1.0
-      - o2_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO6289
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: 4HYDPRO_NADH
-      - biocyc: RXN-8003_NADH
-      - ec-code: 1.14.19
-      - origin: Sco4
-  - !!omap
-    - id: 3OXCOADH_NADH
-    - name: 3-oxochol-4-en-24-oyl-CoA dehydrogenase (NADH)
-    - metabolites: !!omap
-      - 3oc4en24ocoa_c: -1.0
-      - 3ocdncoa_c: 1.0
-      - nad_c: -1.0
-      - nadh_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO1198
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: 3OXCOADH_NADH
-      - biocyc: RXN-12707_NADH
-      - ec-code: 1.3.99
-      - origin: Sco4
-  - !!omap
-    - id: PHYTDES_NADH
-    - name: phytoene desaturase;all-trans-phytoene desaturase;15-cis-phytoene desaturase
-        (NADH)
-    - metabolites: !!omap
-      - 15cphyt_c: -1.0
-      - atphyflu_c: 1.0
-      - nad_c: -1.0
-      - nadh_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO0186
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: PHYTDES_NADH
-      - biocyc: RXN-8023_NADH
-      - origin: Sco4
-      - rhea: '30606'
-  - !!omap
-    - id: SORBDH_NADH
-    - name: L-sorbosone dehydrogenase (NADH)
-    - metabolites: !!omap
-      - ascb__L_c: 1.0
-      - h_c: 1.0
-      - nad_c: -1.0
-      - nadh_c: 1.0
-      - sorb14lac_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO5508
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: SORBDH_NADH
-      - biocyc: RXN-8781_NADH
-      - origin: Sco4
-  - !!omap
-    - id: 44DPCDH_NADH
-    - name: 4,4'-diapolycopenedial dehydrogenase (NADH)
-    - metabolites: !!omap
-      - 44dpcop_c: -1.0
-      - 44dpcopd_c: 1.0
-      - h2o_c: -2.0
-      - h_c: 2.0
-      - nad_c: -2.0
-      - nadh_c: 2.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO6793
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: 44DPCDH_NADH
-      - biocyc: RXN-12225_NADH
-      - ec-code: 1.2.99
-      - origin: Sco4
-  - !!omap
-    - id: DPCOX_NADH
-    - name: diapolycopene oxygenase (NADH)
-    - metabolites: !!omap
-      - 44dpcop_c: 1.0
-      - at44dcop_c: -1.0
-      - h2o_c: 6.0
-      - nad_c: 4.0
-      - nadh_c: -4.0
-      - o2_c: -4.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO2101
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: DPCOX_NADH
-      - biocyc: RXN-12223_NADH
-      - ec-code: 1.14.99.44
-      - kegg.reaction: R09671
-      - origin: Sco4
-      - rhea: '31022'
-  - !!omap
-    - id: AHOPS_NADH
-    - name: adenosyl hopane synthase (NADH)
-    - metabolites: !!omap
-      - ahop_c: 1.0
-      - amet_c: -1.0
-      - h_c: 1.0
-      - hop22en_c: -1.0
-      - met__L_c: 1.0
-      - nad_c: 1.0
-      - nadh_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO6766
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: AHOPS_NADH
-      - biocyc: RXN-13528_NADH
-      - origin: Sco4
-  - !!omap
-    - id: CADHX_NADH
-    - name: cadaverine hydroxylase (NADH)
-    - metabolites: !!omap
-      - 15dap_c: -1.0
-      - h2o_c: 1.0
-      - h_c: 1.0
-      - hdoxcad_c: 1.0
-      - nad_c: 1.0
-      - nadh_c: -1.0
-      - o2_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO2016 or SCO2783
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: CADHX_NADH
-      - biocyc: RXN-10995_NADH
-      - origin: Sco4
-  - !!omap
-    - id: 3OCHOCDH_NADH
-    - name: 3-oxocholest-4-en-26-oyl-CoA dehydrogenase (NADH)
-    - metabolites: !!omap
-      - 3ocd26ocoa_c: 1.0
-      - 3oce26ocoa_c: -1.0
-      - nad_c: -1.0
-      - nadh_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO1197
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: 3OCHOCDH_NADH
-      - biocyc: RXN-12703_NADH
-      - ec-code: 1.3.99
-      - origin: Sco4
-  - !!omap
-    - id: ZCARDS_NADH
-    - name: zeta-carotene desaturase;all-trans-zeta-carotene desaturase (NADH)
-    - metabolites: !!omap
-      - nad_c: -1.0
-      - nadh_c: 1.0
-      - neuspn_c: 1.0
-      - zcarote_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO0186 or SCO2101
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: ZCARDS_NADH
-      - biocyc: RXN-8022_NADH
-      - kegg.reaction: R04798
-      - origin: Sco4
-      - rhea: '30614'
-  - !!omap
-    - id: ZCAROTDH2_NADH
-    - name: Neurosporene, hydrogen-donor:oxygen oxidoreductase (NADH)
-    - metabolites: !!omap
-      - h2o_c: 2.0
-      - lycop_c: 1.0
-      - nad_c: 1.0
-      - nadh_c: -1.0
-      - neuspn_c: -1.0
-      - o2_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO0186 or SCO2101
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: ZCAROTDH2_NADH
-      - biocyc: R04800_NADH
-      - ec-code:
-        - 1.3.5.6
-        - 1.3.99.26
-        - 1.3.99.30
-        - 1.3.99.31
-      - kegg.orthology:
-        - K00514
-        - K10027
-        - K15745
-      - kegg.pathway:
-        - rn00906
-        - rn01110
-      - kegg.reaction: R04800
       - origin: Sco4
   - !!omap
     - id: CPKS1
@@ -77609,6 +76976,369 @@
         - ''
     - annotation: !!omap
       - origin: iAA1259
+  - !!omap
+    - id: PSEUDO_DONOR_NADH
+    - name: Pseudoreaction converting nadh to donor
+    - metabolites: !!omap
+      - donor_c: 1
+      - nadh_c: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: PSEDUO_DONOR_NADPH
+    - name: Pseudoreaction converting nadph to donor
+    - metabolites: !!omap
+      - donor_c: 1
+      - nadph_c: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: PSEUDO_ACCEPTOR_NAD
+    - name: Pseudoreaction converting nad to acceptor
+    - metabolites: !!omap
+      - acceptor_c: 1
+      - nad_c: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: PSEDUO_ACCEPTOR_NADP
+    - name: Pseudoreaction converting nadp to acceptor
+    - metabolites: !!omap
+      - acceptor_c: 1
+      - nadp_c: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: 3OCHOCDH
+    - name: '3-oxocholest-4-en-26-oyl-CoA dehydrogenase '
+    - metabolites: !!omap
+      - 3ocd26ocoa_c: 1.0
+      - 3oce26ocoa_c: -1.0
+      - acceptor_c: -1.0
+      - donor_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO1197
+    - annotation: !!omap
+      - SBO: SBO:0000176
+      - bigg.reaction: 3OCHOCDH
+      - biocyc: RXN-12703
+      - ec-code: 1.3.99
+      - origin: Sco4
+  - !!omap
+    - id: 3OXCOADH
+    - name: '3-oxochol-4-en-24-oyl-CoA dehydrogenase '
+    - metabolites: !!omap
+      - 3oc4en24ocoa_c: -1.0
+      - 3ocdncoa_c: 1.0
+      - acceptor_c: -1.0
+      - donor_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO1198
+    - annotation: !!omap
+      - SBO: SBO:0000176
+      - bigg.reaction: 3OXCOADH
+      - biocyc: RXN-12707
+      - ec-code: 1.3.99
+      - origin: Sco4
+  - !!omap
+    - id: 44DPCDH
+    - name: "4,4'-diapolycopenedial dehydrogenase "
+    - metabolites: !!omap
+      - 44dpcop_c: -1.0
+      - 44dpcopd_c: 1.0
+      - acceptor_c: -2.0
+      - donor_c: 2.0
+      - h2o_c: -2.0
+      - h_c: 2.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6793
+    - annotation: !!omap
+      - SBO: SBO:0000176
+      - bigg.reaction: 44DPCDH
+      - biocyc: RXN-12225
+      - ec-code: 1.2.99
+      - kegg.reaction: R11914
+      - origin: Sco4
+  - !!omap
+    - id: 4HYDPRO
+    - name: 'cis-4-hydroxy-D-proline dehydrogenase;D-hydroxyproline dehydrogenase '
+    - metabolites: !!omap
+      - 1p4h2cbxl_c: 1.0
+      - acceptor_c: 1.0
+      - chdpro__D_c: -1.0
+      - donor_c: -1.0
+      - h2o_c: 2.0
+      - h_c: 1.0
+      - o2_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6289
+    - annotation: !!omap
+      - SBO: SBO:0000176
+      - bigg.reaction: 4HYDPRO
+      - biocyc: RXN-8003
+      - ec-code: 1.14.19
+      - kegg.reaction: R11428
+      - origin: Sco4
+  - !!omap
+    - id: 4NITROB
+    - name: '4-nitrobenzoate reductase '
+    - metabolites: !!omap
+      - 4hambz_c: 1.0
+      - 4nitrobz_c: -1.0
+      - acceptor_c: 2.0
+      - donor_c: -2.0
+      - h2o_c: 1.0
+      - h_c: -2.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO0044
+    - annotation: !!omap
+      - SBO: SBO:0000176
+      - bigg.reaction: 4NITROB
+      - biocyc: R364-RXN
+      - ec-code: 1.7.1
+      - origin: Sco4
+  - !!omap
+    - id: AHLGAL
+    - name: '3,6-anhydro-L-galactose dehydrogenase '
+    - metabolites: !!omap
+      - 36ahgalfur_c: -1.0
+      - acceptor_c: -1.0
+      - ahgalac__L_c: 1.0
+      - donor_c: 1.0
+      - h2o_c: -1.0
+      - h_c: 2.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO3486
+    - annotation: !!omap
+      - SBO: SBO:0000176
+      - bigg.reaction: AHLGAL
+      - biocyc: RXN-15892
+      - ec-code: 1.2.1.92
+      - origin: Sco4
+  - !!omap
+    - id: AHOPS
+    - name: 'adenosyl hopane synthase '
+    - metabolites: !!omap
+      - acceptor_c: 1.0
+      - ahop_c: 1.0
+      - amet_c: -1.0
+      - donor_c: -1.0
+      - h_c: 1.0
+      - hop22en_c: -1.0
+      - met__L_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO6766
+    - annotation: !!omap
+      - SBO: SBO:0000176
+      - bigg.reaction: AHOPS
+      - biocyc: RXN-13528
+      - origin: Sco4
+  - !!omap
+    - id: CADHX
+    - name: 'cadaverine hydroxylase '
+    - metabolites: !!omap
+      - 15dap_c: -1.0
+      - acceptor_c: 1.0
+      - donor_c: -1.0
+      - h2o_c: 1.0
+      - h_c: 1.0
+      - hdoxcad_c: 1.0
+      - o2_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO2016 or SCO2783
+    - annotation: !!omap
+      - SBO: SBO:0000176
+      - bigg.reaction: CADHX
+      - biocyc: RXN-10995
+      - origin: Sco4
+  - !!omap
+    - id: DDALLO
+    - name: 'dTDP-(2R,6S)-6-hydroxy-2-methyl-3-oxo-3,6-dihydro-2H-pyran-4-olate 3-ketoreductase
+        (dTDP-4-dehydro-2,6-dideoxy-alpha-D-allose-forming) '
+    - metabolites: !!omap
+      - acceptor_c: 1.0
+      - donor_c: -1.0
+      - dtdp26ddgh2e2u_c: -1.0
+      - dtdp4dh26dall_c: 1.0
+      - h_c: -2.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO4339 or SCO4352
+    - annotation: !!omap
+      - SBO: SBO:0000176
+      - bigg.reaction: DDALLO
+      - biocyc: RXN-12940
+      - ec-code: 1.17.1
+      - origin: Sco4
+  - !!omap
+    - id: DPCOX
+    - name: 'diapolycopene oxygenase '
+    - metabolites: !!omap
+      - 44dpcop_c: 1.0
+      - acceptor_c: 4.0
+      - at44dcop_c: -1.0
+      - donor_c: -4.0
+      - h2o_c: 6.0
+      - o2_c: -4.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO2101
+    - annotation: !!omap
+      - SBO: SBO:0000176
+      - bigg.reaction: DPCOX
+      - biocyc: RXN-12223
+      - ec-code: 1.14.99.44
+      - kegg.reaction: R09671
+      - origin: Sco4
+      - rhea: '31022'
+  - !!omap
+    - id: GDP64HRD
+    - name: 'GDP-6-deoxy-4-keto-D-lyxo-heptose 4-reductase '
+    - metabolites: !!omap
+      - acceptor_c: 1.0
+      - donor_c: -1.0
+      - gdp6dklh_c: -1.0
+      - gdp6domanhep_c: 1.0
+      - h_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO0395
+    - annotation: !!omap
+      - SBO: SBO:0000176
+      - bigg.reaction: GDP64HRD
+      - biocyc: RXN-16164
+      - ec-code: 1.1.1
+      - origin: Sco4
+  - !!omap
+    - id: 4HDAPMO
+    - name: 4-hydroxyacetophenone monooxygenase
+    - metabolites: !!omap
+      - 4hphac_c: 1.0
+      - acceptor_c: 1.0
+      - donor_c: -1.0
+      - h2o_c: 1.0
+      - haphenon_c: -1.0
+      - o2_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO3172
+    - annotation: !!omap
+      - SBO: SBO:0000176
+      - bigg.reaction: 4HDAPMO
+      - biocyc: 1.14.13.84-RXN
+      - ec-code: 1.14.13.84
+      - kegg.reaction: R06892
+      - metanetx.reaction: MNXR110620
+      - origin: Sco4
+      - rhea: '22916'
+  - !!omap
+    - id: PHYFLUDS
+    - name: 'all-trans phytofluene desaturase '
+    - metabolites: !!omap
+      - acceptor_c: -1.0
+      - atphyflu_c: -1.0
+      - donor_c: 1.0
+      - zcarote_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO0186
+    - annotation: !!omap
+      - SBO: SBO:0000176
+      - bigg.reaction: PHYFLUDS
+      - biocyc: RXN-8024
+      - kegg.reaction: R04787
+      - origin: Sco4
+      - rhea: '30610'
+  - !!omap
+    - id: PHYTDES
+    - name: 'phytoene desaturase;all-trans-phytoene desaturase;15-cis-phytoene desaturase '
+    - metabolites: !!omap
+      - 15cphyt_c: -1.0
+      - acceptor_c: -1.0
+      - atphyflu_c: 1.0
+      - donor_c: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO0186
+    - annotation: !!omap
+      - SBO: SBO:0000176
+      - bigg.reaction: PHYTDES
+      - biocyc: RXN-8023
+      - kegg.reaction: R09692
+      - origin: Sco4
+      - rhea: '30606'
+  - !!omap
+    - id: SORBDH
+    - name: 'L-sorbosone dehydrogenase '
+    - metabolites: !!omap
+      - acceptor_c: -1.0
+      - ascb__L_c: 1.0
+      - donor_c: 1.0
+      - h_c: 1.0
+      - sorb14lac_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO5508
+    - annotation: !!omap
+      - SBO: SBO:0000176
+      - bigg.reaction: SORBDH
+      - biocyc: RXN-8781
+      - origin: Sco4
+  - !!omap
+    - id: ZCARDS
+    - name: 'zeta-carotene desaturase;all-trans-zeta-carotene desaturase '
+    - metabolites: !!omap
+      - acceptor_c: -1.0
+      - donor_c: 1.0
+      - neuspn_c: 1.0
+      - zcarote_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO0186 or SCO2101
+    - annotation: !!omap
+      - SBO: SBO:0000176
+      - bigg.reaction: ZCARDS
+      - biocyc: RXN-8022
+      - kegg.reaction: R04798
+      - origin: Sco4
+      - rhea: '30614'
+  - !!omap
+    - id: ZCAROTDH2
+    - name: 'Neurosporene, hydrogen-donor:oxygen oxidoreductase '
+    - metabolites: !!omap
+      - acceptor_c: 1.0
+      - donor_c: -1.0
+      - h2o_c: 2.0
+      - lycop_c: 1.0
+      - neuspn_c: -1.0
+      - o2_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: SCO0186 or SCO2101
+    - annotation: !!omap
+      - SBO: SBO:0000176
+      - bigg.reaction: ZCAROTDH2
+      - biocyc: R04800
+      - ec-code:
+        - 1.3.5.6
+        - 1.3.99.26
+        - 1.3.99.30
+        - 1.3.99.31
+      - kegg.reaction: R04800
+      - metanetx.reaction: MNXR105275
+      - origin: Sco4
 - genes:
   - !!omap
     - id: SCO5089
@@ -81559,10 +81289,16 @@
     - id: SCO3183
     - name: ''
   - !!omap
+    - id: SCO0813
+    - name: ''
+  - !!omap
+    - id: SCO1901
+    - name: ''
+  - !!omap
     - id: SCO5519
     - name: ''
   - !!omap
-    - id: SCO0813
+    - id: SCO6793
     - name: ''
   - !!omap
     - id: SCO7139
@@ -81571,22 +81307,16 @@
     - id: SCO6441
     - name: ''
   - !!omap
-    - id: SCO6793
-    - name: ''
-  - !!omap
-    - id: SCO3915
+    - id: SCO0164
     - name: ''
   - !!omap
     - id: SCO0079
     - name: ''
   - !!omap
+    - id: SCO3915
+    - name: ''
+  - !!omap
     - id: SCO04919
-    - name: ''
-  - !!omap
-    - id: SCO1901
-    - name: ''
-  - !!omap
-    - id: SCO0164
     - name: ''
   - !!omap
     - id: SCO0103
@@ -81639,13 +81369,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO4264
-    - name: SCO4264
+    - id: SCO5700
+    - name: SCO5700
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO5700
-    - name: SCO5700
+    - id: SCO4264
+    - name: SCO4264
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -81714,13 +81444,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO1206
-    - name: SCO1206
+    - id: SCO7671
+    - name: SCO7671
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO7671
-    - name: SCO7671
+    - id: SCO1206
+    - name: SCO1206
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -81789,13 +81519,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO0429
-    - name: SCO0429
+    - id: SCO7264
+    - name: SCO7264
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO7264
-    - name: SCO7264
+    - id: SCO0429
+    - name: SCO0429
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -81804,13 +81534,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3730
-    - name: SCO3730
+    - id: SCO0299
+    - name: SCO0299
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO0299
-    - name: SCO0299
+    - id: SCO3730
+    - name: SCO3730
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -81859,13 +81589,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6730
-    - name: SCO6730
+    - id: SCO6785
+    - name: SCO6785
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6785
-    - name: SCO6785
+    - id: SCO6730
+    - name: SCO6730
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -81874,8 +81604,8 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3823
-    - name: SCO3823
+    - id: SCO4266
+    - name: SCO4266
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -81884,18 +81614,18 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO1199
-    - name: SCO1199
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO4266
-    - name: SCO4266
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
     - id: SCO5073
     - name: SCO5073
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO3823
+    - name: SCO3823
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO1199
+    - name: SCO1199
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -81924,23 +81654,23 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO1109
-    - name: SCO1109
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
     - id: SCO5980
     - name: SCO5980
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO0122
-    - name: SCO0122
+    - id: SCO1109
+    - name: SCO1109
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
     - id: SCO7468
     - name: SCO7468
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO0122
+    - name: SCO0122
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -81989,13 +81719,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO4339
-    - name: SCO4339
+    - id: SCO4352
+    - name: SCO4352
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO4352
-    - name: SCO4352
+    - id: SCO4339
+    - name: SCO4339
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82049,13 +81779,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3698
-    - name: SCO3698
+    - id: SCO6837
+    - name: SCO6837
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6837
-    - name: SCO6837
+    - id: SCO3698
+    - name: SCO3698
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82109,13 +81839,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO5984
-    - name: SCO5984
+    - id: SCO6938
+    - name: SCO6938
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6938
-    - name: SCO6938
+    - id: SCO5984
+    - name: SCO5984
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82169,13 +81899,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO0362
-    - name: SCO0362
+    - id: SCO3130
+    - name: SCO3130
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3130
-    - name: SCO3130
+    - id: SCO0362
+    - name: SCO0362
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82199,18 +81929,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3480
-    - name: SCO3480
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
     - id: SCO7629
     - name: SCO7629
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO0347
-    - name: SCO0347
+    - id: SCO3480
+    - name: SCO3480
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82219,8 +81944,18 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
+    - id: SCO0347
+    - name: SCO0347
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
     - id: SCO6782
     - name: SCO6782
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO1428
+    - name: SCO1428
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82231,11 +81966,6 @@
   - !!omap
     - id: SCO3051
     - name: SCO3051
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO1428
-    - name: SCO1428
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82274,13 +82004,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO7119
-    - name: SCO7119
+    - id: SCO0348
+    - name: SCO0348
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO0348
-    - name: SCO0348
+    - id: SCO7119
+    - name: SCO7119
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82384,18 +82114,23 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6706
-    - name: SCO6706
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
     - id: SCO0179
     - name: SCO0179
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
+    - id: SCO6706
+    - name: SCO6706
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
     - id: SCO3415
     - name: SCO3415
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO2850
+    - name: SCO2850
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82406,11 +82141,6 @@
   - !!omap
     - id: SCO0346
     - name: SCO0346
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO2850
-    - name: SCO2850
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82519,13 +82249,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6344
-    - name: SCO6344
+    - id: SCO7601
+    - name: SCO7601
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO7601
-    - name: SCO7601
+    - id: SCO6344
+    - name: SCO6344
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82564,21 +82294,6 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO7205
-    - name: SCO7205
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO1097
-    - name: SCO1097
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO3446
-    - name: SCO3446
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
     - id: SCO0899
     - name: SCO0899
     - annotation: !!omap
@@ -82594,13 +82309,18 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3242
-    - name: SCO3242
+    - id: SCO3446
+    - name: SCO3446
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO4491
-    - name: SCO4491
+    - id: SCO7205
+    - name: SCO7205
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO1097
+    - name: SCO1097
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82609,8 +82329,23 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
+    - id: SCO4491
+    - name: SCO4491
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO3242
+    - name: SCO3242
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
     - id: SCO7611
     - name: SCO7611
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO1923
+    - name: SCO1923
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82624,18 +82359,8 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO1923
-    - name: SCO1923
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
     - id: SCO6170
     - name: SCO6170
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO2941
-    - name: SCO2941
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82654,6 +82379,11 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
+    - id: SCO2941
+    - name: SCO2941
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
     - id: SCO3203
     - name: SCO3203
     - annotation: !!omap
@@ -82669,13 +82399,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO1676
-    - name: SCO1676
+    - id: SCO6487
+    - name: SCO6487
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6487
-    - name: SCO6487
+    - id: SCO1676
+    - name: SCO1676
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82724,13 +82454,8 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO0240
-    - name: SCO0240
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
-    - id: SCO7693
-    - name: SCO7693
+    - id: SCO0235
+    - name: SCO0235
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82739,8 +82464,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO0235
-    - name: SCO0235
+    - id: SCO0240
+    - name: SCO0240
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO7693
+    - name: SCO7693
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82774,23 +82504,23 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3770
-    - name: SCO3770
-    - annotation: !!omap
-      - SBO: SBO:0000252
-  - !!omap
     - id: SCO3099
     - name: SCO3099
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO6111
-    - name: SCO6111
+    - id: SCO3770
+    - name: SCO3770
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
     - id: SCO7680
     - name: SCO7680
+    - annotation: !!omap
+      - SBO: SBO:0000252
+  - !!omap
+    - id: SCO6111
+    - name: SCO6111
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82819,13 +82549,13 @@
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO4332
-    - name: SCO4332
+    - id: SCO3216
+    - name: SCO3216
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
-    - id: SCO3216
-    - name: SCO3216
+    - id: SCO4332
+    - name: SCO4332
     - annotation: !!omap
       - SBO: SBO:0000252
   - !!omap
@@ -82841,13 +82571,13 @@
     - id: SCO6279
     - name: ''
   - !!omap
-    - id: SCO6276
-    - name: ''
-  - !!omap
     - id: SCO6281
     - name: ''
   - !!omap
     - id: SCO6272
+    - name: ''
+  - !!omap
+    - id: SCO6276
     - name: ''
   - !!omap
     - id: SCO6278
@@ -82856,61 +82586,61 @@
     - id: SCO5134
     - name: ''
   - !!omap
+    - id: SCO2292
+    - name: ''
+  - !!omap
+    - id: SCO1883
+    - name: ''
+  - !!omap
+    - id: SCO0674
+    - name: ''
+  - !!omap
     - id: SCO5931
     - name: ''
   - !!omap
     - id: SCO0105
     - name: ''
   - !!omap
-    - id: SCO0674
-    - name: ''
-  - !!omap
-    - id: SCO1883
-    - name: ''
-  - !!omap
-    - id: SCO2292
-    - name: ''
-  - !!omap
     - id: SCO6548
-    - name: ''
-  - !!omap
-    - id: SCO1444
-    - name: ''
-  - !!omap
-    - id: SCO7225
     - name: ''
   - !!omap
     - id: SCO5673
     - name: ''
   - !!omap
-    - id: SCO1429
+    - id: SCO7225
     - name: ''
   - !!omap
-    - id: SCO2833
-    - name: ''
-  - !!omap
-    - id: SCO7263
-    - name: ''
-  - !!omap
-    - id: SCO5954
-    - name: ''
-  - !!omap
-    - id: SCO0482
-    - name: ''
-  - !!omap
-    - id: SCO5376
+    - id: SCO1444
     - name: ''
   - !!omap
     - id: SCO5003
     - name: ''
   - !!omap
+    - id: SCO2503
+    - name: ''
+  - !!omap
+    - id: SCO7263
+    - name: ''
+  - !!omap
+    - id: SCO5376
+    - name: ''
+  - !!omap
+    - id: SCO1429
+    - name: ''
+  - !!omap
     - id: SCO6012
     - name: ''
   - !!omap
-    - id: SCO6345
+    - id: SCO5954
     - name: ''
   - !!omap
-    - id: SCO2503
+    - id: SCO2833
+    - name: ''
+  - !!omap
+    - id: SCO0482
+    - name: ''
+  - !!omap
+    - id: SCO6345
     - name: ''
   - !!omap
     - id: SCO6266
@@ -82922,22 +82652,16 @@
     - id: SCO6956
     - name: ''
   - !!omap
-    - id: SCO5498
-    - name: ''
-  - !!omap
-    - id: SCO5499
-    - name: ''
-  - !!omap
     - id: SCO3835
-    - name: ''
-  - !!omap
-    - id: SCO7235
     - name: ''
   - !!omap
     - id: SCO4655
     - name: ''
   - !!omap
-    - id: SCO0554
+    - id: SCO5499
+    - name: ''
+  - !!omap
+    - id: SCO5498
     - name: ''
   - !!omap
     - id: SCO0765
@@ -82946,11 +82670,17 @@
     - id: SCO7637
     - name: ''
   - !!omap
+    - id: SCO0554
+    - name: ''
+  - !!omap
     - id: SCO2154
+    - name: ''
+  - !!omap
+    - id: SCO7235
     - name: ''
 - id: scoGEM
 - name: scoGEM
 - compartments: !!omap
   - c: Cytoplasm
   - e: Extracellular
-- version: '1.2'
+- version: '1'
