@@ -20,6 +20,10 @@ import add_missing_gene_annotations_sco4
 import add_reactions_from_sco4
 import annotate_new_rxns_and_mets_from_sco4
 import add_and_modify_reactions_according_to_iAA1259
+import fix_issue12_reversibility
+import redox_pseudometabolite
+import fix_issue33_annotation_bugs
+
 
 SAVE_PATH = "../../ModelFiles/xml/scoGEM.xml"
 iKS1317_PATH = "../../ComplementaryData/models/iKS1317.xml"
@@ -66,6 +70,11 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
     scoGEM = add_and_modify_reactions_according_to_iAA1259.modify_reactions(scoGEM)
     # Change biomass
     scoGEM = add_and_modify_reactions_according_to_iAA1259.change_biomass(iAA1259_model, scoGEM)
+
+    # Part 4
+    fix_issue12_reversibility.fix(scoGEM)
+    fix_issue33_annotation_bugs.fix(scoGEM)
+    redox_pseudometabolite.run(scoGEM)
 
     # Save model
     ## Version number

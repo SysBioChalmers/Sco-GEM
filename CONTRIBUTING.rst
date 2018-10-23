@@ -56,6 +56,7 @@ Branches
 * The ``master`` branch is protected, which means that direct commits are not allowed. Generally all pull requests should come from the ``devel`` branch and should be carefully reviewed before merged. **[Mention memote results]**. An update in the ``master`` branch triggers an update in model version.
 * The ``devel`` branch is protected, which means that direct commits are not allowed. All pull requests should come from semantically named feature branches.
 * When starting development, either contribute to an existing (relevant) feature branch, or make a new branch that is connected to the latest commit on the ``devel`` branch.
+* Try to avoid merging feature branches. Rather, make a pull request to ``devel`` for the first branch and once accepted then merge ``devel`` with the second branch. This way, pull requests only contain changes from one branch and should be more focused. If needed, temporary `test` branches can be used to evaluate the effect of merging different feature branches.
 
 Semantic naming of feature branches, commits and pull requests
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
