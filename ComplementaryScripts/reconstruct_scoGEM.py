@@ -14,28 +14,30 @@ The scoGEM community model of Streptomyces coelicolor is constructed using the t
 import cobra
 import logging
 
-import fix_iKS1317_issues
-import fix_sco4_issues
-import add_missing_gene_annotations_sco4
-import add_reactions_from_sco4
-import annotate_new_rxns_and_mets_from_sco4
-import add_and_modify_reactions_according_to_iAA1259
-import fix_issue12_reversibility
-import fix_issue33_annotation_bugs
-import redox_pseudometabolite
-import fix_SBO_terms
+from consensusModel import fix_iKS1317_issues
+from consensusModel import fix_sco4_issues
+from consensusModel import add_missing_gene_annotations_sco4
+from consensusModel import add_reactions_from_sco4
+from consensusModel import annotate_new_rxns_and_mets_from_sco4
+from consensusModel import add_and_modify_reactions_according_to_iAA1259
+from consensusModel import fix_issue12_reversibility
+from consensusModel import fix_issue33_annotation_bugs
+from consensusModel import redox_pseudometabolite
+from consensusModel import fix_SBO_terms
+import export
 
-SAVE_PATH = "../../ModelFiles/xml/scoGEM.xml"
-iKS1317_PATH = "../../ComplementaryData/models/iKS1317.xml"
 
-SCO4_PATH = "../../ComplementaryData/models/Sco4.xml"
-SCO4_REACTION_MAPPING_FN = "../../ComplementaryData/curation/rxns_iKS1317_vs_Sco4.csv"
-SCO4_METABOLITE_MAPPING_FN =  "../../ComplementaryData/curation/mets_iKS1317_vs_Sco4.csv"
-SCO4_REACTION_ANNOTATION_FN = "../../ComplementaryData/curation/added_sco4_reactions.csv"
-SCO4_METABOLITE_ANNOTATION_FN = "../../ComplementaryData/curation/added_sco4_metabolites.csv"
+SAVE_PATH = "../ModelFiles/xml/scoGEM.xml"
+iKS1317_PATH = "../ComplementaryData/models/iKS1317.xml"
 
-iAA1259_PATH = "../../ComplementaryData/models/iAA1259.xml"
-iAA1259_NEW_REACTIONS_FN = "../../ComplementaryData/curation/iAA1259_suppl_S4.csv" # New reactions
+SCO4_PATH = "../ComplementaryData/models/Sco4.xml"
+SCO4_REACTION_MAPPING_FN = "../ComplementaryData/curation/rxns_iKS1317_vs_Sco4.csv"
+SCO4_METABOLITE_MAPPING_FN =  "../ComplementaryData/curation/mets_iKS1317_vs_Sco4.csv"
+SCO4_REACTION_ANNOTATION_FN = "../ComplementaryData/curation/added_sco4_reactions.csv"
+SCO4_METABOLITE_ANNOTATION_FN = "../ComplementaryData/curation/added_sco4_metabolites.csv"
+
+iAA1259_PATH = "../ComplementaryData/models/iAA1259.xml"
+iAA1259_NEW_REACTIONS_FN = "../ComplementaryData/curation/iAA1259_suppl_S4.csv" # New reactions
 
 def reconstruct_scoGEM(model_fn, save_fn = None):
     scoGEM = cobra.io.read_sbml_model(model_fn)
@@ -78,10 +80,7 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
     fix_SBO_terms.add_SBO(scoGEM)
 
     # Save model
-    ## Version number
-    cobra.io.write_sbml_model(scoGEM, save_fn)
-    cobra.io.save_yaml_model(scoGEM, "../../ModelFiles/yml/scoGEM.yml")
-
+    export.export(scoGEM, formats = ["xml", "yml"])
 
 if __name__ == '__main__':
     logging.basicConfig(filename='reconstruct_scoGEM.log', level=logging.INFO)

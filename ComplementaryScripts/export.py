@@ -93,10 +93,16 @@ def export(scoGEM, folder = "ModelFiles", name = "scoGEM", formats = ["xml", "ym
     main_folder_path = REPO_MAIN_FOLDER / folder
     # write xml
     if ("xml" in formats) or ("sbml" in formats):
-        model_fn_xml = main_folder_path / "xml" / "{0}.xml".format(name)
-        check_folder(model_fn_xml)
-        print("Writing {0}".format(str(model_fn_xml)))
-        cobra.io.write_sbml_model(scoGEM, str(model_fn_xml))
+        if sbml_level == 3:
+            model_fn_xml = main_folder_path / "xml" / "{0}.xml".format(name)
+            check_folder(model_fn_xml)
+            print("Writing {0}".format(str(model_fn_xml)))
+            cobra.io.write_sbml_model(scoGEM, str(model_fn_xml), use_fbc_package = use_fbc_package)
+        else:
+            model_fn_xml = main_folder_path / "xml" / "{0}_lvl2.xml".format(name)
+            check_folder(model_fn_xml)
+            print("Writing {0}".format(str(model_fn_xml)))
+            cobra.io.write_legacy_sbml(scoGEM, str(model_fn_xml), use_fbc_package = use_fbc_package)
     
     if ("yml" in formats) or ("yaml" in formats):
         model_fn_yml = main_folder_path / "yml" / "{0}.yml".format(name)
@@ -239,4 +245,8 @@ if __name__ == '__main__':
             raise
 
         else:
-            export(scoGEM, args.folder, args.name, args.formats, args.sbml_version, args.sbml_level, args.use_fbc_package)
+            if args.sbml_version != 1:
+                print("Currently, only SBML-version 1 is supported. sbml_version parameter ignored.")
+            sbml_version = 1
+                
+            export(scoGEM, args.folder, args.name, args.formats, args.sbml_level, sbml_version, args.use_fbc_package)
