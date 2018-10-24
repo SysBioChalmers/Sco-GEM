@@ -36,18 +36,18 @@ The model entities are presented in the following order in the model files,
     c. Encapsulating  (SBO:0000395)
     d. Pseudo (SBO:0000631)
     e. Biochemical [normal] (SBO:0000176)
-    f. transport (SBO:0000655)
-    g. demand (SBO:0000628)
-    h. exchange (SBO:0000627)
-    i. sink (SBO:0000632)
-    j. other 
-    k. non-sbo  
+    f. Transport (SBO:0000655)
+    g. Demand (SBO:0000628)
+    h. Exchange (SBO:0000627)
+    i. Sink (SBO:0000632)
+    j. Other 
+    k. Non-sbo  
 
 Example
 =======
 The script can either be run directly from the command line::
 
-    $ python export.py scoGEM.xml -- folder ModelFiles --formats xml yml txt
+    $ python export.py scoGEM.xml --folder ModelFiles --formats xml yml txt
 
 or using the module function::
     from export import export
