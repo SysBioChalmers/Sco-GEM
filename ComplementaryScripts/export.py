@@ -75,7 +75,7 @@ def export(scoGEM, folder = "ModelFiles", name = "scoGEM", formats = ["xml", "ym
     scoGEM: cobra.core.model.Model
         The model file
     folder: str, optional
-        The folder in which all the model files are stored (default: "ModelFiles")
+        The subfolder in the repository in which all the model files are stored, relative to the root dir of the repository (default: "ModelFiles")
     name: str, optional
         Model file name (default: "scoGEM")
     formats: list of str, optional
@@ -229,7 +229,7 @@ if __name__ == '__main__':
         parser.add_argument("model_path", help = "Path to SBML (xml) model file")
         parser.add_argument("--formats", nargs='+', help = "The different file formats to export the model in", default = ["xml", "yml", "txt"])
         parser.add_argument("--name", type = str, help = "General name of exported model files", default = "scoGEM")
-        parser.add_argument("--folder", type = str, help = "General name folder to store model files", default = "ModelFiles")
+        parser.add_argument("--folder", type = str, help = "The general subfolder relative to the repo's root directory to store the model files in", default = "ModelFiles")
         parser.add_argument("--sbml_level", type = str, help = "SBML level", default = 3)
         parser.add_argument("--sbml_version", type = str, help = "SBML version", default = 1)
         parser.add_argument("--use_fbc_package", type = bool, help = "Use the fbc package", default = True)
