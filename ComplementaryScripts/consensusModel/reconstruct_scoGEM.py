@@ -22,6 +22,7 @@ import annotate_new_rxns_and_mets_from_sco4
 import add_and_modify_reactions_according_to_iAA1259
 import fix_issue12_reversibility
 import fix_issue33_annotation_bugs
+import redox_pseudometabolite
 import fix_SBO_terms
 
 SAVE_PATH = "../../ModelFiles/xml/scoGEM.xml"
@@ -73,8 +74,7 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
     # Part 4
     fix_issue12_reversibility.fix(scoGEM)
     fix_issue33_annotation_bugs.fix(scoGEM)
-
-
+    redox_pseudometabolite.run(scoGEM)
     fix_SBO_terms.add_SBO(scoGEM)
 
     # Save model
