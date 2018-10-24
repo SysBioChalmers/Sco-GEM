@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 """
 This file reconstructs scoGEM, the genome-scale model for Streptomyces coelicolor A3(2).
 Author: Snorre Sulheim
@@ -22,6 +22,7 @@ import annotate_new_rxns_and_mets_from_sco4
 import add_and_modify_reactions_according_to_iAA1259
 import fix_issue12_reversibility
 import fix_issue33_annotation_bugs
+import fix_SBO_terms
 
 SAVE_PATH = "../../ModelFiles/xml/scoGEM.xml"
 iKS1317_PATH = "../../ComplementaryData/models/iKS1317.xml"
@@ -72,6 +73,9 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
     # Part 4
     fix_issue12_reversibility.fix(scoGEM)
     fix_issue33_annotation_bugs.fix(scoGEM)
+
+
+    fix_SBO_terms.add_SBO(scoGEM)
 
     # Save model
     ## Version number
