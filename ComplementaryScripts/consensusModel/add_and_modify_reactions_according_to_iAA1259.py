@@ -19,7 +19,7 @@ import csv
 from ast import literal_eval
 
 # from compare_iMK1208_content import fix_iAA1259
-from add_reactions_from_sco4 import check_metabolites
+from consensusModel.add_reactions_from_sco4 import check_metabolites
 
 S4_FN = "../../ComplementaryData/curation/iAA1259_suppl_S4.csv" # New reactions
 S5_FN = "../../ComplementaryData/curation/iAA1259_suppl_S5.csv" # New metabolites
