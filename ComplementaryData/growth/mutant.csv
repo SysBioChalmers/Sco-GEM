@@ -1,0 +1,18 @@
+Mutant name;                Genes;              Carbon source;                        Nitrogen source; Carbon exchange reactions;             Nitrogen exchange reactions; In vivo growth; doi;
+Delta msdA;                 SCO2726;            Propanoate;                           Ammonium;        EX_ppa_e;                              EX_nh4_e;                  True;;  
+Delta msdA;                 SCO2726;            L-valine;                             Ammonium;        EX_val__L_e;                           EX_nh4_e;                  False;;
+Delta msdA;                 SCO2726;            D-glucose;                            Ammonium;        EX_glc__D_e;                           EX_nh4_e;                  False;;
+Delta malE;                 SCO2231;            Maltose;                              Ammonium;        EX_malt_e ;                            EX_nh4_e;                  False;;
+Delta glnA;                 SCO2198;            L-Glutamine;                          Ammonium;        EX_gln__L_e;                           EX_nh4_e;                  True;;
+Delta glnE;                 SCO2234;            D-glucose;                            Ammonium;        EX_glc__D_e;                           EX_nh4_e;                  True;;
+Delta hisA;                 SCO2050;            D-glucose;                            Ammonium;        EX_glc__D_e;                           EX_nh4_e;                  False;;
+Delta argG;                 SCO7036;            D-glucose;                            Ammonium;        EX_glc__D_e;                           EX_nh4_e;                  False;;
+Delta trpC1; Delta trpD1;   SCO2039; SCO3211;   D-glucose;                            Ammonium;        EX_glc__D_e;                           EX_nh4_e;                  False;;
+Delta argG;                 SCO7036;            D-glucose, L-arginine;                Ammonium;        EX_glc__D_e, EX_arg__L_e;              EX_nh4_e;                  True;;
+Delta trpC1; Delta trpD1;   SCO2039; SCO3211;   D-glucose, L-tryptophan;              Ammonium;        EX_glc__D_e, EX_trp__L_e;              EX_nh4_e;                  False;;
+Delta hisA;                 SCO2050;            D-glucose, L-tryptophan, L-histidine; Ammonium;        EX_glc__D_e, EX_trp__L_e, EX_his__L_e; EX_nh4_e;                  True;;
+Delta vdh;                  SCO4089;            D-glucose;                            L-isoleucine;    EX_glc__D_e;                           EX_ile__L_e;               False;; 
+Delta vdh;                  SCO4089;            D-glucose;                            L-leucine;       EX_glc__D_e;                           EX_leu__L_e;               False;; 
+Delta vdh;                  SCO4089;            D-glucose;                            L-valine;        EX_glc__D_e;                           EX_val__L_e;               False;; 
+Delta nirB;                 SCO2487; SCO2488;   D-glucose;                            Ammonium;        EX_glc__D_e;                           EX_nh4_e;                  True;;
+Delta nirB;                 SCO2487; SCO2488;   D-glucose;                            Nitrite;         EX_glc__D_e;                           EX_no3_e;                  False;;
