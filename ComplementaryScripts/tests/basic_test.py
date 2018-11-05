@@ -20,7 +20,7 @@ def test_read_model(model):
     ann["message"] = wrapper.fill("The model can be read by cobrapy succsessfuly")
     assert bool(model), ann["message"]
 
-@annotate(title="Test if all reactions have been given names", format_type="raw")
+@annotate(title="Test if all reactions have been given a name", format_type="raw")
 def test_reaction_names(model):
     """
     Test reaction names
@@ -34,7 +34,7 @@ def test_reaction_names(model):
     ann["message"] = wrapper.fill("{0} of {1} reactions don't have names".format(n_r, len(model.reactions)))
     assert n_r == 0, ann["message"]        
 
-@annotate(title="Test if all metabolites have been given names", format_type="raw")
+@annotate(title="Test if all metabolites have been given a name", format_type="raw")
 def test_metabolite_names(model):
     """
     Test metabolite names
