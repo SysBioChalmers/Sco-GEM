@@ -35,10 +35,68 @@ def experiments():
     # df = pd.read_csv("")
 
 
+@annotate(title = "Test growth for knockout-mutants from the litterature in given environments", format_type = "raw")
+def test_single_mutant_growth(model, experiments):
+    """
+    Compare in silico growth with in vivo data for different knock-out mutants found in the litterature
+    in the given environments
+    """
+    # Set minimal media
+    info = experiments["growth"]["experiments"]["single_mutant_growth"]
+    set_medium(model, info["medium"], experiments)
+    
+    # Get in vivo data for mutant growth
+    mutant_growth_df = get_growth_data(info["data"])
+
+    prediction_dict = {
+        "FP": 0, # False positives
+        "TP": 0, # True positives
+        "FN": 0, # False negatives
+        "TN": 0, # True negative
+        }
+    wrong_predictions = []
+    for index, row in mutant_growth_df.iterrows():
+        with model as M:
+            carbon_exchanges = row["Carbon exchange reactions"].split(",")
+            nitrogen_exchanges = row["Nitrogen exchange reactions"].split(",")
+            M = set_carbon_and_nitrogen_uptake(M, carbon_exchanges+nitrogen_exchanges)
+            M = _knock_out_genes(row["Genes"], M)
+            try:
+                s = M.optimize()
+            except:
+                s = None
+            print(index, end = "\t")
+            correct_prediction = classify_prediction(s, row["In vivo growth"], prediction_dict)
+            if not correct_prediction:
+                _print_wrong_prediction(row, s, M)
+                wrong_predictions.append(str(index))
+
+    FN_and_TN = (prediction_dict["TN"] >= 9) and (prediction_dict["FN"] <= 1)
+    FP_and_TP = (prediction_dict["FP"] == 0) and (prediction_dict["TP"] >= 6)
+    ann = test_WT_growth_conditions.annotation
+    ann["message"] = wrapper.fill("""Growth predictions for mutants from the litterature 
+                                     \n(expected in parenthesis):
+                                     \nTP: {0}(6)\t FN: {1}(1) 
+                                     \nFP: {2}(0)\t  TN: {3}(9)
+                                     \nThe prediction is wrong for the following mutants: \n{4}""".format(
+                            *[prediction_dict[x] for x in ["TP", "FN", "FP", "TN"]], ", ".join(wrong_predictions)))
+
+    assert FN_and_TN and FP_and_TP, ann["message"]
+
+def _knock_out_genes(genes_string, model):
+    genes = [g.strip() for g in genes_string.split(",")]
+    for g_id in genes:
+        g = model.genes.get_by_id(g_id)
+        g.knock_out()
+    return model
+
+
+    
+
 @annotate(title = "Test growth in given environments", format_type = "raw")
 def test_WT_growth_conditions(model, experiments):
     """
-    Compare in silic growth with in vivo data for growth in different environements
+    Compare in silico growth with in vivo data for growth in different environements
     """
     # Set minimal media
     info = experiments["growth"]["experiments"]["wild_type_growth"]

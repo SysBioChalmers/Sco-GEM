@@ -20,11 +20,15 @@ medium:
   #     label: "transposon mutagenesis"
 
 
-# growth:
-#   path: "growth/"
-#   # experiments:
-#   #   carbon_sources:
-#   #     medium: minimal_medium_no_C
-#   #   nitrogen_sources:
-#   #     medium: minial_no_N
-
+growth:
+  path: "growth/"
+  experiments:
+    wild_type_growth:
+      medium: minimal_medium_no_carbon_no_nitrogen
+      data: wild_type.csv
+    single_mutant_growth:
+      medium: minimal_medium_no_carbon_no_nitrogen
+      data: single_mutants.csv
+    transposon_mutant_growth:
+      data: transposon_mutants.csv
+      
