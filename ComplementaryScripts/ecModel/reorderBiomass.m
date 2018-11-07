@@ -48,11 +48,12 @@ weightDiff = 1000 + sum(BM.S.*BM.MW,'omitnan');
 sumMisc = -sum(BM.S(miscIdx(~A)).*BM.MW(miscIdx(~A)),'omitnan');
 ratio   = (weightDiff+sumMisc)/sumMisc;
 BM.S(miscIdx(~A)) = BM.S(miscIdx(~A)).*ratio;
-BM.S(contains(BM.met,'misc_c')) = 1;
+BM.S(strcmp(BM.met,'misc_c') & strcmp(BM.rxn,'M')) = 1;
 
 %% Write new biomass coefficients in file
 writetable(struct2table(BM),'../../ComplementaryData/biomass/biomass_scaled.txt','Delimiter','\t');
 
+%% Split up reactions
 psIdx=find(contains(BM.name,'pseudometabolite'));
 [~,psUniq,~]=unique(BM.name(psIdx));
 psIdx=psIdx(psUniq);
@@ -81,4 +82,6 @@ rxnsToAdd.stoichCoeffs={...
 rxnsToAdd.lb=repmat(0,8,1);
 model=addRxns(model,rxnsToAdd);
 model=setParam(model,'eq','BIOMASS_SCO',0);
+model=setParam(model,'eq','BIOMASS_SCO_tRNA',0);
+model=setParam(model,'obj','BM_growth',1);
 end
