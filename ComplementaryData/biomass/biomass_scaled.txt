@@ -6,7 +6,7 @@ dna_c	B	NaN	-1	DNA pseudometabolite
 h_c	B	1.01	75.79	H+
 h2o_c	B	18.02	-75.79	H2O
 lipid_c	B	NaN	-1	lipid pseudometabolite
-misc_c	B	NaN	1	misc pseudometabolite
+misc_c	B	NaN	-1	misc pseudometabolite
 pi_c	B	95.98	75.79	Phosphate
 protein_c	B	NaN	-1	protein pseudometabolite
 rna_c	B	NaN	-1	RNA pseudometabolite
@@ -71,55 +71,55 @@ tagi140_c	L	723.18	-0.000796	"Triacylglycerol (triisotetradecanoyl, iso-C14:0)"
 tagi150_c	L	765.26	-0.002273	"Triacylglycerol (triisopentadecanoyl, iso-C15:0)"
 tagi160_c	L	807.34	-0.004614	"Triacylglycerol (triisohexadecanoyl, iso-C16:0)"
 tagi170_c	L	849.42	-0.001682	"Triacylglycerol (triisoheptadecanoyl, iso-C17:0)"
-10fthf_c	M	471.43	-0.00500043655845132	10-Formyltetrahydrofolate
-15dap_c	M	104.2	-0.0226220724693549	"1,5-Diaminopentane"
-2dmmql9_c	M	773.24	-0.0136934674842714	Demethylmenaquinol
+10fthf_c	M	471.43	-0.00500019814118727	10-Formyltetrahydrofolate
+15dap_c	M	104.2	-0.0226209938650046	"1,5-Diaminopentane"
+2dmmql9_c	M	773.24	-0.0136928145894662	Demethylmenaquinol
 2fe2s_c	M	175.81	-2.579519e-05	[2Fe-2S] iron-sulfur cluster
 4fe4s_c	M	351.62	-0.0001660319	[4Fe-4S] iron-sulfur cluster
-5mthf_c	M	458.46	-0.00514201308667853	5-Methyltetrahydrofolate
+5mthf_c	M	458.46	-0.00514176791914616	5-Methyltetrahydrofolate
 adocbl_c	M	1579.61	-7.581754e-06	Adenosylcobalamin
-amet_c	M	399.45	-0.00590095611504409	S-Adenosyl-L-methionine
+amet_c	M	399.45	-0.00590067476164708	S-Adenosyl-L-methionine
 bmocogdp_c	M	1649.11	-0	bis-molybdopterin guanine dinucleotide
-btn_c	M	243.3	-1.950304e-06	Biotin
-ca2_c	M	40.08	-0.0057466144900095	Calcium
-cl_c	M	35.45	-0.0057466144900095	Chloride
-coa_c	M	679.46	-0.0030868325006917	Coenzyme A
-cobalt2_c	M	58.93	-2.78511203069927e-05	Co2+
-cu2_c	M	63.55	-0.000782152295288046	Cu2+
+btn_c	M	243.3	-1.648628e-05	Biotin
+ca2_c	M	40.08	-0.00574634049551157	Calcium
+cl_c	M	35.45	-0.00574634049551157	Chloride
+coa_c	M	679.46	-0.00308668532271017	Coenzyme A
+cobalt2_c	M	58.93	-2.78497923853549e-05	Co2+
+cu2_c	M	63.55	-0.000782115002822052	Cu2+
 fad_c	M	783.54	-0.0001576062	Flavin adenine dinucleotide oxidized
-fe2_c	M	55.85	-0.00741303985504457	Fe2+
-fe3_c	M	55.85	-0.00861992173501425	Fe3+
+fe2_c	M	55.85	-0.00741268640656864	Fe2+
+fe3_c	M	55.85	-0.00861951074326736	Fe3+
 hemeA_c	M	850.84	-9.283915e-05	Heme A
 hemeO_c	M	836.86	-0	Heme O
-k_c	M	39.1	-0.215486438741895	potassium
+k_c	M	39.1	-0.215476164501523	potassium
 lipopb_c	M	188.3	-4.228099e-05	Protein N6-(lipoyl)lysine
-mg2_c	M	24.31	-0.00957730399556713	magnesium
+mg2_c	M	24.31	-0.00957684735651393	magnesium
 misc_c	M	NaN	1	misc pseudometabolite
-mlthf_c	M	455.43	-0.00517566652371615	"5,10-Methylenetetrahydrofolate"
-mn2_c	M	54.94	-0.000763584881750051	Mn2+
-mobd_c	M	159.95	-8.12324342287288e-06	Molybdate
+mlthf_c	M	455.43	-0.0051754197516118	"5,10-Methylenetetrahydrofolate"
+mn2_c	M	54.94	-0.000763548474565148	Mn2+
+mobd_c	M	159.95	-8.12285611239519e-06	Molybdate
 mocogdp_c	M	864.47	-2.915914e-05	molybdopterin guanine dinucleotide
-mql9_c	M	787.27	-0.0136934674842714	Menaquinol 9
-msh_c	M	486.49	-0.00485653910353186	mycothiol (reduced)
-nad_c	M	662.42	-0.00355798061921832	Nicotinamide adenine dinucleotide
-nadh_c	M	663.43	-0.00355333876583382	Nicotinamide adenine dinucleotide - reduced
-nadp_c	M	740.39	-0.00318431142176617	Nicotinamide adenine dinucleotide phosphate
-nadph_c	M	741.39	-0.00317966956838167	Nicotinamide adenine dinucleotide phosphate - reduced
+mql9_c	M	787.27	-0.0136928145894662	Menaquinol 9
+msh_c	M	486.49	-0.00485630754719627	mycothiol (reduced)
+nad_c	M	662.42	-0.0035578109772291	Nicotinamide adenine dinucleotide
+nadh_c	M	663.43	-0.00355316934516487	Nicotinamide adenine dinucleotide - reduced
+nadp_c	M	740.39	-0.00318415959605892	Nicotinamide adenine dinucleotide phosphate
+nadph_c	M	741.39	-0.00317951796399469	Nicotinamide adenine dinucleotide phosphate - reduced
 nh4_c	M	18.04	-0	Ammonium
-ni2_c	M	58.69	-0.000356262247260282	nickel
+ni2_c	M	58.69	-0.000356245260929332	nickel
 pheme_c	M	614.48	-3.422161e-05	Protoheme
-pppi_c	M	253.92	-0.000163625331803582	Inorganic triphosphate
-ptrc_c	M	90.17	-0.0261417577981511	Putrescine
+pppi_c	M	253.92	-0.00016361753026396	Inorganic triphosphate
+ptrc_c	M	90.17	-0.0261405113777038	Putrescine
 pydx5p_c	M	245.13	-0.0001779235	Pyridoxal 5-phosphate
-ribflv_c	M	376.37	-0.00626302067903499	Riboflavin
-sheme_c	M	908.61	-0.00259479604193482	Siroheme
-so4_c	M	96.06	-0.0047880717661105	Sulfate
-spmd_c	M	148.27	-0.0158971873785622	Spermidine
-sprm_c	M	206.38	-0.0114212802525593	Spermine
-thf_c	M	443.42	-0.00531608258859724	"5,6,7,8-Tetrahydrofolate"
+ribflv_c	M	376.37	-0.00626272206265669	Riboflavin
+sheme_c	M	908.61	-0.00259467232390224	Siroheme
+so4_c	M	96.06	-0.00478784347424894	Sulfate
+spmd_c	M	148.27	-0.0158964294119574	Spermidine
+sprm_c	M	206.38	-0.0114207356940276	Spermine
+thf_c	M	443.42	-0.00531582912155463	"5,6,7,8-Tetrahydrofolate"
 thmpp_c	M	422.29	-2.255546e-05	Thiamine diphosphate
-udcpdp_c	M	924.26	-0.00255069843478209	Undecaprenyl diphosphate
-zn2_c	M	65.38	-0.000375990124144402	Zinc
+udcpdp_c	M	924.26	-0.00255057681929209	Undecaprenyl diphosphate
+zn2_c	M	65.38	-0.000375972197202292	Zinc
 pyr_c	M	88.06	-1.020737e-06	Pyruvate
 fmn_c	M	456.344	-2.102677e-05	Flavin mononucleotide
 fmnh2_c	M	458.364	-1.370829e-05	Flavin mononucleotide - reduced
