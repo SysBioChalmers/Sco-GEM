@@ -24,6 +24,7 @@ from consensusModel import fix_issue12_reversibility
 from consensusModel import fix_issue33_annotation_bugs
 from consensusModel import redox_pseudometabolite
 from consensusModel import fix_SBO_terms
+from consensusModel import fix_biomass
 import export
 
 
@@ -38,6 +39,8 @@ SCO4_METABOLITE_ANNOTATION_FN = "../ComplementaryData/curation/added_sco4_metabo
 
 iAA1259_PATH = "../ComplementaryData/models/iAA1259.xml"
 iAA1259_NEW_REACTIONS_FN = "../ComplementaryData/curation/iAA1259_suppl_S4.csv" # New reactions
+
+NEW_BIOMASS_DATA_FN = "../ComplementaryData/biomass/biomass_scaled.txt"
 
 def reconstruct_scoGEM(model_fn, save_fn = None):
     scoGEM = cobra.io.read_sbml_model(model_fn)
@@ -78,6 +81,7 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
     fix_issue33_annotation_bugs.fix(scoGEM)
     redox_pseudometabolite.run(scoGEM)
     fix_SBO_terms.add_SBO(scoGEM)
+    fix_biomass.fix_biomass(scoGEM, NEW_BIOMASS_DATA_FN)
 
     # Save model
     export.export(scoGEM, formats = ["xml", "yml"])
