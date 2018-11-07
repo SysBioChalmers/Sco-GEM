@@ -27405,7 +27405,7 @@
       - origin: iMK1208
 - reactions:
   - !!omap
-    - id: BIOMASS_SCO2
+    - id: BIOMASS_SCO
     - name: S. coelicolor biomass objective function - with 75.79 GAM estimate
     - metabolites: !!omap
       - adp_c: 75.79
@@ -27428,7 +27428,7 @@
       - SBO: SBO:0000629
       - subsystem: Biomass and maintenance functions
   - !!omap
-    - id: BIOMASS_SCO2_tRNA
+    - id: BIOMASS_SCO_tRNA
     - name: S. coelicolor biomass function with AA replaced by tRNA-AA
     - metabolites: !!omap
       - adp_c: 71.71443000000001
