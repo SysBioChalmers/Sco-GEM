@@ -63,7 +63,7 @@ def create_pseudoreactions(scoGEM, donor, acceptor):
     pseudo_donor_nadh.add_metabolites({scoGEM.metabolites.nadh_c: -1, donor: 1})
 
 
-    pseudo_donor_nadph = cobra.Reaction("PSEDUO_DONOR_NADPH")
+    pseudo_donor_nadph = cobra.Reaction("PSEUDO_DONOR_NADPH")
     pseudo_donor_nadph.name = "Pseudoreaction converting nadph to donor"
     pseudo_donor_nadph.bounds = (-1000, 1000)
     pseudo_donor_nadph.add_metabolites({scoGEM.metabolites.nadph_c: -1, donor: 1})
@@ -73,7 +73,7 @@ def create_pseudoreactions(scoGEM, donor, acceptor):
     pseudo_acceptor_nad.bounds = (-1000, 1000)
     pseudo_acceptor_nad.add_metabolites({scoGEM.metabolites.nad_c: -1, acceptor: 1})
 
-    pseudo_acceptor_nadp = cobra.Reaction("PSEDUO_ACCEPTOR_NADP")
+    pseudo_acceptor_nadp = cobra.Reaction("PSEUDO_ACCEPTOR_NADP")
     pseudo_acceptor_nadp.name = "Pseudoreaction converting nadp to acceptor"
     pseudo_acceptor_nadp.bounds = (-1000, 1000)
     pseudo_acceptor_nadp.add_metabolites({scoGEM.metabolites.nadp_c: -1, acceptor: 1})
