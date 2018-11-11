@@ -20,7 +20,10 @@ NO_GROWTH_THRESHOLD = 0.028 # Corresponds to 1hr doubling time
 def model():
     path = os.path.join(os.path.dirname(__file__), "../../ModelFiles/xml/scoGEM.xml")
     model = read_sbml_model(path)
-    model.solver = SOLVER
+    try:
+        model.solver = SOLVER
+    except:
+        pass
     return model
 
 
@@ -32,7 +35,8 @@ def experiments():
     return experiments_yaml
 
 
-@annotate(title = "Test growth for knockout-mutants from the transposon mutagenesis study by Xu et al.(2017)", format_type = "raw")
+@annotate(title = "Test growth for knockout-mutants from the transposon mutagenesis study by Xu et al.(2017)",
+          format_type = "number")
 def test_transposon_mutant_growth(model, experiments, use_tRNA_biomass = True, minimal_medium = False):
     """
     Compare in silico growth with in vivo data for the knock-out mutants from the 
@@ -107,7 +111,7 @@ def test_transposon_mutant_growth(model, experiments, use_tRNA_biomass = True, m
 
     FN_and_TN = (prediction_dict["TN"] >= 33) and (prediction_dict["FN"] <= 5)
     FP_and_TP = (prediction_dict["FP"] <= 27) and (prediction_dict["TP"] >= 72)
-    ann = test_WT_growth_conditions.annotation
+    ann = test_transposon_mutant_growth.annotation
     ann["message"] = wrapper.fill(
         """Growth predictions for {5} of the {6} knock-out mutants from the transposon study 
            \n(expected in parenthesis):
@@ -116,7 +120,8 @@ def test_transposon_mutant_growth(model, experiments, use_tRNA_biomass = True, m
            \nThe prediction is wrong for the following mutants: \n{4}""".format(
             *[prediction_dict[x] for x in ["TP", "FN", "FP", "TN"]], ", ".join(wrong_predictions), i, len(mutant_growth_df)))
 
-    ann["metric"] = (prediction_dict["TN"]+prediction_dict["TP"])/sum([prediction_dict[x] for x in ["TP", "FN", "FP", "TN"]])
+    ann["metric"] = int(FN_and_TN and FP_and_TP)
+    ann["data"] = (prediction_dict["TN"]+prediction_dict["TP"])/sum([prediction_dict[x] for x in ["TP", "FN", "FP", "TN"]])
     assert FN_and_TN and FP_and_TP, ann["message"]
 
 
@@ -149,7 +154,7 @@ def set_transposon_growth_medium(model, experiments):
 
 
 
-@annotate(title = "Test growth for knockout-mutants from the litterature in given environments", format_type = "raw")
+@annotate(title = "Test growth for knockout-mutants from the litterature in given environments", format_type = "number")
 def test_single_mutant_growth(model, experiments):
     """
     Compare in silico growth with in vivo data for different knock-out mutants found in the litterature
@@ -187,13 +192,14 @@ def test_single_mutant_growth(model, experiments):
 
     FN_and_TN = (prediction_dict["TN"] >= 9) and (prediction_dict["FN"] <= 1)
     FP_and_TP = (prediction_dict["FP"] == 0) and (prediction_dict["TP"] >= 6)
-    ann = test_WT_growth_conditions.annotation
+    ann = test_single_mutant_growth.annotation
     ann["message"] = wrapper.fill("""Growth predictions for mutants from the litterature 
                                      \n(expected in parenthesis):
                                      \nTP: {0}(6)\t FN: {1}(1) 
                                      \nFP: {2}(0)\t  TN: {3}(9)
                                      \nThe prediction is wrong for the following mutants: \n{4}""".format(
                             *[prediction_dict[x] for x in ["TP", "FN", "FP", "TN"]], ", ".join(wrong_predictions)))
+    ann["data"] = (prediction_dict["TN"]+prediction_dict["TP"])/sum([prediction_dict[x] for x in ["TP", "FN", "FP", "TN"]])
     ann["metric"] = (prediction_dict["TN"]+prediction_dict["TP"])/sum([prediction_dict[x] for x in ["TP", "FN", "FP", "TN"]])
     assert FN_and_TN and FP_and_TP, ann["message"]
 
@@ -221,7 +227,7 @@ def _knock_out_genes(genes_string, model, how = "all"):
 
     
 
-@annotate(title = "Test growth in given environments", format_type = "raw")
+@annotate(title = "Test growth for WT in given environments", format_type = "number")
 def test_WT_growth_conditions(model, experiments):
     """
     Compare in silico growth with in vivo data for growth in different environements
@@ -263,7 +269,8 @@ def test_WT_growth_conditions(model, experiments):
                                      FP: {2}(2)\t  TN: {3}(4)\n
                                      The prediction is wrong for the following environments: {4}""".format(
                             *[prediction_dict[x] for x in ["TP", "FN", "FP", "TN"]], ", ".join(wrong_predictions)))
-    ann["metric"] = (prediction_dict["TN"]+prediction_dict["TP"])/sum([prediction_dict[x] for x in ["TP", "FN", "FP", "TN"]])
+    ann["data"] = (prediction_dict["TN"]+prediction_dict["TP"])/sum([prediction_dict[x] for x in ["TP", "FN", "FP", "TN"]])
+    ann["metric"] = int(FN_and_TN and FP_and_TP)
     assert FN_and_TN and FP_and_TP, ann["message"]
 
 def _print_wrong_prediction(row, s, M):
@@ -364,3 +371,7 @@ def get_number_of_carbons_and_nitrogens_in_metabolite(metabolite):
         n_carbon = 0
     return n_carbon, n_nitrogen
 
+# if __name__ == '__main__':
+#     M = model()
+#     E = experiments()
+#     test_single_mutant_growth(M,E)
