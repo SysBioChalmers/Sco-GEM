@@ -1,0 +1,165 @@
+metID	pseudoRxn	MW	stoichCoeffs	name
+adp_c	B	424.18	75.79	ADP
+atp_c	B	503.15	-75.79	ATP
+carb_c	B		-1	carbohydrate pseudometabolite
+dna_c	B		-1	DNA pseudometabolite
+h_c	B	1.01	75.79	H+
+h2o_c	B	18.02	-75.79	H2O
+lipid_c	B		-1	lipid pseudometabolite
+misc_c	B		-1	misc pseudometabolite
+pi_c	B	95.98	75.79	Phosphate
+protein_c	B		-1	protein pseudometabolite
+rna_c	B		-1	RNA pseudometabolite
+carb_c	C		1	carbohydrate pseudometabolite
+glycogen_c	C	162.14	-0.154187	glycogen
+tre_c	C	342.3	-0.087643	Trehalose
+datp_c	D	487.15	-0.016297	dATP
+dctp_c	D	463.13	-0.042326	dCTP
+dgtp_c	D	503.15	-0.016297	dGTP
+dna_c	D		1	DNA pseudometabolite
+dttp_c	D	478.14	-0.042326	dTTP
+h_c	D	1.01	0.117246	H+
+ppi_c	D	174.95	0.117246	Diphosphate
+clpn140_c	L	1239.64	-0.000098	"cardiolipin (tetratetradecanoyl, n-C14:0)"
+clpn150_c	L	1295.75	-0.000061	"cardiolipin (tetrapentadecanoyl, n-C15:0)"
+clpn160_c	L	1351.85	-0.001116	"cardiolipin (tetrahexadecanoyl, n-C16:0)"
+clpn161_c	L	1343.79	-0.000287	"cardiolipin (tetrahexadec-9-enoyl, n-C16:1)"
+clpnai150_c	L	1295.75	-0.001055	"cardiolipin (ante-isotetrapentadecanoyl, ante-iso-C15:0)"
+clpnai170_c	L	1407.96	-0.00097	"cardiolipin (ante-isotetraheptadecanoyl, ante-iso-C17:0)"
+clpni140_c	L	1239.64	-0.000213	"cardiolipin (isotetratetradecanoyl, iso-C14:0)"
+clpni150_c	L	1295.75	-0.00061	"cardiolipin (isotetrapentadecanoyl, iso-C15:0)"
+clpni160_c	L	1351.85	-0.001238	"cardiolipin (isotetrahexadecanoyl, iso-C16:0)"
+clpni170_c	L	1407.96	-0.000451	"cardiolipin (isotetraheptadecanoyl, iso-C17:0)"
+lipid_c	L		1	lipid pseudometabolite
+pa140_c	L	590.78	-0.000068	"1,2-ditetradecanoyl-sn-glycerol 3-phosphate"
+pa150_c	L	618.83	-0.000042	"1,2-dipentadecanoyl-sn-glycerol 3-phosphate"
+pa160_c	L	646.89	-0.000778	"1,2-dihexadecanoyl-sn-glycerol 3-phosphate"
+pa161_c	L	642.86	-0.0002	"1,2-dihexadec-9-enoyl-sn-glycerol 3-phosphate"
+paai150_c	L	618.83	-0.000735	"1,2-diante-isopentadecanoyl-sn-glycerol 3-phosphate"
+paai170_c	L	674.94	-0.000676	"1,2-diante-isoheptadecanoyl-sn-glycerol 3-phosphate"
+pai140_c	L	590.78	-0.000149	"1,2-diisotetradecanoyl-sn-glycerol 3-phosphate"
+pai150_c	L	618.83	-0.000425	"1,2-diisopentadecanoyl-sn-glycerol 3-phosphate"
+pai160_c	L	646.89	-0.000863	"1,2-diisohexadecanoyl-sn-glycerol 3-phosphate"
+pai170_c	L	674.94	-0.000314	"1,2-diisoheptadecanoyl-sn-glycerol 3-phosphate"
+pe140_c	L	621.86	-0.000349	"phosphatidylethanolamine (ditetradecanoyl, n-C14:0)"
+pe150_c	L	649.91	-0.000218	"phosphatidylethanolamine (dipentadecanoyl, n-C15:0)"
+pe160_c	L	677.97	-0.003997	"phosphatidylethanolamine (dihexadecanoyl, n-C16:0)"
+pe161_c	L	673.93	-0.001026	"phosphatidylethanolamine (dihexadec-9enoyl, n-C16:1)"
+peai150_c	L	649.91	-0.003778	"phosphatidylethanolamine (diante-isopentadecanoyl, ante-iso-C15:0)"
+peai170_c	L	706.02	-0.003472	"phosphatidylethanolamine (diante-isoheptadecanoyl, ante-iso-C17:0)"
+pei140_c	L	621.86	-0.000764	"phosphatidylethanolamine (diisotetradecanoyl, iso-C14:0)"
+pei150_c	L	649.91	-0.002184	"phosphatidylethanolamine (diisopentadecanoyl, iso-C15:0)"
+pei160_c	L	677.97	-0.004433	"phosphatidylethanolamine (diisohexadecanoyl, iso-C16:0)"
+pei170_c	L	706.02	-0.001616	"phosphatidylethanolamine (diisoheptadecanoyl, iso-C17:0)"
+pi140_c	L	753.93	-0.000027	"phosphatidylinositol (ditetradecanoyl, n-C14:0)"
+pi150_c	L	781.98	-0.000017	"phosphatidylinositol (dipentadecanoyl, n-C15:0)"
+pi160_c	L	810.04	-0.00031	"phosphatidylinositol (dihexadecanoyl, n-C16:0)"
+pi161_c	L	806	-0.00008	"phosphatidylinositol (dihexadec-9enoyl, n-C16:1)"
+piai150_c	L	781.98	-0.000293	"phosphatidylinositol (diante-isopentadecanoyl, ante-iso-C15:0)"
+piai170_c	L	838.09	-0.000269	"phosphatidylinositol (diante-isoheptadecanoyl, ante-iso-C17:0)"
+pii140_c	L	753.93	-0.000059	"phosphatidylinositol (diisotetradecanoyl, iso-C14:0)"
+pii150_c	L	781.98	-0.000169	"phosphatidylinositol (diisopentadecanoyl, iso-C15:0)"
+pii160_c	L	810.04	-0.000344	"phosphatidylinositol (diisohexadecanoyl, iso-C16:0)"
+pii170_c	L	838.09	-0.000125	"phosphatidylinositol (diisoheptadecanoyl, iso-C17:0)"
+tag140_c	L	723.18	-0.000364	"Triacylglycerol (tritetradecanoyl, n-C14:0)"
+tag150_c	L	765.26	-0.000227	"Triacylglycerol (tripentadecanoyl, n-C15:0)"
+tag160_c	L	807.34	-0.00416	"Triacylglycerol (trihexadecanoyl, n-C16:0)"
+tag161_c	L	801.29	-0.001068	"Triacylglycerol (trihexadec-9-enoyl, n-C16:1)"
+tagai150_c	L	765.26	-0.003933	"Triacylglycerol (triante-isopentadecanoyl, ante-iso-C15:0)"
+tagai170_c	L	849.42	-0.003614	"Triacylglycerol (triante-isoheptadecanoyl, ante-iso-C17:0)"
+tagi140_c	L	723.18	-0.000796	"Triacylglycerol (triisotetradecanoyl, iso-C14:0)"
+tagi150_c	L	765.26	-0.002273	"Triacylglycerol (triisopentadecanoyl, iso-C15:0)"
+tagi160_c	L	807.34	-0.004614	"Triacylglycerol (triisohexadecanoyl, iso-C16:0)"
+tagi170_c	L	849.42	-0.001682	"Triacylglycerol (triisoheptadecanoyl, iso-C17:0)"
+10fthf_c	M	471.43	-0.004309	10-Formyltetrahydrofolate
+15dap_c	M	104.2	-0.019494	"1,5-Diaminopentane"
+2dmmql9_c	M	773.24	-0.0118	Demethylmenaquinol
+2fe2s_c	M	175.81	-0.011698	[2Fe-2S] iron-sulfur cluster
+4fe4s_c	M	351.62	-0.005849	[4Fe-4S] iron-sulfur cluster
+5mthf_c	M	458.46	-0.004431	5-Methyltetrahydrofolate
+adocbl_c	M	1579.61	-0.001286	Adenosylcobalamin
+amet_c	M	399.45	-0.005085	S-Adenosyl-L-methionine
+bmocogdp_c	M	1649.11	-0.001282	bis-molybdopterin guanine dinucleotide
+btn_c	M	243.3	-0.008349	Biotin
+ca2_c	M	40.08	-0.004952	Calcium
+cl_c	M	35.45	-0.004952	Chloride
+coa_c	M	679.46	-0.00266	Coenzyme A
+cobalt2_c	M	58.93	-0.000024	Co2+
+cu2_c	M	63.55	-0.000674	Cu2+
+fad_c	M	783.54	-0.002592	Flavin adenine dinucleotide oxidized
+fe2_c	M	55.85	-0.006388	Fe2+
+fe3_c	M	55.85	-0.007428	Fe3+
+hemeA_c	M	850.84	-0.002387	Heme A
+hemeO_c	M	836.86	-0.002427	Heme O
+k_c	M	39.1	-0.18569	potassium
+lipopb_c	M	188.3	-0.010787	Protein N6-(lipoyl)lysine
+mg2_c	M	24.31	-0.008253	magnesium
+misc_c	M		1	misc pseudometabolite
+mlthf_c	M	455.43	-0.00446	"5,10-Methylenetetrahydrofolate"
+mn2_c	M	54.94	-0.000658	Mn2+
+mobd_c	M	159.95	-0.000007	Molybdate
+mocogdp_c	M	864.47	-0.00235	molybdopterin guanine dinucleotide
+mql9_c	M	787.27	-0.0118	Menaquinol 9
+msh_c	M	486.49	-0.004185	mycothiol (reduced)
+nad_c	M	662.42	-0.003066	Nicotinamide adenine dinucleotide
+nadh_c	M	663.43	-0.003062	Nicotinamide adenine dinucleotide - reduced
+nadp_c	M	740.39	-0.002744	Nicotinamide adenine dinucleotide phosphate
+nadph_c	M	741.39	-0.00274	Nicotinamide adenine dinucleotide phosphate - reduced
+nh4_c	M	18.04	-0.012379	Ammonium
+ni2_c	M	58.69	-0.000307	nickel
+pheme_c	M	614.48	-0.003306	Protoheme
+pppi_c	M	253.92	-0.000141	Inorganic triphosphate
+ptrc_c	M	90.17	-0.022527	Putrescine
+pydx5p_c	M	245.13	-0.008287	Pyridoxal 5-phosphate
+ribflv_c	M	376.37	-0.005397	Riboflavin
+sheme_c	M	908.61	-0.002236	Siroheme
+so4_c	M	96.06	-0.004126	Sulfate
+spmd_c	M	148.27	-0.013699	Spermidine
+sprm_c	M	206.38	-0.009842	Spermine
+thf_c	M	443.42	-0.004581	"5,6,7,8-Tetrahydrofolate"
+thmpp_c	M	422.29	-0.00481	Thiamine diphosphate
+udcpdp_c	M	924.26	-0.002198	Undecaprenyl diphosphate
+zn2_c	M	65.38	-0.000324	Zinc
+pyr_c	M	88.06	0	Pyruvate
+fmn_c	M	456.344	0	Flavin mononucleotide
+fmnh2_c	M	458.364	0	Flavin mononucleotide - reduced
+ala__L_c	P	89.09	-0.60978	L-Alanine
+arg__L_c	P	175.21	-0.10195	L-Arginine
+asn__L_c	P	132.12	-0.18343	L-Asparagine
+asp__L_c	P	132.1	-0.18599	L-Aspartate
+cys__L_c	P	121.15	-0.08069	L-Cysteine
+gln__L_c	P	146.15	-0.1418	L-Glutamine
+glu__L_c	P	146.12	-0.25085	L-Glutamate
+gly_c	P	75.07	-0.55317	Glycine
+h2o_c	P	18.02	4.07557	H2O
+his__L_c	P	155.16	-0.07991	L-Histidine
+ile__L_c	P	131.18	-0.24831	L-Isoleucine
+leu__L_c	P	131.18	-0.13981	L-Leucine
+lys__L_c	P	147.2	-0.0708	L-Lysine
+met__L_c	P	149.21	-0.12059	L-Methionine
+phe__L_c	P	165.19	-0.13521	L-Phenylalanine
+pro__L_c	P	115.13	-0.37332	L-Proline
+protein_c	P		1	protein pseudometabolite
+ser__L_c	P	105.09	-0.21339	L-Serine
+thr__L_c	P	119.12	-0.26691	L-Threonine
+trp__L_c	P	204.23	-0.03275	L-Tryptophan
+tyr__L_c	P	181.19	-0.06539	L-Tyrosine
+val__L_c	P	117.15	-0.22152	L-Valine
+atp_c	R	503.15	-0.11045	ATP
+ctp_c	R	479.12	-0.13226	CTP
+gtp_c	R	519.15	-0.10035	GTP
+h_c	R	1.01	0.5186	H+
+ppi_c	R	174.95	0.5186	Diphosphate
+rna_c	R		1	RNA pseudometabolite
+utp_c	R	480.11	-0.17554	UTP
+cellwall_c	W		1	cell wall pseudometabolite
+gtca1_c	W	4250.65	-0.003536	"glycerol teichoic acid (n=25), unlinked, unsubstituted"
+gtca2_c	W	6052.83	-0.003536	"glycerol teichoic acid (n=25), unlinked, D-ala substituted"
+gtca3_c	W	6704.28	-0.003536	"glycerol teichoic acid (n=25), unlinked, glucose substituted"
+h_c	W	1.01	0.24968	H+
+murein4p4p_c	W	1839.78	-0.02984	"two linked disacharide tetrapeptide murein units (uncrosslinked, middle of chain)"
+murein4px4p_c	W	1821.77	-0.030136	"two disacharide linked murein units, tetrapeptide corsslinked tetrapeptide (A2pm->D-ala) (middle of chain)"
+uacgam_c	W	605.34	-0.083227	UDP-N-acetyl-D-glucosamine
+udp_c	W	401.14	0.24968	UDP
+udpgal_c	W	564.29	-0.166453	UDPgalactose
+cellwall_c	B		-1	cell wall pseudometabolite
