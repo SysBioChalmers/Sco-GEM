@@ -20,23 +20,20 @@ import inspect
 import pandas as pd
 import numpy as np
 import scipy as sp
+import SBtabTools
+import settings
+
+from cobra.io import read_sbml_model
 from six import iteritems
 from cobra import Reaction, Metabolite
 from cobra.flux_analysis.parsimonious import optimize_minimal_flux
 from cobra.manipulation.modify import convert_to_irreversible
 from stfba import settings
-sys.path.append(os.path.expanduser('~/git/SBtab/python'))
-import SBtabTools
-from cobra.io import read_sbml_model
-model_scoGEM=read_sbml_model('C:/Users/kumelj/Downloads/OptKnock_050218/suppplementary_updated_Snorre_250718/supplementary_copy/scoGEM/scoGEM/scoGEM/scoGEM/scoGEM/scoGEM/scoGEM/scoGEM/ModelFiles/xml/scoGEM.xml');
-model_e_coli_core=read_sbml_model('C:/Users/kumelj/Downloads/OptKnock_050218/ELADNOOR/model/model_e_coli_core.xml/e_coli_core.xml');
-model_iJO1366=read_sbml_model('C:/Users/kumelj/Downloads/OptKnock_050218/ELADNOOR/model/model_iJO1366.xml/iJO1366.xml');
-model_iAF1260=read_sbml_model('C:/Users/kumelj/Downloads/OptKnock_050218/ELADNOOR/model/model_iAF1260.xml/iAF1260.xml');
-cobra_model=model_scoGEM;
-import settings
-from stfba import settings
-
 from cobra.flux_analysis.loopless import construct_loopless_model
+
+sys.path.append(os.path.expanduser('~/git/SBtab/python'))
+sys.path.append(os.path.expanduser('https://github.com/SysBioChalmers/sco-GEM/tree/develNew/ModelFiles/xml/scoGEM.xml'))
+cobra_model=model_scoGEM;
 
 class stFBA(object):
     def __init__(self, cobra_model, config_fname='C:/Users/kumelj/Downloads/OptKnock_050218/ELADNOOR/data/stfba_config.tsv',
@@ -211,7 +208,7 @@ print("FBA max yield: %.3f" % fba_sol.f)
 loopless_model = construct_loopless_model(model)
 llfba_sol = loopless_model.optimize(solver=settings.LP_SOLVER)
 print("looplessFBA max yield: %.3f" % llfba_sol.f)
-#
 
-config_fname= sp.genfromtxt=("data_stfba_config.tsv");
+
+
     
