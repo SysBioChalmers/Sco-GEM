@@ -7,6 +7,7 @@ def fix(scoGEM):
     fix_mmy_bug(scoGEM)
     fix_demand_biocyc_names(scoGEM)
     fix_misc(scoGEM)
+    annotate_germicidin_pathway(scoGEM)
     # fix_metanetx_annotations(scoGEM, met_to_metanetx_fn)
 
 def fix_annotations(scoGEM):
@@ -93,7 +94,26 @@ def fix_misc(scoGEM):
     m = scoGEM.metabolites.get_by_id("44dpcopd_c")
     m.annotation["kegg.compound"] = "C21770"
     logging.info("Annotated metabolite 44pcpopd_c to KEGG ID C21770")
+
+    scoGEM.metabolites.get_by_id("4gglutbut_c").annotation["kegg.compound"] = "C15700"
+    scoGEM.metabolites.get_by_id("4gglutbut_c").annotation["metanetx.chemical"] = "MNXM1378"
    
+
+   
+def annotate_germicidin_pathway(scoGEM):
+    # Give biocyc annotation to germicidin
+    scoGEM.metabolites.get_by_id("germicidinA_c").annotation["biocyc"] = "CPD1UA-13"
+    scoGEM.metabolites.get_by_id("germicidinB_c").annotation["biocyc"] = "CPD1UA-14"
+    scoGEM.metabolites.get_by_id("germicidinC_c").annotation["biocyc"] = "CPD1UA-15"
+    scoGEM.metabolites.get_by_id("germicidinD_c").annotation["biocyc"] = "CPD1UA-16"
+    
+    scoGEM.reactions.get_by_id("GERMA").annotation["biocyc"] = "RXN1UA-25"
+    scoGEM.reactions.get_by_id("GERMB").annotation["biocyc"] = "RXN1UA-20"
+    scoGEM.reactions.get_by_id("GERMC").annotation["biocyc"] = "RXN1UA-21"
+    scoGEM.reactions.get_by_id("GERMD").annotation["biocyc"] = "RXN1UA-24"
+
+
+
 def fix_metanetx_annotations(scoGEM, met_to_metanetx_fn):
     df = pd.read_csv(met_to_metanetx_fn, index_col = 0)
     for i, row in df.iterrows():
@@ -113,17 +133,33 @@ def fix_metanetx_annotations(scoGEM, met_to_metanetx_fn):
             continue
         logging.info("Changed metanetx.chemical annotation of metabolite {0} from {1} to {2}".format(
                       m.id, old_anno, m.annotation["metanetx.chemical"]))
-# def fix_metanetx(scoGEM): # fix metanetx annotation of atp and adp
-#     scoGEM.metabolites.h2o_c.annotation["metanetx.chemical"] = "MNXM2"
-#     scoGEM.metabolites.h2o_e.annotation["metanetx.chemical"] = "MNXM2"
-#     scoGEM.metabolites.atp_c.annotation["metanetx.chemical"] = "MNXM3"
-#     scoGEM.metabolites.o2_c.annotation["metanetx.chemical"] = "MNXM4"
-#     scoGEM.metabolites.o2_e.annotation["metanetx.chemical"] = "MNXM4"
-#     scoGEM.metabolites.adp_c.annotation["metanetx.chemical"] = "MNXM7"
-#     scoGEM.metabolites.nad_c.annotation["metanetx.chemical"] = "MNXM8"
-#     scoGEM.metabolites.pi_c.annotation["metanetx.chemical"] = "MNXM9"
-#     {"etha": "MNXM218",
-#      "ppi" : ""}
+
+
+def fix_wrong_chebi_mapping(scoGEM):
+    for m in scoGEM.metabolites:
+        try:
+            origin = m.annotation["origin"]
+        except KeyError:
+            continue
+
+        try:
+            chebi = m.annotation["chebi"]
+        except KeyError:
+            continue
+        if origin == "Sco4":
+            m.annotation.pop("chebi")
+        else:
+            if isinstance(chebi, str):
+                chebi = [chebi]
+            new_chebis = []
+            for cheb in chebi:
+                if not "CHEBI" in cheb:
+                    new_chebis.append("CHEBI:{0}".format(cheb.split(":")[-1]))
+                else:
+                    new_chebis.append(cheb)
+            m.annotation["chebi"] = new_chebis
+
+
 
 def fix_demand_biocyc_names(scoGEM):
     reaction_ids = ["DM_acetone_c", "DM_ahop_c", "DM_2mborn_c", "DM_33biflav_c", "DM_38biflav_c"]
