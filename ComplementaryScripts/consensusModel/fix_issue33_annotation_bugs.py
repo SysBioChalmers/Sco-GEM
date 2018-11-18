@@ -8,6 +8,7 @@ def fix(scoGEM):
     fix_demand_biocyc_names(scoGEM)
     fix_misc(scoGEM)
     annotate_germicidin_pathway(scoGEM)
+    fix_wrong_chebi_mapping(scoGEM)
     # fix_metanetx_annotations(scoGEM, met_to_metanetx_fn)
 
 def fix_annotations(scoGEM):
