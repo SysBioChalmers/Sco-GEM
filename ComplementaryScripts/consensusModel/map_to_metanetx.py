@@ -1,6 +1,7 @@
 import cobra
 import pandas as pd
 from pathlib import Path
+import libchebipy
 
 def map_model_metabolites(model, metanetx_fn):
     df = pd.read_csv(metanetx_fn, header = None, sep = "\t", comment = "#")
@@ -59,9 +60,82 @@ def map_model_metabolites(model, metanetx_fn):
         # print(new_df_list)
 
     new_df = pd.DataFrame(new_df_list, columns = ["Met ID", "MNX 1", "MNX 2"])
-    new_df.to_csv("metanetx_to_change.csv", index_label = "index")
+    new_df.to_csv("../../ComplementaryData/curation/metanetx_to_change.csv", index_label = "index")
     # print(new_df)
 
+def map_metabolites_to_chebi(scoGEM, metanetx_fn):
+    df = pd.read_csv(metanetx_fn, header = None, sep = "\t", comment = "#")
+    df.columns = ["db:id", "metanetx", "reason", "name"]
+
+    chebi_df = df[df["db:id"].str.contains("chebi:")]
+    del df
+
+    new_df_list = []
+    for m in model.metabolites:
+        try:
+            mnx_annot = m.annotation["metanetx.chemical"]
+        except KeyError:
+            print("No metanetx annotation for {0}, {1}".format(m.id, ["{0}:{1}".format(key, value) for key, value in m.annotation.items()]))
+            continue
+
+        mnx_annot = as_list(mnx_annot)
+
+        chebi_ids = []
+        for mnx_i in mnx_annot:
+            mnx_match = chebi_df.loc[chebi_df["metanetx"] == mnx_i]
+            chebi_ids += list(mnx_match["db:id"].values)
+        chebi_ids = [x.upper() for x in chebi_ids]
+
+        parent_chebis = []
+        for chebi_id in list(set(chebi_ids)):
+            lib_data = libchebipy.ChebiEntity(chebi_id.upper())
+            parent = lib_data.get_parent_id()
+            if parent:
+                parent_chebis.append(parent)
+            else:
+                parent_chebis.append(chebi_id.upper())
+        parent_chebis = list(set(parent_chebis))
+        try:
+            current_chebi_list = as_list(m.annotation["chebi"])
+        except:
+            current_chebi_list = [None]
+            in_new_chebis = False
+        else:
+            in_new_chebis = True   
+            for current_chebi in current_chebi_list:
+                if not current_chebi in chebi_ids:
+                    in_new_chebis = False
+                    print("{2}: {0} is not in the new set {1}".format(current_chebi, parent_chebis, m.id))
+        
+        new_df_list.append([m.id, parent_chebis, current_chebi_list, in_new_chebis])
+    new_df = pd.DataFrame(new_df_list, columns = ["Met ID", "New chebi annotation", "Current chebi annotation", "Old chebi in new (including secondary chebis)"])
+    new_df.to_csv("../../ComplementaryData/curation/chebi_annotation.csv", index = False)
+
+def as_list(param):
+    if isinstance(param, list):
+        return param
+    else:
+        return [param]
+
+
+    #     chebi_dict[m.id] = set(chebi_ids)
+    #     all_chebis += chebi_ids
+
+    # # Remove duplicates
+    # all_chebis = list(set(all_chebis))
+    # parent_child_dict = {}
+    # for chebi_id in all_chebis:
+    #     lib_data = libchebipy.ChebiEntity(chebi_id.upper())
+    #     print(chebi_id.upper(), lib_data)
+    #     parent = lib_data.get_parent_id()
+    #     if parent is not None:
+    #         parent_child_dict[chebi_id.upper()] = parent
+    
+
+        # Use libchebipy to find parent IDs
+        # a = libchebipy.ChebiEntity
+        # a.get_parent_id()
+        # a.
 def apply_metanetx_mapping(scoGEM, met_to_metanetx_fn):
     """
     Depreceated: moved to fix_issue33_annotation_bugs.py
@@ -86,6 +160,8 @@ def apply_metanetx_mapping(scoGEM, met_to_metanetx_fn):
                       m.id, old_anno, m.annotation["metanetx.chemical"]))
 
 
+
+
 if __name__ == '__main__':
     repo_path = Path(__file__).parent.parent.parent
     metanetx_fn = repo_path / "ComplementaryData" / "curation" / "metanetx_chem_xref.tsv"
@@ -93,4 +169,8 @@ if __name__ == '__main__':
     model = cobra.io.read_sbml_model(str(model_fn))
     # map_model_metabolites(model, metanetx_fn)
     fn = repo_path / "ComplementaryData" / "curation" /"metanetx_to_change.csv"
-    apply_metanetx_mapping(model, fn)
+    if 0:
+        apply_metanetx_mapping(model, fn)
+
+    if 1:
+        map_metabolites_to_chebi(model, metanetx_fn)

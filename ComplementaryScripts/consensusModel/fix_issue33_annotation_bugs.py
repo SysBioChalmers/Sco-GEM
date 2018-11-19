@@ -99,6 +99,10 @@ def fix_misc(scoGEM):
     scoGEM.metabolites.get_by_id("4gglutbut_c").annotation["kegg.compound"] = "C15700"
     scoGEM.metabolites.get_by_id("4gglutbut_c").annotation["metanetx.chemical"] = "MNXM1378"
    
+    scoGEM.metabolites.get_by_id("xylan_e").annotation["kegg.compound"] = "C00707"
+
+   
+
 
    
 def annotate_germicidin_pathway(scoGEM):
@@ -116,6 +120,10 @@ def annotate_germicidin_pathway(scoGEM):
 
 
 def fix_metanetx_annotations(scoGEM, met_to_metanetx_fn):
+    """
+    This csv file used for the mapping is created using the function 
+    'map_model_metabolites' in the map_to_metanetx.py script.
+    """
     df = pd.read_csv(met_to_metanetx_fn, index_col = 0)
     for i, row in df.iterrows():
         m_id = row[0]
@@ -135,6 +143,22 @@ def fix_metanetx_annotations(scoGEM, met_to_metanetx_fn):
         logging.info("Changed metanetx.chemical annotation of metabolite {0} from {1} to {2}".format(
                       m.id, old_anno, m.annotation["metanetx.chemical"]))
 
+def apply_new_chebi_annotations(scoGEM, chebi_annotation_fn):
+    """
+    This csv file used for the mapping is created using the function 
+    'map_metabolites_to_chebi' in the map_to_metanetx.py script.
+    """
+    df = pd.read_csv(chebi_annotation_fn, index_col = None)
+    for i, row in df.iterrows():
+        m_id = row["Met ID"]
+        new_annotation = row["New chebi annotation"]
+
+        m = scoGEM.metabolites.get_by_id(m_id)
+        if new_annotation is not None:
+            m.annotation["chebi"] = new_annotation
+
+        logging.info("Changed chebi annotation of metabolite {0} from {1} to {2}".format(
+                      m.id, row[2], new_annotation))
 
 def fix_wrong_chebi_mapping(scoGEM):
     for m in scoGEM.metabolites:
@@ -188,4 +212,5 @@ def fix_mmy_bug(scoGEM):
 if __name__ == '__main__':
     model = cobra.io.read_sbml_model("../../ModelFiles/xml/scoGEM.xml")
     # fix_annotations(model)
-    fix_demand_biocyc_names(model)
+    # fix_demand_biocyc_names(model)
+    apply_new_chebi_annotations(model, "../../ComplementaryData/curation/chebi_annotation.csv")
