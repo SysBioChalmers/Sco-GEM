@@ -61,7 +61,6 @@ import cobra
 from collections import OrderedDict
 from pathlib import Path
 import argparse
-import shutil
 import subprocess
 
 REPO_MAIN_FOLDER = Path(__file__).resolve().parent.parent
