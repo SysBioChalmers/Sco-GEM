@@ -61,12 +61,15 @@ import cobra
 from collections import OrderedDict
 from pathlib import Path
 import argparse
+import shutil
+import subprocess
 
 REPO_MAIN_FOLDER = Path(__file__).resolve().parent.parent
 
 
 
-def export(scoGEM, folder = "ModelFiles", name = "scoGEM", formats = ["xml", "yml", "txt"], sbml_level = 3, sbml_version = 1, use_fbc_package = True):
+def export(scoGEM, folder = "ModelFiles", name = "scoGEM", formats = ["xml", "yml", "txt"], sbml_level = 3, sbml_version = 1, use_fbc_package = True,
+           write_requirements = True):
     """
     Sort the model entities and export the model in given formats
 
@@ -130,6 +133,8 @@ def export(scoGEM, folder = "ModelFiles", name = "scoGEM", formats = ["xml", "ym
         print("Writing {0}".format(str(model_fn_mat)))
         cobra.io.save_matlab_model(scoGEM, str(model_fn_mat))
 
+    if write_requirements:
+        write_requirements(REPO_MAIN_FOLDER)
 
 def check_folder(file_path):
     if not file_path.parent.is_dir():
@@ -207,6 +212,12 @@ def sort_reactions(scoGEM):
 
 
 
+def write_requirements(directory, force = True):
+    directory = str(directory)
+    if force:
+        subprocess.run(["pipreqs", "--force", "."], cwd = directory)
+    else:
+        subprocess.run(["pipreqs", "."], cwd = directory)
 
 
 def sort_dict(model_dict, by = "key"):
