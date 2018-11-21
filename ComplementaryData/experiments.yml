@@ -1,0 +1,34 @@
+version: "0.1"
+medium:
+  path: "media/"
+  definitions:
+  #   transposon_medium:
+  #     filename: "transposon.csv"
+  #     label: "Media for transposon mutagenesis experiment"
+    minimal_medium:
+      filename: "minial_medium.csv"
+      label: "Minimal medium"
+    minimal_medium_no_carbon_no_nitrogen:
+      filename: "minimal_medium_no_carbon_no_nitrogen.csv"
+      label: "Minimal media without any carbon or nitrogen sources"
+
+# essentiality:
+#   path: "essentiality/"
+  # experiments:
+  #   transposon:
+  #     medium: transposon_medium
+  #     label: "transposon mutagenesis"
+
+
+growth:
+  path: "growth/"
+  experiments:
+    wild_type_growth:
+      medium: minimal_medium_no_carbon_no_nitrogen
+      data: wild_type.csv
+    single_mutant_growth:
+      medium: minimal_medium_no_carbon_no_nitrogen
+      data: single_mutants.csv
+    transposon_mutant_growth:
+      data: transposon_mutants.csv
+      
