@@ -60,6 +60,7 @@ def apply_metacyc_reversibilities(model, metacyc_data_fn, save_fn = None):
         n += value
     print("Changed the reversibility of {0} reactions in total. Data were available for {1} reactions".format(n, len(df)))
 
+    model.id = "metacycScoGEM"
     if save_fn:
         write_sbml_model(model, save_fn)
     
@@ -131,6 +132,7 @@ def apply_equilibrator_reversibilities(model, equilibrator_data_fn, threshold = 
         n += value
     print("Changed the reversibility of {0} reactions in total. Data were available for {1} reactions".format(n, len(df)))
 
+    model.id = "eqScoGEM"
     if save_fn:
         write_sbml_model(model, save_fn)
     return model
@@ -156,11 +158,12 @@ def check_reversibility(reaction):
 
 if __name__ == '__main__':
     scoGEM = read_sbml_model("../../ModelFiles/xml/scoGEM.xml")
-    if 0:
+    if 1:
         equilibrator_data_fn = "../../ComplementaryData/curation/Reversibility-based-model-Equilibrator.csv"
         # df = read_equilibrator_data(equilibrator_data_fn)
-        eqScoGEM = apply_equilibrator_reversibilities(scoGEM, equilibrator_data_fn, consider_uncertainty = True)
-        eqScoGEM.name = "scoGEM with reaction directionality inferred from eQuilibrator"
+        eqScoGEM = apply_equilibrator_reversibilities(scoGEM, equilibrator_data_fn, threshold = 30, consider_uncertainty = True,
+                                                       save_fn = "../../ModelFiles/xml/eqScoGEM.xml")
+        # eqScoGEM.name = "scoGEM with reaction directionality inferred from eQuilibrator"
         # write_sbml_model(eqScoGEM, "../../ModelFiles/xml/eqScoGEM.xml")
 
     if 1:
