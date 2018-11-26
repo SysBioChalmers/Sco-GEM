@@ -1,10 +1,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% [data, samples] = prepareProteomicsM1152M145
+% data = prepareProteomicsM1152M145
 %
 % Eduard Kerkhoven, 2018-10-16
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function [data, samples, genes] = prepareProteomicsM1152M145
+function data = prepareProteomicsM1152M145
 %% Load data
 dat         = readtable('../../ComplementaryData/data/proteomics_M1152M145_2018.csv');
 % Pseudogene SCO7079: only in 5 samples, while no MW provided by KEGG. Just
@@ -36,8 +36,16 @@ data.norm   = data.norm ./ data.MW; % mmol / g protein
 %% Assume 0.4 g protein / gDCW
 data.norm   = data.norm .* 0.4;
 
-%% Output
-samples = data.sample;
-genes   = data.genes;
-data    = data.norm;
+%% Average over 3 replicates, M145 has 9 timepoints, M1152 has 8 timepoints
+for i=1:9
+    data.mean(:,i)  = mean(data.norm(:,[i,i+9,i+18]),2,'omitnan');
+    data.std(:,i)   = std(data.norm(:,[i,i+9,i+18]),0,2,'omitnan');
+end
+for i=10:17
+    j=i+18;
+    data.mean(:,i)  = mean(data.norm(:,[j,j+8,j+16]),2,'omitnan'); 
+    data.std(:,i)   = std(data.norm(:,[j,j+8,j+16]),0,2,'omitnan');
+end
+
+data.meanSample     = unique(regexprep(data.sample,'_F...',''),'stable');
 end
