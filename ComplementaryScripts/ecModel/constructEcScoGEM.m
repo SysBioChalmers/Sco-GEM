@@ -25,29 +25,35 @@ cd gecko/geckomat/change_model
 cd ../get_enzyme_data
 model_data = getEnzymeCodes(model);
 kcats      = matchKcats(model_data,org_name);
+save('../../../../../scrap/kcats.mat','model_data','kcats');
 
 %Integrate enzymes in the model:
 cd ../change_model
 ecModel                 = readKcatData(model_data,kcats);
 [ecModel,modifications] = manualModifications(ecModel);
 
-ecModel=setParam(ecModel,'eq','EX_glc__D_e',0);
-ecModel=setParam(ecModel,'ub','EX_glc__D_e_REV',0.51);
-ecModel=setParam(ecModel,'lb','ATPM',0);
-sol=solveLP(ecModel)
+GlcUptake  = 1.322777;%
+GluUptake  = 3.276445;%
+ecModel=setParam(ecModel,'ub','EX_glc__D_e_REV',GlcUptake);
+ecModel=setParam(ecModel,'ub','EX_glu__L_e_REV',GluUptake);
+ecModel=setParam(ecModel,'ub','EX_nh4_e_REV',0);
+%ecModel=setParam(ecModel,'lb','ATPM',2.64);
 
-save(['../../models/Ec' name '.mat'],'ecModel','modifications') 
+
+save(['../../../../../scrap/Ec' name '.mat'],'ecModel','modifications') 
+load(['../../scrap/Ec' name '.mat']) 
 %Constrain model to batch conditions:
-sigma    = 0.6;      %Optimized for glucose
-Ptot     = 0.4120;    %Assumed constant
-obj_Val=0.03427;
-c_source = 'D-glucose exchange (reversible)'; %Rxn name for the glucose uptake reaction
+
+sigma       = 0.40;
+Ptot        = 0.429; %Assumed constant. Taken as average from growth rates
+                     %between0 0.024 and 0.195, as reported by Shabab et
+                     %al. (1996) Microbiol. doi:10.1099/13500872-142-8-1927 
+gRate       = 0.1259;%
 cd ../limit_proteins
 
-[ecModel_pool,OptSigma] = getConstrainedModel(ecModel,c_source,sigma,Ptot,obj_Val,modifications,name);
+[ecModel_pool,OptSigma] = getConstrainedModel(ecModel,'',sigma,Ptot,gRate,modifications,name);
 disp(['Sigma factor (fitted for growth on glucose): ' num2str(OptSigma)])
-
-save('gecko/models/ecScoGEM_pool.mat','ecModel_pool')
+save(['../../../../../scrap/Ec' name '_pool.mat'],'ecModel_pool','modifications') 
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
