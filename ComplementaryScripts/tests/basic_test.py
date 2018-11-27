@@ -6,10 +6,14 @@ import os.path
 
 
 
-@pytest.fixture(scope = "session")
-def model():
-    path = os.path.join(os.path.dirname(__file__), "../../ModelFiles/xml/scoGEM.xml")
-    return read_sbml_model(path)
+# @pytest.fixture(scope = "session")
+# def model(model = None):
+#     if model is None:
+#         path = os.path.join(os.path.dirname(__file__), "../../ModelFiles/xml/scoGEM.xml")
+#         print("Loading model {0}".format(path))
+#         return read_sbml_model(path)
+#     else:
+#         return model
 
 # @annotate(title="Some human-readable descriptive title for the report", format_type="raw")
 # def test_read_model(model):
@@ -66,9 +70,9 @@ def test_growth_rate(model):
         """The growth rate is {0}
         """.format(solution.objective_value))
     ann["data"] = solution.objective_value 
-    ann["metric"] = int(0.073 <= solution.objective_value < 0.077)
+    ann["metric"] = int(0.071 <= solution.objective_value < 0.078)
 
-    assert 0.073 <= solution.objective_value < 0.077, ann["message"]
+    assert 0.071 <= solution.objective_value < 0.078, ann["message"]
 
 
 @annotate(title="Test germicidinA production", format_type="number")

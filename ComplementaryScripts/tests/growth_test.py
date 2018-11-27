@@ -16,15 +16,15 @@ NO_GROWTH_THRESHOLD = 0.028 # Corresponds to 1hr doubling time
 # TRANSPOSON_NO_GROWTH_THRESHOLD = 
 
 
-@pytest.fixture(scope = "session")
-def model():
-    path = os.path.join(os.path.dirname(__file__), "../../ModelFiles/xml/scoGEM.xml")
-    model = read_sbml_model(path)
-    try:
-        model.solver = SOLVER
-    except:
-        pass
-    return model
+# @pytest.fixture(scope = "session")
+# def model():
+#     path = os.path.join(os.path.dirname(__file__), "../../ModelFiles/xml/scoGEM.xml")
+#     model = read_sbml_model(path)
+#     try:
+#         model.solver = SOLVER
+#     except:
+#         pass
+#     return model
 
 
 @pytest.fixture(scope = "session")
