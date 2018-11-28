@@ -171,7 +171,7 @@ class RateEstimator(object):
 
         phases_dict = self.substrate_fits[substrate_name]
         phases_dict[phase_name] = {"time": time_arr, "fit": fit, "popt": popt, "type": "linear"}
-
+        print(substrate_name, popt, df[substrate_name])
 
     def predict_uptake_rates_for_phases(self, substrate_list,  timepoint_phasename_list):
         for substrate in substrate_list:
@@ -201,7 +201,7 @@ class RateEstimator(object):
             dic["at_rate_times"] = fsigmoid(np.array(timepoints), *dic["popt"])
 
         else: 
-            print("###!")
+            print("Fit not implememted")
             return None
 
         if cdw_phase_name:
@@ -215,7 +215,6 @@ class RateEstimator(object):
         for i, (t, x) in enumerate(zip(timepoints, cdw_values)):
             rate_dic[t] = 1e3 * ds_dt[i] / x / MOLAR_MASS_DICT[substrate]
         # print(self.substrate_rates)
-
 
 
     def plot_uptake_fit(self, substrate):
@@ -272,6 +271,8 @@ def replace_str_by_0(column, replace_by = 0):
     l = []
     for x in column:
         if pd.isna(x):
+            y = x
+        elif isinstance(x, float):
             y = x
         else:
             try:
@@ -335,7 +336,7 @@ if __name__ == '__main__':
         RE.set_phase("Linear phase 1", 21, 34.5)
         RE.set_phase("Linear phase 2", 34.5, 42)
         RE.set_phase("Linear phase 3", 42, 66)
-        RE.set_phase("Full time serie", 0, 66)
+        RE.set_phase("Red linear phase", 0, 66)
         RE.set_phase("Germicidin phase", 38, 66)
 
 
@@ -351,13 +352,10 @@ if __name__ == '__main__':
         RE.predict_uptake_rates_for_phases(["Glucose", "Glutamic acid"], [(p1, "Linear phase 1"), (p2, "Linear phase 2"), (p3, "Linear phase 3")])
 
 
-        # RE.fit_substrates_for_phases(["Undecylprodigiosin 2", "TBP", "Germicidin-A", "Germicidin-B"], ["Linear phase 2", "Linear phase 3"])
-        # RE.predict_uptake_rates_for_phases(["Undecylprodigiosin 2", "TBP", "Germicidin-A", "Germicidin-B"], [(p2, "Linear phase 2"), (p3, "Linear phase 3")])
-        # RE.plot_uptake_fit("Undecylprodigiosin 2")
-
-        RE.fit_sigmoidial_to_substrate("Undecylprodigiosin 2", "Full time serie", 3, bounds = ([0, 20, 2], [1, 60, 3]))
-        RE.predict_uptake_rates("Undecylprodigiosin 2", "Full time serie", p2, "Linear phase 2")
-        RE.predict_uptake_rates("Undecylprodigiosin 2", "Full time serie", p3, "Linear phase 3")
+        # RE.fit_sigmoidial_to_substrate("Undecylprodigiosin 2", "Full time serie", 3, bounds = ([0, 20, 2], [1, 60, 3]))
+        RE.fit_substrate("Undecylprodigiosin 2", "Red linear phase")
+        RE.predict_uptake_rates("Undecylprodigiosin 2", "Red linear phase", p2, "Linear phase 2")
+        RE.predict_uptake_rates("Undecylprodigiosin 2", "Red linear phase", p3, "Linear phase 3")
 
 
         
@@ -389,6 +387,7 @@ if __name__ == '__main__':
         RE.set_phase("Linear phase 3", 54, 70)
         RE.set_phase("Linear phase 2b", 49, 58)
         RE.set_phase("Germicidin phase", 20, 66)
+
 
         p1 = proteomic_timepoints_M1152[:4]
         p2 = proteomic_timepoints_M1152[4:5]
