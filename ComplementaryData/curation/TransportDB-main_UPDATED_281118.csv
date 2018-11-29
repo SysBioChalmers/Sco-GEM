@@ -1,0 +1,1021 @@
+Protein-Name,note about a transporter encoded by the gene,Gene association,Substrate,Subtype,Family,Family Name,Transporter Class,Transport Reaction,TC number
+SCO0169,,"(( SCO2931 and SCO2930 and SCO2932 and SCO2933 ) or ( SCO6062 and SCO6063 and SCO6064 and SCO6065 )) (Kim model, scoGEM model)",glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,M_h2o_c[c] + M_atp_c[c] + M_glyb_e[e]  -> M_h_c[c] + M_adp_c[c] + M_pi_c[c] + M_glyb_c[c]  (Kim model),3.A.1
+SCO4770,,"(( SCO2931 and SCO2930 and SCO2932 and SCO2933 ) or ( SCO6062 and SCO6063 and SCO6064 and SCO6065 )) (Kim model, scoGEM model)",glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,M_h2o_c[c] + M_atp_c[c] + M_glyb_e[e]  -> M_h_c[c] + M_adp_c[c] + M_pi_c[c] + M_glyb_c[c]  (Kim model),3.A.1
+SCO0065 ,"alpha-glucosidase uptake permease, strongly induced by trehalose and melibiose and weakly induced by lactose and glycerol but not glucose (UniProt, KEGG, Transpor Classification Database","( SCO2229 and SCO2230 and SCO2231 and SCO4240 ) (Kim model, scoGEM model)","sugar (alpha-glucose, maltose and maltodextrin uptake)(Transport Classification Database, UniProt, KEGG))",binding protein (MALTabc in scoGEM),ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0066,"alpha-glucosidase uptake permease, strongly induced by trehalose and melibiose and weakly induced by lactose and glycerol but not glucose (UniProt, KEGG, Transpor Classification Database","( SCO2229 and SCO2230 and SCO2231 and SCO4240 ) (Kim model, scoGEM model)","sugar (alpha-glucose, maltose and maltodextrin uptake)(Transport Classification Database, UniProt, KEGG))",membrane (MALTabc in scoGEM),ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0067,"alpha-glucosidase uptake permease, strongly induced by trehalose and melibiose and weakly induced by lactose and glycerol but not glucose (UniProt, KEGG, Transpor Classification Database","( SCO2229 and SCO2230 and SCO2231 and SCO4240 ) (Kim model, scoGEM model)","sugar (alpha-glucose, maltose and maltodextrin uptake)(Transport Classification Database, UniProt, KEGG))",membrane (MALTabc in scoGEM),ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0121,multidrug ABC ATP dependent transporter (UniProt),,daunorubicin (metabolite not in scoGEM model),binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + new_metabolite_e[e]  -> h_c[c] + new_metabolite_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0271,"Based on sequence similarity (90% identity) of the SCO0271 to lacF_1 gen in Streptomyces sp. 111WW2, coded transporter protein (ABC transporter) can uptake lactose",,"sugar (lactose, UniProt)",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + lcts_e[e]  -> h_c[c] + lcts_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0272,"Based on sequence similarity (90% identity) of the SCO0272 to ara_Q in Streptomyces sp. 111WW2, coded transporter protein (ABC transporter) can uptake L-arabinose",,"sugar(L-arabinose, UniProt)",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + arab__L_e[e]  -> h_c[c] + arab__L_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0273,"Based on sequence similarity (90% identity) of the SCO0273 to SLIV_36550 in Streptomyces lividans, coded transporter protein (ABC transporter) is multiple sugar transport system substrate-binding protein can uptake maltose",,"sugar (alpha-glucose, maltose and maltodextrin uptake)(Transport Classification Database, UniProt, KEGG))",binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0290,scp0290 is a solute binding protein (ABC transporter) that can uptake raffinose (raffin)/stachyose(stys)/melibiose(melib) (KEGG),,"sugar(raffinose, stachyose, melibiose)",binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + raffin_e[e]  -> h_c[c] + raffin_c[c] + adp_c[c] + pi_c[c] ; h2o_c[c] + atp_c[c] + stys_e[e]  -> h_c[c] + stys_c[c] + adp_c[c] + pi_c[c] ; h2o_c[c] + atp_c[c] + melib_e[e]  -> h_c[c] + melib_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0291,"sugar permease ABC, ATP dependent ransportr (UniProt), glucose, maltose",,"sugar(glucose, maltose)",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,"h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c],  h2o_c[c] + atp_c[c] + glc__D_e[e]  -> h_c[c] + glc__D_c[c] + adp_c[c] + pi_c[c]",3.A.1
+SCO0292,"Based on 100% identity with SLIV_36455 of Streptomyce lividans TK24, it can transport raffinose/stachyose, melibiose (UniProt, KEGG)",,"sugar(raffinose, stachyose, melibiose)",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + raffin_e[e]  -> h_c[c] + raffin_c[c] + adp_c[c] + pi_c[c] ; h2o_c[c] + atp_c[c] + stys_e[e]  -> h_c[c] + stys_c[c] + adp_c[c] + pi_c[c] ; h2o_c[c] + atp_c[c] + melib_e[e]  -> h_c[c] + melib_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0322,"Based on 90% identity with tlrC gene (SLIV_36315) in Streptomyces lividans TK24, transport of macrolide",,? (Uup homolog/duplicated ATPase),ABC,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0352,"Based on 90% identity with msmE_3 of Streptomyces coelicolor sp. 111WW2, multisugar binding protein (perhaps maltose?)",,sugar(maltose?),binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0353,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine, 90% similarity with lacF_9 of Streptomyces sp. 111WW2 lactose transport",,"sugar(N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine)",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,"h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] , h2o_c[c] + atp_c[c] + lcts_e[e]  -> h_c[c] + lcts_c[c] + adp_c[c] + pi_c[c] ",3.A.1
+SCO0354,"UniprotDatabase: 90% similarity with araQ_9 in Streptomyces sp. 111WW2, upatake L-arabinose; Uniprot, KEGG database: raffinose/Stachyose/melibiose transport",,"sugar(raffinose/Stachyose/melibiose, L-arabinose)",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,"h2o_c[c] + atp_c[c] + raffin_e[e]  -> h_c[c] + raffin_c[c] + adp_c[c] + pi_c[c] ; h2o_c[c] + atp_c[c] + stys_e[e]  -> h_c[c] + stys_c[c] + adp_c[c] + pi_c[c] ; h2o_c[c] + atp_c[c] + melib_e[e]  -> h_c[c] + melib_c[c] + adp_c[c] + pi_c[c] , h2o_c[c] + atp_c[c] + arab__L_e[e]  -> h_c[c] + arab__L_c[c] + adp_c[c] + pi_c[c] ",3.A.1
+SCO0363,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine)",binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0374,"UniProt, TransporterDB: www.tcdb.org/search/results.php?tc=3.A.1: lipopolysaccharide exporter",,"lipid A, lipopolysaccharide transporter(lipopolyprotein)",binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_e + h2o_c[c] + atp_c[c] -> lproc_c + h_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO0449,,,rhamnose,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + rmn_e[e]  -> h_c[c] + rmn_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0453,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine)",binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0454,"Uniprot: 90% similarity with LAcF in  Streptomyces sp. 111WW2 for uptake of lactose, UniProt and KEGG: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, lactose)",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,"h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] , h2o_c[c] + atp_c[c] + lcts_e[e]  -> h_c[c] + lcts_c[c] + adp_c[c] + pi_c[c] ",3.A.1
+SCO0455,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine)",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0473,,,"zinc, ",binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0475,,,manganese/zinc ion,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0476,,,cobalt,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0491,,,lipid A,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0493,,,lipid A,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0494,,,iron-hydroxamate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0495,,,phosphonate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0496,,,ferric enterobactin,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0497,,,cobalamin/Fe3+-siderophores,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0531,"KEGG; UniProt: N,N-diacetylchitobiose transport, UniProt: 90% similarity score with mdxE_1 in Streptomyces sp. 111WW2 with malrodextrin transport",,"sugarN,N-diacetylchitobiose, maltodextrin",binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + chtbs_e[e]  -> h_c[c] + chtbs_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0532,"KEGG; UniProt: N,N-diacetylchitobiose transport,",,"sugar (N,N-diacetylchitobiose transport,)",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + chtbs_e[e]  -> h_c[c] + chtbs_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0533,"KEGG; UniProt: N,N-diacetylchitobiose transport,",,"sugar (N,N-diacetylchitobiose transport,)",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + chtbs_e[e]  -> h_c[c] + chtbs_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0538,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine)",binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0539,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine)",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0540,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine)",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0636,,,cobalt,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + cobalt2_e[e]  -> h_c[c] + cobalt2_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0660,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine)",binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0661,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine)",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0662,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine and from Uniprot : 90% similarity score with araQ_13 in Streptomyces sp. 111WW2 L-arabinose transport",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine), L-arabinose",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0700,,,lipid A,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,"h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] , arab__L_e[e] + h2o_c[c ] + atp_c[c] -> h_c[c] + adp_c[c] + arab__L_c[c]",3.A.1
+SCO0706,,,urea,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0707,,,branched-chain amino acid,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0708,,,branched-chain amino acid,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0709,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0710,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0742,"UniProt, KEGG: uncaracterized ABC transporter ATP-binding protein",,multidrug,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0755,"UniProt, KEGG: uncaracterized ABC transporter ATP-binding protein",,toxin secretion,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0756,"UniProt, TransporterDB: www.tcdb.org/search/results.php?tc=3.A.1: lipopolysaccharide exporter",,"toxin secretion, lipopolysaccharide exporter",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_e [e]+ h2o_c[c] + atp_c[c] -> lproc_c[c] + h_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO0808,,,rhamnose,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0809,,,sugar (ribose?),membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0810,,,sugar (ribose?),membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0811,,,sugar (ribose?),ABC,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0818,,,lipoprotein,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_e[e] + h2o_c[c] + atp_c[c] -> lproc_c [c]+ h_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO0819,,,lipoprotein releasing,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_e[e]+ h2o_c[c] + atp_c[c] -> lproc_c[c]+ h_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO0824,,,molybdate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,mobd_e[e] + h2o_c[c] + atp_c[c] -> mobd_c [c]+ h_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO0914,"KEGG; UniProt: N,N-diacetylchitobiose transport and UniProt: based on 90% simularity score with malE_4 in Streptomyces sp. 111WW2 , maltose transport",,"sugar(N,N-diacetylchitobiose), maltose",binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,"h2o_c[c] + atp_c[c] + chtbs_e[e]  -> h_c[c] + chtbs_c[c] + adp_c[c] + pi_c[c] , h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ",3.A.1
+SCO0950,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0951,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0952,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO0996,,,cobalamin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0997,,,cobalamin/Fe3+-siderophores,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO0998,,,phosphonate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1031,,,lipoprotein releasing,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c] + h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO1032,,,lipoprotein,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c] + h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO1056,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO1057,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO1058,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO1063,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO1064,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO1065,"UniProt, KEGG: lactose, L-arabinose ABC AT dependent transporter",,"sugar (lactose, L-arabinose)",binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,"arab__L_e[e] + h2o_c[c ] + atp_c[c] -> h_c[c] + adp_c[c] + arab__L_c[c], lcts_e[e] +  h2o_c[c ] + atp_c[c] -> h_c[c] + adp_c[c] +lcts_c[c]",3.A.1
+SCO1144,"UniProt, KEGG, not sepcified",,lipid A,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1147,"UniProt, KEGG, not sepcified",,lipid A,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1148,"UniProt, TransporterDB: www.tcdb.org/search/results.php?tc=3.A.1: lipopolysaccharide exporter",,"multidrug, lipopolysaccharide exporter",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c] + h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO1258,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1344,,,dipeptide/oligopeptide,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1367,,,lipoprotein,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c] + h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO1465,,,sugar(alpha-glucoside),binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1537,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO1538,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO1539,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO1557,,,methionine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1558,,,D-methionine,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1559,,,D-methionine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1620,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1621,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1655,,,dipeptide/oligopeptide,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1707,"UniProt, KEGG: maltose/maltodextrin, raffinose/stachyose/melibiose transoirt",,"polyamine, maltose/maltodextrin, raffinose/stachyose/melibiose ",binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,"h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] , h2o_c[c] + atp_c[c] + raffin_e[e]  -> h_c[c] + raffin_c[c] + adp_c[c] + pi_c[c] ; h2o_c[c] + atp_c[c] + stys_e[e]  -> h_c[c] + stys_c[c] + adp_c[c] + pi_c[c] ; h2o_c[c] + atp_c[c] + melib_e[e]  -> h_c[c] + melib_c[c] + adp_c[c] + pi_c[c] ",3.A.1
+SCO1719,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1720,,,multidrug,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1742,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1785,,,phosphonate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,pi_e[e]+ h2o_c[c] + atp_c[c] -> p_c[c] + adp_c[c] + h_c[c],3.A.1
+SCO1786,,,ferric enterobactin,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1787,,,cobalamin/Fe3+-siderophores,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,"h2o_c[c] + atp_c[c] +heme_e[e]  -> h_c[c] + heme_c[c] + adp_c[c] + h_c[c] , add metabolite heme in scoGEM",3.A.1
+SCO1798,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1806,,,White pigment protein homolog (ABCG),ABCG,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1840,,,heme,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1882,,,sugar,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1886,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1887,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1898,,,sugar,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1899,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1900,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1922,,,? (Fe-S assembly/SufBCD system),ABC,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,"sufbcd_2fe2s2_e[e] + atp_c[c] + h20_c[c] -> sufbcd_2fe2s2_c[c] + adp_c[c] + h_c[c], sufbcd_4fe4s_e[e] + atp_c[c] + h2o_c[c] ->sufbcd_4fe4s_c[c]+ + adp_c[c]+hc_c[c] ",3.A.1
+SCO1924,,,? (Fe-S assembly/SufBCD system),membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,"sufbcd_2fe2s2_e[e] + atp_c[c] + h20_c[c] -> sufbcd_2fe2s2_c[c] + atp_e[e] + h2o_e[e], sufbcd_4fe4s_e[e] + adp_c[c] + h2o_c[c] + hc_c[c] ",3.A.1
+SCO1925,,,? (Fe-S assembly/SufBCD system),membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,"sufbcd_2fe2s2_e[e] + atp_c[c] + h20_e[e] -> sufbcd_2fe2s2_c[c] + adp_c[e] + h_c[c], sufbcd_4fe4s_e[e] + atp_c[c] + h2o_c[c]->sufbcd_4fe4s_c[c]+ adp_c[c] + h_c[c] ",3.A.1
+SCO1928,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO1929,,,multidrug,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2008,,,leucine/valine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2009,,,branched-chain amino acid,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2010,,,branched-chain amino acid,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2011,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2012,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2060,"UniProt, TransporterDB: www.tcdb.org/search/results.php?tc=3.A.1: lipopolysaccharide exporter",,Unclassified,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c] + h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO2061,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2229,,,sugar (maltose?),membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2230,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2231,,,sugar (maltose?),binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2257,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2258,,,multidrug,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2272,,,iron-hydroxamate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2273,,,cobalamin/Fe3+-siderophores,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2274,,,cobalamin/Fe3+-siderophores,ABC,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2305,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2306,"UniProt, TransporterDB: www.tcdb.org/search/results.php?tc=3.A.1: lipopolysaccharide exporter",,multidrug,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2323,,,Unclassified,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2324,,,cobalt,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,cobalt2_e[e] + atp_c[c] + h2o_c[c] -> cobalt2_c[c] + adp_c[c] + h_c[c] +,3.A.1
+SCO2325,,,Unclassified,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2404, ,,xylose,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2405,"UniProt, KEGG: 90% allignemnt similarity with Streptomyces lividans TK24, L-arabinose transport",,"sugar (ribose?), L-arabinose",ABC,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + arab__L_e[e]  -> h_c[c] + arab__L_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO2406,,,sugar (xylose?),membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2414,,,toluene tolerance,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,tol_e[e] + h2o_c[c]+atp_c[c] -> tol_c[c] + adp_c[c] + h_c[c],3.A.1
+SCO2415,,,toluene tolerance,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,tol_e[e] + h2o_c[c]+atp_c[c] -> tol_c[c] + adp_c[c] + h_c[c],3.A.1
+SCO2416,,,toluene tolerance,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,tol_e[e] + h2o_c[c]+atp_c[c] -> tol_c[c] + adp_c[c] + h_c[c],3.A.1
+SCO2417,,,toluene tolerance,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,tol_e[e] + h2o_c[c]+atp_c[c] -> tol_c[c] + adp_c[c] + h_c[c],3.A.1
+SCO2418,,,toluene tolerance,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,tol_e[e] + h2o_c[c]+atp_c[c] -> tol_c[c] + adp_c[c] + h_c[c],3.A.1
+SCO2419,,,toluene tolerance,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,tol_e[e] + h2o_c[c]+atp_c[c] -> tol_c[c] + adp_c[c] + h_c[c],3.A.1
+SCO2420,,,toluene tolerance,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,tol_e[e] + h2o_c[c]+atp_c[c] -> tol_c[c] + adp_c[c] + h_c[c],3.A.1
+SCO2421,,,toluene tolerance,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,tol_e[e] + h2o_c[c]+atp_c[c] -> tol_c[c] + adp_c[c] + h_c[c],3.A.1
+SCO2422,,,phosphate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2428,,,phosphate,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2432,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2433,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2434,,,sugar,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2463,,,multidrug,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2464,,,lipid A,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2505,,,zinc,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2506,,,phosphonate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2507,,,manganese/zinc ion,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2658,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO2659,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO2660,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar (N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO2664,UniProt: 90 % seq similarity in glnH_3 in Streptomyces sp. 111WW2 glutamine transport,,"amino acid (glutamine/glutamate/aspartate?), glutamine",binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + gln_e[e]  -> h_c[c] + gln_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO2674,,,lipoprotein,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c] + h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO2677,,,heme,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,"h2o_c[c] + atp_c[c] +heme_e[e]  -> h_c[c] + heme_c[c] + adp_c[c] + h_c[c] , add metabolite heme in scoGEM",3.A.1
+SCO2723,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2746,,,sugar (ribose?),ABC,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2747,,,xylose,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2763,,,multidrug,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2780,,,iron-hydroxamate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2795,,,sugar,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2796,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2797,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2828,,,amino acid (glutamine/glutamate/aspartate?),binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2829,,,amino aicd (glutamine/glutamate/aspartate?),membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2830,,,amino aicd (glutamine/glutamate/aspartate?),membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2831,,,D-methionine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2894,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2895,"UniProt, TransporterDB: www.tcdb.org/search/results.php?tc=3.A.1: lipopolysaccharide exporter",,"multidrug, lipopolisaccharide export",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c]+ h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO2896,"UniProt, TransporterDB: www.tcdb.org/search/results.php?tc=3.A.1: lipopolysaccharide exporter",,"multidrug?, lipopolisaccharide",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c]+ h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO2930,,,glycine betaine/L-proline/carnitine/choline,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2931,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2932,,,glycine betaine/L-proline/carnitine/choline,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2933,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2944,"Uniprot, KEGG: N,N'-diacetylchitobiose",,"sugar, N,N'-diacetylchitobiose",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + chtbs_e[e]  -> h_c[c] + chtbs_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO2945,"Uniprot, KEGG: N,N'-diacetylchitobiose",,"sugar, N,N'-diacetylchitobiose",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + chtbs_e[e]  -> h_c[c] + chtbs_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO2946,"Uniprot, KEGG: N,N'-diacetylchitobiose",,"sugar, N,N'-diacetylchitobiose",binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + chtbs_e[e]  -> h_c[c] + chtbs_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO2968,,,cell division,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2969,,,D-methionine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + met-_L_e[e]  -> h_c[c] + met__L_e[c] + adp_c[c] + pi_c[c],3.A.1
+SCO2978,,,sugar,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2979,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2980,"UniProt, KEGG-alpha-glucoside transport",,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO2995,"UniProt, KEGG: teichoic acid tranport",,"polysaccharide export, teichoic acid",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,"tca_e[e] + h2o_c[c] + atp_c[c] -> tca_c[c] + adp_c[c] + hc_[c], tca, new metabolite",3.A.1
+SCO2996,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO3089,,,lipoprotein,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_e[e] + h2o_c[c] + atp_c[c]-> lproc_c[c]+ h_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO3090,,,lipoprotein releasing,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c] + h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_e[e] + pi_e[e],3.A.1
+SCO3110,,,lipoprotein releasing,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c] + h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_e[e] + pi_e[e],3.A.1
+SCO3111,,,lipoprotein,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_e[e] + h2o_c[c] + atp_c[c] -> lproc_c[c]+ h_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO3147,,,heme,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,"h2o_c[c] + atp_c[c] +heme_e[e]  -> h_c[c] + heme_c[c] + adp_c[c] + h_c[c] , add metabolite heme in scoGEM",3.A.1
+SCO3159,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"Unclassified, N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO3160,Uniprot: Co/Ni transport,,cobalt ion,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,cobalt2_e[e] + atp_c[c] + h2o_c[c] -> cobalt2_c[c] + adp_c[c] + h_c[c] + cobalt2_c[c],3.A.1
+SCO3161,,,cobalt,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO3224,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO3235,,,multidrug,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO3339,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO3417,,,multidrug,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO3418,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO3453,,,polyamine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO3454,,,spermidine/putrescine,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,spmd_[e] + h2o_c[c]+atp_c[c]->spmd_c[c] + adp_c[c] + hc_[c],3.A.1
+SCO3455,,,spermidine/putrescine,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,spmd_e[e] + h2o_c[c]+atp_c[c]->spmd_c[c] + adp_c[c] + hc_[c],3.A.1
+SCO3456,,,spermidine/putrescine,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,spmd_e[e] + h2o_c[c]+atp_c[c]->spmd_c[c] + adp_c[c] + hc_[c],3.A.1
+SCO3482,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"Unclassified, N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO3483,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"Unclassified, N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO3484,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"Unclassified, N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO3503,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"Unclassified, N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO3504,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar, N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO3505,"TransporterDB and Uniprot Database: N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin, methionine",,"sugar, N,N-diacetylvhitobiose, alpha-glucoside, maltose, maltodextrin), methionine",binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + malt_e[e]  -> h_c[c] + malt_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO3633,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + xyl__D_e[e]  -> h_c[c] + xyl__D_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO3634,,,multidrug,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO3667,,,xylose,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] + xyl__D_e[e]  -> h_c[c] + xyl__D_c[c] + adp_c[c] + pi_c[c] ,3.A.1
+SCO3704,,,mobybdenate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO3705,,,molybdate,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO3706,,,molybdate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO3752,,,lipoprotein,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_e[e] + h2o_c[c] + atp_c[c] -> lproc_c[c]+ h_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO3754,,,lipoprotein releasing,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c] + h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_e[e] + pi_e[e],3.A.1
+SCO3755,,,lipoprotein,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_e[e] + h2o_c[c] + atp_c[c] -> lproc_c[c]+ h_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO3824,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO3825,,,multidrug,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO3947,,,lipid A,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO3956,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO3958,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO3959,"UniProt, TransporterDB: www.tcdb.org/search/results.php?tc=3.A.1: lipopolysaccharide exporter",,Unclassified,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c] + h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_e[e] + pi_e[e],3.A.1
+SCO4074,,,Unclassified,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4075,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4139,,,phosphate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4140,,,phosphate,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4141,,,phosphate,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4142,,,phosphate,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4148,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4240,,,polyamine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4286,,,sugar,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4359,"UniProt, TransporterDB: www.tcdb.org/search/results.php?tc=3.A.1: lipopolysaccharide exporter",,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4360,,,multidrug,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4397,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4404,"UniProt, TransporterDB: www.tcdb.org/search/results.php?tc=3.A.1: lipopolysaccharide exporter",,Unclassified,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c] + h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_e[e] + pi_e[e],3.A.1
+SCO4405,"UniProt, TransporterDB: www.tcdb.org/search/results.php?tc=3.A.1: lipopolysaccharide exporter",,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4585,"UniProt, TransporterDB: www.tcdb.org/search/results.php?tc=3.A.1: lipopolysaccharide exporter",,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4666,,,lipoprotein,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c] + h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_e[e] + pi_e[e],3.A.1
+SCO4830,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4831,,,glycine betaine/L-proline,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4832,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4884,"Uniprot: 90% seq similarity wirh  SLIV_13955, S.lividans TK24",,"sugar, lipoprotein",binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c] + h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_e[e] + pi_e[e],3.A.1
+SCO4885,,,sugar,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4886,,,sugar,ABC,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4887,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4888,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4936,"UniProt, TransporterDB: www.tcdb.org/search/results.php?tc=3.A.1: lipopolysaccharide exporter",,lipoprotein,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c] + h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_e[e] + pi_e[e],3.A.1
+SCO4963,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO4964,,,multidrug,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5035,,,lipoprotein,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c] + h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_e[e] + pi_e[e],3.A.1
+SCO5110,,,dipeptide/oligopeptide,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5112,,,dipeptide/oligopeptide,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5113,,,dipeptide/oligopeptide,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5114,,,dipeptide/oligopeptide,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5115,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5116,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,glyb_e[e]+h2o_c[c]+atp_c[c]->glyb_c[c]+ adp_c[c]+h_c[c],3.A.1
+SCO5117,,,oligopeptide,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5118,,,dipeptide/oligopeptide,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5119,,,dipeptide/oligopeptide,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5120,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5121,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5129,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5130,"UniProt, TransporterDB: www.tcdb.org/search/results.php?tc=3.A.1: lipopolysaccharide exporter",,multidrug,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5232,,,sugar,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5233,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5234,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5258,,,phosphate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5259,,,amino aicd (glutamine/glutamate/aspartate?),membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5260,,,amino acid (glutamine/glutamate/aspartate?),binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5382,,,Unclassified,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5383,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5393,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5395,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5428,"UniProt, TransporterDB: N,N'-diacetylchitobiose",,"sugar, chitobiose",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,chtbs_e[e] + h2o_c[c] + atp_c[c]->chtbs_c[c] + adp_c[c] + hc_c[c],3.A.1
+SCO5429,"UniProt, TransporterDB: N,N'-diacetylchitobiose",,"sugar, chitobiose",membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,chtbs_e[e] + h2o_c[c] + atp_c[c]->chtbs_c[c] + adp_c[c] + hc_c[c],3.A.1
+SCO5430,"UniProt, TransporterDB: N,N'-diacetylchitobiose",,"sugar, chitobiose",binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,chtbs_e[e] + h2o_c[c] + atp_c[c]->chtbs_c[c] + adp_c[c] + hc_c[c],3.A.1
+SCO5448,,,multidrug,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5449,,,lipid A,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5450,,,lipid A,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5451,,,lipid A,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5452,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5453,"UniProt, TransporterDB: www.tcdb.org/search/results.php?tc=3.A.1: lipopolysaccharide exporter",,Unclassified,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c] + h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_e[e] + pi_e[e],3.A.1
+SCO5476,,,dipeptide/oligopeptide,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5477,,,dipeptide/oligopeptide,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_e[e] + h2o_c[c] + atp_c[[c] -> lproc_c[c]+ h_c[c] + adp_c[c] + pi_c[c],3.A.1
+SCO5478,,,dipeptide/oligopeptide,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5479,,,lipoprotein,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5480,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,glyb_e[e]+h2o_c[c]+atp_c[c]->glyb_c[c]+ adp_c[c]+h_c[c],3.A.1
+SCO5646,,,thiamin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5647,,,iron(III),membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5648,,,polyamine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5654,,,lipoprotein,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c] + h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_e[e] + pi_e[e],3.A.1
+SCO5658,,,spermidine/putrescine,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5667,,,spermidine/putrescine,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5668,,,polyamine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5669,,,spermidine/putrescine,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5670,,,spermidine/putrescine,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5686,,,sugar,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5687,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5688,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5712,,,sulfate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5713,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5714,,,dipeptide/oligopeptide,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5715,,,dipeptide/oligopeptide,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5716,,,dipeptide/oligopeptide,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5774,,,amino aicd (glutamine/glutamate/aspartate?),membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5775,,,amino aicd (glutamine/glutamate/aspartate?),membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5776,,,amino acid (glutamine/glutamate/aspartate?),binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5777,,,phosphate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5780,,,phosphonates,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5818,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5870,,,lipoprotein,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,lproc_c[c] + h2o_c[c] + atp_c[c] -> lproc_e[e]+ h_c[c] + adp_e[e] + pi_e[e],3.A.1
+SCO5911,,,dipeptide/oligopeptide,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5923,,,polyamine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5924,,,iron(III),membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5958,,,cobalt,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5959,,,cobalt ion,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,cobalt_2_e[e]+atp_c[c]+h2o_c[c]->cobalt2_c[c] + adp_c[c]+h_c[c],3.A.1
+SCO5960,,,cobalt ion,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,cobalt_2_e[e]+atp_c[c]+h2o_c[c]->cobalt2_c[c] + adp_c[c]+h_c[c],3.A.1
+SCO5961,"UniProt, KEGG:cobalt/nickel transport",,Unclassified,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,ni2_e[e]+h2o_c[c] + atp_c[c]-> ni2_c[c] + adp_c[c] + h_c[c],3.A.1
+SCO6005,,,N-acetylglucosamine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6006,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6007,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6009,,,xylose,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6010,,,sugar (ribose?),ABC,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6011,,,sugar (xylose?),membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6047,,,heme,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] +heme_e[e]  -> h_c[c] + heme_c[c] + adp_c[c] + h_c[c],3.A.1
+SCO6062,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6063,,,glycine betaine/L-proline/carnitine/choline,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6064,,,glycine betaine/L-proline/carnitine/choline,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6065,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6070,,,rhamnose,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6086,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6087,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6088,,,sugar,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6094,,,nitrate/sulfonate/taurine,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6095,,,nitrate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6096,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6111,,,D-methionine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6112,,,dipeptide/oligopeptide,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6113,,,dipeptide/oligopeptide,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6114,,,dipeptide/oligopeptide,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6149,,,Unclassified,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6229,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6230,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6231,,,sugar,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6257,,,ribose,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6258,,,sugar (ribose?),membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6259,,,sugar (ribose?),ABC,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6295,,,multidrug,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6360,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6366,,,lipoprotein,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6367,,,lipoprotein,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6426,,,phosphonate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6451,,,dipeptide/oligopeptide,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6452,,,dipeptide/oligopeptide,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6453,,,dipeptide/oligopeptide,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6454,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6455,,,D-methionine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6512,,,heme,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6567,,,sugar (ribose?),ABC,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6568,,,sugar (ribose?),membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6569,,,xylose,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6601,,,sugar,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6602,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6603,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6644,,,dipeptide/oligopeptide,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6645,,,dipeptide/oligopeptide,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6677,,,nitrate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6683,,,toxin secretion,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6684,,,toxin secretion,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6720,,,cobalt,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6742,,,heme,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6757,,,polysaccharide export,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6758,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6814,,,phosphate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6815,,,phosphate,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO6979,,,rhamnose,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,rmn_e[e] + h2o_c[c]+atp_c[c]->rmn_c[c] + adp_c[c] +h_c[c],3.A.1
+SCO6980,,,sugar (ribose?),membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,rib__D_e[e] +h2o_c[c] + atp_c[c]->rib__D_c[c] + adp_c[c] + h_c[c],3.A.1
+SCO6981,,,sugar (ribose?),ABC,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,rib__D_e[e] +h2o_c[c] + atp_c[c]->rib__D_c[c] + adp_c[c] + h_c[c],3.A.1
+SCO6986,,,carbohydrate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7008,,,lipid A,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7011,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7012,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7013,,,sugar,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7028,,,sugar,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7029,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7030,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7165,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7166,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7167,,,sugar,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7181,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7182,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7183,,,branched-chain amino acid,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7184,,,branched-chain amino acid,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7185,,,leucine/valine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7216,,,cobalamin/Fe3+-siderophores,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7217,,,phosphonate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7218,,,cobalamin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7398,,,cobalamin/Fe3+-siderophores,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7399,,,iron-hydroxamate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7400,,,phosphonate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7408,,,sugar,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7409,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7410,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7459,,,daunorubicin,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7487,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7488,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7489,,,sugar,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7504,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7505,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7544,,,nitrate/sulfonate/taurine,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7545,,,nitrate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7546,,,phosphonates,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7555,,,sugar,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7556,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7557,,,sugar,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7563,,,dipeptide/oligopeptide,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7564,,,dipeptide/oligopeptide,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7565,,,dipeptide/oligopeptide,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7566,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,glyb_e[e]+h2o_c[c]+atp_c[c]->glyb_c[c]+ adp_c[c]+h_c[c],3.A.1
+SCO7567,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,glyb_e[e]+h2o_c[c]+atp_c[c]->glyb_c[c]+ adp_c[c]+h_c[c],3.A.1
+SCO7606,,,leucine/valine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,"leu__L_e[e] +h2o_c[c] + atp_c[c] -> leu__L_c[c] +adp_c[c] + h_c[c], val__L_e[e] + adp_c[c] + h_c[c]",3.A.1
+SCO7677,,,dipeptide/oligopeptide,binding protein,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7678,,,dipeptide/oligopeptide,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7679,,,dipeptide/oligopeptide,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7680,,,sulfate,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,so4_e[e] + h2o_c[c] + atp_c[c] -> so4_c[c] + adp_c[c] + h_c[c],3.A.1
+SCO7689,,,lipid A,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO7690,,,lipid A,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO5009,,,heme,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] +heme_e[e]  -> h_c[c] + heme_c[c] + adp_c[c] + h_c[c],3.A.1
+SCO1461,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,glyb_e[e]+h2o_c[c]+atp_c[c]->glyb_c[c]+ adp_c[c]+h_c[c],3.A.1
+SCO1252,,,glycine betaine,binding,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,glyb_e[e]+h2o_c[c]+atp_c[c]->glyb_c[c]+ adp_c[c]+h_c[c],3.A.1
+SCO4475,,,heme export,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,h2o_c[c] + atp_c[c] +heme_c[c]  -> h_e[e] + heme_e[e] + adp_e[e] + h_e[e],3.A.1
+SCO3338,,,multidrug,membrane,ABC,The ATP-binding Cassette (ABC) Superfamily,ATP-Dependent,,3.A.1
+SCO3578,,,arsenite (ArsA),,ArsAB,The Arsenite-Antimonite (ArsAB) Efflux Family,ATP-Dependent,,3.A.4
+SCO2128,,,arsenite (ArsA),,ArsAB,The Arsenite-Antimonite (ArsAB) Efflux Family,ATP-Dependent,aso3_e[e] +h2o_c[c] + atp_c[c] -> aso3_c[c] 0 adp_c[c] + h_[c],3.A.4
+SCO3577,,,arsenite (ArsA),,ArsAB,The Arsenite-Antimonite (ArsAB) Efflux Family,ATP-Dependent,,3.A.4
+SCO2567,,,Unclassified,,DNA-T,The Bacterial Competence-related DNA Transformation Transporter (DNA-T) Family,ATP-Dependent,,3.A.11
+SCO2568,,,Unclassified,,DNA-T,The Bacterial Competence-related DNA Transformation Transporter (DNA-T) Family,ATP-Dependent,,3.A.11
+SCO5367,,,protons,,F-ATPase,The H+- or Na+-translocating F-type, V-type and A-type ATPase (F-ATPase) Superfamily,h_c[e] +h2o_c[c] + atp_e[e]->h_c[c] + adp_c[c] + h_c[c],3.A.2
+SCO5368,,,protons,,F-ATPase,The H+- or Na+-translocating F-type, V-type and A-type ATPase (F-ATPase) Superfamily,h_c[e] +h2o_c[c] + atp_c[c]->h_c[c] + adp_c[c] + h_c[c],3.A.2
+SCO5369,,,protons,,F-ATPase,The H+- or Na+-translocating F-type, V-type and A-type ATPase (F-ATPase) Superfamily,h_c[e] +h2o_c[c] + atp_c[c]->h_c[c] + adp_c[c] + h_c[c],3.A.2
+SCO5370,,,protons,,F-ATPase,The H+- or Na+-translocating F-type, V-type and A-type ATPase (F-ATPase) Superfamily,h_e[e] +h2o_e[e] + atp_e[e]->h_c[c] + adp_c[c] + h_c[c],3.A.2
+SCO5371,,,protons,,F-ATPase,The H+- or Na+-translocating F-type, V-type and A-type ATPase (F-ATPase) Superfamily,h_e[e] +h2o_c[c] + atp_c[c]->h_c[c] + adp_c[c] + h_c[c],3.A.2
+SCO5372,,,protons,,F-ATPase,The H+- or Na+-translocating F-type, V-type and A-type ATPase (F-ATPase) Superfamily,h_e[e] +h2o_c[c] + atp_c[c]->h_c[c] + adp_c[c] + h_c[c],3.A.2
+SCO5373,,,protons,,F-ATPase,The H+- or Na+-translocating F-type, V-type and A-type ATPase (F-ATPase) Superfamily,h_e[e] +h2o_c[c] + atp_c[c]->h_c[c] + adp_c[c] + h_c[c],3.A.2
+SCO5374,,,protons,,F-ATPase,The H+- or Na+-translocating F-type, V-type and A-type ATPase (F-ATPase) Superfamily,h_e[e] +h2o_c[c] + atp_c[c]->h_c[c] + adp_c[c] + h_c[c],3.A.2
+SCO6149,,,Unclassified,binding protein,F-ATPase,The H+- or Na+-translocating F-type, V-type and A-type ATPase (F-ATPase) Superfamily,h_e[e] +h2o_c[c] + atp_c[c]->h_c[c] + adp_c[c] + h_c[c],3.A.2
+SCO3547,,,proton (vacuolar),,H+-PPase,The H+-translocating Pyrophosphatase (H+-PPase) Family,ATP-Dependent,,3.A.10
+SCO5598,,,Unclassified,,IVSP,The Type IV (Conjugal DNA-Protein Transfer or VirB) Secretory Pathway (IVSP) Family,ATP-Dependent,,3.A.7
+SCO6849,,,Unclassified,,IVSP,The Type IV (Conjugal DNA-Protein Transfer or VirB) Secretory Pathway (IVSP) Family,ATP-Dependent,,3.A.7
+SCO0164,,,zinc/cadmium/cobalt ion,,P-ATPase,The P-type ATPase (P-ATPase) Superfamily,ATP-Dependent,"zn2_e[e] +h2o_c[c] + atp_c[c]->zn2_c[c] + adp_c[c] + h_c[c], cd2_e[e] +h2o_c[c] + atp_c[c]->cd2_c[c] + adp_c[c] + h_c[c], cobalt2_e[e] + atp_c[c] + h2o_c[c]-> cobalt2_c[c] + adp_c[c] + h_c[c]",3.A.3
+SCO0860,,,zinc/cadmium/cobalt ion,,P-ATPase,The P-type ATPase (P-ATPase) Superfamily,ATP-Dependent,"zn2_e[e] +h2o_e[e] + atp_e[e]->zn2_c[c] + adp_c[c] + h_c[c], cd2_e[e] +h2o_e[e] + atp_e[e]->cd2_c[c] + adp_c[c] + h_c[c], cobalt2_e[e] + atp_e[e] + h2o_e[e]-> cobalt2_c[c] + adp_c[c] + h_c[c]",3.A.3
+SCO1046,,,zinc/cadmium/cobalt ion,,P-ATPase,The P-type ATPase (P-ATPase) Superfamily,ATP-Dependent,,3.A.3
+SCO2499,,,calcium ion/manganese ion,,P-ATPase,The P-type ATPase (P-ATPase) Superfamily,ATP-Dependent,,3.A.3
+SCO2731,,,zinc/cadmium/cobalt ion,,P-ATPase,The P-type ATPase (P-ATPase) Superfamily,ATP-Dependent,,3.A.3
+SCO3216,,,plasma proton,,P-ATPase,The P-type ATPase (P-ATPase) Superfamily,ATP-Dependent,,3.A.3
+SCO3716,,,potassium ion,,P-ATPase,The P-type ATPase (P-ATPase) Superfamily,ATP-Dependent,,3.A.3
+SCO3717,,,potassium ion,,P-ATPase,The P-type ATPase (P-ATPase) Superfamily,ATP-Dependent,,3.A.3
+SCO3718,,,potassium ion,,P-ATPase,The P-type ATPase (P-ATPase) Superfamily,ATP-Dependent,,3.A.3
+SCO4332,,,plasma proton,,P-ATPase,The P-type ATPase (P-ATPase) Superfamily,ATP-Dependent,,3.A.3
+SCO6460,,,zinc/cadmium/cobalt ion,,P-ATPase,The P-type ATPase (P-ATPase) Superfamily,ATP-Dependent,,3.A.3
+Protein-Name,Substrate,Subtype,Family,Family Name,Transporter Class,TC number
+SCO3698,arsenite,,ACR3,The Arsenical Resistance-3 (ACR3) Family,Secondary Transporter,2.A.59
+SCO6837,arsenite,,ACR3,The Arsenical Resistance-3 (ACR3) Family,Secondary Transporter,2.A.59
+SCO4893,Unclassified,,AEC,The Auxin Efflux Carrier (AEC) Family,Secondary Transporter,2.A.69
+SCO7197,sodium ion:alanine symporter,,AGCS,The Alanine or Glycine:Cation Symporter (AGCS) Family,Secondary Transporter,2.A.25
+SCO0513,Autoinducer-2 export,,AI-2E,The Autoinducer-2 Exporter (AI-2E) Family (Formerly the PerM Family,Secondary Transporter,2.A.86
+SCO3797,Autoinducer-2 export,,AI-2E,The Autoinducer-2 Exporter (AI-2E) Family (Formerly the PerM Family,Secondary Transporter,2.A.86
+SCO5030,Autoinducer-2 export,,AI-2E,The Autoinducer-2 Exporter (AI-2E) Family (Formerly the PerM Family,Secondary Transporter,2.A.86
+SCO5767,Autoinducer-2 export,,AI-2E,The Autoinducer-2 Exporter (AI-2E) Family (Formerly the PerM Family,Secondary Transporter,2.A.86
+SCO0938,amino acid,,APC,The Amino Acid-Polyamine-Organocation (APC) Family,Secondary Transporter,2.A.3
+SCO1459,amino acid,,APC,The Amino Acid-Polyamine-Organocation (APC) Family,Secondary Transporter,2.A.3
+SCO1683,amino acid,,APC,The Amino Acid-Polyamine-Organocation (APC) Family,Secondary Transporter,2.A.3
+SCO2628,GABA,,APC,The Amino Acid-Polyamine-Organocation (APC) Family,Secondary Transporter,2.A.3
+SCO2631,GABA,,APC,The Amino Acid-Polyamine-Organocation (APC) Family,Secondary Transporter,2.A.3
+SCO2724,amino acid,,APC,The Amino Acid-Polyamine-Organocation (APC) Family,Secondary Transporter,2.A.3
+SCO2914,amino acid,,APC,The Amino Acid-Polyamine-Organocation (APC) Family,Secondary Transporter,2.A.3
+SCO4097,amino acid,,APC,The Amino Acid-Polyamine-Organocation (APC) Family,Secondary Transporter,2.A.3
+SCO4612,amino acid,,APC,The Amino Acid-Polyamine-Organocation (APC) Family,Secondary Transporter,2.A.3
+SCO5057,amino acid,,APC,The Amino Acid-Polyamine-Organocation (APC) Family,Secondary Transporter,2.A.3
+SCO5900,amino acid,,APC,The Amino Acid-Polyamine-Organocation (APC) Family,Secondary Transporter,2.A.3
+SCO5977,amino acid,,APC,The Amino Acid-Polyamine-Organocation (APC) Family,Secondary Transporter,2.A.3
+SCO6014,amino acid,,APC,The Amino Acid-Polyamine-Organocation (APC) Family,Secondary Transporter,2.A.3
+SCO6385,amino acid,,APC,The Amino Acid-Polyamine-Organocation (APC) Family,Secondary Transporter,2.A.3
+SCO6528,arginine:ornithine antiporter,,APC,The Amino Acid-Polyamine-Organocation (APC) Family,Secondary Transporter,2.A.3
+SCO6734,amino acid,,APC,The Amino Acid-Polyamine-Organocation (APC) Family,Secondary Transporter,2.A.3
+SCO7002,amino acid,,APC,The Amino Acid-Polyamine-Organocation (APC) Family,Secondary Transporter,2.A.3
+SCO0791,fusaric acid efflux?,,ArAE,The Aromatic Acid Exporter (ArAE) Family,Secondary Transporter,2.A.85
+SCO0796,fusaric acid efflux?,,ArAE,The Aromatic Acid Exporter (ArAE) Family,Secondary Transporter,2.A.85
+SCO1099,fusaric acid efflux?,,ArAE,The Aromatic Acid Exporter (ArAE) Family,Secondary Transporter,2.A.85
+SCO1118,fusaric acid efflux?,,ArAE,The Aromatic Acid Exporter (ArAE) Family,Secondary Transporter,2.A.85
+SCO1985,fusaric acid efflux?,,ArAE,The Aromatic Acid Exporter (ArAE) Family,Secondary Transporter,2.A.85
+SCO7159,fusaric acid efflux?,,ArAE,The Aromatic Acid Exporter (ArAE) Family,Secondary Transporter,2.A.85
+SCO7318,fusaric acid efflux?,,ArAE,The Aromatic Acid Exporter (ArAE) Family,Secondary Transporter,2.A.85
+SCO7736,fusaric acid efflux?,,ArAE,The Aromatic Acid Exporter (ArAE) Family,Secondary Transporter,2.A.85
+SCO7367,arsenite (ArsB),,ArsB,The Arsenite-Antimonite (ArsB) Efflux Family,Secondary Transporter,2.A.45
+SCO6370,sodium ion:bile acid symporter,,BASS,The Bile Acid:Na+ Symporter (BASS) Family,Secondary Transporter,2.A.28
+SCO6990,sodium ion/?,,BASS,The Bile Acid:Na+ Symporter (BASS) Family,Secondary Transporter,2.A.28
+SCO6739,glycine betaine/carnitine/choline,,BCCT,The Betaine/Carnitine/Choline Transporter (BCCT) Family,Secondary Transporter,2.A.15
+SCO2630,biotin uptake,,BUT,The Biotin Uptake Transporter (BUT) Family,Secondary Transporter,2.A.88
+SCO1962,proton:calcium ion antiporter,,CaCA,The Ca2+:Cation Antiporter (CaCA) Family,Secondary Transporter,2.A.19
+SCO0776,cation efflux,,CDF,The Cation Diffusion Facilitator (CDF) Family,Secondary Transporter,2.A.4
+SCO0874,cation efflux,,CDF,The Cation Diffusion Facilitator (CDF) Family,Secondary Transporter,2.A.4
+SCO1310,cation efflux,,CDF,The Cation Diffusion Facilitator (CDF) Family,Secondary Transporter,2.A.4
+SCO2772,cation efflux,,CDF,The Cation Diffusion Facilitator (CDF) Family,Secondary Transporter,2.A.4
+SCO3024,cation efflux,,CDF,The Cation Diffusion Facilitator (CDF) Family,Secondary Transporter,2.A.4
+SCO3521,cation efflux,,CDF,The Cation Diffusion Facilitator (CDF) Family,Secondary Transporter,2.A.4
+SCO6751,cation efflux,,CDF,The Cation Diffusion Facilitator (CDF) Family,Secondary Transporter,2.A.4
+SCO1710,proton:citrate symporter,,CitMHS,The Citrate-Mg2+:H+ (CitM) Citrate-Ca2+:H+ (CitH) Symporter (CitMHS) Family,Secondary Transporter,2.A.11
+SCO6320,chloride ion channel,,ClC,The Chloride Carrier/Channel (ClC) Family,Secondary Transporter,2.A.49
+SCO2071,sodium ion:proton antiporter,,CPA1,The Monovalent Cation:Proton Antiporter-1 (CPA1) Family,Secondary Transporter,2.A.36
+SCO3185,sodium ion:proton antiporter,,CPA1,The Monovalent Cation:Proton Antiporter-1 (CPA1) Family,Secondary Transporter,2.A.36
+SCO3603,sodium ion:proton antiporter,,CPA1,The Monovalent Cation:Proton Antiporter-1 (CPA1) Family,Secondary Transporter,2.A.36
+SCO5246,sodium ion:proton antiporter,,CPA1,The Monovalent Cation:Proton Antiporter-1 (CPA1) Family,Secondary Transporter,2.A.36
+SCO3279,potassium/sodium ion:proton antiporter,,CPA2,The Monovalent Cation:Proton Antiporter-2 (CPA2) Family,Secondary Transporter,2.A.37
+SCO3602,potassium/sodium ion:proton antiporter,,CPA2,The Monovalent Cation:Proton Antiporter-2 (CPA2) Family,Secondary Transporter,2.A.37
+SCO5782,potassium/sodium ion:proton antiporter,,CPA2,The Monovalent Cation:Proton Antiporter-2 (CPA2) Family,Secondary Transporter,2.A.37
+SCO5974,potassium/sodium ion:proton antiporter,,CPA2,The Monovalent Cation:Proton Antiporter-2 (CPA2) Family,Secondary Transporter,2.A.37
+SCO7384,potassium/sodium ion:proton antiporter,,CPA2,The Monovalent Cation:Proton Antiporter-2 (CPA2) Family,Secondary Transporter,2.A.37
+SCO6955,sodium ion:proton antiporter,,CPA3,The Monovalent Cation (K+ or Na+):Proton Antiporter-3 (CPA3) Family,Secondary Transporter,2.A.63
+SCO6957,multicomponent sodium ion:proton antiporter,MnhE,CPA3,The Monovalent Cation (K+ or Na+):Proton Antiporter-3 (CPA3) Family,Secondary Transporter,2.A.63
+SCO6958,multicomponent sodium ion:proton antiporter,MnhF,CPA3,The Monovalent Cation (K+ or Na+):Proton Antiporter-3 (CPA3) Family,Secondary Transporter,2.A.63
+SCO6959,multicomponent sodium ion:proton antiporter,MnhG,CPA3,The Monovalent Cation (K+ or Na+):Proton Antiporter-3 (CPA3) Family,Secondary Transporter,2.A.63
+SCO4573,multicomponent sodium ion:proton antiporter,MnhA,CPA3,The Monovalent Cation (K+ or Na+):Proton Antiporter-3 (CPA3) Family,Secondary Transporter,2.A.63
+SCO4606,multicomponent sodium ion:proton antiporter,MnhA,CPA3,The Monovalent Cation (K+ or Na+):Proton Antiporter-3 (CPA3) Family,Secondary Transporter,2.A.63
+SCO6954,multicomponent sodium ion:proton antiporter,MnhA,CPA3,The Monovalent Cation (K+ or Na+):Proton Antiporter-3 (CPA3) Family,Secondary Transporter,2.A.63
+SCO6956,multicomponent sodium ion:proton antiporter,MnhD,CPA3,The Monovalent Cation (K+ or Na+):Proton Antiporter-3 (CPA3) Family,Secondary Transporter,2.A.63
+SCO4498,proton/sodium ion:glutamate/aspartate symporter,,DAACS,The Dicarboxylate/Amino Acid:Cation (Na+ or H+) Symporter (DAACS) Family,Secondary Transporter,2.A.23
+SCO5436,proton/sodium ion:glutamate/aspartate symporter,,DAACS,The Dicarboxylate/Amino Acid:Cation (Na+ or H+) Symporter (DAACS) Family,Secondary Transporter,2.A.23
+SCO2144,sodium ion:dicarboxylate/sulfate,,DASS,The Divalent Anion:Na+ Symporter (DASS) Family,Secondary Transporter,2.A.47
+SCO0973,drug/metabolite?,,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO1128,drug/metabolite?,,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO1313,drug/metabolite?,,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO1359,drug/metabolite?,,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO1362,drug/metabolite?,,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO1363,drug/metabolite?,DME,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO1588,drug/metabolite?,,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO1704,drug/metabolite?,,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO1918,multidrug efflux (SMR),SMR,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO2293,drug/metabolite?,,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO2645,drug/metabolite?,,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO2646,drug/metabolite?,,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO2756,drug/metabolite?,,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO2898,multidrug efflux (SMR),SMR,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO3164,drug/metabolite?,,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO3297,drug/metabolite?,,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO4374,drug/metabolite?,DME,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO4592,drug/metabolite?,,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO5210,multidrug efflux (SMR),SMR,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO5531,drug/metabolite?,,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO5851,drug/metabolite?,,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO6376,drug/metabolite?,,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO7394,drug/metabolite?,,DMT,The Drug/Metabolite Transporter (DMT) Superfamily,Secondary Transporter,2.A.7
+SCO1680,gluconate,,GntP,The Gluconate:H+ Symporter (GntP) Family,Secondary Transporter,2.A.8
+SCO4991,gluconate,,GntP,The Gluconate:H+ Symporter (GntP) Family,Secondary Transporter,2.A.8
+SCO3029,L-lactate,,LctP,The Lactate Permease (LctP) Family,Secondary Transporter,2.A.14
+SCO5763,branched-chain amino acid efflux (AzlC),AzlC,LIV-E,The Branched Chain Amino Acid Exporter (LIV-E) Family,Secondary Transporter,2.A.78
+SCO3362,amino acid efflux,,LysE,The L-Lysine Exporter (LysE) Family,Secondary Transporter,2.A.75
+SCO7308,lysine efflux,,LysE,The L-Lysine Exporter (LysE) Family,Secondary Transporter,2.A.75
+SCO0079,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO0213,nitrate,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO0295,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO0313,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO0317,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO0375,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO0581,D-galactonate,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO0623,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO0680,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO0900,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO0994,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO1010,sugar,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO1067,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO1190,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO1194,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO1225,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO1411,metabolite (benzoate?),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO1420,multidrug efflux?,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO1448,sugar efflux?,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO1457,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO1567,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO1641,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO1709,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO1751,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO1812,cyanate,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO1892,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2046,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2254,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2264,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2284,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2309,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2310,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2336,nitrate/nitrite,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2344,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2373,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2498,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2502,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2536,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2541,D-galactonate,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2545,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2690,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2812,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2854,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2889,metabolite (benzoate?),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2937,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2959,nitrate,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2965,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO3186,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO3199,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO3206,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO3331,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO3366,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO3397,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO3507,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO3648,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO3809,nitrate/nitrite,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO3898,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO3915,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO4007,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO4024,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO4031,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO4121,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO4208,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO4265,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO4329,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO4337,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO4414,glycerol-3-phosphate,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO4446,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO4451,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO4462,sugar efflux?,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO4641,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO4896,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO5076,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO5083,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO5159,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO5401,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO5468,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO5516,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO5578,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO5810,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO5858,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO5947,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO5950,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO5957,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO6037,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO6250,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO6278,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO6384,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO6427,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO6430,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO6483,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO6553,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO6563,oxalate:formate antiporter,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO6581,glycerol-3-phosphate,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO6646,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO6690,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO6805,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO6809,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO6822,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO6896,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO6899,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO6970,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO7128,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO7153,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO7157,cyanate,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO7309,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO7346,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO7350,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO7369,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO7395,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO7425,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO7435,metabolite (benzoate?),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO7479,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO7520,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO7526,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO7662,multidrug efflux,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO7703,cyanate,,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCP1.237c,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCP1.309c,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCP1.45,multidrug efflux (EmrB/QacA subfamily),,MFS,The Major Facilitator Superfamily (MFS),Secondary Transporter,2.A.1
+SCO2709,virulence factor MviN,MVF,MOP,The Multidrug/Oligosaccharidyl-lipid/Polysaccharide (MOP) Flippase Superfamily,Secondary Transporter,2.A.66
+SCO3894,virulence factor MviN,MVF,MOP,The Multidrug/Oligosaccharidyl-lipid/Polysaccharide (MOP) Flippase Superfamily,Secondary Transporter,2.A.66
+SCO3910,multidrug efflux,MATE,MOP,The Multidrug/Oligosaccharidyl-lipid/Polysaccharide (MOP) Flippase Superfamily,Secondary Transporter,2.A.66
+SCO0572,cytosine/purines/uracil/thiamine/allantoin,,NCS1,The Nucleobase:Cation Symporter-1 (NCS1) Family,Secondary Transporter,2.A.39
+SCO5524,cytosine/purines/uracil/thiamine/allantoin,,NCS1,The Nucleobase:Cation Symporter-1 (NCS1) Family,Secondary Transporter,2.A.39
+SCO5579,cytosine/purines/uracil/thiamine/allantoin,,NCS1,The Nucleobase:Cation Symporter-1 (NCS1) Family,Secondary Transporter,2.A.39
+SCO6417,cytosine/purines/uracil/thiamine/allantoin,,NCS1,The Nucleobase:Cation Symporter-1 (NCS1) Family,Secondary Transporter,2.A.39
+SCO7500,cytosine/purines/uracil/thiamine/allantoin,,NCS1,The Nucleobase:Cation Symporter-1 (NCS1) Family,Secondary Transporter,2.A.39
+SCO4334,xanthine/uracil,,NCS2,The Nucleobase:Cation Symporter-2 (NCS2) Family,Secondary Transporter,2.A.40
+SCO6173,xanthine/uracil,,NCS2,The Nucleobase:Cation Symporter-2 (NCS2) Family,Secondary Transporter,2.A.40
+SCO1450,xanthine/uracil,,NCS2,The Nucleobase:Cation Symporter-2 (NCS2) Family,Secondary Transporter,2.A.40
+SCO6212,xanthine/uracil,,NCS2,The Nucleobase:Cation Symporter-2 (NCS2) Family,Secondary Transporter,2.A.40
+SCO6214,xanthine/uracil,,NCS2,The Nucleobase:Cation Symporter-2 (NCS2) Family,Secondary Transporter,2.A.40
+SCO0015,sodium ion:proton antiporter,,NhaA,The NhaA Na+:H+ Antiporter (NhaA) Family,Secondary Transporter,2.A.33
+SCO0285,sodium ion:proton antiporter,,NhaA,The NhaA Na+:H+ Antiporter (NhaA) Family,Secondary Transporter,2.A.33
+SCO3564,sodium ion:proton antiporter,,NhaA,The NhaA Na+:H+ Antiporter (NhaA) Family,Secondary Transporter,2.A.33
+SCO7832,sodium ion:proton antiporter,,NhaA,The NhaA Na+:H+ Antiporter (NhaA) Family,Secondary Transporter,2.A.33
+SCO2443,sodium ion:dicarboxylate/sulfate,,NhaC,The NhaC Na+:H+ Antiporter (NhaC) Family,Secondary Transporter,2.A.35
+SCO4993,manganese/iron ion,,Nramp,The Metal Ion (Mn2+-iron) Transporter (Nramp) Family,Secondary Transporter,2.A.55
+SCO2242,oligopeptide,,OPT,The Oligopeptide Transporter (OPT) Family,Secondary Transporter,2.A.67
+SCO6122,oligopeptide,,OPT,The Oligopeptide Transporter (OPT) Family,Secondary Transporter,2.A.67
+SCO2851,60 KD inner membrane protein OxaA homolog,,Oxa1,The Cytochrome Oxidase Biogenesis (Oxa1) Family,Secondary Transporter,2.A.9
+SCO3883,60 KD inner membrane protein OxaA homolog,,Oxa1,The Cytochrome Oxidase Biogenesis (Oxa1) Family,Secondary Transporter,2.A.9
+SCO1845,phosphate,,PiT,The Inorganic Phosphate Transporter (PiT) Family,Secondary Transporter,2.A.20
+SCO4138,phosphate,,PiT,The Inorganic Phosphate Transporter (PiT) Family,Secondary Transporter,2.A.20
+SCO3064,proton:dipeptide/tripeptide symporter,,POT,The Proton-dependent Oligopeptide Transporter (POT) Family,Secondary Transporter,2.A.17
+SCO3362,amino acid efflux,,RhtB,The Resistance to Homoserine/Threonine (RhtB) Family,Secondary Transporter,2.A.76
+SCO0423,multidrug/solvent efflux (MmpL homolog/HAE2 subfamily),HAE2,RND,The Resistance-Nodulation-Cell Division (RND) Superfamily,Secondary Transporter,2.A.6
+SCO0839,multidrug/solvent efflux (MmpL homolog/HAE2 subfamily),HAE2,RND,The Resistance-Nodulation-Cell Division (RND) Superfamily,Secondary Transporter,2.A.6
+SCO0905,multidrug/solvent efflux (MmpL homolog/HAE2 subfamily),HAE2,RND,The Resistance-Nodulation-Cell Division (RND) Superfamily,Secondary Transporter,2.A.6
+SCO2164,multidrug/solvent efflux (HAE1 subfamily),HAE1,RND,The Resistance-Nodulation-Cell Division (RND) Superfamily,Secondary Transporter,2.A.6
+SCO2454,multidrug/solvent efflux (MmpL homolog/HAE2 subfamily),HAE2,RND,The Resistance-Nodulation-Cell Division (RND) Superfamily,Secondary Transporter,2.A.6
+SCO2519,multidrug/solvent efflux (MmpL homolog/HAE2 subfamily),HAE2,RND,The Resistance-Nodulation-Cell Division (RND) Superfamily,Secondary Transporter,2.A.6
+SCO3166,multidrug/solvent efflux (MmpL homolog/HAE2 subfamily),HAE2,RND,The Resistance-Nodulation-Cell Division (RND) Superfamily,Secondary Transporter,2.A.6
+SCO5084,multidrug/solvent efflux (MmpL homolog/HAE2 subfamily),HAE2,RND,The Resistance-Nodulation-Cell Division (RND) Superfamily,Secondary Transporter,2.A.6
+SCO5502,multidrug/solvent efflux (MmpL homolog/HAE2 subfamily),HAE2,RND,The Resistance-Nodulation-Cell Division (RND) Superfamily,Secondary Transporter,2.A.6
+SCO5905,multidrug/solvent efflux (MmpL homolog/HAE2 subfamily),HAE2,RND,The Resistance-Nodulation-Cell Division (RND) Superfamily,Secondary Transporter,2.A.6
+SCO6091,multidrug/solvent efflux (MmpL homolog/HAE2 subfamily),HAE2,RND,The Resistance-Nodulation-Cell Division (RND) Superfamily,Secondary Transporter,2.A.6
+SCO6666,multidrug/solvent efflux (MmpL homolog/HAE2 subfamily),HAE2,RND,The Resistance-Nodulation-Cell Division (RND) Superfamily,Secondary Transporter,2.A.6
+SCO7077,multidrug/solvent efflux (MmpL homolog/HAE2 subfamily),HAE2,RND,The Resistance-Nodulation-Cell Division (RND) Superfamily,Secondary Transporter,2.A.6
+SCO7090,multidrug/solvent efflux (MmpL homolog/HAE2 subfamily),HAE2,RND,The Resistance-Nodulation-Cell Division (RND) Superfamily,Secondary Transporter,2.A.6
+SCO7536,multidrug/solvent efflux (MmpL homolog/HAE2 subfamily),HAE2,RND,The Resistance-Nodulation-Cell Division (RND) Superfamily,Secondary Transporter,2.A.6
+SCO0152,sodium ion:proline symporter,,SSS,The Solute:Sodium Symporter (SSS) Family,Secondary Transporter,2.A.21
+SCO0871,sodium ion:proline symporter,,SSS,The Solute:Sodium Symporter (SSS) Family,Secondary Transporter,2.A.21
+SCO1218,sodium ion:proline symporter,,SSS,The Solute:Sodium Symporter (SSS) Family,Secondary Transporter,2.A.21
+SCO1822,sodium ion:proline symporter,,SSS,The Solute:Sodium Symporter (SSS) Family,Secondary Transporter,2.A.21
+SCO3139,sodium ion:proline symporter,,SSS,The Solute:Sodium Symporter (SSS) Family,Secondary Transporter,2.A.21
+SCO4229,sodium ion:proline symporter,,SSS,The Solute:Sodium Symporter (SSS) Family,Secondary Transporter,2.A.21
+SCO4437,sodium ion:proline symporter,,SSS,The Solute:Sodium Symporter (SSS) Family,Secondary Transporter,2.A.21
+SCO5229,sodium ion:proline symporter,,SSS,The Solute:Sodium Symporter (SSS) Family,Secondary Transporter,2.A.21
+SCO5282,sodium ion:proline symporter,,SSS,The Solute:Sodium Symporter (SSS) Family,Secondary Transporter,2.A.21
+SCO5827,sodium ion:proline symporter,,SSS,The Solute:Sodium Symporter (SSS) Family,Secondary Transporter,2.A.21
+SCO5871,sodium ion:proline symporter,,SSS,The Solute:Sodium Symporter (SSS) Family,Secondary Transporter,2.A.21
+SCO7596,sodium ion:proline symporter,,SSS,The Solute:Sodium Symporter (SSS) Family,Secondary Transporter,2.A.21
+SCO3276,sulfate,,SulP,The Sulfate Permease (SulP) Family,Secondary Transporter,2.A.53
+SCO3562,sulfate,,SulP,The Sulfate Permease (SulP) Family,Secondary Transporter,2.A.53
+SCO6054,sulfate,,SulP,The Sulfate Permease (SulP) Family,Secondary Transporter,2.A.53
+SCO1632,protein export,,Tat,The Twin Arginine Targeting (Tat) Family,Secondary Transporter,2.A.64
+SCO1633,protein export,,Tat,The Twin Arginine Targeting (Tat) Family,Secondary Transporter,2.A.64
+SCO5150,protein export,,Tat,The Twin Arginine Targeting (Tat) Family,Secondary Transporter,2.A.64
+SCO1617,tellurite,,TDT,The Telurite-resistance/Dicarboxylate Transporter (TDT) Family,Secondary Transporter,2.A.16
+SCO4795,tellurite,,TDT,The Telurite-resistance/Dicarboxylate Transporter (TDT) Family,Secondary Transporter,2.A.16
+SCO3410,Unclassified,,ThrE,The Threonine/Serine Exporter (ThrE) Family,Secondary Transporter,2.A.79
+SCO0625,C4-dicarboxylate,,TRAP-T,The Tripartite ATP-independent Periplasmic Transporter (TRAP-T) Family,Secondary Transporter,2.A.56
+SCO1138,tricarboxylate (TctC),TctC,TTT,The Tricarboxylate Transporter (TTT) Family,Secondary Transporter,2.A.80
+SCO1140,tricarboxylate (TctA),TctA,TTT,The Tricarboxylate Transporter (TTT) Family,Secondary Transporter,2.A.80
+SCO2027,vacuolar iron uptake transporter homolog,,VIT,The Vacuolar Iron Transporter (VIT) Family,Secondary Transporter,2.A.89
+SCO1854,zinc ion,,ZIP,The Zinc (Zn2+)-Iron (Fe2+) Permease (ZIP) Family,Secondary Transporter,2.A.5
+SCO7819,zinc ion,,ZIP,The Zinc (Zn2+)-Iron (Fe2+) Permease (ZIP) Family,Secondary Transporter,2.A.5
+Protein-Name,Substrate,Subtype,Family,Family Name,Transporter Class,TC number
+SCO3085,ammonium,,Amt,The Ammonia Transporter Channel (Amt) Family,Ion Channels,1.A.11
+SCO5583,ammonium,,Amt,The Ammonia Transporter Channel (Amt) Family,Ion Channels,1.A.11
+SCO1659,glycerol uptake,,MIP,The Major Intrinsic Protein (MIP) Family,Ion Channels,1.A.8
+SCO4057,glycerol uptake,,MIP,The Major Intrinsic Protein (MIP) Family,Ion Channels,1.A.8
+SCO1667,magnesium/cobalt ion,,MIT,The CorA Metal Ion Transporter (MIT) Family,Ion Channels,1.A.35
+SCO5157,magnesium/cobalt ion,,MIT,The CorA Metal Ion Transporter (MIT) Family,Ion Channels,1.A.35
+SCO3190,large-conductance mechanosensitive ion channel,,MscL,The Large Conductance Mechanosensitive Ion Channel (MscL) Family,Ion Channels,1.A.22
+SCO0836,small-conductance mechanosensitive ion channel,,MscS,The Small Conductance Mechanosensitive Ion Channel (MscS) Family,Ion Channels,1.A.23
+SCO2070,small-conductance mechanosensitive ion channel,,MscS,The Small Conductance Mechanosensitive Ion Channel (MscS) Family,Ion Channels,1.A.23
+SCO2656,small-conductance mechanosensitive ion channel,,MscS,The Small Conductance Mechanosensitive Ion Channel (MscS) Family,Ion Channels,1.A.23
+SCO7001,small-conductance mechanosensitive ion channel,,MscS,The Small Conductance Mechanosensitive Ion Channel (MscS) Family,Ion Channels,1.A.23
+SCO4104,Unclassified,,TRIC,The Homotrimeric Cation Channel (TRIC) Family,Ion Channels,1.A.62
+SCO5481,Unclassified,,TRIC,The Homotrimeric Cation Channel (TRIC) Family,Ion Channels,1.A.62
+SCO3826,potassium ion channel,,VIC,The Voltage-gated Ion Channel (VIC) Superfamily,Ion Channels,1.A.1
+SCO5963,potassium ion channel,,VIC,The Voltage-gated Ion Channel (VIC) Superfamily,Ion Channels,1.A.1
+SCO6330,potassium ion channel,,VIC,The Voltage-gated Ion Channel (VIC) Superfamily,Ion Channels,1.A.1
+SCO7187,potassium ion channel,,VIC,The Voltage-gated Ion Channel (VIC) Superfamily,Ion Channels,1.A.1
+SCO7196,potassium ion channel,,VIC,The Voltage-gated Ion Channel (VIC) Superfamily,Ion Channels,1.A.1
+SCO7660,potassium ion channel,,VIC,The Voltage-gated Ion Channel (VIC) Superfamily,Ion Channels,1.A.1
+Protein-Name,Substrate,Subtype,Family,Family Name,Transporter Class,TC number
+SCO2539,ferrous ion,,FeoB,The Ferrous Iron Uptake (FeoB) Family,Unclassified,9.A.8
+SCO0245,hemolysin C (HlyC) homolog,,HCC,The HlyC/CorC (HCC) Family,Unclassified,9.A.40
+SCO0246,hemolysin C (HlyC) homolog,,HCC,The HlyC/CorC (HCC) Family,Unclassified,9.A.40
+SCO1251,hemolysin C (HlyC) homolog,,HCC,The HlyC/CorC (HCC) Family,Unclassified,9.A.40
+SCO1435,hemolysin C (HlyC) homolog,,HCC,The HlyC/CorC (HCC) Family,Unclassified,9.A.40
+SCO1436,hemolysin C (HlyC) homolog,,HCC,The HlyC/CorC (HCC) Family,Unclassified,9.A.40
+SCO2534,heavy metal ion,,HCC,The HlyC/CorC (HCC) Family,Unclassified,9.A.40
+SCO3764,hemolysin C (HlyC) homolog,,HCC,The HlyC/CorC (HCC) Family,Unclassified,9.A.40
+SCO3765,hemolysin C (HlyC) homolog,,HCC,The HlyC/CorC (HCC) Family,Unclassified,9.A.40
+SCO2276,iron ion,,ILT,The Iron/Lead Transporter (ILT) Superfamily,Unclassified,9.A.10
+SCO2277,iron ion,,ILT,The Iron/Lead Transporter (ILT) Superfamily,Unclassified,9.A.10
+SCO3963,iron ion,,ILT,The Iron/Lead Transporter (ILT) Superfamily,Unclassified,9.A.10
+SCO0210,magnesium ion,,MgtE,The Mg2+ Transporter-E (MgtE) Family,Unclassified,9.A.19
+SCO5154,magnesium ion,,MgtE,The Mg2+ Transporter-E (MgtE) Family,Unclassified,9.A.19
+SCO7540,magnesium ion,,MgtE,The Mg2+ Transporter-E (MgtE) Family,Unclassified,9.A.19
+SCO0562,Unclassified,,TerC,The Tellurium Ion Resistance (TerC) Family,Unclassified,9.A.30
+SCO0892,tellurium ion efflux,,TerC,The Tellurium Ion Resistance (TerC) Family,Unclassified,9.A.30
+SCO1963,tellurium ion efflux,,TerC,The Tellurium Ion Resistance (TerC) Family,Unclassified,9.A.30
+SCO2366,Unclassified,,TerC,The Tellurium Ion Resistance (TerC) Family,Unclassified,9.A.30
+SCO6313,Unclassified,,TerC,The Tellurium Ion Resistance (TerC) Family,Unclassified,9.A.30
+SCO6556,sodium ion/?,,UBS1,The Unknown BART Superfamily-1 (UBS1) Family,Unclassified,9.A.43
+Protein-Name,Substrate,Subtype,Family,Family Name,Transporter Class,TC number
+SCO1391,Unclassified,EnzymeI,GPTS,General PTS,Phosphotransferase System (PTS),4.A
+SCO5841,Unclassified,HPr,GPTS,General PTS,Phosphotransferase System (PTS),4.A
+SCO0434,glucose/maltose/N-acetylglucosamine,EnzymeIIABC,SSPTS,Sugar Specific PTS,Phosphotransferase System (PTS),4.A
+SCO1390,glucose,EnzymeIIABC,SSPTS,Sugar Specific PTS,Phosphotransferase System (PTS),4.A
+SCO2905,glucose/maltose/N-acetylglucosamine,EnzymeIIABC,SSPTS,Sugar Specific PTS,Phosphotransferase System (PTS),4.A
+SCO2906,glucose/maltose/N-acetylglucosamine,EnzymeIIBC,SSPTS,Sugar Specific PTS,Phosphotransferase System (PTS),4.A
+SCO2907,glucose/maltose/N-acetylglucosamine,EnzymeIIBC,SSPTS,Sugar Specific PTS,Phosphotransferase System (PTS),4.A
+SCO3196,fructose,EnzymeIIABC,SSPTS,Sugar Specific PTS,Phosphotransferase System (PTS),4.A
+SCO0136,ascorbate,EnzymeIIC,SSPTS,Sugar Specific PTS,Phosphotransferase System (PTS),4.A
+SCO0137,fructose,EnzymeIIAB,SSPTS,Sugar Specific PTS,Phosphotransferase System (PTS),4.A
+s0001
+SCO0213
+SCO0217
+SCO0218
+SCO0219
+SCO0285
+SCO0313
+SCO0473
+SCO0475
+SCO0493
+SCO0494
+SCO0496
+SCO0497
+SCO0572
+SCO0707
+SCO0708
+SCO0710
+SCO0808
+SCO0810
+SCO0811
+SCO0996
+SCO0997
+SCO0998
+SCO1010
+SCO1310
+SCO1390
+SCO1391
+SCO1442
+SCO1450
+SCO1557
+SCO1558
+SCO1621
+SCO1822
+SCO1845
+SCO1882
+SCO1887
+SCO1898
+SCO1900
+SCO1918
+SCO1962
+SCO2008
+SCO2009
+SCO2010
+SCO2012
+SCO2144
+SCO2230
+SCO2231
+SCO2272
+SCO2273
+SCO2274
+SCO2336
+SCO2473
+SCO2499
+SCO2506
+SCO2541
+SCO2631
+SCO2731
+SCO2747
+SCO2749
+SCO2756
+SCO2772
+SCO2780
+SCO2795
+SCO2797
+SCO2828
+SCO2829
+SCO2830
+SCO2906
+SCO2907
+SCO2914
+SCO2930
+SCO2932
+SCO2933
+SCO3029
+SCO3064
+SCO3139
+SCO3185
+SCO3224
+SCO3235
+SCO3276
+SCO3362
+SCO3547
+SCO3564
+SCO3577
+SCO3578
+SCO3603
+SCO3704
+SCO3705
+SCO3717
+SCO3718
+SCO3826
+SCO3947
+SCO4057
+SCO4140
+SCO4141
+SCO4142
+SCO4240
+SCO4334
+SCO4498
+SCO4562
+SCO4563
+SCO4565
+SCO4566
+SCO4567
+SCO4568
+SCO4569
+SCO4570
+SCO4571
+SCO4572
+SCO4573
+SCO4574
+SCO4575
+SCO4599
+SCO4600
+SCO4602
+SCO4603
+SCO4604
+SCO4605
+SCO4606
+SCO4607
+SCO4608
+SCO4830
+SCO4831
+SCO4832
+SCO4855
+SCO4856
+SCO4857
+SCO4949
+SCO4950
+SCO4991
+SCO4993
+SCO5057
+SCO5084
+SCO5107
+SCO5110
+SCO5112
+SCO5114
+SCO5115
+SCO5117
+SCO5118
+SCO5119
+SCO5121
+SCO5157
+SCO5229
+SCO5232
+SCO5233
+SCO5234
+SCO5259
+SCO5260
+SCO5436
+SCO5579
+SCO5646
+SCO5647
+SCO5658
+SCO5669
+SCO5670
+SCO5712
+SCO5713
+SCO5714
+SCO5716
+SCO5774
+SCO5775
+SCO5776
+SCO5841
+SCO5924
+SCO5925
+SCO6009
+SCO6011
+SCO6064
+SCO6065
+SCO6173
+SCO6214
+SCO6259
+SCO6320
+SCO6451
+SCO6452
+SCO6453
+SCO6454
+SCO6460
+SCO6528
+SCO6532
+SCO6533
+SCO6534
+SCO6535
+SCO6560
+SCO6568
+SCO6569
+SCO6602
+SCO6690
+SCO6734
+SCO6739
+SCO6751
+SCO6815
+SCO6816
+SCO6954
+SCO7109
+SCO7153
+SCO7181
+SCO7182
+SCO7183
+SCO7184
+SCO7185
+SCO7197
+SCO7216
+SCO7217
+SCO7218
+SCO7308
+SCO7395
+SCO7398
+SCO7399
+SCO7400
+SCO7408
+SCO7410
+SCO7500
+SCO7545
+SCO7546
+SCO7555
+SCO7623
+SCO7832
