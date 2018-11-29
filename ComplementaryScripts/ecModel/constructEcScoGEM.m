@@ -32,8 +32,12 @@ cd ../change_model
 ecModel                 = readKcatData(model_data,kcats);
 [ecModel,modifications] = manualModifications(ecModel);
 
-GlcUptake  = 1.322777;%
-GluUptake  = 3.276445;%
+rates = dlmread('../../../../../ComplementaryData/growth/M145_estimated_rates.csv',';',1,0);
+
+GlcUptake  = -rates(1,6);%
+GluUptake  = -rates(1,4);%
+gRate      = rates(1,2);%
+
 ecModel=setParam(ecModel,'ub','EX_glc__D_e_REV',GlcUptake);
 ecModel=setParam(ecModel,'ub','EX_glu__L_e_REV',GluUptake);
 ecModel=setParam(ecModel,'ub','EX_nh4_e_REV',0);
@@ -48,7 +52,6 @@ sigma       = 0.40;
 Ptot        = 0.429; %Assumed constant. Taken as average from growth rates
                      %between0 0.024 and 0.195, as reported by Shabab et
                      %al. (1996) Microbiol. doi:10.1099/13500872-142-8-1927 
-gRate       = 0.1259;%
 cd ../limit_proteins
 
 [ecModel_pool,OptSigma] = getConstrainedModel(ecModel,'',sigma,Ptot,gRate,modifications,name);
