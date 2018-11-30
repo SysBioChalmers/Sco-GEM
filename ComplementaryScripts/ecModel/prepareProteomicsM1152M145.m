@@ -21,7 +21,7 @@ data.genes  = regexprep(data.genes,'(SCO\d{4}).+','$1'); % Remove trailing chara
 dat         = readtable('../../ComplementaryData/data/proteomics_M1152M145_2018_ID.csv');
 data.sample = strcat(dat.Strain,'_',dat.FermenterID,'_',dat.SamplingID);
 
-load('../ecModel/gecko/databases/ProtDatabaseAllUniprot.mat')
+load('../ecModel/gecko/databases/ProtDatabase.mat')
 [~, ib]=ismember(data.genes,kegg(:,3));
 data.MW     = cell2mat(kegg(ib,5))./1000; % kDa
 
