@@ -7,9 +7,16 @@ import pandas as pd
 import numpy as np
 from scipy.optimize import curve_fit
 from scipy.misc import derivative
+import matplotlib
 from matplotlib import pyplot as plt
-from collections import defaultdict
+from collections import defaultdict, OrderedDict
 from pathlib import Path
+
+plt.style.use("seaborn-white")
+# matplotlib.rcParams['text.usetex'] = True
+matplotlib.rcParams["axes.labelsize"] = 12
+
+
 
 GLUTAMATE_MOLAR_MASS = 147.13  #g/mol
 GLUCOSE_MOLAR_MASS   = 180.156 #g/mol
@@ -26,19 +33,21 @@ REPO_MAIN_FOLDER = Path(__file__).resolve().parent.parent
 GROWTH_DATA_FOLDER = REPO_MAIN_FOLDER / "ComplementaryData"/ "growth"
 
 class RateEstimator(object):
-    def __init__(self, online_fn, offline_fn, proteome_timepoints = None):
+    def __init__(self, strain_name, online_fn, offline_fn, proteome_timepoints = None):
         self.online_df = read_online(online_fn)
         self.offline_df = read_offline(offline_fn)
         self.phases = dict()
         self.proteome_timepoints = proteome_timepoints
+        self.strain_name = strain_name
 
         # Results
         self.exponential_fit_CO2 = None
-        self.linear_fit_CDW = {}
-        self.growth_rates = {}
-        self.substrate_fits = defaultdict(dict)
-        self.substrate_rates = defaultdict(dict)
+        self.linear_fit_CDW = OrderedDict()
+        self.growth_rates = OrderedDict()
+        self.substrate_fits = defaultdict(OrderedDict)
+        self.substrate_rates = defaultdict(OrderedDict)
         self.max_growth_rate = None
+        self.estimated_cdw = OrderedDict()
 
     def set_phase(self, name, start, stop):
         self.phases[name] = (start, stop)
@@ -58,14 +67,14 @@ class RateEstimator(object):
         CO2_arr = np.array(df["CO2"])
 
         popt, _ = curve_fit(exp_fun, time_arr, CO2_arr)
-        fit_time = np.arange(phase_limits[0], phase_limits[1], 0.5)
+        fit_time = np.arange(phase_limits[0], phase_limits[1]+0.5, 0.5)
         fit = exp_fun(fit_time, *popt)
         self.exponential_fit_CO2 = {"time": fit_time, "fit": fit, "popt": popt}
         print("Fitted CO2: x0*e^ut: x0:{0:.2f}, u:{1:.2f}".format(*popt))
         self.max_growth_rate = popt[1]
 
 
-    def plot_exponential_fit_CO2(self):
+    def plot_exponential_fit_CO2(self, save_name = None):
         if not self.exponential_fit_CO2:
             print("Run fit_exponential_phase_to_CO2 first")
             return False
@@ -80,6 +89,11 @@ class RateEstimator(object):
         ax.legend()
         ax.set_xlabel("Time after inoculation [h]")
         ax.set_ylabel("CO2 [mmol/L/h]")
+        ax.set_title("Growth rate in exponential phase {0}".format(self.strain_name))
+        ax.spines['right'].set_visible(False)
+        ax.spines['top'].set_visible(False)
+        if save_name:
+            fig.savefig(save_name, format = "svg")
         plt.show()
 
 
@@ -124,12 +138,23 @@ class RateEstimator(object):
 
     def plot_CDW_fit(self):
         fig, ax = plt.subplots(1)
-        ax.plot(self.offline_df["TAI"], self.offline_df["CDW"], '.', label = "CDW measurements")
+        ax.plot(self.offline_df["TAI"], self.offline_df["CDW"], '.', ms = 12, label = "CDW measurements")
         for phase_name, dic in self.linear_fit_CDW.items():
             ax.plot(dic["time"], dic["fit"], lw = 2, label = "Fit {0}".format(phase_name))
+        
+        proteome_times = []
+        at_proteome_times = []
+        for t, x in self.estimated_cdw.items():
+            proteome_times.append(t)
+            at_proteome_times.append(x)
+
+        ax.plot(proteome_times, at_proteome_times, "kx", label = "Proteome timepoints")
         ax.legend()
         ax.set_xlabel("Time after inoculation [h]")
         ax.set_ylabel("CDW [g/L]")
+        ax.set_title(self.strain_name)
+        ax.spines['right'].set_visible(False)
+        ax.spines['top'].set_visible(False)
         plt.show()
 
     def fit_linear_CDW_and_predict_growth_rate_for_phases(self, timepoint_phasename_list):
@@ -146,6 +171,7 @@ class RateEstimator(object):
         X = lin_fun(np.array(timepoints), *dic["popt"])
         for t, x in zip(timepoints, X):
             self.growth_rates[t] = dic["popt"][0] / x
+            self.estimated_cdw[t] = x
 
     def fit_substrates_for_phases(self, substrate_list, phase_list):
         for substrate in substrate_list:
@@ -166,7 +192,7 @@ class RateEstimator(object):
         df = df[df[substrate_name].notna()]
         popt, _ = curve_fit(lin_fun, df["TAI"], df[substrate_name])
 
-        time_arr = np.arange(phase_limits[0], phase_limits[1], 1)
+        time_arr = np.arange(phase_limits[0], phase_limits[1]+1, 1)
         fit = lin_fun(time_arr, *popt)
 
         phases_dict = self.substrate_fits[substrate_name]
@@ -221,20 +247,29 @@ class RateEstimator(object):
         phases_dict = self.substrate_fits[substrate]
 
         fig, ax = plt.subplots(1)
-        fig.suptitle(substrate)
-        ax.plot(self.offline_df["TAI"], self.offline_df[substrate], ".", label = "{0} measurements".format(substrate))
+        # fig.suptitle(substrate)
+        ax.plot(self.offline_df["TAI"], self.offline_df[substrate], ".", ms = 12, label = "{0} measurements".format(substrate))#c = "#b4d8ee"
+        proteome_times = []
+        proteome_rates = []
         for phase_name, dic in phases_dict.items():
-            ax.plot(dic["time"], dic["fit"], label = "Fit {0}".format(substrate))
-            ax.plot(dic["rate_times"], dic["at_rate_times"], "r+", label = "Proteome timepoints")
+            print(phase_name, dic)
+            ax.plot(dic["time"], dic["fit"], label = "Fit {0} {1}".format(substrate, phase_name))
+            proteome_times += list(dic["rate_times"])
+            proteome_rates += list(dic["at_rate_times"])
+        ax.plot(proteome_times, proteome_rates, "k+", label = "Proteome timepoints")
         ax.legend()
         ax.set_xlabel("Time after inoculation [h]")
         ax.set_ylabel("{0} [g/L]".format(substrate))
+        ax.spines['right'].set_visible(False)
+        ax.spines['top'].set_visible(False)
+        ax.set_title("{0} {1} concentration".format(self.strain_name, substrate))
         plt.show()
 
-    def rates_as_df(self, save_name = None):
+    def rates_as_df(self, save_name = None, column_order = None):
         index = sorted(list(self.growth_rates.keys()))
         self.rate_df = pd.DataFrame(index = index)
         self.rate_df["Growth rate"] = pd.Series(self.growth_rates)
+        self.rate_df["Estimated CDW"] = pd.Series(self.estimated_cdw)
         if self.rate_df["Growth rate"].max() > self.max_growth_rate:
             print("Values above max rate:\n", self.rate_df["Growth rate"] > self.max_growth_rate)
             
@@ -245,9 +280,8 @@ class RateEstimator(object):
         for substrate, sub_dict in self.substrate_rates.items():
             self.rate_df[substrate] = pd.Series(sub_dict)
 
-
         if save_name:
-            self.rate_df.to_csv(save_name, sep = ";", index_label = "TAI")
+            self.rate_df.to_csv(save_name, sep = ";", index_label = "TAI", columns = column_order)
 
     def fit_sigmoidial_to_substrate(self, substrate_name, phase_name, n = 3, bounds = None):
         phase_limits = self.phases[phase_name]
@@ -266,6 +300,22 @@ class RateEstimator(object):
         #     plt.plot(df["TAI"], df[substrate_name], ".")
         #     plt.plot(time, fit)
         #     plt.show()
+    def plot_CDW_and_CO2(self):
+        fig, ax = plt.subplots(1)
+        l2 = ax.plot(self.online_df["TAI"], self.online_df["CO2"], label = "CO2 measurements")
+        ax2 = ax.twinx()
+        ax2._get_lines.prop_cycler = ax._get_lines.prop_cycler
+        l1 = ax2.plot(self.offline_df["TAI"], self.offline_df["CDW"], ".", ms = 12, label = "CDW measurements")#c = "#b4d8ee"
+        labels = l1 + l2
+        ax.legend(labels, [l.get_label() for l in labels], loc = 0)
+        ax.set_xlabel("Time after inoculation [h]")
+        ax.set_ylabel("CO2 [mmol/L/h]")
+        ax2.set_ylabel("CDW [g/L]")
+        # ax.spines['right'].set_visible(False)
+        ax.spines['top'].set_visible(False)
+        ax.set_title("CDW and CO2 measurements {0}".format(self.strain_name))
+        plt.show()
+
 
 def replace_str_by_0(column, replace_by = 0):
     l = []
@@ -321,7 +371,8 @@ def exp_fun(x, a, b):
 
 
 if __name__ == '__main__':
-    if 1:
+    column_order = ["Estimated CDW", "Growth rate", "Glucose", "Glutamic acid", "Undecylprodigiosin 2", "Germicidin-A", "Germicidin-B"]
+    if 0:
         # M145
         online_M145_fn = GROWTH_DATA_FOLDER / "M145_online_data.csv"
         offline_M145_fn = GROWTH_DATA_FOLDER / "M145_offline_data.csv"
@@ -330,7 +381,7 @@ if __name__ == '__main__':
         p2 = proteomic_timepoints_M145[3:5]
         p3 = proteomic_timepoints_M145[5:] 
 
-        RE = RateEstimator(online_M145_fn, offline_M145_fn)
+        RE = RateEstimator("M145", online_M145_fn, offline_M145_fn)
 
         RE.set_phase("Exponential phase", 14, 21)
         RE.set_phase("Linear phase 1", 21, 34.5)
@@ -341,22 +392,27 @@ if __name__ == '__main__':
 
 
         RE.fit_exponential_phase_to_CO2("Exponential phase")
+        # RE.plot_exponential_fit_CO2()
+        # RE.plot_CDW_and_CO2()
+        # exit()
+        
         RE.fit_linear_CDW_and_predict_growth_rate_for_phases([(p1,  "Linear phase 1"),
                                                               (p2,  "Linear phase 2"), 
                                                               (p3,  "Linear phase 3")])
-
+        # RE.plot_CDW_fit()
         # RE.fit_piecewise_linear_CDW("Linear phase 1", "Linear phase 2", "Linear phase 3")
 
 
         RE.fit_substrates_for_phases(["Glucose", "Glutamic acid", "Undecylprodigiosin 2"], ["Linear phase 1", "Linear phase 2", "Linear phase 3"])
         RE.predict_uptake_rates_for_phases(["Glucose", "Glutamic acid"], [(p1, "Linear phase 1"), (p2, "Linear phase 2"), (p3, "Linear phase 3")])
 
+        RE.plot_uptake_fit("Glucose")
+        RE.plot_uptake_fit("Glutamic acid")
 
         # RE.fit_sigmoidial_to_substrate("Undecylprodigiosin 2", "Full time serie", 3, bounds = ([0, 20, 2], [1, 60, 3]))
         RE.fit_substrate("Undecylprodigiosin 2", "Red linear phase")
         RE.predict_uptake_rates("Undecylprodigiosin 2", "Red linear phase", p2, "Linear phase 2")
         RE.predict_uptake_rates("Undecylprodigiosin 2", "Red linear phase", p3, "Linear phase 3")
-
 
         
         RE.fit_substrates_for_phases(["Germicidin-A", "Germicidin-B"], ["Germicidin phase"])
@@ -367,7 +423,7 @@ if __name__ == '__main__':
         
 
 
-        RE.rates_as_df(save_name = GROWTH_DATA_FOLDER / "M145_estimated_rates.csv")
+        RE.rates_as_df(save_name = GROWTH_DATA_FOLDER / "M145_estimated_rates.csv", column_order = column_order)
         print(RE.rate_df)
 
     if 1:
@@ -380,30 +436,47 @@ if __name__ == '__main__':
         proteomic_timepoints_M1152 = [33, 41, 45, 49, 53, 57, 61, 65]
 
 
-        RE = RateEstimator(online_M1152_fn, offline_M1152_fn)
+        RE = RateEstimator("M1152", online_M1152_fn, offline_M1152_fn)
         RE.set_phase("Exponential phase", 10, 29)
         RE.set_phase("Linear phase 1", 29, 50)
+        RE.set_phase("Linear phase 1b", 27, 41)
         RE.set_phase("Linear phase 2", 49, 54)
-        RE.set_phase("Linear phase 3", 54, 70)
-        RE.set_phase("Linear phase 2b", 49, 58)
+        RE.set_phase("Linear phase 3", 54, 75)
+        RE.set_phase("Linear phase 2b", 41, 57)
         RE.set_phase("Germicidin phase", 20, 66)
 
 
         p1 = proteomic_timepoints_M1152[:4]
+        p1b = proteomic_timepoints_M1152[:2]
         p2 = proteomic_timepoints_M1152[4:5]
+        p2b = proteomic_timepoints_M1152[2:5]
         p3 = proteomic_timepoints_M1152[5:]
 
         RE.fit_exponential_phase_to_CO2("Exponential phase")
+        # RE.plot_exponential_fit_CO2()
+        # RE.plot_CDW_and_CO2()
+
+        
         RE.fit_linear_CDW_and_predict_growth_rate_for_phases([(p1,  "Linear phase 1"),
                                                               (p2,  "Linear phase 2"), 
                                                               (p3,  "Linear phase 3")])
+        # RE.plot_CDW_fit()
 
-        RE.fit_substrates_for_phases(["Glucose", "Glutamic acid"], ["Linear phase 1", "Linear phase 2b", "Linear phase 3"])
+
+        # RE.fit_substrates_for_phases(["Glucose", "Glutamic acid"], ["Linear phase 1", "Linear phase 2b", "Linear phase 3"])
+        RE.fit_substrates_for_phases(["Glucose", "Glutamic acid"], ["Linear phase 1b", "Linear phase 2b", "Linear phase 3"])
         
-        RE.predict_uptake_rates("Glucose", "Linear phase 2b", p2, cdw_phase_name = "Linear phase 2")
-        RE.predict_uptake_rates("Glutamic acid", "Linear phase 2b", p2, cdw_phase_name = "Linear phase 2")
+        RE.predict_uptake_rates("Glucose", "Linear phase 1b", p1b, cdw_phase_name = "Linear phase 1")
+        RE.predict_uptake_rates("Glutamic acid", "Linear phase 1b", p1b, cdw_phase_name = "Linear phase 1")
 
-        RE.predict_uptake_rates_for_phases(["Glucose", "Glutamic acid"], [(p1, "Linear phase 1"), (p3, "Linear phase 3")])
+        RE.predict_uptake_rates("Glucose", "Linear phase 2b", p2b, cdw_phase_name = "Linear phase 2")
+        RE.predict_uptake_rates("Glutamic acid", "Linear phase 2b", p2b, cdw_phase_name = "Linear phase 2")
+
+        RE.predict_uptake_rates_for_phases(["Glucose", "Glutamic acid"], [(p3, "Linear phase 3")])
+        # RE.predict_uptake_rates_for_phases(["Glucose", "Glutamic acid"], [(p1, "Linear phase 1b"), (p3, "Linear phase 3")])
+
+        RE.plot_uptake_fit("Glucose")
+        RE.plot_uptake_fit("Glutamic acid")
 
 
         RE.fit_substrates_for_phases(["Germicidin-A", "Germicidin-B"], ["Germicidin phase"])
@@ -415,5 +488,5 @@ if __name__ == '__main__':
 
         
 
-        RE.rates_as_df(save_name = GROWTH_DATA_FOLDER / "M1152_estimated_rates.csv")
+        RE.rates_as_df(save_name = GROWTH_DATA_FOLDER / "M1152_estimated_rates.csv", column_order = column_order)
 
