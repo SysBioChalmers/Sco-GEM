@@ -25,44 +25,10 @@ def read_metacyc_data(fn):
     
     df = df[df["Reversibility in MetaCyc"].notna()]
 
+    # Renaming 
+    df.rename(columns = {"Reversibility in MetaCyc": "Reversibility in DB"}, inplace = True)
+
     return df
-
-def apply_metacyc_reversibilities(model, metacyc_data_fn, save_fn = None):
-    df = read_metacyc_data(metacyc_data_fn)
-
-    count_dict = defaultdict(int)
-    for i, row in df.iterrows():
-        r_id = row["Rxn"]
-        r = model.reactions.get_by_id(r_id)
-        metacyc_reversibility = row["Reversibility in MetaCyc"]
-        model_reversibility = check_reversibility(r)
-        if model_reversibility == "blocked":
-            print("Obs! Reaction {0} is blocked in model. Skipping".format(r.id))
-            continue
-
-        if metacyc_reversibility != model_reversibility:
-            if metacyc_reversibility == "reversible":
-                r.bounds = (-1000, 1000)
-            elif metacyc_reversibility == "forward":
-                r.bounds = (0, 1000)
-            elif metacyc_reversibility == "backward":
-                r.bounds = (-1000, 0)
-            else:
-                print("No direction specified for reaction {0} with dG: {1}".format(r.id, row["dG"]))
-                continue
-            key = "{0} to {1}".format(model_reversibility, metacyc_reversibility)
-            count_dict[key] += 1
-            print("Changed direction of reaction {0} from {1} to {2}".format(r.id, model_reversibility, metacyc_reversibility))
-
-    n = 0
-    for key, value in count_dict.items():
-        print("{0}: {1}".format(key, value))
-        n += value
-    print("Changed the reversibility of {0} reactions in total. Data were available for {1} reactions".format(n, len(df)))
-
-    model.id = "metacycScoGEM"
-    if save_fn:
-        write_sbml_model(model, save_fn)
     
 def read_equilibrator_data(fn, threshold = 30, consider_uncertainty = True):
     df = pd.read_csv(fn)
@@ -94,37 +60,35 @@ def read_equilibrator_data(fn, threshold = 30, consider_uncertainty = True):
             direction.append("backward")
         else:
             direction.append("reversible")
-    df["Direction"] = direction
+    df["Reversibility in DB"] = direction
 
-    return df[["Rxn", "Rxn KEGG ID", "Reversibility in model", "dG", "sigma dG", "Direction"]]
+    return df[["Rxn", "Rxn KEGG ID", "Reversibility in model", "dG", "sigma dG", "Reversibility in DB"]]
 
 
-def apply_equilibrator_reversibilities(model, equilibrator_data_fn, threshold = 30, consider_uncertainty = True, save_fn = None):
-    df = read_equilibrator_data(equilibrator_data_fn, threshold, consider_uncertainty)
-
+def apply_reversibilities(model, data_df, save_fn = None, model_id = None):
     count_dict = defaultdict(int)
     for i, row in df.iterrows():
         r_id = row["Rxn"]
         r = model.reactions.get_by_id(r_id)
-        eq_reversibility = row["Direction"]
+        db_reversibility = row["Reversibility in DB"]
         model_reversibility = check_reversibility(r)
         if model_reversibility == "blocked":
             print("Obs! Reaction {0} is blocked in model. Skipping".format(r.id))
             continue
 
-        if eq_reversibility != model_reversibility:
-            if eq_reversibility == "reversible":
+        if db_reversibility != model_reversibility:
+            if db_reversibility == "reversible":
                 r.bounds = (-1000, 1000)
-            elif eq_reversibility == "forward":
+            elif db_reversibility == "forward":
                 r.bounds = (0, 1000)
-            elif eq_reversibility == "backward":
+            elif db_reversibility == "backward":
                 r.bounds = (-1000, 0)
             else:
                 print("No direction specified for reaction {0} with dG: {1}".format(r.id, row["dG"]))
                 continue
-            key = "{0} to {1}".format(model_reversibility, eq_reversibility)
+            key = "{0} to {1}".format(model_reversibility, db_reversibility)
             count_dict[key] += 1
-            print("Changed direction of reaction {0} from {1} to {2}".format(r.id, model_reversibility, eq_reversibility))
+            print("Changed direction of reaction {0} from {1} to {2}".format(r.id, model_reversibility, db_reversibility))
 
     n = 0
     for key, value in count_dict.items():
@@ -132,7 +96,9 @@ def apply_equilibrator_reversibilities(model, equilibrator_data_fn, threshold = 
         n += value
     print("Changed the reversibility of {0} reactions in total. Data were available for {1} reactions".format(n, len(df)))
 
-    model.id = "eqScoGEM"
+    if model_id:
+        model.id = model_id
+
     if save_fn:
         write_sbml_model(model, save_fn)
     return model
@@ -160,12 +126,10 @@ if __name__ == '__main__':
     scoGEM = read_sbml_model("../../ModelFiles/xml/scoGEM.xml")
     if 1:
         equilibrator_data_fn = "../../ComplementaryData/curation/Reversibility-based-model-Equilibrator.csv"
-        # df = read_equilibrator_data(equilibrator_data_fn)
-        eqScoGEM = apply_equilibrator_reversibilities(scoGEM, equilibrator_data_fn, threshold = 30, consider_uncertainty = True,
-                                                       save_fn = "../../ModelFiles/xml/eqScoGEM.xml")
-        # eqScoGEM.name = "scoGEM with reaction directionality inferred from eQuilibrator"
-        # write_sbml_model(eqScoGEM, "../../ModelFiles/xml/eqScoGEM.xml")
+        df = read_equilibrator_data(equilibrator_data_fn, threshold = 30, consider_uncertainty = True)
+        eqScoGEM = apply_reversibilities(scoGEM, df, save_fn = "../../ModelFiles/xml/eqScoGEM.xml", model_id = "eqScoGEM")
 
     if 1:
         metacyc_data_fn = "../../ComplementaryData/curation/Reversibility-based-model-MetaCyc.csv"
-        apply_metacyc_reversibilities(scoGEM, metacyc_data_fn, save_fn = "../../ModelFiles/xml/metacycScoGEM.xml")
+        df = read_metacyc_data(metacyc_data_fn)
+        apply_reversibilities(scoGEM, df, save_fn = "../../ModelFiles/xml/metacycScoGEM.xml", model_id = "metacycScoGEM")
