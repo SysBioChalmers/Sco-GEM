@@ -35,9 +35,9 @@ ecModel                 = readKcatData(model_data,kcats);
 
 rates = dlmread('../../../../../ComplementaryData/growth/M145_estimated_rates.csv',';',1,0);
 
-GlcUptake  = -rates(1,6);%
-GluUptake  = -rates(1,4);%
-gRate      = rates(1,2);%
+GlcUptake  = -rates(1,7);%
+GluUptake  = -rates(1,5);%
+gRate      = rates(1,3);%
 
 ecModel=setParam(ecModel,'ub','EX_glc__D_e_REV',GlcUptake);
 ecModel=setParam(ecModel,'ub','EX_glu__L_e_REV',GluUptake);

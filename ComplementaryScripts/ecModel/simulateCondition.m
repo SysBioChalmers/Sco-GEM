@@ -21,7 +21,7 @@ UB          = rates(sampleIdx,2:end);
 IDs         = {'BIOMASS_SCO','DM_RED_c','EX_glu__L_e_REV',...
                'DM_germicidinA_c','EX_glc__D_e_REV','DM_germicidinB_c'};
 if strcmp(strain,'M1152')
-    UB      = [UB(1) 0 UB(2:end)]; % No RED produced, set to zero.
+    UB      = [UB(1) 0 UB(3:end)]; % No RED produced, set to zero.
 end
            
 model = setParam(model,'ub',IDs,abs(UB));
