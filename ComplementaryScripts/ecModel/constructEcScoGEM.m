@@ -1,12 +1,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % [ecModel,model_data,kcats] = constructEcScoGEM
 %
-% Eduard Kerkhoven, 20118-10-16
+% Eduard Kerkhoven, 2018-12-04
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [ecModel,model_data,kcats] = constructEcScoGEM(version)
 
 %Set parameters, flags and options
-format short e
+%format short e
 name        = 'scoGEM';
 org_name    = 'streptomyces coelicolor';
 if nargin < 4
@@ -15,7 +15,8 @@ end
 
 %Load model
 model       = importModel('../../ModelFiles/xml/scoGEM.xml');
-sol=solveLP(model,1)
+sol=solveLP(model,1);
+fprintf(['Growth rate of template model: ' num2str(-sol.f) '\n']);
 
 %Remove blocked rxns + correct model.rev
 cd gecko/geckomat/change_model
@@ -25,7 +26,7 @@ cd gecko/geckomat/change_model
 cd ../get_enzyme_data
 model_data = getEnzymeCodes(model);
 kcats      = matchKcats(model_data,org_name);
-save('../../../../../scrap/kcats.mat','model_data','kcats');
+save('../../../../../ComplementaryData/ecmodel/kcats.mat','model_data','kcats');
 
 %Integrate enzymes in the model:
 cd ../change_model
@@ -43,11 +44,10 @@ ecModel=setParam(ecModel,'ub','EX_glu__L_e_REV',GluUptake);
 ecModel=setParam(ecModel,'ub','EX_nh4_e_REV',0);
 %ecModel=setParam(ecModel,'lb','ATPM',2.64);
 
+save(['../../../../../ModelFiles/mat/Ec' name '.mat'],'ecModel','modifications')
+load(['../../../../../ModelFiles/mat/Ec' name '.mat'])
 
-save(['../../../../../scrap/Ec' name '.mat'],'ecModel','modifications') 
-load(['../../scrap/Ec' name '.mat']) 
 %Constrain model to batch conditions:
-
 sigma       = 0.40;
 Ptot        = 0.429; %Assumed constant. Taken as average from growth rates
                      %between0 0.024 and 0.195, as reported by Shabab et
