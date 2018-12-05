@@ -1,7 +1,8 @@
 from equilibrator_api import ComponentContribution, Reaction
 from cobra.io import read_sbml_model
+import pandas as pd
 
-def predict_dG(model, pH = 7, ionic_strength = 0.1):
+def predict_dG(model, pH = 7, ionic_strength = 0.1, fn = None):
     eq_api = ComponentContribution(pH=7.0, ionic_strength = 0.1)
     lst = []
     for r in model.reactions:
@@ -19,8 +20,14 @@ def predict_dG(model, pH = 7, ionic_strength = 0.1):
             except:
                 print("eQuilibrator could not predict dG for {0}".format(r.id))
             else:
-                lst.append([r.id, dg0, dgm])
-
+                lst.append([r.id, r.name, r.annotation["kegg.reaction"],parse_reversibility(r), *dg0, *dgm])
+    # Store as df
+    df = pd.DataFrame(lst)
+    df.columns = ["Rxn","Rxn Name","Rxn KEGG ID","Reversibility in model","dG0_prime", "dG0_prime_std", "dGm_prime", "dGm_prime_std"]
+    if not fn:
+        fn = "eQuilibrator_reversibility.csv"
+    df.to_csv(fn, index = False, sep = ",")
+    print("Found the dG for {0} of {1} reactions".format(len(lst), len(model.reactions)))
     return lst
 
 def build_kegg_string(r):
@@ -57,7 +64,17 @@ def build_kegg_string(r):
     product_string = " + ".join(products)
     return reactant_string + " <=> " + product_string
 
-    
+def parse_reversibility(r):
+    if (r.lower_bound < 0) and (r.upper_bound >0):
+        string = "reversible"
+    elif r.lower_bound < 0:
+        string = "backward"
+    elif r.upper_bound > 0:
+        string = "forward"
+    else:
+        raise ValueError
+    return string
+
     
 if __name__ == '__main__':
     scoGEM = read_sbml_model("../../ModelFiles/xml/scoGEM.xml")
