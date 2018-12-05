@@ -15,16 +15,18 @@ end
 
 if nargin < 4
     stdev = false;
+end
 
 sampleIdx   = find(ismember(rates(:,1), sample));
-UB          = rates(sampleIdx,2:end);
-IDs         = {'BIOMASS_SCO','DM_RED_c','EX_glu__L_e_REV',...
-               'DM_germicidinA_c','EX_glc__D_e_REV','DM_germicidinB_c'};
+UB          = rates(sampleIdx,3:end);
+IDs         = {'BIOMASS_SCO','EX_glc__D_e_REV','EX_glu__L_e_REV',...
+               'DM_RED_c','DM_germicidinA_c','DM_germicidinB_c'};
 if strcmp(strain,'M1152')
-    UB      = [UB(1) 0 UB(3:end)]; % No RED produced, set to zero.
+    UB      = [UB(1:3) 0 UB(5:end)]; % No RED produced, set to zero.
 end
            
-model = setParam(model,'ub',IDs,abs(UB));
+model = setParam(model,'eq',IDs,abs(UB));
 model = setParam(model,'obj','ATPM',1);
+model = setParam(model,'ub','ATPM',0);
 sol=solveLP(model)
 end
