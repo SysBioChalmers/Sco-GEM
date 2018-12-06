@@ -27,6 +27,8 @@ end
            
 model = setParam(model,'eq',IDs,abs(UB));
 model = setParam(model,'obj','ATPM',1);
-model = setParam(model,'ub','ATPM',0);
+%model = setParam(model,'obj','BIOMASS_SCO',1);
+%model = setParam(model,'lb','BIOMASS_SCO',0);
+model = setParam(model,'lb','ATPM',0);
 sol=solveLP(model)
 end

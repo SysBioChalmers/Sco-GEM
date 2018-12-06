@@ -9,7 +9,7 @@ MISC_PSEUDO	0.0050002 10fthf_c + 0.022621 15dap_c + 0.013693 2dmmql9_c + 2.5795e
 PROTEIN_PSEUDO	0.60978 ala__L_c + 0.10195 arg__L_c + 0.18343 asn__L_c + 0.18599 asp__L_c + 0.08069 cys__L_c + 0.1418 gln__L_c + 0.25085 glu__L_c + 0.55317 gly_c + 0.07991 his__L_c + 0.24831 ile__L_c + 0.13981 leu__L_c + 0.0708 lys__L_c + 0.12059 met__L_c + 0.13521 phe__L_c + 0.37332 pro__L_c + 0.21339 ser__L_c + 0.26691 thr__L_c + 0.03275 trp__L_c + 0.06539 tyr__L_c + 0.22152 val__L_c  -> 4.0756 h2o_c + protein_c 		  0.00	   Inf	  0.00
 PROTEIN_PSEUDO_tRNA	0.60978 alatrna_c + 0.10195 argtrna_c + 0.18343 asntrna_c + 0.18599 asptrna_c + 0.08069 cystrna_c + 0.1418 glntrna_c + 0.25085 glutrna_c + 0.55317 glytrna_c + 0.07991 histrna_c + 0.24831 iletrna_c + 0.13981 leutrna_c + 0.0708 lystrna_c + 0.12059 mettrna_c + 0.13521 phetrna_c + 0.37332 protrna_c + 0.21339 sertrna_c + 0.26691 thrtrna_c + 0.03275 trptrna_c + 0.06539 tyrtrna_c + 0.22152 valtrna_c  -> 4.0756 h2o_c + protein_tRNA_c + 0.60978 trnaala_c + 0.10195 trnaarg_c + 0.18343 trnaasn_c + 0.18599 trnaasp_c + 0.08069 trnacys_c + 0.1418 trnagln_c + 0.25085 trnaglu_c + 0.55317 trnagly_c + 0.07991 trnahis_c + 0.24831 trnaile_c + 0.13981 trnaleu_c + 0.0708 trnalys_c + 0.12059 trnamet_c + 0.13521 trnaphe_c + 0.37332 trnapro_c + 0.21339 trnaser_c + 0.26691 trnathr_c + 0.03275 trnatrp_c + 0.06539 trnatyr_c + 0.22152 trnaval_c 		  0.00	   Inf	  0.00
 RNA_PSEUDO	0.11045 atp_c + 0.13226 ctp_c + 0.10035 gtp_c + 0.17554 utp_c  -> 0.5186 h_c + 0.5186 ppi_c + rna_c 		  0.00	   Inf	  0.00
-ATPM	atp_c + h2o_c  -> adp_c + h_c + pi_c 		  0.00	   Inf	  0.00
+ATPM	atp_c + h2o_c  -> adp_c + h_c + pi_c 		  2.64	   Inf	  0.00
 PSEDUO_ACCEPTOR_NADP	nadp_c  -> acceptor_c 		  0.00	   Inf	  0.00
 PSEDUO_DONOR_NADPH	nadph_c  -> donor_c 		  0.00	   Inf	  0.00
 PSEUDO_ACCEPTOR_NAD	nad_c  -> acceptor_c 		  0.00	   Inf	  0.00
@@ -2487,10 +2487,10 @@ arm_AMID5	aa_c + h2o_c  -> pmet_AMID5 	SCO6344 or SCO7601	  0.00	   Inf	  0.00
 AMID5No1	0.00013228 prot_O86613 + pmet_AMID5  -> acryl_c + nh4_c 	SCO6344	  0.00	   Inf	  0.00
 AMID5No2	0.00013228 prot_Q9EWI3 + pmet_AMID5  -> acryl_c + nh4_c 	SCO7601	  0.00	   Inf	  0.00
 arm_AMMQLT9	2dmmql9_c + amet_c  -> pmet_AMMQLT9 	SCO4556 or SCO5940	  0.00	   Inf	  0.00
-AMMQLT9No1	pmet_AMMQLT9 + 1.3889e-07 prot_Q9XAP8  -> ahcys_c + h_c + mql9_c 	SCO4556	  0.00	   Inf	  0.00
+AMMQLT9No1	pmet_AMMQLT9 + 3.4083e-05 prot_Q9XAP8  -> ahcys_c + h_c + mql9_c 	SCO4556	  0.00	   Inf	  0.00
 AMMQLT9No2	pmet_AMMQLT9 + 0.037037 prot_O54169  -> ahcys_c + h_c + mql9_c 	SCO5940	  0.00	   Inf	  0.00
 arm_AMMQT9	2dmmq9_c + amet_c  -> pmet_AMMQT9 	SCO4556 or SCO5940	  0.00	   Inf	  0.00
-AMMQT9No1	1.3889e-07 prot_Q9XAP8 + pmet_AMMQT9  -> ahcys_c + mqn9_c 	SCO4556	  0.00	   Inf	  0.00
+AMMQT9No1	3.4083e-05 prot_Q9XAP8 + pmet_AMMQT9  -> ahcys_c + mqn9_c 	SCO4556	  0.00	   Inf	  0.00
 AMMQT9No2	0.037037 prot_O54169 + pmet_AMMQT9  -> ahcys_c + mqn9_c 	SCO5940	  0.00	   Inf	  0.00
 arm_AMPTASECG	cgly_c + h2o_c  -> pmet_AMPTASECG 	SCO2179 or SCO2018 or SCO2635 or SCO2643	  0.00	   Inf	  0.00
 AMPTASECGNo1	pmet_AMPTASECG + 2.3481e-06 prot_Q9S2Q7  -> cys__L_c + gly_c 	SCO2179	  0.00	   Inf	  0.00
@@ -4918,7 +4918,7 @@ REDS30No1	2 fad_c + proPCPredO_c + 7.5075e-06 prot_O54143  -> 2 fadh2_c + h_c + 
 REDS31No1	KSredX_c + pyrPCPredO_c + 6.1728e-07 prot_O54142  -> PCPredO_c + pyrKSredX_c 	SCO5878	  0.00	   Inf	  0.00
 REDS32No1	ACPredN_c + malcoa_c + 2.7778e-06 prot_P72391 + 2.7778e-06 prot_Q7AKN9 + 2.7778e-06 prot_O54153  -> coa_c + malACPredN_c 	SCO2387 and SCO5890	  0.00	   Inf	  0.00
 REDS33No1	h_c + malACPredN_c + pyrKSredX_c + 6.1728e-07 prot_O54142 + 6.1728e-07 prot_O54153  -> KSredX_c + co2_c + kppACPredN_c 	SCO5878 and SCO5890	  0.00	   Inf	  0.00
-REDS35No1	amet_c + hbm_c + 0.037037 prot_O54158  -> ahcys_c + h_c + mbm_c 	SCO5895	  0.00	   Inf	  0.00
+REDS35No1	amet_c + hbm_c + 3.4083e-05 prot_O54158  -> ahcys_c + h_c + mbm_c 	SCO5895	  0.00	   Inf	  0.00
 REDS5xNo1	but2eACPredQ_c + h_c + nadh_c + 3.0481e-06 prot_Q9S275  -> butACPredQ_c + nad_c 	SCO1814	  0.00	   Inf	  0.00
 REDS5yNo1	but2eACPredQ_c + h_c + nadph_c + 3.0481e-06 prot_Q9S275  -> butACPredQ_c + nadp_c 	SCO1814	  0.00	   Inf	  0.00
 REDS6No1	butACPredQ_c + h_c + malACPredQ_c + 0.0059102 prot_O54149  -> 3ohexACPredQ_c + ACPredQ_c + co2_c 	SCO5886	  0.00	   Inf	  0.00
@@ -6044,7 +6044,7 @@ ALCD2y_REVNo1	0.00037037 prot_Q9EWF1 + pmet_ALCD2y_REV  -> etoh_c + nadp_c 	SCO4
 ALCD2y_REVNo2	0.00037037 prot_Q9KXX0 + pmet_ALCD2y_REV  -> etoh_c + nadp_c 	SCO4271	  0.00	   Inf	  0.00
 AMAOTr_REVNo1	amob_c + dann_c + 0.00027778 prot_Q9FCC2  -> 8aonn_c + amet_c 	SCO1245	  0.00	   Inf	  0.00
 arm_AMMQT9_REV	ahcys_c + mqn9_c  -> pmet_AMMQT9_REV 	SCO4556 or SCO5940	  0.00	   Inf	  0.00
-AMMQT9_REVNo1	1.3889e-07 prot_Q9XAP8 + pmet_AMMQT9_REV  -> 2dmmq9_c + amet_c 	SCO4556	  0.00	   Inf	  0.00
+AMMQT9_REVNo1	3.4083e-05 prot_Q9XAP8 + pmet_AMMQT9_REV  -> 2dmmq9_c + amet_c 	SCO4556	  0.00	   Inf	  0.00
 AMMQT9_REVNo2	0.0011111 prot_O54169 + pmet_AMMQT9_REV  -> 2dmmq9_c + amet_c 	SCO5940	  0.00	   Inf	  0.00
 arm_APAT2r_REV	glu__L_c + msa_c  -> pmet_APAT2r_REV 	SCO5676 or SCO6412 or SCO7034 or SCO3622	  0.00	   Inf	  0.00
 APAT2r_REVNo1	5.8603e-06 prot_O86823 + pmet_APAT2r_REV  -> akg_c + ala_B_c 	SCO5676	  0.00	   Inf	  0.00
@@ -8060,4 +8060,4 @@ draw_prot_Q9ZBY8	38.7938 prot_pool  -> prot_Q9ZBY8 	SCO3944	  0.00	   Inf	  0.00
 draw_prot_Q9ZC02	52.3429 prot_pool  -> prot_Q9ZC02 	SCO6511	  0.00	   Inf	  0.00
 draw_prot_Q9ZC16	65.377 prot_pool  -> prot_Q9ZC16 	SCO6497	  0.00	   Inf	  0.00
 draw_prot_Q9ZC17	65.6848 prot_pool  -> prot_Q9ZC17 	SCO6496	  0.00	   Inf	  0.00
-prot_pool_exchange	  -> prot_pool 		  0.00	  0.10	  0.00
+prot_pool_exchange	  -> prot_pool 		  0.00	  0.06	  0.00

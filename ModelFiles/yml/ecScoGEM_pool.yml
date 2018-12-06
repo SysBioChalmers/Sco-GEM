@@ -54303,7 +54303,7 @@
       - h_c: 1
       - mql9_c: 1
       - pmet_AMMQLT9: -1
-      - prot_Q9XAP8: -1.3889e-07
+      - prot_Q9XAP8: -3.4083e-05
     - lower_bound: 0
     - upper_bound: Inf
     - gene_reaction_rule: SCO4556
@@ -54326,7 +54326,7 @@
       - ahcys_c: 1
       - mqn9_c: 1
       - pmet_AMMQT9: -1
-      - prot_Q9XAP8: -1.3889e-07
+      - prot_Q9XAP8: -3.4083e-05
     - lower_bound: 0
     - upper_bound: Inf
     - gene_reaction_rule: SCO4556
@@ -54348,7 +54348,7 @@
       - 2dmmq9_c: 1
       - amet_c: 1
       - pmet_AMMQT9_REV: -1
-      - prot_Q9XAP8: -1.3889e-07
+      - prot_Q9XAP8: -3.4083e-05
     - lower_bound: 0
     - upper_bound: Inf
     - gene_reaction_rule: SCO4556
@@ -56399,7 +56399,7 @@
       - h2o_c: -1
       - h_c: 1
       - pi_c: 1
-    - lower_bound: 0
+    - lower_bound: 2.64
     - upper_bound: Inf
     - annotation: !!omap
       - bigg.reaction: ATPM
@@ -101874,7 +101874,7 @@
       - h_c: 1
       - hbm_c: -1
       - mbm_c: 1
-      - prot_O54158: -0.037037
+      - prot_O54158: -3.4083e-05
     - lower_bound: 0
     - upper_bound: Inf
     - gene_reaction_rule: SCO5895
@@ -130257,7 +130257,7 @@
     - metabolites: !!omap
       - prot_pool: 1
     - lower_bound: 0
-    - upper_bound: 0.096829
+    - upper_bound: 0.060034
   - !!omap
     - id: r0120No1
     - name: GTP cyclohydrolase I (No1)
@@ -130583,9 +130583,6 @@
   - !!omap
     - id: SCO0491
     - name: SCO0491
-  - !!omap
-    - id: SCO04919
-    - name: SCO04919
   - !!omap
     - id: SCO0493
     - name: SCO0493
@@ -131699,9 +131696,6 @@
   - !!omap
     - id: SCO2151
     - name: SCO2151
-  - !!omap
-    - id: SCO2154
-    - name: SCO2154
   - !!omap
     - id: SCO2155
     - name: SCO2155
@@ -134769,9 +134763,6 @@
     - id: SCO6954
     - name: SCO6954
   - !!omap
-    - id: SCO6956
-    - name: SCO6956
-  - !!omap
     - id: SCO6962
     - name: SCO6962
   - !!omap
@@ -135194,12 +135185,6 @@
   - !!omap
     - id: SCP1299
     - name: SCP1299
-  - !!omap
-    - id: SCP1301
-    - name: SCP1301
-  - !!omap
-    - id: SCP153c
-    - name: SCP153c
   - !!omap
     - id: SCP155c
     - name: SCP155c
