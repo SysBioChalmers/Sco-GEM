@@ -8,9 +8,16 @@ load('..\..\ModelFiles\mat\ECscoGEM.mat')
 data        = prepareProteomicsM1152M145;
 sol         = solveLP(ecModel)
 
+[ecModel_pool,OptSigma] = getConstrainedModel(ecModel,'',sigma,Ptot,gRate,modifications,name);
+disp(['Sigma factor (fitted for growth on glucose): ' num2str(OptSigma)])
+save(['../../../../../scrap/Ec' name '_pool.mat'],'ecModel_pool','modifications') 
+
 cd gecko/geckomat/limit_proteins
-Ptot        = 0.412;
-sigma       = 0.42;
+Ptot        = 0.456; % As reported by Shabab et al. (1996) Microbiol.
+                     % doi:10.1099/13500872-142-8-1927 relatively stabile
+                     % among growth rates, highest reported content is used
+                     % to prevent overconstraining the model.
+sigma       = 0.5;
 [f,~]       = measureAbundance(ecModel.enzymes);
 ecModel_pool = constrainPool(ecModel,true(length(ecModel.enzymes),1),f*sigma*Ptot);
 ecModel_pool = setParam(ecModel_pool,'lb','ATPM',0);
@@ -34,4 +41,4 @@ cd gecko/geckomat/kcat_sensitivity_analysis
 
 conditions  = num2cell(sample(:,[1,3]),1);
 conditions  = strcat(conditions{:,1},{'_'},conditions{:,2});
-topUsedEnzymes(transpose(sol_pool),model_pool(1),conditions,'scoGEM',true,1000);
+T = topUsedEnzymes(transpose(sol_pool),model_pool(1),conditions,'scoGEM',false,100);

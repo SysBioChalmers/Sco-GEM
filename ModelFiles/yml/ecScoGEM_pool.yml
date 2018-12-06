@@ -130257,7 +130257,7 @@
     - metabolites: !!omap
       - prot_pool: 1
     - lower_bound: 0
-    - upper_bound: 0.073428
+    - upper_bound: 0.096829
   - !!omap
     - id: r0120No1
     - name: GTP cyclohydrolase I (No1)

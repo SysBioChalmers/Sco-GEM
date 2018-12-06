@@ -34,7 +34,10 @@ data.norm   = data.norm ./ data.MW; % mmol / g protein
 %data.norm   = data.norm ./ (data.MW*1000); % convert to mmol/0.2 ug
 
 %% Assume 0.4 g protein / gDCW
-data.norm   = data.norm .* 0.4;
+data.norm   = data.norm .* 0.456; % As reported by Shabab et al. (1996)
+                % Microbiol. doi:10.1099/13500872-142-8-1927 relatively
+                % stabile among growth rates, highest reported content is
+                % used to prevent overconstraining the model.
 
 %% Average over 3 replicates, M145 has 9 timepoints, M1152 has 8 timepoints
 for i=1:9

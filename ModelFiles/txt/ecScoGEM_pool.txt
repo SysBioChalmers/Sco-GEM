@@ -8060,4 +8060,4 @@ draw_prot_Q9ZBY8	38.7938 prot_pool  -> prot_Q9ZBY8 	SCO3944	  0.00	   Inf	  0.00
 draw_prot_Q9ZC02	52.3429 prot_pool  -> prot_Q9ZC02 	SCO6511	  0.00	   Inf	  0.00
 draw_prot_Q9ZC16	65.377 prot_pool  -> prot_Q9ZC16 	SCO6497	  0.00	   Inf	  0.00
 draw_prot_Q9ZC17	65.6848 prot_pool  -> prot_Q9ZC17 	SCO6496	  0.00	   Inf	  0.00
-prot_pool_exchange	  -> prot_pool 		  0.00	  0.07	  0.00
+prot_pool_exchange	  -> prot_pool 		  0.00	  0.10	  0.00
