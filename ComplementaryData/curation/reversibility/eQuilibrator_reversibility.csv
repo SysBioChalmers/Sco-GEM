@@ -1,4 +1,4 @@
-Rxn,Rxn Name,Rxn KEGG ID,Reversibility in model,dG0_prime,delta_dG0_prime,dGm_prime,delta_dGm_prime
+Rxn,Rxn Name,Rxn KEGG ID,Reversibility in model,dG0_prime,dG0_prime_std,dGm_prime,dGm_prime_std
 23PDE2e,"2',3'-cyclic-nucleotide phosphodiesterase (UMP)",R03538,forward,-34.31827982365735,2.8308757491454033,-34.31827982365735,2.8308757491454033
 23PDE4e,"2',3'-cyclic-nucleotide phosphodiesterase (CMP)",R03929,forward,-33.99211692725055,2.8308757491454033,-33.99211692725055,2.8308757491454033
 23PDE7e,"2',3'-cyclic-nucleotide phosphodiesterase (AMP)",R03537,forward,-33.99963325517561,2.8308757491454033,-33.99963325517561,2.8308757491454033
