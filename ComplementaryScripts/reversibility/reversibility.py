@@ -1,6 +1,15 @@
 from cobra.io import read_sbml_model, write_sbml_model
 import pandas as pd
 from collections import defaultdict
+import numpy as np
+import time
+from matplotlib import pyplot as plt
+import pickle
+from itertools import combinations
+
+KEY_TO_BOUNDS_DICT = {"forward": (0, 1000),
+                      "backward": (-1000, 0),
+                      "reversible": (-1000, 1000)}
 
 def read_metacyc_data(fn):
     """
@@ -64,37 +73,64 @@ def read_equilibrator_data(fn, threshold = 30, consider_uncertainty = True):
 
     return df[["Rxn", "Rxn KEGG ID", "Reversibility in model", "dG", "sigma dG", "Reversibility in DB"]]
 
+def read_equilibrator_data2(fn, threshold = 30, consider_uncertainty = True, dG0_or_dGm = "dGm"):
+    df = pd.read_csv(fn)
 
-def apply_reversibilities(model, data_df, save_fn = None, model_id = None):
-    count_dict = defaultdict(int)
+    if dG0_or_dGm == "dGm":
+        key = "dGm_prime"
+        key_std = "dGm_prime_std"
+    else:
+        key = "dG0_prime"
+        key_std = "dG0_prime_std"
+
+    # Remove rows with no equilibrator value
+    df = df[df[key].notna()]
+    
+    df["dG"] = df[key]
+    df["sigma dG"] = df[key_std] * 1.96 # Convert from std to 95% confidence interval
+
+    df["dG"] = pd.to_numeric(df["dG"])
+    df["sigma dG"] = pd.to_numeric(df["sigma dG"])
+
+    direction = []
     for i, row in df.iterrows():
-        r_id = row["Rxn"]
-        r = model.reactions.get_by_id(r_id)
-        db_reversibility = row["Reversibility in DB"]
-        model_reversibility = check_reversibility(r)
-        if model_reversibility == "blocked":
-            print("Obs! Reaction {0} is blocked in model. Skipping".format(r.id))
-            continue
-
-        if db_reversibility != model_reversibility:
-            if db_reversibility == "reversible":
-                r.bounds = (-1000, 1000)
-            elif db_reversibility == "forward":
-                r.bounds = (0, 1000)
-            elif db_reversibility == "backward":
-                r.bounds = (-1000, 0)
+        dG = row["dG"]
+        
+        if consider_uncertainty:
+            if dG < 0:
+                conservative_value = dG + row["sigma dG"]
             else:
-                print("No direction specified for reaction {0} with dG: {1}".format(r.id, row["dG"]))
-                continue
-            key = "{0} to {1}".format(model_reversibility, db_reversibility)
-            count_dict[key] += 1
-            print("Changed direction of reaction {0} from {1} to {2}".format(r.id, model_reversibility, db_reversibility))
+                conservative_value = dG - row["sigma dG"]
+        else:
+            conservative_value = dG
 
-    n = 0
-    for key, value in count_dict.items():
-        print("{0}: {1}".format(key, value))
-        n += value
-    print("Changed the reversibility of {0} reactions in total. Data were available for {1} reactions".format(n, len(df)))
+
+        if conservative_value < -threshold:
+            direction.append("forward")
+        elif conservative_value > threshold:
+            direction.append("backward")
+        else:
+            direction.append("reversible")
+    df["Reversibility in DB"] = direction
+
+    return df[["Rxn", "Rxn KEGG ID", "Reversibility in model", "dG", "sigma dG", "Reversibility in DB"]]
+
+
+def create_model(model, constraining_dict, lethal_df, save_fn = None, model_id = None):
+
+    # Disregard all reactions in the first column of lethal_df
+    lethal_reactions = list(set(list(lethal_df.loc[:, "rxn1"])+list(lethal_df.loc[:, "rxn2"])+list(lethal_df.loc[:, "rxn3"])))
+    i = 0
+    for r_id, bounds in constraining_dict.items():
+        if r_id in lethal_reactions:
+            continue
+        i+=1
+        r = model.reactions.get_by_id(r_id)
+        print("Change direction of reaction {0} from {1} to {2}".format(r_id, r.bounds, bounds))
+        r.bounds = bounds
+        print(model.optimize())
+
+    print("Changed the reversibility of {0} reactions in total".format(i))
 
     if model_id:
         model.id = model_id
@@ -121,15 +157,311 @@ def check_reversibility(reaction):
         return "reversible"
 
 
+def prep_df(model, df):
+    constraining_dict = {}
+    for i, row in df.iterrows():
+        # Get model reaction
+        r = model.reactions.get_by_id(row["Rxn"])
+        db_reversibility = row["Reversibility in DB"]
+        # Check the current reversibility of the reaction
+        model_reversibility = check_reversibility(r)
+
+        # Check that the reactions is not limited by 0 upper and lower bound
+        if model_reversibility == "blocked":
+            print("Obs! Reaction {0} is blocked in model. Skipping".format(r.id))
+            continue
+        if db_reversibility != model_reversibility:
+            try:
+                constraining_dict[r.id] = KEY_TO_BOUNDS_DICT[db_reversibility]
+            except KeyError:
+                print("No direction specified for reaction {0} with dG: {1}".format(r.id, row["dG"]))
+                continue
+    return constraining_dict
+
+def check_smart_reversibility(model, reversibility_df, growth_rate_deviation = 0.01,
+                              iterations1 = 1000, iterations2=1000, set_size = 6):
+    """
+    This function adds new reversibilities while ensuring growth and
+    taking double and triple lethal pairs into account
+    """
+
+    # Seperate reactions into relaxing and constraining changes
+    constraining_dict = prep_df(model, reversibility_df)
+
+    test_random2(model, constraining_dict, growth_rate_deviation, iterations1 = iterations1, iterations2 = iterations2, set_size = set_size)
+
+def check_smart_reversibility(model, constraining_dict, growth_rate_deviation = 0.01, set_size = 6, iterations1 = 1000, iterations2 = 1000, plot = True, always_lethal_ratio = 0.9):
+    # initialize variables    
+    r_id_list = list(constraining_dict.keys())
+    N = len(r_id_list)
+    possible_idxs = np.arange(N)
+
+    set_array = np.zeros((iterations1+iterations2, N))
+    solution_arr = np.zeros(iterations1+iterations2)
+    start = time.time()
+
+    growth_array = np.zeros(iterations1+iterations2)
+    base_growth_rate = model.optimize().objective_value
+
+    def run(model, idxs, i):
+        for r_id in [r_id_list[x] for x in idxs]:
+            model.reactions.get_by_id(r_id).bounds = constraining_dict[r_id]
+        s = model.optimize().objective_value
+        growth_array[i] = s
+        dev = s - base_growth_rate
+        if abs(dev) < growth_rate_deviation:
+            solution_arr[i] = 0
+        else:
+            solution_arr[i] = np.sign(dev)                
+
+
+    # Normal growth rate
+    # s = model.optimize()
+    for i in range(iterations1):
+        idxs = np.random.choice(possible_idxs, set_size, False)
+        set_array[i, idxs] = 1
+        with model:
+            run(model, idxs, i)
+
+    # Remove always lethal from set
+    lethal = set_array[solution_arr != 0, :]
+    cols = set_array.sum(axis=0)*always_lethal_ratio <= lethal.sum(axis=0)
+    possible_idxs = possible_idxs[~cols]
+    print("Finished first iterations")
+
+    # Continue run
+    for i in range(iterations1, iterations2):
+        idxs = np.random.choice(possible_idxs, set_size, False)
+        set_array[i, idxs] = 1
+        with model:
+            run(model, idxs, i)
+    print("Ran {0}+{1} iterations in {2:.0f} seconds".format(iterations1, iterations2, time.time()-start))
+
+    with open("temp_{0}.pkl".format(time.strftime("%d%H%M")), "wb") as f:
+        pickle.dump([set_array, solution_arr, r_id_list, constraining_dict, growth_array, always_lethal_ratio, growth_rate_deviation], f)
+
+def analyse_random2(model, pkl_filename, save_fn,  plot = True):
+    with open(pkl_filename, "rb") as f:
+        set_array, solution_arr, r_id_list, constraining_dict, growth_array, always_lethal_ratio, growth_rate_deviation = pickle.load(f)
+
+    lethal = set_array[solution_arr != 0, :]
+    solution_lethal = solution_arr[solution_arr != 0]
+    cols = set_array.sum(axis=0)*always_lethal_ratio <= lethal.sum(axis=0)
+    rows = (set_array[:, cols] == 1).any(axis=1)
+    set_array_except = set_array[~rows, :]
+    solution_except = solution_arr[~rows]
+    lethal_except = set_array_except[solution_except != 0, :]
+    lethal_pairs, lethal_leftover, solution_leftover = analyze_lethal_pairs(set_array_except, solution_except, lethal_except)
+    new_lethals = find_lethals_in_leftovers(model, lethal_leftover, solution_leftover, r_id_list, growth_rate_deviation, constraining_dict)
+
+    # Store as csv
+    df = pd.DataFrame(columns = ["rxn1","rxn1_lb","rxn1_ub","rxn2","rxn2_lb","rxn2_ub","rxn3","rxn3_lb","rxn3_ub","model growth"])
+    
+    for idx, j in enumerate(np.where(cols)[0]):
+        r = r_id_list[j]
+        df.loc[idx, "rxn1"] = r
+        df.loc[idx, "rxn1_lb"] = constraining_dict[r][0]
+        df.loc[idx, "rxn1_ub"] = constraining_dict[r][1]
+    
+    for pair in lethal_pairs:
+        idx += 1
+        r1 = r_id_list[pair[0]]
+        r2 = r_id_list[pair[1]]
+        
+        df.loc[idx, "rxn1"] = r1
+        df.loc[idx, "rxn1_lb"] = constraining_dict[r1][0]
+        df.loc[idx, "rxn1_ub"] = constraining_dict[r1][1]
+
+        df.loc[idx, "rxn2"] = r2
+        df.loc[idx, "rxn2_lb"] = constraining_dict[r2][0]
+        df.loc[idx, "rxn2_ub"] = constraining_dict[r2][1]
+    
+    for pair in new_lethals:
+        idx += 1
+        r1 = pair[0]
+        r2 = pair[1]
+        
+        df.loc[idx, "rxn1"] = r1
+        df.loc[idx, "rxn1_lb"] = constraining_dict[r1][0]
+        df.loc[idx, "rxn1_ub"] = constraining_dict[r1][1]
+
+        df.loc[idx, "rxn2"] = r2
+        df.loc[idx, "rxn2_lb"] = constraining_dict[r2][0]
+        df.loc[idx, "rxn2_ub"] = constraining_dict[r2][1]
+        
+        if len(pair) > 2:
+            r3 = pair[2]
+            df.loc[idx, "rxn3"] = r3
+            df.loc[idx, "rxn3_lb"] = constraining_dict[r3][0]
+            df.loc[idx, "rxn3_ub"] = constraining_dict[r3][1]
+
+        if len(pair) > 3:
+            print("Four-combination: ", pair)
+
+    df.to_csv(save_fn, index = False)
+
+    if plot:
+        x = np.arange(set_array.shape[1])
+        fig, ax = plt.subplots(1)
+
+        ratio_lethal = lethal.sum(axis=0) / set_array.sum(axis = 0)
+        ratio_pos = set_array[solution_arr == 1, :].sum(axis=0) / set_array.sum(axis = 0)
+        ratio_neg = set_array[solution_arr == -1, :].sum(axis=0) / set_array.sum(axis = 0)
+        
+        ax.bar(x, height = ratio_lethal, color = "b", width = 0.4,  align = "edge", label = "Lethal")
+        ax.bar(x+.4, height = ratio_pos, color = "g", width = 0.4,  align = "edge", label = "Too high growth")
+        ax.bar(x+.4, height = ratio_neg, bottom = ratio_pos, color = "r", width = 0.4,  align = "edge", label = "Too low growth")
+        # plt.xticks(x, r_id_list, rotation = 90)
+        plt.show()
+
+        fig, ax = plt.subplots(1)
+        ax.bar(x, height = set_array.sum(axis=0), color = "b", width = 0.4,  align = "edge", label = "Lethal")
+        plt.show()
+
+
+   
+
+def find_lethals_in_leftovers(model, lethal_leftover, solution_leftover, r_id_list, growth_rate_deviation, constraining_dict):
+    s = model.optimize()
+    base_growth_rate = s.objective_value
+    lethals = []
+    new_solutions = []
+    print(lethal_leftover.shape, solution_leftover.shape, solution_leftover)
+    
+    def _test_model(model):
+        s = model.optimize()
+        dev = s.objective_value - base_growth_rate
+        if abs(dev) < growth_rate_deviation:
+            return False
+        else:
+            if np.sign(dev) != solution_leftover[row]:
+                print(j, "Solution, but not a solution for {0}, {1}, {2}".format(pair, dev, solution_leftover[row]))
+            else:
+                print(j, "Solution for {0}".format(pair))
+
+            lethals.append(pair)
+            new_solutions.append(np.sign(dev))
+            return True
+    
+
+    for row in range(lethal_leftover.shape[0]):
+        arr = lethal_leftover[row, :]
+        row_reaction_ids = [r_id_list[i] for i, x in enumerate(arr) if x]
+        print(row, row_reaction_ids)
+
+        # Test singles
+
+        solution = False
+        for n in [1, 2, 3, 4]:
+            for j, pair in enumerate(combinations(row_reaction_ids, n)):
+                with model:
+                    for r_id in pair:
+                        model.reactions.get_by_id(r_id).bounds = constraining_dict[r_id]
+
+                    solution = _test_model(model)
+                if solution:
+                    break
+            if solution:
+                break
+        if not solution:                
+            print("No solution")
+
+    lethals = list(set(lethals))
+
+    return lethals
+
+
+
+def analyze_lethal_pairs(set_array_except, solution_except, lethal_except):
+
+    temp_arr = set_array_except.copy()
+    temp_solution = solution_except.copy()
+    lethal_temp = lethal_except.copy()
+    order_n_lethals = np.argsort(lethal_temp.sum(axis=0))[::-1]
+    lethal_pairs = []
+    i = 0
+    j = 1
+
+    while True:
+        idx_i = order_n_lethals[i]
+        idx_j = order_n_lethals[j]
+        n_i = lethal_except.sum(axis=0)[i]
+        if n_i == 1:
+            break
+        # Find rows where both of these reactions are selected
+        rows = (temp_arr[:, [idx_i, idx_j]] == 1).all(axis = 1)
+        # Get the solution array for these rows
+        rows_solution = temp_solution[rows]
+        # If the solution is != 0 for all these rows we considere these two a lethal pair
+        if (not (rows_solution == 0).any()) and (sum(rows)>2):
+            print(lethal_temp.sum(axis=0)[idx_i], lethal_temp.sum(axis=0)[idx_j])
+            print("n rows: ", sum(rows))
+            # print(i,j, lethal_pairs, lethal_temp.shape, temp_arr.shape)
+            lethal_pairs.append((idx_i,idx_j))
+            temp_arr, temp_solution = strip_rows(temp_arr, temp_solution, rows)
+            lethal_temp = temp_arr[temp_solution != 0, :]
+            order_n_lethals = np.argsort(lethal_temp.sum(axis=0))[::-1]
+            i = 0
+            j = 1
+        else:
+            if j == len(order_n_lethals)-1:
+                if i == len(order_n_lethals)-1:
+                    break
+                else:
+                    i+=1
+            else:
+                j+=1
+    if lethal_temp.shape[0]>0:
+        print(lethal_temp.sum(axis=0))
+    lethal_solution_temp = temp_solution[temp_solution != 0]
+    return lethal_pairs, lethal_temp, lethal_solution_temp
+
+def strip_rows(arr, solution, rows):
+    return arr[~rows, :], solution[~rows]
+
+def fill_reversibility_csv(fn, model):
+    df = pd.read_csv(fn, sep = ",", header = 0)
+    for i in df.index:
+        row  = df.loc[i,:]
+        with model:
+            for key in ["rxn1", "rxn2", "rxn3"]:
+                r_id = df.loc[i, key]
+                if pd.notna(r_id):
+                    bounds = (df.loc[i, "{0}_lb".format(key)], df.loc[i, "{0}_ub".format(key)])
+                    model.reactions.get_by_id(r_id).bounds = bounds
+            s = model.optimize()
+            df.loc[i, "model growth"] = np.round(s.objective_value, 4)
+    df.to_csv(fn, index = False)
+    print(df)
+
+
 
 if __name__ == '__main__':
     scoGEM = read_sbml_model("../../ModelFiles/xml/scoGEM.xml")
-    if 1:
-        equilibrator_data_fn = "../../ComplementaryData/curation/Reversibility-based-model-Equilibrator.csv"
-        df = read_equilibrator_data(equilibrator_data_fn, threshold = 30, consider_uncertainty = True)
-        eqScoGEM = apply_reversibilities(scoGEM, df, save_fn = "../../ModelFiles/xml/eqScoGEM.xml", model_id = "eqScoGEM")
-
-    if 1:
-        metacyc_data_fn = "../../ComplementaryData/curation/Reversibility-based-model-MetaCyc.csv"
+    if 0:
+        metacyc_data_fn = "../../ComplementaryData/curation/reversibility/Reversibility-based-model-MetaCyc.csv"
         df = read_metacyc_data(metacyc_data_fn)
-        apply_reversibilities(scoGEM, df, save_fn = "../../ModelFiles/xml/metacycScoGEM.xml", model_id = "metacycScoGEM")
+        constraining_dict = prep_df(scoGEM, df)
+        # check_smart_reversibility(scoGEM, constraining_dict, iterations1 = 1000, iterations2 = 20000, set_size = 10)
+        metacyc_lethals_fn = "../../ComplementaryData/curation/reversibility/metacyc_reversibility_lethals.csv"
+        analyse_random2(scoGEM, "temp_071028.pkl", metacyc_lethals_fn)
+        fill_reversibility_csv(metacyc_lethals_fn, scoGEM)
+        lethal_df = pd.read_csv(metacyc_lethals_fn, sep = ",", header = 0)
+        save_fn = "../../ModelFiles/xml/metacycScoGEM.xml"
+        create_model(scoGEM, constraining_dict, lethal_df, save_fn = save_fn, model_id = "metacycScoGEM")
+        
+   
+    if 1:
+        # Pipeline for eQuilibrator
+        equilibrator_data_fn = "../../ComplementaryData/curation/reversibility/eQuilibrator_reversibility.csv"
+        df = read_equilibrator_data2(equilibrator_data_fn, threshold = 30, consider_uncertainty = False)
+        constraining_dict = prep_df(scoGEM, df)
+        print(len(df.index))
+        print(len(constraining_dict))
+        # check_smart_reversibility(scoGEM, constraining_dict, iterations1 = 1000, iterations2 = 20000, set_size = 10)
+        # analyse_random2(scoGEM, "temp_061651.pkl")
+        eq_lethals_fn =  "../../ComplementaryData/curation/reversibility/eQuilibrator_reversibility_lethals.csv"
+        lethal_df = pd.read_csv(eq_lethals_fn, sep = ",", header = 0)
+        fill_reversibility_csv(eq_lethals_fn, scoGEM)
+        save_fn = "../../ModelFiles/xml/eqScoGEM.xml"
+        create_model(scoGEM, constraining_dict, lethal_df, save_fn = save_fn, model_id = "eqScoGEM")
