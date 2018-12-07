@@ -24,6 +24,7 @@ ecModel_pool = setParam(ecModel_pool,'lb','ATPM',0);
 
 cd ../../../
 exportForGit(ecModel_pool,'ecScoGEM_pool','../../',{'xml','txt','yml','xlsx'})
+movefile ../../ModelFiles/dependencies.txt ../../ModelFiles/ecScoGEM_dependencies.txt
 
 %% Simulate with experimental data
 sample      = [cellstr(repmat('M145',9,1));cellstr(repmat('M1152',8,1))];
@@ -31,7 +32,7 @@ sample(:,2) = num2cell([21;29;33;37;41;45;49;53;57;33;41;45;49;53;57;61;65]);
 sample(:,3) = cellstr(num2str([21;29;33;37;41;45;49;53;57;33;41;45;49;53;57;61;65]));
 
 for i=1:length(sample(:,1))%[1:3,10:12];%
-    model_pool(i)   = simulateCondition(ecModel_pool,sample(i,1),sample{i,2});
+    model_pool(i)   = fixFluxes(ecModel_pool,sample(i,1),sample{i,2});
     sol = solveLP(model_pool(i),1);
     sol_pool(i,:) = sol.x;
 end
