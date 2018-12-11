@@ -28293,8 +28293,8 @@
     - metabolites: !!omap
       - 2hdhepdd_c: -1.0
       - 2ohed_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5546
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -29241,8 +29241,8 @@
       - h_c: -1.0
       - nadp_c: 1.0
       - nadph_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1346 or SCO1815
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -29261,8 +29261,8 @@
       - coa_c: 1.0
       - h2o_c: -1.0
       - h_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -29518,8 +29518,8 @@
       - oxadpcoa_c: 1.0
       - succ_c: 1.0
       - succoa_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6702 and SCO6703
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -31142,8 +31142,8 @@
       - coa_c: -1.0
       - oxadpcoa_c: -1.0
       - succoa_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1324 or SCO6027 or SCO6701 or SCO6967
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -31171,8 +31171,8 @@
       - msa_c: -1.0
       - nad_c: -1.0
       - nadh_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32013,8 +32013,8 @@
       - ala__L_c: 1.0
       - pyr_c: -1.0
       - sucsal_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5676 or SCO7034
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32062,8 +32062,8 @@
       - akg_c: -1.0
       - glu__L_c: 1.0
       - sucsal_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5676 or SCO6412 or SCO7034
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32114,8 +32114,8 @@
       - nad_c: -1.0
       - nadh_c: 1.0
       - xylu__D_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0737
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32226,8 +32226,8 @@
       - accoa_c: -1.0
       - btcoa_c: -1.0
       - coa_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO1324 or SCO6027 or SCO6701 or SCO6967
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32251,8 +32251,8 @@
       - accoa_c: -1.0
       - coa_c: 1.0
       - hxcoa_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO1324 or SCO6027 or SCO6701 or SCO6967
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32276,8 +32276,8 @@
       - accoa_c: -1.0
       - coa_c: 1.0
       - occoa_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO1324 or SCO6027 or SCO6701 or SCO6967
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32301,8 +32301,8 @@
       - accoa_c: -1.0
       - coa_c: 1.0
       - dcacoa_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO1324 or SCO6027 or SCO6701 or SCO6967
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32326,8 +32326,8 @@
       - accoa_c: -1.0
       - coa_c: 1.0
       - ddcacoa_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO1324 or SCO6027 or SCO6701 or SCO6967
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32351,8 +32351,8 @@
       - accoa_c: -1.0
       - coa_c: 1.0
       - tdcoa_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO1324 or SCO6027 or SCO6701 or SCO6967
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32534,8 +32534,8 @@
       - adp_c: 1.0
       - atp_c: -1.0
       - h_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4285
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32705,8 +32705,8 @@
       - acmum6p_c: -1.0
       - h2o_c: -1.0
       - lac__D_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4307
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32748,8 +32748,8 @@
       - btcoa_c: -1.0
       - fad_c: -1.0
       - fadh2_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO1690 or SCO2774 or SCO6787
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32774,8 +32774,8 @@
       - fadh2_c: 1.0
       - hx2coa_c: 1.0
       - hxcoa_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO1690 or SCO2774 or SCO6787
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32796,8 +32796,8 @@
       - fadh2_c: 1.0
       - oc2coa_c: 1.0
       - occoa_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO1690 or SCO2774 or SCO6787
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32818,8 +32818,8 @@
       - dcacoa_c: -1.0
       - fad_c: -1.0
       - fadh2_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO1690 or SCO2774 or SCO6787
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32840,8 +32840,8 @@
       - ddcacoa_c: -1.0
       - fad_c: -1.0
       - fadh2_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO1690 or SCO2774 or SCO6787
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32862,8 +32862,8 @@
       - fadh2_c: 1.0
       - td2coa_c: 1.0
       - tdcoa_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO1690 or SCO2774 or SCO6787
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32884,8 +32884,8 @@
       - fadh2_c: 1.0
       - hdd2coa_c: 1.0
       - pmtcoa_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO1690 or SCO2774 or SCO6787
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -33774,8 +33774,8 @@
       - atp_c: -1.0
       - coa_c: -1.0
       - ppi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3563 or SCO6195
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -33804,8 +33804,8 @@
       - ppa_c: -1.0
       - ppcoa_c: 1.0
       - ppi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3563 or SCO6195
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -34010,8 +34010,8 @@
       - h_c: -1.0
       - nadp_c: 1.0
       - nadph_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5023 or SCO5075
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -34405,8 +34405,8 @@
       - chor_c: -1.0
       - gln__L_c: -1.0
       - glu__L_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1547 or SCO3851
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -34557,8 +34557,8 @@
       - atp_c: -1.0
       - camp_c: 1.0
       - ppi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4928
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -34581,8 +34581,8 @@
       - amp_c: 1.0
       - atp_c: -1.0
       - h_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2158
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -34763,8 +34763,8 @@
       - atp_c: -1.0
       - h_c: 1.0
       - paps_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6099
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -34841,8 +34841,8 @@
       - h_c: 2.0
       - imp_c: -1.0
       - pi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3629
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -34894,8 +34894,8 @@
       - acgam6p_c: -1.0
       - gam6p_c: 1.0
       - h2o_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4284
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -35417,8 +35417,8 @@
       - h2s_c: -1.0
       - h_c: 1.0
       - hcys__L_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1294 or SCO4958
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -35612,8 +35612,8 @@
       - nadh_c: 1.0
       - nh4_c: 1.0
       - pyr_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1773
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -35641,8 +35641,8 @@
       - h_c: 1.0
       - lac__D_c: -1.0
       - pi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3595
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -35687,8 +35687,8 @@
       - gly_c: -1.0
       - h_c: -1.0
       - succoa_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -35713,8 +35713,8 @@
       - pyam5p_c: 1.0
       - pydx5p_c: -1.0
       - pyr_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1087 or SCO4837 or SCO5470 or SCO5364
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -35890,8 +35890,8 @@
       - h_c: -1.0
       - nad_c: 1.0
       - nadh_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0199 or SCO0259 or SCO5262 or SCO7362
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -35913,8 +35913,8 @@
       - h_c: -1.0
       - nadp_c: 1.0
       - nadph_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4945 or SCO4271
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -36437,8 +36437,8 @@
       - cys__L_c: 1.0
       - gly_c: 1.0
       - h2o_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2179 or SCO2018 or SCO2635 or SCO2643
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -37404,8 +37404,8 @@
       - h_c: -1.0
       - nadp_c: 1.0
       - nadph_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2688 or SCO6058 or SCO4106
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -37872,8 +37872,8 @@
       - cbp_c: -1.0
       - h_c: 1.0
       - pi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1487
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -38047,8 +38047,8 @@
       - asp__L_c: -1.0
       - fum_c: 1.0
       - nh4_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5042
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -38136,8 +38136,8 @@
       - h2o_c: -1.0
       - urdglyc_c: 1.0
       - urea_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6248
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -38563,8 +38563,8 @@
       - h2o_c: -1.0
       - pap_c: -1.0
       - pi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5161
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -39149,8 +39149,8 @@
       - h_c: 2.0
       - hco3_c: -1.0
       - pi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1483 and SCO1484
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -39176,8 +39176,8 @@
       - emcoa__S_c: 1.0
       - nadp_c: 1.0
       - nadph_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6473
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -39740,8 +39740,8 @@
       - adp_c: 1.0
       - atp_c: -1.0
       - h_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3148
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -39905,8 +39905,8 @@
     - metabolites: !!omap
       - chor_c: -1.0
       - pphn_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1762 or SCO2019 or SCO4784
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -40082,8 +40082,8 @@
       - coa_c: 1.0
       - h2o_c: -1.0
       - pyr_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5529
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -41506,8 +41506,8 @@
       - nh4_c: -1.0
       - pi_c: 1.0
       - utp_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1776
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -41969,8 +41969,8 @@
       - h2o_c: 1.0
       - hcys__L_c: -1.0
       - ser__L_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3077
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -42036,8 +42036,8 @@
       - cytd_c: -1.0
       - h2o_c: -1.0
       - rib__D_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3779
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -42060,8 +42060,8 @@
       - cmp_c: 1.0
       - cytd_c: -1.0
       - h_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4909
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -42081,8 +42081,8 @@
       - gdp_c: 1.0
       - gtp_c: -1.0
       - h_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4909
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -42171,8 +42171,8 @@
       - d5kg_c: -1.0
       - d5kgp_c: 1.0
       - h_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6978
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -42233,8 +42233,8 @@
       - accoa_c: -1.0
       - coa_c: 1.0
       - nac24dab_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1864
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -42845,8 +42845,8 @@
       - dtbt_c: 1.0
       - h_c: 3.0
       - pi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1246
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -43041,8 +43041,8 @@
       - adp_c: 1.0
       - atp_c: -1.0
       - h_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3474 or SCO0851 or SCO3494 or SCO4988
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -43333,8 +43333,8 @@
       - dha_c: -1.0
       - dhap_c: 1.0
       - h_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0580
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -43765,8 +43765,8 @@
       - 6hmhpt_c: -1.0
       - dhpt_c: 1.0
       - h2o_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3398 or SCO5141
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -43831,8 +43831,8 @@
       - 3dhq_c: -1.0
       - 3dhsk_c: 1.0
       - h2o_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1961
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -43873,8 +43873,8 @@
       - bfrn_c: 1.0
       - frdp_c: -1.0
       - ppi_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5223
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -43894,8 +43894,8 @@
       - h_c: 2.0
       - nadp_c: -1.0
       - nadph_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1706 or SCO3420 or SCO4913 or SCO5679
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -44050,8 +44050,8 @@
       - h2o_c: 1.0
       - h_c: -1.0
       - pi_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -44119,8 +44119,8 @@
       - coa_c: 1.0
       - dpcoa_c: -1.0
       - h_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1996
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -44184,8 +44184,8 @@
       - nadp_c: 1.0
       - nadph_c: -1.0
       - pant__R_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0462 or SCO6562
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -44285,8 +44285,8 @@
       - 2dr5p_c: -1.0
       - acald_c: 1.0
       - g3p_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4914
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -44388,8 +44388,8 @@
       - dump_c: 1.0
       - duri_c: -1.0
       - h_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5845
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -44513,8 +44513,8 @@
       - h_c: -1.0
       - nadp_c: 1.0
       - nadph_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5694
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -44605,8 +44605,8 @@
       - h_c: 2.0
       - nad_c: -1.0
       - nadh_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1947 or SCO7040 or SCO7511
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -46168,8 +46168,8 @@
       - 2mp2coa_c: -1.0
       - 3hibutcoa_c: 1.0
       - h2o_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4384 or SCO6732
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -46354,8 +46354,8 @@
       - 2mb2coa_c: -1.0
       - 3hmbcoa_c: 1.0
       - h2o_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4384 or SCO6732
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -46397,8 +46397,8 @@
       - h2o_c: 1.0
       - h_c: 1.0
       - nac24dab_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO1866
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -46418,8 +46418,8 @@
       - 2ddg6p_c: -1.0
       - g3p_c: 1.0
       - pyr_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0852 or SCO2298 or SCO3473 or SCO3495
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -46463,8 +46463,8 @@
       - akg_c: -1.0
       - e4hglu_c: -1.0
       - glu__L_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4645 or SCO3658
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -46642,8 +46642,8 @@
       - gal_c: 1.0
       - h2o_c: -1.0
       - man_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0274 or SCO0284 or SCO0541
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -47009,8 +47009,8 @@
       - hdca_c: -1.0
       - pmtcoa_c: 1.0
       - ppi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6196 or SCO6195 or SCO2131 or SCO2444 or SCO2561 or SCO2720
         or SCO3436 or SCO4006 or SCO5983 or SCO6552 or SCO6968 or SCO7244 or SCO4503
         or SCO6790
@@ -47457,8 +47457,8 @@
       - for_c: -1.0
       - nad_c: -1.0
       - nadh_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6561
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -47877,8 +47877,8 @@
       - nadph_c: -1.0
       - rbflvrd_c: 1.0
       - ribflv_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6102
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -47927,8 +47927,8 @@
       - fmn_c: -1.0
       - h_c: -1.0
       - ppi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5711
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -47951,8 +47951,8 @@
       - h_c: -1.0
       - nad_c: 1.0
       - nadh_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3295
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -47979,8 +47979,8 @@
       - h_c: -1.0
       - nadp_c: 1.0
       - nadph_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3295 or SCO6102
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -48003,7 +48003,7 @@
       - h_c: 1.0
       - nadp_c: 1.0
       - nadph_c: -1.0
-    - lower_bound: 0
+    - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: SCO0681
     - annotation: !!omap
@@ -48150,8 +48150,8 @@
       - frdp_c: -2.0
       - ppi_c: 1.0
       - psqldi_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -48417,8 +48417,8 @@
       - coa_c: 1.0
       - gam1p_c: -1.0
       - h_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3122
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -48441,8 +48441,8 @@
       - g1p_c: -1.0
       - h_c: -1.0
       - ppi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0393
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -48466,8 +48466,8 @@
       - g1p_c: -1.0
       - h_c: -1.0
       - ppi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0393
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -48516,8 +48516,8 @@
       - glyc3p_c: -1.0
       - h_c: -1.0
       - ppi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -48650,8 +48650,8 @@
       - glu5sa_c: -1.0
       - h2o_c: 1.0
       - h_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: s0001
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -48693,8 +48693,8 @@
       - nadp_c: 1.0
       - nadph_c: -1.0
       - pi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2585
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -48791,8 +48791,8 @@
       - h_c: 1.0
       - nadp_c: -1.0
       - nadph_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1937 or SCO6661
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -48954,8 +48954,8 @@
       - gal_c: 1.0
       - h2o_c: -1.0
       - inost_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0274 or SCO0284 or SCO0541
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -48976,8 +48976,8 @@
       - gal1p_c: 1.0
       - gal_aD_c: -1.0
       - h_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3136
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -49056,8 +49056,8 @@
       - glc__D_c: 1.0
       - h2o_c: -1.0
       - melib_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0274 or SCO0284 or SCO0541
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -49078,8 +49078,8 @@
       - ppi_c: 1.0
       - udpgal_c: 1.0
       - utp_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3138
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -49125,8 +49125,8 @@
       - ppi_c: 1.0
       - udpg_c: 1.0
       - utp_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3182
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -49724,8 +49724,8 @@
       - ggl_c: -1.0
       - glyc_c: 1.0
       - h2o_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0274 or SCO0284 or SCO0541
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -49811,8 +49811,8 @@
       - mlthf_c: 1.0
       - ser__L_c: -1.0
       - thf_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4837 or SCO5470 or SCO5364
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -49843,8 +49843,8 @@
       - atp_c: -1.0
       - gdp_c: 1.0
       - gmp_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1479
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -49944,8 +49944,8 @@
       - glutar_c: -1.0
       - glutcoa_c: 1.0
       - pi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -50006,8 +50006,8 @@
       - 2h3oppan_c: 1.0
       - 5dh4dglc_c: -1.0
       - pyr_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -50050,8 +50050,8 @@
       - 2dh3dglc_c: 1.0
       - glcr_c: -1.0
       - h2o_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2542 or SCO7570
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -50107,8 +50107,8 @@
       - g1p_c: -1.0
       - h_c: -1.0
       - ppi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0961
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -50207,8 +50207,8 @@
       - atp_c: -1.0
       - glu5p_c: 1.0
       - glu__L_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2587
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -50304,8 +50304,8 @@
       - nad_c: -1.0
       - nadh_c: 1.0
       - nh4_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2999
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -50336,8 +50336,8 @@
       - nadp_c: 1.0
       - nadph_c: -1.0
       - nh4_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4683
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -50558,8 +50558,8 @@
       - fadh2_c: 1.0
       - glutcoa_c: -1.0
       - h_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1750
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -50651,8 +50651,8 @@
       - co2_c: 1.0
       - glx_c: -2.0
       - h_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6201
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -50676,8 +50676,8 @@
       - h_c: 2.0
       - nad_c: -1.0
       - nadh_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1174 or SCO1706 or SCO3420 or SCO4913 or SCO5679
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -50698,8 +50698,8 @@
       - accoa_c: -1.0
       - coa_c: 1.0
       - gly_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO6800
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -50722,8 +50722,8 @@
       - h_c: 1.0
       - nad_c: -1.0
       - nadh_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6754
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -50810,8 +50810,8 @@
       - nadh_c: 1.0
       - nh4_c: 1.0
       - thf_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5471 and SCO1378 and SCO5472 and ( SCO0884 or SCO2180
         or SCO4919 )
     - annotation: !!omap
@@ -50834,8 +50834,8 @@
       - h_c: 1.0
       - nad_c: -1.0
       - nadh_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO0348 or SCO3478 or SCO7119
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -51196,8 +51196,8 @@
       - nad_c: -1.0
       - nadh_c: 1.0
       - ru5p__D_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0975 or SCO3877 or SCO6658
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -51488,8 +51488,8 @@
       - frdp_c: -1.0
       - grmcrnd_c: 1.0
       - ppi_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6073
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -51507,8 +51507,8 @@
       - grmcrol_c: 1.0
       - h2o_c: -1.0
       - ppi_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6073
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -51590,8 +51590,8 @@
       - glu__L_c: 1.0
       - gthrd_c: -1.0
       - h2o_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5945 or SCO6407 or SCO6444
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -51768,8 +51768,8 @@
       - gua_c: -1.0
       - ppi_c: 1.0
       - prpp_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1514 or SCO3405
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -52147,8 +52147,8 @@
     - metabolites: !!omap
       - 3hbcoa__R_c: 1.0
       - 3hbcoa_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6732 or SCO6789
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -52174,8 +52174,8 @@
       - h_c: 1.0
       - nadp_c: -1.0
       - nadph_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0984 or SCO1591 or SCO3834 or SCO5385 or SCO6475
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -52434,8 +52434,8 @@
       - h_c: 1.0
       - man6p_c: 1.0
       - man_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -52569,8 +52569,8 @@
       - his__L_c: -1.0
       - nh4_c: 1.0
       - urcan_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4932
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -52593,8 +52593,8 @@
       - histd_c: -1.0
       - nad_c: -2.0
       - nadh_c: 2.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2054
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -52800,8 +52800,8 @@
       - adp_c: 1.0
       - atp_c: -1.0
       - h_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5563
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -52905,8 +52905,8 @@
       - 4h2opntn_c: -1.0
       - acald_c: 1.0
       - pyr_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2048 or SCP1301 or SCP153c
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -52957,8 +52957,8 @@
       - h_c: 1.0
       - nadp_c: -1.0
       - nadph_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -52976,8 +52976,8 @@
       - 3hpcoa_c: 1.0
       - h2o_c: -1.0
       - prpncoa_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0364 or SCO4930 or SCO6948 or SCO5979 or SCO4384 or SCO6732
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53003,8 +53003,8 @@
       - amp_c: 1.0
       - atp_c: -1.0
       - h_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3401
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53071,8 +53071,8 @@
       - hpyr_c: 1.0
       - nad_c: -1.0
       - nadh_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO2696
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53091,8 +53091,8 @@
       - hpyr_c: 1.0
       - nadp_c: -1.0
       - nadph_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO2696
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53187,8 +53187,8 @@
       - hom__L_c: -1.0
       - succoa_c: -1.0
       - suchms_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53214,8 +53214,8 @@
       - glu__L_c: -1.0
       - hisp_c: 1.0
       - imacp_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1859 or SCO2053 or SCO3944
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53237,8 +53237,8 @@
       - h2o_c: -1.0
       - h_c: 1.0
       - houdic_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6210
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53260,8 +53260,8 @@
       - nad_c: -1.0
       - nadh_c: 1.0
       - xan_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ( SCO4971 and SCO4972 ) or ( SCO0689 and SCO0690 and SCO0691
         ) or ( SCO1132 and SCO1133 and SCO1134 )
     - annotation: !!omap
@@ -53284,8 +53284,8 @@
       - imp_c: 1.0
       - ppi_c: 1.0
       - prpp_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3405
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53385,8 +53385,8 @@
     - metabolites: !!omap
       - btcoa_c: 1.0
       - ibcoa_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5415 and ( SCO4800 or SCO6833 )
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53430,8 +53430,8 @@
     - metabolites: !!omap
       - chor_c: -1.0
       - ichor_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO7691
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53456,8 +53456,8 @@
       - glx_c: 1.0
       - icit_c: -1.0
       - succ_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0982
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53523,8 +53523,8 @@
       - idon__L_c: 1.0
       - nadp_c: 1.0
       - nadph_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1682
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53547,8 +53547,8 @@
       - h2o_c: 1.0
       - h_c: -2.0
       - ipdp_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5058
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53592,8 +53592,8 @@
       - h2o_c: -1.0
       - iacgam_c: -1.0
       - igam_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5126 or SCO4967
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53661,8 +53661,8 @@
       - nad_c: -1.0
       - nadh_c: 1.0
       - nh4_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4089
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53683,7 +53683,7 @@
       - akg_c: 1.0
       - glu__L_c: -1.0
       - ile__L_c: 1.0
-    - lower_bound: 0
+    - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: SCO1546 or SCO5523
     - annotation: !!omap
@@ -53756,8 +53756,8 @@
       - nad_c: -1.0
       - nadh_c: 1.0
       - xmp_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ( SCO4770 and SCO4771 ) or SCO1461
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53780,8 +53780,8 @@
       - inost_c: -1.0
       - nad_c: -1.0
       - nadh_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6255 or SCO6984 or SCO7254
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53911,8 +53911,8 @@
       - h_c: 1.0
       - nad_c: -1.0
       - nadh_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5522
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53980,8 +53980,8 @@
       - coa_c: 1.0
       - h2o_c: -1.0
       - h_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2528 or SCO5529
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -54097,8 +54097,8 @@
       - h_c: -1.0
       - nadp_c: 1.0
       - nadph_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5514 or SCO7154
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -54367,8 +54367,8 @@
       - glc__D_c: 1.0
       - h2o_c: -1.0
       - lcts_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0766 or SCO3479 or SCO5689 or SCO6347 or SCO6457 or SCO7407
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -54531,7 +54531,7 @@
       - akg_c: 1.0
       - glu__L_c: -1.0
       - leu__L_c: 1.0
-    - lower_bound: 0
+    - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: SCO1546 or SCO5523
     - annotation: !!omap
@@ -54732,8 +54732,8 @@
       - nad_c: -1.0
       - nadh_c: 1.0
       - nh4_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4089
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -54822,8 +54822,8 @@
       - h_c: 1.0
       - thr__L_c: -1.0
       - thrp_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -54929,8 +54929,8 @@
     - metabolites: !!omap
       - lyx__L_c: -1.0
       - xylu__L_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0812
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -54986,8 +54986,8 @@
     - metabolites: !!omap
       - 4fumacac_c: 1.0
       - 4mlacac_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -55013,8 +55013,8 @@
       - accoa_c: 1.0
       - coa_c: -1.0
       - ppcoa_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3079 or SCO4502 or SCO5399 or SCO6731 or SCO6788 or SCO1324
         or SCO6027 or SCO6701 or SCO6967
     - annotation: !!omap
@@ -55166,8 +55166,8 @@
     - metabolites: !!omap
       - fumpyr_c: 1.0
       - malpyr_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1959
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -55276,8 +55276,8 @@
       - mnl1p_c: -1.0
       - mnl_c: 1.0
       - pi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2346
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -55297,8 +55297,8 @@
       - h_c: -1.0
       - man1p_c: -1.0
       - ppi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1388 or SCO3039
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -55421,8 +55421,8 @@
       - h_c: 1.0
       - hco3_c: -1.0
       - pi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2776 and SCO2777
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -55485,8 +55485,8 @@
       - mercppyr_c: -1.0
       - pyr_c: 1.0
       - tcynt_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4164 or SCO5854
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -55758,8 +55758,8 @@
       - nad_c: -1.0
       - nadh_c: 1.0
       - oaa_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO4827
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -55906,8 +55906,8 @@
       - h2o_c: -1.0
       - melt_c: -1.0
       - sbt__D_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0274 or SCO0284 or SCO0541
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -55928,8 +55928,8 @@
       - ctp_c: -1.0
       - h_c: -1.0
       - ppi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4233
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -55977,8 +55977,8 @@
       - cys__L_c: -1.0
       - cyst__L_c: 1.0
       - h_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1294 or SCO4958
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -56037,8 +56037,8 @@
       - hcys__L_c: -1.0
       - met__L_c: 1.0
       - thf_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1657
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -56537,8 +56537,8 @@
       - mmal_c: -1.0
       - mmcoa__R_c: 1.0
       - ppi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2444
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -56667,8 +56667,8 @@
       - mmtsa_c: -1.0
       - nad_c: -1.0
       - nadh_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2726
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -56794,8 +56794,8 @@
       - mnl_c: -1.0
       - nad_c: -1.0
       - nadh_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -56902,8 +56902,8 @@
       - h2o_c: -1.0
       - mlthf_c: -1.0
       - thf_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2256
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -57085,8 +57085,8 @@
       - cigam_c: -1.0
       - coa_c: 1.0
       - msh_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4151
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -57152,8 +57152,8 @@
       - 5mtr_c: 1.0
       - ade_c: 1.0
       - h2o_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5431
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -57175,8 +57175,8 @@
       - 5mta_c: -1.0
       - ade_c: 1.0
       - pi_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3188 or SCO3463
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -57219,8 +57219,8 @@
       - h2o_c: 1.0
       - mlthf_c: 1.0
       - thf_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -57374,8 +57374,8 @@
       - 4cml_c: 1.0
       - CCbuttc_c: -1.0
       - h_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6698
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -57437,8 +57437,8 @@
       - mssg_c: 1.0
       - nadp_c: -1.0
       - nadph_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -57812,8 +57812,8 @@
       - nadh_c: 1.0
       - nadp_c: 1.0
       - nadph_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO7622 and SCO7623
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -58135,8 +58135,8 @@
       - nad_c: 1.0
       - nmn_c: -1.0
       - ppi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2579
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -58178,8 +58178,8 @@
       - nmn_c: 1.0
       - pi_c: -1.0
       - rnam_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4152
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -58200,8 +58200,8 @@
       - nac_c: 1.0
       - ncam_c: -1.0
       - nh4_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2918
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -58247,8 +58247,8 @@
       - h_c: 1.0
       - nac_c: 1.0
       - nicrnt_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1554 or SCO2175
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -58367,8 +58367,8 @@
       - nicrns_c: 1.0
       - pi_c: 1.0
       - r1p_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4917
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -58431,8 +58431,8 @@
       - nicrns_c: -1.0
       - nicrnt_c: 1.0
       - pi_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO4152
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -58454,8 +58454,8 @@
       - pi_e: 1.0
       - xmp_e: -1.0
       - xtsn_e: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4152
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -58477,8 +58477,8 @@
       - imp_e: -1.0
       - ins_e: 1.0
       - pi_e: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4152
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -58541,8 +58541,8 @@
       - pi_e: 1.0
       - ump_e: -1.0
       - uri_e: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4152
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -58610,8 +58610,8 @@
       - h2o_e: -1.0
       - pi_e: 1.0
       - thymd_e: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4152
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -58702,8 +58702,8 @@
       - gsn_e: 1.0
       - h2o_e: -1.0
       - pi_e: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4152
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -59059,8 +59059,8 @@
       - imp_c: 1.0
       - itp_c: -1.0
       - ppi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2902 or SCO3100
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -59248,8 +59248,8 @@
       - acac_c: -1.0
       - succ_c: 1.0
       - succoa_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6702 and SCO6703
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -59421,8 +59421,8 @@
       - co2_c: 1.0
       - h_c: -1.0
       - houdic_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6209
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -59604,8 +59604,8 @@
       - 4h2opntn_c: 1.0
       - h2o_c: -1.0
       - op4en_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCP1299 or SCP155c
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -59782,8 +59782,8 @@
       - glu5sa_c: 1.0
       - glu__L_c: 1.0
       - orn_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1223 or SCO6769
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -59918,8 +59918,8 @@
       - 5odhf2a_c: -1.0
       - h2o_c: -1.0
       - h_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6339 or SCO6697
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -59943,8 +59943,8 @@
       - nad_c: -1.0
       - nadh_c: 1.0
       - oxptn_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1204 or SCO1612 or SCO1706 or SCO3420 or SCO3486 or SCO4780
         or SCO5666 or SCO5679 or SCO6441 or SCO6793 or SCO7035 or SCO7139
     - annotation: !!omap
@@ -60101,8 +60101,8 @@
       - pac_c: -1.0
       - phaccoa_c: 1.0
       - ppi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO7469
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -60559,8 +60559,8 @@
       - udcpp_c: -1.0
       - ugmda_c: -1.0
       - ump_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2087
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -60872,8 +60872,8 @@
       - fadh2_c: 1.0
       - ppcoa_c: -1.0
       - prpncoa_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO1690 or SCO2774 or SCO6787
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -61155,8 +61155,8 @@
       - gtp_c: -1.0
       - oaa_c: -1.0
       - pep_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4979
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -61205,8 +61205,8 @@
       - h_c: 1.0
       - tag6p__D_c: -1.0
       - tagdp__D_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1214 or SCO2119 or SCO5426 or SCO3197 or SCO4283
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -62564,8 +62564,8 @@
       - 4ampm_c: -1.0
       - adp_c: 1.0
       - atp_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5563
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -62611,8 +62611,8 @@
       - atp_c: -1.0
       - h_c: 1.0
       - pnto__R_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3380 or SCO4738
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -62697,8 +62697,8 @@
       - atp_c: 1.0
       - ppa_c: 1.0
       - ppap_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5424
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -62797,8 +62797,8 @@
       - co2_c: 1.0
       - oaa_c: -1.0
       - pep_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -62859,8 +62859,8 @@
       - pi_c: -1.0
       - ppi_c: 1.0
       - pyr_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0208 or SCO2494
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -63321,8 +63321,8 @@
     - metabolites: !!omap
       - 2cpr5p_c: 1.0
       - pran_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2050
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -63464,8 +63464,8 @@
     - metabolites: !!omap
       - prfp_c: -1.0
       - prlp_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2050
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -63982,8 +63982,8 @@
       - akg_c: 1.0
       - glu__L_c: -1.0
       - pser__L_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4366
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -64009,8 +64009,8 @@
       - pi_c: 1.0
       - pser__L_c: -1.0
       - ser__L_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1808 or SCO3691
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -64038,8 +64038,8 @@
       - ppi_c: 1.0
       - psqldi_c: -1.0
       - sql_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -64491,8 +64491,8 @@
       - pi_c: -1.0
       - ppap_c: 1.0
       - ppcoa_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5425
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -64587,8 +64587,8 @@
       - h_c: -1.0
       - pan4p_c: -1.0
       - ppi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5568
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -64631,8 +64631,8 @@
       - akg_c: -1.0
       - glu__L_c: 1.0
       - ptrc_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1284
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -64903,8 +64903,8 @@
       - h_c: 1.0
       - pyam5p_c: 1.0
       - pydam_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -64927,8 +64927,8 @@
       - h_c: 1.0
       - pydx5p_c: 1.0
       - pydx_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -64951,8 +64951,8 @@
       - h_c: 1.0
       - pdx5p_c: 1.0
       - pydxn_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -65017,8 +65017,8 @@
       - h_c: -1.0
       - pep_c: -1.0
       - pyr_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2014 or SCO5423
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -65153,8 +65153,8 @@
       - h2o_c: -1.0
       - raffin_c: -1.0
       - sucr_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0274 or SCO0284 or SCO0541
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -65175,8 +65175,8 @@
       - fmn_c: 1.0
       - h_c: 1.0
       - ribflv_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5711
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -66415,8 +66415,8 @@
       - h_c: 1.0
       - rml1p_c: 1.0
       - rml_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0814
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -66831,8 +66831,8 @@
       - g6p_B_c: 1.0
       - h2o_c: -1.0
       - salcn6p_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2661 or SCO6670
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -66872,8 +66872,8 @@
       - h_c: -1.0
       - ppi_c: 1.0
       - so4_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO6097 and SCO6098
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -67545,8 +67545,8 @@
       - h2o_c: -1.0
       - sl26da_c: -1.0
       - succ_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5139
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -67702,8 +67702,8 @@
       - 2sephchc_c: -1.0
       - 2shchc_c: 1.0
       - pyr_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -67772,8 +67772,8 @@
       - nadp_c: 1.0
       - nadph_c: -1.0
       - skm_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1498
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -67796,8 +67796,8 @@
       - h_c: 1.0
       - skm5p_c: 1.0
       - skm_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1495
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -67913,8 +67913,8 @@
       - pi_c: 1.0
       - sbt6p_c: -1.0
       - sbt__D_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2346
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -68170,8 +68170,8 @@
       - h2o_c: -1.0
       - raffin_c: 1.0
       - stys_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0274 or SCO0284 or SCO0541
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -68214,8 +68214,8 @@
       - ppi_c: 1.0
       - sbzcoa_c: 1.0
       - sucbz_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -68236,8 +68236,8 @@
       - 2shchc_c: -1.0
       - h2o_c: 1.0
       - sucbz_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -68931,8 +68931,8 @@
     - metabolites: !!omap
       - dtdp4d6dg_c: -1.0
       - dtdp4d6dm_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0400
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -68959,8 +68959,8 @@
       - h_c: -1.0
       - nadp_c: 1.0
       - nadph_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO7194
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -69155,8 +69155,8 @@
       - sl2a6o_c: 1.0
       - succoa_c: -1.0
       - thdp_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1916
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -69283,8 +69283,8 @@
       - acald_c: 1.0
       - athr__L_c: -1.0
       - gly_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1087 or SCO4837 or SCO5470 or SCO5364
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -69305,8 +69305,8 @@
       - acald_c: 1.0
       - gly_c: 1.0
       - thr__L_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1087 or SCO4837 or SCO5470 or SCO5364
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -69329,8 +69329,8 @@
       - nad_c: -1.0
       - nadh_c: 1.0
       - thr__L_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO6799
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -69580,8 +69580,8 @@
       - dtmp_c: 1.0
       - h_c: 1.0
       - thymd_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5845
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -69716,8 +69716,8 @@
       - h_c: -1.0
       - ppi_c: 1.0
       - thmmp_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2104
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -69789,8 +69789,8 @@
       - nadph_c: -1.0
       - trdox_c: -1.0
       - trdrd_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ( SCO3890 or SCO6834 or SCO7298 ) and ( SCO0885 or SCO3889
         or SCO5419 or SCO5438 )
     - annotation: !!omap
@@ -69874,8 +69874,8 @@
       - tre6p_c: 1.0
       - udp_c: 1.0
       - udpg_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4290
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -69984,8 +69984,8 @@
       - 3ig3p_c: -1.0
       - g3p_c: 1.0
       - indole_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2036 and SCO2037
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -70033,8 +70033,8 @@
       - h_c: -1.0
       - nad_c: 1.0
       - nadh_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6205
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -70195,8 +70195,8 @@
       - pi_c: 1.0
       - uamag_c: -1.0
       - ugmd_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2089
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -70248,8 +70248,8 @@
       - nadh_c: 2.0
       - uacmam_c: -1.0
       - uacmamu_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4773 or SCO5050
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -70292,8 +70292,8 @@
       - pi_c: 1.0
       - uaccg_c: 1.0
       - uacgam_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2949 or SCO5998
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -70320,8 +70320,8 @@
       - ppi_c: 1.0
       - uacgam_c: 1.0
       - utp_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3122
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -70345,8 +70345,8 @@
       - uacgam_c: -1.0
       - uagmda_c: -1.0
       - udp_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2084
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -70370,8 +70370,8 @@
       - pi_c: 1.0
       - uama_c: -1.0
       - uamag_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2086
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -70421,8 +70421,8 @@
       - pi_c: 1.0
       - uama_c: 1.0
       - uamr_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6060
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -70592,8 +70592,8 @@
       - nadh_c: 2.0
       - udpg_c: -1.0
       - udpglcur_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3052 or SCO0382
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -70639,8 +70639,8 @@
       - nh4_c: 1.0
       - urdgci_c: -1.0
       - urdglyc_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -70713,8 +70713,8 @@
       - pi_c: 1.0
       - ugmd_c: -1.0
       - ugmda_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2088
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -70994,8 +70994,8 @@
       - 4izp_c: 1.0
       - h2o_c: -1.0
       - urcan_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3073
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -71069,8 +71069,8 @@
       - glx_c: 1.0
       - urdglyc_c: -1.0
       - urea_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0346 or SCO2850
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -71179,8 +71179,8 @@
       - h2o_c: -1.0
       - o2_c: -1.0
       - urate_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 0
     - gene_reaction_rule: SCO6211
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -71226,8 +71226,8 @@
       - nadh_c: 1.0
       - nh4_c: 1.0
       - val__L_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4089
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -71250,7 +71250,7 @@
       - akg_c: 1.0
       - glu__L_c: -1.0
       - val__L_c: 1.0
-    - lower_bound: 0
+    - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: SCO1546 or SCO5523
     - annotation: !!omap
@@ -71398,8 +71398,8 @@
       - fdxrd_c: 2.0
       - h_c: 1.0
       - ivcoa_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -71422,8 +71422,8 @@
       - fdxrd_c: 2.0
       - h_c: 1.0
       - ibcoa_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -71446,8 +71446,8 @@
       - fdxox_c: -2.0
       - fdxrd_c: 2.0
       - h_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -71506,8 +71506,8 @@
     - metabolites: !!omap
       - ru5p__L_c: 1.0
       - xu5p__L_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -71533,8 +71533,8 @@
       - nadh_c: 1.0
       - urate_c: 1.0
       - xan_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ( SCO4971 and SCO4972 ) or ( SCO0690 and SCO0691 ) or (
         SCO1132 and SCO1133 )
     - annotation: !!omap
@@ -71611,8 +71611,8 @@
       - prpp_c: -1.0
       - xan_c: -1.0
       - xmp_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3405
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -71699,8 +71699,8 @@
       - h_c: 1.0
       - xu5p__D_c: 1.0
       - xylu__D_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1170 or SCO2462
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -71723,8 +71723,8 @@
       - h_c: 1.0
       - xu5p__L_c: 1.0
       - xylu__L_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -71766,8 +71766,8 @@
       - nadh_c: 1.0
       - xylt_c: -1.0
       - xylu__L_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -71810,8 +71810,8 @@
       - nadh_c: 1.0
       - xylt_c: -1.0
       - xylu__D_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -71895,8 +71895,8 @@
       - fpntp_c: 1.0
       - gtp_c: -1.0
       - h2o_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3403
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -71917,8 +71917,8 @@
       - co2_c: 1.0
       - h_c: -1.0
       - thmpp_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO5281
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -72001,8 +72001,8 @@
     - metabolites: !!omap
       - dpntp_c: -1.0
       - dttoao_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: -1000
+    - upper_bound: 1000
     - gene_reaction_rule: SCO3403
     - annotation: !!omap
       - SBO: SBO:0000176

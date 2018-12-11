@@ -6,6 +6,7 @@ import time
 from matplotlib import pyplot as plt
 import pickle
 from itertools import combinations
+import logging
 
 KEY_TO_BOUNDS_DICT = {"forward": (0, 1000),
                       "backward": (-1000, 0),
@@ -127,11 +128,11 @@ def create_model(model, constraining_dict, lethal_df, save_fn = None, model_id =
             continue
         i+=1
         r = model.reactions.get_by_id(r_id)
-        print("Change direction of reaction {0} from {1} to {2}".format(r_id, r.bounds, bounds))
+        logging.info("Change direction of reaction {0} from {1} to {2}".format(r_id, r.bounds, bounds))
         r.bounds = bounds
-        print(model.optimize())
+        logging.debug(model.optimize())
 
-    print("Changed the reversibility of {0} reactions in total".format(i))
+    logging.info("Changed the reversibility of {0} reactions in total".format(i))
 
     if model_id:
         model.id = model_id
@@ -421,6 +422,10 @@ def strip_rows(arr, solution, rows):
     return arr[~rows, :], solution[~rows]
 
 def fill_reversibility_csv(fn, model):
+    """
+    An interesting observation is that there are only a few different
+    growth values for this table.
+    """
     df = pd.read_csv(fn, sep = ",", header = 0)
     for i in df.index:
         row  = df.loc[i,:]
@@ -435,11 +440,38 @@ def fill_reversibility_csv(fn, model):
     df.to_csv(fn, index = False)
     print(df)
 
+def change_bounds_according_to_eQuilibrator(model, equilibrator_data_fn, eq_lethals_fn):
+    """
+    Change bounds according to eQuilibrator dG - values, with abs(dGm_prime) < 30 as threshold
+     for reversible reactions.
 
+    The values are pre-calculated using the functions (3,4 and 5), and
+    the total pipeline is then:
+    1) read_equilibrator_data2
+    2) prep_df
+    3) check_smart_reversibility
+    4) analyse_random2
+    5) fill_reversibility
+    6) create_model
+
+    """
+    df = read_equilibrator_data2(equilibrator_data_fn, threshold = 30, consider_uncertainty = False)
+    lethal_df = pd.read_csv(eq_lethals_fn, sep = ",", header = 0)
+    
+    # discard reactions that have similar bounds
+    reversibility_dict = prep_df(model, df)
+
+    # List of reaction discarded from bounds being changed    
+    skip = ["PROD2"] # Cause false positive prediction with proline https://www.ncbi.nlm.nih.gov/pubmed/22201764 
+    skip += ["ARGSS", "OCT"] # Cause false positive prediction with arginine. The latter gas dG -28. The first one sets up loop
+    skip += ["URIK1", "URIK2", "UPPRT"] # Cause false positive prediction with SCO5626 mutant.
+    model = create_model(model, reversibility_dict, lethal_df, skip = skip)
+    return model
 
 if __name__ == '__main__':
     scoGEM = read_sbml_model("../../ModelFiles/xml/scoGEM.xml")
     if 0:
+        # Pipeline for metacyc data
         metacyc_data_fn = "../../ComplementaryData/curation/reversibility/Reversibility-based-model-MetaCyc.csv"
         df = read_metacyc_data(metacyc_data_fn)
         constraining_dict = prep_df(scoGEM, df)
