@@ -116,10 +116,11 @@ def read_equilibrator_data2(fn, threshold = 30, consider_uncertainty = True, dG0
     return df[["Rxn", "Rxn KEGG ID", "Reversibility in model", "dG", "sigma dG", "Reversibility in DB"]]
 
 
-def create_model(model, constraining_dict, lethal_df, save_fn = None, model_id = None):
+def create_model(model, constraining_dict, lethal_df, save_fn = None, model_id = None, skip = []):
 
     # Disregard all reactions in the first column of lethal_df
     lethal_reactions = list(set(list(lethal_df.loc[:, "rxn1"])+list(lethal_df.loc[:, "rxn2"])+list(lethal_df.loc[:, "rxn3"])))
+    lethal_reactions += skip
     i = 0
     for r_id, bounds in constraining_dict.items():
         if r_id in lethal_reactions:
@@ -459,9 +460,13 @@ if __name__ == '__main__':
         print(len(df.index))
         print(len(constraining_dict))
         # check_smart_reversibility(scoGEM, constraining_dict, iterations1 = 1000, iterations2 = 20000, set_size = 10)
-        # analyse_random2(scoGEM, "temp_061651.pkl")
         eq_lethals_fn =  "../../ComplementaryData/curation/reversibility/eQuilibrator_reversibility_lethals.csv"
+        # analyse_random2(scoGEM, "temp_111313.pkl", eq_lethals_fn)
         lethal_df = pd.read_csv(eq_lethals_fn, sep = ",", header = 0)
         fill_reversibility_csv(eq_lethals_fn, scoGEM)
         save_fn = "../../ModelFiles/xml/eqScoGEM.xml"
-        create_model(scoGEM, constraining_dict, lethal_df, save_fn = save_fn, model_id = "eqScoGEM")
+        skip = ["PROD2"] # Cause false positive prediction with proline https://www.ncbi.nlm.nih.gov/pubmed/22201764 
+        skip += ["ARGSS", "OCT"] # Cause false positive prediction with arginine. The latter gas dG -28. The first one sets up loop
+        skip += ["URIK1", "URIK2", "UPPRT"] # Cause false positive prediction with SCO5626 mutant.
+        # skip LEUTA, VALTA, ILETA?
+        create_model(scoGEM, constraining_dict, lethal_df, save_fn = save_fn, model_id = "eqScoGEM", skip = skip)

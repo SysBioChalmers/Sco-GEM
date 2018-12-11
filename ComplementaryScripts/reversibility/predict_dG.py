@@ -2,6 +2,8 @@ from equilibrator_api import ComponentContribution, Reaction
 from cobra.io import read_sbml_model
 import pandas as pd
 
+dGMm_STD_THRESHOLD = 30
+
 def predict_dG(model, pH = 7, ionic_strength = 0.1, fn = None):
     eq_api = ComponentContribution(pH=7.0, ionic_strength = 0.1)
     lst = []
@@ -20,6 +22,10 @@ def predict_dG(model, pH = 7, ionic_strength = 0.1, fn = None):
             except:
                 print("eQuilibrator could not predict dG for {0}".format(r.id))
             else:
+                if dgm[-1] > dGMm_STD_THRESHOLD:
+                    print("eQuilibrator could not predict dG for {0} with a reasonable uncertainty".format(r.id))
+                    continue
+                print(r.id, dgm)
                 lst.append([r.id, r.name, r.annotation["kegg.reaction"],parse_reversibility(r), *dg0, *dgm])
     # Store as df
     df = pd.DataFrame(lst)
@@ -53,6 +59,8 @@ def build_kegg_string(r):
             if isinstance(kegg_id, list):
                 print("Double kegg annotation: ", kegg_id, " Use first only")
                 kegg_id = kegg_id[0]
+            if abs(coeff) > 1:
+                kegg_id = "{0} {1}".format(abs(coeff), kegg_id)
             if coeff > 0:
                 products.append(kegg_id)
             else:
