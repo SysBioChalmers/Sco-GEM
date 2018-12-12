@@ -25,6 +25,7 @@ from consensusModel import fix_issue33_annotation_bugs
 from consensusModel import redox_pseudometabolite
 from consensusModel import fix_SBO_terms
 from consensusModel import fix_biomass
+from reversibility import reversibility
 import export
 
 
@@ -41,8 +42,10 @@ iAA1259_PATH = "../ComplementaryData/models/iAA1259.xml"
 iAA1259_NEW_REACTIONS_FN = "../ComplementaryData/curation/iAA1259_suppl_S4.csv" # New reactions
 
 NEW_BIOMASS_DATA_FN = "../ComplementaryData/biomass/biomass_scaled.txt"
+EQUILIBRATOR_FN_1 = "../ComplementaryData/curation/reversibility/eQuilibrator_reversibility.csv"
+EQUILIBRATOR_FN_2 = "../ComplementaryData/curation/reversibility/eQuilibrator_reversibility_lethals.csv"
 
-def reconstruct_scoGEM(model_fn, save_fn = None):
+def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
     scoGEM = cobra.io.read_sbml_model(model_fn)
     scoGEM.name = "scoGEM"
     scoGEM.id = "scoGEM"
@@ -83,9 +86,13 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
     fix_SBO_terms.add_SBO(scoGEM)
     fix_biomass.fix_biomass(scoGEM, NEW_BIOMASS_DATA_FN)
 
+    # Part 5
+    scoGEM = reversibility.change_bounds_according_to_eQuilibrator(scoGEM, EQUILIBRATOR_FN_1, EQUILIBRATOR_FN_2)
+
     # Save model
-    export.export(scoGEM, formats = ["xml", "yml"])
+    export.export(scoGEM, formats = ["xml", "yml"], write_requirements = write_requirements)
 
 if __name__ == '__main__':
     logging.basicConfig(filename='reconstruct_scoGEM.log', level=logging.INFO)
     reconstruct_scoGEM(iKS1317_PATH, SAVE_PATH)
+    print("Finished reconstructing scoGEM")
