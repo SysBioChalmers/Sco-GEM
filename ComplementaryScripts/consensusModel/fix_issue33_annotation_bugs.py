@@ -9,6 +9,7 @@ def fix(scoGEM):
     fix_misc(scoGEM)
     annotate_germicidin_pathway(scoGEM)
     fix_wrong_chebi_mapping(scoGEM)
+    remove_biocyc_annotaions_from_exchanges(scoGEM)
     # fix_metanetx_annotations(scoGEM, met_to_metanetx_fn)
 
 def fix_c_c_in_metabolite_ids(scoGEM):
@@ -127,7 +128,60 @@ def annotate_germicidin_pathway(scoGEM):
 
 
 
-def fix_metanetx_annotations(scoGEM, met_to_metanetx_fn):
+def fix_metanetx_reaction_annotations(scoGEM, metanetx_fn):
+    """
+    This csv file used for the mapping is created using the function 
+    'map_model_reactions' in the map_to_metanetx.py script.
+    """
+    # Read in dataframe
+    df = pd.read_csv(metanetx_fn, index_col = 0)
+    
+    change_dict = {}
+    for i, row in df.iterrows():
+        mnx_annotation = [row[key] for key in ["MNX 1", "MNX 2", "MNX 3"] if pd.notna(row[key])]
+        change_dict[row["Reaction ID"]] = mnx_annotation
+
+    # Remove all metanetx annotations
+    i = 0
+    for r in scoGEM.reactions:
+        try:
+            old_annotation = r.annotation.pop("metanetx.reaction")
+            # If the origin is not "Sco4" I don't trust these metantex-annotations, and neither the rhea
+        except KeyError:
+            old_annotation = None
+        
+        try:
+            new_annotation = change_dict[r.id]
+        except KeyError:
+            new_annotation = None
+        else:
+            r.annotation["metanetx.reaction"] = new_annotation
+            i += 1
+
+        if new_annotation:
+            logging.info("{0}: Changed metanetx annotation from {1} to {2}".format(r.id, old_annotation, new_annotation))
+        elif old_annotation:
+            logging.info("Removed metanetx annotation from {0}".format(r.id))
+        else:
+            logging.info("No metanetx annotation for {0}".format(r.id))
+
+    logging.info("{0} of {1} reactions were given metanetx identifiers".format(i, len(scoGEM.reactions)))
+    
+
+
+def remove_biocyc_annotaions_from_exchanges(scoGEM):
+    # Remove biocyc annotations from exchanges
+    for r in scoGEM.exchanges:
+        try:
+            r.annotation.pop("biocyc")
+        except KeyError:
+            pass
+        else:
+            logging.info("Removed biocyc annotation from {0}".format(r.id))
+        
+
+
+def fix_metanetx_metabolite_annotations(scoGEM, met_to_metanetx_fn):
     """
     This csv file used for the mapping is created using the function 
     'map_model_metabolites' in the map_to_metanetx.py script.
@@ -156,16 +210,19 @@ def apply_new_chebi_annotations(scoGEM, chebi_annotation_fn):
     This csv file used for the mapping is created using the function 
     'map_metabolites_to_chebi' in the map_to_metanetx.py script.
     """
-    df = pd.read_csv(chebi_annotation_fn, index_col = None)
+    df = pd.read_csv(chebi_annotation_fn, index_col = None, converters = {"New chebi annotation": lambda x: x.strip("[]").replace("'", "").split(", ")})
+    # df["New chebi annotation"] = df["New chebi annotation"].apply(lambda x: x[1:-1].replace("'", "").split(", "))
     for i, row in df.iterrows():
         m_id = row["Met ID"]
-        new_annotation = row["New chebi annotation"]
+        new_annotation = row["New chebi annotation"]#.strip("[]").replace("'","").split(", ")
 
         m = scoGEM.metabolites.get_by_id(m_id)
-        if new_annotation is not None:
-            m.annotation["chebi"] = new_annotation
-
-        logging.info("Changed chebi annotation of metabolite {0} from {1} to {2}".format(
+        if len(new_annotation):
+            if not len(new_annotation[0]):
+                pass
+            else:
+                m.annotation["chebi"] = new_annotation
+                logging.info("Changed chebi annotation of metabolite {0} from {1} to {2}".format(
                       m.id, row[2], new_annotation))
 
 def fix_wrong_chebi_mapping(scoGEM):
@@ -221,4 +278,5 @@ if __name__ == '__main__':
     model = cobra.io.read_sbml_model("../../ModelFiles/xml/scoGEM.xml")
     # fix_annotations(model)
     # fix_demand_biocyc_names(model)
-    apply_new_chebi_annotations(model, "../../ComplementaryData/curation/chebi_annotation.csv")
+    # apply_new_chebi_annotations(model, "../../ComplementaryData/curation/chebi_annotation.csv")  
+    fix_metanetx_reaction_annotations(model, "../../ComplementaryData/curation/metanetx_reaction_annotations_to_change.csv")

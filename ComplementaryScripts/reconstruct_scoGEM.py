@@ -3,10 +3,11 @@
 This file reconstructs scoGEM, the genome-scale model for Streptomyces coelicolor A3(2).
 Author: Snorre Sulheim
 Created: 27.08.2018
+Updated: 12.12.2018
 
 
 # Description
-The scoGEM community model of Streptomyces coelicolor is constructed using the three
+The scoGEM community model of Streptomyces coelicolor is constructed using this script
 
 """
 
@@ -44,6 +45,7 @@ iAA1259_PATH = "../ComplementaryData/models/iAA1259.xml"
 iAA1259_NEW_REACTIONS_FN = "../ComplementaryData/curation/iAA1259_suppl_S4.csv" # New reactions
 
 MET_TO_METANETX_FN = str(REPO_DIR / "ComplementaryData" / "curation" /"metanetx_to_change.csv")
+RXN_TO_METANETX_FN = str(REPO_DIR / "ComplementaryData" / "curation" /"metanetx_reaction_annotations_to_change.csv")
 MET_TO_CHEBI_FN = str(REPO_DIR / "ComplementaryData" / "curation" /"chebi_annotation.csv")
 NEW_BIOMASS_DATA_FN = "../ComplementaryData/biomass/biomass_scaled.txt"
 
@@ -86,10 +88,11 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
     fix_issue33_annotation_bugs.fix(scoGEM)
     redox_pseudometabolite.run(scoGEM)
     fix_SBO_terms.add_SBO(scoGEM)
-    fix_issue33_annotation_bugs.fix_metanetx_annotations(scoGEM, MET_TO_METANETX_FN)
+    fix_issue33_annotation_bugs.fix_metanetx_metabolite_annotations(scoGEM, MET_TO_METANETX_FN)
     fix_biomass.fix_biomass(scoGEM, NEW_BIOMASS_DATA_FN)
     fix_issue33_annotation_bugs.apply_new_chebi_annotations(scoGEM, MET_TO_CHEBI_FN)
     fix_issue33_annotation_bugs.fix_c_c_in_metabolite_ids(scoGEM)
+    fix_issue33_annotation_bugs.fix_metanetx_reaction_annotations(scoGEM, RXN_TO_METANETX_FN)
 
 
     # Save model

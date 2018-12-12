@@ -10,6 +10,7 @@ def map_model_metabolites(model, metanetx_fn):
     kegg_df = df[df["db:id"].str.contains("kegg:")]
     bigg_df = df[df["db:id"].str.contains("bigg:")]
     metacyc_df = df[df["db:id"].str.contains("metacyc:")]
+    # Deprecated?
     del df
     
     new_df_list = []
@@ -62,6 +63,56 @@ def map_model_metabolites(model, metanetx_fn):
     new_df = pd.DataFrame(new_df_list, columns = ["Met ID", "MNX 1", "MNX 2"])
     new_df.to_csv("../../ComplementaryData/curation/metanetx_to_change.csv", index_label = "index")
     # print(new_df)
+
+def map_model_reactions(model, metanetx_fn):
+    df = pd.read_csv(metanetx_fn, header = None, sep = "\t", comment = "#")
+    df.columns = ["db:id", "metanetx", "reaction string"]
+    
+    kegg_df = df[df["db:id"].str.contains("kegg:")]
+    bigg_df = df[df["db:id"].str.contains("bigg:")]
+    metacyc_df = df[df["db:id"].str.contains("metacyc:")]    
+    deprecated_df = df[df["db:id"].str.contains("deprecated:")]    
+    del df
+
+    new_df_list = []
+    for r in model.reactions:
+        mnx_annotations = []
+
+        # BiGG
+        bigg_match = bigg_df.loc[bigg_df["db:id"] == "bigg:{}".format(r.id), :]
+        mnx_annotations += list(bigg_match["metanetx"])
+
+        # KEGG
+        try:
+            kegg_id = r.annotation["kegg.reaction"]
+        except KeyError:
+            kegg_match = None
+        else:
+            kegg_match = kegg_df.loc[kegg_df["db:id"] == "kegg:{}".format(kegg_id), :]
+            mnx_annotations += list(kegg_match["metanetx"])
+
+        # Metacyc
+        try:
+            metacyc_id = r.annotation["biocyc"]
+        except KeyError:
+            metacyc_match = None
+        else:
+            metacyc_match = metacyc_df.loc[metacyc_df["db:id"] == "metacyc:{}".format(metacyc_id), :]
+            mnx_annotations += list(metacyc_match["metanetx"])
+            # print(r.id, list(metacyc_match["metanetx"]))
+
+        # Remove duplicates
+        mnx_annotations = list(set(mnx_annotations))
+
+
+        # print("{0:<3} {1:<100} {2:<20} {3:<50} {4}".format(i, str(r), str(mnx_annot), ", ".join(mnx_annotations), origin))
+
+        if len(mnx_annotations):
+            new_df_list.append([r.id] + mnx_annotations)
+
+    new_df = pd.DataFrame(new_df_list, columns = ["Reaction ID", "MNX 1", "MNX 2", "MNX 3"])
+    new_df.to_csv("../../ComplementaryData/curation/metanetx_reaction_annotations_to_change.csv", index_label = "index")
+
 
 def map_metabolites_to_chebi(scoGEM, metanetx_fn):
     df = pd.read_csv(metanetx_fn, header = None, sep = "\t", comment = "#")
@@ -117,25 +168,6 @@ def as_list(param):
     else:
         return [param]
 
-
-    #     chebi_dict[m.id] = set(chebi_ids)
-    #     all_chebis += chebi_ids
-
-    # # Remove duplicates
-    # all_chebis = list(set(all_chebis))
-    # parent_child_dict = {}
-    # for chebi_id in all_chebis:
-    #     lib_data = libchebipy.ChebiEntity(chebi_id.upper())
-    #     print(chebi_id.upper(), lib_data)
-    #     parent = lib_data.get_parent_id()
-    #     if parent is not None:
-    #         parent_child_dict[chebi_id.upper()] = parent
-    
-
-        # Use libchebipy to find parent IDs
-        # a = libchebipy.ChebiEntity
-        # a.get_parent_id()
-        # a.
 def apply_metanetx_mapping(scoGEM, met_to_metanetx_fn):
     """
     Depreceated: moved to fix_issue33_annotation_bugs.py
@@ -164,7 +196,6 @@ def apply_metanetx_mapping(scoGEM, met_to_metanetx_fn):
 
 if __name__ == '__main__':
     repo_path = Path(__file__).parent.parent.parent
-    metanetx_fn = repo_path / "ComplementaryData" / "curation" / "metanetx_chem_xref.tsv"
     model_fn = repo_path / "ModelFiles" / "xml" / "scoGEM.xml"
     model = cobra.io.read_sbml_model(str(model_fn))
     # map_model_metabolites(model, metanetx_fn)
@@ -172,5 +203,10 @@ if __name__ == '__main__':
     if 0:
         apply_metanetx_mapping(model, fn)
 
-    if 1:
+    if 0:
+        metanetx_fn = repo_path / "ComplementaryData" / "curation" / "metanetx_chem_xref.tsv"
         map_metabolites_to_chebi(model, metanetx_fn)
+
+    if 1:
+        metanetx_fn = repo_path / "ComplementaryData" / "curation" / "metanetx_reac_xref.tsv"
+        map_model_reactions(model, metanetx_fn)
