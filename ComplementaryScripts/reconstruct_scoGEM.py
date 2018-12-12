@@ -42,7 +42,7 @@ iAA1259_NEW_REACTIONS_FN = "../ComplementaryData/curation/iAA1259_suppl_S4.csv" 
 
 NEW_BIOMASS_DATA_FN = "../ComplementaryData/biomass/biomass_scaled.txt"
 
-def reconstruct_scoGEM(model_fn, save_fn = None):
+def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
     scoGEM = cobra.io.read_sbml_model(model_fn)
     scoGEM.name = "scoGEM"
     scoGEM.id = "scoGEM"
@@ -84,7 +84,7 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
     fix_biomass.fix_biomass(scoGEM, NEW_BIOMASS_DATA_FN)
 
     # Save model
-    export.export(scoGEM, formats = ["xml", "yml"])
+    export.export(scoGEM, formats = ["xml", "yml"], write_requirements = write_requirements)
 
 if __name__ == '__main__':
     logging.basicConfig(filename='reconstruct_scoGEM.log', level=logging.INFO)
