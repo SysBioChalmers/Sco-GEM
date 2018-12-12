@@ -8,12 +8,12 @@
 function [model,modifications] = manualModifications(model)
 
 %Read manual data:
-fID           = fopen('../../databases/manual_data.txt');
+fID           = fopen('../gecko/databases/manual_data.txt');
 data          = textscan(fID,'%s %s %s %s %f','delimiter','\t');
 structure     = data{2};
 protGenes     = data{4};
 kcats         = data{5}.*3600;
-data          = load('../../databases/ProtDatabase.mat');
+data          = load('../gecko/databases/ProtDatabase.mat');
 swissprot     = data.swissprot;
 kegg          = data.kegg;
 fclose(fID);
@@ -168,8 +168,9 @@ for i = 1:length(rem_enz)
 end
 
 % Remove incorrect pathways:
+cd ../gecko/geckomat/change_model/
 model = removeIncorrectPathways(model);
-
+cd ../../../reconstruction/
 % Map the index of the modified Kcat values to the new model (after rxns removals)
 modifications = mapModifiedRxns(modifications,model);
 end
@@ -293,7 +294,7 @@ end
 % assigned activity was growth limiting. Take highest reported kcat for
 % this EC number
 if strcmpi('prot_Q9K451',enzName) && ...
-    contains(reaction,'cytochrome oxidase bd (menaquinol-9: 2 protons) (')
+    contains(reaction,'cytochrome')
     newValue      = -(2000*3600)^-1;
     modifications{1} = [modifications{1}; 'Q9K451'];
     modifications{2} = [modifications{2}; reaction];
@@ -368,6 +369,14 @@ if strcmpi('prot_Q9RJ19',enzName) && ...
         contains(reaction,'cobaltochelatase')
     newValue      = -(0.03*3600)^-1;
     modifications{1} = [modifications{1}; 'Q9ADG3'];
+    modifications{2} = [modifications{2}; reaction];
+end
+% dUTP diphosphatase (No1) (O54134/EC3.6.1.23) - rate limiting, measured at 20 C. 
+% In another publication, activity was measured at 25 C, kcat of 5.8 sec-1. PMID:18519027
+if strcmpi('prot_O54134',enzName) && ...
+        contains(reaction,'dUTP diphosphatase')
+    newValue      = -(5.8*3600)^-1;
+    modifications{1} = [modifications{1}; 'O54134'];
     modifications{2} = [modifications{2}; reaction];
 end
 end

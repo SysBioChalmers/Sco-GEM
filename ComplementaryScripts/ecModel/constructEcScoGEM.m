@@ -35,7 +35,7 @@ ecModel                 = readKcatData(model_data,kcats);
 cd ../../../reconstruction
 [ecModel,modifications] = manualModifications(ecModel);
 
-rates = dlmread('../../../../../ComplementaryData/growth/M145_estimated_rates.csv',';',1,0);
+rates = dlmread('../../../ComplementaryData/growth/M145_estimated_rates.csv',';',1,0);
 
 GlcUptake  = -rates(1,4);%
 GluUptake  = -rates(1,5);%
@@ -45,7 +45,7 @@ ecModel=setParam(ecModel,'ub','EX_glc__D_e_REV',GlcUptake);
 ecModel=setParam(ecModel,'ub','EX_glu__L_e_REV',GluUptake);
 ecModel=setParam(ecModel,'ub','EX_nh4_e_REV',0);
 
-save(['../../ModelFiles/mat/Ec' name '.mat'],'ecModel','modifications')
+save(['../../../ModelFiles/mat/Ec' name '.mat'],'ecModel','modifications')
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
