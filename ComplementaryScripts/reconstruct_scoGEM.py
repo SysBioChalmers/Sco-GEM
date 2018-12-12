@@ -89,6 +89,8 @@ def reconstruct_scoGEM(model_fn, save_fn = None):
     fix_issue33_annotation_bugs.fix_metanetx_annotations(scoGEM, MET_TO_METANETX_FN)
     fix_biomass.fix_biomass(scoGEM, NEW_BIOMASS_DATA_FN)
     fix_issue33_annotation_bugs.apply_new_chebi_annotations(scoGEM, MET_TO_CHEBI_FN)
+    fix_issue33_annotation_bugs.fix_c_c_in_metabolite_ids(scoGEM)
+
 
     # Save model
     export.export(scoGEM, formats = ["xml", "yml"])

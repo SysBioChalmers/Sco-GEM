@@ -11,6 +11,14 @@ def fix(scoGEM):
     fix_wrong_chebi_mapping(scoGEM)
     # fix_metanetx_annotations(scoGEM, met_to_metanetx_fn)
 
+def fix_c_c_in_metabolite_ids(scoGEM):
+    for m in scoGEM.metabolites:
+        if m.id[-4:] == "_c_c":
+            old_id = m.id
+            m.id = m.id[:-4] + "_c"
+            logging.info("Changed id of metabolite {0} to {1}".format(old_id, m.id))
+
+
 def fix_annotations(scoGEM):
 
     for r in scoGEM.reactions:
