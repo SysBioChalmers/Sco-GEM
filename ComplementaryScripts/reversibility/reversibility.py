@@ -466,7 +466,24 @@ def change_bounds_according_to_eQuilibrator(model, equilibrator_data_fn, eq_leth
     skip += ["ARGSS", "OCT"] # Cause false positive prediction with arginine. The latter gas dG -28. The first one sets up loop
     skip += ["URIK1", "URIK2", "UPPRT"] # Cause false positive prediction with SCO5626 mutant.
     model = create_model(model, reversibility_dict, lethal_df, skip = skip)
+    revert_backward_reactions(model)
     return model
+
+def revert_backward_reactions(model):
+    for reaction in model.reactions:
+        if (reaction.upper_bound == 0) and (reaction.lower_bound < 0):
+            old_bounds = reaction.bounds
+            old_string = reaction.reaction
+            reverse_reaction_dict = {}
+            for m, coeff in reaction.metabolites.items():
+                reverse_reaction_dict[m] = -2*coeff
+            reaction.add_metabolites(reverse_reaction_dict)            
+            reaction.bounds = (0, -old_bounds[0])
+
+            print("{0}: Changed bounds from {1} to {2}".format(reaction.id, old_bounds, reaction.bounds))
+            print("{0}: Changed reaction direction, i.e. from {1} to {2}".format(reaction.id, old_string, reaction.reaction))
+            
+
 
 if __name__ == '__main__':
     scoGEM = read_sbml_model("../../ModelFiles/xml/scoGEM.xml")

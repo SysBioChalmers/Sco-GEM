@@ -32222,12 +32222,12 @@
     - id: ACACT2r
     - name: acetyl-CoA C-acyltransferase (butanoyl-CoA) (r)
     - metabolites: !!omap
-      - 3ohcoa_c: 1.0
-      - accoa_c: -1.0
-      - btcoa_c: -1.0
-      - coa_c: 1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - 3ohcoa_c: -1.0
+      - accoa_c: 1.0
+      - btcoa_c: 1.0
+      - coa_c: -1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1324 or SCO6027 or SCO6701 or SCO6967
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32247,12 +32247,12 @@
     - id: ACACT3r
     - name: acetyl-CoA C-acyltransferase (hexanoyl-CoA) (r)
     - metabolites: !!omap
-      - 3oocoa_c: 1.0
-      - accoa_c: -1.0
-      - coa_c: 1.0
-      - hxcoa_c: -1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - 3oocoa_c: -1.0
+      - accoa_c: 1.0
+      - coa_c: -1.0
+      - hxcoa_c: 1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1324 or SCO6027 or SCO6701 or SCO6967
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32272,12 +32272,12 @@
     - id: ACACT4r
     - name: acetyl-CoA C-acyltransferase (octanoyl-CoA) (r)
     - metabolites: !!omap
-      - 3odcoa_c: 1.0
-      - accoa_c: -1.0
-      - coa_c: 1.0
-      - occoa_c: -1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - 3odcoa_c: -1.0
+      - accoa_c: 1.0
+      - coa_c: -1.0
+      - occoa_c: 1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1324 or SCO6027 or SCO6701 or SCO6967
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32297,12 +32297,12 @@
     - id: ACACT5r
     - name: acetyl-CoA C-acyltransferase (decanoyl-CoA) (r)
     - metabolites: !!omap
-      - 3oddcoa_c: 1.0
-      - accoa_c: -1.0
-      - coa_c: 1.0
-      - dcacoa_c: -1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - 3oddcoa_c: -1.0
+      - accoa_c: 1.0
+      - coa_c: -1.0
+      - dcacoa_c: 1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1324 or SCO6027 or SCO6701 or SCO6967
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32322,12 +32322,12 @@
     - id: ACACT6r
     - name: acetyl-CoA C-acyltransferase (dodecanoyl-CoA) (r)
     - metabolites: !!omap
-      - 3otdcoa_c: 1.0
-      - accoa_c: -1.0
-      - coa_c: 1.0
-      - ddcacoa_c: -1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - 3otdcoa_c: -1.0
+      - accoa_c: 1.0
+      - coa_c: -1.0
+      - ddcacoa_c: 1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1324 or SCO6027 or SCO6701 or SCO6967
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32347,12 +32347,12 @@
     - id: ACACT7r
     - name: acetyl-CoA C-acyltransferase (tetradecanoyl-CoA) (r)
     - metabolites: !!omap
-      - 3ohdcoa_c: 1.0
-      - accoa_c: -1.0
-      - coa_c: 1.0
-      - tdcoa_c: -1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - 3ohdcoa_c: -1.0
+      - accoa_c: 1.0
+      - coa_c: -1.0
+      - tdcoa_c: 1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1324 or SCO6027 or SCO6701 or SCO6967
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32744,12 +32744,12 @@
     - id: ACOAD1f
     - name: acyl-CoA dehydrogenase (butanoyl-CoA)
     - metabolites: !!omap
-      - b2coa_c: 1.0
-      - btcoa_c: -1.0
-      - fad_c: -1.0
-      - fadh2_c: 1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - b2coa_c: -1.0
+      - btcoa_c: 1.0
+      - fad_c: 1.0
+      - fadh2_c: -1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1690 or SCO2774 or SCO6787
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32770,12 +32770,12 @@
     - id: ACOAD2f
     - name: acyl-CoA dehydrogenase (hexanoyl-CoA)
     - metabolites: !!omap
-      - fad_c: -1.0
-      - fadh2_c: 1.0
-      - hx2coa_c: 1.0
-      - hxcoa_c: -1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - fad_c: 1.0
+      - fadh2_c: -1.0
+      - hx2coa_c: -1.0
+      - hxcoa_c: 1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1690 or SCO2774 or SCO6787
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32792,12 +32792,12 @@
     - id: ACOAD3f
     - name: acyl-CoA dehydrogenase (octanoyl-CoA)
     - metabolites: !!omap
-      - fad_c: -1.0
-      - fadh2_c: 1.0
-      - oc2coa_c: 1.0
-      - occoa_c: -1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - fad_c: 1.0
+      - fadh2_c: -1.0
+      - oc2coa_c: -1.0
+      - occoa_c: 1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1690 or SCO2774 or SCO6787
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32814,12 +32814,12 @@
     - id: ACOAD4f
     - name: acyl-CoA dehydrogenase (decanoyl-CoA)
     - metabolites: !!omap
-      - dc2coa_c: 1.0
-      - dcacoa_c: -1.0
-      - fad_c: -1.0
-      - fadh2_c: 1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - dc2coa_c: -1.0
+      - dcacoa_c: 1.0
+      - fad_c: 1.0
+      - fadh2_c: -1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1690 or SCO2774 or SCO6787
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32836,12 +32836,12 @@
     - id: ACOAD5f
     - name: acyl-CoA dehydrogenase (dodecanoyl-CoA)
     - metabolites: !!omap
-      - dd2coa_c: 1.0
-      - ddcacoa_c: -1.0
-      - fad_c: -1.0
-      - fadh2_c: 1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - dd2coa_c: -1.0
+      - ddcacoa_c: 1.0
+      - fad_c: 1.0
+      - fadh2_c: -1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1690 or SCO2774 or SCO6787
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32858,12 +32858,12 @@
     - id: ACOAD6f
     - name: acyl-CoA dehydrogenase (tetradecanoyl-CoA)
     - metabolites: !!omap
-      - fad_c: -1.0
-      - fadh2_c: 1.0
-      - td2coa_c: 1.0
-      - tdcoa_c: -1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - fad_c: 1.0
+      - fadh2_c: -1.0
+      - td2coa_c: -1.0
+      - tdcoa_c: 1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1690 or SCO2774 or SCO6787
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -32880,12 +32880,12 @@
     - id: ACOAD7f
     - name: acyl-CoA dehydrogenase (hexadecanoyl-CoA)
     - metabolites: !!omap
-      - fad_c: -1.0
-      - fadh2_c: 1.0
-      - hdd2coa_c: 1.0
-      - pmtcoa_c: -1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - fad_c: 1.0
+      - fadh2_c: -1.0
+      - hdd2coa_c: -1.0
+      - pmtcoa_c: 1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1690 or SCO2774 or SCO6787
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -44045,13 +44045,13 @@
     - id: DNMPPA
     - name: ATP-dependent DNA helicase
     - metabolites: !!omap
-      - dhnpt_c: -1.0
-      - dhpmp_c: 1.0
-      - h2o_c: 1.0
-      - h_c: -1.0
-      - pi_c: -1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - dhnpt_c: 1.0
+      - dhpmp_c: -1.0
+      - h2o_c: -1.0
+      - h_c: 1.0
+      - pi_c: 1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -46393,12 +46393,12 @@
     - id: ECTS
     - name: L-ectoine synthase
     - metabolites: !!omap
-      - ectoine_c: 1.0
-      - h2o_c: 1.0
-      - h_c: 1.0
-      - nac24dab_c: -1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - ectoine_c: -1.0
+      - h2o_c: -1.0
+      - h_c: -1.0
+      - nac24dab_c: 1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1866
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -50694,12 +50694,12 @@
     - id: GLYAT
     - name: glycine C-acetyltransferase
     - metabolites: !!omap
-      - 2aobut_c: 1.0
-      - accoa_c: -1.0
-      - coa_c: 1.0
-      - gly_c: -1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - 2aobut_c: -1.0
+      - accoa_c: 1.0
+      - coa_c: -1.0
+      - gly_c: 1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6800
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -50829,13 +50829,13 @@
     - id: GLYCTD
     - name: glycolate dehydrogenase;glyoxylate reductase
     - metabolites: !!omap
-      - glx_c: 1.0
-      - glyclt_c: -1.0
-      - h_c: 1.0
-      - nad_c: -1.0
-      - nadh_c: 1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - glx_c: -1.0
+      - glyclt_c: 1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO0348 or SCO3478 or SCO7119
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53066,13 +53066,13 @@
     - id: HPYRRx
     - name: hydroxypyruvate reductase;hydroxypyruvate reductase Me (NADH)
     - metabolites: !!omap
-      - glyc__R_c: -1.0
-      - h_c: 1.0
-      - hpyr_c: 1.0
-      - nad_c: -1.0
-      - nadh_c: 1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - glyc__R_c: 1.0
+      - h_c: -1.0
+      - hpyr_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2696
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -53086,13 +53086,13 @@
     - id: HPYRRy
     - name: hydroxypyruvate reductase;hydroxypyruvate reductase Me (NADPH)
     - metabolites: !!omap
-      - glyc__R_c: -1.0
-      - h_c: 1.0
-      - hpyr_c: 1.0
-      - nadp_c: -1.0
-      - nadph_c: 1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - glyc__R_c: 1.0
+      - h_c: -1.0
+      - hpyr_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO2696
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -55753,13 +55753,13 @@
     - id: MDH
     - name: malate dehydrogenase
     - metabolites: !!omap
-      - h_c: 1.0
-      - mal__L_c: -1.0
-      - nad_c: -1.0
-      - nadh_c: 1.0
-      - oaa_c: 1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - h_c: -1.0
+      - mal__L_c: 1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - oaa_c: -1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4827
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -57432,13 +57432,13 @@
     - id: MYCTR
     - name: mycothiol reductase (nadp dependent)
     - metabolites: !!omap
-      - h_c: 1.0
-      - msh_c: -2.0
-      - mssg_c: 1.0
-      - nadp_c: -1.0
-      - nadph_c: 1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - h_c: -1.0
+      - msh_c: 2.0
+      - mssg_c: -1.0
+      - nadp_c: 1.0
+      - nadph_c: -1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -58427,12 +58427,12 @@
     - id: NT5C
     - name: Nicotinate D-ribonucleotide phosphohydrolase
     - metabolites: !!omap
-      - h2o_c: 1.0
-      - nicrns_c: -1.0
-      - nicrnt_c: 1.0
-      - pi_c: -1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - h2o_c: -1.0
+      - nicrns_c: 1.0
+      - nicrnt_c: -1.0
+      - pi_c: 1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO4152
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -60868,12 +60868,12 @@
     - id: PCFO
     - name: Butyryl-CoA dehydrogenase
     - metabolites: !!omap
-      - fad_c: -1.0
-      - fadh2_c: 1.0
-      - ppcoa_c: -1.0
-      - prpncoa_c: 1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - fad_c: 1.0
+      - fadh2_c: -1.0
+      - ppcoa_c: 1.0
+      - prpncoa_c: -1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO1690 or SCO2774 or SCO6787
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -66867,13 +66867,13 @@
     - id: SADT
     - name: ATP:sulfate adenylyltransferase
     - metabolites: !!omap
-      - aps_c: 1.0
-      - atp_c: -1.0
-      - h_c: -1.0
-      - ppi_c: 1.0
-      - so4_c: -1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - aps_c: -1.0
+      - atp_c: 1.0
+      - h_c: 1.0
+      - ppi_c: -1.0
+      - so4_c: 1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6097 and SCO6098
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -69324,13 +69324,13 @@
     - id: THRD
     - name: L-threonine dehydrogenase
     - metabolites: !!omap
-      - 2aobut_c: 1.0
-      - h_c: 1.0
-      - nad_c: -1.0
-      - nadh_c: 1.0
-      - thr__L_c: -1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - 2aobut_c: -1.0
+      - h_c: -1.0
+      - nad_c: 1.0
+      - nadh_c: -1.0
+      - thr__L_c: 1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6799
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -71174,13 +71174,13 @@
     - id: URO
     - name: urate:oxygen oxidoreductase
     - metabolites: !!omap
-      - 5hiu_c: 1.0
-      - h2o2_c: 1.0
-      - h2o_c: -1.0
-      - o2_c: -1.0
-      - urate_c: -1.0
-    - lower_bound: -1000
-    - upper_bound: 0
+      - 5hiu_c: -1.0
+      - h2o2_c: -1.0
+      - h2o_c: 1.0
+      - o2_c: 1.0
+      - urate_c: 1.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: SCO6211
     - annotation: !!omap
       - SBO: SBO:0000176
