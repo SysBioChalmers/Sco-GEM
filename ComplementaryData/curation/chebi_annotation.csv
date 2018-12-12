@@ -1,0 +1,1824 @@
+Met ID,New chebi annotation,Current chebi annotation,Old chebi in new (including secondary chebis)
+10fthf_c,"['CHEBI:57454', 'CHEBI:15637']",['CHEBI:11304'],True
+12da3oaglcpyr_c,['CHEBI:17670'],[None],False
+12dgr120_c,"['CHEBI:49172', 'CHEBI:18035', 'CHEBI:17815']",[None],False
+12dgr140_c,"['CHEBI:49172', 'CHEBI:18035', 'CHEBI:17815']",[None],False
+12dgr141_c,"['CHEBI:49172', 'CHEBI:18035', 'CHEBI:17815']",[None],False
+12dgr150_c,"['CHEBI:49172', 'CHEBI:18035', 'CHEBI:17815']",['CHEBI:11150'],True
+12dgr160_c,"['CHEBI:49172', 'CHEBI:18035', 'CHEBI:17815']",[None],False
+12dgr161_c,"['CHEBI:49172', 'CHEBI:18035', 'CHEBI:17815']",[None],False
+12dgr170_c,"['CHEBI:49172', 'CHEBI:18035', 'CHEBI:17815']",['CHEBI:11150'],True
+12dgr180_c,"['CHEBI:49172', 'CHEBI:18035', 'CHEBI:17815']",[None],False
+12dgr181_c,"['CHEBI:49172', 'CHEBI:18035', 'CHEBI:17815']",[None],False
+12dgrai150_c,"['CHEBI:49172', 'CHEBI:18035', 'CHEBI:17815']",['CHEBI:11150'],True
+12dgrai170_c,"['CHEBI:49172', 'CHEBI:18035', 'CHEBI:17815']",['CHEBI:11150'],True
+12dgri140_c,"['CHEBI:49172', 'CHEBI:18035', 'CHEBI:17815']",['CHEBI:11150'],True
+12dgri150_c,"['CHEBI:49172', 'CHEBI:18035', 'CHEBI:17815']",['CHEBI:11150'],True
+12dgri160_c,"['CHEBI:49172', 'CHEBI:18035', 'CHEBI:17815']",['CHEBI:11150'],True
+12dgri170_c,"['CHEBI:49172', 'CHEBI:18035', 'CHEBI:17815']",['CHEBI:11150'],True
+12dgri180_c,"['CHEBI:49172', 'CHEBI:18035', 'CHEBI:17815']",['CHEBI:11150'],True
+13dpg_c,"['CHEBI:57604', 'CHEBI:16001']",['CHEBI:11881'],True
+14glucan_c,"['CHEBI:25140', 'CHEBI:18398']",['CHEBI:22539'],False
+14glucan_e,"['CHEBI:25140', 'CHEBI:18398']",['CHEBI:22539'],False
+14hdphet_c,[],[None],False
+15cphyt_c,['CHEBI:27787'],[None],False
+15dap_c,"['CHEBI:58384', 'CHEBI:18127']",['CHEBI:13928'],True
+15dap_e,"['CHEBI:58384', 'CHEBI:18127']",['CHEBI:13928'],True
+1Dgali_c,['CHEBI:17505'],['CHEBI:11203'],True
+1Dgali_e,['CHEBI:17505'],[None],False
+1acpc_c,"['CHEBI:30526', 'CHEBI:58360', 'CHEBI:18053']",[None],False
+1aiC15g3p_c,"['CHEBI:77589', 'CHEBI:17088', 'CHEBI:78166', 'CHEBI:16975', 'CHEBI:57970', 'CHEBI:76629']",['CHEBI:11227'],True
+1aiC17g3p_c,"['CHEBI:77589', 'CHEBI:17088', 'CHEBI:78166', 'CHEBI:16975', 'CHEBI:57970', 'CHEBI:76629']",['CHEBI:11227'],True
+1ddecg3p_c,"['CHEBI:72682', 'CHEBI:77589', 'CHEBI:17088', 'CHEBI:78166', 'CHEBI:16975', 'CHEBI:57970', 'CHEBI:62840', 'CHEBI:76629']",[None],False
+1hdec9eg3p_c,"['CHEBI:77589', 'CHEBI:17088', 'CHEBI:78166', 'CHEBI:16975', 'CHEBI:57970', 'CHEBI:76629']",[None],False
+1hdecg3p_c,"['CHEBI:77589', 'CHEBI:17088', 'CHEBI:78166', 'CHEBI:16975', 'CHEBI:57970', 'CHEBI:76629']",[None],False
+1hepdecg3p_c,"['CHEBI:77589', 'CHEBI:17088', 'CHEBI:78166', 'CHEBI:16975', 'CHEBI:57970', 'CHEBI:76629']",['CHEBI:11227'],True
+1iC14g3p_c,"['CHEBI:77589', 'CHEBI:17088', 'CHEBI:78166', 'CHEBI:16975', 'CHEBI:57970', 'CHEBI:76629']",['CHEBI:11227'],True
+1iC15g3p_c,"['CHEBI:77589', 'CHEBI:17088', 'CHEBI:78166', 'CHEBI:16975', 'CHEBI:57970', 'CHEBI:76629']",['CHEBI:11227'],True
+1iC16g3p_c,"['CHEBI:77589', 'CHEBI:17088', 'CHEBI:78166', 'CHEBI:16975', 'CHEBI:57970', 'CHEBI:76629']",['CHEBI:11227'],True
+1iC17g3p_c,"['CHEBI:77589', 'CHEBI:17088', 'CHEBI:78166', 'CHEBI:16975', 'CHEBI:57970', 'CHEBI:76629']",['CHEBI:11227'],True
+1iC18g3p_c,"['CHEBI:77589', 'CHEBI:17088', 'CHEBI:78166', 'CHEBI:16975', 'CHEBI:57970', 'CHEBI:76629']",['CHEBI:11227'],True
+1odec11eg3p_c,"['CHEBI:77589', 'CHEBI:17088', 'CHEBI:78166', 'CHEBI:16975', 'CHEBI:57970', 'CHEBI:76629']",[None],False
+1odecg3p_c,"['CHEBI:77589', 'CHEBI:74850', 'CHEBI:17088', 'CHEBI:78166', 'CHEBI:16975', 'CHEBI:57970', 'CHEBI:76629', 'CHEBI:74565']",[None],False
+1p3h5c_c,"['CHEBI:6151', 'CHEBI:62612']",['CHEBI:6151'],True
+1p4h2cbxl_c,"['CHEBI:16352', 'CHEBI:57745']",[None],False
+1ptdecg3p_c,"['CHEBI:77589', 'CHEBI:17088', 'CHEBI:78166', 'CHEBI:16975', 'CHEBI:57970', 'CHEBI:76629']",['CHEBI:11227'],True
+1pyr5c_c,"['CHEBI:17388', 'CHEBI:1372', 'CHEBI:15893', 'CHEBI:371']",['CHEBI:11297'],True
+1tdec7eg3p_c,"['CHEBI:77589', 'CHEBI:17088', 'CHEBI:78166', 'CHEBI:16975', 'CHEBI:57970', 'CHEBI:76629']",[None],False
+1tdecg3p_c,"['CHEBI:77589', 'CHEBI:62833', 'CHEBI:17088', 'CHEBI:78166', 'CHEBI:16975', 'CHEBI:57970', 'CHEBI:76629', 'CHEBI:72683']",[None],False
+23btd_c,['CHEBI:16812'],[None],False
+23camp_e,"['CHEBI:27844', 'CHEBI:60879']",['CHEBI:19212'],True
+23ccmp_e,"['CHEBI:60877', 'CHEBI:27652']",['CHEBI:19213'],True
+23cgmp_e,"['CHEBI:60837', 'CHEBI:28181']",['CHEBI:19214'],True
+23cump_e,"['CHEBI:60873', 'CHEBI:28637']",['CHEBI:19215'],True
+23dahxoc_c,[],[None],False
+23ddhb_c,"['CHEBI:48968', 'CHEBI:15941', 'CHEBI:57576', 'CHEBI:58764']",[None],False
+23dhacoa_c,"['CHEBI:34453', 'CHEBI:68471', 'CHEBI:67261']",['CHEBI:67261'],True
+23dhb_c,"['CHEBI:36654', 'CHEBI:18026']",[None],False
+23dhba_c,"['CHEBI:57417', 'CHEBI:15572']",[None],False
+23dhdp_c,"['CHEBI:67139', 'CHEBI:48052', 'CHEBI:11421', 'CHEBI:67205']",['CHEBI:11421'],True
+23dhmb_c,"['CHEBI:15684', 'CHEBI:49072']",['CHEBI:10966'],True
+23dhmp_c,"['CHEBI:27512', 'CHEBI:49258']",['CHEBI:18646'],True
+24dab_c,"['CHEBI:58761', 'CHEBI:48950', 'CHEBI:16028']",['CHEBI:13044'],True
+24dclphen_c,['CHEBI:16738'],[None],False
+24ddhrham_c,"['CHEBI:132125', 'CHEBI:131847']",[None],False
+24dh5m6o24d_c,['CHEBI:81669'],[None],False
+24dtcho_c,[],[None],False
+25aics_c,"['CHEBI:18319', 'CHEBI:58443']",['CHEBI:11028'],True
+25dc25chx_c,['CHEBI:28975'],[None],False
+25dclpql_c,['CHEBI:27545'],[None],False
+25dop_c,"['CHEBI:58136', 'CHEBI:17415']",['CHEBI:58136'],True
+25drapp_c,"['CHEBI:59545', 'CHEBI:59546', 'CHEBI:58614', 'CHEBI:29114']",['CHEBI:11446'],True
+26dap_LL_c,"['CHEBI:47031', 'CHEBI:57609', 'CHEBI:16026']",['CHEBI:13192'],True
+26dap_LL_e,"['CHEBI:47031', 'CHEBI:57609', 'CHEBI:16026']",['CHEBI:13192'],True
+26dap__M_c,"['CHEBI:57791', 'CHEBI:16488', 'CHEBI:30308']",['CHEBI:10598'],True
+26dap__M_e,"['CHEBI:57791', 'CHEBI:16488', 'CHEBI:30308']",['CHEBI:10598'],True
+26hxcho_c,['CHEBI:83860'],[None],False
+2a5farapp_c,"['CHEBI:11515', 'CHEBI:57258']",['CHEBI:59548'],True
+2a5ocyc1eccoa_c,"['CHEBI:18206', 'CHEBI:58410']",[None],False
+2ahbut_c,"['CHEBI:49256', 'CHEBI:27681']",['CHEBI:18730'],True
+2amac_c,"['CHEBI:76608', 'CHEBI:17123', 'CHEBI:76565', 'CHEBI:58020']",[None],False
+2aobut_c,"['CHEBI:16944', 'CHEBI:78948', 'CHEBI:40673']",['CHEBI:11507'],False
+2chloacr_c,"['CHEBI:73963', 'CHEBI:73935']",[None],False
+2clprop_c,"['CHEBI:73934', 'CHEBI:73956']",[None],False
+2cm3hppc_c,[],[None],False
+2cpr5p_c,"['CHEBI:58613', 'CHEBI:29112']",['CHEBI:11186'],True
+2dda7p_c,"['CHEBI:58394', 'CHEBI:18150']",['CHEBI:1053'],True
+2ddara__L_c,"['CHEBI:35173', 'CHEBI:17647']",[None],False
+2ddara_c,"['CHEBI:1060', 'CHEBI:16699']",[None],False
+2ddg6p_c,"['CHEBI:15925', 'CHEBI:57569']",['CHEBI:1051'],True
+2ddglcn_c,"['CHEBI:17032', 'CHEBI:57990']",['CHEBI:1059'],True
+2ddglcn_e,"['CHEBI:17032', 'CHEBI:57990']",['CHEBI:1059'],True
+2dg25hbz_c,"['CHEBI:29071', 'CHEBI:15623']",[None],False
+2dglcn_c,"['CHEBI:57653', 'CHEBI:16138']",['CHEBI:1077'],True
+2dh3dgal6p_c,"['CHEBI:17860', 'CHEBI:58298']",[None],False
+2dh3dgal_c,"['CHEBI:17028', 'CHEBI:57989']",['CHEBI:1056'],True
+2dh3dglc_c,"['CHEBI:17305', 'CHEBI:58098']",[None],False
+2dh3dogal_c,"['CHEBI:75545', 'CHEBI:75840']",[None],False
+2dh3dorham_c,"['CHEBI:58371', 'CHEBI:18078']",[None],False
+2dhglcn_c,"['CHEBI:16808', 'CHEBI:27469']",[None],False
+2dhp_c,"['CHEBI:11561', 'CHEBI:17094']",['CHEBI:1071'],True
+2dmmq9_c,['CHEBI:28192'],['CHEBI:19547'],True
+2dmmql9_c,[],[None],False
+2dr1p_c,"['CHEBI:28542', 'CHEBI:58576']",['CHEBI:1081'],True
+2dr5p_c,"['CHEBI:57651', 'CHEBI:16132']",['CHEBI:1082'],True
+2fe1s_c,[],[None],False
+2fe2s_c,['CHEBI:49601'],[None],False
+2h3oppan_c,"['CHEBI:16992', 'CHEBI:57978']",['CHEBI:1123'],True
+2h4oxbut_c,"['CHEBI:58075', 'CHEBI:17250']",[None],False
+2hdhepdd_c,"['CHEBI:1162', 'CHEBI:82686', 'CHEBI:78626', 'CHEBI:78627']",[None],False
+2hmc_c,"['CHEBI:28080', 'CHEBI:53146']",[None],False
+2hmcnsad_c,"['CHEBI:17236', 'CHEBI:71198', 'CHEBI:71207', 'CHEBI:58068']",[None],False
+2hxmp_e,['CHEBI:16464'],[None],False
+2hymeph_c,['CHEBI:16464'],['CHEBI:15059'],True
+2improp_c,"['CHEBI:44400', 'CHEBI:77456']",[None],False
+2ins_c,['CHEBI:17811'],['CHEBI:11435'],True
+2ippm_c,"['CHEBI:58085', 'CHEBI:17275']",['CHEBI:11604'],True
+2kmb_c,"['CHEBI:16723', 'CHEBI:33574']",[None],False
+2maacoa_c,"['CHEBI:57335', 'CHEBI:15476']",['CHEBI:11613'],True
+2mahmp_c,"['CHEBI:16629', 'CHEBI:57841']",['CHEBI:11612'],True
+2mb2coa_c,"['CHEBI:15478', 'CHEBI:11614', 'CHEBI:57337', 'CHEBI:57260']",['CHEBI:10949'],True
+2mbcoa_c,"['CHEBI:90222', 'CHEBI:88166']",['CHEBI:11616'],False
+2mborn_c,['CHEBI:61987'],[None],False
+2me4p_c,"['CHEBI:17764', 'CHEBI:58262']",['CHEBI:1030'],True
+2mecdp_c,"['CHEBI:58483', 'CHEBI:18425']",['CHEBI:1029'],True
+2mfumcoa_c,"['CHEBI:27969', 'CHEBI:75635']",[None],False
+2mop_c,"['CHEBI:16256', 'CHEBI:57700']",[None],False
+2mp2coa_c,"['CHEBI:27754', 'CHEBI:62500']",['CHEBI:1208'],True
+2mygydpp_c,"['CHEBI:61984', 'CHEBI:61982']",[None],False
+2obut_c,"['CHEBI:30831', 'CHEBI:16763']",['CHEBI:11636'],True
+2ohed_c,"['CHEBI:48061', 'CHEBI:17205', 'CHEBI:48062']",[None],False
+2oph_c,['CHEBI:40407'],[None],False
+2oxoadp_c,"['CHEBI:15753', 'CHEBI:57499']",['CHEBI:11635'],True
+2oxpaccoa_c,"['CHEBI:63252', 'CHEBI:63251']",['CHEBI:63252'],True
+2p4c2me_c,"['CHEBI:57919', 'CHEBI:16840']",['CHEBI:11649'],True
+2pg_c,"['CHEBI:58289', 'CHEBI:17835']",['CHEBI:11651'],True
+2pglyc_c,"['CHEBI:58033', 'CHEBI:17150', 'CHEBI:19763']",[None],False
+2plac__L_c,"['CHEBI:59433', 'CHEBI:59906', 'CHEBI:45013']",['CHEBI:340863'],False
+2ppoh_c,['CHEBI:17824'],[None],False
+2pyr46dcox_c,"['CHEBI:17872', 'CHEBI:58304']",[None],False
+2sephchc_c,"['CHEBI:58818', 'CHEBI:50271']",['CHEBI:50271'],True
+2shchc_c,"['CHEBI:39564', 'CHEBI:58689', 'CHEBI:1277', 'CHEBI:57272']",['CHEBI:11656'],False
+33biflav_c,"['CHEBI:58871', 'CHEBI:51836', 'CHEBI:77877']",[None],False
+34dhbz_c,"['CHEBI:36241', 'CHEBI:36062']",['CHEBI:11694'],True
+34dhcinm_c,"['CHEBI:57770', 'CHEBI:16433', 'CHEBI:36281']",[None],False
+34hpp_c,"['CHEBI:15999', 'CHEBI:36242']",[None],False
+35cgmp_c,"['CHEBI:16356', 'CHEBI:57746']",['CHEBI:11675'],True
+36ahgalfur_c,[],[None],False
+36ahgalpyr_c,['CHEBI:83433'],[None],False
+38biflav_c,"['CHEBI:58872', 'CHEBI:77840', 'CHEBI:51837']",[None],False
+3aib_c,"['CHEBI:16320', 'CHEBI:57731', 'CHEBI:49097']",[None],False
+3ambutcoa_c,"['CHEBI:15512', 'CHEBI:57366']",[None],False
+3amp_e,"['CHEBI:60880', 'CHEBI:28931']",['CHEBI:1333'],True
+3c2hmp_c,"['CHEBI:43468', 'CHEBI:35121']",['CHEBI:11760'],False
+3c3hmp_c,"['CHEBI:1178', 'CHEBI:35128']",['CHEBI:1115'],False
+3c4mop_c,"['CHEBI:17214', 'CHEBI:1467']",['CHEBI:11765'],True
+3choptpp_c,['CHEBI:1463'],['CHEBI:1463'],True
+3clbxal_c,[],[None],False
+3clbzal_c,[],[None],False
+3clbzat_c,"['CHEBI:19984', 'CHEBI:49410']",[None],False
+3cmp_e,"['CHEBI:53013', 'CHEBI:60875']",['CHEBI:1335'],True
+3dclcatc_c,['CHEBI:15788'],[None],False
+3dhq_c,"['CHEBI:32364', 'CHEBI:17947']",['CHEBI:11781'],True
+3dhsk_c,"['CHEBI:30918', 'CHEBI:16630']",['CHEBI:11782'],True
+3dm4hdppyr_c,"['CHEBI:31113', 'CHEBI:74408']",[None],False
+3dma4hbz_c,"['CHEBI:74155', 'CHEBI:31111']",[None],False
+3dma4hma_c,['CHEBI:31112'],[None],False
+3fe4s_c,[],[None],False
+3gmp_e,"['CHEBI:60732', 'CHEBI:37120', 'CHEBI:28072']",['CHEBI:24447'],True
+3h4oxbut_c,[],[None],False
+3haACP_c,['CHEBI:84648'],[None],False
+3haACPcda_c,[],[None],False
+3haACPredQ_c,[],[None],False
+3hadpcoa_c,"['CHEBI:70990', 'CHEBI:132183', 'CHEBI:71038', 'CHEBI:34002']",['CHEBI:34002'],True
+3hanthrn_c,"['CHEBI:36559', 'CHEBI:61149', 'CHEBI:61150', 'CHEBI:15793']",['CHEBI:11800'],True
+3hbcoa__R_c,"['CHEBI:15452', 'CHEBI:57315']","['CHEBI:10879', 'CHEBI:7315']",False
+3hbcoa_c,"['CHEBI:57316', 'CHEBI:15453']",['CHEBI:11048'],True
+3hcddec5eACP_c,[],[None],False
+3hcinnm_c,"['CHEBI:32357', 'CHEBI:47927', 'CHEBI:47928', 'CHEBI:47925']",[None],False
+3hcmrs7eACP_c,[],[None],False
+3hcpalm9eACP_c,[],[None],False
+3hcvac11eACP_c,[],[None],False
+3hd4oxhxcoa_c,['CHEBI:20052'],[None],False
+3hd5ohexa_c,"['CHEBI:20051', 'CHEBI:37032']",[None],False
+3hdcoa_c,"['CHEBI:62616', 'CHEBI:28325']",['CHEBI:18779'],True
+3hddcoa_c,"['CHEBI:27668', 'CHEBI:62558']",['CHEBI:18751'],True
+3hddecACP_c,['CHEBI:325'],['CHEBI:325'],True
+3hddecACPredQ_c,['CHEBI:325'],['CHEBI:325'],True
+3hdecACP_c,[],[None],False
+3hdecACPredQ_c,[],[None],False
+3hdkynu_c,[],[None],False
+3hhcoa_c,"['CHEBI:62075', 'CHEBI:28276']",['CHEBI:18780'],True
+3hhdcoa_c,"['CHEBI:62613', 'CHEBI:27402']",['CHEBI:18752'],True
+3hhexACP_c,['CHEBI:326'],['CHEBI:326'],True
+3hhexACPcda_c,['CHEBI:326'],['CHEBI:326'],True
+3hhexACPredQ_c,['CHEBI:326'],['CHEBI:326'],True
+3hib_c,"['CHEBI:37373', 'CHEBI:62638']",[None],False
+3hibutcoa_c,"['CHEBI:62611', 'CHEBI:28259']",['CHEBI:18753'],True
+3hmbcoa_c,"['CHEBI:15449', 'CHEBI:57312']",['CHEBI:10871'],True
+3hmoa_c,"['CHEBI:17667', 'CHEBI:11812']",['CHEBI:11812'],True
+3hmop_c,"['CHEBI:34008', 'CHEBI:49257']",['CHEBI:49257'],True
+3hmrsACP_c,[],['CHEBI:76400'],False
+3hocoa_c,"['CHEBI:62617', 'CHEBI:28632']",['CHEBI:18750'],True
+3hoctACP_c,[],[None],False
+3hoctACPredQ_c,[],[None],False
+3hoctaACP_c,[],['CHEBI:80387'],False
+3hodcoa_c,"['CHEBI:50577', 'CHEBI:50583', 'CHEBI:87561', 'CHEBI:71408']",['CHEBI:50577'],True
+3hpalmACP_c,[],[None],False
+3hpcoa_c,"['CHEBI:27762', 'CHEBI:58528', 'CHEBI:20081']",['CHEBI:58528'],True
+3hpppn_c,"['CHEBI:57277', 'CHEBI:1427']",[None],False
+3htdcoa_c,"['CHEBI:62614', 'CHEBI:27466']",['CHEBI:18754'],True
+3hxquin_c,['CHEBI:43310'],[None],False
+3ig3p_c,"['CHEBI:51793', 'CHEBI:58866']",['CHEBI:11201'],False
+3mb2coa_c,"['CHEBI:15486', 'CHEBI:57344']",['CHEBI:11853'],True
+3mbzalc_c,['CHEBI:27995'],[None],False
+3metbzal_c,['CHEBI:28476'],[None],False
+3mgcoa_c,[],['CHEBI:11860'],False
+3mob_c,"['CHEBI:132177', 'CHEBI:11851', 'CHEBI:16530']",['CHEBI:11851'],True
+3mop_c,"['CHEBI:35146', 'CHEBI:15614']",['CHEBI:10888'],True
+3oc4en24ocoa_c,"['CHEBI:86412', 'CHEBI:87139']",[None],False
+3ocd26ocoa_c,"['CHEBI:86414', 'CHEBI:87141']",[None],False
+3ocddec5eACP_c,[],[None],False
+3ocdncoa_c,"['CHEBI:87140', 'CHEBI:86413']",[None],False
+3oce26ocoa_c,"['CHEBI:84666', 'CHEBI:83819']",[None],False
+3ocl4e26ocoa_c,[],[None],False
+3ocmrs7eACP_c,[],[None],False
+3ocpalm9eACP_c,[],[None],False
+3ocvac11eACP_c,[],[None],False
+3odcoa_c,"['CHEBI:28528', 'CHEBI:62548']",['CHEBI:1633'],True
+3oddcoa_c,"['CHEBI:27868', 'CHEBI:62615']",['CHEBI:1636'],True
+3oddecACP_c,['CHEBI:1637'],['CHEBI:1637'],True
+3oddecACPredQ_c,['CHEBI:1637'],['CHEBI:1637'],True
+3odecACP_c,['CHEBI:1634'],['CHEBI:1634'],True
+3odecACPredQ_c,['CHEBI:1634'],['CHEBI:1634'],True
+3ohcoa_c,"['CHEBI:62418', 'CHEBI:27648']",['CHEBI:1641'],True
+3ohdcoa_c,"['CHEBI:15491', 'CHEBI:57349']",['CHEBI:11875'],True
+3ohexACP_c,['CHEBI:1642'],['CHEBI:1642'],True
+3ohexACPcda_c,['CHEBI:1642'],['CHEBI:1642'],True
+3ohexACPredQ_c,['CHEBI:1642'],['CHEBI:1642'],True
+3ohodcoa_c,"['CHEBI:50571', 'CHEBI:71407']",['CHEBI:50571'],True
+3omrsACP_c,['CHEBI:1655'],['CHEBI:1655'],True
+3omrsACPredL_c,['CHEBI:1655'],['CHEBI:1655'],True
+3oocoa_c,"['CHEBI:28264', 'CHEBI:62619']",['CHEBI:1645'],True
+3ooctACP_c,['CHEBI:1646'],['CHEBI:1646'],True
+3ooctACPredQ_c,['CHEBI:1646'],['CHEBI:1646'],True
+3ooctdACP_c,['CHEBI:80386'],['CHEBI:80386'],True
+3opalmACP_c,['CHEBI:1639'],['CHEBI:1639'],True
+3opcoa_c,"['CHEBI:84996', 'CHEBI:28673']",['CHEBI:1652'],True
+3ophb_c,"['CHEBI:50116', 'CHEBI:1617']",[None],False
+3otdcoa_c,"['CHEBI:62543', 'CHEBI:28726']",['CHEBI:1654'],True
+3ovobenz_c,"['CHEBI:76981', 'CHEBI:77107']",[None],False
+3oxdhscoa_c,"['CHEBI:63255', 'CHEBI:63253']",['CHEBI:63253'],True
+3oxoadp_c,"['CHEBI:15775', 'CHEBI:37440']",['CHEBI:11870'],True
+3pg_c,"['CHEBI:58272', 'CHEBI:17794']",['CHEBI:11879'],True
+3php_c,"['CHEBI:18110', 'CHEBI:30933']",['CHEBI:11883'],True
+3psme_c,"['CHEBI:57701', 'CHEBI:16257']",['CHEBI:12094'],True
+3spyr_c,"['CHEBI:57940', 'CHEBI:16894']",[None],False
+3sulfcat_c,"['CHEBI:33565', 'CHEBI:27802']",[None],False
+3sulflac_c,"['CHEBI:58738', 'CHEBI:48291']",[None],False
+3sulprop_c,[],[None],False
+3ump_e,"['CHEBI:28895', 'CHEBI:60784']",['CHEBI:1361'],True
+3uribut_c,[],[None],False
+44dpcop_c,['CHEBI:62450'],[None],False
+44dpcopd_c,[],[None],False
+45secdop_c,"['CHEBI:16098', 'CHEBI:57639']",[None],False
+4aabutn_c,"['CHEBI:17645', 'CHEBI:11951']",[None],False
+4abut_c,"['CHEBI:59888', 'CHEBI:30566', 'CHEBI:16865']",['CHEBI:11961'],True
+4abut_e,"['CHEBI:59888', 'CHEBI:30566', 'CHEBI:16865']",['CHEBI:11961'],True
+4abutn_c,"['CHEBI:58264', 'CHEBI:17769']",['CHEBI:11960'],True
+4abz_c,"['CHEBI:30753', 'CHEBI:17836']",['CHEBI:113372'],True
+4adcho_c,"['CHEBI:18198', 'CHEBI:58406', 'CHEBI:35181']",['CHEBI:11956'],True
+4ahmmp_c,['CHEBI:16892'],['CHEBI:11957'],True
+4ahmmp_e,['CHEBI:16892'],['CHEBI:11957'],True
+4ampm_c,"['CHEBI:58354', 'CHEBI:18032']",['CHEBI:11954'],True
+4c2me_c,"['CHEBI:16578', 'CHEBI:57823']",['CHEBI:11938'],True
+4carbzal_c,[],[None],False
+4cboxald_c,[],[None],False
+4cml_c,"['CHEBI:57979', 'CHEBI:16993']",['CHEBI:1033'],True
+4crsol_c,['CHEBI:17847'],['CHEBI:11981'],True
+4fe4s_c,['CHEBI:33725'],[None],False
+4fumacac_c,"['CHEBI:18034', 'CHEBI:30907']",['CHEBI:11988'],True
+4gglutbut_c,"['CHEBI:61521', 'CHEBI:61508']",[None],False
+4guanbut_c_c,"['CHEBI:57486', 'CHEBI:86392', 'CHEBI:15728', 'CHEBI:86564']",[None],False
+4gubuty_c_c,"['CHEBI:58365', 'CHEBI:18062']",[None],False
+4h2mohexn_c,['CHEBI:81669'],[None],False
+4h2oglt_c,"['CHEBI:36148', 'CHEBI:4083', 'CHEBI:62213', 'CHEBI:17742', 'CHEBI:30923']",['CHEBI:11993'],True
+4h2opntn_c,"['CHEBI:58222', 'CHEBI:17655']",['CHEBI:11994'],True
+4hambz_c,[],[None],False
+4hbald_c,['CHEBI:17597'],[None],False
+4hbutcoa_c,"['CHEBI:28522', 'CHEBI:58574']",[None],False
+4hbz_c,"['CHEBI:17879', 'CHEBI:30763']",[None],False
+4hdthbiop_c,[],[None],False
+4hglusa_c,"['CHEBI:27809', 'CHEBI:62637']",['CHEBI:21213'],True
+4hmda_c,"['CHEBI:32802', 'CHEBI:17210']",[None],False
+4hpglx_c,"['CHEBI:28719', 'CHEBI:58586']",['CHEBI:58586'],True
+4hpgly_c,['CHEBI:31755'],[None],False
+4hphac_c,"['CHEBI:31128', 'CHEBI:48999', 'CHEBI:18101']",[None],False
+4hpro_LT_c,"['CHEBI:58375', 'CHEBI:18095']",['CHEBI:10713'],False
+4hthr_c,"['CHEBI:60904', 'CHEBI:28330']",['CHEBI:1853'],True
+4ip7moxo_c,['CHEBI:228'],[None],False
+4ipropmo_c,['CHEBI:233'],[None],False
+4izp_c,"['CHEBI:77893', 'CHEBI:11041', 'CHEBI:57255', 'CHEBI:27384']",['CHEBI:11041'],True
+4mbzalc_c,['CHEBI:1895'],[None],False
+4mbzald_c,['CHEBI:28617'],[None],False
+4mlacac_c,"['CHEBI:47904', 'CHEBI:133872', 'CHEBI:17105']",['CHEBI:12018'],True
+4mop_c,"['CHEBI:17865', 'CHEBI:48430']",['CHEBI:12020'],True
+4mpetz_c,"['CHEBI:17857', 'CHEBI:58296']",['CHEBI:12023'],True
+4nitrobz_c,['CHEBI:262350'],[None],False
+4nitrocc_c,"['CHEBI:16318', 'CHEBI:57730']",[None],False
+4nitroph_c,"['CHEBI:57917', 'CHEBI:16836']",[None],False
+4pasp_c,"['CHEBI:15836', 'CHEBI:57535', 'CHEBI:30407']",['CHEBI:12042'],True
+4per_c,"['CHEBI:49003', 'CHEBI:49055', 'CHEBI:58766']",['CHEBI:1924'],True
+4ppan_c,"['CHEBI:15905', 'CHEBI:10986', 'CHEBI:20891', 'CHEBI:12886']",['CHEBI:10986'],True
+4ppcys_c,"['CHEBI:59458', 'CHEBI:15769']",['CHEBI:10987'],True
+4r5au_c,['CHEBI:15934'],['CHEBI:11929'],True
+4sulbza_c,"['CHEBI:18256', 'CHEBI:11987']",[None],False
+4sulfbenz_c,"['CHEBI:20476', 'CHEBI:16309', 'CHEBI:30789']",[None],False
+4sulfbzalc_c,"['CHEBI:18312', 'CHEBI:11944']",[None],False
+56dthm_c,['CHEBI:27468'],[None],False
+56dura_c,['CHEBI:15901'],[None],False
+5a2opntn_c,"['CHEBI:17572', 'CHEBI:49268', 'CHEBI:58802']",[None],False
+5aizc_c,"['CHEBI:58564', 'CHEBI:28413', 'CHEBI:77657', 'CHEBI:41336']",['CHEBI:12103'],True
+5am3ohex_c,"['CHEBI:58523', 'CHEBI:27713']",[None],False
+5aop_c,"['CHEBI:132970', 'CHEBI:356416', 'CHEBI:17549', 'CHEBI:12109']",['CHEBI:12109'],True
+5aprbu_c,"['CHEBI:18247', 'CHEBI:58421']",['CHEBI:12107'],True
+5apru_c,"['CHEBI:58453', 'CHEBI:18337']",['CHEBI:12108'],True
+5aptn_c,"['CHEBI:15887', 'CHEBI:356010', 'CHEBI:86394']",['CHEBI:12111'],True
+5c2oh3ed_c,"['CHEBI:87509', 'CHEBI:87491']",[None],False
+5cmhm_c,"['CHEBI:47961', 'CHEBI:15376', 'CHEBI:47960', 'CHEBI:2040']",[None],False
+5cmhmsa_c,"['CHEBI:58030', 'CHEBI:17142']",[None],False
+5dglcn_c,"['CHEBI:58143', 'CHEBI:17426']",['CHEBI:12120'],True
+5dglcn_e,"['CHEBI:58143', 'CHEBI:17426']",['CHEBI:12120'],True
+5dh4dglc_c,"['CHEBI:42819', 'CHEBI:35453', 'CHEBI:16369']",['CHEBI:12117'],True
+5doglcn_c,"['CHEBI:58852', 'CHEBI:50923']",['CHEBI:58852'],True
+5drib_c,['CHEBI:62012'],[None],False
+5fthf_c,"['CHEBI:63606', 'CHEBI:57457', 'CHEBI:15640', 'CHEBI:65340']",['CHEBI:12127'],True
+5g2oxpt_c,"['CHEBI:28116', 'CHEBI:18253', 'CHEBI:58489']",[None],False
+5hectoine_c,"['CHEBI:63524', 'CHEBI:85413', 'CHEBI:49432']",['CHEBI:85413'],True
+5hiu_c,"['CHEBI:59562', 'CHEBI:18072']","['CHEBI:12137', 'CHEBI:8072']",False
+5mcsn_c,['CHEBI:27551'],['CHEBI:20608'],True
+5mdr1p_c,"['CHEBI:58533', 'CHEBI:27859']",['CHEBI:12767'],True
+5mdru1p_c,"['CHEBI:28096', 'CHEBI:58548']",['CHEBI:12768'],True
+5mta_c,['CHEBI:17509'],['CHEBI:12055'],True
+5mthf_c,"['CHEBI:20612', 'CHEBI:136009', 'CHEBI:18608', 'CHEBI:15641']",['CHEBI:12146'],True
+5mtho_c,['CHEBI:48595'],[None],False
+5mtr_c,['CHEBI:78440'],['CHEBI:12148'],False
+5mtr_e,['CHEBI:78440'],['CHEBI:12148'],False
+5odhf2a_c,"['CHEBI:58425', 'CHEBI:18267']",['CHEBI:11871'],True
+5oxhlnitro_c,[],[None],False
+5prdmbz_c,"['CHEBI:57918', 'CHEBI:16837']",['CHEBI:12622'],True
+6a6doxf_c,"['CHEBI:64260', 'CHEBI:64286']",[None],False
+6apa_c,"['CHEBI:30938', 'CHEBI:16705', 'CHEBI:57869']",['CHEBI:12207'],True
+6h3iphep_c,"['CHEBI:64249', 'CHEBI:64226']",[None],False
+6hd3iphep_c,"['CHEBI:64247', 'CHEBI:64225']",[None],False
+6hdhx_c,"['CHEBI:32383', 'CHEBI:17869']",[None],False
+6hmhpt_c,"['CHEBI:17083', 'CHEBI:44841']",['CHEBI:1003'],True
+6hmhptpp_c,"['CHEBI:15998', 'CHEBI:72950', 'CHEBI:73083', 'CHEBI:57602']",['CHEBI:1011'],True
+6mpttmide_c,"['CHEBI:27879', 'CHEBI:132734']",[None],False
+6p2dgluc_c_c,"['CHEBI:15865', 'CHEBI:2229', 'CHEBI:20750']",[None],False
+6pgc_c,"['CHEBI:16863', 'CHEBI:48928', 'CHEBI:58759']",['CHEBI:12232'],True
+6pgl_c,"['CHEBI:16938', 'CHEBI:57955']",['CHEBI:12233'],True
+8aonn_c,"['CHEBI:15830', 'CHEBI:12266', 'CHEBI:57532']",['CHEBI:12266'],True
+ACP_c,['CHEBI:18359'],['CHEBI:13443'],False
+ACPact_c,['CHEBI:18359'],['CHEBI:2458'],True
+ACPcda_c,['CHEBI:18359'],['CHEBI:2458'],True
+ACPredL_c,['CHEBI:18359'],['CHEBI:2458'],True
+ACPredN_c,['CHEBI:18359'],['CHEBI:2458'],True
+ACPredQ_c,['CHEBI:18359'],['CHEBI:2458'],True
+CCbuttc_c,"['CHEBI:57496', 'CHEBI:15749']",['CHEBI:11766'],True
+CE1944_c,"['CHEBI:36781', 'CHEBI:19092']",[None],False
+CE2705_c,['CHEBI:64277'],[None],False
+ETFred_c,[],[None],False
+HC00591_c,"['CHEBI:30882', 'CHEBI:16769']",[None],False
+HC01115_c,['CHEBI:29025'],[None],False
+L2aadp_c,"['CHEBI:17082', 'CHEBI:58672', 'CHEBI:37023']",[None],False
+LalaDgluMdapDala_c,[],[None],False
+LalaDgluMdap_c,[],[None],False
+LalaDglu_c,"['CHEBI:61395', 'CHEBI:61566']",['CHEBI:61395'],True
+LalaDglu_e,"['CHEBI:61395', 'CHEBI:61566']",['CHEBI:61395'],True
+Lcyst_c,"['CHEBI:17285', 'CHEBI:58090']",[None],False
+Lfmkynr_c,"['CHEBI:30249', 'CHEBI:58629']",['CHEBI:12505'],True
+Lkynr_c,"['CHEBI:16946', 'CHEBI:57959', 'CHEBI:67010']",['CHEBI:13129'],True
+N6dhliplys_c,['CHEBI:80219'],['CHEBI:80219'],True
+N6liplys_c,['CHEBI:80218'],['CHEBI:80218'],True
+Nforglu_c,"['CHEBI:48309', 'CHEBI:17684']",[None],False
+PCPredO_c,[],[None],False
+Sfglutth_c,"['CHEBI:57688', 'CHEBI:16225']",[None],False
+T4hcinnm_c,"['CHEBI:32373', 'CHEBI:12876', 'CHEBI:36090', 'CHEBI:32374']",[None],False
+XXXGsacch_c,[],[None],False
+aa_c,['CHEBI:28619'],[None],False
+aacald_c,"['CHEBI:17628', 'CHEBI:58213']",['CHEBI:13766'],True
+aacoa_c,"['CHEBI:57286', 'CHEBI:15345']",['CHEBI:11756'],True
+aact_c,"['CHEBI:17906', 'CHEBI:58320']",['CHEBI:13767'],True
+aaekpim_c,"['CHEBI:28245', 'CHEBI:58556']",[None],False
+aahxioct_c,[],[None],False
+abacptri_c,[],[None],False
+abt__D_c,['CHEBI:18333'],['CHEBI:12912'],True
+abt__D_e,['CHEBI:18333'],['CHEBI:12912'],True
+abt_c,['CHEBI:18403'],['CHEBI:13073'],True
+acACP_c,['CHEBI:17093'],['CHEBI:13713'],True
+ac_c,"['CHEBI:15366', 'CHEBI:30089']",['CHEBI:13704'],True
+ac_e,"['CHEBI:15366', 'CHEBI:30089']",['CHEBI:13704'],True
+acac_c,"['CHEBI:13705', 'CHEBI:131367', 'CHEBI:15344']",['CHEBI:13705'],True
+acald_c,['CHEBI:15343'],['CHEBI:13703'],True
+acald_e,['CHEBI:15343'],['CHEBI:13703'],True
+acarbmucosad_c,[],[None],False
+acceptor_c,[],['15339'],False
+accoa_c,"['CHEBI:15351', 'CHEBI:57288']",['CHEBI:13712'],True
+accoa_res_c,"['CHEBI:15351', 'CHEBI:57288']",['CHEBI:13712'],True
+accp_c,['CHEBI:2777'],['CHEBI:2777'],True
+acetoin__S_c,['CHEBI:15687'],[None],False
+acetoin_c,['CHEBI:15688'],[None],False
+acetol_c,['CHEBI:27957'],[None],False
+acetone_c,['CHEBI:15347'],['CHEBI:5347'],False
+acg5p_c,"['CHEBI:57936', 'CHEBI:16878']",['CHEBI:12441'],True
+acg5sa_c,"['CHEBI:29123', 'CHEBI:16319']",['CHEBI:11493'],True
+acgam1p_c,"['CHEBI:16446', 'CHEBI:21519', 'CHEBI:57776']",['CHEBI:12443'],True
+acgam6p_c,"['CHEBI:57513', 'CHEBI:49359', 'CHEBI:15784']",['CHEBI:12456'],True
+acgam_c,['CHEBI:506227'],['CHEBI:506227'],True
+acgam_e,['CHEBI:506227'],['CHEBI:506227'],True
+acglc__D_c,['CHEBI:62111'],['CHEBI:12204'],False
+acglu_c,"['CHEBI:21549', 'CHEBI:17533', 'CHEBI:44337']",['CHEBI:12575'],True
+achms_c,"['CHEBI:16288', 'CHEBI:57716']",['CHEBI:12684'],True
+acmalt_c,[],['CHEBI:13714'],False
+acmana_c,"['CHEBI:17122', 'CHEBI:63153']",[None],False
+acmum6p_c,"['CHEBI:58722', 'CHEBI:47968']",['CHEBI:47968'],True
+acnam__B_c,"['CHEBI:45744', 'CHEBI:58705']",[None],False
+acon_C_c,"['CHEBI:32805', 'CHEBI:16383']",['CHEBI:10482'],True
+acon_T_c,"['CHEBI:15708', 'CHEBI:32806']",['CHEBI:10719'],True
+aconm_c,"['CHEBI:15663', 'CHEBI:57470']",['CHEBI:10951'],True
+acorn_c,"['CHEBI:16543', 'CHEBI:57805']",['CHEBI:12634'],True
+acryl_c,"['CHEBI:18308', 'CHEBI:37080']",[None],False
+acser_c,"['CHEBI:17981', 'CHEBI:58340']",['CHEBI:12685'],True
+acser_e,"['CHEBI:17981', 'CHEBI:58340']",['CHEBI:12685'],True
+actACP_c,['CHEBI:2393'],['CHEBI:2393'],True
+actACPact_c,['CHEBI:2393'],['CHEBI:2393'],True
+actACPcda_c,['CHEBI:2393'],['CHEBI:2393'],True
+actACPredQ_c,['CHEBI:2393'],['CHEBI:2393'],True
+act_c,"['CHEBI:91020', 'CHEBI:2448']",[None],False
+actint1ACPact_c,['CHEBI:81673'],['CHEBI:81673'],True
+actint2ACPact_c,['CHEBI:81674'],['CHEBI:81674'],True
+actint3ACPact_c,['CHEBI:81675'],['CHEBI:81675'],True
+actint4ACPact_c,['CHEBI:81699'],['CHEBI:81699'],True
+actint5ACPact_c,['CHEBI:81702'],['CHEBI:81702'],True
+actp_c,"['CHEBI:22191', 'CHEBI:13711', 'CHEBI:15350']",['CHEBI:13711'],True
+adcobdam_c,"['CHEBI:2482', 'CHEBI:58503']",['CHEBI:2482'],True
+adcobhex_c,"['CHEBI:2483', 'CHEBI:58504']",['CHEBI:2483'],True
+ade_c,['CHEBI:16708'],['CHEBI:13733'],True
+ade_e,['CHEBI:16708'],['CHEBI:13733'],True
+adhlam_c,['CHEBI:16807'],['CHEBI:12738'],True
+adn_c,['CHEBI:16335'],['CHEBI:13734'],True
+adn_e,['CHEBI:16335'],['CHEBI:13734'],True
+adocbi_c,[],['CHEBI:2480'],False
+adocbip_c,"['CHEBI:58502', 'CHEBI:2481']",['CHEBI:2481'],True
+adocbl_c,['CHEBI:18408'],['CHEBI:13739'],True
+adp_c,"['CHEBI:16761', 'CHEBI:87518', 'CHEBI:456216']",['CHEBI:13222'],True
+adpglc_c,"['CHEBI:15751', 'CHEBI:57498']",['CHEBI:13230'],True
+adphep_DD_c,"['CHEBI:57863', 'CHEBI:59967', 'CHEBI:59966', 'CHEBI:16693']",[None],False
+adprib_c,"['CHEBI:16960', 'CHEBI:57967']",['CHEBI:13224'],False
+agdpcbi_c,"['CHEBI:2479', 'CHEBI:60487']",['CHEBI:2479'],True
+agm_c,"['CHEBI:58145', 'CHEBI:17431']",['CHEBI:13747'],True
+agm_e,"['CHEBI:58145', 'CHEBI:17431']",['CHEBI:13747'],True
+agppcap_c,[],[None],False
+ahcys_c,"['CHEBI:16680', 'CHEBI:57856', 'CHEBI:67009']",['CHEBI:12741'],True
+ahdt_c,"['CHEBI:18372', 'CHEBI:58462']",['CHEBI:1002'],True
+ahgalac__L_c,"['CHEBI:83435', 'CHEBI:84257']",[None],False
+ahmann_c,['CHEBI:37675'],[None],False
+ahop_c,['CHEBI:86403'],[None],False
+aic_c,['CHEBI:2030'],['CHEBI:20544'],True
+aicar_c,"['CHEBI:58475', 'CHEBI:18406']",['CHEBI:12102'],True
+air_c,"['CHEBI:58592', 'CHEBI:28843']",['CHEBI:12101'],True
+akg_c,"['CHEBI:16810', 'CHEBI:30915', 'CHEBI:30916']",['CHEBI:11638'],True
+akg_e,"['CHEBI:16810', 'CHEBI:30915', 'CHEBI:30916']",['CHEBI:11638'],True
+ala_B_c,"['CHEBI:16958', 'CHEBI:63070', 'CHEBI:57966']",['CHEBI:10343'],True
+ala_B_e,"['CHEBI:16958', 'CHEBI:63070', 'CHEBI:57966']",['CHEBI:10343'],True
+ala__D_c,"['CHEBI:15570', 'CHEBI:32436', 'CHEBI:32435', 'CHEBI:57416']",['CHEBI:10840'],True
+ala__D_e,"['CHEBI:15570', 'CHEBI:32436', 'CHEBI:32435', 'CHEBI:57416']",['CHEBI:10840'],True
+ala__L_c,"['CHEBI:32431', 'CHEBI:32440', 'CHEBI:32439', 'CHEBI:32432', 'CHEBI:66916', 'CHEBI:16977', 'CHEBI:57972', 'CHEBI:16449']",['CHEBI:13069'],True
+ala__L_e,"['CHEBI:32431', 'CHEBI:32440', 'CHEBI:32439', 'CHEBI:32432', 'CHEBI:66916', 'CHEBI:16977', 'CHEBI:57972', 'CHEBI:16449']",['CHEBI:13069'],True
+alaala_c,"['CHEBI:57822', 'CHEBI:16576']",['CHEBI:12900'],True
+alaala_e,"['CHEBI:57822', 'CHEBI:16576']",['CHEBI:12900'],True
+alac__S_c,"['CHEBI:58476', 'CHEBI:18409']",['CHEBI:11033'],True
+alalac_c,"['CHEBI:61163', 'CHEBI:61166']",['CHEBI:61166'],True
+alatrna_c,['CHEBI:17732'],['CHEBI:13070'],True
+albflol__R_c,['CHEBI:51479'],[None],False
+albflol__S_c,['CHEBI:51480'],[None],False
+albflon_c,['CHEBI:51460'],['CHEBI:1460'],False
+allglutADP_c,[],[None],False
+allphn_c,"['CHEBI:9889', 'CHEBI:15832']",[None],False
+alltn_c,"['CHEBI:15678', 'CHEBI:74345', 'CHEBI:15676']",['CHEBI:13761'],True
+alltn_e,"['CHEBI:15678', 'CHEBI:74345', 'CHEBI:15676']",['CHEBI:13761'],True
+alltt_c,"['CHEBI:30837', 'CHEBI:17536']",['CHEBI:13760'],True
+alpam_c,"['CHEBI:50622', 'CHEBI:16882']",['CHEBI:8951'],True
+amet_c,"['CHEBI:15414', 'CHEBI:67040', 'CHEBI:59789']",['CHEBI:10786'],True
+ametam_c,"['CHEBI:57443', 'CHEBI:15625']",['CHEBI:10906'],True
+amob_c,"['CHEBI:16490', 'CHEBI:8944']",['CHEBI:12758'],True
+amp_c,"['CHEBI:16027', 'CHEBI:456215', 'CHEBI:40721']",['CHEBI:12056'],True
+amp_e,"['CHEBI:16027', 'CHEBI:456215', 'CHEBI:40721']",['CHEBI:12056'],True
+amuco_c,"['CHEBI:16886', 'CHEBI:57937', 'CHEBI:77859']",[None],False
+amucsam_c,[],[None],False
+anhgm3p_c,[],[None],False
+anhgm4p_c,[],[None],False
+anhm3p_c,[],[None],False
+anhm4p_c,[],[None],False
+anhm_c,[],[None],False
+anth_c,"['CHEBI:30754', 'CHEBI:16567']",['CHEBI:13841'],True
+anth_e,"['CHEBI:30754', 'CHEBI:16567']",['CHEBI:13841'],True
+anthrancoa_c,"['CHEBI:57331', 'CHEBI:15472']",[None],False
+ap4a_c,"['CHEBI:58141', 'CHEBI:17422']",[None],False
+apoACP_c,"['CHEBI:13850', 'CHEBI:16139']",['CHEBI:13845'],True
+apoACPact_c,"['CHEBI:13850', 'CHEBI:16139']",['CHEBI:13845'],True
+apoACPcda_c,"['CHEBI:13850', 'CHEBI:16139']",['CHEBI:13845'],True
+apoACPredL_c,"['CHEBI:13850', 'CHEBI:16139']",['CHEBI:13845'],True
+apoACPredN_c,"['CHEBI:13850', 'CHEBI:16139']",['CHEBI:13845'],True
+apoACPredQ_c,"['CHEBI:13850', 'CHEBI:16139']",['CHEBI:13845'],True
+apoPCPredO_c,"['CHEBI:13850', 'CHEBI:16139']",['CHEBI:13845'],True
+appl_c,['CHEBI:19030'],['CHEBI:19030'],True
+applp_c,"['CHEBI:58563', 'CHEBI:28390']",['CHEBI:19029'],False
+aprut_c,"['CHEBI:58263', 'CHEBI:17768']",[None],False
+aps_c,"['CHEBI:17709', 'CHEBI:58243']",['CHEBI:12059'],True
+arab__D_c,['CHEBI:46994'],['CHEBI:46994'],True
+arab__D_e,['CHEBI:46994'],['CHEBI:46994'],True
+arab__L_c,"['CHEBI:17535', 'CHEBI:30849']",['CHEBI:13076'],True
+arab__L_e,"['CHEBI:17535', 'CHEBI:30849']",['CHEBI:13076'],True
+arabat__L_c,"['CHEBI:33510', 'CHEBI:16501']",[None],False
+arabinofur__L_c,['CHEBI:6178'],[None],False
+arb14lac__L_c,['CHEBI:17100'],[None],False
+arg__D_c,"['CHEBI:32688', 'CHEBI:32689', 'CHEBI:15816', 'CHEBI:32690']",[None],False
+arg__L_c,"['CHEBI:32695', 'CHEBI:32683', 'CHEBI:32681', 'CHEBI:32697', 'CHEBI:32682', 'CHEBI:29016', 'CHEBI:32696', 'CHEBI:16467']",['CHEBI:13077'],True
+arg__L_e,"['CHEBI:32695', 'CHEBI:32683', 'CHEBI:32681', 'CHEBI:32697', 'CHEBI:32682', 'CHEBI:29016', 'CHEBI:32696', 'CHEBI:16467']",['CHEBI:13077'],True
+argsuc_c,"['CHEBI:57472', 'CHEBI:15682']",['CHEBI:10960'],True
+argtrna_c,['CHEBI:18366'],['CHEBI:13079'],True
+ascb__L_c,"['CHEBI:29073', 'CHEBI:38290']",[None],False
+asn__L_c,"['CHEBI:32660', 'CHEBI:17196', 'CHEBI:32651', 'CHEBI:32661', 'CHEBI:32650', 'CHEBI:22653', 'CHEBI:58048']",['CHEBI:13083'],True
+asn__L_e,"['CHEBI:32660', 'CHEBI:17196', 'CHEBI:32651', 'CHEBI:32661', 'CHEBI:32650', 'CHEBI:22653', 'CHEBI:58048']",['CHEBI:13083'],True
+asntrna_c,['CHEBI:29265'],['CHEBI:13084'],True
+aso3_c,"['CHEBI:29242', 'CHEBI:29243', 'CHEBI:29866', 'CHEBI:49900']",['CHEBI:13857'],True
+aso3_e,"['CHEBI:29242', 'CHEBI:29243', 'CHEBI:29866', 'CHEBI:49900']",['CHEBI:13857'],True
+aso4_c,"['CHEBI:48597', 'CHEBI:18231', 'CHEBI:48600', 'CHEBI:29125', 'CHEBI:22629']",['CHEBI:13856'],True
+asp__L_c,"['CHEBI:29993', 'CHEBI:29995', 'CHEBI:22660', 'CHEBI:17053', 'CHEBI:132943', 'CHEBI:29991', 'CHEBI:35391']",['CHEBI:13085'],True
+asp__L_e,"['CHEBI:29993', 'CHEBI:29995', 'CHEBI:22660', 'CHEBI:17053', 'CHEBI:132943', 'CHEBI:29991', 'CHEBI:35391']",['CHEBI:13085'],True
+aspsa_c,"['CHEBI:537519', 'CHEBI:13086', 'CHEBI:18051']",['CHEBI:13086'],True
+asptrna_c,[],['CHEBI:13088'],False
+at44dcop_c,['CHEBI:62449'],[None],False
+athr__L_c,"['CHEBI:28718', 'CHEBI:58585']",['CHEBI:21221'],True
+atp_c,"['CHEBI:15422', 'CHEBI:237958', 'CHEBI:57299', 'CHEBI:30616']",['CHEBI:10789'],True
+atphyflu_c,"['CHEBI:26120', 'CHEBI:28129']",[None],False
+b2coa_c,"['CHEBI:15473', 'CHEBI:36926', 'CHEBI:57332', 'CHEBI:58669']",['CHEBI:11531'],True
+betahyd_c,['CHEBI:15870'],[None],False
+betald_c,['CHEBI:15710'],['CHEBI:13896'],True
+betalm_c,['CHEBI:27483'],[None],False
+bfrn_c,"['CHEBI:10418', 'CHEBI:39241']",[None],False
+bgalac__D_c,"['CHEBI:12952', 'CHEBI:33830', 'CHEBI:47962', 'CHEBI:24175']",[None],False
+bglycogen_c,[],[None],False
+bhb_c,"['CHEBI:17066', 'CHEBI:10983']",['CHEBI:10983'],True
+bhb_e,"['CHEBI:17066', 'CHEBI:10983']",['CHEBI:10983'],True
+bmmcoa_c,"['CHEBI:27855', 'CHEBI:75634']",[None],False
+bmoco1gdp_c,[],[None],False
+bmoco_c,[],[None],False
+bmocogdp_c,[],[None],False
+btal_c,['CHEBI:15743'],[None],False
+btamp_c,"['CHEBI:62414', 'CHEBI:3110']",['CHEBI:3110'],True
+btcoa_c,"['CHEBI:15517', 'CHEBI:57371']",['CHEBI:13926'],True
+btnCCP_c,[],[None],False
+btn_c,"['CHEBI:57586', 'CHEBI:15956']",['CHEBI:13905'],True
+btn_e,"['CHEBI:57586', 'CHEBI:15956']",['CHEBI:13905'],True
+but2eACP_c,[],[None],False
+but2eACPcda_c,[],[None],False
+but2eACPredQ_c,[],[None],False
+butACP_c,['CHEBI:3247'],['CHEBI:3247'],True
+butACPcda_c,['CHEBI:3247'],['CHEBI:3247'],True
+butACPredQ_c,['CHEBI:3247'],['CHEBI:3247'],True
+butanoate_c,"['CHEBI:17968', 'CHEBI:30772']",[None],False
+bwco1gdp_c,[],[None],False
+bwco_c,[],[None],False
+bwcogdp_c,[],[None],False
+bz_c,"['CHEBI:30746', 'CHEBI:16150']",[None],False
+bzal_c,['CHEBI:17169'],[None],False
+bzalc_c,"['CHEBI:17987', 'CHEBI:25399']",[None],False
+bzamid_c,['CHEBI:28179'],[None],False
+bzsucc_c,"['CHEBI:16054', 'CHEBI:58692', 'CHEBI:57621', 'CHEBI:41241']",[None],False
+bzsuccoa__R_c,['CHEBI:3060'],[None],False
+bzsuccoa_c,"['CHEBI:3060', 'CHEBI:28882']",[None],False
+ca2_c,"['CHEBI:29108', 'CHEBI:39123']",['CHEBI:22988'],True
+ca2_e,"['CHEBI:29108', 'CHEBI:39123']",['CHEBI:22988'],True
+cacodylate_c,"['CHEBI:48765', 'CHEBI:16223']",[None],False
+caffcoa_c,"['CHEBI:87136', 'CHEBI:87449', 'CHEBI:57372', 'CHEBI:15518']",[None],False
+cala_c,"['CHEBI:18261', 'CHEBI:11892']",[None],False
+camp_c,"['CHEBI:17489', 'CHEBI:58165']",['CHEBI:11673'],True
+carnitine_c,"['CHEBI:17126', 'CHEBI:3424']",[None],False
+caro_c,['CHEBI:17579'],[None],False
+catechol_c,"['CHEBI:50524', 'CHEBI:18135', 'CHEBI:32402']","['CHEBI:135158', 'CHEBI:8135']",False
+cbasp_c,"['CHEBI:32814', 'CHEBI:15859']",['CHEBI:12496'],True
+cbi_c,['CHEBI:48529'],['CHEBI:48529'],True
+cbi_e,['CHEBI:48529'],['CHEBI:48529'],True
+cbl1_c,"['CHEBI:60488', 'CHEBI:15982']",['CHEBI:14004'],True
+cbl1_e,"['CHEBI:60488', 'CHEBI:15982']",['CHEBI:14004'],True
+cbm_c,"['CHEBI:28616', 'CHEBI:13941']",[None],False
+cbp_c,"['CHEBI:58228', 'CHEBI:17672']",['CHEBI:13942'],True
+cbtnCCP_c,[],[None],False
+cd2_c,"['CHEBI:22977', 'CHEBI:52619', 'CHEBI:52620']",['CHEBI:3290'],False
+cd2_e,"['CHEBI:22977', 'CHEBI:52619', 'CHEBI:52620']",['CHEBI:3290'],False
+cda_e,['CHEBI:29548'],['CHEBI:29548'],True
+cdaint2_c,['CHEBI:29548'],['CHEBI:29548'],True
+cddec5eACP_c,[],[None],False
+cdec3eACP_c,[],[None],False
+cdhxfut_c,"['CHEBI:64270', 'CHEBI:64252']",['CHEBI:64252'],True
+cdp4dh36ddglc_c,"['CHEBI:17817', 'CHEBI:58283']",[None],False
+cdp4dh6doglc_c,"['CHEBI:17494', 'CHEBI:58166']",[None],False
+cdp_c,"['CHEBI:17239', 'CHEBI:58069']",['CHEBI:13254'],True
+cdpdaiC15g_c,"['CHEBI:17962', 'CHEBI:58332']",['CHEBI:58332'],True
+cdpdaiC17g_c,"['CHEBI:17962', 'CHEBI:58332']",['CHEBI:58332'],True
+cdpdddecg_c,"['CHEBI:17962', 'CHEBI:58332']",['CHEBI:58332'],True
+cdpdhdec9eg_c,"['CHEBI:104012', 'CHEBI:17962', 'CHEBI:58332']",['CHEBI:58332'],True
+cdpdhdecg_c,"['CHEBI:17962', 'CHEBI:58332']",['CHEBI:58332'],True
+cdpdhepdecg_c,"['CHEBI:17962', 'CHEBI:58332']",['CHEBI:58332'],True
+cdpdiC14g_c,"['CHEBI:17962', 'CHEBI:58332']",['CHEBI:58332'],True
+cdpdiC15g_c,"['CHEBI:17962', 'CHEBI:58332']",['CHEBI:58332'],True
+cdpdiC16g_c,"['CHEBI:17962', 'CHEBI:58332']",['CHEBI:58332'],True
+cdpdiC17g_c,"['CHEBI:17962', 'CHEBI:58332']",['CHEBI:58332'],True
+cdpdiC18g_c,"['CHEBI:17962', 'CHEBI:58332']",['CHEBI:58332'],True
+cdpdodec11eg_c,"['CHEBI:104362', 'CHEBI:17962', 'CHEBI:58332']",['CHEBI:58332'],True
+cdpdodecg_c,"['CHEBI:17962', 'CHEBI:104121', 'CHEBI:58332']",['CHEBI:58332'],True
+cdpdptdecg_c,"['CHEBI:17962', 'CHEBI:58332']",['CHEBI:58332'],True
+cdpdtdec7eg_c,"['CHEBI:17962', 'CHEBI:58332', 'CHEBI:103990']",['CHEBI:58332'],True
+cdpdtdecg_c,"['CHEBI:103211', 'CHEBI:17962', 'CHEBI:58332']",['CHEBI:58332'],True
+cdpglc_c,['CHEBI:28942'],['CHEBI:13264'],True
+cdpglyc_c,"['CHEBI:17885', 'CHEBI:132202', 'CHEBI:58311']",['CHEBI:13265'],True
+cechddd_c,"['CHEBI:48691', 'CHEBI:48690', 'CHEBI:60088', 'CHEBI:60087']",[None],False
+cellb_c,['CHEBI:36217'],['CHEBI:10358'],True
+cellb_e,['CHEBI:36217'],['CHEBI:10358'],True
+cepspoc_c,"['CHEBI:15776', 'CHEBI:57511']",[None],False
+cgly_c,"['CHEBI:61694', 'CHEBI:4047']",['CHEBI:4047'],True
+ch15deccoa_c,"['CHEBI:57374', 'CHEBI:15520']",[None],False
+chdpro__D_c,"['CHEBI:16231', 'CHEBI:57690']",[None],False
+chiralc_c,['CHEBI:81700'],['CHEBI:81700'],True
+chitin_e,[],[None],False
+chlld_c,"['CHEBI:83348', 'CHEBI:57942', 'CHEBI:16900', 'CHEBI:38206']",[None],False
+chlorac_c,"['CHEBI:23123', 'CHEBI:27869']",[None],False
+chol4e3o_c,['CHEBI:16175'],[None],False
+chol_c,['CHEBI:15354'],['CHEBI:13985'],True
+chol_e,['CHEBI:15354'],['CHEBI:13985'],True
+cholate_c,"['CHEBI:29747', 'CHEBI:16359']",[None],False
+chor_c,"['CHEBI:29748', 'CHEBI:17333']",['CHEBI:13993'],True
+chsterol_c,['CHEBI:16113'],[None],False
+chtbs_c,['CHEBI:28681'],['CHEBI:28681'],True
+chtbs_e,['CHEBI:28681'],['CHEBI:28681'],True
+cigam_c,"['CHEBI:58887', 'CHEBI:52285']",['CHEBI:58887'],True
+cinnm_c,"['CHEBI:27386', 'CHEBI:23248', 'CHEBI:15669', 'CHEBI:35697']",[None],False
+cit_c,"['CHEBI:16947', 'CHEBI:30769', 'CHEBI:133748', 'CHEBI:35804', 'CHEBI:35808', 'CHEBI:132362']",['CHEBI:13999'],True
+cit_e,"['CHEBI:16947', 'CHEBI:30769', 'CHEBI:133748', 'CHEBI:35804', 'CHEBI:35808', 'CHEBI:132362']",['CHEBI:13999'],True
+citac_c,"['CHEBI:17626', 'CHEBI:30719']",[None],False
+citm__R_c,"['CHEBI:15586', 'CHEBI:30934']",[None],False
+citr__L_c,"['CHEBI:16349', 'CHEBI:57743']",['CHEBI:13092'],True
+citr__L_e,"['CHEBI:16349', 'CHEBI:57743']",['CHEBI:13092'],True
+cl_c,"['CHEBI:17996', 'CHEBI:50315', 'CHEBI:17883']",['CHEBI:13291'],True
+cl_e,"['CHEBI:17996', 'CHEBI:50315', 'CHEBI:17883']",['CHEBI:13291'],True
+clpn120_c,"['CHEBI:28494', 'CHEBI:62237']",['CHEBI:62237'],True
+clpn140_c,"['CHEBI:28494', 'CHEBI:62237', 'CHEBI:62862']",['CHEBI:62237'],True
+clpn141_c,"['CHEBI:28494', 'CHEBI:62237']",['CHEBI:62237'],True
+clpn150_c,"['CHEBI:28494', 'CHEBI:62237']",['CHEBI:62237'],True
+clpn160_c,"['CHEBI:28494', 'CHEBI:104586', 'CHEBI:62237']",['CHEBI:62237'],True
+clpn161_c,"['CHEBI:28494', 'CHEBI:62237', 'CHEBI:104873']",['CHEBI:62237'],True
+clpn170_c,"['CHEBI:28494', 'CHEBI:62237']",['CHEBI:62237'],True
+clpn180_c,"['CHEBI:28494', 'CHEBI:62237']",['CHEBI:62237'],True
+clpn181_c,"['CHEBI:105685', 'CHEBI:28494', 'CHEBI:62237']",['CHEBI:62237'],True
+clpnai150_c,"['CHEBI:28494', 'CHEBI:62237']",['CHEBI:62237'],True
+clpnai170_c,"['CHEBI:28494', 'CHEBI:62237']",['CHEBI:62237'],True
+clpni140_c,"['CHEBI:28494', 'CHEBI:62237']",['CHEBI:62237'],True
+clpni150_c,"['CHEBI:28494', 'CHEBI:62237']",['CHEBI:62237'],True
+clpni160_c,"['CHEBI:28494', 'CHEBI:62237']",['CHEBI:62237'],True
+clpni170_c,"['CHEBI:28494', 'CHEBI:62237']",['CHEBI:62237'],True
+clpni180_c,"['CHEBI:28494', 'CHEBI:62237']",['CHEBI:62237'],True
+cmp_c,"['CHEBI:17361', 'CHEBI:60377']",['CHEBI:13274'],True
+cmp_e,"['CHEBI:17361', 'CHEBI:60377']",['CHEBI:13274'],True
+cmpacna_c,"['CHEBI:16556', 'CHEBI:57812']",[None],False
+cmpglna_c,"['CHEBI:18098', 'CHEBI:58376']",[None],False
+co1dam_c,"['CHEBI:28531', 'CHEBI:58575']",['CHEBI:23329'],True
+co2_c,['CHEBI:16526'],['CHEBI:13282'],True
+co2_e,['CHEBI:16526'],['CHEBI:13282'],True
+co2dam_c,"['CHEBI:27937', 'CHEBI:58537']",['CHEBI:23331'],True
+co_c,"['CHEBI:17245', 'CHEBI:58072']",[None],False
+coa_c,"['CHEBI:15346', 'CHEBI:57287']",['CHEBI:13294'],True
+cobalt2_c,['CHEBI:48828'],['CHEBI:23335'],False
+cobalt2_e,['CHEBI:48828'],['CHEBI:23335'],False
+cobya_c,"['CHEBI:58894', 'CHEBI:52499']",['CHEBI:52499'],True
+codhpre6_c,"['CHEBI:72780', 'CHEBI:3789']",['CHEBI:3789'],True
+codscl5a_c,"['CHEBI:60062', 'CHEBI:52488']",['CHEBI:52488'],True
+codscl5b_c,"['CHEBI:52489', 'CHEBI:60063']",['CHEBI:52489'],True
+coelichelin_c,"['CHEBI:80049', 'CHEBI:84724']",[None],False
+coelichelin_e,"['CHEBI:80049', 'CHEBI:84724']",[None],False
+cofac3_c,"['CHEBI:73299', 'CHEBI:73373']",[None],False
+cooodacp_c,['CHEBI:31060'],['CHEBI:31060'],True
+copre2_c,"['CHEBI:52491', 'CHEBI:60053', 'CHEBI:3790', 'CHEBI:60049']",['CHEBI:52491'],True
+copre3_c,"['CHEBI:3791', 'CHEBI:60060']",['CHEBI:3791'],True
+copre4_c,"['CHEBI:60061', 'CHEBI:3792']",['CHEBI:3792'],True
+copre6_c,[],['CHEBI:3794'],False
+copre8_c,"['CHEBI:3795', 'CHEBI:70792']",['CHEBI:70792'],True
+coucoa_c,"['CHEBI:85531', 'CHEBI:15499', 'CHEBI:85008', 'CHEBI:57355']",[None],False
+coxsperm_c,"['CHEBI:67204', 'CHEBI:65070']",[None],False
+cpmp_c,"['CHEBI:52994', 'CHEBI:58907', 'CHEBI:59648']",['CHEBI:60210'],False
+cpppg1_c,"['CHEBI:28607', 'CHEBI:62631']",['CHEBI:23385'],True
+cpppg3_c,"['CHEBI:15439', 'CHEBI:57309']",['CHEBI:14020'],True
+cptrc_c,"['CHEBI:17902', 'CHEBI:58318']",['CHEBI:12497'],True
+creat_c,"['CHEBI:66924', 'CHEBI:16919', 'CHEBI:57947', 'CHEBI:16737']",[None],False
+crn_c,"['CHEBI:16347', 'CHEBI:39547']",[None],False
+crtn_c,['CHEBI:16737'],[None],False
+csn_c,['CHEBI:16040'],['CHEBI:14066'],True
+csn_e,['CHEBI:16040'],['CHEBI:14066'],True
+cspmd_c,"['CHEBI:65072', 'CHEBI:66868']",[None],False
+ctp_c,"['CHEBI:37563', 'CHEBI:17677', 'CHEBI:58231']",['CHEBI:13286'],True
+cu2_c,"['CHEBI:52630', 'CHEBI:28694', 'CHEBI:30052', 'CHEBI:29036']",['CHEBI:20882'],True
+cu2_e,"['CHEBI:52630', 'CHEBI:28694', 'CHEBI:30052', 'CHEBI:29036']",['CHEBI:20882'],True
+cu_c,"['CHEBI:49552', 'CHEBI:52630', 'CHEBI:28694', 'CHEBI:30052']",['CHEBI:49550'],False
+cu_e,"['CHEBI:49552', 'CHEBI:52630', 'CHEBI:28694', 'CHEBI:30052']",['CHEBI:49550'],False
+cyan_c,"['CHEBI:17514', 'CHEBI:18407', 'CHEBI:36856']","['CHEBI:13362', 'CHEBI:8407']",False
+cyccarcoa_c,"['CHEBI:76270', 'CHEBI:28005']",[None],False
+cychex1coa_c,"['CHEBI:28557', 'CHEBI:76271']",[None],False
+cychex_c,['CHEBI:17854'],[None],False
+cychxaol_c,['CHEBI:18099'],[None],False
+cys__L_c,"['CHEBI:32442', 'CHEBI:15356', 'CHEBI:32445', 'CHEBI:32457', 'CHEBI:32458', 'CHEBI:35237', 'CHEBI:35235', 'CHEBI:17561', 'CHEBI:32443', 'CHEBI:32456']",['CHEBI:13095'],True
+cys__L_e,"['CHEBI:32442', 'CHEBI:15356', 'CHEBI:32445', 'CHEBI:32457', 'CHEBI:32458', 'CHEBI:35237', 'CHEBI:35235', 'CHEBI:17561', 'CHEBI:32443', 'CHEBI:32456']",['CHEBI:13095'],True
+cyst__L_c,"['CHEBI:58161', 'CHEBI:17482']",['CHEBI:13093'],True
+cystrna_c,"['CHEBI:29152', 'CHEBI:74764']",['CHEBI:13096'],True
+cytd_c,['CHEBI:17562'],['CHEBI:14063'],True
+cytd_e,['CHEBI:17562'],['CHEBI:14063'],True
+d11oxpen_c,"['CHEBI:70780', 'CHEBI:70797']",[None],False
+d5kg_c,"['CHEBI:27972', 'CHEBI:16669']",['CHEBI:1074'],True
+d5kgp_c,"['CHEBI:57949', 'CHEBI:16925']",['CHEBI:1075'],True
+dacepspo_c,"['CHEBI:58366', 'CHEBI:18065']",[None],False
+dad_2_c,['CHEBI:17256'],['CHEBI:14112'],True
+dad_2_e,['CHEBI:17256'],['CHEBI:14112'],True
+dad_5_c,['CHEBI:17319'],['CHEBI:12061'],True
+dadp_c,"['CHEBI:57667', 'CHEBI:16174']",['CHEBI:10489'],True
+damp_c,"['CHEBI:17713', 'CHEBI:58245']",['CHEBI:10490'],True
+damp_e,"['CHEBI:17713', 'CHEBI:58245']",['CHEBI:10490'],True
+dann_c,"['CHEBI:2247', 'CHEBI:17830', 'CHEBI:58500']",['CHEBI:12242'],True
+datp_c,"['CHEBI:16284', 'CHEBI:495505', 'CHEBI:61404']",['CHEBI:10491'],True
+db4p_c,['CHEBI:50606'],['CHEBI:50606'],True
+dc2coa_c,"['CHEBI:61406', 'CHEBI:10723']",['CHEBI:10723'],True
+dcaACP_c,['CHEBI:4349'],['CHEBI:4349'],True
+dcaACPredQ_c,['CHEBI:4349'],['CHEBI:4349'],True
+dca_c,"['CHEBI:30813', 'CHEBI:27689']",['CHEBI:125804'],True
+dcacoa_c,"['CHEBI:61430', 'CHEBI:28493']",['CHEBI:23575'],True
+dcamp_c,"['CHEBI:15919', 'CHEBI:57567']",['CHEBI:12656'],True
+dcdp_c,"['CHEBI:58593', 'CHEBI:28846']",['CHEBI:10492'],True
+dcmp_c,"['CHEBI:15918', 'CHEBI:57566']",['CHEBI:10493'],True
+dcmp_e,"['CHEBI:15918', 'CHEBI:57566']",['CHEBI:10493'],True
+dctp_c,"['CHEBI:61481', 'CHEBI:57724', 'CHEBI:16311']",['CHEBI:10494'],True
+dcyt_c,['CHEBI:15698'],['CHEBI:15698'],True
+dcyt_e,['CHEBI:15698'],['CHEBI:15698'],True
+dd2coa_c,"['CHEBI:57330', 'CHEBI:15471']",['CHEBI:11489'],True
+ddcaACP_c,[],[None],False
+ddcaACPredL_c,[],[None],False
+ddcaACPredQ_c,[],[None],False
+ddca_c,"['CHEBI:30805', 'CHEBI:18262']",['CHEBI:14187'],True
+ddcacoa_c,"['CHEBI:15521', 'CHEBI:57375']",['CHEBI:14188'],True
+ddcap_c,[],[None],False
+dddeccoa_c,['CHEBI:29119'],[None],False
+ddhkACPact_c,['CHEBI:31131'],['CHEBI:31131'],True
+ddhrb_c,"['CHEBI:59904', 'CHEBI:43034']",['CHEBI:37430'],True
+decda_tb_c,"['CHEBI:65066', 'CHEBI:65096']",[None],False
+decint1_c,['CHEBI:81683'],['CHEBI:81683'],True
+dgal6p_c,"['CHEBI:4141', 'CHEBI:91004', 'CHEBI:12937']",['CHEBI:91004'],True
+dgdp_c,"['CHEBI:58595', 'CHEBI:28862']",['CHEBI:10495'],True
+dgmp_c,"['CHEBI:57673', 'CHEBI:16192', 'CHEBI:45049']",['CHEBI:10496'],True
+dgmp_e,"['CHEBI:57673', 'CHEBI:16192', 'CHEBI:45049']",['CHEBI:10496'],True
+dgsn_c,['CHEBI:17172'],['CHEBI:14116'],True
+dgsn_e,['CHEBI:17172'],['CHEBI:14116'],True
+dgtp_c,"['CHEBI:57794', 'CHEBI:16497', 'CHEBI:61429']",['CHEBI:10497'],True
+dh6na_c,"['CHEBI:64284', 'CHEBI:64254']",[None],False
+dh7oxcho_c,"['CHEBI:11893', 'CHEBI:16390']",[None],False
+dha_c,['CHEBI:16016'],['CHEBI:14340'],True
+dha_e,['CHEBI:16016'],['CHEBI:14340'],True
+dhap_c,"['CHEBI:16108', 'CHEBI:57642']",['CHEBI:14341'],True
+dhcinnm_c,"['CHEBI:48681', 'CHEBI:32356', 'CHEBI:58642']",[None],False
+dhdascb_c,"['CHEBI:58070', 'CHEBI:58539', 'CHEBI:27956', 'CHEBI:17242']",[None],False
+dhdcarn_c,"['CHEBI:57885', 'CHEBI:16758']",[None],False
+dhf_c,"['CHEBI:15633', 'CHEBI:57451']",['CHEBI:12245'],True
+dhgly_c,"['CHEBI:53664', 'CHEBI:77846', 'CHEBI:53647']",['CHEBI:53647'],True
+dhiconf_c,"['CHEBI:132245', 'CHEBI:131932']",[None],False
+dhiconfa_c,[],[None],False
+dhkACPact_c,['CHEBI:31491'],['CHEBI:31491'],True
+dhkdhqn_c,['CHEBI:81706'],['CHEBI:81706'],True
+dhlam_c,"['CHEBI:43711', 'CHEBI:17694']",['CHEBI:14153'],True
+dhlpro_c,['CHEBI:16194'],['CHEBI:14155'],True
+dhmpt_c,['CHEBI:71175'],['CHEBI:71175'],True
+dhna_c,"['CHEBI:18094', 'CHEBI:11173']",['CHEBI:11173'],True
+dhnpt_c,['CHEBI:17001'],['CHEBI:1001'],True
+dhor__S_c,"['CHEBI:30864', 'CHEBI:17025']",['CHEBI:11063'],True
+dhpmp_c,"['CHEBI:48954', 'CHEBI:58762']",['CHEBI:23756'],True
+dhpppn_c,"['CHEBI:18136', 'CHEBI:46951']",[None],False
+dhpt_c,[],['CHEBI:14160'],False
+dhxfut_c,"['CHEBI:51312', 'CHEBI:58864']",['CHEBI:51312'],True
+dim1oct_c,['CHEBI:61680'],[None],False
+dimp_c,"['CHEBI:28806', 'CHEBI:61194']",['CHEBI:19250'],True
+dimp_e,"['CHEBI:28806', 'CHEBI:61194']",['CHEBI:19250'],True
+din_c,['CHEBI:28997'],['CHEBI:19248'],True
+din_e,['CHEBI:28997'],['CHEBI:19248'],True
+ditp_c,"['CHEBI:61382', 'CHEBI:28807']",['CHEBI:10499'],True
+dmbzid_c,"['CHEBI:15890', 'CHEBI:23809']",['CHEBI:14172'],True
+dmlz_c,"['CHEBI:58201', 'CHEBI:17601']",['CHEBI:12185'],True
+dmpp_c,"['CHEBI:16057', 'CHEBI:57623']",['CHEBI:12280'],True
+dmppat_c,['CHEBI:17735'],[None],False
+dmthiopp_c,[],[None],False
+dna5mtc_c,['CHEBI:17493'],['CHEBI:13306'],True
+dnac_c,['CHEBI:17873'],['CHEBI:13311'],True
+dnad_c,"['CHEBI:14105', 'CHEBI:58437', 'CHEBI:18304']",['CHEBI:14103'],True
+dnpaACPact_c,"['CHEBI:49887', 'CHEBI:31034']",[None],False
+dolichol_c,"['CHEBI:16214', 'CHEBI:57683', 'CHEBI:16091']",[None],False
+dolmanp_c,"['CHEBI:57523', 'CHEBI:15809']",[None],False
+donor_c,['CHEBI:17499'],['17499'],False
+dopa__L_c,"['CHEBI:15765', 'CHEBI:67012', 'CHEBI:57504']",[None],False
+dpcoa_c,"['CHEBI:15468', 'CHEBI:57328']",['CHEBI:11793'],True
+dpntp_c,['CHEBI:929'],['CHEBI:929'],True
+dpperypfur_c,"['CHEBI:65100', 'CHEBI:65067']",[None],False
+drib_c,['CHEBI:28816'],['CHEBI:1084'],False
+drib_e,['CHEBI:28816'],['CHEBI:1084'],False
+dscl_c,"['CHEBI:58827', 'CHEBI:50602']",['CHEBI:14870'],True
+dtbt_c,"['CHEBI:16691', 'CHEBI:57861']",['CHEBI:14132'],True
+dtdp26ddgh2e2u_c,"['CHEBI:84540', 'CHEBI:85369']",[None],False
+dtdp34dh26doglc_c,"['CHEBI:84540', 'CHEBI:85369']",[None],False
+dtdp4d6dg_c,"['CHEBI:16128', 'CHEBI:57649']",['CHEBI:10510'],True
+dtdp4d6dm_c,"['CHEBI:45868', 'CHEBI:15744', 'CHEBI:62830', 'CHEBI:57494']",['CHEBI:10511'],True
+dtdp4dh26dall_c,['CHEBI:29722'],[None],False
+dtdp4dh3m26ddglc_c,[],[None],False
+dtdp4h26dthp_c,"['CHEBI:84537', 'CHEBI:85368']",[None],False
+dtdp_c,"['CHEBI:18075', 'CHEBI:58369']",['CHEBI:10500'],True
+dtdpaoliv_c,['CHEBI:29729'],[None],False
+dtdpgal_c,['CHEBI:15848'],['CHEBI:23555'],True
+dtdpglu_c,"['CHEBI:57477', 'CHEBI:15700']",['CHEBI:10526'],True
+dtdprmn_c,['CHEBI:35452'],['CHEBI:10518'],False
+dtmp_c,"['CHEBI:17013', 'CHEBI:46960', 'CHEBI:63528']",['CHEBI:10529'],True
+dtmp_e,"['CHEBI:17013', 'CHEBI:46960', 'CHEBI:63528']",['CHEBI:10529'],True
+dttoao_c,['CHEBI:28003'],['CHEBI:926'],True
+dttp_c,"['CHEBI:58370', 'CHEBI:37568', 'CHEBI:18077']",['CHEBI:10530'],True
+dudp_c,"['CHEBI:28850', 'CHEBI:60471']",['CHEBI:10531'],True
+dump_c,"['CHEBI:17622', 'CHEBI:246422']",['CHEBI:10532'],True
+dump_e,"['CHEBI:17622', 'CHEBI:246422']",['CHEBI:10532'],True
+duri_c,['CHEBI:16450'],['CHEBI:11398'],True
+duri_e,['CHEBI:16450'],['CHEBI:11398'],True
+dutp_c,"['CHEBI:58212', 'CHEBI:17625', 'CHEBI:61555']",['CHEBI:10533'],True
+dvchlda_c,"['CHEBI:58688', 'CHEBI:83349', 'CHEBI:38259']",[None],False
+dvpchlda_c,"['CHEBI:77667', 'CHEBI:30619', 'CHEBI:58632']",[None],False
+dxyl5p_c,"['CHEBI:16493', 'CHEBI:57792']",['CHEBI:11254'],True
+dxyl_c,['CHEBI:28354'],['CHEBI:19038'],True
+e4hglu_c,"['CHEBI:21285', 'CHEBI:6331']",['CHEBI:21285'],True
+e4p_c,"['CHEBI:48153', 'CHEBI:16897']",['CHEBI:12921'],True
+ecaplac_c,['CHEBI:17915'],[None],False
+ecinncoa_c,"['CHEBI:10956', 'CHEBI:57252', 'CHEBI:57324', 'CHEBI:15463']",[None],False
+ectoine_c,"['CHEBI:58515', 'CHEBI:27592', 'CHEBI:63475']",[None],False
+egmeACP_c,[],[None],False
+eig3p_c,"['CHEBI:58278', 'CHEBI:17805']",['CHEBI:12888'],True
+emcoa__R_c,"['CHEBI:85803', 'CHEBI:85316']",[None],False
+emcoa__S_c,"['CHEBI:60907', 'CHEBI:60909']",[None],False
+enter_c,"['CHEBI:38150', 'CHEBI:77805', 'CHEBI:28855']",[None],False
+enter_e,"['CHEBI:38150', 'CHEBI:77805', 'CHEBI:28855']",[None],False
+episz_c,['CHEBI:51458'],['CHEBI:1458'],False
+epm_c,['CHEBI:4808'],['CHEBI:4808'],True
+epm_e,['CHEBI:4808'],[None],False
+epmeACP_c,[],[None],False
+etf_ox_c,[],[None],False
+etha_c,"['CHEBI:57603', 'CHEBI:16000']",['CHEBI:14223'],True
+etha_e,"['CHEBI:57603', 'CHEBI:16000']",['CHEBI:14223'],True
+etoh_c,"['CHEBI:52092', 'CHEBI:16236']",['CHEBI:14222'],True
+etoh_e,"['CHEBI:52092', 'CHEBI:16236']",['CHEBI:14222'],True
+f1p_c,"['CHEBI:58674', 'CHEBI:37515']",['CHEBI:78737'],False
+f420_0_c,"['CHEBI:59532', 'CHEBI:59907', 'CHEBI:59531']",['CHEBI:59531'],True
+f420_1_c,"['CHEBI:59536', 'CHEBI:59543', 'CHEBI:59920']",['CHEBI:59536'],True
+f420_c,"['CHEBI:59541', 'CHEBI:16848', 'CHEBI:57922']",[None],False
+f420ox_c,[],[None],False
+f420red_c,"['CHEBI:15823', 'CHEBI:57530']",[None],False
+f6p_B_c,"['CHEBI:16084', 'CHEBI:57634']",['CHEBI:10375'],True
+f6p_c,"['CHEBI:78697', 'CHEBI:88003']",['CHEBI:12926'],False
+fad_c,"['CHEBI:57692', 'CHEBI:16238']",['CHEBI:13315'],True
+fadh2_c,"['CHEBI:58307', 'CHEBI:17877']",['CHEBI:13316'],True
+fald_c,['CHEBI:16842'],['CHEBI:14274'],True
+fald_e,['CHEBI:16842'],['CHEBI:14274'],True
+fc1p_c,"['CHEBI:16647', 'CHEBI:57846']",[None],False
+fdp_B_c,"['CHEBI:40595', 'CHEBI:32968']",['CHEBI:10374'],False
+fdp_c,"['CHEBI:37736', 'CHEBI:49299']",['CHEBI:37736'],True
+fdxox_c,['CHEBI:17908'],['CHEBI:7836'],True
+fdxrd_c,['CHEBI:17513'],['CHEBI:15024'],True
+fe2_c,['CHEBI:29033'],['CHEBI:13319'],True
+fe2_e,['CHEBI:29033'],['CHEBI:13319'],True
+fe3_c,['CHEBI:29034'],['CHEBI:13320'],True
+fe3_e,['CHEBI:29034'],['CHEBI:13320'],True
+feroxB_c,['CHEBI:5044'],['CHEBI:5044'],True
+feroxB_e,['CHEBI:5044'],['CHEBI:5044'],True
+feroxBfe_c,[],['CHEBI:5044'],False
+feroxBfe_e,[],['CHEBI:5044'],False
+feroxE_c,['CHEBI:60261'],['CHEBI:5044'],False
+feroxE_e,['CHEBI:60261'],['CHEBI:5044'],False
+feroxEfe_c,[],['CHEBI:5044'],False
+feroxEfe_e,[],['CHEBI:5044'],False
+feroxG1_c,['CHEBI:50439'],[None],False
+fgam_c,"['CHEBI:18272', 'CHEBI:42411', 'CHEBI:58426']",['CHEBI:12635'],True
+ficytc_c,"['CHEBI:16951', 'CHEBI:15991', 'CHEBI:15719']",[None],False
+flaviolin_c,"['CHEBI:42646', 'CHEBI:58696']",[None],False
+fldox_c,[],[None],False
+fldrd_c,[],[None],False
+fmettrna_c,['CHEBI:17119'],['CHEBI:12510'],True
+fmn_c,"['CHEBI:17621', 'CHEBI:58210']",['CHEBI:13317'],True
+fmnh2_c,"['CHEBI:133886', 'CHEBI:57618', 'CHEBI:16048']",['CHEBI:13318'],True
+focytc_c,"['CHEBI:15983', 'CHEBI:16928', 'CHEBI:15856']",[None],False
+for_c,"['CHEBI:15740', 'CHEBI:30751']",['CHEBI:14276'],True
+for_e,"['CHEBI:15740', 'CHEBI:30751']",['CHEBI:14276'],True
+forcoa_c,"['CHEBI:15522', 'CHEBI:57376']",['CHEBI:14282'],True
+forfurmpp_c,"['CHEBI:83407', 'CHEBI:84213']",[None],False
+forglu_c,"['CHEBI:18327', 'CHEBI:7274', 'CHEBI:58928', 'CHEBI:21704']",['CHEBI:12502'],True
+foriglut_c,[],[None],False
+formhop_c,[],[None],False
+formyct_c,['CHEBI:15735'],[None],False
+fpntp_c,['CHEBI:27985'],['CHEBI:5144'],True
+fpram_c,"['CHEBI:58478', 'CHEBI:18413']",['CHEBI:11474'],True
+fprica_c,"['CHEBI:58467', 'CHEBI:18381']",['CHEBI:12125'],True
+frdp_2_c,"['CHEBI:19515', 'CHEBI:162247']",[None],False
+frdp_c,"['CHEBI:50277', 'CHEBI:175763', 'CHEBI:17407']",['CHEBI:10700'],True
+frmd_c,"['CHEBI:48431', 'CHEBI:16397']",['CHEBI:14275'],True
+fru_B_c,['CHEBI:28645'],[None],False
+fru_c,"['CHEBI:37714', 'CHEBI:28757', 'CHEBI:48095']",['CHEBI:24104'],True
+fru_e,"['CHEBI:37714', 'CHEBI:28757', 'CHEBI:48095']",['CHEBI:24104'],True
+fruur_c,"['CHEBI:16849', 'CHEBI:4126', 'CHEBI:20937', 'CHEBI:59863']",[None],False
+fum_c,"['CHEBI:37154', 'CHEBI:29806', 'CHEBI:18012']",['CHEBI:14284'],True
+fum_e,"['CHEBI:37154', 'CHEBI:29806', 'CHEBI:18012']",['CHEBI:14284'],True
+fumpyr_c,"['CHEBI:16854', 'CHEBI:47941', 'CHEBI:1506', 'CHEBI:47940']",[None],False
+fut_c,"['CHEBI:51310', 'CHEBI:58863']",['CHEBI:51310'],True
+g15lac_c,['CHEBI:16217'],[None],False
+g1p_B_c,"['CHEBI:16218', 'CHEBI:57684']",[None],False
+g1p_c,"['CHEBI:57629', 'CHEBI:16077']",['CHEBI:10246'],False
+g3p_c,"['CHEBI:58027', 'CHEBI:59776', 'CHEBI:29052', 'CHEBI:17138']",['CHEBI:12983'],True
+g3pc_c,['CHEBI:16870'],['CHEBI:10646'],True
+g3pc_e,['CHEBI:16870'],['CHEBI:10646'],True
+g3pe_c,"['CHEBI:16929', 'CHEBI:57952']",['CHEBI:10647'],True
+g3pe_e,"['CHEBI:16929', 'CHEBI:57952']",['CHEBI:10647'],True
+g3pg_c,"['CHEBI:5457', 'CHEBI:61933']",['CHEBI:5457'],True
+g3pg_e,"['CHEBI:5457', 'CHEBI:61933']",['CHEBI:5457'],True
+g3pi_c,"['CHEBI:18321', 'CHEBI:58444']",['CHEBI:10645'],True
+g3pi_e,"['CHEBI:18321', 'CHEBI:58444']",['CHEBI:10645'],True
+g3ps_c,"['CHEBI:64765', 'CHEBI:64945']",['CHEBI:64765'],True
+g3ps_e,"['CHEBI:64765', 'CHEBI:64945']",['CHEBI:64765'],True
+g6p_A_c,"['CHEBI:58225', 'CHEBI:17665']",['CHEBI:10245'],True
+g6p_B_c,"['CHEBI:17719', 'CHEBI:58247']","['CHEBI:10399', 'CHEBI:8247']",False
+g6p_c,"['CHEBI:4170', 'CHEBI:61548', 'CHEBI:14314']",['CHEBI:4170'],True
+ga_c,"['CHEBI:16918', 'CHEBI:30778']",[None],False
+gact_e,"['CHEBI:91020', 'CHEBI:2448']",[None],False
+gal14lac__D_c,"['CHEBI:85532', 'CHEBI:85317']",[None],False
+gal15lac_c,"['CHEBI:84190', 'CHEBI:83383']",[None],False
+gal1p_c,"['CHEBI:17973', 'CHEBI:58336']",['CHEBI:10232'],True
+gal__L_c_c,"['CHEBI:37618', 'CHEBI:37619']",[None],False
+gal_aD_c,"['CHEBI:4139', 'CHEBI:12936', 'CHEBI:17118', 'CHEBI:28061']",[None],False
+gal_c,"['CHEBI:4139', 'CHEBI:12936', 'CHEBI:17118', 'CHEBI:28061']",['CHEBI:12936'],True
+gal_e,"['CHEBI:4139', 'CHEBI:12936', 'CHEBI:17118', 'CHEBI:28061']",['CHEBI:12936'],True
+galac14lac_c,['CHEBI:17464'],[None],False
+galac15lac_c,[],[None],False
+galct__D_c,"['CHEBI:35390', 'CHEBI:48871', 'CHEBI:30852', 'CHEBI:16537']",[None],False
+galctn__D_c,"['CHEBI:16534', 'CHEBI:24148', 'CHEBI:24149', 'CHEBI:12931']",['CHEBI:12931'],True
+galctn__D_e,"['CHEBI:16534', 'CHEBI:24148', 'CHEBI:24149', 'CHEBI:12931']",['CHEBI:12931'],True
+gam1p_c,"['CHEBI:27625', 'CHEBI:58516']",['CHEBI:12316'],True
+gam6p_c,"['CHEBI:58725', 'CHEBI:12962', 'CHEBI:47987']",['CHEBI:12317'],False
+gam_e,"['CHEBI:17315', 'CHEBI:58723', 'CHEBI:47977', 'CHEBI:5417']",['CHEBI:12961'],True
+gar_c,"['CHEBI:58457', 'CHEBI:18349']",['CHEBI:12623'],True
+gcald_c,"['CHEBI:17071', 'CHEBI:131198']",['CHEBI:14347'],True
+gcarote_c,['CHEBI:27740'],[None],False
+gcgguaiac_c,[],[None],False
+gcgguaiace_c,[],[None],False
+gdp6dklh_c,[],[None],False
+gdp6domanhep_c,[],[None],False
+gdp_c,"['CHEBI:17552', 'CHEBI:65180', 'CHEBI:58189']",['CHEBI:13327'],True
+gdpddman_c,"['CHEBI:16955', 'CHEBI:57964']",['CHEBI:13329'],True
+gdpmann_c,"['CHEBI:15820', 'CHEBI:84880', 'CHEBI:57527', 'CHEBI:84881']",['CHEBI:13328'],True
+gdpmannur_c,"['CHEBI:17466', 'CHEBI:21161']",[None],False
+gdptp_c,"['CHEBI:60028', 'CHEBI:71477', 'CHEBI:16690']",['CHEBI:14378'],True
+geosmin_c,"['CHEBI:46702', 'CHEBI:46703']",['CHEBI:6702'],False
+geranial_c,['CHEBI:16980'],[None],False
+geraniol_c,['CHEBI:17447'],[None],False
+gg4abut_c,"['CHEBI:49260', 'CHEBI:58800']",[None],False
+ggaggdcap_c,[],[None],False
+ggcysto_c,"['CHEBI:82703', 'CHEBI:83290']",[None],False
+ggdp_c,"['CHEBI:58756', 'CHEBI:48861', 'CHEBI:57533', 'CHEBI:15831']",['CHEBI:14300'],True
+ggl_c,"['CHEBI:15754', 'CHEBI:24168']",['CHEBI:11746'],True
+ggl_e,"['CHEBI:15754', 'CHEBI:24168']",['CHEBI:11746'],True
+ggputresc_c,"['CHEBI:48005', 'CHEBI:58731']",[None],False
+ghb_c,"['CHEBI:16724', 'CHEBI:30830']",[None],False
+glc__D_c,"['CHEBI:17634', 'CHEBI:4167']",['CHEBI:12965'],True
+glc__D_e,"['CHEBI:17634', 'CHEBI:4167']",['CHEBI:12965'],True
+glc__bD_c,['CHEBI:15903'],['CHEBI:41140'],True
+glcn_c,"['CHEBI:18391', 'CHEBI:24266', 'CHEBI:33198', 'CHEBI:24265']",['CHEBI:12955'],True
+glcn_e,"['CHEBI:18391', 'CHEBI:24266', 'CHEBI:33198', 'CHEBI:24265']",['CHEBI:12955'],True
+glcr_c,"['CHEBI:16002', 'CHEBI:30612', 'CHEBI:33801']",['CHEBI:12953'],True
+glcr_e,"['CHEBI:16002', 'CHEBI:30612', 'CHEBI:33801']",['CHEBI:12953'],True
+gln__L_c,"['CHEBI:28300', 'CHEBI:32665', 'CHEBI:32666', 'CHEBI:58359', 'CHEBI:18050', 'CHEBI:32678', 'CHEBI:32679']",['CHEBI:13110'],True
+gln__L_e,"['CHEBI:28300', 'CHEBI:32665', 'CHEBI:32666', 'CHEBI:58359', 'CHEBI:18050', 'CHEBI:32678', 'CHEBI:32679']",['CHEBI:13110'],True
+glntrna_c,['CHEBI:29166'],['CHEBI:13112'],True
+glu1sa_c,"['CHEBI:57501', 'CHEBI:15757', 'CHEBI:11022']",['CHEBI:11022'],True
+glu5p_c,"['CHEBI:58274', 'CHEBI:17798']",['CHEBI:13108'],True
+glu5sa_c,"['CHEBI:58066', 'CHEBI:17232']",['CHEBI:13109'],True
+glu__D_c,"['CHEBI:29989', 'CHEBI:15966', 'CHEBI:29986']",['CHEBI:12979'],True
+glu__L_c,"['CHEBI:18237', 'CHEBI:29988', 'CHEBI:29987', 'CHEBI:16015', 'CHEBI:29985', 'CHEBI:14321', 'CHEBI:76051']",['CHEBI:13107'],True
+glu__L_e,"['CHEBI:18237', 'CHEBI:29988', 'CHEBI:29987', 'CHEBI:16015', 'CHEBI:29985', 'CHEBI:14321', 'CHEBI:76051']",['CHEBI:13107'],True
+gluca14lac_c,"['CHEBI:85336', 'CHEBI:85805']",[None],False
+gluca15lac_c,"['CHEBI:84191', 'CHEBI:83384']",[None],False
+glucor__bD_c,"['CHEBI:85313', 'CHEBI:28860']",[None],False
+glucys_c,"['CHEBI:17515', 'CHEBI:58173']",[None],False
+glutADP_c,[],[None],False
+glutar_c,"['CHEBI:30921', 'CHEBI:35907', 'CHEBI:17859', 'CHEBI:24329']",['CHEBI:14322'],True
+glutcoa_c,"['CHEBI:15524', 'CHEBI:57378']",['CHEBI:14326'],True
+glutrna_c,['CHEBI:29157'],['CHEBI:13114'],True
+glx_c,"['CHEBI:36655', 'CHEBI:16891']",['CHEBI:14368'],True
+gly_c,"['CHEBI:15428', 'CHEBI:32507', 'CHEBI:32508', 'CHEBI:57305']",['CHEBI:10792'],True
+gly_e,"['CHEBI:15428', 'CHEBI:32507', 'CHEBI:32508', 'CHEBI:57305']",['CHEBI:10792'],True
+glyald_c,['CHEBI:17378'],['CHEBI:12982'],True
+glyald_e,['CHEBI:17378'],['CHEBI:12982'],True
+glyb_c,"['CHEBI:41139', 'CHEBI:17750']",['CHEBI:12531'],True
+glyb_e,"['CHEBI:41139', 'CHEBI:17750']",['CHEBI:12531'],True
+glyc3p_c,"['CHEBI:57597', 'CHEBI:15978']",['CHEBI:10648'],True
+glyc3p_e,"['CHEBI:57597', 'CHEBI:15978']",['CHEBI:10648'],True
+glyc__R_c,"['CHEBI:16659', 'CHEBI:32398']",['CHEBI:10999'],True
+glyc__R_e,"['CHEBI:16659', 'CHEBI:32398']",['CHEBI:10999'],True
+glyc_c,['CHEBI:17754'],['CHEBI:131422'],True
+glyc_e,['CHEBI:17754'],['CHEBI:131422'],True
+glyclt_c,"['CHEBI:29805', 'CHEBI:17497']",['CHEBI:14348'],True
+glyclt_e,"['CHEBI:29805', 'CHEBI:17497']",['CHEBI:14348'],True
+glycogen_c,"['CHEBI:28087', 'CHEBI:24384']",['CHEBI:24379'],True
+glytrna_c,['CHEBI:29156'],['CHEBI:14363'],True
+gmeACP_c,[],[None],False
+gmhep17bp__B_c,"['CHEBI:60206', 'CHEBI:60208']",[None],False
+gmhep1p_c,"['CHEBI:28137', 'CHEBI:60002', 'CHEBI:61593']",[None],False
+gmhep7p_c,"['CHEBI:60202', 'CHEBI:28723', 'CHEBI:59955', 'CHEBI:60204']",[None],False
+gmp_c,"['CHEBI:17345', 'CHEBI:58115']",['CHEBI:13341'],True
+gmp_e,"['CHEBI:17345', 'CHEBI:58115']",['CHEBI:13341'],True
+gpdtoucap_c,[],[None],False
+grdp_c,"['CHEBI:58057', 'CHEBI:17211']",['CHEBI:14299'],True
+grmcrnd_c,['CHEBI:49044'],[None],False
+grmcrol_c,['CHEBI:46734'],['CHEBI:6734'],False
+gsn_c,['CHEBI:16750'],['CHEBI:14375'],True
+gsn_e,['CHEBI:16750'],['CHEBI:14375'],True
+gtca1_c,[],[None],False
+gtca2_c,[],[None],False
+gtca3_c,[],[None],False
+gtca3_e,[],[None],False
+gthox_c,"['CHEBI:17858', 'CHEBI:58297']",['CHEBI:14328'],True
+gthrd_c,"['CHEBI:16856', 'CHEBI:57925']",[None],False
+gtp_c,"['CHEBI:37565', 'CHEBI:15996', 'CHEBI:57600']",['CHEBI:13342'],True
+gua_c,['CHEBI:16235'],['CHEBI:14371'],True
+gua_e,['CHEBI:16235'],['CHEBI:14371'],True
+gullac_c,['CHEBI:17587'],[None],False
+guln__L_c,"['CHEBI:13115', 'CHEBI:16154', 'CHEBI:24462', 'CHEBI:24461']",[None],False
+h2_c,['CHEBI:18276'],[None],False
+h2mb4p_c,"['CHEBI:15664', 'CHEBI:128753']",['CHEBI:10952'],True
+h2o2_c,"['CHEBI:29192', 'CHEBI:16240']",['CHEBI:13354'],True
+h2o2_e,"['CHEBI:29192', 'CHEBI:16240']",['CHEBI:13354'],True
+h2o_c,"['CHEBI:29412', 'CHEBI:16234', 'CHEBI:15377']",['CHEBI:10743'],True
+h2o_e,"['CHEBI:29412', 'CHEBI:16234', 'CHEBI:15377']",['CHEBI:10743'],True
+h2s_c,"['CHEBI:15138', 'CHEBI:16136', 'CHEBI:29919', 'CHEBI:30488']",['CHEBI:13356'],True
+h2s_e,"['CHEBI:15138', 'CHEBI:16136', 'CHEBI:29919', 'CHEBI:30488']",['CHEBI:13356'],True
+hLkynr_c,"['CHEBI:58125', 'CHEBI:17380']",['CHEBI:11823'],True
+h_c,['CHEBI:15378'],['CHEBI:10744'],True
+h_e,['CHEBI:15378'],['CHEBI:10744'],True
+haphenon_c,['CHEBI:28032'],[None],False
+hccystox_c,"['CHEBI:79057', 'CHEBI:82706']",[None],False
+hco3_c,"['CHEBI:17544', 'CHEBI:28976', 'CHEBI:41609']",['CHEBI:13351'],True
+hcys__L_c,"['CHEBI:58199', 'CHEBI:63072', 'CHEBI:17588']",['CHEBI:13122'],True
+hdca_c,"['CHEBI:15756', 'CHEBI:7896']",['CHEBI:14730'],True
+hdcap_c,[],[None],False
+hdcea_c,"['CHEBI:78095', 'CHEBI:24548', 'CHEBI:28716', 'CHEBI:32372']",['CHEBI:25836'],True
+hdceap_c,[],[None],False
+hdcoa_c,"['CHEBI:28935', 'CHEBI:61526']",['CHEBI:61526'],True
+hdd2coa_c,"['CHEBI:28935', 'CHEBI:61526']",['CHEBI:10728'],True
+hdeACP_c,[],[None],False
+hdhk_c,['CHEBI:81704'],['CHEBI:81704'],True
+hdoxcad_c,['CHEBI:50440'],[None],False
+hemeA_c,"['CHEBI:36163', 'CHEBI:24479', 'CHEBI:61715']",['CHEBI:24479'],True
+hemeO_c,"['CHEBI:36301', 'CHEBI:60530', 'CHEBI:24480']",['CHEBI:36301'],True
+hepdp_c,"['CHEBI:17613', 'CHEBI:58206']",['CHEBI:10191'],True
+hercyn_c,"['CHEBI:67049', 'CHEBI:15781']",[None],False
+hexACP_c,['CHEBI:5704'],['CHEBI:5704'],True
+hexACPcda_c,['CHEBI:5704'],['CHEBI:5704'],True
+hexACPredQ_c,['CHEBI:5704'],['CHEBI:5704'],True
+hexdp_c,"['CHEBI:17528', 'CHEBI:53047', 'CHEBI:58179']",['CHEBI:10192'],True
+hgbam_c,"['CHEBI:77874', 'CHEBI:58536', 'CHEBI:27914']",['CHEBI:24642'],True
+hgbyr_c,"['CHEBI:77873', 'CHEBI:17926', 'CHEBI:58323']",['CHEBI:14415'],True
+hgentis_c,"['CHEBI:16169', 'CHEBI:44747']",['CHEBI:11452'],True
+hgmeACP_c,[],[None],False
+his__L_c,"['CHEBI:15971', 'CHEBI:32529', 'CHEBI:32532', 'CHEBI:32511', 'CHEBI:32513', 'CHEBI:32531', 'CHEBI:32512', 'CHEBI:27570', 'CHEBI:32510', 'CHEBI:32530', 'CHEBI:57595']",['CHEBI:13117'],True
+his__L_e,"['CHEBI:15971', 'CHEBI:32529', 'CHEBI:32532', 'CHEBI:32511', 'CHEBI:32513', 'CHEBI:32531', 'CHEBI:32512', 'CHEBI:27570', 'CHEBI:32510', 'CHEBI:32530', 'CHEBI:57595']",['CHEBI:13117'],True
+hisp_c,"['CHEBI:16996', 'CHEBI:57980']",['CHEBI:13119'],True
+histd_c,"['CHEBI:16255', 'CHEBI:57699']",['CHEBI:13118'],True
+histda_c,"['CHEBI:64802', 'CHEBI:27676']",['CHEBI:64802'],True
+histrna_c,['CHEBI:29155'],['CHEBI:13120'],True
+hmbil_c,"['CHEBI:57845', 'CHEBI:16645']",['CHEBI:14423'],True
+hmgcoa_c,"['CHEBI:15467', 'CHEBI:43074', 'CHEBI:11814']",['CHEBI:11045'],True
+hmgth_c,"['CHEBI:48926', 'CHEBI:22052', 'CHEBI:58758']",[None],False
+hmmsh_c,['CHEBI:61586'],[None],False
+hom__L_c,"['CHEBI:15699', 'CHEBI:57476']",['CHEBI:13123'],True
+hom__L_e,"['CHEBI:15699', 'CHEBI:57476']",['CHEBI:13123'],True
+hop22en_c,['CHEBI:4648'],"['CHEBI:4648', 'CHEBI:648']",False
+hop22ol_c,['CHEBI:36484'],['CHEBI:14411'],True
+hosuprop_c,[],[None],False
+houdic_c,"['CHEBI:58639', 'CHEBI:31132']",['CHEBI:58639'],True
+hpglu_c,"['CHEBI:58140', 'CHEBI:26920', 'CHEBI:17420']",['CHEBI:15224'],True
+hpmeACP_c,[],[None],False
+hpyr_c,"['CHEBI:17180', 'CHEBI:30841']",['CHEBI:11837'],True
+hqn_c,['CHEBI:17594'],[None],False
+hsql_c,['CHEBI:88123'],[None],False
+hx2coa_c,"['CHEBI:28706', 'CHEBI:62077']",['CHEBI:10726'],True
+hxa_c,"['CHEBI:30776', 'CHEBI:17120']",['CHEBI:14398'],True
+hxan_c,['CHEBI:17368'],['CHEBI:14431'],True
+hxan_e,['CHEBI:17368'],['CHEBI:14431'],True
+hxcoa_c,"['CHEBI:62620', 'CHEBI:27540']",['CHEBI:24575'],True
+hycorn_c,"['CHEBI:78275', 'CHEBI:79095']",[None],False
+hyxsuccad_c,['CHEBI:50443'],[None],False
+iacgam_c,['CHEBI:52442'],['CHEBI:52442'],True
+iad_c,['CHEBI:16031'],[None],False
+iasp_c,"['CHEBI:77875', 'CHEBI:58831', 'CHEBI:50616']",['CHEBI:24784'],True
+ibcoa_c,"['CHEBI:15479', 'CHEBI:57338']",['CHEBI:11629'],True
+ichor_c,"['CHEBI:29780', 'CHEBI:17582']",['CHEBI:14464'],True
+icit_c,"['CHEBI:30887', 'CHEBI:16087', 'CHEBI:36454', 'CHEBI:36453']",['CHEBI:14465'],True
+idon__L_c,"['CHEBI:21336', 'CHEBI:17796']",['CHEBI:13126'],True
+idon__L_e,"['CHEBI:21336', 'CHEBI:17796']",['CHEBI:13126'],True
+idp_c,"['CHEBI:58280', 'CHEBI:17808']",['CHEBI:13371'],True
+igam_c,"['CHEBI:52283', 'CHEBI:58886']",['CHEBI:58886'],True
+ile__L_c,"['CHEBI:32604', 'CHEBI:58045', 'CHEBI:32613', 'CHEBI:32605', 'CHEBI:24898', 'CHEBI:32612', 'CHEBI:17191']",['CHEBI:13127'],True
+ile__L_e,"['CHEBI:32604', 'CHEBI:58045', 'CHEBI:32613', 'CHEBI:32605', 'CHEBI:24898', 'CHEBI:32612', 'CHEBI:17191']",['CHEBI:13127'],True
+iletrna_c,['CHEBI:29160'],['CHEBI:13128'],True
+imacp_c,"['CHEBI:57766', 'CHEBI:16426']",['CHEBI:11736'],True
+imp_c,"['CHEBI:58053', 'CHEBI:17202']",['CHEBI:12057'],True
+imp_e,"['CHEBI:58053', 'CHEBI:17202']",['CHEBI:12057'],True
+ind3ac_c,"['CHEBI:16411', 'CHEBI:30854']",[None],False
+indole_c,"['CHEBI:16881', 'CHEBI:35579', 'CHEBI:35581']",['CHEBI:14444'],True
+indole_e,"['CHEBI:16881', 'CHEBI:35579', 'CHEBI:35581']",['CHEBI:14444'],True
+indpyr_c,"['CHEBI:17640', 'CHEBI:29750']",[None],False
+inost_c,['CHEBI:17268'],['CHEBI:10600'],False
+inost_e,['CHEBI:17268'],['CHEBI:10600'],False
+ins_c,['CHEBI:17596'],['CHEBI:14456'],True
+ins_e,['CHEBI:17596'],['CHEBI:14456'],True
+ipdp_c,"['CHEBI:16584', 'CHEBI:128769']",['CHEBI:128769'],True
+iprimev_c,[],[None],False
+iscs_c,[],[None],False
+iscssh_c,[],[None],False
+itaccoa_c,"['CHEBI:57381', 'CHEBI:15528']",[None],False
+itacon_c,"['CHEBI:30838', 'CHEBI:17240']",[None],False
+itp_c,"['CHEBI:57614', 'CHEBI:16039', 'CHEBI:61402']",['CHEBI:13374'],True
+ivcoa_c,"['CHEBI:57345', 'CHEBI:15487']",['CHEBI:11856'],True
+k_c,['CHEBI:29103'],['CHEBI:26219'],True
+k_e,['CHEBI:29103'],['CHEBI:26219'],True
+kdo2laur_c,[],[None],False
+kdo2lipid4_c,"['CHEBI:60365', 'CHEBI:28526']",[None],False
+lac__D_c,"['CHEBI:42111', 'CHEBI:16004']",['CHEBI:11001'],True
+lac__D_e,"['CHEBI:42111', 'CHEBI:16004']",['CHEBI:11001'],True
+lac__L_c,"['CHEBI:422', 'CHEBI:16651']",['CHEBI:11065'],True
+lac__L_e,"['CHEBI:422', 'CHEBI:16651']",['CHEBI:11065'],True
+lald__D_c,['CHEBI:17167'],[None],False
+lald__L_c,['CHEBI:18041'],['CHEBI:11015'],False
+lcts_c,['CHEBI:17716'],['CHEBI:10296'],True
+lcts_e,['CHEBI:17716'],['CHEBI:10296'],True
+leu__L_c,"['CHEBI:32619', 'CHEBI:32627', 'CHEBI:25017', 'CHEBI:32628', 'CHEBI:32620', 'CHEBI:15603', 'CHEBI:57427']",['CHEBI:10866'],True
+leu__L_e,"['CHEBI:32619', 'CHEBI:32627', 'CHEBI:25017', 'CHEBI:32628', 'CHEBI:32620', 'CHEBI:15603', 'CHEBI:57427']",['CHEBI:10866'],True
+leutrna_c,['CHEBI:16624'],['CHEBI:13133'],True
+lgt__S_c,"['CHEBI:57474', 'CHEBI:15694']",[None],False
+lipoamp_c,"['CHEBI:55451', 'CHEBI:58923']",['CHEBI:55451'],True
+lipoate_c,"['CHEBI:30314', 'CHEBI:83088']",['CHEBI:14519'],False
+lipoate_e,"['CHEBI:30314', 'CHEBI:83088']",['CHEBI:14519'],False
+lipopb_c,['CHEBI:80399'],['CHEBI:80399'],True
+lpam_c,"['CHEBI:83094', 'CHEBI:17460']",['CHEBI:14518'],True
+lppg_c,"['CHEBI:59435', 'CHEBI:59436']",['CHEBI:59435'],True
+lpro_c,['CHEBI:15804'],['CHEBI:14523'],True
+lycop_c,['CHEBI:15948'],[None],False
+lys__L_c,"['CHEBI:32564', 'CHEBI:32563', 'CHEBI:18019', 'CHEBI:32552', 'CHEBI:25094', 'CHEBI:133538', 'CHEBI:32551', 'CHEBI:32565', 'CHEBI:32550']",['CHEBI:13135'],True
+lys__L_e,"['CHEBI:32564', 'CHEBI:32563', 'CHEBI:18019', 'CHEBI:32552', 'CHEBI:25094', 'CHEBI:133538', 'CHEBI:32551', 'CHEBI:32565', 'CHEBI:32550']",['CHEBI:13135'],True
+lystrna_c,['CHEBI:16047'],['CHEBI:13137'],True
+lyx__D_c,['CHEBI:82838'],[None],False
+lyx__D_e,['CHEBI:82838'],[None],False
+lyx__L_c,['CHEBI:62321'],['CHEBI:62321'],True
+lyx__L_e,['CHEBI:62321'],['CHEBI:62321'],True
+lyxat__L_c,['CHEBI:6268'],[None],False
+m_tol_c,"['CHEBI:10589', 'CHEBI:28795']",[None],False
+malACP_c,['CHEBI:17330'],['CHEBI:14566'],True
+malACPact_c,['CHEBI:17330'],['CHEBI:14566'],True
+malACPcda_c,['CHEBI:17330'],['CHEBI:14566'],True
+malACPme_c,['CHEBI:17330'],['CHEBI:14566'],True
+malACPredN_c,['CHEBI:17330'],['CHEBI:14566'],True
+malACPredQ_c,['CHEBI:17330'],['CHEBI:14566'],True
+mal__L_c,"['CHEBI:30797', 'CHEBI:15589']",['CHEBI:11066'],True
+mal__L_e,"['CHEBI:30797', 'CHEBI:15589']",['CHEBI:11066'],True
+malcoa_c,"['CHEBI:15531', 'CHEBI:57384']",['CHEBI:14565'],True
+male_c,"['CHEBI:132951', 'CHEBI:30780', 'CHEBI:18300', 'CHEBI:37156']",['CHEBI:14559'],True
+malmoACP_c,[],[None],False
+malon_c,"['CHEBI:15792', 'CHEBI:30794', 'CHEBI:30795']",['CHEBI:14563'],True
+malpyr_c,"['CHEBI:16727', 'CHEBI:30859']",[None],False
+malt6p_c,"['CHEBI:15703', 'CHEBI:57478', 'CHEBI:91177', 'CHEBI:111006']",['CHEBI:14569'],True
+malt_c,"['CHEBI:17306', 'CHEBI:18167']",['CHEBI:14568'],True
+malt_e,"['CHEBI:17306', 'CHEBI:18167']",['CHEBI:14568'],True
+malthp_c,['CHEBI:62010'],['CHEBI:3524'],False
+malthp_e,['CHEBI:62010'],['CHEBI:3524'],False
+malthx_c,['CHEBI:27445'],['CHEBI:25141'],True
+malthx_e,['CHEBI:27445'],['CHEBI:25141'],True
+maltpt_c,['CHEBI:62006'],['CHEBI:49536'],False
+maltpt_e,['CHEBI:62006'],['CHEBI:49536'],False
+malttr_c,['CHEBI:61993'],['CHEBI:25146'],False
+malttr_e,['CHEBI:61993'],['CHEBI:25146'],False
+maltttr_c,"['CHEBI:62974', 'CHEBI:61988', 'CHEBI:28460']",['CHEBI:25145'],True
+maltttr_e,"['CHEBI:62974', 'CHEBI:61988', 'CHEBI:28460']",['CHEBI:25145'],True
+man1p_c,['CHEBI:35374'],['CHEBI:10261'],False
+man6p_c,['CHEBI:48042'],['CHEBI:48066'],False
+man_c,"['CHEBI:16024', 'CHEBI:37684', 'CHEBI:4208']",['CHEBI:12999'],True
+man_e,"['CHEBI:16024', 'CHEBI:37684', 'CHEBI:4208']",['CHEBI:12999'],True
+mana_c,"['CHEBI:33076', 'CHEBI:17767']",[None],False
+marsonate_c,"['CHEBI:33409', 'CHEBI:16005', 'CHEBI:29852']",[None],False
+meglu_c,"['CHEBI:16440', 'CHEBI:29083']",['CHEBI:21754'],True
+melib_c,"['CHEBI:28053', 'CHEBI:61827']",['CHEBI:20943'],True
+melib_e,"['CHEBI:28053', 'CHEBI:61827']",['CHEBI:20943'],True
+melt_c,['CHEBI:27527'],['CHEBI:25181'],True
+melt_e,['CHEBI:27527'],['CHEBI:25181'],True
+meoh_c,"['CHEBI:17790', 'CHEBI:52090']",['CHEBI:14588'],True
+meoh_e,"['CHEBI:17790', 'CHEBI:52090']",['CHEBI:14588'],True
+mercppyr_c,"['CHEBI:57678', 'CHEBI:16208']",['CHEBI:11847'],True
+met__L_c,"['CHEBI:64558', 'CHEBI:16643', 'CHEBI:57844', 'CHEBI:16811', 'CHEBI:32632', 'CHEBI:32631', 'CHEBI:32646', 'CHEBI:32644']",['CHEBI:13141'],True
+met__L_e,"['CHEBI:64558', 'CHEBI:16643', 'CHEBI:57844', 'CHEBI:16811', 'CHEBI:32632', 'CHEBI:32631', 'CHEBI:32646', 'CHEBI:32644']",['CHEBI:13141'],True
+metac_c,['CHEBI:77700'],[None],False
+metbute_c,['CHEBI:27642'],[None],False
+methf_c,"['CHEBI:15638', 'CHEBI:57455']",['CHEBI:12068'],True
+methydan_c,['CHEBI:16354'],[None],False
+metsox_R__L_c,"['CHEBI:49032', 'CHEBI:58773']",[None],False
+metsox_S__L_c,['CHEBI:17016'],['CHEBI:13142'],True
+mettrna_c,[],['CHEBI:13143'],False
+mg2_c,"['CHEBI:39127', 'CHEBI:18420']",['CHEBI:13379'],True
+mg2_e,"['CHEBI:39127', 'CHEBI:18420']",['CHEBI:13379'],True
+mhpglu_c,"['CHEBI:17614', 'CHEBI:58207']",['CHEBI:12147'],True
+mi1p__D_c,"['CHEBI:18297', 'CHEBI:58433']",['CHEBI:11220'],True
+mi1p__L_c,"['CHEBI:58401', 'CHEBI:18169']",['CHEBI:58401'],True
+mlthf_c,"['CHEBI:15636', 'CHEBI:1989']",['CHEBI:10925'],True
+mmal_c,"['CHEBI:17453', 'CHEBI:30860', 'CHEBI:30861']",[None],False
+mmcoa__R_c,"['CHEBI:57326', 'CHEBI:15465']",['CHEBI:10976'],True
+mmcoa__S_c,"['CHEBI:15466', 'CHEBI:57327']",['CHEBI:11038'],True
+mmtsa_c,"['CHEBI:62413', 'CHEBI:27821']",['CHEBI:18789'],True
+mn2_c,"['CHEBI:18291', 'CHEBI:29035']",['CHEBI:21435'],True
+mn2_e,"['CHEBI:18291', 'CHEBI:29035']",['CHEBI:21435'],True
+mnl1p_c,"['CHEBI:16298', 'CHEBI:61381']","['CHEBI:12997', 'CHEBI:1381']",False
+mnl_c,"['CHEBI:16899', 'CHEBI:29864']",['CHEBI:12996'],True
+mnl_e,"['CHEBI:16899', 'CHEBI:29864']",['CHEBI:12996'],True
+moadamp_c,[],[None],False
+moadcoo_c,[],[None],False
+moadcosh_c,[],[None],False
+mobd_c,"['CHEBI:36264', 'CHEBI:25371', 'CHEBI:36263']",['CHEBI:25368'],True
+mobd_e,"['CHEBI:36264', 'CHEBI:25371', 'CHEBI:36263']",['CHEBI:25368'],True
+moco_c,"['CHEBI:71302', 'CHEBI:71306', 'CHEBI:79026', 'CHEBI:60525']",['CHEBI:79026'],True
+mocogdp_c,"['CHEBI:60535', 'CHEBI:30404']",['CHEBI:25374'],True
+mompain_c,[],[None],False
+mparathion_c,['CHEBI:38746'],[None],False
+mphpv__R_c,[],[None],False
+mphpv__S_c,[],[None],False
+mppate_c,"['CHEBI:68822', 'CHEBI:68684', 'CHEBI:45129']",[None],False
+mppp9_c,"['CHEBI:15431', 'CHEBI:60492']",[None],False
+mpt_c,"['CHEBI:58698', 'CHEBI:44074']",['CHEBI:58698'],True
+mptamp_c,"['CHEBI:62727', 'CHEBI:62728']",['CHEBI:62727'],True
+mql9_c,['CHEBI:18151'],['CHEBI:8783'],True
+mqn9_c,"['CHEBI:25185', 'CHEBI:16374']",[None],False
+msa_c,"['CHEBI:17960', 'CHEBI:33190']",['CHEBI:11877'],True
+mscoa__S_c,"['CHEBI:81672', 'CHEBI:84866']",['CHEBI:84866'],True
+msh_c,['CHEBI:16768'],[None],False
+mssg_c,['CHEBI:16086'],[None],False
+mthgxl_c,['CHEBI:17158'],[None],False
+murein3px4p_c,[],[None],False
+murein4p3p_c,[],[None],False
+murein4p4p_c,[],[None],False
+murein4px4p4p_c,[],[None],False
+murein4px4p_c,[],[None],False
+murein4px4px4p_c,[],[None],False
+murein5p3p_c,[],[None],False
+murein5p4p_c,[],[None],False
+murein5p5p5p_c,[],[None],False
+murein5p5p_c,[],[None],False
+murein5px3p_c,[],[None],False
+murein5px4p_c,[],[None],False
+murein5px4px4p_c,[],[None],False
+myarso_c,"['CHEBI:14597', 'CHEBI:17826']",[None],False
+mycthigpyrpp_c,"['CHEBI:59653', 'CHEBI:59651', 'CHEBI:59655']",[None],False
+myrsACP_c,['CHEBI:50651'],['CHEBI:50651'],True
+n2o_c,['CHEBI:17045'],['CHEBI:14661'],True
+n2o_e,['CHEBI:17045'],['CHEBI:14661'],True
+n4abutn_c,['CHEBI:7386'],[None],False
+n6all26d_c,"['CHEBI:18317', 'CHEBI:49004', 'CHEBI:58767']",[None],False
+n6hxlys_c,"['CHEBI:57820', 'CHEBI:16570']",[None],False
+na15dap_c,"['CHEBI:64860', 'CHEBI:64858']",['CHEBI:64858'],True
+na1_c,['CHEBI:29101'],['CHEBI:26717'],True
+na1_e,['CHEBI:29101'],['CHEBI:26717'],True
+nac24dab_c,"['CHEBI:7351', 'CHEBI:58929']",[None],False
+nac_c,"['CHEBI:32544', 'CHEBI:15940']",['CHEBI:14650'],True
+nac_e,"['CHEBI:32544', 'CHEBI:15940']",['CHEBI:14650'],True
+nacitrul__L_c,"['CHEBI:58765', 'CHEBI:49002']",[None],False
+nacpphin_c,"['CHEBI:58879', 'CHEBI:52057']",[None],False
+nad_c,"['CHEBI:15846', 'CHEBI:44215', 'CHEBI:57540']",['CHEBI:13389'],False
+nadh_c,"['CHEBI:16908', 'CHEBI:57945']",['CHEBI:13395'],True
+nadhx__R_c,"['CHEBI:64075', 'CHEBI:134125']",[None],False
+nadhx__S_c,"['CHEBI:57458', 'CHEBI:15644', 'CHEBI:44236', 'CHEBI:64074']",[None],False
+nadp_c,"['CHEBI:58349', 'CHEBI:25523', 'CHEBI:44409', 'CHEBI:18009']",['CHEBI:13390'],False
+nadph_c,"['CHEBI:57783', 'CHEBI:16474']",['CHEBI:13392'],False
+nadphx__R_c,"['CHEBI:64085', 'CHEBI:64077']",[None],False
+nadphx__S_c,"['CHEBI:64076', 'CHEBI:64084']",[None],False
+nal2a6o_c,"['CHEBI:58117', 'CHEBI:17355']",[None],False
+ncam_c,['CHEBI:17154'],['CHEBI:14645'],True
+ncrbmsar_c,"['CHEBI:57490', 'CHEBI:15737']",[None],False
+neral_c,['CHEBI:29020'],[None],False
+neuspn_c,['CHEBI:16833'],[None],False
+nformanth_c,"['CHEBI:36575', 'CHEBI:18410']",['CHEBI:12508'],True
+nh4_c,"['CHEBI:16134', 'CHEBI:29337', 'CHEBI:28938', 'CHEBI:29340']",[None],False
+nh4_e,"['CHEBI:16134', 'CHEBI:29337', 'CHEBI:28938', 'CHEBI:29340']",[None],False
+ni2_c,['CHEBI:28112'],['CHEBI:25517'],False
+ni2_e,['CHEBI:28112'],['CHEBI:25517'],False
+nic1ox_c,['CHEBI:30734'],[None],False
+nico__S_c,['CHEBI:18723'],[None],False
+nicrns_c,"['CHEBI:58527', 'CHEBI:27748']",['CHEBI:25531'],True
+nicrnt_c,"['CHEBI:15763', 'CHEBI:57502']",['CHEBI:12398'],True
+nmn_c,"['CHEBI:14648', 'CHEBI:16171', 'CHEBI:14649']",['CHEBI:10433'],True
+nmn_e,"['CHEBI:14648', 'CHEBI:16171', 'CHEBI:14649']",['CHEBI:10433'],True
+nndmyani_c,['CHEBI:16269'],[None],False
+nndp_c,"['CHEBI:53044', 'CHEBI:18144', 'CHEBI:58391']",['CHEBI:58391'],True
+no2_c,"['CHEBI:16301', 'CHEBI:25567']",['CHEBI:14658'],True
+no2_e,"['CHEBI:16301', 'CHEBI:25567']",['CHEBI:14658'],True
+no3_c,"['CHEBI:17632', 'CHEBI:48107']",['CHEBI:14654'],True
+no3_e,"['CHEBI:17632', 'CHEBI:48107']",['CHEBI:14654'],True
+no_c,['CHEBI:16480'],['CHEBI:14657'],True
+no_e,['CHEBI:16480'],['CHEBI:14657'],True
+noeicoylACP_c,['CHEBI:31095'],['CHEBI:31095'],True
+nphtatt_c,['CHEBI:18365'],[None],False
+nsirhcda_c,[],[None],False
+o2_c,"['CHEBI:29793', 'CHEBI:26689', 'CHEBI:15379', 'CHEBI:27140']",['CHEBI:10745'],True
+o2_e,"['CHEBI:29793', 'CHEBI:26689', 'CHEBI:15379', 'CHEBI:27140']",['CHEBI:10745'],True
+o2s_c,['CHEBI:18421'],['CHEBI:15143'],True
+o3n54ocyo_c,[],[None],False
+o54ocyo_c,[],[None],False
+oaa_c,"['CHEBI:30744', 'CHEBI:16452']",['CHEBI:10547'],False
+oc2coa_c,"['CHEBI:27537', 'CHEBI:62242']",['CHEBI:10732'],True
+ocACP_c,['CHEBI:7725'],['CHEBI:7725'],True
+ocACPredQ_c,['CHEBI:7725'],['CHEBI:7725'],True
+occoa_c,"['CHEBI:15533', 'CHEBI:57386']",['CHEBI:14681'],True
+ocdcaACP_c,[],[None],False
+ocdca_c,"['CHEBI:25629', 'CHEBI:28842']",['CHEBI:231588'],True
+ocdcap_c,[],[None],False
+ocdcea_c,"['CHEBI:16196', 'CHEBI:30823']",['CHEBI:104361'],True
+ocdceap_c,[],[None],False
+octa_c,"['CHEBI:28837', 'CHEBI:25646']",['CHEBI:25646'],True
+octapb_c,['CHEBI:80398'],['CHEBI:80398'],True
+octdp_c,"['CHEBI:16275', 'CHEBI:57711', 'CHEBI:53045']",['CHEBI:10194'],True
+octeACP_c,[],[None],False
+od2coa_c,"['CHEBI:71412', 'CHEBI:50570']",['CHEBI:50570'],True
+odecoa_c,"['CHEBI:15534', 'CHEBI:57387']",[None],False
+ogmeACP_c,[],[None],False
+oh1_c,"['CHEBI:29412', 'CHEBI:16234', 'CHEBI:15377']",[None],False
+ohpb_c,"['CHEBI:58538', 'CHEBI:27951']",['CHEBI:1240'],True
+ohrad_c,['CHEBI:29191'],[None],False
+op4en_c,"['CHEBI:60886', 'CHEBI:18355', 'CHEBI:11641', 'CHEBI:1113', 'CHEBI:37319', 'CHEBI:37318']",['CHEBI:1113'],True
+opmeACP_c,[],[None],False
+orn__D_c,"['CHEBI:16176', 'CHEBI:57668']",[None],False
+orn_c,"['CHEBI:46914', 'CHEBI:46911', 'CHEBI:46913', 'CHEBI:18257', 'CHEBI:32964', 'CHEBI:44667', 'CHEBI:15729', 'CHEBI:46912']",['CHEBI:11448'],True
+orn_e,"['CHEBI:46914', 'CHEBI:46911', 'CHEBI:46913', 'CHEBI:18257', 'CHEBI:32964', 'CHEBI:44667', 'CHEBI:15729', 'CHEBI:46912']",['CHEBI:11448'],True
+orot5p_c,"['CHEBI:57538', 'CHEBI:15842']",['CHEBI:14699'],True
+orot_c,"['CHEBI:16742', 'CHEBI:30839']",['CHEBI:14698'],True
+orot_e,"['CHEBI:16742', 'CHEBI:30839']",['CHEBI:14698'],True
+oxa_c,"['CHEBI:16995', 'CHEBI:46904', 'CHEBI:132952', 'CHEBI:30623']",['CHEBI:14702'],True
+oxadpcoa_c,"['CHEBI:57348', 'CHEBI:15490']",['CHEBI:11872'],True
+oxalcoa_c,"['CHEBI:15535', 'CHEBI:57388']",['CHEBI:14707'],True
+oxptn_c,"['CHEBI:39153', 'CHEBI:16120']",['CHEBI:12156'],True
+p_tol_c,"['CHEBI:27021', 'CHEBI:28856', 'CHEBI:36635']",[None],False
+pa120_c,"['CHEBI:29089', 'CHEBI:58608', 'CHEBI:16337', 'CHEBI:57739']",['CHEBI:58608'],True
+pa140_c,"['CHEBI:29089', 'CHEBI:16337', 'CHEBI:58608', 'CHEBI:83550', 'CHEBI:84266', 'CHEBI:57739']",['CHEBI:62085'],False
+pa141_c,"['CHEBI:29089', 'CHEBI:58608', 'CHEBI:16337', 'CHEBI:57739']",['CHEBI:58608'],True
+pa150_c,"['CHEBI:29089', 'CHEBI:58608', 'CHEBI:16337', 'CHEBI:57739']",['CHEBI:58608'],True
+pa160_c,"['CHEBI:29089', 'CHEBI:72859', 'CHEBI:16337', 'CHEBI:58608', 'CHEBI:57739', 'CHEBI:73246']",['CHEBI:72859'],True
+pa161_c,"['CHEBI:29089', 'CHEBI:58608', 'CHEBI:16337', 'CHEBI:57739']",['CHEBI:58608'],True
+pa170_c,"['CHEBI:29089', 'CHEBI:58608', 'CHEBI:16337', 'CHEBI:57739']",['CHEBI:58608'],True
+pa180_c,"['CHEBI:29089', 'CHEBI:82921', 'CHEBI:16337', 'CHEBI:58608', 'CHEBI:83774', 'CHEBI:57739']",['CHEBI:82921'],True
+pa181_c,"['CHEBI:29089', 'CHEBI:58608', 'CHEBI:16337', 'CHEBI:57739']",['CHEBI:58608'],True
+paai150_c,"['CHEBI:29089', 'CHEBI:58608', 'CHEBI:16337', 'CHEBI:57739']",['CHEBI:58608'],True
+paai170_c,"['CHEBI:29089', 'CHEBI:58608', 'CHEBI:16337', 'CHEBI:57739']",['CHEBI:58608'],True
+pac_c,"['CHEBI:30745', 'CHEBI:8082', 'CHEBI:18401']",['CHEBI:14779'],True
+pac_e,"['CHEBI:30745', 'CHEBI:8082', 'CHEBI:18401']",['CHEBI:14779'],True
+pacald_c,['CHEBI:16424'],['CHEBI:14778'],True
+pacald_e,['CHEBI:16424'],['CHEBI:14778'],True
+pai140_c,"['CHEBI:29089', 'CHEBI:58608', 'CHEBI:16337', 'CHEBI:57739']",['CHEBI:58608'],True
+pai150_c,"['CHEBI:29089', 'CHEBI:58608', 'CHEBI:16337', 'CHEBI:57739']",['CHEBI:58608'],True
+pai160_c,"['CHEBI:29089', 'CHEBI:58608', 'CHEBI:16337', 'CHEBI:57739']",['CHEBI:58608'],True
+pai170_c,"['CHEBI:29089', 'CHEBI:58608', 'CHEBI:16337', 'CHEBI:57739']",['CHEBI:58608'],True
+pai180_c,"['CHEBI:29089', 'CHEBI:58608', 'CHEBI:16337', 'CHEBI:57739']",['CHEBI:58608'],True
+palmACP_c,['CHEBI:5697'],['CHEBI:5697'],True
+pan4p_c,"['CHEBI:16858', 'CHEBI:47942']",['CHEBI:11916'],True
+pant__R_c,"['CHEBI:18697', 'CHEBI:15980']",['CHEBI:11006'],True
+paolac_c,"['CHEBI:70816', 'CHEBI:70790']",[None],False
+pap_c,"['CHEBI:58343', 'CHEBI:17985']",['CHEBI:13735'],True
+paps_c,"['CHEBI:17980', 'CHEBI:58339']",['CHEBI:11679'],True
+pchlld_c,"['CHEBI:16673', 'CHEBI:57855', 'CHEBI:83350']",[None],False
+pcumald_c,['CHEBI:28671'],[None],False
+pcumat_c,"['CHEBI:28122', 'CHEBI:25822']",[None],False
+pdx5p_c,"['CHEBI:58589', 'CHEBI:28803']",['CHEBI:26430'],True
+pe120_c,"['CHEBI:45210', 'CHEBI:16038', 'CHEBI:57613']",[None],False
+pe140_c,"['CHEBI:45210', 'CHEBI:16038', 'CHEBI:57613']",['CHEBI:71697'],False
+pe141_c,"['CHEBI:45210', 'CHEBI:16038', 'CHEBI:57613']",[None],False
+pe150_c,"['CHEBI:45210', 'CHEBI:16038', 'CHEBI:57613']",[None],False
+pe160_c,"['CHEBI:73005', 'CHEBI:45210', 'CHEBI:16038', 'CHEBI:57613', 'CHEBI:73127']",['CHEBI:73005'],True
+pe161_c,"['CHEBI:45210', 'CHEBI:16038', 'CHEBI:57613']",[None],False
+pe170_c,"['CHEBI:45210', 'CHEBI:16038', 'CHEBI:57613']",[None],False
+pe180_c,"['CHEBI:47766', 'CHEBI:45210', 'CHEBI:16038', 'CHEBI:57613', 'CHEBI:39934']",['CHEBI:39934'],True
+pe181_c,"['CHEBI:45210', 'CHEBI:16038', 'CHEBI:57613']",[None],False
+peai150_c,"['CHEBI:45210', 'CHEBI:16038', 'CHEBI:57613']",[None],False
+peai170_c,"['CHEBI:45210', 'CHEBI:16038', 'CHEBI:57613']",[None],False
+peamn_c,"['CHEBI:225237', 'CHEBI:18397', 'CHEBI:50048']",['CHEBI:14782'],True
+pei140_c,"['CHEBI:45210', 'CHEBI:16038', 'CHEBI:57613']",[None],False
+pei150_c,"['CHEBI:45210', 'CHEBI:16038', 'CHEBI:57613']",[None],False
+pei160_c,"['CHEBI:45210', 'CHEBI:16038', 'CHEBI:57613']",[None],False
+pei170_c,"['CHEBI:45210', 'CHEBI:16038', 'CHEBI:57613']",[None],False
+pei180_c,"['CHEBI:45210', 'CHEBI:16038', 'CHEBI:57613']",[None],False
+pendp_c,"['CHEBI:57907', 'CHEBI:16818', 'CHEBI:53048']",['CHEBI:10195'],True
+peng_c,"['CHEBI:18208', 'CHEBI:51354']",[None],False
+pentlacF_c,"['CHEBI:70809', 'CHEBI:70789']",[None],False
+pentlacd_c,"['CHEBI:70805', 'CHEBI:70787']",[None],False
+pep_c,"['CHEBI:18021', 'CHEBI:58702', 'CHEBI:44897']",['CHEBI:14812'],True
+pg120_c,"['CHEBI:64961', 'CHEBI:64716', 'CHEBI:17517', 'CHEBI:60523']",[None],False
+pg140_c,"['CHEBI:64961', 'CHEBI:60523', 'CHEBI:64716', 'CHEBI:17517', 'CHEBI:60723']",[None],False
+pg141_c,"['CHEBI:64961', 'CHEBI:64716', 'CHEBI:17517', 'CHEBI:60523']",[None],False
+pg150_c,"['CHEBI:64961', 'CHEBI:64716', 'CHEBI:17517', 'CHEBI:60523']",[None],False
+pg160_c,"['CHEBI:72829', 'CHEBI:64716', 'CHEBI:17517', 'CHEBI:73205', 'CHEBI:64961', 'CHEBI:60523']",['CHEBI:60724'],False
+pg161_c,"['CHEBI:64961', 'CHEBI:64716', 'CHEBI:17517', 'CHEBI:60523']",[None],False
+pg170_c,"['CHEBI:64961', 'CHEBI:64716', 'CHEBI:17517', 'CHEBI:60523']",[None],False
+pg180_c,"['CHEBI:64961', 'CHEBI:64716', 'CHEBI:17517', 'CHEBI:60523']",['CHEBI:61056'],False
+pg181_c,"['CHEBI:64961', 'CHEBI:64716', 'CHEBI:17517', 'CHEBI:60523']",[None],False
+pgai150_c,"['CHEBI:64961', 'CHEBI:64716', 'CHEBI:17517', 'CHEBI:60523']",[None],False
+pgai170_c,"['CHEBI:64961', 'CHEBI:64716', 'CHEBI:17517', 'CHEBI:60523']",[None],False
+pgi140_c,"['CHEBI:64961', 'CHEBI:64716', 'CHEBI:17517', 'CHEBI:60523']",[None],False
+pgi150_c,"['CHEBI:64961', 'CHEBI:64716', 'CHEBI:17517', 'CHEBI:60523']",[None],False
+pgi160_c,"['CHEBI:64961', 'CHEBI:64716', 'CHEBI:17517', 'CHEBI:60523']",[None],False
+pgi170_c,"['CHEBI:64961', 'CHEBI:64716', 'CHEBI:17517', 'CHEBI:60523']",[None],False
+pgi180_c,"['CHEBI:64961', 'CHEBI:64716', 'CHEBI:17517', 'CHEBI:60523']",[None],False
+pgp120_c,"['CHEBI:60110', 'CHEBI:37393']",['CHEBI:60110'],True
+pgp140_c,"['CHEBI:60110', 'CHEBI:37393']",['CHEBI:60110'],True
+pgp141_c,"['CHEBI:60110', 'CHEBI:37393']",['CHEBI:60110'],True
+pgp150_c,"['CHEBI:60110', 'CHEBI:37393']",['CHEBI:11681'],True
+pgp160_c,"['CHEBI:60110', 'CHEBI:37393']",['CHEBI:60110'],True
+pgp161_c,"['CHEBI:60110', 'CHEBI:37393']",['CHEBI:60110'],True
+pgp170_c,"['CHEBI:60110', 'CHEBI:37393']",['CHEBI:11681'],True
+pgp180_c,"['CHEBI:60110', 'CHEBI:37393']",['CHEBI:60110'],True
+pgp181_c,"['CHEBI:60110', 'CHEBI:37393']",['CHEBI:60110'],True
+pgpai150_c,"['CHEBI:60110', 'CHEBI:37393']",['CHEBI:11681'],True
+pgpai170_c,"['CHEBI:60110', 'CHEBI:37393']",['CHEBI:11681'],True
+pgpi140_c,"['CHEBI:60110', 'CHEBI:37393']",['CHEBI:11681'],True
+pgpi150_c,"['CHEBI:60110', 'CHEBI:37393']",['CHEBI:11681'],True
+pgpi160_c,"['CHEBI:60110', 'CHEBI:37393']",['CHEBI:11681'],True
+pgpi170_c,"['CHEBI:60110', 'CHEBI:37393']",['CHEBI:11681'],True
+pgpi180_c,"['CHEBI:60110', 'CHEBI:37393']",['CHEBI:11681'],True
+phaccoa_c,"['CHEBI:15537', 'CHEBI:57390']",['CHEBI:14780'],True
+phe__L_c,"['CHEBI:32487', 'CHEBI:28044', 'CHEBI:32504', 'CHEBI:58095', 'CHEBI:32486', 'CHEBI:17295', 'CHEBI:76052', 'CHEBI:32505']",['CHEBI:13151'],True
+phe__L_e,"['CHEBI:32487', 'CHEBI:28044', 'CHEBI:32504', 'CHEBI:58095', 'CHEBI:32486', 'CHEBI:17295', 'CHEBI:76052', 'CHEBI:32505']",['CHEBI:13151'],True
+pheme_c,"['CHEBI:17627', 'CHEBI:60344', 'CHEBI:30413', 'CHEBI:26355']",['CHEBI:14386'],True
+phetrna_c,['CHEBI:29153'],['CHEBI:13152'],True
+phgkyx_c,"['CHEBI:18280', 'CHEBI:36656']",[None],False
+phitcoa_c,"['CHEBI:58519', 'CHEBI:27639']",[None],False
+phom_c,"['CHEBI:57590', 'CHEBI:15961']",['CHEBI:12693'],True
+phpyr_c,['CHEBI:26008'],['CHEBI:10548'],False
+phthr_c,"['CHEBI:18336', 'CHEBI:58452']",['CHEBI:11945'],True
+pi120_c,"['CHEBI:16749', 'CHEBI:57880']",['CHEBI:57880'],True
+pi140_c,"['CHEBI:16749', 'CHEBI:57880']",['CHEBI:57880'],True
+pi141_c,"['CHEBI:16749', 'CHEBI:57880']",['CHEBI:57880'],True
+pi150_c,"['CHEBI:16749', 'CHEBI:57880']",['CHEBI:57880'],True
+pi160_c,"['CHEBI:16749', 'CHEBI:57880']",['CHEBI:57880'],True
+pi161_c,"['CHEBI:16749', 'CHEBI:57880']",['CHEBI:57880'],True
+pi170_c,"['CHEBI:16749', 'CHEBI:57880']",['CHEBI:57880'],True
+pi180_c,"['CHEBI:16749', 'CHEBI:57880']",['CHEBI:57880'],True
+pi181_c,"['CHEBI:16749', 'CHEBI:57880']",['CHEBI:57880'],True
+pi_c,"['CHEBI:35780', 'CHEBI:26078', 'CHEBI:39745', 'CHEBI:18367', 'CHEBI:43474']",['CHEBI:14791'],True
+pi_e,"['CHEBI:35780', 'CHEBI:26078', 'CHEBI:39745', 'CHEBI:18367', 'CHEBI:43474']",['CHEBI:14791'],True
+piai150_c,"['CHEBI:16749', 'CHEBI:57880']",['CHEBI:57880'],True
+piai170_c,"['CHEBI:16749', 'CHEBI:57880']",['CHEBI:57880'],True
+picoln_c,"['CHEBI:28747', 'CHEBI:38184']",[None],False
+pii140_c,"['CHEBI:16749', 'CHEBI:57880']",['CHEBI:57880'],True
+pii150_c,"['CHEBI:16749', 'CHEBI:57880']",['CHEBI:57880'],True
+pii160_c,"['CHEBI:16749', 'CHEBI:57880']",['CHEBI:57880'],True
+pii170_c,"['CHEBI:16749', 'CHEBI:57880']",['CHEBI:57880'],True
+pii180_c,"['CHEBI:16749', 'CHEBI:57880']",['CHEBI:57880'],True
+pimACP_c,[],[None],False
+pk16ACPact_c,['CHEBI:31101'],['CHEBI:31101'],True
+pmeACP_c,[],[None],False
+pmtcoa_c,"['CHEBI:15525', 'CHEBI:57379']",['CHEBI:14397'],True
+pnto__R_c,"['CHEBI:29032', 'CHEBI:46905', 'CHEBI:16454', 'CHEBI:7916']",['CHEBI:11008'],True
+pnto__R_e,"['CHEBI:29032', 'CHEBI:46905', 'CHEBI:16454', 'CHEBI:7916']",['CHEBI:11008'],True
+pp2slac_c,"['CHEBI:32896', 'CHEBI:15597']",[None],False
+ppa_c,"['CHEBI:17272', 'CHEBI:30768']",['CHEBI:14903'],True
+ppa_e,"['CHEBI:17272', 'CHEBI:30768']",['CHEBI:14903'],True
+ppap_c,"['CHEBI:8478', 'CHEBI:58933']",['CHEBI:58933'],True
+ppbng_c,"['CHEBI:58126', 'CHEBI:17381']",['CHEBI:14867'],True
+ppcoa_c,"['CHEBI:15539', 'CHEBI:57392']",['CHEBI:14904'],True
+ppdyletamin_c,[],[None],False
+ppgpp_c,"['CHEBI:58215', 'CHEBI:77828', 'CHEBI:17633']",['CHEBI:14376'],True
+pphinit_c,['CHEBI:28030'],[None],False
+pphn_c,"['CHEBI:16666', 'CHEBI:29934', 'CHEBI:84387', 'CHEBI:57852']",['CHEBI:14884'],True
+ppi_c,"['CHEBI:45212', 'CHEBI:29888', 'CHEBI:33019', 'CHEBI:33017', 'CHEBI:18361']",['CHEBI:13420'],True
+ppp9_c,"['CHEBI:15430', 'CHEBI:57306', 'CHEBI:36159']",['CHEBI:14959'],True
+pppg9_c,"['CHEBI:15435', 'CHEBI:57307']",['CHEBI:14962'],True
+pppi_c,"['CHEBI:39949', 'CHEBI:48313', 'CHEBI:48316', 'CHEBI:18036', 'CHEBI:48314', 'CHEBI:48315']",['CHEBI:18036'],True
+pppn_c,"['CHEBI:51057', 'CHEBI:28631']",[None],False
+pprdn_c,"['CHEBI:26145', 'CHEBI:47858']",['CHEBI:19091'],True
+pram_c,"['CHEBI:58681', 'CHEBI:37737']",['CHEBI:12161'],True
+pran_c,"['CHEBI:18277', 'CHEBI:7091']",['CHEBI:12431'],True
+prbamp_c,"['CHEBI:18374', 'CHEBI:59457']",['CHEBI:11195'],True
+prbatp_c,"['CHEBI:73183', 'CHEBI:18263', 'CHEBI:58424', 'CHEBI:73200']",['CHEBI:11192'],True
+pre1_c,"['CHEBI:58893', 'CHEBI:52469']","['CHEBI:58893', 'CHEBI:8893']",False
+pre3a_c,"['CHEBI:28307', 'CHEBI:58561']",['CHEBI:14871'],True
+pre3b_c,"['CHEBI:77870', 'CHEBI:27711', 'CHEBI:58522']",['CHEBI:14872'],True
+pre4_c,"['CHEBI:16430', 'CHEBI:57769']",['CHEBI:14869'],True
+pre5_c,"['CHEBI:27630', 'CHEBI:58518', 'CHEBI:77871']",['CHEBI:14874'],True
+pre6a_c,"['CHEBI:27513', 'CHEBI:77872', 'CHEBI:58513']",['CHEBI:14875'],True
+pre6b_c,"['CHEBI:27858', 'CHEBI:58532']",['CHEBI:14876'],True
+pre8_c,"['CHEBI:28629', 'CHEBI:58581']",['CHEBI:14877'],True
+prephytedp_c,['CHEBI:14885'],[None],False
+prfp_c,"['CHEBI:18302', 'CHEBI:58435']",['CHEBI:11194'],True
+prlp_c,"['CHEBI:58525', 'CHEBI:27735']",['CHEBI:12100'],True
+proPCPredO_c,['CHEBI:31756'],[None],False
+pro__D_c_c,"['CHEBI:57726', 'CHEBI:32867', 'CHEBI:32868', 'CHEBI:16313']",[None],False
+pro__L_c,"['CHEBI:26271', 'CHEBI:60039', 'CHEBI:32872', 'CHEBI:32871', 'CHEBI:17203', 'CHEBI:32864', 'CHEBI:32862']",['CHEBI:13154'],True
+pro__L_e,"['CHEBI:26271', 'CHEBI:60039', 'CHEBI:32872', 'CHEBI:32871', 'CHEBI:17203', 'CHEBI:32864', 'CHEBI:32862']",['CHEBI:13154'],True
+progly_c,"['CHEBI:61695', 'CHEBI:61696']",['CHEBI:61695'],True
+propane_c,['CHEBI:32879'],[None],False
+protrna_c,['CHEBI:29154'],['CHEBI:13155'],True
+prp13da_c,"['CHEBI:57484', 'CHEBI:15725']",[None],False
+prp2enoate_c,"['CHEBI:62195', 'CHEBI:60109', 'CHEBI:49070', 'CHEBI:62057']",[None],False
+prpadnl_c,['CHEBI:74517'],[None],False
+prpncoa_c,"['CHEBI:15513', 'CHEBI:57367', 'CHEBI:26302']","['CHEBI:57367', 'CHEBI:7367']",False
+prpp_c,"['CHEBI:58017', 'CHEBI:17111']",['CHEBI:12159'],True
+ps120_c,"['CHEBI:58436', 'CHEBI:11750', 'CHEBI:18303', 'CHEBI:57262']",[None],False
+ps140_c,"['CHEBI:58436', 'CHEBI:11750', 'CHEBI:18303', 'CHEBI:57262']",[None],False
+ps141_c,"['CHEBI:58436', 'CHEBI:11750', 'CHEBI:18303', 'CHEBI:57262']",[None],False
+ps150_c,"['CHEBI:58436', 'CHEBI:11750', 'CHEBI:18303', 'CHEBI:57262']",[None],False
+ps160_c,"['CHEBI:18303', 'CHEBI:57262', 'CHEBI:111515', 'CHEBI:11750', 'CHEBI:58436', 'CHEBI:84523']",['CHEBI:84523'],True
+ps161_c,"['CHEBI:58436', 'CHEBI:11750', 'CHEBI:18303', 'CHEBI:57262']",[None],False
+ps170_c,"['CHEBI:58436', 'CHEBI:11750', 'CHEBI:18303', 'CHEBI:57262']",[None],False
+ps180_c,"['CHEBI:58436', 'CHEBI:84519', 'CHEBI:11750', 'CHEBI:18303', 'CHEBI:57262']",['CHEBI:84519'],True
+ps181_c,"['CHEBI:58436', 'CHEBI:11750', 'CHEBI:18303', 'CHEBI:57262']",[None],False
+psai150_c,"['CHEBI:58436', 'CHEBI:11750', 'CHEBI:18303', 'CHEBI:57262']",[None],False
+psai170_c,"['CHEBI:58436', 'CHEBI:11750', 'CHEBI:18303', 'CHEBI:57262']",[None],False
+pser__L_c,"['CHEBI:15811', 'CHEBI:57524']",['CHEBI:12718'],True
+psi140_c,"['CHEBI:58436', 'CHEBI:11750', 'CHEBI:18303', 'CHEBI:57262']",[None],False
+psi150_c,"['CHEBI:58436', 'CHEBI:11750', 'CHEBI:18303', 'CHEBI:57262']",[None],False
+psi160_c,"['CHEBI:58436', 'CHEBI:11750', 'CHEBI:18303', 'CHEBI:57262']",[None],False
+psi170_c,"['CHEBI:58436', 'CHEBI:11750', 'CHEBI:18303', 'CHEBI:57262']",[None],False
+psi180_c,"['CHEBI:58436', 'CHEBI:11750', 'CHEBI:18303', 'CHEBI:57262']",[None],False
+psqldi_c,"['CHEBI:57310', 'CHEBI:15442']","['CHEBI:14886', 'CHEBI:7310']",False
+ptdca_c,"['CHEBI:78795', 'CHEBI:42504']",['CHEBI:39108'],True
+ptrc_c,"['CHEBI:326268', 'CHEBI:17148']",['CHEBI:14972'],True
+ptrc_e,"['CHEBI:326268', 'CHEBI:17148']",['CHEBI:14972'],True
+pttamid_c,['CHEBI:81646'],[None],False
+puri4pp_c,"['CHEBI:18116', 'CHEBI:58380']",[None],False
+pyam5p_c,"['CHEBI:18335', 'CHEBI:58451']",['CHEBI:14979'],True
+pydam_c,"['CHEBI:131533', 'CHEBI:57761', 'CHEBI:16410']",['CHEBI:14978'],True
+pydam_e,"['CHEBI:131533', 'CHEBI:57761', 'CHEBI:16410']",['CHEBI:14978'],True
+pydx5p_c,"['CHEBI:597326', 'CHEBI:18405']",['CHEBI:14977'],True
+pydx_c,"['CHEBI:131530', 'CHEBI:17310']",['CHEBI:14976'],True
+pydx_e,"['CHEBI:131530', 'CHEBI:17310']",['CHEBI:14976'],True
+pydxn_c,['CHEBI:16709'],['CHEBI:14981'],True
+pydxn_e,['CHEBI:16709'],['CHEBI:14981'],True
+pyr2cbox_c_c,"['CHEBI:39785', 'CHEBI:17425', 'CHEBI:36761']",[None],False
+pyrPCPredO_c,[],[None],False
+pyr_c,"['CHEBI:15361', 'CHEBI:32816']",['CHEBI:14987'],True
+pyr_e,"['CHEBI:15361', 'CHEBI:32816']",['CHEBI:14987'],True
+pyrgal_c,['CHEBI:16164'],[None],False
+q8_c,"['CHEBI:61683', 'CHEBI:16389']",['CHEBI:61683'],True
+q8h2_c,"['CHEBI:17976', 'CHEBI:61682']",['CHEBI:61682'],True
+qnon_c,['CHEBI:36141'],[None],False
+quln_c,"['CHEBI:46828', 'CHEBI:29959', 'CHEBI:46833', 'CHEBI:132942', 'CHEBI:16675', 'CHEBI:46832']",['CHEBI:14975'],True
+r1p_c,"['CHEBI:16300', 'CHEBI:57720']",['CHEBI:10269'],True
+r3mmal_c,"['CHEBI:27394', 'CHEBI:58511']",[None],False
+r5p_c,"['CHEBI:52742', 'CHEBI:78346', 'CHEBI:18189']",['CHEBI:10270'],True
+raffin_c,['CHEBI:16634'],['CHEBI:15015'],True
+raffin_e,['CHEBI:16634'],['CHEBI:15015'],True
+rbflvrd_c,"['CHEBI:17607', 'CHEBI:8798']",['CHEBI:17607'],True
+rbl__D_c,['CHEBI:17173'],[None],False
+rbl__L_c,['CHEBI:16880'],['CHEBI:13035'],False
+rbt_c,['CHEBI:15963'],[None],False
+rdmbzi_c,['CHEBI:10329'],['CHEBI:10329'],True
+red_c,['CHEBI:29702'],['CHEBI:29702'],True
+red_e,['CHEBI:29702'],['CHEBI:29702'],True
+rephaccoa_c,"['CHEBI:63547', 'CHEBI:63458']",[None],False
+rib1mpp5tpp_c,"['CHEBI:68824', 'CHEBI:68685', 'CHEBI:68823']",[None],False
+rib__D_c,"['CHEBI:16988', 'CHEBI:47013']",['CHEBI:13011'],True
+rib__D_e,"['CHEBI:16988', 'CHEBI:47013']",['CHEBI:13011'],True
+ribflv_c,"['CHEBI:57986', 'CHEBI:17015']",['CHEBI:15044'],True
+ribsylo_c,[],[None],False
+rml1p_c,"['CHEBI:17892', 'CHEBI:58313']",['CHEBI:13162'],True
+rml_c,['CHEBI:17897'],['CHEBI:13161'],True
+rmn_c,"['CHEBI:62346', 'CHEBI:26546']",['CHEBI:26546'],True
+rmn_e,"['CHEBI:62346', 'CHEBI:26546']",['CHEBI:26546'],True
+rmnf_c,[],[None],False
+rnam_c,['CHEBI:15927'],['CHEBI:12527'],True
+ru1p__D_c,"['CHEBI:71687', 'CHEBI:71680']",[None],False
+ru5p__D_c,"['CHEBI:58121', 'CHEBI:17363']",['CHEBI:13018'],True
+ru5p__L_c,"['CHEBI:17666', 'CHEBI:58226']",['CHEBI:13164'],True
+s17bp_c,"['CHEBI:58335', 'CHEBI:17969']",['CHEBI:15072'],True
+s7p_c,"['CHEBI:57483', 'CHEBI:15721']",['CHEBI:15073'],True
+salc_c,"['CHEBI:16914', 'CHEBI:30762']",['CHEBI:15061'],True
+salcn6p_c,"['CHEBI:9003', 'CHEBI:64794']",['CHEBI:64794'],True
+salcn_e,['CHEBI:17814'],['CHEBI:15058'],True
+sarcs_c,"['CHEBI:15611', 'CHEBI:46915', 'CHEBI:46842', 'CHEBI:57433']",[None],False
+sbt6p_c,"['CHEBI:17044', 'CHEBI:60084']","['CHEBI:13021', 'CHEBI:0084']",False
+sbt__D_c,"['CHEBI:30911', 'CHEBI:17924']",['CHEBI:12954'],True
+sbt__D_e,"['CHEBI:30911', 'CHEBI:17924']",['CHEBI:12954'],True
+sbzcoa_c,"['CHEBI:15509', 'CHEBI:57364']",['CHEBI:12700'],True
+scl_c,"['CHEBI:18023', 'CHEBI:58351']",['CHEBI:15090'],True
+sdhliplys_c,['CHEBI:80403'],['CHEBI:80403'],True
+ser__D_c,"['CHEBI:32841', 'CHEBI:16523', 'CHEBI:32840', 'CHEBI:35247']",['CHEBI:13019'],True
+ser__D_e,"['CHEBI:32841', 'CHEBI:16523', 'CHEBI:32840', 'CHEBI:35247']",['CHEBI:13019'],True
+ser__L_c,"['CHEBI:32845', 'CHEBI:32836', 'CHEBI:17822', 'CHEBI:33384', 'CHEBI:17115', 'CHEBI:32837', 'CHEBI:32846', 'CHEBI:35243']",['CHEBI:13167'],True
+ser__L_e,"['CHEBI:32845', 'CHEBI:32836', 'CHEBI:17822', 'CHEBI:33384', 'CHEBI:17115', 'CHEBI:32837', 'CHEBI:32846', 'CHEBI:35243']",['CHEBI:13167'],True
+sertrna_c,[],['CHEBI:13171'],False
+sheme_c,"['CHEBI:60052', 'CHEBI:28599']",['CHEBI:26690'],True
+skm5p_c,"['CHEBI:17052', 'CHEBI:145989']",['CHEBI:11886'],True
+skm_c,"['CHEBI:36208', 'CHEBI:16119']",['CHEBI:15083'],True
+skm_e,"['CHEBI:36208', 'CHEBI:16119']",['CHEBI:15083'],True
+sl26da_c,"['CHEBI:58087', 'CHEBI:17279']",['CHEBI:12617'],True
+sl2a6o_c,"['CHEBI:15685', 'CHEBI:35266']",['CHEBI:10967'],True
+sl__L_c,"['CHEBI:61289', 'CHEBI:16712']",[None],False
+so3_c,"['CHEBI:33543', 'CHEBI:48854', 'CHEBI:17359', 'CHEBI:17137', 'CHEBI:29214']",['CHEBI:13367'],True
+so4_c,"['CHEBI:16189', 'CHEBI:45696', 'CHEBI:26836']",['CHEBI:15135'],True
+so4_e,"['CHEBI:16189', 'CHEBI:45696', 'CHEBI:26836']",['CHEBI:15135'],True
+sorb14lac_c,[],[None],False
+spmd_c,"['CHEBI:57834', 'CHEBI:16610']",['CHEBI:15095'],True
+spmd_e,"['CHEBI:57834', 'CHEBI:16610']",['CHEBI:15095'],True
+sprm_c,"['CHEBI:45725', 'CHEBI:15746']",['CHEBI:15098'],True
+sql_c,['CHEBI:15440'],['CHEBI:10795'],True
+stcoa_c,"['CHEBI:15541', 'CHEBI:57394']",['CHEBI:15107'],True
+stmyn_c,"['CHEBI:58007', 'CHEBI:17076']",[None],False
+strep6p_c,"['CHEBI:57787', 'CHEBI:16479']",[None],False
+stys_c,['CHEBI:17164'],['CHEBI:15105'],True
+sucbz_c,"['CHEBI:44788', 'CHEBI:18325']",['CHEBI:1278'],True
+succ_c,"['CHEBI:30031', 'CHEBI:15741', 'CHEBI:30779']",['CHEBI:15125'],True
+succ_e,"['CHEBI:30031', 'CHEBI:15741', 'CHEBI:30779']",['CHEBI:15125'],True
+succoa_c,"['CHEBI:57292', 'CHEBI:15380']",['CHEBI:10746'],True
+suchms_c,"['CHEBI:16160', 'CHEBI:57661']",['CHEBI:12699'],True
+sucr_c,['CHEBI:17992'],['CHEBI:15128'],True
+sucr_e,['CHEBI:17992'],['CHEBI:15128'],True
+sucsal_c,"['CHEBI:16265', 'CHEBI:57706', 'CHEBI:26805']",['CHEBI:15126'],True
+sufbcd_2fe2s2_c,[],[None],False
+sufbcd_2fe2s_c,[],[None],False
+sufbcd_4fe4s_c,[],[None],False
+sufbcd_c,[],[None],False
+sufse_c,[],[None],False
+sufsesh_c,[],[None],False
+t3c11vaceACP_c,[],[None],False
+t3c5ddeceACP_c,[],[None],False
+t3c7mrseACP_c,[],[None],False
+t3c9palmeACP_c,[],[None],False
+t3hdprol_c,"['CHEBI:57938', 'CHEBI:16889']",[None],False
+tag120_c,"['CHEBI:17855', 'CHEBI:64615']",[None],False
+tag140_c,"['CHEBI:17855', 'CHEBI:64615']",[None],False
+tag141_c,"['CHEBI:17855', 'CHEBI:64615']",[None],False
+tag150_c,"['CHEBI:17855', 'CHEBI:64615']",[None],False
+tag160_c,"['CHEBI:17855', 'CHEBI:64615']",[None],False
+tag161_c,"['CHEBI:17855', 'CHEBI:64615']",[None],False
+tag170_c,"['CHEBI:17855', 'CHEBI:64615']",[None],False
+tag180_c,"['CHEBI:17855', 'CHEBI:64615']",[None],False
+tag181_c,"['CHEBI:17855', 'CHEBI:64615']",[None],False
+tag6p__D_c,"['CHEBI:17837', 'CHEBI:58695', 'CHEBI:4251']",['CHEBI:13025'],True
+tag6p_c,"['CHEBI:134283', 'CHEBI:47947']",[None],False
+tagai150_c,"['CHEBI:17855', 'CHEBI:64615']",[None],False
+tagai170_c,"['CHEBI:17855', 'CHEBI:64615']",[None],False
+tagdp__D_c,"['CHEBI:58694', 'CHEBI:16743', 'CHEBI:4250']",['CHEBI:13024'],True
+tagi140_c,"['CHEBI:17855', 'CHEBI:64615']",[None],False
+tagi150_c,"['CHEBI:17855', 'CHEBI:64615']",[None],False
+tagi160_c,"['CHEBI:17855', 'CHEBI:64615']",[None],False
+tagi170_c,"['CHEBI:17855', 'CHEBI:64615']",[None],False
+tagi180_c,"['CHEBI:17855', 'CHEBI:64615']",[None],False
+tartr__D_c,"['CHEBI:15672', 'CHEBI:35399', 'CHEBI:30927']",['CHEBI:11077'],True
+tartr__D_e,"['CHEBI:15672', 'CHEBI:35399', 'CHEBI:30927']",['CHEBI:11077'],True
+taur_c,"['CHEBI:507393', 'CHEBI:32970', 'CHEBI:15891']",['CHEBI:15195'],True
+taur_e,"['CHEBI:507393', 'CHEBI:32970', 'CHEBI:15891']",['CHEBI:15195'],True
+tbutalc_c,['CHEBI:45895'],[None],False
+tbutfor_c,[],[None],False
+tbutmet_c,[],[None],False
+tc12dhdol_c,['CHEBI:15565'],['CHEBI:9626'],True
+tcl14bzq_c,['CHEBI:36703'],[None],False
+tclhqn_c,"['CHEBI:57994', 'CHEBI:17042']",[None],False
+tcynt_c,"['CHEBI:18022', 'CHEBI:29200', 'CHEBI:24928']","['CHEBI:15234', 'CHEBI:8022']",False
+td2coa_c,"['CHEBI:61405', 'CHEBI:27721']",['CHEBI:10734'],True
+tdcoa_c,"['CHEBI:57385', 'CHEBI:15532']",['CHEBI:14637'],True
+tddec2eACP_c,['CHEBI:10725'],['CHEBI:10725'],True
+tddec2eACPredQ_c,['CHEBI:10725'],['CHEBI:10725'],True
+tdeACP_c,[],['CHEBI:76519'],False
+tdec2eACP_c,['CHEBI:10724'],['CHEBI:10724'],True
+tdec2eACPredQ_c,['CHEBI:10724'],['CHEBI:10724'],True
+tdecoa_c,[],['CHEBI:26900'],False
+thchd_c,"['CHEBI:58691', 'CHEBI:28446', 'CHEBI:4077']",[None],False
+thdp_c,"['CHEBI:11408', 'CHEBI:32976']",['CHEBI:10965'],False
+thex2eACP_c,['CHEBI:10727'],['CHEBI:10727'],True
+thex2eACPcda_c,['CHEBI:10727'],['CHEBI:10727'],True
+thex2eACPredQ_c,['CHEBI:10727'],['CHEBI:10727'],True
+thf_c,"['CHEBI:68437', 'CHEBI:26907', 'CHEBI:67016', 'CHEBI:15635', 'CHEBI:57453', 'CHEBI:20506']",['CHEBI:10931'],True
+thfglu_c,[],['CHEBI:26909'],False
+thm_c,"['CHEBI:49107', 'CHEBI:18385']",['CHEBI:15227'],True
+thm_e,"['CHEBI:49107', 'CHEBI:18385']",['CHEBI:15227'],True
+thmmp_c,"['CHEBI:37574', 'CHEBI:26945', 'CHEBI:37575', 'CHEBI:9533']",['CHEBI:15230'],True
+thmpp_c,"['CHEBI:45931', 'CHEBI:58937', 'CHEBI:9532']",['CHEBI:15229'],True
+thr__L_c,"['CHEBI:32833', 'CHEBI:32822', 'CHEBI:26986', 'CHEBI:32832', 'CHEBI:32820', 'CHEBI:57926', 'CHEBI:16857']",['CHEBI:13175'],True
+thr__L_e,"['CHEBI:32833', 'CHEBI:32822', 'CHEBI:26986', 'CHEBI:32832', 'CHEBI:32820', 'CHEBI:57926', 'CHEBI:16857']",['CHEBI:13175'],True
+thrp_c,"['CHEBI:37525', 'CHEBI:58675']",['CHEBI:21967'],True
+thrtrna_c,['CHEBI:29163'],['CHEBI:13176'],True
+thym_c,['CHEBI:17821'],['CHEBI:15247'],True
+thym_e,['CHEBI:17821'],['CHEBI:15247'],True
+thymd_c,['CHEBI:17748'],['CHEBI:15244'],True
+thymd_e,['CHEBI:17748'],['CHEBI:15244'],True
+tma_c,"['CHEBI:18139', 'CHEBI:58389']",[None],False
+tmao_c,['CHEBI:15724'],[None],False
+tmrs2eACP_c,['CHEBI:10735'],['CHEBI:10735'],True
+toct2eACP_c,[],[None],False
+toct2eACPredQ_c,[],[None],False
+toctd2eACP_c,['CHEBI:80388'],['CHEBI:80388'],True
+todcpribfur_c,"['CHEBI:66929', 'CHEBI:66881']",[None],False
+tol_c,['CHEBI:17578'],['CHEBI:15248'],True
+tpalm2eACP_c,['CHEBI:10729'],['CHEBI:10729'],True
+trdox_c,['CHEBI:18191'],['CHEBI:14726'],True
+trdrd_c,['CHEBI:15033'],['CHEBI:15033'],True
+tre6p_c,"['CHEBI:58429', 'CHEBI:18283']",['CHEBI:10201'],True
+tre_c,"['CHEBI:27082', 'CHEBI:16551']",['CHEBI:10202'],True
+tre_e,"['CHEBI:27082', 'CHEBI:16551']",['CHEBI:10202'],True
+trnaala_c,['CHEBI:29170'],['CHEBI:10672'],True
+trnaarg_c,['CHEBI:29171'],['CHEBI:10673'],True
+trnaasn_c,['CHEBI:29172'],['CHEBI:10674'],True
+trnaasp_c,['CHEBI:29186'],['CHEBI:10675'],True
+trnacys_c,['CHEBI:29167'],['CHEBI:10678'],True
+trnagln_c,['CHEBI:29168'],['CHEBI:10679'],True
+trnaglu_c,['CHEBI:29175'],['CHEBI:10680'],True
+trnagly_c,['CHEBI:29176'],['CHEBI:10681'],True
+trnahis_c,['CHEBI:29178'],['CHEBI:10682'],True
+trnaile_c,['CHEBI:29174'],['CHEBI:10683'],True
+trnaleu_c,['CHEBI:29169'],['CHEBI:10684'],True
+trnalys_c,['CHEBI:29185'],['CHEBI:10685'],True
+trnamet_c,['CHEBI:29173'],['CHEBI:10686'],True
+trnaphe_c,['CHEBI:29184'],['CHEBI:10687'],True
+trnapro_c,['CHEBI:29177'],['CHEBI:10688'],True
+trnaser_c,['CHEBI:29179'],['CHEBI:10689'],True
+trnathr_c,['CHEBI:29180'],['CHEBI:10690'],True
+trnatrp_c,['CHEBI:29181'],['CHEBI:10691'],True
+trnatyr_c,['CHEBI:29182'],['CHEBI:10692'],True
+trnaval_c,['CHEBI:29183'],['CHEBI:10694'],True
+trp__L_c,"['CHEBI:32702', 'CHEBI:32727', 'CHEBI:57912', 'CHEBI:64554', 'CHEBI:27897', 'CHEBI:32704', 'CHEBI:32728', 'CHEBI:16828']",['CHEBI:13178'],True
+trp__L_e,"['CHEBI:32702', 'CHEBI:32727', 'CHEBI:57912', 'CHEBI:64554', 'CHEBI:27897', 'CHEBI:32704', 'CHEBI:32728', 'CHEBI:16828']",['CHEBI:13178'],True
+trptrna_c,['CHEBI:29159'],['CHEBI:13179'],True
+tsul_c,"['CHEBI:33541', 'CHEBI:16094', 'CHEBI:33542', 'CHEBI:5587', 'CHEBI:33539', 'CHEBI:26977', 'CHEBI:33540', 'CHEBI:29279']","['CHEBI:15242', 'CHEBI:3539']",False
+ttdca_c,"['CHEBI:30807', 'CHEBI:28875']",['CHEBI:26897'],True
+ttdcap_c,[],[None],False
+ttdcea_c,[],['CHEBI:36004'],False
+ttdceap_c,[],[None],False
+tungs_c,"['CHEBI:36272', 'CHEBI:36271', 'CHEBI:46502']",['CHEBI:30518'],True
+tungs_e,"['CHEBI:36272', 'CHEBI:36271', 'CHEBI:46502']",['CHEBI:30518'],True
+tyr__L_c,"['CHEBI:32785', 'CHEBI:17895', 'CHEBI:32762', 'CHEBI:32786', 'CHEBI:32760', 'CHEBI:18186', 'CHEBI:32761', 'CHEBI:32784', 'CHEBI:58315']",['CHEBI:13181'],True
+tyr__L_e,"['CHEBI:32785', 'CHEBI:17895', 'CHEBI:32762', 'CHEBI:32786', 'CHEBI:32760', 'CHEBI:18186', 'CHEBI:32761', 'CHEBI:32784', 'CHEBI:58315']",['CHEBI:13181'],True
+tyrtrna_c,['CHEBI:29161'],['CHEBI:13185'],True
+uGgl_c,['CHEBI:83903'],[None],False
+uGgla_c,"['CHEBI:58086', 'CHEBI:17277', 'CHEBI:70768', 'CHEBI:70758']",[None],False
+uaagmda_c,"['CHEBI:61388', 'CHEBI:28138']",['CHEBI:27200'],True
+uaccg_c,"['CHEBI:68507', 'CHEBI:57771', 'CHEBI:16435', 'CHEBI:68483']",['CHEBI:13466'],True
+uacgam_c,"['CHEBI:57705', 'CHEBI:16264']",['CHEBI:13456'],True
+uacmam_c,"['CHEBI:16287', 'CHEBI:57715']",['CHEBI:13457'],True
+uacmamu_c,"['CHEBI:28581', 'CHEBI:58578']",['CHEBI:13469'],False
+uagmda_c,"['CHEBI:61387', 'CHEBI:61543']",['CHEBI:61387'],True
+uama_c,"['CHEBI:57953', 'CHEBI:16932']",['CHEBI:13459'],True
+uamag_c,"['CHEBI:16970', 'CHEBI:57968']",['CHEBI:13461'],True
+uamr_c,"['CHEBI:58309', 'CHEBI:17882']",['CHEBI:13458'],True
+udcpdp_c,"['CHEBI:57995', 'CHEBI:18197', 'CHEBI:58405', 'CHEBI:17047', 'CHEBI:53042']",['CHEBI:15284'],True
+udcpp_c,"['CHEBI:57654', 'CHEBI:16141']",['CHEBI:15285'],True
+udpLa4fn_c,"['CHEBI:58709', 'CHEBI:47027']",[None],False
+udpLa4n_c,"['CHEBI:58708', 'CHEBI:47025']",[None],False
+udpLa4o_c,"['CHEBI:58710', 'CHEBI:47028']",[None],False
+udp_c,"['CHEBI:58223', 'CHEBI:17659']",['CHEBI:13445'],True
+udpg_c,"['CHEBI:58885', 'CHEBI:46229']",['CHEBI:13498'],False
+udpgal_c,"['CHEBI:58439', 'CHEBI:67119', 'CHEBI:66914', 'CHEBI:18307']",['CHEBI:13487'],True
+udpglcur_c,"['CHEBI:58052', 'CHEBI:17200']",['CHEBI:13489'],True
+ugmd_c,"['CHEBI:84805', 'CHEBI:83905']",['CHEBI:13460'],False
+ugmda_c,"['CHEBI:18199', 'CHEBI:27835', 'CHEBI:61386']",['CHEBI:13462'],True
+um4p_c,['CHEBI:28360'],['CHEBI:9829'],True
+ump_c,"['CHEBI:57865', 'CHEBI:16695']",['CHEBI:13508'],True
+ump_e,"['CHEBI:57865', 'CHEBI:16695']",['CHEBI:13508'],True
+unaga_c,"['CHEBI:62958', 'CHEBI:62959']",[None],False
+up_c,[],[None],False
+uppg1_c,"['CHEBI:28766', 'CHEBI:62626']",['CHEBI:27256'],True
+uppg3_c,"['CHEBI:15437', 'CHEBI:57308']",['CHEBI:15300'],True
+ura_c,"['CHEBI:17568', 'CHEBI:43254']",['CHEBI:15288'],True
+ura_e,"['CHEBI:17568', 'CHEBI:43254']",['CHEBI:15288'],True
+urate_c,"['CHEBI:46814', 'CHEBI:17775', 'CHEBI:46826', 'CHEBI:27226', 'CHEBI:46823', 'CHEBI:46822', 'CHEBI:46824', 'CHEBI:46818', 'CHEBI:46825', 'CHEBI:49051', 'CHEBI:27216', 'CHEBI:46820', 'CHEBI:46811', 'CHEBI:46817', 'CHEBI:46821', 'CHEBI:30848']",['CHEBI:17775'],True
+urcan_c,"['CHEBI:30817', 'CHEBI:17771', 'CHEBI:27247', 'CHEBI:27248']",['CHEBI:15298'],True
+urdgci_c,"['CHEBI:59947', 'CHEBI:59945']",['CHEBI:59945'],True
+urdglyc_c,"['CHEBI:15412', 'CHEBI:57296']",['CHEBI:10783'],True
+urea_c,"['CHEBI:48376', 'CHEBI:16199']",['CHEBI:15292'],True
+urea_e,"['CHEBI:48376', 'CHEBI:16199']",['CHEBI:15292'],True
+uri_c,['CHEBI:16704'],['CHEBI:15296'],True
+uri_e,['CHEBI:16704'],['CHEBI:15296'],True
+utp_c,"['CHEBI:15713', 'CHEBI:57481', 'CHEBI:46398']",['CHEBI:13510'],True
+val__L_c,"['CHEBI:32852', 'CHEBI:32859', 'CHEBI:16414', 'CHEBI:32851', 'CHEBI:57762', 'CHEBI:27266', 'CHEBI:32860']",['CHEBI:13186'],True
+val__L_e,"['CHEBI:32852', 'CHEBI:32859', 'CHEBI:16414', 'CHEBI:32851', 'CHEBI:57762', 'CHEBI:27266', 'CHEBI:32860']",['CHEBI:13186'],True
+valtrna_c,['CHEBI:29164'],['CHEBI:13187'],True
+vanln_c,['CHEBI:18346'],[None],False
+vanlt_c,"['CHEBI:16632', 'CHEBI:30816']",['CHEBI:15301'],True
+vanlt_e,"['CHEBI:16632', 'CHEBI:30816']",['CHEBI:15301'],True
+wco_c,[],[None],False
+xan_c,"['CHEBI:17712', 'CHEBI:15318', 'CHEBI:48517']",['CHEBI:10059'],True
+xan_e,"['CHEBI:17712', 'CHEBI:15318', 'CHEBI:48517']",['CHEBI:10059'],True
+xllgsacc_c,[],[None],False
+xlxgxgsac_c,[],[None],False
+xmp_c,['CHEBI:53012'],['CHEBI:10067'],False
+xmp_e,['CHEBI:53012'],['CHEBI:10067'],False
+xtp_c,"['CHEBI:10049', 'CHEBI:59885', 'CHEBI:61314']",['CHEBI:10049'],True
+xtsn_c,['CHEBI:18107'],['CHEBI:10066'],True
+xtsn_e,['CHEBI:18107'],['CHEBI:10066'],True
+xu1p__D_c,['CHEBI:28566'],[None],False
+xu5p__D_c,"['CHEBI:16332', 'CHEBI:27354', 'CHEBI:57737']",['CHEBI:13036'],True
+xu5p__L_c,"['CHEBI:57829', 'CHEBI:16593']",['CHEBI:13191'],True
+xxlgsacc_c,[],[None],False
+xyhex3u14lac_c,"['CHEBI:125365', 'CHEBI:73681']",[None],False
+xyl__D_c,"['CHEBI:15936', 'CHEBI:65327']",['CHEBI:53455'],False
+xyl__D_e,"['CHEBI:15936', 'CHEBI:65327']",['CHEBI:53455'],False
+xylnact__D_c,['CHEBI:15867'],[None],False
+xylonate__D_c,"['CHEBI:48093', 'CHEBI:17746']",[None],False
+xylt_c,['CHEBI:17151'],['CHEBI:10078'],True
+xylt_e,['CHEBI:17151'],['CHEBI:10078'],True
+xylu__D_c,['CHEBI:17140'],['CHEBI:13035'],True
+xylu__L_c,"['CHEBI:17399', 'CHEBI:27353']",['CHEBI:13190'],True
+zcarote_c,"['CHEBI:27362', 'CHEBI:28068']",[None],False
+zn2_c,['CHEBI:29105'],['CHEBI:10113'],True
+zn2_e,['CHEBI:29105'],['CHEBI:10113'],True
