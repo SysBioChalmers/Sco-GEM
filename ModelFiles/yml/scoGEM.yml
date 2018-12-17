@@ -61792,7 +61792,7 @@
       - hmgcoa_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: SCO4930
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: MGCH
