@@ -105,9 +105,9 @@ def print_new_sco4_annotations(iMK1208, iKS1317, sco4):
             print("{0}; {1}; {2}; {3}; {4}".format(reaction_id, r_iMK1208.gene_reaction_rule, r.gene_reaction_rule, r_sco4.gene_reaction_rule, True))
 
 if __name__ == '__main__':
-    sco4_fn = r"C:\\Users\\snorres\\git\\scoGEM\\ComplementaryData\\models\\Sco4.xml"
-    iKS1317_fn = r"C:\\Users\\snorres\\git\\scoGEM\\ComplementaryData\\models\\iKS1317.xml"
-    iMK1208_fn = r"C:\\Users\\snorres\\OneDrive - SINTEF\\SINTEF projects\\INBioPharm\\SCM\\sbml models\\Kim2014\\kim_with_kegg.xml"
+    sco4_fn = r"..\..\\ComplementaryData\\models\\Sco4.xml"
+    iKS1317_fn = r"..\..\\ComplementaryData\\models\\iKS1317.xml"
+    iMK1208_fn = r"..\..\\ComplementaryData\\models\\iMK1208.xml"
 
     iMK1208 = cobra.io.read_sbml_model(iMK1208_fn)
     sco4 = cobra.io.read_sbml_model(sco4_fn)
