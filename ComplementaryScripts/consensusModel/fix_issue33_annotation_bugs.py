@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+"""
+Author: Snorre Sulheim
+
+# Description
+This file fixes a variety of bugs and smal improvements related to annotations. See issue 33 for more info.
+"""
 import cobra
 import logging
 import pandas as pd
@@ -10,7 +17,6 @@ def fix(scoGEM):
     annotate_germicidin_pathway(scoGEM)
     fix_wrong_chebi_mapping(scoGEM)
     remove_biocyc_annotaions_from_exchanges(scoGEM)
-    # fix_metanetx_annotations(scoGEM, met_to_metanetx_fn)
 
 def fix_c_c_in_metabolite_ids(scoGEM):
     for m in scoGEM.metabolites:

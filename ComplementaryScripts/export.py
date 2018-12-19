@@ -133,7 +133,7 @@ def export(scoGEM, folder = "ModelFiles", name = "scoGEM", formats = ["xml", "ym
         cobra.io.save_matlab_model(scoGEM, str(model_fn_mat))
 
     if write_requirements:
-        write_requirements(REPO_MAIN_FOLDER)
+        write_requirements_fun(REPO_MAIN_FOLDER)
 
 def check_folder(file_path):
     if not file_path.parent.is_dir():
@@ -211,7 +211,7 @@ def sort_reactions(scoGEM):
 
 
 
-def write_requirements(directory, force = True):
+def write_requirements_fun(directory, force = True):
     directory = str(directory)
     if force:
         subprocess.run(["pipreqs", "--force", "."], cwd = directory)
