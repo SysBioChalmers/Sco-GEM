@@ -1,4 +1,13 @@
 # -*- coding: utf-8 -*-
+#!/usr/bin/env python
+"""
+Author: Snorre Sulheim / Eduard Kerkhoven
+
+# Description
+This file adds SBO terms to reactions and metabolites. This is kind of a
+copy of a matlab-script Eduard used to to the same
+"""
+
 import cobra
 import logging
 
@@ -12,7 +21,7 @@ SBO term    | name
 SBO:0000627 | exchange reaction                 
 SBO:0000628 | demand reaction       
 SBO:0000629 | biomass production    
-SBO:0000630 | ATP mainteinance      
+SBO:0000630 | ATP maintenance      
 SBO:0000395 | encapsulating process 
 SBO:0000655 | transport reaction    
 SBO:0000176 | biochemical reaction
@@ -25,7 +34,7 @@ Metabolite SBO terms
 SBO term    | name                  
 ------------------------------
 SBO:0000649 | biomass
-SBO:0000649 | simple chemical
+SBO:0000247 | simple chemical
 
 Genes
 ======

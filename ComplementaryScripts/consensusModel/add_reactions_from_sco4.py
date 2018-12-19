@@ -1,12 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-This file adds reactions from Sco4 based on the mapping of reactions and metabolites. 
 Author: Snorre Sulheim
 Date: 10.09.2018
 
 # Description
-
-# Files required
+This file adds reactions from Sco4 based on the mapping of reactions and metabolites. 
 
 """
 import cobra
@@ -16,6 +14,9 @@ import re
 import logging
 
 def add_reactions(sco4_model, scoGEM, reaction_mapping_fn, metabolite_mapping_fn, add_new_metabolites = True):
+    """
+    This is the main function used to add reactions from Sco4 to scoGEM
+    """
     # Apply metabolite mapping to Sco4
     apply_metabolite_mapping(sco4_model, metabolite_mapping_fn)
 
@@ -141,7 +142,6 @@ def evaluate_missing_reactions(missing_reaction_dict, reaction_mapping_df):
             if not pd.isnull(matched["iKS1317_ID"]):
                 matched_reactions.append(matched["iKS1317_ID"])
         
-        # print(key, list(set(matched_reactions)))
 
       
 
@@ -233,13 +233,8 @@ def map_new_reactions_using_BiGG():
     print(bigg_df["KEGG Reaction"][bigg_df["KEGG Reaction"].str[0] == "R"])
 
     new_reactions_df["Fixed ID"] = new_reactions_df["Reaction ID"].apply(replace_ascii)
-    print(new_reactions_df)
 
-    # merged = new_reactions_df.merge(bigg_df, how = "left", left_on = ["Fixed ID", "KEGG annotation"], right_on = ["bigg_id", "KEGG Reaction"])
-    # print(merged["bigg_id"])
-    # merged = new_reactions_df.merge(bigg_df, how = "left", left_on = "Fixed ID", right_on = "BioCyc")
     merged = pd.merge(left = new_reactions_df, right = bigg_df, how = "left", left_on = "KEGG annotation", right_on = "KEGG Reaction")
-    print(merged)
 
     for i, row in new_reactions_df.iterrows():
         kegg_id = row["KEGG annotation"]
@@ -268,30 +263,8 @@ def map_reactions_using_metanetx():
 
     merged = new_reactions_df.merge(mnx_df, how = "left", left_on = "Fixed ID", right_on = "metacyc")
     # print(merged)
-    # unmerged_idx = merged["metacyc"].isnull()
-    # merged[unmerged_idx] = pd.merge(left = merged[unmerged_idx], right = mnx_df, how = "left", left_on = "KEGG annotation", right_on = "kegg")
-
-
-
-    # merged = merged.merge(mnx_df, how = "left", left_on = "KEGG annotation", right_on = "kegg")
     merged.to_csv("../../ComplementaryData/curation/added_sco4_reactions2.csv", columns = ["Reaction ID", "Fixed ID", "Reaction name", "KEGG annotation", "metanetx", "bigg", "New ID"], index = False, sep = ";")
 
-    # print(mnx_df["kegg"])
-    # for i, row in new_reactions_df.iterrows():
-    #     kegg_id = row["KEGG annotation"]
-    #     if isinstance(kegg_id, float):
-    #         continue
-    #     print(kegg_id)
-    #     if isinstance(kegg_id, str):
-    #         kegg_id = [kegg_id]
-    #     for kegg_id_i in kegg_id:
-    #         print(mnx_df[mnx_df["kegg"].str.contains(kegg_id_i, na = False)])
-
-    # for i, row in new_reactions_df.iterrows():
-    #     biocyc_id = row["Fixed ID"]
-    #     print(biocyc_id)
-    #     if biocyc_id in mnx_df["metacyc"]:
-    #         print("#############")
 
 
 

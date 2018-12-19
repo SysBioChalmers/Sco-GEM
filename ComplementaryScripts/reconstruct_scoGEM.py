@@ -3,16 +3,32 @@
 This file reconstructs scoGEM, the genome-scale model for Streptomyces coelicolor A3(2).
 Author: Snorre Sulheim
 Created: 27.08.2018
+Updated: 19.12.2018
+Email: snorre.sulheim@sintef.no
 
 
 # Description
-The scoGEM community model of Streptomyces coelicolor is constructed using the three
+The scoGEM community model of Streptomyces coelicolor is constructed using this script.
+The reconstruction pipeline is based on the iKS1317 model. Below is a coarse list of the different steps of the pipeline
+
+1.  Load iKS1317 and fix some issues
+2a. Add reactions and metabolites from Sco4
+2b. Update IDs and some annotations of Sco4
+3.  Add reactions, metabolites, update biomass and gene-reaction-rules according to iAA1259
+4.  Fix several small tasks / issues:
+    - add SBO terms
+    - add pseudometabolites
+    - update metanetx annotations
+    - update the biomass according to proteomics data
+5.  Change reaction bounds according to dG values from eQuilibrator
+
 
 """
 
 
 import cobra
 import logging
+from pathlib import Path
 
 from consensusModel import fix_iKS1317_issues
 from consensusModel import fix_sco4_issues
@@ -32,7 +48,9 @@ import export
 SAVE_PATH = "../ModelFiles/xml/scoGEM.xml"
 iKS1317_PATH = "../ComplementaryData/models/iKS1317.xml"
 
-SCO4_PATH = "../ComplementaryData/models/Sco4.xml"
+REPO_DIR = Path(__file__).parent.parent
+
+SCO4_PATH = str(REPO_DIR / "ComplementaryData/models/Sco4.xml")
 SCO4_REACTION_MAPPING_FN = "../ComplementaryData/curation/rxns_iKS1317_vs_Sco4.csv"
 SCO4_METABOLITE_MAPPING_FN =  "../ComplementaryData/curation/mets_iKS1317_vs_Sco4.csv"
 SCO4_REACTION_ANNOTATION_FN = "../ComplementaryData/curation/added_sco4_reactions.csv"
@@ -41,6 +59,9 @@ SCO4_METABOLITE_ANNOTATION_FN = "../ComplementaryData/curation/added_sco4_metabo
 iAA1259_PATH = "../ComplementaryData/models/iAA1259.xml"
 iAA1259_NEW_REACTIONS_FN = "../ComplementaryData/curation/iAA1259_suppl_S4.csv" # New reactions
 
+MET_TO_METANETX_FN = str(REPO_DIR / "ComplementaryData" / "curation" /"metanetx_to_change.csv")
+RXN_TO_METANETX_FN = str(REPO_DIR / "ComplementaryData" / "curation" /"metanetx_reaction_annotations_to_change.csv")
+MET_TO_CHEBI_FN = str(REPO_DIR / "ComplementaryData" / "curation" /"chebi_annotation.csv")
 NEW_BIOMASS_DATA_FN = "../ComplementaryData/biomass/biomass_scaled.txt"
 EQUILIBRATOR_FN_1 = "../ComplementaryData/curation/reversibility/eQuilibrator_reversibility.csv"
 EQUILIBRATOR_FN_2 = "../ComplementaryData/curation/reversibility/eQuilibrator_reversibility_lethals.csv"
@@ -84,7 +105,12 @@ def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
     fix_issue33_annotation_bugs.fix(scoGEM)
     redox_pseudometabolite.run(scoGEM)
     fix_SBO_terms.add_SBO(scoGEM)
+    fix_issue33_annotation_bugs.fix_metanetx_metabolite_annotations(scoGEM, MET_TO_METANETX_FN)
     fix_biomass.fix_biomass(scoGEM, NEW_BIOMASS_DATA_FN)
+    fix_issue33_annotation_bugs.apply_new_chebi_annotations(scoGEM, MET_TO_CHEBI_FN)
+    fix_issue33_annotation_bugs.fix_c_c_in_metabolite_ids(scoGEM)
+    fix_issue33_annotation_bugs.fix_metanetx_reaction_annotations(scoGEM, RXN_TO_METANETX_FN)
+
 
     # Part 5
     scoGEM = reversibility.change_bounds_according_to_eQuilibrator(scoGEM, EQUILIBRATOR_FN_1, EQUILIBRATOR_FN_2)

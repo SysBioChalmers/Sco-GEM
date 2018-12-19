@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 """
-This file fixes some of the errors in iKS1317
 Author: Snorre Sulheim
 Date: 27.08.2018
 
+# Description
+This file fixes some of the errors in iKS1317
 """
 
 import cobra
