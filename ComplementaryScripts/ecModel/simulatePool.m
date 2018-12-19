@@ -49,4 +49,4 @@ cd gecko/geckomat/kcat_sensitivity_analysis
 conditions  = num2cell(sample(:,[1,3]),1);
 conditions  = strcat(conditions{:,1},{'_'},conditions{:,2});
 T = topUsedEnzymes(transpose(sol_pool),model_pool(1),conditions,'scoGEM',false,10);
-writetable(T,['../../../../../ComplementaryData/ecmodel/ecScoGEM_topUsedEnzymes.txt'])
+writetable(T,['../../../../../ComplementaryData/ecmodel/ecScoGEM_pool_topUsedEnzymes.txt'])
