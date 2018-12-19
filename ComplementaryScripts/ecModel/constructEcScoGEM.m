@@ -3,15 +3,7 @@
 %
 % Eduard Kerkhoven, 2018-12-04
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-function [ecModel,model_data,kcats] = constructEcScoGEM(version)
-
-%Set parameters, flags and options
-%format short e
-name        = 'scoGEM';
-org_name    = 'streptomyces coelicolor';
-if nargin < 4
-    version = datestr(now,'yymmdd'); % E.g. 181109 for 9 November 2018
-end
+function [ecModel,model_data,kcats] = constructEcScoGEM
 
 %Load model
 model       = importModel('../../ModelFiles/xml/scoGEM.xml');
@@ -20,12 +12,12 @@ fprintf(['Growth rate of template model: ' num2str(-sol.f) '\n']);
 
 %Remove blocked rxns + correct model.rev
 cd reconstruction
-[model,name,version] = preprocessModel(model,name,version);
+model = preprocessModel(model);
 
 %Retrieve kcats & MWs for each rxn in model:
 cd ../gecko/geckomat/get_enzyme_data
 model_data = getEnzymeCodes(model);
-kcats      = matchKcats(model_data,org_name);
+kcats      = matchKcats(model_data,'streptomyces coelicolor');
 save('../../../../../ComplementaryData/ecmodel/kcats.mat','model_data','kcats');
 load('../../../../../ComplementaryData/ecmodel/kcats.mat');
 
@@ -45,7 +37,7 @@ ecModel=setParam(ecModel,'ub','EX_glc__D_e_REV',GlcUptake);
 ecModel=setParam(ecModel,'ub','EX_glu__L_e_REV',GluUptake);
 ecModel=setParam(ecModel,'ub','EX_nh4_e_REV',0);
 
-save(['../../../ModelFiles/mat/Ec' name '.mat'],'ecModel','modifications')
+save('../../../ModelFiles/mat/ecScoGEM.mat','ecModel','modifications')
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

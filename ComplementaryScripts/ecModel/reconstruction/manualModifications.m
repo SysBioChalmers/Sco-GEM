@@ -142,13 +142,9 @@ end
 % Aconitase (Q7AKF3/EC 4.2.1.3): The rxn is represented as a two
 % step rxn, so the kcat must be divided by 2
 index = find(strcmpi('prot_Q7AKF3',model.mets));
-if ~isempty(index)
-    rxnIndxs = find(model.S(:,index));
-    if ~isempty(rxnIndxs)
-        rxnIndxs = rxnIndxs(1:end-2);
-        model.S(rxnIndxs,index) = model.S(rxnIndxs,index)/2;
-    end
-end
+rxnIndxs = find(model.S(index,:));
+rxnIndxs = rxnIndxs(1:end-2);
+model.S(index,rxnIndxs) = model.S(index,rxnIndxs)/2;
 
 % Remove saved arm reactions:
 model = removeReactions(model,model.rxns(arm_pos(1:p)),true,true);
@@ -301,16 +297,20 @@ if strcmpi('prot_Q9K451',enzName) && ...
 end
 % 3-oxoacyl-[acyl-carrier-protein] synthase (Q9Z4Y3/EC2.3.1.179) -
 % assigned activity from E. coli was growth limiting, 37% of total
-% protein in pool-model. Not in BRENDA, but activity was also measured in 
+% protein in pool-model. Use trimmed mean (10%) of all BRENDA kcat values
+% for EC2.3.1.-, which is 33.54.
+% Alternatively use S.A., 7.5 umol/min/mg protein and 
+% 76 kDA, as reported in PMID: 237914.
+% Alternative, not in BRENDA, but activity was also measured in 
 % Streptomyces coelicolor (PMID:22136753). Different sets of substrates are
 % assayed in that paper, take the highest reported activity of 20.33 min-1.
-if (strcmpi('prot_Q9Z4Y3',enzName) | strcmpi('prot_Q9K3H4',enzName) | ...
-    strcmpi('prot_Q9RDP7',enzName) | strcmpi('prot_Q9RK62',enzName)) && ...
-    (contains(reaction,'3-oxoacyl-[acyl-carrier-protein] synthase (') | ...
+%%if (strcmpi('prot_Q9Z4Y3',enzName) | strcmpi('prot_Q9K3H4',enzName) | ...
+   %% strcmpi('prot_Q9RDP7',enzName) | strcmpi('prot_Q9RK62',enzName)) && ...
+if    (contains(reaction,'3-oxoacyl-[acyl-carrier-protein] synthase (') | ...
     contains(reaction,'beta-ketoacyl-ACP synthase (') | ...
-	contains(reaction,'3-Oxo-glutaryl-[ACP] methyl ester synthase') | ...
-	contains(reaction,'3-Oxo-pimeloyl-[ACP] methyl ester synthase'))    
-    newValue      = -(20.33*3600)^-1;
+    contains(reaction,'3-Oxo-glutaryl-[ACP] methyl ester synthase') | ...
+    contains(reaction,'3-Oxo-pimeloyl-[ACP] methyl ester synthase'))    
+    newValue      = -(2000*3600)^-1;
     modifications{1} = [modifications{1}; 'Q9Z4Y3'];
     modifications{2} = [modifications{2}; reaction];
 end
@@ -327,11 +327,27 @@ if strcmpi('prot_Q9XAP8',enzName) && ...
     modifications{2} = [modifications{2}; reaction];
 end
 % GTP cyclohydrolase 1 (Q9X8I3/EC3.5.4.16) - one of the topUsedEnzymes.
-% Use S.A. measured from Streptomyces tubercidicus (PMID:9868539).
-% BRENDA reports 9.1 umol, but paper states 90 nmol/min/mg protein.
+% Use S.A. measured from Streptomyces tubercidicus (PMID:9868539), 9.1
+% umol.
 if strcmpi('prot_Q9X8I3',enzName) && contains(reaction,'GTP cyclohydrolase I')
-    newValue      = -(0.09*60*MW_set)^-1;
+    newValue      = -(9.1*60*MW_set)^-1;
     modifications{1} = [modifications{1}; 'Q9X8I3'];
+    modifications{2} = [modifications{2}; reaction];
+end
+% geranylgeranyltranstransferase (Q9F2X8/EC2.5.1.31) - no reliable kcat or
+% SA (only kcat known is from a plant). Rather, use same Kcat that is
+% estimated for other reactions catalyzed by this enzyme: 18.9998
+if strcmpi('prot_Q9F2X8',enzName) && contains(reaction,'geranylgeranyltranstransferase')
+    newValue      = -(18.9998*3600)^-1;
+    modifications{1} = [modifications{1}; 'Q9F2X8'];
+    modifications{2} = [modifications{2}; reaction];
+end
+% Undecaprenyl diphosphate synthase (Q9L2H4/EC2.5.1.31) - EC number on UniProt has
+% wild-card and was therefore not queried for kcat value. Take highest
+% bacterial kcat value from BRENDA: 2.5 sec-1 for E. coli.
+if strcmpi('prot_Q9L2H4',enzName) && contains(reaction,'Undecaprenyl diphosphate synthase')
+    newValue      = -(2.5*3600)^-1;
+    modifications{1} = [modifications{1}; 'Q9L2H4'];
     modifications{2} = [modifications{2}; reaction];
 end
 % cardiolipin synthase (Q9KZP3/EC2.7.8.41) - one of the topUsedEnzymes.
@@ -355,6 +371,16 @@ if strcmpi('prot_O54158',enzName) && ...
     modifications{1} = [modifications{1}; 'O54158'];
     modifications{2} = [modifications{2}; reaction];
 end
+% L-prolyladenylate synthase (O54154/EC6.2.1.53) - assigned kcat values too
+% low to support RED production when proteomics data integrated. No kcat
+% values are provided in BRENDA, take trimmed mean (10%) of EC6.2.1.-
+% as reported on BRENDA: 23.01 sec-1, instead of initially assigned 3.2.
+if strcmpi('prot_O54154',enzName) && ...
+        contains(reaction,'L-prolyladenylate synthase')
+    newValue      = -(23.01*3600)^-1;
+    modifications{1} = [modifications{1}; 'O54154'];
+    modifications{2} = [modifications{2}; reaction];
+end
 % cobaltochelatase (Q9RJ19/EC6.6.1.2) - rate limiting. No measured
 % activity, take highest report activity of EC6.6.1.-: 0.03
 if strcmpi('prot_Q9RJ19',enzName) && ...
@@ -363,19 +389,20 @@ if strcmpi('prot_Q9RJ19',enzName) && ...
     modifications{1} = [modifications{1}; 'Q9RJ19'];
     modifications{2} = [modifications{2}; reaction];
 end
-% Phosphoadenosine phosphosulfate reductase (Q9ADG3/EC6.6.1.2) - rate limiting. No measured
+% Phosphoadenosine phosphosulfate reductase (Q9ADG3/EC1.8.4.8) - rate limiting. No measured
 % activity, take highest report activity of EC6.6.1.-: 0.03
-if strcmpi('prot_Q9RJ19',enzName) && ...
-        contains(reaction,'cobaltochelatase')
-    newValue      = -(0.03*3600)^-1;
+if strcmpi('prot_Q9ADG3',enzName) && ...
+        contains(reaction,'phosphoadenylyl-sulfate reductase')
+    newValue      = -(3.5*3600)^-1;
     modifications{1} = [modifications{1}; 'Q9ADG3'];
     modifications{2} = [modifications{2}; reaction];
 end
 % dUTP diphosphatase (No1) (O54134/EC3.6.1.23) - rate limiting, measured at 20 C. 
-% In another publication, activity was measured at 25 C, kcat of 5.8 sec-1. PMID:18519027
+% Take the highest prokaryotic activity measured at 30 C: 38.3 sec-1 as kcat
+% for E. coli, as reported in PMID:346589
 if strcmpi('prot_O54134',enzName) && ...
         contains(reaction,'dUTP diphosphatase')
-    newValue      = -(5.8*3600)^-1;
+    newValue      = -(38.3*3600)^-1;
     modifications{1} = [modifications{1}; 'O54134'];
     modifications{2} = [modifications{2}; reaction];
 end

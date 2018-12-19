@@ -1,22 +1,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % [model,name,version] = preprocessModel(model,name,version)
-% Performs some preliminary modifications to the metabolic model & 
+% Performs some preliminary modifications to the metabolic model &
 % retrieves the model's name & version (either by parsing model.id or by
 % asking the user to input it), if they were not already defined.
 %
 % model     A genome-scale model in RAVEN format
-% name      The name of the model (alternatively, an empty string)
-% version   The version of the model (alternatively, an empty string)
-% 
-% model     The processed model
-% name      The resulting name of the model (if not specified before)
-% version   The resulting version of the model (if not specified before)
 %
-% Benjamin J. Sanchez. Last edited: 2018-09-01
+% model     The processed model
+%
 % Eduard Kerkhoven. Last edited: 2018-10-16
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function [model,name,version] = preprocessModel(model,name,version)
+function model = preprocessModel(model)
 
 %Remove gene rules from pseudoreactions (if any):
 for i = 1:length(model.rxns)
@@ -45,7 +40,6 @@ for i = 1:length(model.rxns)
 end
 
 %Correct complex grRules
-
 model = changeGeneAssoc(model, 'OXDHCOAT', '(SCO5144 and SCO6701) or (SCO5144 and SCO6967) or (SCO5144 and SCO3079) or (SCO5144 and SCO6731)');
 model = changeGeneAssoc(model, 'IBTMr', '(SCO5415 and SCO4800) or (SCO5415 and SCO6833)');
 model = changeGeneAssoc(model, 'AKGDH', '(SCO5281 and SCO2181 and SCO0884) or (SCO5281 and SCO2181 and SCO2180) or (SCO5281 and SCO2181 and SCO4919) or (SCO5281 and SCO7123 and SCO0884) or (SCO5281 and SCO7123 and SCO2180) or (SCO5281 and SCO7123 and SCO4919)');
@@ -82,29 +76,7 @@ model = changeGeneAssoc(model, 'SUCD9','(SCO0922 and SCO0923) or (SCO0922 and SC
 model = changeGeneAssoc(model, 'PDH', '(SCO1269 and SCO1270 and SCO2183 and SCO0884 and SCO1268) or (SCO1269 and SCO1270 and SCO2183 and SCO0884 and SCO7123) or (SCO1269 and SCO1270 and SCO2183 and SCO0884 and SCO2181) or (SCO1269 and SCO1270 and SCO2183 and SCO2180 and SCO1268) or (SCO1269 and SCO1270 and SCO2183 and SCO2180 and SCO7123) or (SCO1269 and SCO1270 and SCO2183 and SCO2180 and SCO2181) or (SCO1269 and SCO1270 and SCO2183 and SCO4919 and SCO1268) or (SCO1269 and SCO1270 and SCO2183 and SCO4919 and SCO7123) or (SCO1269 and SCO1270 and SCO2183 and SCO4919 and SCO2181) or (SCO1269 and SCO1270 and SCO2371 and SCO0884 and SCO1268) or (SCO1269 and SCO1270 and SCO2371 and SCO0884 and SCO7123) or (SCO1269 and SCO1270 and SCO2371 and SCO0884 and SCO2181) or (SCO1269 and SCO1270 and SCO2371 and SCO2180 and SCO1268) or (SCO1269 and SCO1270 and SCO2371 and SCO2180 and SCO7123) or (SCO1269 and SCO1270 and SCO2371 and SCO2180 and SCO2181) or (SCO1269 and SCO1270 and SCO2371 and SCO4919 and SCO1268) or (SCO1269 and SCO1270 and SCO2371 and SCO4919 and SCO7123) or (SCO1269 and SCO1270 and SCO2371 and SCO4919 and SCO2181) or (SCO1269 and SCO1270 and SCO7124 and SCO0884 and SCO1268) or (SCO1269 and SCO1270 and SCO7124 and SCO0884 and SCO7123) or (SCO1269 and SCO1270 and SCO7124 and SCO0884 and SCO2181) or (SCO1269 and SCO1270 and SCO7124 and SCO2180 and SCO1268) or (SCO1269 and SCO1270 and SCO7124 and SCO2180 and SCO7123) or (SCO1269 and SCO1270 and SCO7124 and SCO2180 and SCO2181) or (SCO1269 and SCO1270 and SCO7124 and SCO4919 and SCO1268) or (SCO1269 and SCO1270 and SCO7124 and SCO4919 and SCO7123) or (SCO1269 and SCO1270 and SCO7124 and SCO4919 and SCO2181)');
 
 % Not standardized, due to too many combinations
-%model = changeGeneAssoc(model, {'NADH17b','NADH8'}, 'SCO4564 and SCO4566 and SCO4568 and (SCO4562 or SCO4599) and (SCO4563 or SCO4600) and (SCO3392 or SCO4565) and (SCO4567 or SCO6560) and (SCO4569 or SCO4602) and (SCO4570 or SCO4603) and (SCO4571 or SCO4604) and (SCO4572 or SCO4605) and (SCO4573 or SCO4606 or SCO6954) and (SCO4574 or SCO4607) and (SCO4575 or SCO4608)');
 model = changeGeneAssoc(model, {'NADH17b','NADH8'}, '(SCO4562 and SCO4563 and SCO4564 and SCO4565 and SCO4566 and SCO4567 and SCO4568 and SCO4569 and SCO4570 and SCO4571 and SCO4572 and SCO4573 and SCO4574 and SCO4575) or (SCO4562 and SCO4563 and SCO4564 and SCO3392 and SCO4566 and SCO4567 and SCO4568 and SCO4569 and SCO4570 and SCO4571 and SCO4572 and SCO4573 and SCO4574 and SCO4575)');
-
-
-if isempty(name) && isempty(version) && isfield(model,'id')
-    try
-        id = strsplit(model.id,'_v');
-        if length(id) == 2
-            name    = id{1};
-            name    = ['ec' upper(name(1)) name(2:end)];
-            version = id{2};
-        end
-    catch
-        disp('Not possible to parse name & version. Input manually')
-    end
-end
-while isempty(name)
-    name = input('Please enter the desired ecModel name: ','s');
-end
-while isempty(version)
-    version = input('Please enter the model version: ','s');
-end
-
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

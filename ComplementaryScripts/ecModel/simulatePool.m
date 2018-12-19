@@ -4,7 +4,7 @@
 % Eduard Kerkhoven, 2018-12-05
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Generate model
-load('..\..\ModelFiles\mat\ECscoGEM.mat')
+load('..\..\ModelFiles\mat\ecScoGEM.mat')
 data        = prepareProteomicsM1152M145;
 sol         = solveLP(ecModel)
 
@@ -19,6 +19,12 @@ rates = dlmread('../../../../../ComplementaryData/growth/M145_estimated_rates.cs
 gRate      = rates(1,3);%
 
 [ecModel_pool, optSigma] = getConstrainedModel(ecModel,'',sigma,Ptot,gRate,modifications,'scoGEM');
+% Alternatively, simulate production phase
+cd ../../../
+ecModel_prod   = fixFluxes(ecModel,'M145',37);
+cd gecko/geckomat/limit_proteins
+[ecModel_prod, optSigma] = getConstrainedModel(ecModel_prod,'',sigma,Ptot,rates(5,3),modifications,'scoGEM');
+% Functional
 
 ecModel_pool = setParam(ecModel_pool,'lb','ATPM',0);
 
@@ -43,4 +49,4 @@ cd gecko/geckomat/kcat_sensitivity_analysis
 conditions  = num2cell(sample(:,[1,3]),1);
 conditions  = strcat(conditions{:,1},{'_'},conditions{:,2});
 T = topUsedEnzymes(transpose(sol_pool),model_pool(1),conditions,'scoGEM',false,10);
-writetable(T,['../../../../../ComplementaryData/ecmodel/' name '_topUsedEnzymes.txt'])
+writetable(T,['../../../../../ComplementaryData/ecmodel/ecScoGEM_topUsedEnzymes.txt'])
