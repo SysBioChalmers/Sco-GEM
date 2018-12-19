@@ -27,19 +27,11 @@ The follwoing reactions has changed id in iKS1317
 - THRPD -> THRPDC
 
 
-# From compare_iMK1208_content.csv comparison
+# Note 2
+From compare_iMK1208_content.csv comparison
 We find additional reactions in Sco4 where the gene annotation is changed.
 Most of the changes in gene annotation in compare_iMK1208_content.csv is that they have removed
-s00001
-
-PDH( SCO1269 and SCO1270 and SCO2183 and SCO0884 and SCO1268 ) or ( SCO1269 and SCO1270 and SCO2183 and SCO0884 and SCO7123 ) or ( SCO1269 and SCO1270 and SCO2183 and SCO0884 and SCO2181 ) or ( SCO1269 and SCO1270 and SCO2183 and SCO2180 and SCO1268 ) or ( SCO1269 and SCO1270 and SCO2183 and SCO2180 and SCO7123 ) or ( SCO1269 and SCO1270 and SCO2183 and SCO2180 and SCO2181 ) or ( SCO1269 and SCO1270 and SCO2183 and SCO4919 and SCO1268 ) or ( SCO1269 and SCO1270 and SCO2183 and SCO4919 and SCO7123 ) or ( SCO1269 and SCO1270 and SCO2183 and SCO4919 and SCO2181 ) or ( SCO1269 and SCO1270 and SCO2371 and SCO0884 and SCO1268 ) or ( SCO1269 and SCO1270 and SCO2371 and SCO0884 and SCO7123 ) or ( SCO1269 and SCO1270 and SCO2371 and SCO0884 and SCO2181 ) or ( SCO1269 and SCO1270 and SCO2371 and SCO2180 and SCO1268 ) or ( SCO1269 and SCO1270 and SCO2371 and SCO2180 and SCO7123 ) or ( SCO1269 and SCO1270 and SCO2371 and SCO2180 and SCO2181 ) or ( SCO1269 and SCO1270 and SCO2371 and SCO4919 and SCO1268 ) or ( SCO1269 and SCO1270 and SCO2371 and SCO4919 and SCO7123 ) or ( SCO1269 and SCO1270 and SCO2371 and SCO4919 and SCO2181 ) or ( SCO1269 and SCO1270 and SCO7124 and SCO0884 and SCO1268 ) or ( SCO1269 and SCO1270 and SCO7124 and SCO0884 and SCO7123 ) or ( SCO1269 and SCO1270 and SCO7124 and SCO0884 and SCO2181 ) or ( SCO1269 and SCO1270 and SCO7124 and SCO2180 and SCO1268 ) or ( SCO1269 and SCO1270 and SCO7124 and SCO2180 and SCO7123 ) or ( SCO1269 and SCO1270 and SCO7124 and SCO2180 and SCO2181 ) or ( SCO1269 and SCO1270 and SCO7124 and SCO4919 and SCO1268 ) or ( SCO1269 and SCO1270 and SCO7124 and SCO4919 and SCO7123 ) or ( SCO1269 and SCO1270 and SCO7124 and SCO4919 and SCO2181 )
-CU2abc; SCO0164 or SCO6460
-CBIabc: SCO2273 #Changed from CBIuabcto CBIabc
-CBL1abc: SCO2273
-GSNt2: SCO3915 or SCO0079
-INSt2: SCO3915 or SCO0079 # Changed from INSt2r
-GLNTRS: SCO5547
-
+s00001. 
 The final list of reactions where the gene annotation is changed is REACTION_GENE_DICT.
 The uncommented reactions are already in iKS1317
 
@@ -58,7 +50,7 @@ REACTION_GENE_DICT = {
     "THRPDC":   "SCO1859",
     "ADCL":    "SCO1546",
     # "CBLAT":   "SCO1851 or SCO5381", # change is already in iKS1317
-    # "BPNT":    "SCO5161", 
+    # "BPNT":    "SCO5161", # change is already in iKS1317
     # "DTMPK":   "SCO3542", # change is already in iKS1317
     "OXPTNDH": "SCO1204 or SCO1612 or SCO1706 or SCO3420 or SCO3486 or SCO4780 or SCO5666 or SCO5679 or SCO6441 or SCO6793 or SCO7035 or SCO7139",
     "GLNTRS":  "SCO5547",

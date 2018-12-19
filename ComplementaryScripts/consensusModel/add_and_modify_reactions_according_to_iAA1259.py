@@ -1,13 +1,17 @@
 # -*- coding: utf-8 -*-
 """
-This file adds reactions and apply selected changes from iAA1259 based on the mapping of reactions and metabolites. 
 Author: Snorre Sulheim
 Date: 21.09.2018
 
 # Description
+This file adds reactions and apply selected changes from iAA1259 based on the mapping of reactions and metabolites.
+This script is supposed to be run thorugh the reconstruct_scoGEM.py script.
 
 # Files required
-
+- iAA1259_suppl_S4.csv"
+- iAA1259_suppl_S5.csv
+- scoGEM model
+- iAA1259
 """
 
 import cobra
@@ -43,6 +47,7 @@ reaction_mappings = {
     "CYOO": "CYTBD2", # Check gene annotation
     "AMMQT9r": "AMMQT9", #Bounds changed and genes
 }
+
 
 # Changed reactions
 """These is a manually curated dict of reactions that are modified in iAA1259.
@@ -202,9 +207,3 @@ if __name__ == '__main__':
     fix_iAA1259(iAA1259_model)
     add_reactions(iAA1259_model, scoGEM, S4_FN, True)
     change_biomass(iAA1259_model, scoGEM)
-    # map_S4()
-
-    # with open(S4_FN, "r") as f:
-    #     reader = csv.reader(f, delimiter = ";")
-    #     for row in reader:
-    #         print(len(row), row)

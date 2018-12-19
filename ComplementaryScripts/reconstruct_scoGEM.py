@@ -3,11 +3,25 @@
 This file reconstructs scoGEM, the genome-scale model for Streptomyces coelicolor A3(2).
 Author: Snorre Sulheim
 Created: 27.08.2018
-Updated: 12.12.2018
+Updated: 19.12.2018
+Email: snorre.sulheim@sintef.no
 
 
 # Description
-The scoGEM community model of Streptomyces coelicolor is constructed using this script
+The scoGEM community model of Streptomyces coelicolor is constructed using this script.
+The reconstruction pipeline is based on the iKS1317 model. Below is a coarse list of the different steps of the pipeline
+
+1.  Load iKS1317 and fix some issues
+2a. Add reactions and metabolites from Sco4
+2b. Update IDs and some annotations of Sco4
+3.  Add reactions, metabolites, update biomass and gene-reaction-rules according to iAA1259
+4.  Fix several small tasks / issues:
+    - add SBO terms
+    - add pseudometabolites
+    - update metanetx annotations
+    - update the biomass according to proteomics data
+5.  Change reaction bounds according to dG values from eQuilibrator
+
 
 """
 

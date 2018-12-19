@@ -20949,7 +20949,11 @@
     - annotation: !!omap
       - SBO: SBO:0000247
       - SMILES: CC(C)(C(O)C(=O)NCCC(=O)NCCSC(CC(C([O-])=O)O)=O)COP(=O)(OP(=O)(OCC1(C(OP([O-])(=O)[O-])C(O)C(O1)N3(C2(=C(C(N)=NC=N2)N=C3))))[O-])[O-]
+      - bigg.metabolite: malylcoa
+      - biocyc: malylcoa
       - inchi: InChI=1S/C25H40N7O20P3S/c1-25(2,19(37)22(38)28-4-3-14(34)27-5-6-56-15(35)7-12(33)24(39)40)9-49-55(46,47)52-54(44,45)48-8-13-18(51-53(41,42)43)17(36)23(50-13)32-11-31-16-20(26)29-10-30-21(16)32/h10-13,17-19,23,33,36-37H,3-9H2,1-2H3,(H,27,34)(H,28,38)(H,39,40)(H,44,45)(H,46,47)(H2,26,29,30)(H2,41,42,43)/p-5/t12-,13+,17+,18+,19-,23+/m0/s1
+      - kegg.compound: C04348
+      - metanetx.chemical: MNXM1611
       - origin: Sco4
       - pubchem.compound: '45266554'
   - !!omap

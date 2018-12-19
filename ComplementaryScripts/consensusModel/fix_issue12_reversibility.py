@@ -1,3 +1,11 @@
+#!/usr/bin/env python
+"""
+Author: Snorre Sulheim
+
+# Description
+This file fixes an issue related to reaction reversibility, see issue 12 for more info.
+
+"""
 import logging
 import cobra
 
