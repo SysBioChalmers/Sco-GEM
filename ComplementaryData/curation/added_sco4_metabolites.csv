@@ -24,7 +24,6 @@ CPD-7224_c;N-acetyl-L-citrulline;nacitrul__L;C15532;;MNXM3314
 TETRAHYD-CPD_c;1,3,6,8-naphthalenetetrol;nphtatt;C04033;;MNXM3320
 CPD-10598_c;4-hydroxyacetophenone;haphenon;C10700;;MNXM2614
 CPD-17129_c;3,6-anhydro-L-galactonate;ahgalac__L;C20903;;MNXM145639
-CPD-15317_c;D-ribofuranose 5-phosphate;r5p;C00117;;MNXM116
 CPD0-1123_c;N-acetyl-beta-neuraminate;acnam__B;C19910;;MNXM89669
 D-RIBULOSE-1-P_c;D-ribulose1-phosphate;ru1p__D;;;MNXM163350
 CPD-11571_c;N5-hydroxy-L-ornithine;hycorn;C20850;;MNXM6354
@@ -73,7 +72,6 @@ CPD-19011_c;methyltert-butylether;metbute;C11344;;MNXM61811
 CPD-13958_c;dTDP-4-dehydro-3-C-methyl-2,6-dideoxy-alpha-D-glucose;dtdp4dh3m26ddglc;;;MNXM11454
 CPD-7408_c;all-transphytofluene;atphyflu;C05414;;MNXM2099
 N-METHYLHYDANTOIN_c;N-methylhydantoin;methydan;C02565;;MNXM1762
-D-SORBITOL-6-P_c;D-sorbitol6-phosphate;sbt6p;C01096;sbt6p;MNXM393
 CPD-1134_c;2-dehydro-3-deoxy-L-arabinonate;2ddara__L;C00684;;MNXM1209
 3-PHENYLPROPIONATE_c;3-phenylpropanoate;pppn;C05629;pppn;MNXM1403
 Reduced-Factor-F420_c;Reduced-Factor-F420;f420red;C01080;;MNXM5291
@@ -90,7 +88,6 @@ CPD-577_c;cyclohexane-1-carbonyl-CoA;cychex1coa;C09823;;MNXM5111
 ETF-Reduced_c;ETF-Reduced;ETFred;;;MNXM2229
 CPD-12524_c;beta-D-galacturonate;bgalac__D;C08348;;MNXM114564
 2-AMINO-MUCONATE_c;(2Z,4E)-2-aminomuconate;amuco;C02220;amuco;MNXM1131
-CPD-650_c;(3R)-3-hydroxybutanoyl-CoA;3hbcoa__R;C03561;3hbcoa__R;MNXM1058
 CPD-592_c;4-guanidinobutanoate;4guanbut_c;C01035;4gudbutn;MNXM1312
 CPD-13696_c;3-oxochol-4-en-24-oyl-CoA;3oc4en24ocoa;;;MNXM10109
 CPD-13621_c;pentalenolactoneD;pentlacd;C20399;;MNXM12598
@@ -114,7 +111,6 @@ CPD-13691_c;(25S)-3-oxocholest-4-en-26-oyl-CoA;3oce26ocoa;C20840;;MNXM8127
 CPD-217_c;D-ornithine;orn__D;C00515;orn__D;MNXM1148
 L-DEHYDRO-ASCORBATE_c;L-dehydro-ascorbate;dhdascb;C05422;dhdascb;MNXM250
 CPD-10012_c;carboxyspermidine;cspmd;C18172;cspmd;MNXM92161
-ACYL-SN-GLYCEROL-3P_c;ACYL-SN-GLYCEROL-3P;1ag3p_SC;C00681;1ag3p_SC;"MNXM145527;MNXM226;MNXM491067"
 CPD-171_c;Dolichyl phosphate D-mannose;dolmanp;C03862;dolmanp;"MNXM507024;MNXM7322"
 CPD-16015_c;2-iminopropanoate;2improp;C20904;;MNXM9845
 COUMARATE_c;4-coumarate;T4hcinnm;C00811;T4hcinnm;MNXM505
@@ -158,7 +154,6 @@ BENZYLSUCCINATE_c;(R)-2-benzylsuccinate;bzsucc;C09816;bzsucc;MNXM2471
 CPD-784_c;5-carboxymethyl-2-hydroxymuconate;5cmhm;C04186;5cmhm;MNXM1163
 3-UREIDO-PROPIONATE_c;3-ureidopropanoate;cala;C02642;cala;MNXM802
 CHOLATE_c;cholate;cholate;C00695;cholate;"MNXM1183;MNXM450;MNXM90232"
-L-1-PHOSPHATIDYL-GLYCEROL-P_c;L-1-PHOSPHATIDYL-GLYCEROL-P;pgp_EC;C03892;pgp_EC;"MNXM527695;MNXM871"
 CPD-15277_c;S-(hercyn-2-yl)-L-cysteineS-oxide;hccystox;C20994;;MNXM145810
 CPD-237_c;indole-3-acetamide;iad;C02693;iad;"MNXM2239;MNXM57349"
 3-OCTAPRENYL-4-HYDROXYBENZOATE_c;3-octaprenyl-4-hydroxybenzoate;3ophb;C05809;3ophb;MNXM2195
@@ -198,7 +193,6 @@ gtca3_e;glycerolteichoicacid(n=25),unlinked,glucosesubstituted;gtca3;;gtca3;MNXM
 CPD-19273_c;6-methylpretetramide;6mpttmide;C06629;;MNXM38883
 CPD-12041_c;trans,octacis-decaprenylphospho-beta-D-erythro-pentofuranosid-2-ulose;dpperypfur;C20369;;MNXM11306
 2-AMINOMUCONATE_SEMIALDEHYDE_c;(2Z,4E)-2-amino-6-oxohexa-2,4-dienoate;amucsam;;;MNXM163034
-GLC-6-P_c;beta-D-glucose6-phosphate;g6p_B;C01172;g6p_B;MNXM508
 CPD-10679_c;flaviolin;flaviolin;C18012;;MNXM90984
 CMP-N-ACETYL-NEURAMINATE_c;CMP-N-acetyl-beta-neuraminate;cmpacna;C00128;cmpacna;MNXM141
 ETF-Oxidized_c;ETF-Oxidized;etf_ox;;;MNXM53428
@@ -209,7 +203,6 @@ CPD0-1115_c;L-xylulose1-phosphate;xu1p__D;C06441;xu1p__D;MNXM59594
 CPD-62_c;2,3-dihydroxybenzoyladenylate;23dhba;C04030;23dhba;MNXM1978
 2-3-DIHYDROXYPHENYL-PROPIONATE_c;3-(2,3-dihydroxyphenyl)propanoate;dhpppn;C04044;dhpppn;MNXM826
 DOLICHOLP_c;DOLICHOLP;dolichol;C00110;;"MNXM278;MNXM511600"
-OX-COENZYME-F420_c;oxidized coenzyme F420-2;f420_2;C00876;f420_2;MNXM372
 NN-DIMETHYLANILINE-N-OXIDE_c;N,N-dimethylaniline-N-oxide;dmppat;C01183;;MNXM2260
 VANILLIN_c;vanillin;vanln;C00755;vanln;MNXM754
 PSEUDOURIDINE-5-P_c;pseudouridine5'-phosphate;puri4pp;C01168;;MNXM2276
@@ -237,7 +230,6 @@ CPD-12349_c;2-dehydro-3-deoxy-L-galactonate;2dh3dogal;C20680;;MNXM91910
 CPD-8775_c;m-toluate;m_tol;C07211;m_tol;MNXM4661
 DIMETHYLARSINATE_c;cacodylate;cacodylate;C07308;;MNXM3979
 TRIMETHYLAMINE_c;trimethylamine;tma;C00565;tma;MNXM352
-CPD-14447_c;(2Z)-2-hydroxypenta-2,4-dienoate;op4en;C00596;op4en;MNXM9829
 CPD-17141_c;D-glucaro-1,4-lactone;gluca14lac;C21095;;MNXM124183
 ADENOSYL-P4_c;5',5'''-diadenosinetetraphosphate;ap4a;C01260;ap4a;MNXM1089
 CPD-9408_c;2-methylfumaryl-CoA;2mfumcoa;C06028;;MNXM2693
@@ -269,7 +261,6 @@ CPD-15467_c;3-dimethylallyl-4-hydroxyphenylpyruvate;3dm4hdppyr;C12456;;MNXM5518
 CPD-5881_c;4alpha-hydroxy-tetrahydrobiopterin;4hdthbiop;;;"MNXM380;MNXM487425"
 CPD-578_c;urea-1-carboxylate;allphn;C01010;allphn;MNXM1122
 CPD-13376_c;XXLGxyloglucanoligosaccharide;xxlgsacc;;;MNXM9240
-ACETONE_c;acetone;acetone;C00207;acetone;MNXM398
 CPD-14523_c;ribosylhopane;ribsylo;C21118;;MNXM80929
 CPD-18239_c;(2S,3S,7R)-2-amino-3-amino-7-hydroxy-8-(2-iminoimidazolidin-4-yl)octanoate;aahxioct;;;MNXM163960
 CPD-1070_c;3-maleylpyruvate;malpyr;C02167;;"MNXM162338;MNXM2190"
@@ -285,7 +276,6 @@ CEPHALOSPORIN-C_c;cephalosporin-C;cepspoc;C00916;;MNXM1321
 L-CYSTEATE_c;L-cysteate;Lcyst;C00506;Lcyst;MNXM713
 GAMMA-GLUTAMYL-PUTRESCINE_c;gamma-glutamyl-L-putrescine;ggputresc;C15699;;MNXM1668
 CPD-15279_c;gamma-L-glutamyl-S-(hercyn-2-yl)-L-cysteineS-oxide;ggcysto;C20995;;MNXM145857
-Cytochromes-C-Oxidized_c;Cytochromes-C-Oxidized;cytcox;;;MNXM230
 CPD-18229_c;(2S,3S,7R)-2,3-diamino-8-(1-carbamoyl-2-iminoimidazolidin-4-yl)-7-hydroxyoctanoate;23dahxoc;;;MNXM163618
 CPD-12784_c;alpha-D-glucosyl-(1,2)-beta-D-glucuronate-(1,2)-alpha-D-mannosyl-(1,3)-beta-D-glucosyl-(1,4)-alpha-D-glucosyl-diphosphoundecaprenol;ggaggdcap;;;MNXM13280
 CARBOXYETHYL-3-5-CYCLOHEXADIENE-1-2-DIOL_c;3-(5,6-dihydroxycyclohexa-1,3-dien-1-yl)propanoate;cechddd;;cechddd;MNXM1636
@@ -307,7 +297,6 @@ DIHYDRO-THYMINE_c;5,6-dihydrothymine;56dthm;C00906;56dthm;MNXM772
 PICOLINATE_c;picolinate;picoln;C10164;;MNXM12691
 CPD-18508_c;hydroxysqualene;hsql;C21116;;MNXM162476
 C3_c;UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine;uGgla;C04702;uGgla;MNXM7865
-XYLOSE_c;alpha-D-xylopyranose;xyl__D;C00181;xyl__D;MNXM146363
 4-GUANIDO-BUTYRAMIDE_c;4-guanidinobutyramide;4gubuty_c;C03078;4gudbd;MNXM2617
 CPD-368_c;L-arabinono-1,4-lactone;arb14lac__L;C01114;;MNXM1674
 CPD-10044_c;(4R,7R)-4-isopropenyl-7-methyloxepan-2-one;4ip7moxo;C11402;;MNXM3400
@@ -348,7 +337,6 @@ GERANIOL_c;geraniol;geraniol;C01500;;MNXM798
 CPD-313_c;propane-1,3-diamine;prp13da;C00986;;MNXM350
 KDO2-LIPID-IVA_c;alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-lipidIVA;kdo2lipid4;C06025;kdo2lipid4;MNXM824
 CPD-14015_c;(E)-2-methylgeranyldiphosphate;2mygydpp;C20235;;MNXM3126
-RHAMNOSE_c;alpha-L-rhamnopyranose;rmn__aL;C02476;;"MNXM3536;MNXM489013"
 CPD-343_c;3-deoxy-D-glycero-2,5-hexodiulosonate;2dg25hbz;C04349;;MNXM1709
 FORMYL-ISOGLUTAMINE_c;formyl-L-isoglutamine;foriglut;;;MNXM164776
 ENTEROBACTIN_e;enterobactin;enter;C05821;enter;"MNXM499451;MNXM883"
@@ -361,7 +349,6 @@ CPD-13149_c;all-trans-4,4'-diapolycopene;at44dcop;C19797;;MNXM1810
 CPD1F-114_c;all-trans-lycopene;lycop;C05432;lycop;MNXM445
 BENZALDEHYDE_c;benzaldehyde;bzal;C00261;bzal;MNXM371
 CPD-17076_c;(-)-dehydrodiconiferylaldehyde;dhiconfa;;;MNXM147623
-L-PHOSPHATIDATE_c;L-PHOSPHATIDATE;pidate;;;"MNXM152411;MNXM527805"
 CPD-13381_c;dTDP-4-dehydro-2,6-dideoxy-alpha-D-threo-hexopyranose;dtdp4h26dthp;C11922;;MNXM5728
 CPD-653_c;(S)-NADHX;nadhx__S;C04856;;MNXM1964
 CPD-265_c;N6-hydroxy-L-lysine;n6hxlys;C01028;;MNXM2258
@@ -404,13 +391,11 @@ CPD-824_c;5-guanidino-2-oxopentanoate;5g2oxpt;C03771;5g2oxpt;MNXM1037
 CPD-18533_c;3-hydroxyquinaldate;3hxquin;C18621;;MNXM36552
 DELTA1-PYRROLINE_2-CARBOXYLATE_c;1-pyrroline-2-carboxylate;pyr2cbox_c;C03564;;MNXM957
 CPD-15280_c;hercynine;hercyn;C05575;;MNXM2541
-ACYL-ACP_c;ACYL-ACP;acyACP;C00173;;MNXM917
 4-HYDROXY-BUTYRYL-COA_c;4-hydroxybutanoyl-CoA;4hbutcoa;C11062;4hbutcoa;MNXM2334
 CPD-18984_c;propane;propane;C20783;;MNXM78182
 CPD-158_c;4-nitrocatechol;4nitrocc;C02235;;MNXM1982
 CPD-14524_c;formylhopane;formhop;;;MNXM97325
 CPD-1771_c;N-acetyl-L,L-2,6-diaminopimelate;n6all26d;C04390;n6all26d;MNXM1759
-CPD1G-2_c;mycothiol;msh;C06717;msh;MNXM590
 CPD-11916_c;dTDP-alpha-D-olivose;dtdpaoliv;C11923;;MNXM2670
 CPD-7590_c;Ni-sirohydrochlorina,c-diamide;nsirhcda;;;
 CPD-12521_c;beta-D-glucuronate;glucor__bD;C08350;;MNXM146121
