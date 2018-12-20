@@ -209,7 +209,6 @@ class RateEstimator(object):
         # print(self.substrate_fits)
         phases_dict = self.substrate_fits[substrate]
         dic = phases_dict[phase_name]
-
         if dic["type"] == "linear":
             ds_dt = np.ones(len(timepoints)) * dic["popt"][0]
              # Save timepoints for rate estimation
@@ -227,7 +226,7 @@ class RateEstimator(object):
             dic["at_rate_times"] = fsigmoid(np.array(timepoints), *dic["popt"])
 
         else: 
-            print("Fit not implememted")
+            print("Fit not implemented")
             return None
 
         if cdw_phase_name:
@@ -265,7 +264,7 @@ class RateEstimator(object):
         ax.set_title("{0} {1} concentration".format(self.strain_name, substrate))
         plt.show()
 
-    def rates_as_df(self, save_name = None, column_order = None):
+    def rates_as_df(self, save_name = None, column_order = None, float_format = "%.3f"):
         index = sorted(list(self.growth_rates.keys()))
         self.rate_df = pd.DataFrame(index = index)
         self.rate_df["Growth rate"] = pd.Series(self.growth_rates)
@@ -281,7 +280,7 @@ class RateEstimator(object):
             self.rate_df[substrate] = pd.Series(sub_dict)
 
         if save_name:
-            self.rate_df.to_csv(save_name, sep = ";", index_label = "TAI", columns = column_order)
+            self.rate_df.to_csv(save_name, sep = ",", index_label = "TAI", columns = column_order, float_format = float_format)
 
     def fit_sigmoidial_to_substrate(self, substrate_name, phase_name, n = 3, bounds = None):
         phase_limits = self.phases[phase_name]
@@ -372,7 +371,7 @@ def exp_fun(x, a, b):
 
 if __name__ == '__main__':
     column_order = ["Estimated CDW", "Growth rate", "Glucose", "Glutamic acid", "Undecylprodigiosin 2", "Germicidin-A", "Germicidin-B"]
-    if 0:
+    if 1:
         # M145
         online_M145_fn = GROWTH_DATA_FOLDER / "M145_online_data.csv"
         offline_M145_fn = GROWTH_DATA_FOLDER / "M145_offline_data.csv"
@@ -387,7 +386,7 @@ if __name__ == '__main__':
         RE.set_phase("Linear phase 1", 21, 34.5)
         RE.set_phase("Linear phase 2", 34.5, 42)
         RE.set_phase("Linear phase 3", 42, 66)
-        RE.set_phase("Red linear phase", 0, 66)
+        RE.set_phase("Red linear phase", 41, 50)
         RE.set_phase("Germicidin phase", 38, 66)
 
 
@@ -403,11 +402,11 @@ if __name__ == '__main__':
         # RE.fit_piecewise_linear_CDW("Linear phase 1", "Linear phase 2", "Linear phase 3")
 
 
-        RE.fit_substrates_for_phases(["Glucose", "Glutamic acid", "Undecylprodigiosin 2"], ["Linear phase 1", "Linear phase 2", "Linear phase 3"])
+        RE.fit_substrates_for_phases(["Glucose", "Glutamic acid"], ["Linear phase 1", "Linear phase 2", "Linear phase 3"])
         RE.predict_uptake_rates_for_phases(["Glucose", "Glutamic acid"], [(p1, "Linear phase 1"), (p2, "Linear phase 2"), (p3, "Linear phase 3")])
 
-        RE.plot_uptake_fit("Glucose")
-        RE.plot_uptake_fit("Glutamic acid")
+        # RE.plot_uptake_fit("Glucose")
+        # RE.plot_uptake_fit("Glutamic acid")
 
         # RE.fit_sigmoidial_to_substrate("Undecylprodigiosin 2", "Full time serie", 3, bounds = ([0, 20, 2], [1, 60, 3]))
         RE.fit_substrate("Undecylprodigiosin 2", "Red linear phase")
@@ -421,9 +420,9 @@ if __name__ == '__main__':
         RE.predict_uptake_rates("Germicidin-B", "Germicidin phase", p2, "Linear phase 2")
         RE.predict_uptake_rates("Germicidin-B", "Germicidin phase", p3, "Linear phase 3")
         
+        # RE.plot_uptake_fit("Undecylprodigiosin 2")
 
-
-        RE.rates_as_df(save_name = GROWTH_DATA_FOLDER / "M145_estimated_rates.csv", column_order = column_order)
+        RE.rates_as_df(save_name = GROWTH_DATA_FOLDER / "M145_estimated_rates.csv", column_order = column_order, float_format = "%.4f")
         print(RE.rate_df)
 
     if 1:
@@ -443,7 +442,7 @@ if __name__ == '__main__':
         RE.set_phase("Linear phase 2", 49, 54)
         RE.set_phase("Linear phase 3", 54, 75)
         RE.set_phase("Linear phase 2b", 41, 57)
-        RE.set_phase("Germicidin phase", 20, 66)
+        RE.set_phase("Germicidin phase", 40, 66)
 
 
         p1 = proteomic_timepoints_M1152[:4]
@@ -475,8 +474,8 @@ if __name__ == '__main__':
         RE.predict_uptake_rates_for_phases(["Glucose", "Glutamic acid"], [(p3, "Linear phase 3")])
         # RE.predict_uptake_rates_for_phases(["Glucose", "Glutamic acid"], [(p1, "Linear phase 1b"), (p3, "Linear phase 3")])
 
-        RE.plot_uptake_fit("Glucose")
-        RE.plot_uptake_fit("Glutamic acid")
+        # RE.plot_uptake_fit("Glucose")
+        # RE.plot_uptake_fit("Glutamic acid")
 
 
         RE.fit_substrates_for_phases(["Germicidin-A", "Germicidin-B"], ["Germicidin phase"])
@@ -485,8 +484,9 @@ if __name__ == '__main__':
         RE.predict_uptake_rates("Germicidin-B", "Germicidin phase", p2, "Linear phase 2")
         RE.predict_uptake_rates("Germicidin-B", "Germicidin phase", p3, "Linear phase 3")
         
+        # RE.plot_uptake_fit("Germicidin-A")
 
         
 
-        RE.rates_as_df(save_name = GROWTH_DATA_FOLDER / "M1152_estimated_rates.csv", column_order = column_order)
+        RE.rates_as_df(save_name = GROWTH_DATA_FOLDER / "M1152_estimated_rates.csv", column_order = column_order, float_format = "%.4f")
 
