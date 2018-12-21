@@ -15,6 +15,7 @@ from pathlib import Path
 plt.style.use("seaborn-white")
 # matplotlib.rcParams['text.usetex'] = True
 matplotlib.rcParams["axes.labelsize"] = 12
+matplotlib.rcParams["errorbar.capsize"] = 2
 
 
 MOLAR_MASS_DICT = {"Glucose": 180.156, #g/mol
@@ -32,7 +33,7 @@ class RateEstimator(object):
     def __init__(self, strain_name, online_fn, offline_fn, offline_std_fn, proteome_timepoints = None):
         self.online_df = read_online(online_fn)
         self.offline_df = read_offline(offline_fn)
-        self.offline_std_df = read_offline(offline_std_df)
+        self.offline_std_df = read_offline(offline_std_fn)
         self.phases = dict()
         self.proteome_timepoints = proteome_timepoints
         self.strain_name = strain_name
@@ -45,6 +46,7 @@ class RateEstimator(object):
         self.substrate_rates = defaultdict(OrderedDict)
         self.max_growth_rate = None
         self.estimated_cdw = OrderedDict()
+        self.rate_df = None
 
     def set_phase(self, name, start, stop):
         self.phases[name] = (start, stop)
@@ -110,6 +112,21 @@ class RateEstimator(object):
         plt.plot(time_arr, fit)
         plt.show()
 
+    def get_offline_std(self, key, phase_limits = None, mean_df = None):
+        if not phase_limits:
+            phase_limits = (0, 1e4)
+        try:
+            df = self.offline_std_df[self.offline_std_df[key].notna()]
+        except TypeError:
+            print("Standard deviation data not provided")
+            return np.ones(len(mean_df)), False
+        except KeyError:
+            print("Wrong key for standard deviation: {0}".format(key))
+            return np.ones(len(mean_df)), False
+        else:
+            df = df[(phase_limits[0] <= df["TAI"]) & (df["TAI"] <= phase_limits[1])]
+            return np.array(df[key]), True
+
 
     def fit_linear_CDW_for_phases(self, phase_names):
         for phase_name in phase_names:
@@ -126,16 +143,32 @@ class RateEstimator(object):
         cdw_df = self.offline_df[self.offline_df["CDW"].notna()]
         cdw_df = cdw_df[(phase_limits[0] <= cdw_df["TAI"]) & (cdw_df["TAI"] <= phase_limits[1])]
 
-        popt, _ = curve_fit(lin_fun, cdw_df["TAI"], cdw_df["CDW"])
+        # Standard deviation
+        std_values, absolute_sigma = self.get_offline_std("CDW", phase_limits, cdw_df)
+
+        popt, pcov = curve_fit(lin_fun, cdw_df["TAI"], cdw_df["CDW"], sigma = std_values, absolute_sigma = absolute_sigma)
         time_arr = np.array(cdw_df["TAI"])
         fit = lin_fun(time_arr, *popt)
 
-        self.linear_fit_CDW[phase_name] = {"time": time_arr, "fit": fit, "popt": popt}
+        self.linear_fit_CDW[phase_name] = {"time": time_arr, "fit": fit, "popt": popt, 
+                                           "pcov": pcov}
         print("{2}: fitted CDW: ax + b: a:{0:.2f}, b:{1:.2f}".format(*popt, phase_name))
 
     def plot_CDW_fit(self):
         fig, ax = plt.subplots(1)
-        ax.plot(self.offline_df["TAI"], self.offline_df["CDW"], '.', ms = 12, label = "CDW measurements")
+
+        cdw_df = self.offline_df[self.offline_df["CDW"].notna()]
+        std_values, has_std = self.get_offline_std("CDW", mean_df = cdw_df)
+
+        # Plot measurements with or without standard deviation
+        if has_std:
+            ax.errorbar(cdw_df["TAI"], cdw_df["CDW"], yerr = std_values, fmt = "k.", ms = 10, label = "CDW measurements",
+                        barsabove = True, ecolor = "k", elinewidth = 1)
+        else:
+            ax.plot(cdw_df["TAI"], cdw_df["CDW"], '.', ms = 12, label = "CDW measurements")
+        
+
+        # Plot fit
         for phase_name, dic in self.linear_fit_CDW.items():
             ax.plot(dic["time"], dic["fit"], lw = 2, label = "Fit {0}".format(phase_name))
         
@@ -145,7 +178,7 @@ class RateEstimator(object):
             proteome_times.append(t)
             at_proteome_times.append(x)
 
-        ax.plot(proteome_times, at_proteome_times, "kx", label = "Proteome timepoints")
+        ax.plot(proteome_times, at_proteome_times, "rx", label = "Proteome timepoints")
         ax.legend()
         ax.set_xlabel("Time after inoculation [h]")
         ax.set_ylabel("CDW [g/L]")
@@ -187,13 +220,18 @@ class RateEstimator(object):
         # Get timepoints between the limits
         df = self.offline_df[(phase_limits[0] <= self.offline_df["TAI"]) & (self.offline_df["TAI"] <= phase_limits[1])]
         df = df[df[substrate_name].notna()]
-        popt, _ = curve_fit(lin_fun, df["TAI"], df[substrate_name])
+
+        # Standard deviation
+        std_values, absolute_sigma = self.get_offline_std(substrate_name, phase_limits, df)
+
+
+        popt, pcov = curve_fit(lin_fun, df["TAI"], df[substrate_name], sigma = std_values, absolute_sigma = absolute_sigma)
 
         time_arr = np.arange(phase_limits[0], phase_limits[1]+1, 1)
         fit = lin_fun(time_arr, *popt)
 
         phases_dict = self.substrate_fits[substrate_name]
-        phases_dict[phase_name] = {"time": time_arr, "fit": fit, "popt": popt, "type": "linear"}
+        phases_dict[phase_name] = {"time": time_arr, "fit": fit, "popt": popt, "type": "linear", "pcov": pcov}
         print(substrate_name, popt, df[substrate_name])
 
     def predict_uptake_rates_for_phases(self, substrate_list,  timepoint_phasename_list):
@@ -244,8 +282,21 @@ class RateEstimator(object):
         phases_dict = self.substrate_fits[substrate]
 
         fig, ax = plt.subplots(1)
-        # fig.suptitle(substrate)
-        ax.plot(self.offline_df["TAI"], self.offline_df[substrate], ".", ms = 12, label = "{0} measurements".format(substrate))#c = "#b4d8ee"
+        
+        df = self.offline_df[self.offline_df[substrate].notna()]
+        
+        # Get standard deviation values
+        std_values, has_std = self.get_offline_std(substrate, phase_limits = None, mean_df = df)
+
+        # Plot measurements with or without standard deviation
+        print(len(std_values), len(df))
+        if has_std:
+            ax.errorbar(df["TAI"], df[substrate], yerr = std_values, fmt = "k.", ms = 10, label = "{0} measurements".format(substrate),
+                        barsabove = True, ecolor = "k", elinewidth = 1)
+        else:
+            ax.plot(df["TAI"], df[substrate], 'k.', ms = 12, label = "{0} measurements".format(substrate))
+        
+
         proteome_times = []
         proteome_rates = []
         for phase_name, dic in phases_dict.items():
@@ -253,7 +304,7 @@ class RateEstimator(object):
             ax.plot(dic["time"], dic["fit"], label = "Fit {0} {1}".format(substrate, phase_name))
             proteome_times += list(dic["rate_times"])
             proteome_rates += list(dic["at_rate_times"])
-        ax.plot(proteome_times, proteome_rates, "k+", label = "Proteome timepoints")
+        ax.plot(proteome_times, proteome_rates, "r+", label = "Proteome timepoints")
         ax.legend()
         ax.set_xlabel("Time after inoculation [h]")
         ax.set_ylabel("{0} [g/L]".format(substrate))
@@ -267,6 +318,7 @@ class RateEstimator(object):
         self.rate_df = pd.DataFrame(index = index)
         self.rate_df["Growth rate"] = pd.Series(self.growth_rates)
         self.rate_df["Estimated CDW"] = pd.Series(self.estimated_cdw)
+        self.rate_df["CO2"] = self.get_CO2_at_proteome_timepoints()
         if self.rate_df["Growth rate"].max() > self.max_growth_rate:
             print("Values above max rate:\n", self.rate_df["Growth rate"] > self.max_growth_rate)
             
@@ -313,6 +365,21 @@ class RateEstimator(object):
         ax.set_title("CDW and CO2 measurements {0}".format(self.strain_name))
         plt.show()
 
+    # def calculate_carbon_balance(self):
+    #     if not self.rate_df
+
+    def get_CO2_at_proteome_timepoints(self):
+        if not self.proteome_timepoints:
+            return None
+
+        CO2_values = np.zeros(len(self.proteome_timepoints))
+        for i, t in self.proteome_timepoints:
+            idx = (self.online_df["TAI"] - t).idxmin()
+            CO2_values[i] = self.online_df.loc[idx, "CO2"]
+        return CO2_values
+
+
+
 
 def replace_str_by_0(column, replace_by = 0):
     l = []
@@ -336,7 +403,6 @@ def read_online(fn):
 
 def read_offline(fn):
     df = pd.read_csv(fn,  sep = ",", header = 0, skiprows = [0,1,2,3,5], decimal = ".")
-
     # Replace " < 0.5 " by 0
     df["Undecylprodigiosin 2"] = replace_str_by_0(df["Undecylprodigiosin 2"])
     df["Germicidin-A"] = replace_str_by_0(df["Germicidin-A"])
@@ -368,7 +434,7 @@ def exp_fun(x, a, b):
 
 
 if __name__ == '__main__':
-    column_order = ["Estimated CDW", "Growth rate", "Glucose", "Glutamic acid", "Undecylprodigiosin 2", "Germicidin-A", "Germicidin-B"]
+    column_order = ["Estimated CDW", "Growth rate", "Glucose", "Glutamic acid", "Undecylprodigiosin 2", "Germicidin-A", "Germicidin-B", "CO2"]
     if 1:
         # M145
         online_M145_fn = GROWTH_DATA_FOLDER / "M145" / "M145_online_data.csv"
@@ -419,12 +485,12 @@ if __name__ == '__main__':
         RE.predict_uptake_rates("Germicidin-B", "Germicidin phase", p2, "Linear phase 2")
         RE.predict_uptake_rates("Germicidin-B", "Germicidin phase", p3, "Linear phase 3")
         
-        RE.plot_uptake_fit("Undecylprodigiosin 2")
+        # RE.plot_uptake_fit("Undecylprodigiosin 2")
 
-        RE.rates_as_df(save_name = GROWTH_DATA_FOLDER / "M145_estimated_rates.csv", column_order = column_order, float_format = "%.4f")
+        RE.rates_as_df(save_name = GROWTH_DATA_FOLDER / "M145" / "M145_estimated_rates.csv", column_order = column_order, float_format = "%.4f")
         print(RE.rate_df)
 
-    if 0:
+    if 1:
 
         # M1152
         online_M1152_fn = GROWTH_DATA_FOLDER / "M1152" / "M1152_online_data.csv"
@@ -485,8 +551,9 @@ if __name__ == '__main__':
         RE.predict_uptake_rates("Germicidin-B", "Germicidin phase", p3, "Linear phase 3")
         
         # RE.plot_uptake_fit("Germicidin-A")
+        # RE.plot_uptake_fit("Germicidin-B")
 
         
 
-        RE.rates_as_df(save_name = GROWTH_DATA_FOLDER / "M1152_estimated_rates.csv", column_order = column_order, float_format = "%.4f")
+        RE.rates_as_df(save_name = GROWTH_DATA_FOLDER / "M1152" / "M1152_estimated_rates.csv", column_order = column_order, float_format = "%.4f")
 
