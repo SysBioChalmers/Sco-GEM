@@ -17,10 +17,6 @@ plt.style.use("seaborn-white")
 matplotlib.rcParams["axes.labelsize"] = 12
 
 
-
-GLUTAMATE_MOLAR_MASS = 147.13  #g/mol
-GLUCOSE_MOLAR_MASS   = 180.156 #g/mol
-
 MOLAR_MASS_DICT = {"Glucose": 180.156, #g/mol
                    "Glutamic acid": 147.13,  #g/mol
                    "Undecylprodigiosin 2": 393.575, # g/mol
@@ -33,9 +29,10 @@ REPO_MAIN_FOLDER = Path(__file__).resolve().parent.parent
 GROWTH_DATA_FOLDER = REPO_MAIN_FOLDER / "ComplementaryData"/ "growth"
 
 class RateEstimator(object):
-    def __init__(self, strain_name, online_fn, offline_fn, proteome_timepoints = None):
+    def __init__(self, strain_name, online_fn, offline_fn, offline_std_fn, proteome_timepoints = None):
         self.online_df = read_online(online_fn)
         self.offline_df = read_offline(offline_fn)
+        self.offline_std_df = read_offline(offline_std_df)
         self.phases = dict()
         self.proteome_timepoints = proteome_timepoints
         self.strain_name = strain_name
@@ -239,6 +236,7 @@ class RateEstimator(object):
         rate_dic = self.substrate_rates[substrate]
         for i, (t, x) in enumerate(zip(timepoints, cdw_values)):
             rate_dic[t] = 1e3 * ds_dt[i] / x / MOLAR_MASS_DICT[substrate]
+            print("# ", substrate,  ds_dt, x)
         # print(self.substrate_rates)
 
 
@@ -337,10 +335,10 @@ def read_online(fn):
 
 
 def read_offline(fn):
-    df = pd.read_csv(fn,  sep = ";", header = 0, skiprows = [0,1,2,3,5], decimal = ",")
+    df = pd.read_csv(fn,  sep = ",", header = 0, skiprows = [0,1,2,3,5], decimal = ".")
 
     # Replace " < 0.5 " by 0
-    df["Undecylprodigiosin 2"] = replace_str_by_0(df["Undecylprodigiosin 2"], 0)
+    df["Undecylprodigiosin 2"] = replace_str_by_0(df["Undecylprodigiosin 2"])
     df["Germicidin-A"] = replace_str_by_0(df["Germicidin-A"])
     df["Germicidin-B"] = replace_str_by_0(df["Germicidin-B"])
     
@@ -373,20 +371,21 @@ if __name__ == '__main__':
     column_order = ["Estimated CDW", "Growth rate", "Glucose", "Glutamic acid", "Undecylprodigiosin 2", "Germicidin-A", "Germicidin-B"]
     if 1:
         # M145
-        online_M145_fn = GROWTH_DATA_FOLDER / "M145_online_data.csv"
-        offline_M145_fn = GROWTH_DATA_FOLDER / "M145_offline_data.csv"
+        online_M145_fn = GROWTH_DATA_FOLDER / "M145" / "M145_online_data.csv"
+        offline_M145_fn = GROWTH_DATA_FOLDER / "M145" / "M145_offline_data.csv"
+        offline_M145_std_fn = GROWTH_DATA_FOLDER / "M145" / "M145_offline_data_std.csv"
         proteomic_timepoints_M145 = [21, 29, 33, 37, 41, 45, 49, 53, 57]
         p1 = proteomic_timepoints_M145[:3] 
         p2 = proteomic_timepoints_M145[3:5]
         p3 = proteomic_timepoints_M145[5:] 
 
-        RE = RateEstimator("M145", online_M145_fn, offline_M145_fn)
+        RE = RateEstimator("M145", online_M145_fn, offline_M145_fn, offline_M145_std_fn)
 
         RE.set_phase("Exponential phase", 14, 21)
         RE.set_phase("Linear phase 1", 21, 34.5)
         RE.set_phase("Linear phase 2", 34.5, 42)
         RE.set_phase("Linear phase 3", 42, 66)
-        RE.set_phase("Red linear phase", 41, 50)
+        RE.set_phase("Red linear phase", 41, 54)
         RE.set_phase("Germicidin phase", 38, 66)
 
 
@@ -420,22 +419,23 @@ if __name__ == '__main__':
         RE.predict_uptake_rates("Germicidin-B", "Germicidin phase", p2, "Linear phase 2")
         RE.predict_uptake_rates("Germicidin-B", "Germicidin phase", p3, "Linear phase 3")
         
-        # RE.plot_uptake_fit("Undecylprodigiosin 2")
+        RE.plot_uptake_fit("Undecylprodigiosin 2")
 
         RE.rates_as_df(save_name = GROWTH_DATA_FOLDER / "M145_estimated_rates.csv", column_order = column_order, float_format = "%.4f")
         print(RE.rate_df)
 
-    if 1:
+    if 0:
 
         # M1152
-        online_M1152_fn = GROWTH_DATA_FOLDER / "M1152_online_data.csv"
-        offline_M1152_fn = GROWTH_DATA_FOLDER / "M1152_offline_data.csv"
+        online_M1152_fn = GROWTH_DATA_FOLDER / "M1152" / "M1152_online_data.csv"
+        offline_M1152_fn = GROWTH_DATA_FOLDER / "M1152" / "M1152_offline_data.csv"
+        offline_M1152_std_fn = GROWTH_DATA_FOLDER / "M1152" / "M1152_offline_data_std.csv"
 
 
         proteomic_timepoints_M1152 = [33, 41, 45, 49, 53, 57, 61, 65]
 
 
-        RE = RateEstimator("M1152", online_M1152_fn, offline_M1152_fn)
+        RE = RateEstimator("M1152", online_M1152_fn, offline_M1152_fn, offline_M1152_std_fn)
         RE.set_phase("Exponential phase", 10, 29)
         RE.set_phase("Linear phase 1", 29, 50)
         RE.set_phase("Linear phase 1b", 27, 41)
