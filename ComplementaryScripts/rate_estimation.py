@@ -568,9 +568,10 @@ if __name__ == '__main__':
     if 1:
 
         # M1152
-        online_M1152_fn = GROWTH_DATA_FOLDER / "M1152" / "M1152_online_data.csv"
-        offline_M1152_fn = GROWTH_DATA_FOLDER / "M1152" / "M1152_offline_data.csv"
-        offline_M1152_std_fn = GROWTH_DATA_FOLDER / "M1152" / "M1152_offline_data_std.csv"
+        folder = "Average"
+        online_M1152_fn = GROWTH_DATA_FOLDER / "M1152" / folder / "M1152_online_data.csv"
+        offline_M1152_fn = GROWTH_DATA_FOLDER / "M1152" / folder / "M1152_offline_data.csv"
+        offline_M1152_std_fn = GROWTH_DATA_FOLDER / "M1152" / folder / "M1152_offline_data_std.csv"
 
 
         proteomic_timepoints_M1152 = [33, 41, 45, 49, 53, 57, 61, 65]
@@ -630,8 +631,8 @@ if __name__ == '__main__':
 
         
 
-        RE.rates_as_df(save_name = GROWTH_DATA_FOLDER / "M1152" / "M1152_estimated_rates.csv", column_order = column_order, float_format = "%.4f")
+        RE.rates_as_df(save_name = GROWTH_DATA_FOLDER / "M1152" / folder / "M1152_estimated_rates.csv", column_order = column_order, float_format = "%.4f")
         carbon = ["Glutamic acid", "Glucose", "Germicidin-A", "Germicidin-B", "CO2"]
-        RE.model_rates(str(scoGEM_FN), carbon, save_fn = GROWTH_DATA_FOLDER / "M1152" / "M1152_carbon_balance.csv")
-        
+        RE.model_rates(str(scoGEM_FN), carbon, save_fn = GROWTH_DATA_FOLDER / "M1152" / folder / "M1152_carbon_balance.csv")
+
 
