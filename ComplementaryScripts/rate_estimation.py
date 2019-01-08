@@ -46,6 +46,7 @@ MODEL_REACTION_DICT = {
     "Germicidin-B": "DM_germicidinB_c",
     "CO2": "EX_co2_e", 
 }
+RED_M145_OD = [0.1, 0.0, 0.0, 0.0, 0.1, 0.4, 0.7, 1.4, 2.1, 3.7]
 
 REPO_MAIN_FOLDER = Path(__file__).resolve().parent.parent
 GROWTH_DATA_FOLDER = REPO_MAIN_FOLDER / "ComplementaryData"/ "growth"
@@ -298,6 +299,52 @@ class RateEstimator(object):
             # print("# ", substrate,  ds_dt, x)
         # print(self.substrate_rates)
 
+    def plot_RED(self):
+        substrate = "Undecylprodigiosin 2"
+        phases_dict = self.substrate_fits[substrate]
+        
+        fig, ax = plt.subplots(1)
+        ax2 = ax.twinx()
+        ax2._get_lines.prop_cycler = ax._get_lines.prop_cycler
+
+        df = self.offline_df[self.offline_df[substrate].notna()]
+        
+        # Get standard deviation values
+        std_values, has_std = self.get_offline_std(substrate, phase_limits = None, mean_df = df)
+
+        # Plot measurements with or without standard deviation
+        if has_std:
+            ax.errorbar(df["TAI"], df[substrate], yerr = std_values, fmt = "k.", ms = 10, label = "{0} measurements".format(substrate),
+                        barsabove = True, ecolor = "k", elinewidth = 1)
+        
+        labels = []
+        l = ax.plot(df["TAI"], df[substrate], 'k.', ms = 10, label = "{0} measurements".format(substrate))        
+        labels += l
+
+        proteome_times = []
+        proteome_rates = []
+        for phase_name, dic in phases_dict.items():
+            # print(phase_name, dic)
+            l = ax.plot(dic["time"], dic["fit"], label = "Fit {0} {1}".format(substrate, phase_name))
+            proteome_times += list(dic["rate_times"])
+            proteome_rates += list(dic["at_rate_times"])
+            labels += l
+
+        l = ax.plot(proteome_times, proteome_rates, "r+", label = "Proteome timepoints")
+        labels += l
+
+        l = ax2.plot(df["TAI"], RED_M145_OD, marker = ".", alpha = 0.8, lw = 0, ms = 10, label = "RED OD measurements")
+        labels += l
+        ax2.set_ylabel("OD [spec. units]")
+
+        ax.legend(labels, [l.get_label() for l in labels])
+        ax.set_xlabel("Time after inoculation [h]")
+        ax.set_ylabel("{0} [g/L]".format(substrate))
+        # ax.spines['right'].set_visible(False)
+        ax.spines['top'].set_visible(False)
+        ax.set_title("{0} {1} concentration".format(self.strain_name, substrate))
+        plt.show()
+
 
     def plot_uptake_fit(self, substrate):
         phases_dict = self.substrate_fits[substrate]
@@ -310,12 +357,12 @@ class RateEstimator(object):
         std_values, has_std = self.get_offline_std(substrate, phase_limits = None, mean_df = df)
 
         # Plot measurements with or without standard deviation
+        print(len(df[substrate]), len(std_values))
         if has_std:
             ax.errorbar(df["TAI"], df[substrate], yerr = std_values, fmt = "k.", ms = 10, label = "{0} measurements".format(substrate),
                         barsabove = True, ecolor = "k", elinewidth = 1)
         else:
-            ax.plot(df["TAI"], df[substrate], 'k.', ms = 12, label = "{0} measurements".format(substrate))
-        
+            ax.plot(df["TAI"], df[substrate], 'k.', ms = 12, label = "{0} measurements".format(substrate))        
 
         proteome_times = []
         proteome_rates = []
@@ -376,7 +423,18 @@ class RateEstimator(object):
         l2 = ax.plot(self.online_df["TAI"], self.online_df["CO2"], label = "CO2 measurements")
         ax2 = ax.twinx()
         ax2._get_lines.prop_cycler = ax._get_lines.prop_cycler
-        l1 = ax2.plot(self.offline_df["TAI"], self.offline_df["CDW"], ".", ms = 12, label = "CDW measurements")#c = "#b4d8ee"
+
+
+        cdw_df = self.offline_df[self.offline_df["CDW"].notna()]
+        std_values, has_std = self.get_offline_std("CDW", mean_df = cdw_df)
+        # has_std = False
+        # Plot measurements with or without standard deviation
+        if has_std:
+            err_container = ax2.errorbar(cdw_df["TAI"], cdw_df["CDW"], yerr = std_values, color = "orange", fmt = ".", ms = 1, label = "CDW measurements",
+                        barsabove = True, elinewidth = 1)
+        l1 = ax2.plot(cdw_df["TAI"], cdw_df["CDW"], color = "orange", marker = ".", lw = 0, ms = 12, label = "CDW measurements")#c = "#b4d8ee"
+        
+
         labels = l1 + l2
         ax.legend(labels, [l.get_label() for l in labels], loc = 0)
         ax.set_xlabel("Time after inoculation [h]")
@@ -387,23 +445,6 @@ class RateEstimator(object):
         ax.set_title("CDW and CO2 measurements {0}".format(self.strain_name))
         plt.show()
 
-    # def calculate_carbon_balance(self):
-    #     if not isinstance(self.rate_df, pd.DataFrame):
-    #         self.rates_as_df()
-
-    #     carbon_arr = np.zeros(len(self.rate_df))
-    #     carbon = ["Glutamic acid", "Glucose", "Undecylprodigiosin 2", "Germicidin-A", "Germicidin-B"]
-    #     for i, (tai, row) in enumerate(self.rate_df.iterrows()):
-    #         tmp = []
-    #         for x in carbon:
-    #             if np.isnan(row[x]):
-    #                 tmp.append(0)
-    #             else:
-    #                 tmp.append(row[x]*CARBON_DICT[x])
-                
-    #         carbon_arr[i] = -sum(tmp)
-    #     print(carbon_arr)
-    #     return carbon_arr
 
     def get_CO2_at_proteome_timepoints(self):
 
@@ -416,7 +457,7 @@ class RateEstimator(object):
     def model_rates(self, model_fn, carbon, save_fn = None):
         model = read_sbml_model(model_fn)
         
-        new_df = pd.DataFrame(columns = ["Estimated growth rate", "FBA growth rate", "Carbon balance"])
+        new_df = pd.DataFrame(columns = ["Estimated growth rate", "FBA growth rate", "Carbon balance"], dtype="float64")
 
         for i, (idx, row) in enumerate(self.rate_df.iterrows()):
             new_df.loc[idx, "Estimated growth rate"] = row["Growth rate"]
@@ -440,7 +481,7 @@ class RateEstimator(object):
 
             new_df.loc[idx, "Carbon balance"] = -sum(tmp_balance)
         
-        print(new_df)
+        print(new_df.dtypes)
         if save_fn:
             new_df.to_csv(str(save_fn), sep = ",", index_label = "TAI", float_format = "%.4f")
         return new_df
@@ -506,7 +547,7 @@ def exp_fun(x, a, b):
 
 if __name__ == '__main__':
     column_order = ["Estimated CDW", "Growth rate", "Glucose", "Glutamic acid", "Undecylprodigiosin 2", "Germicidin-A", "Germicidin-B", "CO2"]
-    if 0:
+    if 1:
         # M145
         folder = "Average"
         online_M145_fn = GROWTH_DATA_FOLDER / "M145" / folder / "M145_online_data.csv"
@@ -531,20 +572,18 @@ if __name__ == '__main__':
         RE.fit_exponential_phase_to_CO2("Exponential phase")
         # RE.plot_exponential_fit_CO2()
         # RE.plot_CDW_and_CO2()
-        # exit()
+    
         
         RE.fit_linear_CDW_and_predict_growth_rate_for_phases([(p1,  "Linear phase 1"),
                                                               (p2,  "Linear phase 2"), 
                                                               (p3,  "Linear phase 3")])
         # RE.plot_CDW_fit()
-        # RE.fit_piecewise_linear_CDW("Linear phase 1", "Linear phase 2", "Linear phase 3")
-
 
         RE.fit_substrates_for_phases(["Glucose", "Glutamic acid"], ["Linear phase 1", "Linear phase 2", "Linear phase 3"])
         RE.predict_uptake_rates_for_phases(["Glucose", "Glutamic acid"], [(p1, "Linear phase 1"), (p2, "Linear phase 2"), (p3, "Linear phase 3")])
 
-        RE.plot_uptake_fit("Glucose")
-        RE.plot_uptake_fit("Glutamic acid")
+        # RE.plot_uptake_fit("Glucose")
+        # RE.plot_uptake_fit("Glutamic acid")
 
         # RE.fit_sigmoidial_to_substrate("Undecylprodigiosin 2", "Full time serie", 3, bounds = ([0, 20, 2], [1, 60, 3]))
         RE.fit_substrate("Undecylprodigiosin 2", "Red linear phase")
@@ -558,10 +597,9 @@ if __name__ == '__main__':
         RE.predict_uptake_rates("Germicidin-B", "Germicidin phase", p2, "Linear phase 2")
         RE.predict_uptake_rates("Germicidin-B", "Germicidin phase", p3, "Linear phase 3")
         
-        RE.plot_uptake_fit("Undecylprodigiosin 2")
-
-        RE.rates_as_df(save_name = GROWTH_DATA_FOLDER / "M145" / folder /  "M145_estimated_rates.csv", column_order = column_order, float_format = "%.4f")
-        print(RE.rate_df)
+        # RE.plot_uptake_fit("Undecylprodigiosin 2")
+        # RE.plot_RED()
+        RE.rates_as_df(save_name = GROWTH_DATA_FOLDER / "M145" / folder /  "M145_estimated_rates.csv", column_order = column_order, float_format = "%.6f")
         
         carbon = ["Glutamic acid", "Glucose", "Germicidin-A", "Germicidin-B", "CO2", "Undecylprodigiosin 2"]
         RE.model_rates(str(scoGEM_FN), carbon, save_fn =  GROWTH_DATA_FOLDER / "M145" / folder /  "M145_carbon_balance.csv")
@@ -631,7 +669,7 @@ if __name__ == '__main__':
 
         
 
-        RE.rates_as_df(save_name = GROWTH_DATA_FOLDER / "M1152" / folder / "M1152_estimated_rates.csv", column_order = column_order, float_format = "%.4f")
+        RE.rates_as_df(save_name = GROWTH_DATA_FOLDER / "M1152" / folder / "M1152_estimated_rates.csv", column_order = column_order, float_format = "%.7f")
         carbon = ["Glutamic acid", "Glucose", "Germicidin-A", "Germicidin-B", "CO2"]
         RE.model_rates(str(scoGEM_FN), carbon, save_fn = GROWTH_DATA_FOLDER / "M1152" / folder / "M1152_carbon_balance.csv")
 
