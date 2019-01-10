@@ -1,0 +1,2553 @@
+﻿Reaction ID;Note;Reference;DOI
+BIOMASS_SCO;Re-estimated using proteomics data in ScoGEM;;
+BIOMASS_SCO_tRNA;;;
+CARBOHYDRATE_PSEUDO;;;
+CELL_WALL_PSEUDO;;;
+DNA_PSEUDO;;;
+LIPID_PSEUDO;;;
+MISC_PSEUDO;;;
+PROTEIN_PSEUDO;;;
+PROTEIN_PSEUDO_tRNA;;;
+RNA_PSEUDO;;;
+ATPM;Estimated in the given reference;"Amara A, Takano E, Breitling R. Development and validation of an updated computational model of Streptomyces coelicolor primary and secondary metabolism. BMC Genomics. 2018;19(1):519";10.1186/s12864-018-4905-5
+PSEUDO_ACCEPTOR_NAD;;;
+PSEUDO_ACCEPTOR_NADP;;;
+PSEUDO_DONOR_NADH;;;
+PSEUDO_DONOR_NADPH;;;
+11OXPENT;;;
+1P4H2CDA;;;
+23DHBZS;;;
+23LGALAC;;;
+23PDE2e;;;
+23PDE4e;;;
+23PDE7e;;;
+23PDE9e;;;
+24DCLPMO;;;
+24DCOAR;;;
+24DHX5M6OI;;;
+25DBUT;;;
+2A3MUCSD;;;
+2ABZMOx;;;
+2ABZMOy;;;
+2AMUCSAD;;;
+2CLRED;;;
+2D3DGLUCDH;;;
+2DHGLCK;;;
+2FURAPS;;;
+2K3DRHAM;;;
+2MBCOATA;;Li Y, Florova G, Reynolds KA.#2005#Alteration of the fatty acid profile of Streptomyces coelicolor by replacement of the initiation enzyme 3-ketoacyl acyl carrier protein synthase III (FabH).#J Bacteriol.#187#3795-3799#;10.1128/JB.187.11.3795-3799.2005
+2METBOD;;;
+2OGLUAH;;;
+2OH3EDISO;;;
+2OXOADOX;;;
+33BIFLAV;;;
+34HPPOR;;;
+36AHDGALC;;;
+38BIFLAVS;;;
+38DPCLOR;;;
+3AIBUTS;;;
+3CLBZADH;;;
+3CLBZDH;;;
+3CTHPPT;;;
+3DM4HXPPO;;;
+3DMA4HMO;;;
+3HAD10;Required for growth (fatty acid biosynthesis);;
+3HAD11;Required for growth (fatty acid biosynthesis);;
+3HAD12;Required for growth (fatty acid biosynthesis);;
+3HAD121;Required for growth (fatty acid biosynthesis);;
+3HAD13;Required for growth (fatty acid biosynthesis);;
+3HAD14;Required for growth (fatty acid biosynthesis);;
+3HAD141;Required for growth (fatty acid biosynthesis);;
+3HAD15;Required for growth (fatty acid biosynthesis);;
+3HAD16;Required for growth (fatty acid biosynthesis);;
+3HAD161;Required for growth (fatty acid biosynthesis);;
+3HAD17;Required for growth (fatty acid biosynthesis);;
+3HAD18;Required for growth (fatty acid biosynthesis);;
+3HAD181;Required for growth (fatty acid biosynthesis);;
+3HAD4;Required for growth (fatty acid biosynthesis);;
+3HAD5;Required for growth (fatty acid biosynthesis);;
+3HAD6;Required for growth (fatty acid biosynthesis);;
+3HAD7;Required for growth (fatty acid biosynthesis);;
+3HAD8;Required for growth (fatty acid biosynthesis);;
+3HAD9;Required for growth (fatty acid biosynthesis);;
+3HADai11;Required for growth (fatty acid biosynthesis);;
+3HADai13;Required for growth (fatty acid biosynthesis);;
+3HADai15;Required for growth (fatty acid biosynthesis);;
+3HADai17;Required for growth (fatty acid biosynthesis);;
+3HADai7;Required for growth (fatty acid biosynthesis);;
+3HADai9;Required for growth (fatty acid biosynthesis);;
+3HADi10;Required for growth (fatty acid biosynthesis);;
+3HADi11;Required for growth (fatty acid biosynthesis);;
+3HADi12;Required for growth (fatty acid biosynthesis);;
+3HADi13;Required for growth (fatty acid biosynthesis);;
+3HADi14;Required for growth (fatty acid biosynthesis);;
+3HADi15;Required for growth (fatty acid biosynthesis);;
+3HADi16;Required for growth (fatty acid biosynthesis);;
+3HADi17;Required for growth (fatty acid biosynthesis);;
+3HADi18;Required for growth (fatty acid biosynthesis);;
+3HADi6;Required for growth (fatty acid biosynthesis);;
+3HADi7;Required for growth (fatty acid biosynthesis);;
+3HADi8;Required for growth (fatty acid biosynthesis);;
+3HADi9;Required for growth (fatty acid biosynthesis);;
+3HBCOADH;;;
+3HBCOAHL;Included as a part of valine degradation pathway, but not necessary;;
+3HCINNMH;;;
+3HPPPNH;;;
+3HXACOADH;;;
+3HXKYN;;;
+3K5AHC;;;
+3MBZALDH;;;
+3MBZDH;;;
+3NTD2e;;;
+3NTD4e;;;
+3NTD7e;;;
+3NTD9e;;;
+3OADPCOAT;;;
+3OAR10;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OAR11;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OAR12;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OAR121;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OAR13;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OAR14;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OAR141;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OAR15;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OAR16;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OAR161;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OAR17;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OAR18;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OAR181;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OAR4;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OAR5;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OAR6;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OAR7;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OAR8;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OAR9;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OARai11;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OARai13;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OARai15;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OARai17;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OARai7;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OARai9;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OARi10;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OARi11;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OARi12;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OARi13;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OARi14;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OARi15;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OARi16;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OARi17;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OARi18;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OARi6;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OARi7;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OARi8;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OARi9;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+3OAS10;;;
+3OAS11;;;
+3OAS12;;;
+3OAS121;;;
+3OAS13;;;
+3OAS14;;;
+3OAS141;;;
+3OAS15;;;
+3OAS16;;;
+3OAS161;;;
+3OAS17;;;
+3OAS18;;;
+3OAS181;;;
+3OAS5;;;
+3OAS6;;;
+3OAS7;;;
+3OAS8;;;
+3OAS9;;;
+3OASai11;;;
+3OASai13;;;
+3OASai15;;;
+3OASai17;;;
+3OASai7;;;
+3OASai9;;;
+3OASi10;;;
+3OASi11;;;
+3OASi12;;;
+3OASi13;;;
+3OASi14;;;
+3OASi15;;;
+3OASi16;;;
+3OASi17;;;
+3OASi18;;;
+3OASi6;;;
+3OASi7;;;
+3OASi8;;;
+3OASi9;;;
+3OCHOCDH;;;
+3OXCOADH;;;
+3OXCOAT;;Escherichia coli and Pseudomonas putida#Teufel R, Mascaraque V, Ismail W, Voss M, Perera J, Eisenreich W, Haehnel W, Fuchs G.#2010#Bacterial phenylalanine and phenylacetate catabolic pathway revealed.#Proc Natl Acad Sci U S A.#107#107-132#;10.1073/pnas.1005399107
+3OXOR;;;
+3T3LPROD;;;
+44DPCDH;;;
+45DOPA;;;
+45SDOPs;;;
+4C4HX2OA;;;
+4CMCOAS;;;
+4COXADH;;;
+4HBHYOX;;;
+4HDAPMO;;;
+4HGLSD;;Smith DD, Wood NJ, Hodgson DA.#1995#Interaction between primary and secondary metabolism in Streptomyces coelicolor A3(2): role of pyrroline-5-carboxylate dehydrogenase.#Microbiology.#141#1739-1744#;10.1099/13500872-141-7-1739
+4HPROOR;;;
+4HTHRS;;;
+4HXBOPT;;;
+4HXPUHBT;;;
+4HYBUT;;;
+4HYDPRO;;;
+4IP7MO2H__R;;;
+4IP7MO2H__S;;;
+4IZPHYDs;;;
+4MBZALDH;;;
+4MBZDH;;;
+4NIPHOM;;;
+4NITROB;;;
+4OT;;;
+4PCP;;;
+4SBZADH;;;
+4SULFADH;;;
+5CM2HMUCI;;;
+5DGLCNR;;;
+5DOAN;Required for growth (biotin biosynthesis);;
+5METDA;;;
+5OP3TCCL;;;
+6ADOFUT;;;
+6HEXHYD;;;
+6PHBG;;;
+AAAHYD;;;
+AACOATi;;;
+AAMYLe;;;
+AATA;;;
+AATC;;;
+ABPYRATA;;;
+ABT2DG;;;
+ABTA;;;
+ABTD;;;
+ABTDG;;;
+ABUTD;;;
+AC1MO;;;
+ACACT1r;;;
+ACACT2r;;;
+ACACT3r;;;
+ACACT4r;;;
+ACACT5r;;;
+ACACT6r;;;
+ACACT7r;;;
+ACACT8r;;;
+ACBIPGT;;;
+ACCAHh;;;
+ACCOAC;;Rodríguez E, Banchio C, Diacovich L, Bibb MJ, Gramajo H.#2001#Role of an essential acyl coenzyme A carboxylase in the primary and secondary metabolism of Streptomyces coelicolor A3(2).#Appl Environ Microbiol.#67#4166-4176#;10.1128/AEM.67.9.4166-4176.2001
+ACCOAC_1;;;
+ACCS;;;
+ACETDH;;;
+ACGAMK;;Świątek MA, Tenconi E, Rigali S, van Wezel GP.#2012#Functional analysis of the N-acetylglucosamine metabolic genes of Streptomyces coelicolor and role in control of development and antibiotic production.#J Bacteriol.#194#1136-1144#;10.1128/JB.06370-11
+ACGK;;;
+ACGS;;;
+ACHBS;;;
+ACITRULD;;;
+ACKr;;Hutchings MI, Hong HJ, Buttner MJ.#2006#The vancomycin resistance VanRS two-component signal transduction system of Streptomyces coelicolor.#Mol Microbiol.#59#923-935#;10.1111/j.1365-2958.2005.04953.x
+ACLS;;;
+ACM6PH;;;
+ACNMS;;;
+ACOAD1f;;;
+ACOAD2f;;;
+ACOAD3f;;;
+ACOAD4f;;;
+ACOAD5f;;;
+ACOAD6f;;;
+ACOAD7f;;;
+ACOAD8f;;;
+ACOAD9;;Zhang YX, Denoya CD, Skinner DD, Fedechko RW, McArthur HA, Morgenstern MR, Davies RA, Lobo S, Reynolds KA, Hutchinson CR.#1999#Genes encoding acyl-CoA dehydrogenase (AcdH) homologues from Streptomyces coelicolor and Streptomyces avermitilis provide insights into the metabolism of small branched-chain fatty acids and macrolide antibiotic production.#Microbiology.#145#2323-2334#;10.1099/00221287-145-9-2323
+ACOADH1;;Zhang YX, Denoya CD, Skinner DD, Fedechko RW, McArthur HA, Morgenstern MR, Davies RA, Lobo S, Reynolds KA, Hutchinson CR.#1999#Genes encoding acyl-CoA dehydrogenase (AcdH) homologues from Streptomyces coelicolor and Streptomyces avermitilis provide insights into the metabolism of small branched-chain fatty acids and macrolide antibiotic production.#Microbiology.#145#2323-2334#;10.1099/00221287-145-9-2323
+ACOATA;;Singh R, Mo S, Florova G, Reynolds KA.#2012#Streptomyces coelicolor RedP and FabH enzymes, initiating undecylprodiginine and fatty acid biosynthesis, exhibit distinct acyl-CoA and malonyl-acyl carrier protein substrate specificities.#FEMS Microbiol Lett.#328#32-38#;10.1111/j.1574-6968.2011.02474.x
+ACODA;;;
+ACON6LAT;;;
+ACONIs;Spontaneous reaction;;
+ACONMT;;;
+ACONTa;;Viollier PH, Nguyen KT, Minas W, Folcher M, Dale GE, Thompson CJ.#2001#Roles of aconitase in growth, metabolism, and morphological differentiation of Streptomyces coelicolor.#J Bacteriol.#183#3193-3203#;10.1128/JB.183.10.3193-3203.2001
+ACONTb;;Viollier PH, Nguyen KT, Minas W, Folcher M, Dale GE, Thompson CJ.#2001#Roles of aconitase in growth, metabolism, and morphological differentiation of Streptomyces coelicolor.#J Bacteriol.#183#3193-3203#;10.1128/JB.183.10.3193-3203.2001
+ACOTA;;;
+ACPPAT12;Required for growth (phospholipid biosynthesis);;
+ACPPAT14;Required for growth (phospholipid biosynthesis);;
+ACPPAT141;Required for growth (phospholipid biosynthesis);;
+ACPPAT15;Required for growth (phospholipid biosynthesis);;
+ACPPAT16;Required for growth (phospholipid biosynthesis);;
+ACPPAT161;Required for growth (phospholipid biosynthesis);;
+ACPPAT17;Required for growth (phospholipid biosynthesis);;
+ACPPAT18;Required for growth (phospholipid biosynthesis);;
+ACPPAT181;Required for growth (phospholipid biosynthesis);;
+ACPPATai15;Required for growth (phospholipid biosynthesis);;
+ACPPATai17;Required for growth (phospholipid biosynthesis);;
+ACPPATi14;Required for growth (phospholipid biosynthesis);;
+ACPPATi15;Required for growth (phospholipid biosynthesis);;
+ACPPATi16;Required for growth (phospholipid biosynthesis);;
+ACPPATi17;Required for growth (phospholipid biosynthesis);;
+ACPPATi18;Required for growth (phospholipid biosynthesis);;
+ACPS1;;Dall'aglio P, Arthur CJ, Williams C, Vasilakis K, Maple HJ, Crosby J, Crump MP, Hadfield AT.#2011#Analysis of Streptomyces coelicolor phosphopantetheinyl transferase, AcpS, reveals the basis for relaxed substrate specificity.#Biochemistry.#50#5704-5717#;10.1021/bi2003668
+ACPSact;;Dall'aglio P, Arthur CJ, Williams C, Vasilakis K, Maple HJ, Crosby J, Crump MP, Hadfield AT.#2011#Analysis of Streptomyces coelicolor phosphopantetheinyl transferase, AcpS, reveals the basis for relaxed substrate specificity.#Biochemistry.#50#5704-5717#;10.1021/bi2003668
+ACPScda;;Lu YW, San Roman AK, Gehring AM.#2008#Role of phosphopantetheinyl transferase genes in antibiotic production by Streptomyces coelicolor.#J Bacteriol.#190#6903-6908#;10.1128/JB.00865-08
+ACPScpk;;;
+ACPSpdscpk;;;
+ACPSredL;;Dall'aglio P, Arthur CJ, Williams C, Vasilakis K, Maple HJ, Crosby J, Crump MP, Hadfield AT.#2011#Analysis of Streptomyces coelicolor phosphopantetheinyl transferase, AcpS, reveals the basis for relaxed substrate specificity.#Biochemistry.#50#5704-5717#;10.1021/bi2003668
+ACPSredN;;Dall'aglio P, Arthur CJ, Williams C, Vasilakis K, Maple HJ, Crosby J, Crump MP, Hadfield AT.#2011#Analysis of Streptomyces coelicolor phosphopantetheinyl transferase, AcpS, reveals the basis for relaxed substrate specificity.#Biochemistry.#50#5704-5717#;10.1021/bi2003668
+ACPSredQ;;Dall'aglio P, Arthur CJ, Williams C, Vasilakis K, Maple HJ, Crosby J, Crump MP, Hadfield AT.#2011#Analysis of Streptomyces coelicolor phosphopantetheinyl transferase, AcpS, reveals the basis for relaxed substrate specificity.#Biochemistry.#50#5704-5717#;10.1021/bi2003668
+ACPpds;;;
+ACPpdsact;;;
+ACPpdscda;;;
+ACPpdsredL;;;
+ACPpdsredN;;;
+ACPpdsredQ;;;
+ACRCOAR;;;
+ACS;;;
+ACS2;;;
+ACTCOALIG;;;
+ACTCOAT;;;
+ACTCOAT2;;;
+ACTS1;;Arthur CJ, Szafranska A, Evans SE, Findlow SC, Burston SG, Owen P, Clark-Lewis I, Simpson TJ, Crosby J, Crump MP.#2005#Self-malonylation is an intrinsic property of a chemically synthesized type II polyketide synthase acyl carrier protein.#Biochemistry.#44#15414-15421#;10.1021/bi051499i
+ACTS1;;Hadfield AT, Limpkin C, Teartasin W, Simpson TJ, Crosby J, Crump MP.#2004#The crystal structure of the actIII actinorhodin polyketide reductase: proposed mechanism for ACP and polyketide binding.#Structure.#12#1865-1875#;10.1016/j.str.2004.08.002
+ACTS11;;McDaniel R, Ebert-Khosla S, Hopwood DA, Khosla C.#1994#Engineered Biosynthesis of Novel Polyketides: actVII and actIV Genes Encode Aromatase and Cyclase Enzymes, Respectively#J Am Chem Soc.#116#10855-10859#;10.1021/ja00103a001
+ACTS12;;McDaniel R, Ebert-Khosla S, Hopwood DA, Khosla C.#1994#Engineered Biosynthesis of Novel Polyketides: actVII and actIV Genes Encode Aromatase and Cyclase Enzymes, Respectively#J Am Chem Soc.#116#10855-10859#;10.1021/ja00103a001
+ACTS13;;Taguchi T, Itou K, Ebizuka Y, Malpartida F, Hopwood DA, Surti CM, Booker-Milburn KI, Stephenson GR, Ichinose K.#2000#Chemical characterisation of disruptants of the Streptomyces coelicolor A3(2) actVI genes involved in actinorhodin biosynthesis.#J Antibiot (Tokyo).#53#144-152#;10.7164/antibiotics.53.144
+ACTS14;;Taguchi T, Itou K, Ebizuka Y, Malpartida F, Hopwood DA, Surti CM, Booker-Milburn KI, Stephenson GR, Ichinose K.#2000#Chemical characterisation of disruptants of the Streptomyces coelicolor A3(2) actVI genes involved in actinorhodin biosynthesis.#J Antibiot (Tokyo).#53#144-152#;10.7164/antibiotics.53.144
+ACTS15;;Taguchi T, Itou K, Ebizuka Y, Malpartida F, Hopwood DA, Surti CM, Booker-Milburn KI, Stephenson GR, Ichinose K.#2000#Chemical characterisation of disruptants of the Streptomyces coelicolor A3(2) actVI genes involved in actinorhodin biosynthesis.#J Antibiot (Tokyo).#53#144-152#;10.7164/antibiotics.53.144
+ACTS16;;Okamoto S, Taguchi T, Ochi K, Ichinose K.#2009#Biosynthesis of actinorhodin and related antibiotics: discovery of alternative routes for quinone formation encoded in the act gene cluster.#Chem Biol.#16#226-236##Kendrew SG, Hopwood DA, Marsh EN.#1997#Identification of a monooxygenase from Streptomyces coelicolor A3(2) involved in biosynthesis of actinorhodin: purification and characterization of the recombinant enzyme.#J Bacteriol.#179#4305-4310#;10.1016/j.chembiol.2009.01.015
+ACTS16b;;;
+ACTS17;;Valton J, Mathevon C, Fontecave M, Nivière V, Ballou DP.#2008#Mechanism and regulation of the Two-component FMN-dependent monooxygenase ActVA-ActVB from Streptomyces coelicolor.#J Biol Chem.#283#10287-10296#;10.1074/jbc.M709730200
+ACTS18;Required to produce actinorhodin;;
+ACTS19;Required to produce actinorhodin;;
+ACTS2;;Matharu AL, Cox RJ, Crosby J, Byrom KJ, Simpson TJ.#1998#MCAT is not required for in vitro polyketide synthesis in a minimal actinorhodin polyketide synthase from Streptomyces coelicolor.#Chem Biol.#5#699-711#;10.1016/S1074-5521(98)90663-9
+ACTS3;;Matharu AL, Cox RJ, Crosby J, Byrom KJ, Simpson TJ.#1998#MCAT is not required for in vitro polyketide synthesis in a minimal actinorhodin polyketide synthase from Streptomyces coelicolor.#Chem Biol.#5#699-711#;10.1016/S1074-5521(98)90663-9
+ACTS4;;Matharu AL, Cox RJ, Crosby J, Byrom KJ, Simpson TJ.#1998#MCAT is not required for in vitro polyketide synthesis in a minimal actinorhodin polyketide synthase from Streptomyces coelicolor.#Chem Biol.#5#699-711#;10.1016/S1074-5521(98)90663-9
+ACTS5;;Matharu AL, Cox RJ, Crosby J, Byrom KJ, Simpson TJ.#1998#MCAT is not required for in vitro polyketide synthesis in a minimal actinorhodin polyketide synthase from Streptomyces coelicolor.#Chem Biol.#5#699-711#;10.1016/S1074-5521(98)90663-9
+ACTS6;;Matharu AL, Cox RJ, Crosby J, Byrom KJ, Simpson TJ.#1998#MCAT is not required for in vitro polyketide synthesis in a minimal actinorhodin polyketide synthase from Streptomyces coelicolor.#Chem Biol.#5#699-711#;10.1016/S1074-5521(98)90663-9
+ACTS7;;Matharu AL, Cox RJ, Crosby J, Byrom KJ, Simpson TJ.#1998#MCAT is not required for in vitro polyketide synthesis in a minimal actinorhodin polyketide synthase from Streptomyces coelicolor.#Chem Biol.#5#699-711#;10.1016/S1074-5521(98)90663-9
+ACTS8;;Matharu AL, Cox RJ, Crosby J, Byrom KJ, Simpson TJ.#1998#MCAT is not required for in vitro polyketide synthesis in a minimal actinorhodin polyketide synthase from Streptomyces coelicolor.#Chem Biol.#5#699-711#;10.1016/S1074-5521(98)90663-9
+ACTS9;;Matharu AL, Cox RJ, Crosby J, Byrom KJ, Simpson TJ.#1998#MCAT is not required for in vitro polyketide synthesis in a minimal actinorhodin polyketide synthase from Streptomyces coelicolor.#Chem Biol.#5#699-711#;10.1016/S1074-5521(98)90663-9
+ADA;;Pornbanlualap S, Chalopagorn P.#2011#Adenosine deaminase from Streptomyces coelicolor: recombinant expression, purification and characterization.#Protein Expr Purif.#78#167-173#;10.1016/j.pep.2011.04.003
+ADAPAT;;;
+ADCL;Required for growth (tetrahydrofolate biosynthesis);;
+ADCPS1;;;
+ADCPS2;;;
+ADCS;;;
+ADCYRS;;;
+ADK1;;;
+ADK2;;;
+ADK3;;;
+ADK4;;;
+ADMDC;Required for growth using L-alanine as a carbon source;;
+ADNCYC;;Süsstrunk U, Pidoux J, Taubert S, Ullmann A, Thompson CJ.#1998#Pleiotropic effects of cAMP on germination, antibiotic biosynthesis and morphological development in Streptomyces coelicolor.#Mol Microbiol.#30#33-46#;10.1046/j.1365-2958.1998.01033.x
+ADNK1;;;
+ADNUC;;;
+ADOCBIK;;;
+ADOCBLS;;;
+ADOXFUTS;;;
+ADPRDP;;;
+ADPT;;;
+ADPT2;;;
+ADSK;;;
+ADSL1r;;;
+ADSL2r;;;
+ADSS;;;
+ADXFUTNS;;;
+AGDC;;Świątek MA, Tenconi E, Rigali S, van Wezel GP.#2012#Functional analysis of the N-acetylglucosamine metabolic genes of Streptomyces coelicolor and role in control of development and antibiotic production.#J Bacteriol.#194#1136-1144#;10.1128/JB.06370-11
+AGM4PCP;;;
+AGMDA;;;
+AGMT;;;
+AGPAT12;;;
+AGPAT14;;;
+AGPAT141;;;
+AGPAT15;;;
+AGPAT16;;;
+AGPAT161;;;
+AGPAT17;;;
+AGPAT18;;;
+AGPAT181;;;
+AGPATai15;;;
+AGPATai17;;;
+AGPATi14;;;
+AGPATi15;;;
+AGPATi16;;;
+AGPATi17;;;
+AGPATi18;;;
+AGPR;;;
+AGT;;;
+AHCi;;;
+AHLGAL;;;
+AHLGALb;;;
+AHMMPS;;;
+AHOPS;;;
+AHSERL2;;;
+AICART;;;
+AIRCr;;;
+AKGDH;;;
+AKGDH2;;;
+AKP1;;;
+ALAALAD;;Tan AL, Loke P, Sim TS.#2002#Molecular cloning and functional characterisation of VanX, a D-alanyl-D-alanine dipeptidase from Streptomyces coelicolor A3(2).#Res Microbiol.#153#27-32#;10.1016/S0923-2508(01)01282-7
+ALAALAr;;;
+ALAD_L;;;
+ALALAC;;Hong HJ, Hutchings MI, Neu JM, Wright GD, Paget MS, Buttner MJ.#2004#Characterization of an inducible vancomycin resistance system in Streptomyces coelicolor reveals a novel gene (vanK) required for drug resistance.#Mol Microbiol.#52#1107-1121#;10.1111/j.1365-2958.2004.04032.x
+ALAR;;;
+ALAS;;;
+ALATA_D2;;;
+ALATA_L;;;
+ALATA_L2;;;
+ALATRS;;;
+ALBFLOLR;;;
+ALBFLOLS;;;
+ALBFLONR;;;
+ALBFLONS;;;
+ALCD19;;;
+ALCD19y;;;
+ALCD2s;;;
+ALCD2x;;;
+ALCD2y;;;
+ALDD1;;;
+ALDD19xr;;;
+ALDD2x;;;
+ALDH;;;
+ALLTAMH2;;;
+ALLTN;;;
+ALPHNH;;;
+AM4PCP;;;
+AMALT1;;;
+AMALT2;;;
+AMALT3;;;
+AMALT4;;;
+AMAOTr;;;
+AMBACS;;;
+AMBCOAL;;;
+AMID;;;
+AMID3;;;
+AMID5;;;
+AMMQLT9;;;
+AMMQT9;;;
+AMPTASECG;;;
+AMPTASEPG;;;
+ANHMK;;;
+ANPRT;;;
+ANS;;;
+ANTDIOx;;;
+ANTDIOy;;;
+AOBUTDs;Spontaneous reaction;;
+AOXSr2;;;
+AP2EISOs;;;
+APAT2r;;;
+APATT;;;
+APATc;;;
+APATr;;;
+APCS;;;
+APG3PAT12;Required for growth (phospholipid biosynthesis);;
+APG3PAT14;Required for growth (phospholipid biosynthesis);;
+APG3PAT141;Required for growth (phospholipid biosynthesis);;
+APG3PAT15;Required for growth (phospholipid biosynthesis);;
+APG3PAT16;Required for growth (phospholipid biosynthesis);;
+APG3PAT161;Required for growth (phospholipid biosynthesis);;
+APG3PAT17;Required for growth (phospholipid biosynthesis);;
+APG3PAT18;Required for growth (phospholipid biosynthesis);;
+APG3PAT181;Required for growth (phospholipid biosynthesis);;
+APG3PATai15;Required for growth (phospholipid biosynthesis);;
+APG3PATai17;Required for growth (phospholipid biosynthesis);;
+APG3PATi14;Required for growth (phospholipid biosynthesis);;
+APG3PATi15;Required for growth (phospholipid biosynthesis);;
+APG3PATi16;Required for growth (phospholipid biosynthesis);;
+APG3PATi17;Required for growth (phospholipid biosynthesis);;
+APG3PATi18;Required for growth (phospholipid biosynthesis);;
+APH12;;;
+APH14;;;
+APH141;;;
+APH15;;;
+APH16;;;
+APH161;;;
+APH17;;;
+APH18;;;
+APH181;;;
+APHai15;;;
+APHai17;;;
+APHi14;;;
+APHi15;;;
+APHi16;;;
+APHi17;;;
+APHi18;;;
+APPLDHr;;;
+APRAUR;;;
+APTNAT;Required for growth using L-lysine as a carbon source;;
+ARAB2r;;;
+ARABDH;;;
+ARABISOs;;;
+ARABLAC;;;
+ARAI;Required for growth using L-arabinose as a carbon source;;
+ARAT;;;
+ARGDr;;;
+ARGSL;;;
+ARGSS;;;
+ARGTRS;;;
+ARUH;;;
+ASAD;;;
+ASCISOs;;;
+ASCOROX;;;
+ASCORPO;;;
+ASNN;Required for growth using L-asparagine as a carbon source;;
+ASNS1;;;
+ASNTRS;tRNA system;;
+ASP1DC;;;
+ASPCT;;;
+ASPK;;;
+ASPO;;;
+ASPO1;;;
+ASPO3;;;
+ASPO5;;;
+ASPO6;;;
+ASPO6_2;;;
+ASPT;;;
+ASPTA;;;
+ASPTRS;;;
+ASR;;Corynebacterium glutamicum#Ordóñez E, Van Belle K, Roos G, De Galan S, Letek M, Gil JA, Wyns L, Mateos LM, Messens J.#2009#Arsenate reductase, mycothiol, and mycoredoxin concert thiol/disulfide exchange.#J Biol Chem.#284#15107-15116#;10.1074/jbc.M900877200
+ATAH;;;
+ATNS_nh4;;;
+ATPHs;Spontaneous reaction;;
+ATPPRT;;;
+BACCL;;;
+BACCL2;;;
+BALDHs;;;
+BCOADH;;;
+BCOATA;;Li Y, Florova G, Reynolds KA.#2005#Alteration of the fatty acid profile of Streptomyces coelicolor by replacement of the initiation enzyme 3-ketoacyl acyl carrier protein synthase III (FabH).#J Bacteriol.#187#3795-3799#;10.1128/JB.187.11.3795-3799.2005
+BDH;;;
+BETALDHx;;;
+BETALDHy;;;
+BFBP;;;
+BFORCL;;;
+BFORMDC;;;
+BGLA;;;
+BMMCOAL;;;
+BMOCOS;;;
+BMOGDS1;;;
+BMOGDS2;;;
+BPNT;Required for growth (acyl-carrier protein biosynthesis);;
+BSUZCOAD;;;
+BTAOR;;;
+BTCOAR;;;
+BTNC;;;
+BTS5;;;
+BUPN;;;
+BUTCOAL;;;
+BWCOGDS1;;;
+BWCOGDS2;;;
+BWCOS;;;
+BZALDH;;;
+BZDH;;;
+BZSCT;;;
+C7AHXDH;;;
+CADHX;;;
+CAFFCOA;;;
+CARBMODH;;;
+CARBPHOL;;;
+CARNMOx;;;
+CARNMOy;;;
+CARNOX;;;
+CAT;;Cho YH, Roe JH.#1997#Isolation and expression of the catA gene encoding the major vegetative catalase in Streptomyces coelicolor Müller.#J Bacteriol.#179#4049-4052##Hahn JS, Oh SY, Roe JH.#2000#Regulation of the furA and catC operon, encoding a ferric uptake regulator homologue and catalase-peroxidase, respectively, in Streptomyces coelicolor A3(2).#J Bacteriol.#182#3767-3774##Cho YH, Lee EJ, Roe JH.#2000#A developmentally regulated catalase required for proper differentiation and osmoprotection of Streptomyces coelicolor.#Mol Microbiol.#35#150-160##Kim HS, Lee EJ, Cho YH, Roe JH.#2013#Post-translational regulation of a developmental catalase, CatB, involves a metalloprotease, SmpA and contributes to proper differentiation and osmoprotection of Streptomyces coelicolor.#Res Microbiol.;10.1128/jb.179.12.4049-4052.1997, 10.1128/JB.182.13.3767-3774.2000, 10.1046/j.1365-2958.2000.01685.x, 10.1016/j.resmic.2012.12.009
+CAT23DOX;;;
+CBIAT;;;
+CBLAT;To utilize extracellular cob(1)alamin;;
+CBMD;;;
+CBPS;;;
+CCCR;;;
+CDAS1;;;
+CDAS1;Required to produce calcium-dependent antibiotics;;
+CDAS11;;Hojati Z, Milne C, Harvey B, Gordon L, Borg M, Flett F, Wilkinson B, Sidebottom PJ, Rudd BA, Hayes MA, Smith CP, Micklefield J.#2002#Structure, biosynthetic origin, and engineered biosynthesis of calcium-dependent antibiotics from Streptomyces coelicolor.#Chem Biol.#9#1175-1187#;10.1016/S1074-5521(02)00252-1
+CDAS12;;Hojati Z, Milne C, Harvey B, Gordon L, Borg M, Flett F, Wilkinson B, Sidebottom PJ, Rudd BA, Hayes MA, Smith CP, Micklefield J.#2002#Structure, biosynthetic origin, and engineered biosynthesis of calcium-dependent antibiotics from Streptomyces coelicolor.#Chem Biol.#9#1175-1187#;10.1016/S1074-5521(02)00252-1
+CDAS13;;Hojati Z, Milne C, Harvey B, Gordon L, Borg M, Flett F, Wilkinson B, Sidebottom PJ, Rudd BA, Hayes MA, Smith CP, Micklefield J.#2002#Structure, biosynthetic origin, and engineered biosynthesis of calcium-dependent antibiotics from Streptomyces coelicolor.#Chem Biol.#9#1175-1187#;10.1016/S1074-5521(02)00252-1
+CDAS14a;;Hojati Z, Milne C, Harvey B, Gordon L, Borg M, Flett F, Wilkinson B, Sidebottom PJ, Rudd BA, Hayes MA, Smith CP, Micklefield J.#2002#Structure, biosynthetic origin, and engineered biosynthesis of calcium-dependent antibiotics from Streptomyces coelicolor.#Chem Biol.#9#1175-1187#;10.1016/S1074-5521(02)00252-1
+CDAS14b;;Hojati Z, Milne C, Harvey B, Gordon L, Borg M, Flett F, Wilkinson B, Sidebottom PJ, Rudd BA, Hayes MA, Smith CP, Micklefield J.#2002#Structure, biosynthetic origin, and engineered biosynthesis of calcium-dependent antibiotics from Streptomyces coelicolor.#Chem Biol.#9#1175-1187#;10.1016/S1074-5521(02)00252-1
+CDAS15;;Hojati Z, Milne C, Harvey B, Gordon L, Borg M, Flett F, Wilkinson B, Sidebottom PJ, Rudd BA, Hayes MA, Smith CP, Micklefield J.#2002#Structure, biosynthetic origin, and engineered biosynthesis of calcium-dependent antibiotics from Streptomyces coelicolor.#Chem Biol.#9#1175-1187#;10.1016/S1074-5521(02)00252-1
+CDAS16;;Hojati Z, Milne C, Harvey B, Gordon L, Borg M, Flett F, Wilkinson B, Sidebottom PJ, Rudd BA, Hayes MA, Smith CP, Micklefield J.#2002#Structure, biosynthetic origin, and engineered biosynthesis of calcium-dependent antibiotics from Streptomyces coelicolor.#Chem Biol.#9#1175-1187#;10.1016/S1074-5521(02)00252-1
+CDAS17;;Hojati Z, Milne C, Harvey B, Gordon L, Borg M, Flett F, Wilkinson B, Sidebottom PJ, Rudd BA, Hayes MA, Smith CP, Micklefield J.#2002#Structure, biosynthetic origin, and engineered biosynthesis of calcium-dependent antibiotics from Streptomyces coelicolor.#Chem Biol.#9#1175-1187#;10.1016/S1074-5521(02)00252-1
+CDAS18;;Hojati Z, Milne C, Harvey B, Gordon L, Borg M, Flett F, Wilkinson B, Sidebottom PJ, Rudd BA, Hayes MA, Smith CP, Micklefield J.#2002#Structure, biosynthetic origin, and engineered biosynthesis of calcium-dependent antibiotics from Streptomyces coelicolor.#Chem Biol.#9#1175-1187#;10.1016/S1074-5521(02)00252-1
+CDAS19;;Hojati Z, Milne C, Harvey B, Gordon L, Borg M, Flett F, Wilkinson B, Sidebottom PJ, Rudd BA, Hayes MA, Smith CP, Micklefield J.#2002#Structure, biosynthetic origin, and engineered biosynthesis of calcium-dependent antibiotics from Streptomyces coelicolor.#Chem Biol.#9#1175-1187#;10.1016/S1074-5521(02)00252-1
+CDAS2;;;
+CDAS3;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+CDAS4;Required to produce calcium-dependent antibiotics;;
+CDAS5x;;;
+CDAS5y;;;
+CDAS6;;Lewis RA, Nunns L, Thirlway J, Carroll K, Smith CP, Micklefield J.#2011#Active site modification of the β-ketoacyl-ACP synthase FabF3 of Streptomyces coelicolor affects the fatty acid chain length of the CDA lipopeptides.#Chem Commun (Camb).#47#1860-1862#;10.1039/c0cc03444d
+CDAS7;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+CDAS8;Required to produce calcium-dependent antibiotics;;
+CDAS9x;;;
+CDAS9y;;;
+CDP4DGNOx;;;
+CDP4DGNOy;;;
+CDPMEK;;;
+CEPSPORDA;;;
+CHIRAISO;;;
+CHO43OR;;;
+CHOLD;;;
+CHOLD2;;;
+CHOLOX;;;
+CHORDH;;;
+CHORM;;;
+CHORS;;;
+CIGAMS;;Park JH, Cha CJ, Roe JH.#2006#Identification of genes for mycothiol biosynthesis in Streptomyces coelicolor A3(2).#J Microbiol.#44#121-125;PMID: 16554727
+CINNCOAL;;;
+CINNDOX;;;
+CITCIa2;;;
+CITCIb;;;
+CITL;;;
+CITMS;;;
+CLADHAL;;;
+CLPNS12;;;
+CLPNS14;;;
+CLPNS141;;;
+CLPNS15;;;
+CLPNS16;;;
+CLPNS161;;;
+CLPNS17;;;
+CLPNS18;;;
+CLPNS181;;;
+CLPNSII12;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+CLPNSII14;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+CLPNSII141;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+CLPNSII15;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+CLPNSII16;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+CLPNSII161;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+CLPNSII17;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+CLPNSII18;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+CLPNSII181;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+CLPNSIIai15;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+CLPNSIIai17;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+CLPNSIIi14;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+CLPNSIIi15;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+CLPNSIIi16;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+CLPNSIIi17;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+CLPNSIIi18;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+CLPNSai15;;;
+CLPNSai17;;;
+CLPNSi14;;;
+CLPNSi15;;;
+CLPNSi16;;;
+CLPNSi17;;;
+CLPNSi18;;;
+CMCMSAD;;;
+CMLDC;;;
+CMPA;;;
+COBP3DH;;;
+COCHL;Aerobic adenosylcobalamin biosynthetic pathway;Borovok I, Gorovitz B, Yanku M, Schreiber R, Gust B, Chater K, Aharonowitz Y, Cohen G.#2004#Alternative oxygen-dependent and oxygen-independent ribonucleotide reductases in Streptomyces: cross-regulation and physiological role in response to oxygen limitation.#Mol Microbiol.#54#1022-1035#;10.1111/j.1365-2958.2004.04325.x
+CODSCL5BMT;;;
+CODSCL5DA;;;
+COELICHELINR1;Iron uptake using coelichelin system;;
+COELICHELINR2;Iron uptake using coelichelin system;;
+COELICHELINR3;Iron uptake using coelichelin system;;
+COELICHELINexs;Iron uptake using coelichelin system, spontaneous reaction;;
+COSPERDH;;;
+CPC2MT;Anaerobic adenosylcobalamin biosynthetic pathway (incomplete);;
+CPC3MT;Anaerobic adenosylcobalamin biosynthetic pathway (incomplete);;
+CPC6R;Anaerobic adenosylcobalamin biosynthetic pathway (incomplete);;
+CPC8MM;Anaerobic adenosylcobalamin biosynthetic pathway (incomplete);;
+CPKS1;;;
+CPKS2;;;
+CPKS3;;;
+CPKS4a;;;
+CPKS4b;;;
+CPKS5;;;
+CPMPS;;Fischer M, Alderson J, van Keulen G, White J, Sawers RG.#2010#The obligate aerobe Streptomyces coelicolor A3(2) synthesizes three active respiratory nitrate reductases.#Microbiology.#156#3166-3179#;10.1099/mic.0.042572-0
+CPPPGO2;;;
+CREATA;;;
+CREATDA;;;
+CS;;Viollier PH, Minas W, Dale GE, Folcher M, Thompson CJ.#2001#Role of acid metabolism in Streptomyces coelicolor morphological differentiation and antibiotic biosynthesis.#J Bacteriol.#183#3184-3192#;10.1128/JB.183.10.3184-3192.2001
+CSND;;;
+CSPMDDH;;;
+CTECOAI6;;;
+CTECOAI7;;;
+CTECOAI8;;;
+CTPGNAC;;;
+CTPS1;;;
+CTPS2;;;
+CU1O;;;
+CUMALDH;;;
+CYANST;;;
+CYC1CCDH;;;
+CYCHEXDH;;;
+CYCHEXMO;;;
+CYCHEX_2;;;
+CYCOADH;;;
+CYO1ab;;;
+CYO2b;;Corynebacterium glutamicum#Niebisch A, Bott M.#2001#Molecular analysis of the cytochrome bc1-aa3 branch of the Corynebacterium glutamicum respiratory chain containing an unusual diheme cytochrome c1.#Arch Microbiol.#175#282-294#;10.1007/s002030100262
+CYRDAAT;;;
+CYRDAR;Required for growth (adenosylcobalamin biosynthesis);;
+CYRDAS;Anaerobic adenosylcobalamin biosynthetic pathway (incomplete);;
+CYSBLY;;;
+CYSDS;;;
+CYSS;;;
+CYSTGL;;;
+CYSTL;;;
+CYSTRS;;;
+CYSTS;;;
+CYT5MONP;;;
+CYTD;;;
+CYTDH;;;
+CYTDK1;;;
+CYTDK2;;;
+CYTK1;;;
+CYTK2;;;
+D4DGCD;;;
+D5KGK;;;
+D5KGPA;;;
+D5KGPA2;;;
+DABAACT;;;
+DABAAT;;;
+DACGKIN;;;
+DADA;;Pornbanlualap S, Chalopagorn P.#2011#Adenosine deaminase from Streptomyces coelicolor: recombinant expression, purification and characterization.#Protein Expr Purif.#78#167-173#;10.1016/j.pep.2011.04.003
+DADK;;;
+DAPAT;Required for growth using L-lysine as a carbon source;;
+DAPDC;;;
+DAPE;;;
+DARGO;;;
+DASYN12;;;
+DASYN14;;;
+DASYN141;;;
+DASYN15;;;
+DASYN16;;;
+DASYN161;;;
+DASYN17;;;
+DASYN18;;;
+DASYN181;;;
+DASYNai15;;;
+DASYNai17;;;
+DASYNi14;;;
+DASYNi15;;;
+DASYNi16;;;
+DASYNi17;;;
+DASYNi18;;;
+DATPHs;Spontaneous reaction;;
+DB4PS;;Spoonamore JE, Dahlgran AL, Jacobsen NE, Bandarian V.#2006#Evolution of new function in the GTP cyclohydrolase II proteins of Streptomyces coelicolor.#Biochemistry.#45#12144-12155#;10.1021/bi061005x
+DBTS;;;
+DCH;;;
+DCPEPFU;;;
+DCTPD;;;
+DCTPD2;;;
+DCYCHEX;;;
+DCYTD;;;
+DDALLO;;;
+DDGALK;;;
+DDGLK;;;
+DDPA;;;
+DDPGA;;;
+DGALACYC;;;
+DGC2D;;;
+DGI;;;
+DGK1;;;
+DGLUC4KR;;;
+DGLUCMT;;;
+DGLUCYC;;;
+DGLYHRED;;;
+DHACOAH;;Escherichia coli and Pseudomonas putida#Teufel R, Mascaraque V, Ismail W, Voss M, Perera J, Eisenreich W, Haehnel W, Fuchs G.#2010#Bacterial phenylalanine and phenylacetate catabolic pathway revealed.#Proc Natl Acad Sci U S A.#107#107-132#;10.1073/pnas.1005399107
+DHAD1;;;
+DHAD2;;;
+DHAK;;;
+DHAPT;;;
+DHBD;;;
+DHBS;;;
+DHDPRy;;;
+DHDPS;;;
+DHFR;Required for growth (tetrahydrofolate biosynthesis);;
+DHFS;;;
+DHICONF;;;
+DHNAI;Required for growth (menaquinone biosynthesis);;
+DHNANT4;Required for growth (menaquinone biosynthesis);;
+DHNAOT9;;;
+DHNAS;;Hiratsuka T, Furihata K, Ishikawa J, Yamashita H, Itoh N, Seto H, Dairi T.#2008#An alternative menaquinone biosynthetic pathway operating in microorganisms.#Science.#321#1670-1673#;10.1126/science.1160446
+DHNPA2r;;;
+DHNPTE;;;
+DHORD4;;;
+DHORD5;;;
+DHORTS;;;
+DHPD;;;
+DHPPDA2;;;
+DHPS;;;
+DHPS2;;;
+DHQS;;;
+DHQTi;;White PJ, Young J, Hunter IS, Nimmo HG, Coggins JR.#1990#The purification and characterization of 3-dehydroquinase from Streptomyces coelicolor.#Biochem J.#265#735-738#;10.1042/bj2650735
+DHYDTHYM;;;
+DIFRNLY;;;
+DIOP5OR;;;
+DMATT;;;
+DMBZIDS;Required for growth (adenosylcobalamin biosynthesis);;
+DMETMO;;;
+DMPPS;;;
+DMT;;;
+DNADDP;;;
+DNMPPA;;;
+DNTPPA_1;;;
+DORNO;;;
+DPCOAK;;;
+DPCOX;;;
+DPMSYN;;;
+DPR;;;
+DPROLORED;;;
+DRBK;;;
+DRIB2FUR;;;
+DRIBPA;;;
+DRPA;;;
+DTARTD;;;
+DTDP26DGR;;;
+DTDPG4E;;;
+DTMPK;Required for growth (dTTP biosynthesis);;
+DURIK1;;;
+DURIPP;;;
+DUTPDP;;;
+DX5PGLYCPL;;;
+DXFUTOR;;;
+DXPRIi;;;
+DXPS;;;
+DXYLDH;;;
+DXYLK;;;
+E4PD;;;
+EAR100x;;;
+EAR100y;;;
+EAR110x;;;
+EAR110y;;;
+EAR120x;;;
+EAR120y;;;
+EAR121x;;;
+EAR121y;;;
+EAR130x;;;
+EAR130y;;;
+EAR140x;;;
+EAR140y;;;
+EAR141x;;;
+EAR141y;;;
+EAR150x;;;
+EAR150y;;;
+EAR160x;;;
+EAR160y;;;
+EAR161x;;;
+EAR161y;;;
+EAR170x;;;
+EAR170y;;;
+EAR180x;;;
+EAR180y;;;
+EAR181x;;;
+EAR181y;;;
+EAR40x;;;
+EAR40y;;;
+EAR50x;;;
+EAR50y;;;
+EAR60x;;;
+EAR60y;;;
+EAR70x;;;
+EAR70y;;;
+EAR80x;;;
+EAR80y;;;
+EAR90x;;;
+EAR90y;;;
+EARai110x;;;
+EARai110y;;;
+EARai130x;;;
+EARai130y;;;
+EARai150x;;;
+EARai150y;;;
+EARai170x;;;
+EARai170y;;;
+EARai70x;;;
+EARai70y;;;
+EARai90x;;;
+EARai90y;;;
+EARi100x;;;
+EARi100y;;;
+EARi110x;;;
+EARi110y;;;
+EARi120x;;;
+EARi120y;;;
+EARi130x;;;
+EARi130y;;;
+EARi140x;;;
+EARi140y;;;
+EARi150x;;;
+EARi150y;;;
+EARi160x;;;
+EARi160y;;;
+EARi170x;;;
+EARi170y;;;
+EARi180x;;;
+EARi180y;;;
+EARi60x;;;
+EARi60y;;;
+EARi70x;;;
+EARi70y;;;
+EARi80x;;;
+EARi80y;;;
+EARi90x;;;
+EARi90y;;;
+ECOAH1;;;
+ECOAH12;;;
+ECOAH2;;;
+ECOAH3;;;
+ECOAH4;;;
+ECOAH5;;;
+ECOAH6;;;
+ECOAH7;;;
+ECOAH8;;;
+ECOAH9ir;;;
+ECTH;;;
+ECTS;;;
+EDA;;;
+EGMEACPR;;;
+EHGLAT;;;
+EIZOO;;;
+EMCCCM;;;
+EME;;;
+EN6LNOR;;;
+ENO;;;
+EPIZSYN;;;
+EPMEACPR;;;
+EPMGH;;;
+ERTHMMOR;;;
+ETHAAL;Required for growth using ethanolamine as a carbon source;;
+FACOAE10;;;
+FACOAE12;;;
+FACOAE14;;;
+FACOAE141;;;
+FACOAE16;;;
+FACOAE161;;;
+FACOAE18;;;
+FACOAE181;;;
+FACOAE6;;;
+FACOAE8;;;
+FACOAL10;;Banchio C, Gramajo H.#2002#A stationary-phase acyl-coenzyme A synthetase of Streptomyces coelicolor A3(2) is necessary for the normal onset of antibiotic production.#Appl Environ Microbiol.#68#4240-4246#;10.1128/AEM.68.9.4240-4246.2002
+FACOAL12;;Banchio C, Gramajo H.#2002#A stationary-phase acyl-coenzyme A synthetase of Streptomyces coelicolor A3(2) is necessary for the normal onset of antibiotic production.#Appl Environ Microbiol.#68#4240-4246#;10.1128/AEM.68.9.4240-4246.2002
+FACOAL14;;Banchio C, Gramajo H.#2002#A stationary-phase acyl-coenzyme A synthetase of Streptomyces coelicolor A3(2) is necessary for the normal onset of antibiotic production.#Appl Environ Microbiol.#68#4240-4246#;10.1128/AEM.68.9.4240-4246.2002
+FACOAL141;;Banchio C, Gramajo H.#2002#A stationary-phase acyl-coenzyme A synthetase of Streptomyces coelicolor A3(2) is necessary for the normal onset of antibiotic production.#Appl Environ Microbiol.#68#4240-4246#;10.1128/AEM.68.9.4240-4246.2002
+FACOAL16;;Banchio C, Gramajo H.#2002#A stationary-phase acyl-coenzyme A synthetase of Streptomyces coelicolor A3(2) is necessary for the normal onset of antibiotic production.#Appl Environ Microbiol.#68#4240-4246#;10.1128/AEM.68.9.4240-4246.2002
+FACOAL161;;Banchio C, Gramajo H.#2002#A stationary-phase acyl-coenzyme A synthetase of Streptomyces coelicolor A3(2) is necessary for the normal onset of antibiotic production.#Appl Environ Microbiol.#68#4240-4246#;10.1128/AEM.68.9.4240-4246.2002
+FACOAL18;;Banchio C, Gramajo H.#2002#A stationary-phase acyl-coenzyme A synthetase of Streptomyces coelicolor A3(2) is necessary for the normal onset of antibiotic production.#Appl Environ Microbiol.#68#4240-4246#;10.1128/AEM.68.9.4240-4246.2002
+FACOAL181;;Banchio C, Gramajo H.#2002#A stationary-phase acyl-coenzyme A synthetase of Streptomyces coelicolor A3(2) is necessary for the normal onset of antibiotic production.#Appl Environ Microbiol.#68#4240-4246#;10.1128/AEM.68.9.4240-4246.2002
+FACOAL6;;Banchio C, Gramajo H.#2002#A stationary-phase acyl-coenzyme A synthetase of Streptomyces coelicolor A3(2) is necessary for the normal onset of antibiotic production.#Appl Environ Microbiol.#68#4240-4246#;10.1128/AEM.68.9.4240-4246.2002
+FACOAL8;;Banchio C, Gramajo H.#2002#A stationary-phase acyl-coenzyme A synthetase of Streptomyces coelicolor A3(2) is necessary for the normal onset of antibiotic production.#Appl Environ Microbiol.#68#4240-4246#;10.1128/AEM.68.9.4240-4246.2002
+FADRx2;;;
+FALDH2;;;
+FALDH3;;;
+FALGTHLs;;;
+FANH;;Zummo FP, Marineo S, Pace A, Civiletti F, Giardina A, Puglia AM.#2012#Tryptophan catabolism via kynurenine production in Streptomyces coelicolor: identification of three genes coding for the enzymes of tryptophan to anthranilate pathway.#Appl Microbiol Biotechnol.#94#719-728#;10.1007/s00253-011-3833-y
+FARNDPPS;;;
+FBA;;;
+FBA2;;;
+FBA3;;;
+FBA4;;;
+FBA_1;;;
+FBP;;;
+FCLPA;;;
+FCLT;;;
+FDH;;;
+FE3Ri;To reduce intracellular Fe(III);;
+FENTON;;;
+FEOXAMBR1;Iron uptake using desferrioxamine B system;;
+FEOXAMBR2;Iron uptake using desferrioxamine B system;;
+FEOXAMBR3;Iron uptake using desferrioxamine B system;;
+FEOXAMBexs;Iron uptake using desferrioxamine B system, spontaneous reaction;;
+FEOXAMER1;Iron uptake using desferrioxamine E system;;
+FEOXAMER2;Iron uptake using desferrioxamine E system;;
+FEOXAMER3;Iron uptake using desferrioxamine E system;;
+FEOXAMEexs;Iron uptake using desferrioxamine E system, spontaneous reaction;;
+FERO;;;
+FEROXCYC;;;
+FEROXG1S;;;
+FESD1s;Spontaneous reaction;;
+FESD2s;Spontaneous reaction;;
+FESR;To impose oxdative stress condition, paired with iron-sulfur cluster damage rxns;;
+FGLU;Required for growth using L-histidine as a carbon source;;
+FHL;;;
+FKYNH;;Zummo FP, Marineo S, Pace A, Civiletti F, Giardina A, Puglia AM.#2012#Tryptophan catabolism via kynurenine production in Streptomyces coelicolor: identification of three genes coding for the enzymes of tryptophan to anthranilate pathway.#Appl Microbiol Biotechnol.#94#719-728#;10.1007/s00253-011-3833-y
+FLAVMO;;;
+FLVR;;;
+FMETTRS;;;
+FMNAT;;;
+FMNRx;;;
+FMNRx2;;;
+FNOR;;;
+FORAMD;Required for growth using L-histidine as a carbon source;;
+FORCT;;;
+FORGLUIH;;;
+FORHOPS;;;
+FRD3;;;
+FRD8;;;
+FRNDIT;;;
+FRTT;;;
+FRU6PE4P;;;
+FRUISOs;;;
+FRUK;;;
+FTHFCL_1;;;
+FTHFD;;;
+FUM;;;
+FUMAC;;;
+FUMAH;;;
+FUTH;;;
+G1Dx;;;
+G1PACT;;;
+G1PCTYT;;;
+G1PTT;;;
+G1SAT;;;
+G3PCT;Required for growth (teichoic acid biosynthesis);;
+G3PD;;;
+G3PD2;;;
+G3PD5;;;
+G3PD6;;;
+G3PD7;;;
+G5SADs;Spontaneous reaction;;
+G5SAT;;;
+G5SD;;;
+G6PBDH;;;
+G6PDA;;Świątek MA, Tenconi E, Rigali S, van Wezel GP.#2012#Functional analysis of the N-acetylglucosamine metabolic genes of Streptomyces coelicolor and role in control of development and antibiotic production.#J Bacteriol.#194#1136-1144#;10.1128/JB.06370-11
+G6PDH1b;;;
+G6PDH2r;;;
+G6PI;;;
+GABTA;;;
+GADECARB;;;
+GAL6PI;;;
+GALACDH;;;
+GALCTD;;;
+GALCTND;;;
+GALIGH;;;
+GALKr;;;
+GALM1;;;
+GALM2;;;
+GALOO;;;
+GALS3;;;
+GALT;;;
+GALURDH;;;
+GALUi;;;
+GAPD;;;
+GARFT;;;
+GCALDD;;;
+GCCc;;;
+GCGBGE;;;
+GCGUAIDH;;;
+GCL;;;
+GDCARBM;;;
+GDP64HRD;;;
+GDPDPK;;Ryu YG, Kim ES, Kim DW, Kim SK, Lee KJ.#2007#Differential stringent responses of Streptomyces coelicolor M600 to starvation of specific nutrients.#J Microbiol Biotechnol.#17#305-312#;PMID: 18051762
+GDPMANDH;;;
+GDPMNP;;;
+GDPTPDP;;Ryu YG, Kim ES, Kim DW, Kim SK, Lee KJ.#2007#Differential stringent responses of Streptomyces coelicolor M600 to starvation of specific nutrients.#J Microbiol Biotechnol.#17#305-312#;PMID: 18051762
+GEOSMS;;;
+GERDH;;;
+GERDPM;;;
+GERISOs;;;
+GERMA;;Chemler JA, Buchholz TJ, Geders TW, Akey DL, Rath CM, Chlipala GE, Smith JL, Sherman DH.#2012#Biochemical and structural characterization of germicidin synthase: analysis of a type III polyketide synthase that employs acyl-ACP as a starter unit donor.#J Am Chem Soc.#134#7359-7366#;10.1021/ja2112228
+GERMB;;Chemler JA, Buchholz TJ, Geders TW, Akey DL, Rath CM, Chlipala GE, Smith JL, Sherman DH.#2012#Biochemical and structural characterization of germicidin synthase: analysis of a type III polyketide synthase that employs acyl-ACP as a starter unit donor.#J Am Chem Soc.#134#7359-7366#;10.1021/ja2112228
+GERMC;;Chemler JA, Buchholz TJ, Geders TW, Akey DL, Rath CM, Chlipala GE, Smith JL, Sherman DH.#2012#Biochemical and structural characterization of germicidin synthase: analysis of a type III polyketide synthase that employs acyl-ACP as a starter unit donor.#J Am Chem Soc.#134#7359-7366#;10.1021/ja2112228
+GERMD;;Chemler JA, Buchholz TJ, Geders TW, Akey DL, Rath CM, Chlipala GE, Smith JL, Sherman DH.#2012#Biochemical and structural characterization of germicidin synthase: analysis of a type III polyketide synthase that employs acyl-ACP as a starter unit donor.#J Am Chem Soc.#134#7359-7366#;10.1021/ja2112228
+GF4GL_;;;
+GF4GL_1;;;
+GF6PTA;;;
+GGGABADH;;;
+GGHCSH;;;
+GGLACOX;;;
+GGLGH;;;
+GGLUPUT;;;
+GGTT;;;
+GHBDHy;;;
+GHMT2r;;;
+GK1i;;;
+GK2i;;;
+GLBRAN2;;Bruton CJ, Plaskitt KA, Chater KF.#1995#Tissue-specific glycogen branching isoenzymes in a multicellular prokaryote, Streptomyces coelicolor A3(2).#Mol Microbiol.#18#89-99#;10.1111/j.1365-2958.1995.mmi_18010089.x
+GLC15LACH;;;
+GLCATr;;;
+GLCOAS;Required for growth using L-lysine as a carbon source;;
+GLCP;;;
+GLCP2;;;
+GLCRAL;Required for growth using glucarate as a carbon source;;
+GLCRD;;;
+GLCRD2;;;
+GLCS1;;;
+GLDBRAN2;;;
+GLGC;;Martin MC, Schneider D, Bruton CJ, Chater KF, Hardisson C.#1997#A glgC gene essential only for the first of two spatially distinct phases of glycogen synthesis in Streptomyces coelicolor A3(2).#J Bacteriol.#179#7784-7789#;10.1128/jb.179.24.7784-7789.1997
+GLNLASE;;;
+GLNS;;Rexer HU, Schäberle T, Wohlleben W, Engels A.#2006#Investigation of the functional properties and regulation of three glutamine synthetase-like genes in Streptomyces coelicolor A3(2).#Arch Microbiol.#186#447-458#;10.1007/s00203-006-0159-8
+GLNTRS;tRNA system;;
+GLU5K;;;
+GLUAAT;;;
+GLUCORDH;;;
+GLUDC;;;
+GLUDxi;;;
+GLUDyi;;;
+GLUKB;;;
+GLULACIs;;;
+GLUN;;;
+GLUPRT;;;
+GLUR;;;
+GLUSAD;;;
+GLUSx;;;
+GLUSy;;;
+GLUTCOADHc;;;
+GLUTPAT;;;
+GLUTRR;;;
+GLUTRS;;;
+GLXCL;;;
+GLYALDDr;;;
+GLYAT;;;
+GLYCDx;;;
+GLYCK;;;
+GLYCK2;;;
+GLYCL;;;
+GLYCTD;;;
+GLYCTO1;;;
+GLYCTO2;;;
+GLYCTO3;;;
+GLYCTO4;;;
+GLYDHD;;;
+GLYK;;;
+GLYO1;;;
+GLYOX;;;
+GLYTRS;;;
+GMAND;;;
+GMGGDCAP;;;
+GMHEPAT;;;
+GMPS;;;
+GMPS2;;;
+GND;Unknown cofactor specificity;;
+GND2;Unknown cofactor specificity;;
+GNK;;;
+GNNUC;;;
+GPDDA1;;;
+GPDDA1e;;;
+GPDDA2;;;
+GPDDA2e;;;
+GPDDA3;;;
+GPDDA3e;;;
+GPDDA4;;;
+GPDDA4e;;;
+GPDDA5;;;
+GPDDA5e;;;
+GRMCRDS;;;
+GRMCROS;;;
+GRTT;;;
+GSMNSYN;;;
+GTHPi;;;
+GTHRDH;;;
+GTPCI;;;
+GTPCII2;;Spoonamore JE, Dahlgran AL, Jacobsen NE, Bandarian V.#2006#Evolution of new function in the GTP cyclohydrolase II proteins of Streptomyces coelicolor.#Biochemistry.#45#12144-12155#;10.1021/bi061005x
+GTPCIII2;;Spoonamore JE, Dahlgran AL, Jacobsen NE, Bandarian V.#2006#Evolution of new function in the GTP cyclohydrolase II proteins of Streptomyces coelicolor.#Biochemistry.#45#12144-12155#;10.1021/bi061005x
+GTPDPDP;;;
+GTPDPK;;Ryu YG, Kim ES, Kim DW, Kim SK, Lee KJ.#2007#Differential stringent responses of Streptomyces coelicolor M600 to starvation of specific nutrients.#J Microbiol Biotechnol.#17#305-312#;PMID: 18051762
+GTPHs;Spontaneous reaction;;
+GUACYC;;Süsstrunk U, Pidoux J, Taubert S, Ullmann A, Thompson CJ.#1998#Pleiotropic effects of cAMP on germination, antibiotic biosynthesis and morphological development in Streptomyces coelicolor.#Mol Microbiol.#30#33-46#;10.1046/j.1365-2958.1998.01033.x
+GUAPRT;;;
+GUDBUTNAH;;;
+GUL14LACDH;;;
+GUL5DH;;;
+H2SO;Spontaneous reaction;;
+HACD1;;;
+HACD2;;;
+HACD3;;;
+HACD4;;;
+HACD5;;;
+HACD6;;;
+HACD7;;;
+HACD8;;;
+HACD9;;;
+HADPCOADH3;;Escherichia coli and Pseudomonas putida#Teufel R, Mascaraque V, Ismail W, Voss M, Perera J, Eisenreich W, Haehnel W, Fuchs G.#2010#Bacterial phenylalanine and phenylacetate catabolic pathway revealed.#Proc Natl Acad Sci U S A.#107#107-132#;10.1073/pnas.1005399107
+HBADAS;Aerobic adenosylcobalamin biosynthetic pathway, BiGG database reaction name : R05224;;
+HBCOA3E;;;
+HBCO_nadp;;;
+HBZOPT;;;
+HCO3E;;;
+HCSUCT;;;
+HCYSMT;;;
+HDXSQLS;;;
+HEMEAS;;;
+HEMEOS;;;
+HEP7PHOK;;;
+HEPTT;;;
+HERCOX;;;
+HEX1;;Mahr,K., G.P.van Wezel, C.Svensson, U.Krengel, M.J.Bibb, and F.Titgemeyer.#2000#Glucose kinase of Streptomyces coelicolor A3(2): large-scale purification and biochemical analysis#Antonie Van Leeuwenhoek#78#253-261##Imriskova I, Arreguín-Espinosa R, Guzmán S, Rodriguez-Sanoja R, Langley E, Sanchez S.#2005#Biochemical characterization of the glucose kinase from Streptomyces coelicolor compared to Streptomyces peucetius var. caesius.#Res. Microbiol.#156#361-366#;10.1023/A:1010234916745, 10.1016/j.resmic.2004.11.001
+HEX4;Required for growth using D-mannose as a carbon source;;
+HEX7;;;
+HEXHYD;;;
+HEXTT;;;
+HGNTOR;;;
+HIBD;;;
+HISNH4L;;;
+HISTD;;Limauro D, Avitabile A, Puglia AM, Bruni CB.#1992#Further characterization of the histidine gene cluster of Streptomyces coelicolor A3(2): nucleotide sequence and transcriptional analysis of hisD.#Res Microbiol.#143#683-693#;10.1016/0923-2508(92)90063-T
+HISTDa;;;
+HISTDb;;;
+HISTP;;;
+HISTRS;;;
+HKYNH;;Zummo FP, Marineo S, Pace A, Civiletti F, Giardina A, Puglia AM.#2012#Tryptophan catabolism via kynurenine production in Streptomyces coelicolor: identification of three genes coding for the enzymes of tryptophan to anthranilate pathway.#Appl Microbiol Biotechnol.#94#719-728#;10.1007/s00253-011-3833-y
+HMBS;;;
+HMGL;;;
+HMMSHALDs;;;
+HMPK1;;;
+HMPK2;;;
+HMPK3;;;
+HMPK4;;;
+HMSD;;;
+HOPNTAL3;;;
+HOXPR2;;;
+HPCOR;;;
+HPHL;;;
+HPPK2;;;
+HPROb;;Barona-Gómez F, Hodgson DA.#2010#Multicopy proC in Streptomyces coelicolor A3(2) elicits a transient production of prodiginines, while proC deletion does not yield a proline auxotroph.#J Mol Microbiol Biotechnol.#19#152-158#;10.1159/000321502
+HPYRI;;;
+HPYRRx;;;
+HPYRRy;;;
+HSDxi;;;
+HSDy;;;
+HSK;;;
+HSST;Required for growth (L-methionine biosynthesis);;
+HSTPT;;;
+HURH;;;
+HXAND;;;
+HXPRT;;;
+I3PYRMO;;;
+IACGAMS2;;Park JH, Cha CJ, Roe JH.#2006#Identification of genes for mycothiol biosynthesis in Streptomyces coelicolor A3(2).#J Microbiol.#44#121-125;PMID: 16554727
+IBCOAQ9R;;;
+IBCOATA;;Singh R, Mo S, Florova G, Reynolds KA.#2012#Streptomyces coelicolor RedP and FabH enzymes, initiating undecylprodiginine and fatty acid biosynthesis, exhibit distinct acyl-CoA and malonyl-acyl carrier protein substrate specificities.#FEMS Microbiol Lett.#328#32-38#;10.1111/j.1574-6968.2011.02474.x
+IBTMr;;;
+ICDHyr;;Streptomyces lividans#Zhang B, Wang B, Wang P, Cao Z, Huang E, Hao J, Dean AM, Zhu G.#2009#Enzymatic characterization of a monomeric isocitrate dehydrogenase from Streptomyces lividans TK54.#Biochimie.#91#1405-1410#;10.1016/j.biochi.2009.07.011
+ICHORS;;;
+ICL;;;
+ICYSDS;;den Hengst CD, Buttner MJ.#2008#Redox control in actinobacteria.#Biochim Biophys Acta.#1780#1201-1216#;10.1016/j.bbagen.2008.01.008
+IDOND;;;
+IDOND2;;;
+IDPS2;;;
+IG3PS;;;
+IGAMD;;Park JH, Cha CJ, Roe JH.#2006#Identification of genes for mycothiol biosynthesis in Streptomyces coelicolor A3(2).#J Microbiol.#44#121-125;PMID: 16554727
+IGPDH;;Limauro D, Avitabile A, Cappellano C, Puglia AM, Bruni CB.#1990#Cloning and characterization of the histidine biosynthetic gene cluster of Streptomyces coelicolor A3(2).#Gene.#90#31-41#;10.1016/0378-1119(90)90436-U
+IGPS;;;
+ILEDHr;;;
+ILETA;;;
+ILETRS;;;
+IMPC;;;
+IMPD;;;
+INS2D;;;
+INSDH;;;
+INSH;;;
+IPAXYL;;;
+IPDDI;;;
+IPDPS;;;
+IPMD;;;
+IPPMIa;;;
+IPPMIb;;;
+IPPS;;;
+ITPOCL;;;
+IVCOATA;;Li Y, Florova G, Reynolds KA.#2005#Alteration of the fatty acid profile of Streptomyces coelicolor by replacement of the initiation enzyme 3-ketoacyl acyl carrier protein synthase III (FabH).#J Bacteriol.#187#3795-3799#;10.1128/JB.187.11.3795-3799.2005
+IZPN;;;
+KARA1;;;
+KARA1i;;;
+KARA2;;;
+KARI;;;
+KARI_23dhmb;;;
+KARI_23dhmp;;;
+KARI_3hmoa;;;
+KAS14;;;
+KAS15;;Singh R, Mo S, Florova G, Reynolds KA.#2012#Streptomyces coelicolor RedP and FabH enzymes, initiating undecylprodiginine and fatty acid biosynthesis, exhibit distinct acyl-CoA and malonyl-acyl carrier protein substrate specificities.#FEMS Microbiol Lett.#328#32-38#;10.1111/j.1574-6968.2011.02474.x
+KHK;;;
+KHK2;;;
+KYN;;Zummo FP, Marineo S, Pace A, Civiletti F, Giardina A, Puglia AM.#2012#Tryptophan catabolism via kynurenine production in Streptomyces coelicolor: identification of three genes coding for the enzymes of tryptophan to anthranilate pathway.#Appl Microbiol Biotechnol.#94#719-728#;10.1007/s00253-011-3833-y
+LACDHCYT;;;
+LACZ;;;
+LADGMDH;;;
+LALDD2;;;
+LAURAT;;;
+LCADi;;;
+LCYB;;;
+LCYG;;;
+LDH_D;;Hong,H.J., M.I.Hutchings, J.M.Neu, G.D.Wright, M.S.Paget, and M.J.Buttner.#2004#Characterization of an inducible vancomycin resistance system in Streptomyces coelicolor reveals a novel gene (vanK) required for drug resistance#Mol. Microbiol.#52#1107-1121#;10.1111/j.1365-2958.2004.04032.x
+LEUTA;;;
+LEUTRS;;;
+LFORKYNHYD;;Zummo FP, Marineo S, Pace A, Civiletti F, Giardina A, Puglia AM.#2012#Tryptophan catabolism via kynurenine production in Streptomyces coelicolor: identification of three genes coding for the enzymes of tryptophan to anthranilate pathway.#Appl Microbiol Biotechnol.#94#719-728#;10.1007/s00253-011-3833-y
+LGALACD;;;
+LHISTMT;;;
+LIPAMPL;;;
+LIPATPT;;;
+LIPOCT;;;
+LIPOS;;;
+LLEUDr;;;
+LLYXDH;;;
+LPFPLT;;;
+LPPGS;;;
+LTHRK;;;
+LYS6MO;;;
+LYSDC;;Streptomyces lividans#Madduri K, Stuttard C, Vining LC.#1989#Lysine catabolism in Streptomyces spp. is primarily through cadaverine: beta-lactam producers also make alpha-aminoadipate.#J Bacteriol.#171#299-302#;10.1128/jb.171.1.299-302.1989
+LYSTRS;;;
+LYXE;;;
+LYXI;;;
+LYXID;;;
+L_LACD4;;;
+MACACI;Required for growth using L-tyrosine as a carbon source;;
+MACCOAT;;;
+MACPAL;;;
+MACPD;;;
+MAHYD;;;
+MALACPMT;Required for growth (biotin biosynthesis);;
+MALCOAMT;;;
+MALEI;;;
+MALPYRISO;;;
+MALS;;Loke P, Goh LL, Seng Soh B, Yeow P, Sim TS.#2002#Purification and characterization of recombinant malate synthase enzymes from Streptomyces coelicolor A3(2) and S. clavuligerus NRRL3585.#J Ind Microbiol Biotechnol.#28#239-243#;10.1038/sj/jim/7000240
+MALT;;;
+MALTATr;;;
+MALTHIK;;;
+MAN1PPP;;;
+MAN1PT;;;
+MAN6PI;;Rajesh T, Song E, Kim JN, Lee BR, Kim EJ, Park SH, Kim YG, Yoo D, Park HY, Choi YH, Kim BG, Yang YH.#2012#Inactivation of phosphomannose isomerase gene abolishes sporulation and antibiotic production in Streptomyces coelicolor.#Appl Microbiol Biotechnol.#93#1685-1693#;10.1007/s00253-011-3581-z
+MANISOs;;;
+MBCOA2;;;
+MBCOA3;;;
+MBCOAi;;;
+MCCC;;;
+MCOALY;;;
+MCOATA;;Keatinge-Clay AT, Shelat AA, Savage DF, Tsai SC, Miercke LJ, O'Connell JD 3rd, Khosla C, Stroud RM.#2003#Catalysis, specificity, and ACP docking site of Streptomyces coelicolor malonyl-CoA:ACP transacylase.#Structure.#11#147-154##Revill WP, Bibb MJ, Hopwood DA.#1996#Relationships between fatty acid and polyketide synthases from Streptomyces coelicolor A3(2): characterization of the fatty acid synthase acyl carrier protein.#J Bacteriol.#178#5660-5667#;10.1016/S0969-2126(03)00004-2, 10.1128/jb.178.19.5660-5667.1996
+MCPST;;;
+MCPST2;;;
+MCSNAH;;;
+MCTP1A;;Bennett JA, Yarnall J, Cadwallader AB, Kuennen R, Bidey P, Stadelmaier B, McCormick JR.#2009#Medium-dependent phenotypes of Streptomyces coelicolor with mutations in ftsI or ftsW.#J Bacteriol.#191#661-664#;10.1128/JB.01048-08
+MCTP1B;;;
+MCTP2A;;Bennett JA, Yarnall J, Cadwallader AB, Kuennen R, Bidey P, Stadelmaier B, McCormick JR.#2009#Medium-dependent phenotypes of Streptomyces coelicolor with mutations in ftsI or ftsW.#J Bacteriol.#191#661-664#;10.1128/JB.01048-08
+MDDCP1;;;
+MDDCP2;;;
+MDDCP3;;;
+MDDCP4;;;
+MDDCP5;;;
+MDDEP1;;;
+MDDEP2;;;
+MDDEP3;;;
+MDDEP4;;;
+MDH;;Streptomyces avermitilis#Wang ZD, Wang BJ, Ge YD, Pan W, Wang J, Xu L, Liu AM, Zhu GP.#2011#Expression and identification of a thermostable malate dehydrogenase from multicellular prokaryote Streptomyces avermitilis MA-4680.#Mol Biol Rep.#38#1926-1936#;10.1007/s11033-010-0273-1
+ME1;;Rodriguez E, Navone L, Casati P, Gramajo H.#2012#Impact of malic enzymes on antibiotic and triacylglycerol production in Streptomyces coelicolor#Appl. Environ. Microbiol.#78#4571-4579#;10.1128/AEM.00838-12
+ME2;;Rodriguez E, Navone L, Casati P, Gramajo H.#2012#Impact of malic enzymes on antibiotic and triacylglycerol production in Streptomyces coelicolor#Appl. Environ. Microbiol.#78#4571-4579#;10.1128/AEM.00838-12
+MECDPDH2;;;
+MECDPDH5_2;;;
+MECDPS;;;
+MELTGH;;;
+MEPCT;;;
+METAT;;Okamoto S, Lezhava A, Hosaka T, Okamoto-Hosoya Y, Ochi K.#2003#Enhanced expression of S-adenosylmethionine synthetase causes overproduction of actinorhodin in Streptomyces coelicolor A3(2).#J Bacteriol.#185#601-609#;10.1128/JB.185.2.601-609.2003
+METB1;;;
+METOX1s;Spontaneous reaction;;
+METOX2s;Spontaneous reaction;;
+METS;;;
+METSOXR1;;;
+METSOXR2;;;
+METTRS;;;
+MGCH;Required for growth using L-leucine as a carbon source;;
+MGLYXOX;;;
+MGSDGS;;;
+MHPGLUT;;;
+MI1PP;;;
+MI1PS;;;
+MI1PS2;;;
+MI3PP;;;
+MLTG1;;;
+MLTG1e;;;
+MLTG2;;;
+MLTG2e;;;
+MLTG3;;;
+MLTG3e;;;
+MLTG4;;;
+MLTG4e;;;
+MLTG5;;;
+MLTG5e;;;
+MLTP1;;;
+MLTP2;;;
+MLTP3;;;
+MMCOAL;;;
+MME;;;
+MMM;;;
+MMSAD1;;;
+MMSAD3;;Zhang YX, Tang L, Hutchinson CR.#1996#Cloning and characterization of a gene (msdA) encoding methylmalonic acid semialdehyde dehydrogenase from Streptomyces coelicolor.#J Bacteriol.#178#490-495#;10.1128/jb.178.2.490-495.1996
+MMSAD5;;Zhang YX, Tang L, Hutchinson CR.#1996#Cloning and characterization of a gene (msdA) encoding methylmalonic acid semialdehyde dehydrogenase from Streptomyces coelicolor.#J Bacteriol.#178#490-495#;10.1128/jb.178.2.490-495.1996
+MMSYNA;;;
+MMSYNB;;;
+MMTSAO;;;
+MMYSYN1;;;
+MMYSYN2;;;
+MMYSYN3;;;
+MNLDH2;;;
+MNNH;;;
+MOADSUx;;;
+MOCOS;;;
+MOGDS;;;
+MOHMT;;;
+MPAHYD;;;
+MPL;;;
+MPML;;;
+MPTAT;;;
+MPTG;;;
+MPTG2;;;
+MPTS;;;
+MPTSS;;;
+MSHS;;Park JH, Cha CJ, Roe JH.#2006#Identification of genes for mycothiol biosynthesis in Streptomyces coelicolor A3(2).#J Microbiol.#44#121-125;PMID: 16554727
+MSUCOADH;;;
+MTAM_nh4;;;
+MTAN;;;
+MTAP;;;
+MTBUTEMO;;;
+MTFHSs;;;
+MTHFC;;;
+MTHFD;;;
+MTHFR2;;;
+MTHFR3_1;;;
+MTI;;;
+MTRI;;;
+MUCCY;;;
+MYCARSL;;;
+MYCFORM;;;
+MYCTR;To reduce oxidized mycothiol;;
+NAACPHYD;;;
+NABTNO;;;
+NADDP;;;
+NADH10b;;;
+NADH2r;;;
+NADH9;;;
+NADHXDH;;;
+NADHXE;;;
+NADHXSs__R;;;
+NADHXSs__S;;;
+NADK;;;
+NADPHQR4;;;
+NADPHXD;;;
+NADPHXE;;;
+NADS1;;;
+NADS2;;;
+NADTRHD;;;
+NAMNPP;;;
+NCTPPRT;;;
+NDPK1;;Brodbeck M, Rohling A, Wohlleben W, Thompson CJ, Süsstrunk U.#1996#Nucleoside-diphosphate kinase from Streptomyces coelicolor.#Eur J Biochem.#239#208-213#;10.1111/j.1432-1033.1996.0208u.x
+NDPK2;;Brodbeck M, Rohling A, Wohlleben W, Thompson CJ, Süsstrunk U.#1996#Nucleoside-diphosphate kinase from Streptomyces coelicolor.#Eur J Biochem.#239#208-213#;10.1111/j.1432-1033.1996.0208u.x
+NDPK3;;Brodbeck M, Rohling A, Wohlleben W, Thompson CJ, Süsstrunk U.#1996#Nucleoside-diphosphate kinase from Streptomyces coelicolor.#Eur J Biochem.#239#208-213#;10.1111/j.1432-1033.1996.0208u.x
+NDPK4;;Brodbeck M, Rohling A, Wohlleben W, Thompson CJ, Süsstrunk U.#1996#Nucleoside-diphosphate kinase from Streptomyces coelicolor.#Eur J Biochem.#239#208-213#;10.1111/j.1432-1033.1996.0208u.x
+NDPK5;;Brodbeck M, Rohling A, Wohlleben W, Thompson CJ, Süsstrunk U.#1996#Nucleoside-diphosphate kinase from Streptomyces coelicolor.#Eur J Biochem.#239#208-213#;10.1111/j.1432-1033.1996.0208u.x
+NDPK6;;Brodbeck M, Rohling A, Wohlleben W, Thompson CJ, Süsstrunk U.#1996#Nucleoside-diphosphate kinase from Streptomyces coelicolor.#Eur J Biochem.#239#208-213#;10.1111/j.1432-1033.1996.0208u.x
+NDPK7;;Brodbeck M, Rohling A, Wohlleben W, Thompson CJ, Süsstrunk U.#1996#Nucleoside-diphosphate kinase from Streptomyces coelicolor.#Eur J Biochem.#239#208-213#;10.1111/j.1432-1033.1996.0208u.x
+NDPK8;;Brodbeck M, Rohling A, Wohlleben W, Thompson CJ, Süsstrunk U.#1996#Nucleoside-diphosphate kinase from Streptomyces coelicolor.#Eur J Biochem.#239#208-213#;10.1111/j.1432-1033.1996.0208u.x
+NDPK9;;Brodbeck M, Rohling A, Wohlleben W, Thompson CJ, Süsstrunk U.#1996#Nucleoside-diphosphate kinase from Streptomyces coelicolor.#Eur J Biochem.#239#208-213#;10.1111/j.1432-1033.1996.0208u.x
+NHHAAH;;;
+NICMO;;;
+NMNAT;;;
+NMNDA;;;
+NMNHYD;;;
+NNAM;;;
+NNATr;;;
+NNDMBRT;;;
+NNDPR;;;
+NODOx;;;
+NODOy;;;
+NOR_syn;;;
+NP1;;;
+NPHS;;;
+NSHDDS;;;
+NT5C;;;
+NTD10e;;;
+NTD11e;;;
+NTD12e;;;
+NTD1e;;;
+NTD2e;;;
+NTD3e;;;
+NTD4e;;;
+NTD5e;;;
+NTD6e;;;
+NTD7e;;;
+NTD8e;;;
+NTD9e;;;
+NTP1;;;
+NTP1;;;
+NTP3;;;
+NTP5;;;
+NTPP1;;;
+NTPP1;;;
+NTPP11;;;
+NTPP2;;;
+NTPP3;;;
+NTPP4;;;
+NTPP5;;;
+NTPP6;;;
+NTPP7;;;
+NTPP8;;;
+NTPP9;;;
+NTPTP1;;;
+NTPTP2;;;
+NTRIR2x;;Fischer M, Schmidt C, Falke D, Sawers RG.#2012#Terminal reduction reactions of nitrate and sulfate assimilation in Streptomyces coelicolor A3(2): identification of genes encoding nitrite and sulfite reductases.#Res Microbiol.#163#340-348#;10.1016/j.resmic.2012.05.004
+NTRIR2y;;;
+O426ISO;;;
+O4OXOCYR;;;
+OAADC;;;
+OCDOR;;;
+OCOAT1;;;
+OCT;;;
+OCTNLL;;;
+OCTSYN;;;
+OCTTT;;;
+OGMEACPD;Required for growth (biotin biosynthesis);;
+OGMEACPR;;;
+OGMEACPS2;;;
+OHCUS;;;
+OHPBAT;;;
+OIVD1r;;;
+OIVD2;;Stirrett K, Denoya C, Westpheling J.#2009#Branched-chain amino acid catabolism provides precursors for the Type II polyketide antibiotic, actinorhodin, via pathways that are nutrient dependent.#J Ind Microbiol Biotechnol.#36#129-137#;10.1007/s10295-008-0480-0
+OIVD3;;Stirrett K, Denoya C, Westpheling J.#2009#Branched-chain amino acid catabolism provides precursors for the Type II polyketide antibiotic, actinorhodin, via pathways that are nutrient dependent.#J Ind Microbiol Biotechnol.#36#129-137#;10.1007/s10295-008-0480-0
+OMCDC;Spontaneous reaction;;
+OMPDC;;;
+ONTROOXR;;;
+OP4ENH3;;;
+OPHBDC;;;
+OPMEACPD;Required for growth (biotin biosynthesis);;
+OPMEACPR;;;
+OPMEACPS;;;
+ORNDC;;;
+ORNHYDXx;;;
+ORNHYDXy;;;
+ORNTA;;;
+ORNTAC;;Hindle Z, Callis R, Dowden S, Rudd BA, Baumberg S.#1994#Cloning and expression in Escherichia coli of a Streptomyces coelicolor A3(2) argCJB gene cluster.#Microbiology.#140#311-320#;10.1099/13500872-140-2-311
+ORPT;;;
+OXBPTA;;;
+OXCDC;;;
+OXDHCOAT;;Escherichia coli and Pseudomonas putida#Teufel R, Mascaraque V, Ismail W, Voss M, Perera J, Eisenreich W, Haehnel W, Fuchs G.#2010#Bacterial phenylalanine and phenylacetate catabolic pathway revealed.#Proc Natl Acad Sci U S A.#107#107-132#;10.1073/pnas.1005399107
+OXOAEL;;;
+OXPTNDH;Required for growth using L-lysine as a carbon source;;
+P2OLDH;;;
+P4CADH;;;
+P5CD;;Smith DD, Wood NJ, Hodgson DA.#1995#Interaction between primary and secondary metabolism in Streptomyces coelicolor A3(2): role of pyrroline-5-carboxylate dehydrogenase.#Microbiology.#141#1739-1744#;10.1099/13500872-141-7-1739
+P5CR;;Barona-Gómez F, Hodgson DA.#2010#Multicopy proC in Streptomyces coelicolor A3(2) elicits a transient production of prodiginines, while proC deletion does not yield a proline auxotroph.#J Mol Microbiol Biotechnol.#19#152-158#;10.1159/000321502
+PAAT;;;
+PACCOAE;;Escherichia coli and Pseudomonas putida#Teufel R, Mascaraque V, Ismail W, Voss M, Perera J, Eisenreich W, Haehnel W, Fuchs G.#2010#Bacterial phenylalanine and phenylacetate catabolic pathway revealed.#Proc Natl Acad Sci U S A.#107#107-132#;10.1073/pnas.1005399107
+PACCOAL;;Escherichia coli and Pseudomonas putida#Teufel R, Mascaraque V, Ismail W, Voss M, Perera J, Eisenreich W, Haehnel W, Fuchs G.#2010#Bacterial phenylalanine and phenylacetate catabolic pathway revealed.#Proc Natl Acad Sci U S A.#107#107-132#;10.1073/pnas.1005399107
+PACPTc;;;
+PANTS;;;
+PAPA12;Required for growth (triacylglycerol biosynthesis);;
+PAPA14;Required for growth (triacylglycerol biosynthesis);;
+PAPA141;Required for growth (triacylglycerol biosynthesis);;
+PAPA15;Required for growth (triacylglycerol biosynthesis);;
+PAPA16;Required for growth (triacylglycerol biosynthesis);;
+PAPA161;Required for growth (triacylglycerol biosynthesis);;
+PAPA17;Required for growth (triacylglycerol biosynthesis);;
+PAPA18;Required for growth (triacylglycerol biosynthesis);;
+PAPA181;Required for growth (triacylglycerol biosynthesis);;
+PAPAai15;Required for growth (triacylglycerol biosynthesis);;
+PAPAai17;Required for growth (triacylglycerol biosynthesis);;
+PAPAi14;Required for growth (triacylglycerol biosynthesis);;
+PAPAi15;Required for growth (triacylglycerol biosynthesis);;
+PAPAi16;Required for growth (triacylglycerol biosynthesis);;
+PAPAi17;Required for growth (triacylglycerol biosynthesis);;
+PAPAi18;Required for growth (triacylglycerol biosynthesis);;
+PAPPT3;;;
+PAPSR;;;
+PAPSR3;Assumed that mycothiol do the same biological roles as glutathione;;
+PC;;;
+PC11M;Aerobic adenosylcobalamin biosynthetic pathway;;
+PC17M;Aerobic adenosylcobalamin biosynthetic pathway;;
+PC20M;Aerobic adenosylcobalamin biosynthetic pathway;;
+PC3BS;Required for growth (adenosylcobalamin biosynthesis), Aerobic adenosylcobalamin biosynthetic pathway, BiGG database reaction name : R05217;;
+PC6AR;Aerobic adenosylcobalamin biosynthetic pathway;;
+PC6AS;Aerobic adenosylcobalamin biosynthetic pathway, BiGG database reaction name : R05219;;
+PC6YM;Aerobic adenosylcobalamin biosynthetic pathway;;
+PC8XM;Aerobic adenosylcobalamin biosynthetic pathway;;
+PCADYOX;;;
+PCFO;;;
+PCOATA;;Li Y, Florova G, Reynolds KA.#2005#Alteration of the fatty acid profile of Streptomyces coelicolor by replacement of the initiation enzyme 3-ketoacyl acyl carrier protein synthase III (FabH).#J Bacteriol.#187#3795-3799#;10.1128/JB.187.11.3795-3799.2005
+PCPSredO;;Stanley AE, Walton LJ, Kourdi Zerikly M, Corre C, Challis GL.#2006#Elucidation of the Streptomyces coelicolor pathway to 4-methoxy-2,2'-bipyrrole-5-carboxaldehyde, an intermediate in prodiginine biosynthesis.#Chem Commun (Camb).#14#3981-3983#;
+PCPpdsredO;;;
+PDE1;;;
+PDE4;;;
+PDH;;;
+PDH3;;;
+PDH4;;;
+PDHe3hr;;;
+PDX5POi;;;
+PEAMNO;Required for growth using L-phenylalanine as a nitrogen source;;
+PENAM;;;
+PEPCK;;Corynebacterium glutamicum#Petersen S, Mack C, de Graaf AA, Riedel C, Eikmanns BJ, Sahm H.#2001#Metabolic consequences of altered phosphoenolpyruvate carboxykinase activity in Corynebacterium glutamicum reveal anaplerotic regulation mechanisms in vivo.#Metab Eng.#3#344-361##Bacillus subtilis#Zamboni N, Maaheimo H, Szyperski T, Hohmann HP, Sauer U.#2004#The phosphoenolpyruvate carboxykinase also catalyzes C3 carboxylation at the interface of glycolysis and the TCA cycle of Bacillus subtilis.#Metab Eng.#6#277-284#;
+PFK;;Alves,A.M., G.J.Euverink, M.J.Bibb, and L.Dijkhuizen.#1997#Identification of ATP-dependent phosphofructokinase as a regulatory step in the glycolytic pathway of the actinomycete Streptomyces coelicolor A3(2)#Appl. Environ. Microbiol.#63#956-961##Borodina I, Siebring J, Zhang J, Smith CP, van Keulen G, Dijkhuizen L, Nielsen J.#2008#Antibiotic overproduction in Streptomyces coelicolor A3 2 mediated by phosphofructokinase deletion.#J. Biol. Chem.#283#25186-25199#;
+PFK_2;;;
+PFK_3;;;
+PGAMT;;;
+PGCD;;;
+PGI;;;
+PGIA;;;
+PGK;;;
+PGL;;;
+PGLYCP;;;
+PGM;;White,P.J., J.Nairn, N.C.Price, H.G.Nimmo, J.R.Coggins, and I.S.Hunter.#1992#Phosphoglycerate mutase from Streptomyces coelicolor A3(2): purification and characterization of the enzyme and cloning and sequence analysis of the gene.#J. Bacteriol.#174#434-440#;
+PGMT;;Ryu YG, Butler MJ, Chater KF, Lee KJ.#2006#Engineering of primary carbohydrate metabolism for increased production of actinorhodin in Streptomyces coelicolor#Appl. Environ. Microbiol.#72#7132-7139#;
+PGSA12;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PGSA14;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PGSA141;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PGSA15;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PGSA16;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PGSA161;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PGSA17;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PGSA18;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PGSA181;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PGSAai15;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PGSAai17;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PGSAi14;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PGSAi15;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PGSAi16;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PGSAi17;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PGSAi18;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PHACTE;;;
+PHCD;;Smith DD, Wood NJ, Hodgson DA.#1995#Interaction between primary and secondary metabolism in Streptomyces coelicolor A3(2): role of pyrroline-5-carboxylate dehydrogenase.#Microbiology.#141#1739-1744#;10.1099/13500872-141-7-1739
+PHCHGS;Spontaneous reaction;;
+PHETA1;;;
+PHETRS;;;
+PHYCBOXL;Required for growth using L-phenylalanine as a nitrogen source;;
+PHYFLUDS;;;
+PHYSYN;;;
+PHYTDES;;;
+PHYTES;;;
+PICDDHs;;;
+PINOS12;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PINOS14;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PINOS141;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PINOS15;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PINOS16;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PINOS161;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PINOS17;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PINOS18;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PINOS181;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PINOSai15;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PINOSai17;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PINOSi14;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PINOSi15;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PINOSi16;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PINOSi17;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PINOSi18;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;10.1074/jbc.M109.006072
+PKBBS;;;
+PMANM;;Yang YH, Song E, Park SH, Kim JN, Lee K, Kim E, Kim YG, Kim BG.#2010#Loss of phosphomannomutase activity enhances actinorhodin production in Streptomyces coelicolor.#Appl Microbiol Biotechnol.#86#1485-1492#;
+PMDPHT;Required for growth (riboflavin biosynthesis);;
+PMEACPE;Required for growth (biotin biosynthesis);;
+PMPK;;;
+PNP;;;
+PNTK;;;
+POR_1;;;
+POX3;;;
+PPA;;;
+PPAKr;;Hutchings MI, Hong HJ, Buttner MJ.#2006#The vancomycin resistance VanRS two-component signal transduction system of Streptomyces coelicolor.#Mol Microbiol.#59#923-935#;10.1111/j.1365-2958.2005.04953.x
+PPBNGS;;;
+PPC;;Bramwell,H., H.G.Nimmo, I.S.Hunter, and J.R.Coggins.#1993#Phosphoenolpyruvate carboxylase from Streptomyces coelicolor A3(2): purification of the enzyme, cloning of the ppc gene and over-expression of the protein in a streptomycete.#Biochem. J.#293#131-136#;
+PPCDC;;;
+PPCK;;;
+PPCOAC;;Rodríguez E, Gramajo H.#1999#Genetic and biochemical characterization of the alpha and beta components of a propionyl-CoA carboxylase complex of Streptomyces coelicolor A3(2).#Microbiology.#145#3109-3119##Diacovich L, Peirú S, Kurth D, Rodríguez E, Podestá F, Khosla C, Gramajo H.#2002#Kinetic and structural analysis of a new group of Acyl-CoA carboxylases found in Streptomyces coelicolor A3(2).#J Biol Chem.#277#31228-31236#;
+PPDK;;;
+PPGPPDP;;Ryu YG, Kim ES, Kim DW, Kim SK, Lee KJ.#2007#Differential stringent responses of Streptomyces coelicolor M600 to starvation of specific nutrients.#J Microbiol Biotechnol.#17#305-312#;PMID: 18051762
+PPK2r;;Streptomyces lividans#Chouayekh H, Virolle MJ.#2002#The polyphosphate kinase plays a negative role in the control of antibiotic production in Streptomyces lividans.#Mol Microbiol.#43#919-930#;
+PPM;;;
+PPM2;;;
+PPNAD2OR;;;
+PPNCL2;;;
+PPNCL3;;;
+PPND;;;
+PPNDH;;;
+PPPGO;;;
+PPPNDO;;;
+PPRDNDH;Required for growth using L-lysine as a carbon source;Streptomyces lividans#Madduri K, Stuttard C, Vining LC.#1989#Lysine catabolism in Streptomyces spp. is primarily through cadaverine: beta-lactam producers also make alpha-aminoadipate.#J Bacteriol.#171#299-302#;10.1128/jb.171.1.299-302.1989
+PPS;;;
+PPTRIAT;;;
+PPTSERDC;;;
+PPTT;;;
+PPYRDC;;;
+PRAGSr;;;
+PRAIS;;;
+PRAIi;;Noda-García L, Camacho-Zarco AR, Verdel-Aranda K, Wright H, Soberón X, Fülöp V, Barona-Gómez F.#2010#Identification and analysis of residues contained on beta --> alpha loops of the dual-substrate (beta alpha)8 phosphoribosyl isomerase A specific for its phosphoribosyl anthranilate isomerase activity.#Protein Sci.#19#535-543#;
+PRAMPC;;;
+PRASCSi;;;
+PRATPP;;;
+PRDX;;Hahn JS, Oh SY, Roe JH.#2000#Regulation of the furA and catC operon, encoding a ferric uptake regulator homologue and catalase-peroxidase, respectively, in Streptomyces coelicolor A3(2).#J Bacteriol.#182#3767-3774#;
+PRFGS;;;
+PRMICI;;;
+PROD2;Required for growth using L-proline as a carbon source;;
+PRODSYN;;;
+PROLRM;;;
+PROP2MO;;;
+PROTRS;;;
+PRPPS;;;
+PSCVT;;;
+PSD12;;;
+PSD14;;;
+PSD141;;;
+PSD15;;;
+PSD16;;;
+PSD161;;;
+PSD17;;;
+PSD18;;;
+PSD181;;;
+PSDai15;;;
+PSDai17;;;
+PSDi14;;;
+PSDi15;;;
+PSDi16;;;
+PSDi17;;;
+PSDi18;;;
+PSERT;;;
+PSP_L;;;
+PSQLDL;;;
+PSSA12;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;
+PSSA14;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;
+PSSA141;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;
+PSSA15;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;
+PSSA16;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;
+PSSA161;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;
+PSSA17;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;
+PSSA18;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;
+PSSA181;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;
+PSSAai15;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;
+PSSAai17;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;
+PSSAi14;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;
+PSSAi15;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;
+PSSAi16;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;
+PSSAi17;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;
+PSSAi18;;Sandoval-Calderón M, Geiger O, Guan Z, Barona-Gómez F, Sohlenkamp C.#2009#A eukaryote-like cardiolipin synthase is present in Streptomyces coelicolor and in most actinobacteria.#J Biol Chem.#284#17383-17390#;
+PTA2;;Hutchings MI, Hong HJ, Buttner MJ.#2006#The vancomycin resistance VanRS two-component signal transduction system of Streptomyces coelicolor.#Mol Microbiol.#59#923-935#;10.1111/j.1365-2958.2005.04953.x
+PTAr;;Hutchings MI, Hong HJ, Buttner MJ.#2006#The vancomycin resistance VanRS two-component signal transduction system of Streptomyces coelicolor.#Mol Microbiol.#59#923-935#;10.1111/j.1365-2958.2005.04953.x
+PTC6MT;;;
+PTLACS;;;
+PTPATi;;;
+PTRCAT1;;;
+PTRCTA;;;
+PU5PG;;;
+PUNP1;;;
+PUNP2;;;
+PUNP3;;;
+PUNP4;;;
+PUNP5;;;
+PUNP6;;;
+PUNP7;;;
+PUTA3;;Smith DD, Wood NJ, Hodgson DA.#1995#Interaction between primary and secondary metabolism in Streptomyces coelicolor A3(2): role of pyrroline-5-carboxylate dehydrogenase.#Microbiology.#141#1739-1744#;10.1099/13500872-141-7-1739
+PYACOADH;;;
+PYAM5PO;;;
+PYDAMK;To utilize extracellular pyridoxamine;;
+PYDXK;To utilize extracellular pyridoxal;;
+PYDXNK;To utilize extracellular pyridoxine;;
+PYDXOR;;;
+PYDXPS;;Mycobacterium tuberculosis#Dick T, Manjunatha U, Kappes B, Gengenbacher M.#2010#Vitamin B6 biosynthesis is essential for survival and virulence of Mycobacterium tuberculosis.#Mol Microbiol.#78#980-988#;10.1111/j.1365-2958.2010.07381.x
+PYK;;;
+PYNP2r;;;
+PYRS;;;
+QMO3;Spontaneous reaction;;
+QUINHYDs;;;
+QULNS;;;
+RAFGH;;;
+RBFK;;;
+RBFSa;;;
+RBFSb;;;
+RBK;;;
+RBK_L1;Required for growth using L-arabinose as a carbon source;;
+RBP4E;Required for growth using L-arabinose as a carbon source;;
+RBTDG;;;
+RE0691C;;;
+REDS1;;Keatinge-Clay AT, Shelat AA, Savage DF, Tsai SC, Miercke LJ, O'Connell JD 3rd, Khosla C, Stroud RM.#2003#Catalysis, specificity, and ACP docking site of Streptomyces coelicolor malonyl-CoA:ACP transacylase.#Structure.#11#147-154#;10.1016/S0969-2126(03)00004-2
+REDS1;;Mo S, Sydor PK, Corre C, Alhamadsheh MM, Stanley AE, Haynes SW, Song L, Reynolds KA, Challis GL.#2008#Elucidation of the Streptomyces coelicolor pathway to 2-undecylpyrrole, a key intermediate in undecylprodiginine and streptorubin B biosynthesis.#Chem Biol.#15#137-148#;10.1016/j.chembiol.2007.11.015
+REDS11;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+REDS12;Required to produce undecylprodigiosin;;
+REDS13x;;;
+REDS13y;;;
+REDS14;;Mo S, Sydor PK, Corre C, Alhamadsheh MM, Stanley AE, Haynes SW, Song L, Reynolds KA, Challis GL.#2008#Elucidation of the Streptomyces coelicolor pathway to 2-undecylpyrrole, a key intermediate in undecylprodiginine and streptorubin B biosynthesis.#Chem Biol.#15#137-148#;10.1016/j.chembiol.2007.11.015
+REDS15;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+REDS16;Required to produce undecylprodigiosin;;
+REDS17x;;;
+REDS17y;;;
+REDS18;;Mo S, Sydor PK, Corre C, Alhamadsheh MM, Stanley AE, Haynes SW, Song L, Reynolds KA, Challis GL.#2008#Elucidation of the Streptomyces coelicolor pathway to 2-undecylpyrrole, a key intermediate in undecylprodiginine and streptorubin B biosynthesis.#Chem Biol.#15#137-148#;10.1016/j.chembiol.2007.11.015
+REDS19;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+REDS2;;Singh R, Mo S, Florova G, Reynolds KA.#2012#Streptomyces coelicolor RedP and FabH enzymes, initiating undecylprodiginine and fatty acid biosynthesis, exhibit distinct acyl-CoA and malonyl-acyl carrier protein substrate specificities.#FEMS Microbiol Lett.#328#32-38#;10.1111/j.1574-6968.2011.02474.x
+REDS2;Required to produce undecylprodigiosin;;
+REDS21x;;;
+REDS21y;;;
+REDS22;;Whicher JR, Florova G, Sydor PK, Singh R, Alhamadsheh M, Challis GL, Reynolds KA, Smith JL.#2011#Structure and function of the RedJ protein, a thioesterase from the prodiginine biosynthetic pathway in Streptomyces coelicolor.#J Biol Chem.#286#22558-22569#;10.1074/jbc.M110.213512
+REDS23;;Mo S, Sydor PK, Corre C, Alhamadsheh MM, Stanley AE, Haynes SW, Song L, Reynolds KA, Challis GL.#2008#Elucidation of the Streptomyces coelicolor pathway to 2-undecylpyrrole, a key intermediate in undecylprodiginine and streptorubin B biosynthesis.#Chem Biol.#15#137-148#;10.1016/j.chembiol.2007.11.015
+REDS24;;Mo S, Sydor PK, Corre C, Alhamadsheh MM, Stanley AE, Haynes SW, Song L, Reynolds KA, Challis GL.#2008#Elucidation of the Streptomyces coelicolor pathway to 2-undecylpyrrole, a key intermediate in undecylprodiginine and streptorubin B biosynthesis.#Chem Biol.#15#137-148#;10.1016/j.chembiol.2007.11.015
+REDS25;;Mo S, Sydor PK, Corre C, Alhamadsheh MM, Stanley AE, Haynes SW, Song L, Reynolds KA, Challis GL.#2008#Elucidation of the Streptomyces coelicolor pathway to 2-undecylpyrrole, a key intermediate in undecylprodiginine and streptorubin B biosynthesis.#Chem Biol.#15#137-148#;10.1016/j.chembiol.2007.11.015
+REDS26;;Mo S, Sydor PK, Corre C, Alhamadsheh MM, Stanley AE, Haynes SW, Song L, Reynolds KA, Challis GL.#2008#Elucidation of the Streptomyces coelicolor pathway to 2-undecylpyrrole, a key intermediate in undecylprodiginine and streptorubin B biosynthesis.#Chem Biol.#15#137-148#;10.1016/j.chembiol.2007.11.015
+REDS27;;Mo S, Sydor PK, Corre C, Alhamadsheh MM, Stanley AE, Haynes SW, Song L, Reynolds KA, Challis GL.#2008#Elucidation of the Streptomyces coelicolor pathway to 2-undecylpyrrole, a key intermediate in undecylprodiginine and streptorubin B biosynthesis.#Chem Biol.#15#137-148#;10.1016/j.chembiol.2007.11.015
+REDS27b;;;
+REDS28;;Stanley AE, Walton LJ, Kourdi Zerikly M, Corre C, Challis GL.#2006#Elucidation of the Streptomyces coelicolor pathway to 4-methoxy-2,2'-bipyrrole-5-carboxaldehyde, an intermediate in prodiginine biosynthesis.#Chem Commun (Camb).#14#3981-3983#;10.1039/b609556a
+REDS29;;Cerdeño AM, Bibb MJ, Challis GL.#2001#Analysis of the prodiginine biosynthesis gene cluster of Streptomyces coelicolor A3(2): new mechanisms for chain initiation and termination in modular multienzymes.#Chem Biol.#8#817-829#;10.1016/S1074-5521(01)00054-0
+REDS3;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+REDS3;;Stanley AE, Walton LJ, Kourdi Zerikly M, Corre C, Challis GL.#2006#Elucidation of the Streptomyces coelicolor pathway to 4-methoxy-2,2'-bipyrrole-5-carboxaldehyde, an intermediate in prodiginine biosynthesis.#Chem Commun (Camb).#14#3981-3983#;10.1039/b609556a
+REDS31;;Stanley AE, Walton LJ, Kourdi Zerikly M, Corre C, Challis GL.#2006#Elucidation of the Streptomyces coelicolor pathway to 4-methoxy-2,2'-bipyrrole-5-carboxaldehyde, an intermediate in prodiginine biosynthesis.#Chem Commun (Camb).#14#3981-3983#;10.1039/b609556a
+REDS32;;Stanley AE, Walton LJ, Kourdi Zerikly M, Corre C, Challis GL.#2006#Elucidation of the Streptomyces coelicolor pathway to 4-methoxy-2,2'-bipyrrole-5-carboxaldehyde, an intermediate in prodiginine biosynthesis.#Chem Commun (Camb).#14#3981-3983#;10.1039/b609556a
+REDS33;;Stanley AE, Walton LJ, Kourdi Zerikly M, Corre C, Challis GL.#2006#Elucidation of the Streptomyces coelicolor pathway to 4-methoxy-2,2'-bipyrrole-5-carboxaldehyde, an intermediate in prodiginine biosynthesis.#Chem Commun (Camb).#14#3981-3983#;10.1039/b609556a
+REDS34;;Stanley AE, Walton LJ, Kourdi Zerikly M, Corre C, Challis GL.#2006#Elucidation of the Streptomyces coelicolor pathway to 4-methoxy-2,2'-bipyrrole-5-carboxaldehyde, an intermediate in prodiginine biosynthesis.#Chem Commun (Camb).#14#3981-3983#;10.1039/b609556a
+REDS35;;Cerdeño AM, Bibb MJ, Challis GL.#2001#Analysis of the prodiginine biosynthesis gene cluster of Streptomyces coelicolor A3(2): new mechanisms for chain initiation and termination in modular multienzymes.#Chem Biol.#8#817-829#;10.1016/S1074-5521(01)00054-0
+REDS35b;;;
+REDS36;Required to produce undecylprodigiosin;;
+REDS37;;Haynes SW, Sydor PK, Stanley AE, Song L, Challis GL.#2008#Role and substrate specificity of the Streptomyces coelicolor RedH enzyme in undecylprodiginine biosynthesis.#Chem Commun (Camb).#28#1865-1867#;10.1016/j.chembiol.2007.11.015
+REDS4;Required to produce undecylprodigiosin;;
+REDS5x;;;
+REDS5y;;;
+REDS6;;Mo S, Sydor PK, Corre C, Alhamadsheh MM, Stanley AE, Haynes SW, Song L, Reynolds KA, Challis GL.#2008#Elucidation of the Streptomyces coelicolor pathway to 2-undecylpyrrole, a key intermediate in undecylprodiginine and streptorubin B biosynthesis.#Chem Biol.#15#137-148#;10.1016/j.chembiol.2007.11.015
+REDS7;;Tang Y, Lee HY, Tang Y, Kim CY, Mathews I, Khosla C.#2006#Structural and functional studies on SCO1815: a beta-ketoacyl-acyl carrier protein reductase from Streptomyces coelicolor A3(2).#Biochemistry.#45#14085-14093#;10.1021/bi061187v
+REDS8;Required to produce undecylprodigiosin;;
+REDS9x;;;
+REDS9y;;;
+REPHACCOAI;;Escherichia coli and Pseudomonas putida#Teufel R, Mascaraque V, Ismail W, Voss M, Perera J, Eisenreich W, Haehnel W, Fuchs G.#2010#Bacterial phenylalanine and phenylacetate catabolic pathway revealed.#Proc Natl Acad Sci U S A.#107#107-132#;10.1073/pnas.1005399107
+RHAMFs;;;
+RIB1MPTS;;;
+RMI;Required for growth using L-rhamnose as a carbon source;;
+RMK;;;
+RMPA;Required for growth using L-rhamnose as a carbon source;;
+RNDR1;;Borovok I, Kreisberg-Zakarin R, Yanko M, Schreiber R, Myslovati M, Aslund F, Holmgren A, Cohen G, Aharonowitz Y.#2002#Streptomyces spp. contain class Ia and class II ribonucleotide reductases: expression analysis of the genes in vegetative growth.#Microbiology.#148#391-404#;10.1099/00221287-148-2-391
+RNDR2;;Borovok I, Kreisberg-Zakarin R, Yanko M, Schreiber R, Myslovati M, Aslund F, Holmgren A, Cohen G, Aharonowitz Y.#2002#Streptomyces spp. contain class Ia and class II ribonucleotide reductases: expression analysis of the genes in vegetative growth.#Microbiology.#148#391-404#;10.1099/00221287-148-2-391
+RNDR3;;Borovok I, Kreisberg-Zakarin R, Yanko M, Schreiber R, Myslovati M, Aslund F, Holmgren A, Cohen G, Aharonowitz Y.#2002#Streptomyces spp. contain class Ia and class II ribonucleotide reductases: expression analysis of the genes in vegetative growth.#Microbiology.#148#391-404#;10.1099/00221287-148-2-391
+RNDR4;;Borovok I, Kreisberg-Zakarin R, Yanko M, Schreiber R, Myslovati M, Aslund F, Holmgren A, Cohen G, Aharonowitz Y.#2002#Streptomyces spp. contain class Ia and class II ribonucleotide reductases: expression analysis of the genes in vegetative growth.#Microbiology.#148#391-404#;10.1099/00221287-148-2-391
+RNDR5;;;
+RNDR6;;;
+RNDR7;;;
+RNDR8;;;
+RPE;;;
+RPI;;;
+RZ5PP;Required for growth (adenosylcobalamin biosynthesis);;
+S2FE2SR;;den Hengst CD, Buttner MJ.#2008#Redox control in actinobacteria.#Biochim Biophys Acta.#1780#1201-1216#;10.1016/j.bbagen.2008.01.008
+S2FE2SS;;den Hengst CD, Buttner MJ.#2008#Redox control in actinobacteria.#Biochim Biophys Acta.#1780#1201-1216#;10.1016/j.bbagen.2008.01.008
+S2FE2SS2;;den Hengst CD, Buttner MJ.#2008#Redox control in actinobacteria.#Biochim Biophys Acta.#1780#1201-1216#;10.1016/j.bbagen.2008.01.008
+S2FE2ST;;den Hengst CD, Buttner MJ.#2008#Redox control in actinobacteria.#Biochim Biophys Acta.#1780#1201-1216#;10.1016/j.bbagen.2008.01.008
+S4FE4SR;;den Hengst CD, Buttner MJ.#2008#Redox control in actinobacteria.#Biochim Biophys Acta.#1780#1201-1216#;10.1016/j.bbagen.2008.01.008
+S4FE4ST;;den Hengst CD, Buttner MJ.#2008#Redox control in actinobacteria.#Biochim Biophys Acta.#1780#1201-1216#;10.1016/j.bbagen.2008.01.008
+S6PGB;;;
+S7PI;;;
+SADT;;;
+SADT2;;;
+SALOR;;;
+SAMAAT;;;
+SAMAT;;;
+SAMP1MET;;;
+SARCOX;;;
+SBP_1;;;
+SBTD_D2;;;
+SBTO;;Heuts DP, van Hellemond EW, Janssen DB, Fraaije MW.#2007#Discovery, characterization, and kinetic analysis of an alditol oxidase from Streptomyces coelicolor.#J Biol Chem.#282#20283-20291#;10.1074/jbc.M610849200
+SCB11;;;
+SCB12;;;
+SCB13;;;
+SCB14;;;
+SCB15;;;
+SCB21a;;;
+SCB21b;;;
+SCB22;;;
+SCB23;;;
+SCB24;;;
+SCB25;;;
+SCB31;;;
+SCB32;;;
+SCB33;;;
+SCB34;;;
+SCB35;;;
+SCYSDS;;den Hengst CD, Buttner MJ.#2008#Redox control in actinobacteria.#Biochim Biophys Acta.#1780#1201-1216#;10.1016/j.bbagen.2008.01.008
+SDPDS;;;
+SDPTA;;Escherichia coli#Ledwidge R, Blanchard JS.#1999#The dual biosynthetic capability of N-acetylornithine aminotransferase in arginine and lysine biosynthesis.#Biochemistry.#38#3019-3024;10.1021/bi982574a
+SEPHCHCS;;;
+SERAT;;;
+SERD_L;;;
+SERTRS;;;
+SHCHCC;Anaerobic adenosylcobalamin biosynthetic pathway (incomplete);;
+SHCHCS3;;;
+SHCHD2;;;
+SHCHF;;;
+SHK3Dr;;;
+SHKK;;;
+SHSL1;;;
+SHSL2;;;
+SHSL4r;;;
+SLD;;;
+SORB6PP;;;
+SORBDH;;;
+SPMS;;;
+SPODM;;Chung HJ, Kim EJ, Suh B, Choi JH, Roe JH.#1999#Duplicate genes for Fe-containing superoxide dismutase in Streptomyces coelicolor A3(2).#Gene.#231#87-93##Kim EJ, Chung HJ, Suh B, Hah YC, Roe JH.#1998#Transcriptional and post-transcriptional regulation by nickel of sodN gene encoding nickel-containing superoxide dismutase from Streptomyces coelicolor Müller.#Mol Microbiol.#27#187-195#;10.1016/S0378-1119(99)00088-8, 10.1046/j.1365-2958.1998.00674.x
+SPRMS;;;
+SQLCYC1;;;
+SQLCYC2;;;
+SRUBSYN;;;
+SSALx;;;
+SSALy;;;
+SSBUTDH;;;
+STACHGALACT;;;
+STRP6K;;;
+SUCBZL;;;
+SUCBZS;;;
+SUCD9;;;
+SUCOAGCT;;;
+SUCOAICT;;;
+SUCOAS;;;
+SUCOMALT;;;
+SUCR;;;
+SULFPDH;;;
+SULR_syn;;;
+SULRi;;Fischer M, Schmidt C, Falke D, Sawers RG.#2012#Terminal reduction reactions of nitrate and sulfate assimilation in Streptomyces coelicolor A3(2): identification of genes encoding nitrite and sulfite reductases.#Res Microbiol.#163#340-348#;10.1016/j.resmic.2012.05.004
+T2DECAI;Required for growth (fatty acid biosynthesis);;
+TAG6ISOs;;;
+TAGO;Required for growth (teichoic acid biosynthesis);;
+TAGS12;Required for growth (triacylglycerol biosynthesis);;
+TAGS14;Required for growth (triacylglycerol biosynthesis);;
+TAGS141;Required for growth (triacylglycerol biosynthesis);;
+TAGS15;Required for growth (triacylglycerol biosynthesis);;
+TAGS16;Required for growth (triacylglycerol biosynthesis);;
+TAGS161;Required for growth (triacylglycerol biosynthesis);;
+TAGS17;Required for growth (triacylglycerol biosynthesis);;
+TAGS18;Required for growth (triacylglycerol biosynthesis);;
+TAGS181;Required for growth (triacylglycerol biosynthesis);;
+TAGSai15;Required for growth (triacylglycerol biosynthesis);;
+TAGSai17;Required for growth (triacylglycerol biosynthesis);;
+TAGSi14;Required for growth (triacylglycerol biosynthesis);;
+TAGSi15;Required for growth (triacylglycerol biosynthesis);;
+TAGSi16;Required for growth (triacylglycerol biosynthesis);;
+TAGSi17;Required for growth (triacylglycerol biosynthesis);;
+TAGSi18;Required for growth (triacylglycerol biosynthesis);;
+TALA;;;
+TALAb;;;
+TAUDO;;;
+TBFORMD;;;
+TCLBZRED;;;
+TDP;;;
+TDPDRE;;;
+TDPDRR;;;
+TDPGDH;;;
+TECA1S;Required for growth (teichoic acid biosynthesis);;
+TECA2S;Required for growth (teichoic acid biosynthesis);;
+TECA3S;Required for growth (teichoic acid biosynthesis);;
+TGBPA;;Brinkkötter A, Shakeri-Garakani A, Lengeler JW.#2002#Two class II D-tagatose-bisphosphate aldolases from enteric bacteria.#Arch Microbiol.#177#410-419#;10.1007/s00203-002-0406-6
+THCHDH;;;
+THDPLOR;;;
+THDPS;;;
+THFAT;;;
+THFGLUS;;;
+THIORDXi;;;
+THPAT;;;
+THPICHYDs;;;
+THRA2i;;Balk SH, Yoshioka H, Yukawa H, Harayama S.#2007#Synthesis of L-threo-3,4-dihydroxyphenylserine (L-threo-DOPS) with thermostabilized low-specific L-threonine aldolase from Streptomyces coelicolor A3(2).#J Microbiol Biotechnol.#17#721-727#;PMID: 18051291
+THRAi;;Balk SH, Yoshioka H, Yukawa H, Harayama S.#2007#Synthesis of L-threo-3,4-dihydroxyphenylserine (L-threo-DOPS) with thermostabilized low-specific L-threonine aldolase from Streptomyces coelicolor A3(2).#J Microbiol Biotechnol.#17#721-727#;PMID: 18051291
+THRD;;;
+THRD_L;;;
+THRPDC;;;
+THRS;;;
+THRTRS;;;
+THYDNAPO;;;
+THYDNAPS;;;
+THZPSN3;;;
+TKT1;;;
+TKT2;;;
+TKT2h;;;
+TMDK1;;;
+TMDPP;;;
+TMDSf;;;
+TMETMO;;;
+TMK;To utilize extracellular thiamine;;
+TMPK;;;
+TMPPP;;;
+TOLOR;;;
+TPI;;;
+TRDR;;Koháryová M, Brynda J, Rezáčová P, Kollárová M.#2011#Crystallization and diffraction analysis of thioredoxin reductase from Streptomyces coelicolor.#Acta Crystallogr Sect F Struct Biol Cryst Commun.#67#917-921#;10.1107/S1744309111021385
+TRE6PH;;;
+TRE6PP;;;
+TRE6PPP;;;
+TRE6PS;;;
+TREPP;;;
+TRPO2;;Zummo FP, Marineo S, Pace A, Civiletti F, Giardina A, Puglia AM.#2012#Tryptophan catabolism via kynurenine production in Streptomyces coelicolor: identification of three genes coding for the enzymes of tryptophan to anthranilate pathway.#Appl Microbiol Biotechnol.#94#719-728#;10.1007/s00253-011-3833-y
+TRPS1;;;
+TRPS2;;;
+TRPS3;;;
+TRPTRS;;Kitabatake M, Ali K, Demain A, Sakamoto K, Yokoyama S, Söll D.#2002#Indolmycin resistance of Streptomyces coelicolor A3(2) by induced expression of one of its two tryptophanyl-tRNA synthetases.#J Biol Chem.#277#23882-23887#;10.1074/jbc.M202639200
+TRSARr;;;
+TRYP2MO;;;
+TRYPYRAT;;;
+TYRL;;;
+TYRMO;;;
+TYRTA;;;
+TYRTRS;;;
+UAAGDS;;;
+UAAGLS2;;;
+UACMAMO;;;
+UAG2E;Required for growth (teichoic acid biosynthesis);;
+UAGCVT;;;
+UAGDP;;;
+UAGPT3;;;
+UAMAGS;;;
+UAMAGS2;;;
+UAMAS;;;
+UAPGR;;;
+UDCPDP;;;
+UDCPDPS;;;
+UDPAGACA;;;
+UDPAMALA;;;
+UDPG4E;;;
+UDPGD;;;
+UDPGDC;;;
+UGAH;;;
+UGLT;;;
+UGLYCH;Required for growth using glycine as a carbon source;;
+UGMDDS;;;
+ULA4NFT;;;
+UM4PCP;;;
+UMPK;;;
+UNDCAPPT;;;
+UNDEGLCT;;;
+UPP1S;;;
+UPP3MT;;;
+UPP3MT1;;;
+UPP3S;;;
+UPPDC1;;;
+UPPDC2;;;
+UPPRT;;;
+URCN;;;
+UREA;;;
+URECARB;;;
+URGLYUS;;;
+URHYD;;;
+URIH;;;
+URIK1;;;
+URIK2;;;
+URO;;;
+URO3MET;;;
+VALDHr;;;
+VALTA;;;
+VALTRS;;;
+VNDH;;;
+VNDH_2;;;
+VNDH_4;;;
+VNTDM;;;
+VOR1b;;;
+VOR2b;;;
+VOR3b;;;
+VPAMTr;;;
+WCOS;;;
+X5PL3E;Required for growth using L-lyxose as a carbon source;Streptomyces lividans#Madduri K, Stuttard C, Vining LC.#1989#Lysine catabolism in Streptomyces spp. is primarily through cadaverine: beta-lactam producers also make alpha-aminoadipate.#J Bacteriol.#171#299-302#;10.1128/jb.171.1.299-302.1989
+XAND;;;
+XGLCOLIG;;;
+XLLGXYL;;;
+XLXG;;;
+XPPT;;;
+XTSNH;;;
+XYLI1;;Voronovsky AY, Ryabova OB, Verba OV, Ishchuk OP, Dmytruk KV, Sibirny AA.#2005#Expression of xylA genes encoding xylose isomerases from Escherichia coli and Streptomyces coelicolor in the methylotrophic yeast Hansenula polymorpha.#FEMS Yeast Res.#5#1055-1062#;10.1016/j.femsyr.2005.09.001
+XYLI2;;;
+XYLK;;;
+XYLK2;Required for growth using L-lyxose as a carbon source;Streptomyces lividans#Madduri K, Stuttard C, Vining LC.#1989#Lysine catabolism in Streptomyces spp. is primarily through cadaverine: beta-lactam producers also make alpha-aminoadipate.#J Bacteriol.#171#299-302#;10.1128/jb.171.1.299-302.1989
+XYLLAC;;;
+XYLR2;;;
+XYLR3;;;
+XYLTD_D;;;
+XYLTO;;Heuts DP, van Hellemond EW, Janssen DB, Fraaije MW.#2007#Discovery, characterization, and kinetic analysis of an alditol oxidase from Streptomyces coelicolor.#J Biol Chem.#282#20283-20291#;10.1074/jbc.M610849200
+ZCARDS;;;
+ZCAROTDH2;;;
+r012;;;
+r0163;;;
+r0686;;;
+r0708;;;
+r0775;;;
+r0777;;;
+14GLUCANabc;;Saito A, Fujii T, Shinya T, Shibuya N, Ando A, Miyashita K.#2008#The msiK gene, encoding the ATP-hydrolysing component of N,N'-diacetylchitobiose ABC transporters, is essential for induction of chitinase production in Streptomyces coelicolor A3(2).#Microbiology.#154#3358-3365#;10.1099/mic.0.2008/019612-0
+2HXMPt6;;;
+4A5HMPt;;;
+5DGLCNt2r;;;
+5MTRt2;;;
+ABTabc;;;
+ABUTt2r;;;
+ACALDt;Spontaneous reaction;;
+ACCt;;;
+ACGApts;;Nothaft H, Dresel D, Willimek A, Mahr K, Niederweis M, Titgemeyer F.#2003#The phosphotransferase system of Streptomyces coelicolor is biased for N-acetylglucosamine metabolism.#J Bacteriol.#185#7019-7023##Nothaft H, Rigali S, Boomsma B, Swiatek M, McDowall KJ, van Wezel GP, Titgemeyer F.#2010#The permease gene nagE2 is the key to N-acetylglucosamine sensing and utilization in Streptomyces coelicolor and is subject to multi-level control.#Mol Microbiol.#75#1133-1144#;10.1128/JB.185.23.7019-7023.2003, 10.1111/j.1365-2958.2009.07020.x
+ACSERt;;;
+ACTt;;Xu Y, Willems A, Au-Yeung C, Tahlan K, Nodwell JR.#2012#A two-step mechanism for the activation of actinorhodin export and resistance in Streptomyces coelicolor.#MBio.#3#e00191-12#;10.1128/mBio.00191-12
+ACt2r;;;
+ACt4;;;
+ADEt;;;
+ADNt2;;;
+AKGt2r;;;
+ALAALAabc;;;
+ALAabc;;;
+ALAt2r;;;
+ALAt4;;;
+ALLTNt2r;;;
+ANTHte;;;
+ARBabc;;;
+ARBt2r;;;
+ARGAGMt7;;;
+ARGORNt7;;;
+ARGabc;;;
+ARGt3;;;
+ASNabc;;;
+ASNt2r;;;
+ASO3t8;;;
+ASPabc;;;
+ASPt2_2;;;
+ASPt2r;;;
+ATPS4r;;;
+BALAt2;;;
+BHBt;Required for growth using (R)-3-Hydroxybutanoate as a carbon source;;
+BTNt2i;To utilize extracellular biotin;;
+CA2abc1;;;
+CA2t4;;;
+CADVt;Required to secrete cadaverine;;
+CBIabc;;;
+CBL1abc;To utilize extracellular cob(1)alamin;;
+CD2abc;;;
+CD2t4;;;
+CDAabc;;;
+CDAti;;;
+CELLBabc;;;
+CELLUL_DEGe;;;
+CHLabc;;;
+CHLt2;;;
+CHTBSabc;;Saito A, Shinya T, Miyamoto K, Yokoyama T, Kaku H, Minami E, Shibuya N, Tsujibo H, Nagata Y, Ando A, Fujii T, Miyashita K.#2007#The dasABC gene cluster, adjacent to dasR, encodes a novel ABC transporter for the uptake of N,N'-diacetylchitobiose in Streptomyces coelicolor A3(2).#Appl Environ Microbiol.#73#3000-3008#Saito A, Fujii T, Shinya T, Shibuya N, Ando A, Miyashita K.#2008##The msiK gene, encoding the ATP-hydrolysing component of N,N'-diacetylchitobiose ABC transporters, is essential for induction of chitinase production in Streptomyces coelicolor A3(2).#Microbiology.#154#3358-3365#;10.1099/mic.0.2008/019612-0, 10.1128/AEM.02612-06
+CHTNDG;;;
+CITRLt;;;
+CITt3;Required to secrete citrate;;
+CITt7;;;
+CLt3_2;;;
+CO2t;Spontaneous reaction;;
+COBALT2t;;;
+COBALT2t3;;;
+COELICHELINUt;Iron uptake using coelichelin system;;
+COELICHELINabc;;Patel P, Song L, Challis GL.#2010#Distinct extracytoplasmic siderophore binding proteins recognize ferrioxamines and ferricoelichelin in Streptomyces coelicolor A3(2).#Biochemistry.#49#8033-8042#;10.1021/bi100451k
+CPKS6;;;
+CPKSt;;;
+CSNt2;;;
+CSNt2r;;;
+CU1abc;;;
+CU2abc;;;
+CU2t;Required for growth (copper uptake);;
+CUt3;To utilize cu(I);;
+CYO2a;;Corynebacterium glutamicum#Niebisch A, Bott M.#2001#Molecular analysis of the cytochrome bc1-aa3 branch of the Corynebacterium glutamicum respiratory chain containing an unusual diheme cytochrome c1.#Arch Microbiol.#175#282-294#;10.1007/s002030100262
+CYSabc;;;
+CYSabc2;;;
+CYSt;;;
+CYTBD2;;Corynebacterium glutamicum#Niebisch A, Bott M.#2001#Molecular analysis of the cytochrome bc1-aa3 branch of the Corynebacterium glutamicum respiratory chain containing an unusual diheme cytochrome c1.#Arch Microbiol.#175#282-294#;10.1007/s002030100262
+CYTDt2;;;
+DADNt2;To utilize extracellular nucleoside;;
+DALAt2r;;;
+DAPLLabc;;;
+DAPabc;Required for growth using M-diaminopimelic acid as a carbon source;;
+DARBabc;;;
+DCYTt2;To utilize extracellular nucleoside;;
+DDGLCNt2r;To utilize 2-dehydro-3-deoxy-D-gluconate;;
+DGSNt2;To utilize extracellular nucleoside;;
+DHAt;Required for growth using dihydroxyacetone as a carbon source;;
+DINSt2;To utilize extracellular nucleoside;;
+DRIBt;Required for growth using deoxyribose as a carbon source;;
+DSERt2;;;
+DURIt2;To utilize extracellular nucleoside;;
+D_LACt2;;;
+ENTERt;;;
+EPMt2;Required for growth using epimelibiose as a carbon source;;
+ETHAt2;Required for growth using ethanolamine as a carbon source;;
+ETOHt;;;
+FALDt;Spontaneous reaction;;
+FE2t2;;;
+FE2t3;;;
+FE3abc;;;
+FEOXAMBUt;Iron uptake using desferrioxamine B system;;
+FEOXAMBabc;;Patel P, Song L, Challis GL.#2010#Distinct extracytoplasmic siderophore binding proteins recognize ferrioxamines and ferricoelichelin in Streptomyces coelicolor A3(2).#Biochemistry.#49#8033-8042#;10.1021/bi100451k
+FEOXAMEUt;Iron uptake using desferrioxamine E system;;
+FEOXAMEabc;;Patel P, Song L, Challis GL.#2010#Distinct extracytoplasmic siderophore binding proteins recognize ferrioxamines and ferricoelichelin in Streptomyces coelicolor A3(2).#Biochemistry.#49#8033-8042#;10.1021/bi100451k
+FORti;Spontaneous reaction;;
+FRUpts;;Nothaft H, Dresel D, Willimek A, Mahr K, Niederweis M, Titgemeyer F.#2003#The phosphotransferase system of Streptomyces coelicolor is biased for N-acetylglucosamine metabolism.#J Bacteriol.#185#7019-7023##Nothaft H, Parche S, Kamionka A, Titgemeyer F.#2003#In vivo analysis of HPr reveals a fructose-specific phosphotransferase system that confers high-affinity uptake in Streptomyces coelicolor.#J Bacteriol.#185#929-937#;10.1128/JB.185.23.7019-7023.2003, 10.1111/j.1365-2958.2009.07020.x
+FRUpts2;;;
+FUMt2_2;;;
+GALCTNt2;;;
+GALIt2;Required for growth using 1-alpha-D-Galactosyl-myo-inositol as a carbon source;;
+GALabc;;;
+GALt2;;;
+GALt4;;;
+GAMpts;;;
+GGLt2;Required for growth using galactosylglycerol as a carbon source;;
+GLCNt2r;;;
+GLCRt2r;;;
+GLCpts;;;
+GLCt2;;van Wezel GP, Mahr K, König M, Traag BA, Pimentel-Schmitt EF, Willimek A, Titgemeyer F.#2005#GlcP constitutes the major glucose uptake system of Streptomyces coelicolor A3(2).#Mol Microbiol.#55#624-636#;10.1111/j.1365-2958.2004.04413.x
+GLNabc;;;
+GLUabc;;;
+GLUt2r;;;
+GLUt4;;;
+GLYALDt;;;
+GLYBabc;;;
+GLYBt2r;;;
+GLYCAt2r;;;
+GLYCAt3;;;
+GLYCLTt;;;
+GLYCLTt2r;;;
+GLYCLTt4;;;
+GLYCt;;;
+GLYabc;;;
+GLYt2r;;;
+GLYt4;;;
+GSNt2;To utilize extracellular nucleoside;;
+GUAt;;;
+GUAt2r;;;
+H2O2t;Spontaneous reaction;;
+H2Ot;Spontaneous reaction;;
+H2St1;Spontaneous reaction;;
+HISabc;;;
+HISt2r;;;
+HOMt2;;;
+HYXNt;;;
+IDONt2r;;;
+ILEabc;;;
+ILEt2r;;;
+INDOLEt2r;Required for growth using L-tryptophan as a carbon source;;
+INOSTt4;;;
+INSt2;;;
+Kabc;;;
+Kt2;;;
+Kt3;;;
+LALADGLUt;;;
+LCTSabc;;;
+LEUabc;;;
+LEUt2r;;;
+LIPOt2;To utilize extracellular lipoate;;
+LYSabc;;;
+LYSt2r;;;
+LYSt3r;;;
+LYXDabc;;;
+LYXabc;;;
+LYXt2;Required for growth using L-lyxose as a carbon source;Streptomyces lividans#Madduri K, Stuttard C, Vining LC.#1989#Lysine catabolism in Streptomyces spp. is primarily through cadaverine: beta-lactam producers also make alpha-aminoadipate.#J Bacteriol.#171#299-302#;10.1128/jb.171.1.299-302.1989
+L_LACt2r;;;
+MALTHXabc;;Saito A, Fujii T, Shinya T, Shibuya N, Ando A, Miyashita K.#2008#The msiK gene, encoding the ATP-hydrolysing component of N,N'-diacetylchitobiose ABC transporters, is essential for induction of chitinase production in Streptomyces coelicolor A3(2).#Microbiology.#154#3358-3365#;10.1099/mic.0.2008/019612-0
+MALTPTabc;;Saito A, Fujii T, Shinya T, Shibuya N, Ando A, Miyashita K.#2008#The msiK gene, encoding the ATP-hydrolysing component of N,N'-diacetylchitobiose ABC transporters, is essential for induction of chitinase production in Streptomyces coelicolor A3(2).#Microbiology.#154#3358-3365#;10.1099/mic.0.2008/019612-0
+MALTTRabc;;Saito A, Fujii T, Shinya T, Shibuya N, Ando A, Miyashita K.#2008#The msiK gene, encoding the ATP-hydrolysing component of N,N'-diacetylchitobiose ABC transporters, is essential for induction of chitinase production in Streptomyces coelicolor A3(2).#Microbiology.#154#3358-3365#;10.1099/mic.0.2008/019612-0
+MALTTTRabc;;Saito A, Fujii T, Shinya T, Shibuya N, Ando A, Miyashita K.#2008#The msiK gene, encoding the ATP-hydrolysing component of N,N'-diacetylchitobiose ABC transporters, is essential for induction of chitinase production in Streptomyces coelicolor A3(2).#Microbiology.#154#3358-3365#;10.1099/mic.0.2008/019612-0
+MALTabc;;Saito A, Fujii T, Shinya T, Shibuya N, Ando A, Miyashita K.#2008#The msiK gene, encoding the ATP-hydrolysing component of N,N'-diacetylchitobiose ABC transporters, is essential for induction of chitinase production in Streptomyces coelicolor A3(2).#Microbiology.#154#3358-3365#;10.1099/mic.0.2008/019612-0
+MALTpts;;;
+MALTt1r;;;
+MALt2_2;;;
+MALt2_3;;;
+MALt3;Required to secrete L-malate ;;
+MANpts;;;
+MANt2;Required for growth using D-mannose as a carbon source;;
+MELIBt2;Required for growth using melibiose as a carbon source;;
+MELTt2;Required for growth using melibiitol as a carbon source;;
+MEOHtr;Spontaneous reaction;;
+METabc;;;
+MG2t;;;
+MG2uabc;;;
+MN2t3;;;
+MNLabc;;;
+MNLpts;;;
+MNt2;;;
+MOBDabc;;;
+N2Ot;Spontaneous reaction;;
+NACt;To utilize extracellular nicotinic acid;;
+NADH17b;;;
+NADH8;;;
+NAt3_1;;;
+NAt3_15;;;
+NAt3_2;;Park SH, Choi SS, Kim YJ, Chang YK, Sherman DH, Kim ES.#2009#Functional expression of SCO7832 stimulates tautomycetin production via pathway-specific regulatory gene overexpression in Streptomyces sp. CK4412.#J Ind Microbiol Biotechnol.#36#993-998#;10.1007/s10295-009-0580-5
+NH4t;;;
+NI2t;;;
+NI2t3;;;
+NMNP;;;
+NO2t2r;;;
+NO3R2;;Wang J, Zhao GP.#2009#GlnR positively regulates nasA transcription in Streptomyces coelicolor.#Biochem Biophys Res Commun.#386#77-81##Fischer M, Alderson J, van Keulen G, White J, Sawers RG.#2010#The obligate aerobe Streptomyces coelicolor A3(2) synthesizes three active respiratory nitrate reductases.#Microbiology.#156#3166-3179#;10.1016/j.bbrc.2009.05.147, 10.1099/mic.0.042572-0
+NO3t;;;
+NO3t7;;;
+NOt;Spontaneous reaction;;
+Niabc;;;
+O2t;Spontaneous reaction;;
+ORNabc;;;
+OROTt2_2;;;
+PACALDt2r;Required for growth using L-phenylalanine as a nitrogen source;Streptomyces lividans#Madduri K, Stuttard C, Vining LC.#1989#Lysine catabolism in Streptomyces spp. is primarily through cadaverine: beta-lactam producers also make alpha-aminoadipate.#J Bacteriol.#171#299-302#;10.1128/jb.171.1.299-302.1989
+PACt;;;
+PHEt2r;;;
+PIt2r;;;
+PNTOt4;;;
+PPA_1;;;
+PPAt4;;;
+PPAt6;;;
+PROabc;;;
+PROt2r;;;
+PROt4;;;
+PTRCabc;;;
+PTRCt2;;;
+PYDAMt;To utilize extracellular pyridoxamine;;
+PYDXNt;To utilize extracellular pyridoxine;;
+PYDXt;To utilize extracellular pyridoxal;;
+PYRt2;;;
+Piabc;;;
+RAFFINt2;;;
+REDt;;;
+RIBabc;;;
+RMNabc;;;
+RMNt;;;
+SALCpts;Required for growth using salicin as a carbon source;;
+SBTabc;;;
+SBTpts;;;
+SCB1t;;;
+SCB2t;;;
+SCB3t;;;
+SERt2r;Required for growth using L-serine as a carbon source;;
+SERt4;;;
+SKMt2;;;
+SO4t2;;;
+SPMDabc;;;
+SPMDt3;;;
+SUCCt2_2;;;
+SUCCt2_3;;;
+SUCCt2b;;;
+SUCD3;;Bacillus subtilis#Schirawski J, Unden G.#1998#Menaquinone-dependent succinate dehydrogenase of bacteria catalyzes reversed electron transport driven by the proton potential.#Eur J Biochem.#257#210-215#;10.1046/j.1432-1327.1998.2570210.x
+SUCFUMt;;;
+SUCRabc;;;
+SULabc;;;
+TARTRt7;;;
+TARTt2_3;Required for growth using D-tartrate as a carbon source;;
+TAURabc;;;
+THD2;;;
+THMDt2;;;
+THMabc;;;
+THRabc;;;
+THRt2;;;
+THRt4;;;
+THYMabc;;;
+THYMt3r;To utilize extracellular nucleobase;;
+TREabc;;;
+TREpts;;;
+TRPt2r;;;
+TUNGSabc;;;
+TYRt2r;;;
+URAt2;;;
+UREAt;;;
+URIt2;;;
+VALabc;;;
+VALt2r;;;
+VANK;Required for growth using vanillate as a carbon source;;
+XANt;;;
+XANt2;;;
+XTSNt2;;;
+XYLAN_DEGe;;;
+XYLTabc;;;
+XYLabc;;;
+XYLt2;;;
+ZN2t3;;;
+ZNabc;;;
+tcaABC;;;
+DM_2hymeph_c;;;
+DM_2mborn_c;;;
+DM_33biflav_c;;;
+DM_38biflav_c;;;
+DM_4crsol_c;;;
+DM_5drib_c;;;
+DM_ACT_c;;;
+DM_RED_c;;;
+DM_aacald_c;;;
+DM_acetone_c;;;
+DM_aconm_c;;;
+DM_ahop_c;;;
+DM_albflon_c;;;
+DM_amob_c;;;
+DM_dalua_c;;;
+DM_ectoine__L_c;;;
+DM_geosmin_c;;;
+DM_germicidinA_c;;;
+DM_germicidinB_c;;;
+DM_germicidinC_c;;;
+DM_germicidinD_c;;;
+DM_grmcrnd_c;;;
+DM_mmyA_c;;;
+DM_mmyB_c;;;
+DM_msh_c;;;
+DM_strprub_c;;;
+EX_14glucan_e;;;
+EX_15dap_e;;;
+EX_1Dgali_e;;;
+EX_23camp_e;;;
+EX_23ccmp_e;;;
+EX_23cgmp_e;;;
+EX_23cump_e;;;
+EX_26dap_LL_e;;;
+EX_26dap__M_e;;;
+EX_2ddglcn_e;;;
+EX_3amp_e;;;
+EX_3cmp_e;;;
+EX_3gmp_e;;;
+EX_3ump_e;;;
+EX_4abut_e;;;
+EX_4ahmmp_e;;;
+EX_5dglcn_e;;;
+EX_5mtr_e;;;
+EX_CDA_e;;;
+EX_LalaDglu_e;;;
+EX_abt__D_e;;;
+EX_ac_e;;;
+EX_acald_e;;;
+EX_acgam_e;;;
+EX_acser_e;;;
+EX_ade_e;;;
+EX_adn_e;;;
+EX_agm_e;;;
+EX_akg_e;;;
+EX_ala_B_e;;;
+EX_ala__D_e;;;
+EX_ala__L_e;;;
+EX_alaala_e;;;
+EX_alltn_e;;;
+EX_amp_e;;;
+EX_anth_e;;;
+EX_arab__D_e;;;
+EX_arab__L_e;;;
+EX_arg__L_e;;;
+EX_asn__L_e;;;
+EX_aso3_e;;;
+EX_asp__L_e;;;
+EX_bhb_e;;;
+EX_btn_e;;;
+EX_ca2_e;;;
+EX_cbi_e;;;
+EX_cbl1_e;;;
+EX_cd2_e;;;
+EX_cellb_e;;;
+EX_cellul_e;;;
+EX_chol_e;;;
+EX_chtbs_e;;;
+EX_cit_e;;;
+EX_citr__L_e;;;
+EX_cl_e;;;
+EX_cmp_e;;;
+EX_co2_e;;;
+EX_cobalt2_e;;;
+EX_coelichelin_e;;;
+EX_csn_e;;;
+EX_cu2_e;;;
+EX_cu_e;;;
+EX_cys__L_e;;;
+EX_cytd_e;;;
+EX_dad_2_e;;;
+EX_damp_e;;;
+EX_dcmp_e;;;
+EX_dcyt_e;;;
+EX_desferrioxamB_e;;;
+EX_desferrioxamE_e;;;
+EX_dgmp_e;;;
+EX_dgsn_e;;;
+EX_dha_e;;;
+EX_dimp_e;;;
+EX_din_e;;;
+EX_drib_e;;;
+EX_dtmp_e;;;
+EX_dump_e;;;
+EX_duri_e;;;
+EX_epm_e;;;
+EX_etha_e;;;
+EX_etoh_e;;;
+EX_fald_e;;;
+EX_fe2_e;;;
+EX_fe3_e;;;
+EX_feroxB_e;;;
+EX_feroxE_e;;;
+EX_ferricoelichelin_e;;;
+EX_for_e;;;
+EX_fru_e;;;
+EX_fum_e;;;
+EX_g3pc_e;;;
+EX_g3pe_e;;;
+EX_g3pg_e;;;
+EX_g3pi_e;;;
+EX_g3ps_e;;;
+EX_gACT_e;;;
+EX_gal_e;;;
+EX_galctn__D_e;;;
+EX_gam_e;;;
+EX_ggl_e;;;
+EX_glc__D_e;;;
+EX_glcn_e;;;
+EX_glcr_e;;;
+EX_gln__L_e;;;
+EX_glu__L_e;;;
+EX_gly_e;;;
+EX_glyald_e;;;
+EX_glyb_e;;;
+EX_glyc3p_e;;;
+EX_glyc__R_e;;;
+EX_glyc_e;;;
+EX_glyclt_e;;;
+EX_gmp_e;;;
+EX_gsn_e;;;
+EX_gua_e;;;
+EX_h2o2_e;;;
+EX_h2o_e;;;
+EX_h2s_e;;;
+EX_h_e;;;
+EX_his__L_e;;;
+EX_hom__L_e;;;
+EX_hxan_e;;;
+EX_idon__L_e;;;
+EX_ile__L_e;;;
+EX_imp_e;;;
+EX_indole_e;;;
+EX_inost_e;;;
+EX_ins_e;;;
+EX_k_e;;;
+EX_lac__D_e;;;
+EX_lac__L_e;;;
+EX_lcts_e;;;
+EX_leu__L_e;;;
+EX_lipoate_e;;;
+EX_lys__L_e;;;
+EX_lyx__D_e;;;
+EX_lyx__L_e;;;
+EX_mal__L_e;;;
+EX_malt_e;;;
+EX_malthp_e;;;
+EX_malthx_e;;;
+EX_maltpt_e;;;
+EX_malttr_e;;;
+EX_maltttr_e;;;
+EX_man_e;;;
+EX_melib_e;;;
+EX_melt_e;;;
+EX_meoh_e;;;
+EX_met__L_e;;;
+EX_mg2_e;;;
+EX_mn2_e;;;
+EX_mnl_e;;;
+EX_mobd_e;;;
+EX_n2o_e;;;
+EX_na1_e;;;
+EX_nac_e;;;
+EX_nh4_e;;;
+EX_ni2_e;;;
+EX_nmn_e;;;
+EX_no2_e;;;
+EX_no3_e;;;
+EX_no_e;;;
+EX_o2_e;;;
+EX_orn_e;;;
+EX_orot_e;;;
+EX_pac_e;;;
+EX_pacald_e;;;
+EX_phe__L_e;;;
+EX_pi_e;;;
+EX_pnto__R_e;;;
+EX_ppa_e;;;
+EX_pro__L_e;;;
+EX_ptrc_e;;;
+EX_pydam_e;;;
+EX_pydx_e;;;
+EX_pydxn_e;;;
+EX_pyr_e;;;
+EX_raffin_e;;;
+EX_rib__D_e;;;
+EX_rmn_e;;;
+EX_salcn_e;;;
+EX_sbt__D_e;;;
+EX_ser__D_e;;;
+EX_ser__L_e;;;
+EX_skm_e;;;
+EX_so4_e;;;
+EX_spmd_e;;;
+EX_succ_e;;;
+EX_sucr_e;;;
+EX_tartr__D_e;;;
+EX_taur_e;;;
+EX_thm_e;;;
+EX_thr__L_e;;;
+EX_thym_e;;;
+EX_thymd_e;;;
+EX_tre_e;;;
+EX_trp__L_e;;;
+EX_tungs_e;;;
+EX_tyr__L_e;;;
+EX_ump_e;;;
+EX_ura_e;;;
+EX_urea_e;;;
+EX_uri_e;;;
+EX_val__L_e;;;
+EX_vanlt_e;;;
+EX_xan_e;;;
+EX_xmp_e;;;
+EX_xtsn_e;;;
+EX_xyl__D_e;;;
+EX_xylan_e;;;
+EX_xylt_e;;;
+EX_zn2_e;;;
