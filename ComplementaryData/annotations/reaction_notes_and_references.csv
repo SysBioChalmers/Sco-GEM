@@ -241,7 +241,7 @@ ACBIPGT;;;
 ACCAHh;;;
 ACCOAC;;Rodríguez E, Banchio C, Diacovich L, Bibb MJ, Gramajo H.#2001#Role of an essential acyl coenzyme A carboxylase in the primary and secondary metabolism of Streptomyces coelicolor A3(2).#Appl Environ Microbiol.#67#4166-4176#;10.1128/AEM.67.9.4166-4176.2001
 ACCOAC_1;;;
-ACCS;This reaction is infered from biochemical constraints: reaction producing N-acetyl-L-cysteine, reported in Recon2 (RE2223M), has not been identified in S. coelicolor: a probable reaction would be an aminoacyltransferase using cysteine and acetyl-coa: potential candidate CpkL and CpkK;"Amara A, Takano E, Breitling R. Development and validation of an updated computational model of Streptomyces coelicolor primary and secondary metabolism. BMC Genomics. 2018;19(1):519";10.1186/s12864-018-4905-5
+ACCS;This reaction is infered from biochemical constraints: reaction producing N-acetyl-L-cysteine, reported in Recon2 (RE2223M), has not been identified in S. coelicolor: a probable reaction would be an aminoacyltransferase using cysteine and acetyl-coa: potential candidate CpkL and CpkK;"Amara A, Takano E, Breitling R. Development and validation of an updated computational model of Streptomyces coelicolor primary and secondary metabolism. BMC Genomics. 2018;19(1):519";10.1186/s12864-018-4905-5
 ACETDH;;;
 ACGAMK;;?wi?tek MA, Tenconi E, Rigali S, van Wezel GP.#2012#Functional analysis of the N-acetylglucosamine metabolic genes of Streptomyces coelicolor and role in control of development and antibiotic production.#J Bacteriol.#194#1136-1144#;10.1128/JB.06370-11
 ACGK;;;
@@ -594,7 +594,7 @@ CINNDOX;;;
 CITCIa2;;;
 CITCIb;;;
 CITL;;;
-CITMS;BLASTP homology;"Kumelj, Tjaša, et al. ""Predicting strain engineering strategies using iKS1317: a genome?scale metabolic model of Streptomyces coelicolor."" Biotechnology journal (2018): 1800180.";10.1002/biot.201800180
+CITMS;BLASTP homology;"Kumelj, Tjaša, et al. ""Predicting strain engineering strategies using iKS1317: a genome?scale metabolic model of Streptomyces coelicolor."" Biotechnology journal (2018): 1800180.";10.1002/biot.201800180
 CLADHAL;;;
 CLPNS120;;;
 CLPNS140;;;
@@ -646,15 +646,9 @@ CPC6R;Anaerobic adenosylcobalamin biosynthetic pathway (incomplete);;
 CPC8MM;Anaerobic adenosylcobalamin biosynthetic pathway (incomplete);;
 CPKS1;Module 1, 2 and 3;"Pawlik K, Kotowska M, Chater KF, Kuczek K, Takano E. A cryptic type I polyketide synthase (cpk) gene cluster in Streptomyces coelicolor A3 (2). Archives of microbiology. 2007 Feb 1;187(2):87-99.";10.1007/s00203-006-0176-7
 CPKS2;Module 4 and 5;"Pawlik K, Kotowska M, Chater KF, Kuczek K, Takano E. A cryptic type I polyketide synthase (cpk) gene cluster in Streptomyces coelicolor A3 (2). Archives of microbiology. 2007 Feb 1;187(2):87-99.";10.1007/s00203-006-0176-7
-CPKS3;;"Awodi UR, Ronan JL, Masschelein J, de los Santos EL, Challis GL. Thioester reduction and aldehyde transamination are universal steps in actinobacterial polyketide alkaloid biosynthesis. Chemical Science. 2017;8(1):411-5.";
-Pawlik K, Kotowska M, Chater KF, Kuczek K, Takano E. A cryptic type I polyketide synthase (cpk) gene cluster in Streptomyces coelicolor A3 (2). Archives of microbiology. 2007 Feb 1;"187(2):87-99.""";10.1039/c6sc02803a, 10.1039/c6sc02803a;CPKS3
-Pawlik K, Kotowska M, Chater KF, Kuczek K, Takano E. A cryptic type I polyketide synthase (cpk) gene cluster in Streptomyces coelicolor A3 (2). Archives of microbiology. 2007 Feb 1;"187(2):87-99.""";TRUE;TRUE
-CPKS4a;;"Awodi UR, Ronan JL, Masschelein J, de los Santos EL, Challis GL. Thioester reduction and aldehyde transamination are universal steps in actinobacterial polyketide alkaloid biosynthesis. Chemical Science. 2017;8(1):411-5.";
-Pawlik K, Kotowska M, Chater KF, Kuczek K, Takano E. A cryptic type I polyketide synthase (cpk) gene cluster in Streptomyces coelicolor A3 (2). Archives of microbiology. 2007 Feb 1;"187(2):87-99.""";10.1039/c6sc02803a, 10.1039/c6sc02803a;CPKS4a
-Pawlik K, Kotowska M, Chater KF, Kuczek K, Takano E. A cryptic type I polyketide synthase (cpk) gene cluster in Streptomyces coelicolor A3 (2). Archives of microbiology. 2007 Feb 1;"187(2):87-99.""";TRUE;TRUE
-CPKS4b;;"Awodi UR, Ronan JL, Masschelein J, de los Santos EL, Challis GL. Thioester reduction and aldehyde transamination are universal steps in actinobacterial polyketide alkaloid biosynthesis. Chemical Science. 2017;8(1):411-5.";
-Pawlik K, Kotowska M, Chater KF, Kuczek K, Takano E. A cryptic type I polyketide synthase (cpk) gene cluster in Streptomyces coelicolor A3 (2). Archives of microbiology. 2007 Feb 1;"187(2):87-99.""";10.1039/c6sc02803a, 10.1039/c6sc02803a;CPKS4b
-Pawlik K, Kotowska M, Chater KF, Kuczek K, Takano E. A cryptic type I polyketide synthase (cpk) gene cluster in Streptomyces coelicolor A3 (2). Archives of microbiology. 2007 Feb 1;"187(2):87-99.""";TRUE;TRUE
+CPKS3;;"Awodi UR, Ronan JL, Masschelein J, de los Santos EL, Challis GL. Thioester reduction and aldehyde transamination are universal steps in actinobacterial polyketide alkaloid biosynthesis. Chemical Science. 2017;8(1):411-5., Pawlik K, Kotowska M, Chater KF, Kuczek K, Takano E. A cryptic type I polyketide synthase (cpk) gene cluster in Streptomyces coelicolor A3 (2). Archives of microbiology. 2007 Feb 1;187(2):87-99.";10.1039/c6sc02803a, 10.1007/s00203-006-0176-7
+CPKS4a;;"Awodi UR, Ronan JL, Masschelein J, de los Santos EL, Challis GL. Thioester reduction and aldehyde transamination are universal steps in actinobacterial polyketide alkaloid biosynthesis. Chemical Science. 2017;8(1):411-5., Pawlik K, Kotowska M, Chater KF, Kuczek K, Takano E. A cryptic type I polyketide synthase (cpk) gene cluster in Streptomyces coelicolor A3 (2). Archives of microbiology. 2007 Feb 1;187(2):87-99.";10.1039/c6sc02803a, 10.1007/s00203-006-0176-7
+CPKS4b;;"Awodi UR, Ronan JL, Masschelein J, de los Santos EL, Challis GL. Thioester reduction and aldehyde transamination are universal steps in actinobacterial polyketide alkaloid biosynthesis. Chemical Science. 2017;8(1):411-5., Pawlik K, Kotowska M, Chater KF, Kuczek K, Takano E. A cryptic type I polyketide synthase (cpk) gene cluster in Streptomyces coelicolor A3 (2). Archives of microbiology. 2007 Feb 1;187(2):87-99.";10.1039/c6sc02803a, 10.1007/s00203-006-0176-7
 CPKS5;EC enzymes exported by TAT exrection system;"Gomez-Escribano JP, Song L, Fox DJ, Yeo V, Bibb MJ, Challis GL. Structure and biosynthesis of the unusual polyketide alkaloid coelimycin P1, a metabolic product of the cpk gene cluster of Streptomyces coelicolor M145. Chemical Science. 2012;3(9):2716-20.";10.1039/C2SC20410J
 CPMPS;;Fischer M, Alderson J, van Keulen G, White J, Sawers RG.#2010#The obligate aerobe Streptomyces coelicolor A3(2) synthesizes three active respiratory nitrate reductases.#Microbiology.#156#3166-3179#;10.1099/mic.0.042572-0
 CPPPGO2;;;
@@ -2270,15 +2264,9 @@ RMNt;;;
 SALCpts;Required for growth using salicin as a carbon source;;
 SBTabc;;;
 SBTpts;;;
-SCB1t;Quorum Sensing: small diffusible molecules;"Takano, Eriko. ""?-Butyrolactones: Streptomyces signalling molecules regulating antibiotic production and differentiation."" Current opinion in microbiology 9.3 (2006): 287-294.";
-"Kato, Jun-ya, et al. """"Biosynthesis of ?-butyrolactone autoregulators that switch on secondary metabolism and morphological development in Streptomyces."""" Proceedings of the National Academy of Sciences 104.7 (2007): 2378-2383.""";10.1016/j.mib.2006.04.003, 10.1073/pnas.0607472104;SCB1t;Quorum Sensing: small diffusible molecules
-"Kato, Jun-ya, et al. """"Biosynthesis of ?-butyrolactone autoregulators that switch on secondary metabolism and morphological development in Streptomyces."""" Proceedings of the National Academy of Sciences 104.7 (2007): 2378-2383.""";TRUE;FALSE;
-SCB2t;Quorum Sensing: small diffusible molecules;"Takano, Eriko. ""?-Butyrolactones: Streptomyces signalling molecules regulating antibiotic production and differentiation."" Current opinion in microbiology 9.3 (2006): 287-294.";
-"Kato, Jun-ya, et al. """"Biosynthesis of ?-butyrolactone autoregulators that switch on secondary metabolism and morphological development in Streptomyces."""" Proceedings of the National Academy of Sciences 104.7 (2007): 2378-2383.""";10.1016/j.mib.2006.04.003, 10.1073/pnas.0607472104;SCB2t;Quorum Sensing: small diffusible molecules
-"Kato, Jun-ya, et al. """"Biosynthesis of ?-butyrolactone autoregulators that switch on secondary metabolism and morphological development in Streptomyces."""" Proceedings of the National Academy of Sciences 104.7 (2007): 2378-2383.""";TRUE;FALSE;
-SCB3t;Quorum Sensing: small diffusible molecules;"Takano, Eriko. ""?-Butyrolactones: Streptomyces signalling molecules regulating antibiotic production and differentiation."" Current opinion in microbiology 9.3 (2006): 287-294.";
-"Kato, Jun-ya, et al. """"Biosynthesis of ?-butyrolactone autoregulators that switch on secondary metabolism and morphological development in Streptomyces."""" Proceedings of the National Academy of Sciences 104.7 (2007): 2378-2383.""";10.1016/j.mib.2006.04.003, 10.1073/pnas.0607472104;SCB3t;Quorum Sensing: small diffusible molecules
-"Kato, Jun-ya, et al. """"Biosynthesis of ?-butyrolactone autoregulators that switch on secondary metabolism and morphological development in Streptomyces."""" Proceedings of the National Academy of Sciences 104.7 (2007): 2378-2383.""";TRUE;FALSE;
+SCB1t;Quorum Sensing: small diffusible molecules;"Takano, Eriko. ""?-Butyrolactones: Streptomyces signalling molecules regulating antibiotic production and differentiation."" Current opinion in microbiology 9.3 (2006): 287-294., Kato, Jun-ya, et al. ""Biosynthesis of ?-butyrolactone autoregulators that switch on secondary metabolism and morphological development in Streptomyces."" Proceedings of the National Academy of Sciences 104.7 (2007): 2378-2383.";10.1016/j.mib.2006.04.003, 10.1073/pnas.0607472104
+SCB2t;Quorum Sensing: small diffusible molecules;"Takano, Eriko. ""?-Butyrolactones: Streptomyces signalling molecules regulating antibiotic production and differentiation."" Current opinion in microbiology 9.3 (2006): 287-294., Kato, Jun-ya, et al. ""Biosynthesis of ?-butyrolactone autoregulators that switch on secondary metabolism and morphological development in Streptomyces."" Proceedings of the National Academy of Sciences 104.7 (2007): 2378-2383.";10.1016/j.mib.2006.04.003, 10.1073/pnas.0607472104
+SCB3t;Quorum Sensing: small diffusible molecules;"Takano, Eriko. ""?-Butyrolactones: Streptomyces signalling molecules regulating antibiotic production and differentiation."" Current opinion in microbiology 9.3 (2006): 287-294., Kato, Jun-ya, et al. ""Biosynthesis of ?-butyrolactone autoregulators that switch on secondary metabolism and morphological development in Streptomyces."" Proceedings of the National Academy of Sciences 104.7 (2007): 2378-2383.";10.1016/j.mib.2006.04.003, 10.1073/pnas.0607472104
 SERt2r;Required for growth using L-serine as a carbon source;;
 SERt4;;;
 SKMt2;;;
