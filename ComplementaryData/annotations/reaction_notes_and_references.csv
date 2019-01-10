@@ -395,10 +395,10 @@ ALATA_D2;;;
 ALATA_L;;;
 ALATA_L2;;;
 ALATRS;;;
-ALBFLOLR;;;
-ALBFLOLS;;;
-ALBFLONR;;;
-ALBFLONS;;;
+ALBFLOLR;;G. L. Challis, Exploitation of the Streptomyces coelicolor A3(2) genome sequence for discovery of new natural products and biosynthetic pathways, Journal of Industrial Microbiology & Biotechnology 41 (2) (2014) 219–232.;10.1007/s10295-013-1383-2
+ALBFLOLS;;G. L. Challis, Exploitation of the Streptomyces coelicolor A3(2) genome sequence for discovery of new natural products and biosynthetic pathways, Journal of Industrial Microbiology & Biotechnology 41 (2) (2014) 219–232.;10.1007/s10295-013-1383-2
+ALBFLONR;;G. L. Challis, Exploitation of the Streptomyces coelicolor A3(2) genome sequence for discovery of new natural products and biosynthetic pathways, Journal of Industrial Microbiology & Biotechnology 41 (2) (2014) 219–232.;10.1007/s10295-013-1383-2
+ALBFLONS;;G. L. Challis, Exploitation of the Streptomyces coelicolor A3(2) genome sequence for discovery of new natural products and biosynthetic pathways, Journal of Industrial Microbiology & Biotechnology 41 (2) (2014) 219–232.;10.1007/s10295-013-1383-2
 ALCD19;;;
 ALCD19y;;;
 ALCD2s;;;
@@ -594,7 +594,7 @@ CINNDOX;;;
 CITCIa2;;;
 CITCIb;;;
 CITL;;;
-CITMS;;;
+CITMS;BLASTP homology;"Kumelj, Tjaša, et al. ""Predicting strain engineering strategies using iKS1317: a genome?scale metabolic model of Streptomyces coelicolor."" Biotechnology journal (2018): 1800180.";10.1002/biot.201800180
 CLADHAL;;;
 CLPNS120;;;
 CLPNS140;;;
@@ -1125,10 +1125,10 @@ GPDDA4;;;
 GPDDA4e;;;
 GPDDA5;;;
 GPDDA5e;;;
-GRMCRDS;;;
-GRMCROS;;;
+GRMCRDS;;G. L. Challis, Exploitation of the Streptomyces coelicolor A3(2) genome sequence for discovery of new natural products and biosynthetic pathways, Journal of Industrial Microbiology & Biotechnology 41 (2) (2014) 219–232.;10.1007/s10295-013-1383-2
+GRMCROS;;G. L. Challis, Exploitation of the Streptomyces coelicolor A3(2) genome sequence for discovery of new natural products and biosynthetic pathways, Journal of Industrial Microbiology & Biotechnology 41 (2) (2014) 219–232.;10.1007/s10295-013-1383-2
 GRTT;;;
-GSMNSYN;;;
+GSMNSYN;;G. L. Challis, Exploitation of the Streptomyces coelicolor A3(2) genome sequence for discovery of new natural products and biosynthetic pathways, Journal of Industrial Microbiology & Biotechnology 41 (2) (2014) 219–232.;10.1007/s10295-013-1383-2
 GTHPi;;;
 GTHRDH;;;
 GTPCI;;;
@@ -1362,12 +1362,12 @@ MMM;;;
 MMSAD1;;;
 MMSAD3;;Zhang YX, Tang L, Hutchinson CR.#1996#Cloning and characterization of a gene (msdA) encoding methylmalonic acid semialdehyde dehydrogenase from Streptomyces coelicolor.#J Bacteriol.#178#490-495#;10.1128/jb.178.2.490-495.1996
 MMSAD5;;Zhang YX, Tang L, Hutchinson CR.#1996#Cloning and characterization of a gene (msdA) encoding methylmalonic acid semialdehyde dehydrogenase from Streptomyces coelicolor.#J Bacteriol.#178#490-495#;10.1128/jb.178.2.490-495.1996
-MMSYNA;;;
-MMSYNB;;;
+MMSYNA;;G. L. Challis, Exploitation of the Streptomyces coelicolor A3(2) genome sequence for discovery of new natural products and biosynthetic pathways, Journal of Industrial Microbiology & Biotechnology 41 (2) (2014) 219–232.;10.1007/s10295-013-1383-2
+MMSYNB;;G. L. Challis, Exploitation of the Streptomyces coelicolor A3(2) genome sequence for discovery of new natural products and biosynthetic pathways, Journal of Industrial Microbiology & Biotechnology 41 (2) (2014) 219–232.;10.1007/s10295-013-1383-2
 MMTSAO;;;
-MMYSYN1;;;
-MMYSYN2;;;
-MMYSYN3;;;
+MMYSYN1;;G. L. Challis, Exploitation of the Streptomyces coelicolor A3(2) genome sequence for discovery of new natural products and biosynthetic pathways, Journal of Industrial Microbiology & Biotechnology 41 (2) (2014) 219–232.;10.1007/s10295-013-1383-2
+MMYSYN2;;G. L. Challis, Exploitation of the Streptomyces coelicolor A3(2) genome sequence for discovery of new natural products and biosynthetic pathways, Journal of Industrial Microbiology & Biotechnology 41 (2) (2014) 219–232.;10.1007/s10295-013-1383-2
+MMYSYN3;;G. L. Challis, Exploitation of the Streptomyces coelicolor A3(2) genome sequence for discovery of new natural products and biosynthetic pathways, Journal of Industrial Microbiology & Biotechnology 41 (2) (2014) 219–232.;10.1007/s10295-013-1383-2
 MNLDH2;;;
 MNNH;;;
 MOADSUx;;;
@@ -2104,7 +2104,7 @@ CPKSt;;"Gomez-Escribano JP, Song L, Fox DJ, Yeo V, Bibb MJ, Challis GL. Structur
 CSNt2;;;
 CSNt2r;;;
 CU1abc;;;
-CU2abc;;;
+CU2abc;;"Kampfenkel, Karlheinz, et al. ""Molecular characterization of a putative Arabidopsis thaliana copper transporter and its yeast homologue."" Journal of Biological Chemistry 270.47 (1995): 28479-2848";10.1074/jbc.270.47.28479
 CU2t;Required for growth (copper uptake);;
 CUt3;To utilize cu(I);;
 CYO2a;;Corynebacterium glutamicum#Niebisch A, Bott M.#2001#Molecular analysis of the cytochrome bc1-aa3 branch of the Corynebacterium glutamicum respiratory chain containing an unusual diheme cytochrome c1.#Arch Microbiol.#175#282-294#;10.1007/s002030100262
@@ -2290,7 +2290,7 @@ SUCCt2_3;;;
 SUCCt2b;;;
 SUCD3;;Bacillus subtilis#Schirawski J, Unden G.#1998#Menaquinone-dependent succinate dehydrogenase of bacteria catalyzes reversed electron transport driven by the proton potential.#Eur J Biochem.#257#210-215#;10.1046/j.1432-1327.1998.2570210.x
 SUCFUMt;;;
-SUCRabc;;;
+SUCRabc;;D. Hodgson, Carbohydrate utilization in streptomyces coelicolor a3 (2), Ph.D. thesis, University of East Anglia (1980), M. Elibol, F. Mavituna, Effect of sucrose on actinorhodin production by streptomyces coelicolor a3 (2), Process Biochemistry 33 (3) (1998) 307–311;10.1016/S0032-9592(97)00088-5
 SULabc;;;
 TARTRt7;;;
 TARTt2_3;Required for growth using D-tartrate as a carbon source;;
