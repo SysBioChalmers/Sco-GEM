@@ -67,7 +67,7 @@ REACTION_GENE_DICT = {
     "CBL1abc": "SCO2273",
     "GSNt2": "SCO3915 or SCO0079",
     "INSt2": "SCO3915 or SCO0079",
-    "PDH":  "SCO1269 and SCO1270 and (SCO2183 or SCO2371 or SCO7124) and (SCO0884 or SCO04919 or SCO2180) and (SCO1268 or SCO7123 or SCO2181) and (SCO3815 or SCO3829)", #This is a union of Sco4 and iKS1317 annotations
+    "PDH":  "SCO1269 and SCO1270 and (SCO2183 or SCO2371 or SCO7124) and (SCO0884 or SCO4919 or SCO2180) and (SCO1268 or SCO7123 or SCO2181) and (SCO3815 or SCO3829)", #This is a union of Sco4 and iKS1317 annotations
     "MGCH": "SCO4930",
 }
 
