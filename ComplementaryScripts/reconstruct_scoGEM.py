@@ -27,6 +27,7 @@ from consensusModel import fix_issue33_annotation_bugs
 from consensusModel import redox_pseudometabolite
 from consensusModel import fix_SBO_terms
 from consensusModel import fix_biomass
+from consensusModel import feat_annotations
 from reversibility import reversibility
 import export
 
@@ -51,6 +52,8 @@ MET_TO_CHEBI_FN = str(REPO_DIR / "ComplementaryData" / "curation" /"chebi_annota
 NEW_BIOMASS_DATA_FN = "../ComplementaryData/biomass/biomass_scaled.txt"
 EQUILIBRATOR_FN_1 = "../ComplementaryData/curation/reversibility/eQuilibrator_reversibility.csv"
 EQUILIBRATOR_FN_2 = "../ComplementaryData/curation/reversibility/eQuilibrator_reversibility_lethals.csv"
+
+DOI_ANNOTATIONS_FN = str(REPO_DIR / "ComplementaryData" / "annotations" / "reaction_notes_and_references.csv")
 
 def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
     scoGEM = cobra.io.read_sbml_model(model_fn)
@@ -96,6 +99,9 @@ def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
     fix_issue33_annotation_bugs.apply_new_chebi_annotations(scoGEM, MET_TO_CHEBI_FN)
     fix_issue33_annotation_bugs.fix_c_c_in_metabolite_ids(scoGEM)
     fix_issue33_annotation_bugs.fix_metanetx_reaction_annotations(scoGEM, RXN_TO_METANETX_FN)
+
+    # Additional annotations 
+    feat_annotations.add_doi_annotations(scoGEM, DOI_ANNOTATIONS_FN)
 
 
     # Part 5

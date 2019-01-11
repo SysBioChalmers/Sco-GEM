@@ -32077,6 +32077,8 @@
     - annotation: !!omap
       - SBO: SBO:0000630
       - bigg.reaction: ATPM
+      - doi:
+        - 10.1186/s12864-018-4905-5
       - kegg.subsystem: Other
       - metanetx.reaction:
         - MNXR96131
@@ -32614,6 +32616,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 2MBCOATA
+      - doi:
+        - 10.1128/JB.187.11.3795-3799.2005
       - ec-code: 2.3.1.180
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -33966,6 +33970,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: 3OAR100
       - biocyc: RXN-9528
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04534
@@ -33990,6 +33996,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OAR110
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34010,6 +34018,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OAR120
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04964
@@ -34034,6 +34044,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OAR121
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - metanetx.reaction:
@@ -34056,6 +34068,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OAR130
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34077,6 +34091,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: 3OAR140
       - biocyc: RXN-9536
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04566
@@ -34101,6 +34117,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OAR141
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - metanetx.reaction:
@@ -34123,6 +34141,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OAR150
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34143,6 +34163,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OAR160
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04543
@@ -34167,6 +34189,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OAR161
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - metanetx.reaction:
@@ -34189,6 +34213,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OAR170
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34209,6 +34235,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OAR180
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.pathway:
         - Fatty acid biosynthesis
@@ -34237,6 +34265,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: 3OAR181
       - biocyc: META:RXN-9556
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - metanetx.reaction:
@@ -34259,6 +34289,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OAR40
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04533
@@ -34284,6 +34316,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OAR50
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34304,6 +34338,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OAR60
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04953
@@ -34328,6 +34364,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OAR70
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34349,6 +34387,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: 3OAR80
       - biocyc: RXN-9524
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04536
@@ -34373,6 +34413,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OAR90
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34393,6 +34435,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OARai110
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34413,6 +34457,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OARai130
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34433,6 +34479,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OARai150
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34453,6 +34501,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OARai170
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34473,6 +34523,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OARai70
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34493,6 +34545,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OARai90
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34513,6 +34567,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OARi100
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34533,6 +34589,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OARi110
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34553,6 +34611,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OARi120
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34573,6 +34633,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OARi130
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34593,6 +34655,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OARi140
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34613,6 +34677,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OARi150
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34633,6 +34699,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OARi160
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34653,6 +34721,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OARi170
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34673,6 +34743,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OARi180
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34693,6 +34765,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OARi60
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34713,6 +34787,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OARi70
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34733,6 +34809,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OARi80
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -34753,6 +34831,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: 3OARi90
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -35602,6 +35682,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: 3OXCOAT
       - biocyc: RXN-3641
+      - doi:
+        - 10.1073/pnas.1005399107
       - ec-code: 2.3.1.16
       - kegg.pathway:
         - Benzoate degradation
@@ -35852,6 +35934,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: 4HGLSD
       - biocyc: RXN-14472
+      - doi:
+        - 10.1099/13500872-141-7-1739
       - ec-code: 1.2.1.88
       - kegg.pathway: Arginine and proline metabolism
       - kegg.reaction: R05051
@@ -36973,6 +37057,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: ACCOAC
       - biocyc: ACETYL-COA-CARBOXYLTRANSFER-RXN
+      - doi:
+        - 10.1128/AEM.67.9.4166-4176.2001
       - ec-code: 6.4.1.2
       - kegg.pathway:
         - Propanoate metabolism
@@ -37027,6 +37113,8 @@
         - SCO5134
     - annotation: !!omap
       - SBO: SBO:0000176
+      - doi:
+        - 10.1186/s12864-018-4905-5
       - origin: iAA1259
   - !!omap
     - id: ACETDH
@@ -37066,6 +37154,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ACGAMK
+      - doi:
+        - 10.1128/JB.06370-11
       - ec-code: 2.7.1.59
       - kegg.pathway: Amino sugar and nucleotide sugar metabolism
       - kegg.reaction: R01201
@@ -37186,6 +37276,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: ACKr
       - biocyc: ACETATEKIN-RXN
+      - doi:
+        - 10.1111/j.1365-2958.2005.04953.x
       - ec-code: 2.7.2.1
       - kegg.pathway:
         - Taurine and hypotaurine metabolism
@@ -37477,6 +37569,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ACOAD9
+      - doi:
+        - 10.1099/00221287-145-9-2323
       - ec-code: 1.3.99.12
       - kegg.subsystem: Amino acid metabolism
       - origin: iMK1208
@@ -37495,6 +37589,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ACOADH1
+      - doi:
+        - 10.1099/00221287-145-9-2323
       - ec-code: 1.3.99.2
       - kegg.subsystem: Amino acid metabolism
       - metanetx.reaction:
@@ -37517,6 +37613,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: ACOATA
       - biocyc: ACP-S-ACETYLTRANSFER-RXN
+      - doi:
+        - 10.1111/j.1574-6968.2011.02474.x
       - ec-code: 2.3.1.180
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R01624
@@ -37631,6 +37729,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: ACONTa
       - biocyc: META:ACONITATEDEHYDR-RXN
+      - doi:
+        - 10.1128/JB.183.10.3193-3203.2001
       - ec-code: 4.2.1.3
       - kegg.pathway:
         - Carbon fixation pathways in prokaryotes
@@ -37657,6 +37757,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ACONTb
+      - doi:
+        - 10.1128/JB.183.10.3193-3203.2001
       - ec-code: 4.2.1.3
       - kegg.pathway:
         - Carbon fixation pathways in prokaryotes
@@ -38012,6 +38114,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: ACPS1
       - biocyc: META:HOLO-ACP-SYNTH-RXN
+      - doi:
+        - 10.1021/bi2003668
       - ec-code: 2.7.8.7
       - kegg.pathway: Pantothenate and CoA biosynthesis
       - kegg.reaction: R01625
@@ -38037,6 +38141,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: ACPSact
       - biocyc: HOLO-ACP-SYNTH-RXN
+      - doi:
+        - 10.1021/bi2003668
       - ec-code: 2.7.8.7
       - kegg.pathway: Pantothenate and CoA biosynthesis
       - kegg.reaction: R01625
@@ -38061,6 +38167,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: ACPScda
       - biocyc: HOLO-ACP-SYNTH-RXN
+      - doi:
+        - 10.1128/JB.00865-08
       - ec-code: 2.7.8.7
       - kegg.pathway: Pantothenate and CoA biosynthesis
       - kegg.reaction: R01625
@@ -38120,6 +38228,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: ACPSredL
       - biocyc: HOLO-ACP-SYNTH-RXN
+      - doi:
+        - 10.1021/bi2003668
       - ec-code: 2.7.8.7
       - kegg.pathway: Pantothenate and CoA biosynthesis
       - kegg.reaction: R01625
@@ -38144,6 +38254,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: ACPSredN
       - biocyc: HOLO-ACP-SYNTH-RXN
+      - doi:
+        - 10.1021/bi2003668
       - ec-code: 2.7.8.7
       - kegg.pathway: Pantothenate and CoA biosynthesis
       - kegg.reaction: R01625
@@ -38168,6 +38280,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: ACPSredQ
       - biocyc: HOLO-ACP-SYNTH-RXN
+      - doi:
+        - 10.1021/bi2003668
       - ec-code: 2.7.8.7
       - kegg.pathway: Pantothenate and CoA biosynthesis
       - kegg.reaction: R01625
@@ -38485,6 +38599,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: ACTS1
       - biocyc: MALONYL-COA-ACP-TRANSACYL-RXN
+      - doi:
+        - 10.1021/bi051499i
       - ec-code: 1.1.1.100
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R01626
@@ -38508,6 +38624,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ACTS10
+      - doi:
+        - 10.1016/j.str.2004.08.002
       - kegg.pathway: Biosynthesis of type II polyketide backbone
       - kegg.reaction: R09262
       - kegg.subsystem: Metabolism of terpenoids and polyketides
@@ -38528,6 +38646,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ACTS11
+      - doi:
+        - 10.1021/ja00103a001
       - kegg.pathway: Biosynthesis of type II polyketide backbone
       - kegg.reaction: R09265
       - kegg.subsystem: Metabolism of terpenoids and polyketides
@@ -38548,6 +38668,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ACTS12
+      - doi:
+        - 10.1021/ja00103a001
       - kegg.pathway: Biosynthesis of type II polyketide products
       - kegg.reaction: R09305
       - kegg.subsystem: Metabolism of terpenoids and polyketides
@@ -38570,6 +38692,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ACTS13
+      - doi:
+        - 10.7164/antibiotics.53.144
       - kegg.pathway: Biosynthesis of type II polyketide products
       - kegg.reaction: R09306
       - kegg.subsystem: Metabolism of terpenoids and polyketides
@@ -38590,6 +38714,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ACTS14
+      - doi:
+        - 10.7164/antibiotics.53.144
       - kegg.pathway: Biosynthesis of type II polyketide products
       - kegg.reaction: R09308
       - kegg.subsystem: Metabolism of terpenoids and polyketides
@@ -38612,6 +38738,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ACTS15
+      - doi:
+        - 10.7164/antibiotics.53.144
       - kegg.pathway: Biosynthesis of type II polyketide products
       - kegg.reaction: R06695
       - kegg.subsystem: Metabolism of terpenoids and polyketides
@@ -38633,6 +38761,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ACTS16
+      - doi:
+        - 10.1016/j.chembiol.2009.01.015
       - kegg.pathway: Biosynthesis of type II polyketide products
       - kegg.reaction: R06696
       - kegg.subsystem: Metabolism of terpenoids and polyketides
@@ -38680,6 +38810,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ACTS17
+      - doi:
+        - 10.1074/jbc.M709730200
       - kegg.pathway: Biosynthesis of type II polyketide products
       - kegg.reaction: R09312
       - kegg.subsystem: Metabolism of terpenoids and polyketides
@@ -38748,6 +38880,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: ACTS2
       - biocyc: 2.3.1.180-RXN
+      - doi:
+        - 10.1016/S1074-5521(98)90663-9
       - ec-code: 2.3.1.180
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R10707
@@ -38772,6 +38906,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ACTS3
+      - doi:
+        - 10.1016/S1074-5521(98)90663-9
       - kegg.subsystem: Metabolism of terpenoids and polyketides
       - origin: iMK1208
       - subsystem: Actinorhodin Biosynthesis
@@ -38791,6 +38927,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ACTS4
+      - doi:
+        - 10.1016/S1074-5521(98)90663-9
       - kegg.subsystem: Metabolism of terpenoids and polyketides
       - origin: iMK1208
       - subsystem: Actinorhodin Biosynthesis
@@ -38810,6 +38948,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ACTS5
+      - doi:
+        - 10.1016/S1074-5521(98)90663-9
       - kegg.subsystem: Metabolism of terpenoids and polyketides
       - origin: iMK1208
       - subsystem: Actinorhodin Biosynthesis
@@ -38829,6 +38969,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ACTS6
+      - doi:
+        - 10.1016/S1074-5521(98)90663-9
       - kegg.subsystem: Metabolism of terpenoids and polyketides
       - origin: iMK1208
       - subsystem: Actinorhodin Biosynthesis
@@ -38848,6 +38990,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ACTS7
+      - doi:
+        - 10.1016/S1074-5521(98)90663-9
       - kegg.subsystem: Metabolism of terpenoids and polyketides
       - origin: iMK1208
       - subsystem: Actinorhodin Biosynthesis
@@ -38867,6 +39011,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ACTS8
+      - doi:
+        - 10.1016/S1074-5521(98)90663-9
       - kegg.subsystem: Metabolism of terpenoids and polyketides
       - origin: iMK1208
       - subsystem: Actinorhodin Biosynthesis
@@ -38882,6 +39028,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ACTS9
+      - doi:
+        - 10.1016/S1074-5521(98)90663-9
       - kegg.pathway: Biosynthesis of type II polyketide backbone
       - kegg.reaction: R09259
       - kegg.subsystem: Metabolism of terpenoids and polyketides
@@ -38904,6 +39052,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ADA
+      - doi:
+        - 10.1016/j.pep.2011.04.003
       - ec-code: 3.5.4.4
       - kegg.pathway: Purine metabolism
       - kegg.reaction: R01560
@@ -39181,6 +39331,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: ADNCYC
       - biocyc: ADENYLATECYC-RXN
+      - doi:
+        - 10.1046/j.1365-2958.1998.01033.x
       - ec-code: 4.6.1.1
       - kegg.pathway: Purine metabolism
       - kegg.reaction: R00089
@@ -39518,6 +39670,8 @@
         - ''
     - annotation: !!omap
       - SBO: SBO:0000176
+      - doi:
+        - 10.1021/ja408594p
       - origin: iAA1259
   - !!omap
     - id: AGDC
@@ -39534,6 +39688,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: AGDC
       - biocyc: NAG6PDEACET-RXN
+      - doi:
+        - 10.1128/JB.06370-11
       - ec-code: 3.5.1.25
       - kegg.pathway: Amino sugar and nucleotide sugar metabolism
       - kegg.reaction: R02059
@@ -40225,6 +40381,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: ALAALAD
       - biocyc: 3.4.13.22-RXN
+      - doi:
+        - 10.1016/S0923-2508(01)01282-7
       - ec-code: 3.4.13.22
       - kegg.reaction: R07651
       - kegg.subsystem:
@@ -40312,6 +40470,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ALALAC
+      - doi:
+        - 10.1111/j.1365-2958.2004.04032.x
       - ec-code: 6.1.2.1
       - kegg.reaction: R09588
       - kegg.subsystem:
@@ -40482,6 +40642,8 @@
     - gene_reaction_rule: SCO5223
     - annotation: !!omap
       - SBO: SBO:0000176
+      - doi:
+        - 10.1007/s10295-013-1383-2
       - ec-code: 1.14.13.106
       - kegg.pathway: Sesquiterpenoid and triterpenoid biosynthesis
       - kegg.reaction: R08853
@@ -40506,6 +40668,8 @@
     - gene_reaction_rule: SCO5223
     - annotation: !!omap
       - SBO: SBO:0000176
+      - doi:
+        - 10.1007/s10295-013-1383-2
       - ec-code: 1.14.13.106
       - kegg.pathway: Sesquiterpenoid and triterpenoid biosynthesis
       - kegg.reaction: R08851
@@ -40530,6 +40694,8 @@
     - gene_reaction_rule: SCO5223
     - annotation: !!omap
       - SBO: SBO:0000176
+      - doi:
+        - 10.1007/s10295-013-1383-2
       - ec-code: 1.14.13.106
       - kegg.pathway: Sesquiterpenoid and triterpenoid biosynthesis
       - kegg.reaction: R08854
@@ -40554,6 +40720,8 @@
     - gene_reaction_rule: SCO5223
     - annotation: !!omap
       - SBO: SBO:0000176
+      - doi:
+        - 10.1007/s10295-013-1383-2
       - ec-code: 1.14.13.106
       - kegg.pathway: Sesquiterpenoid and triterpenoid biosynthesis
       - kegg.reaction: R08852
@@ -42898,6 +43066,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ASR
+      - doi:
+        - 10.1074/jbc.M900877200
       - kegg.subsystem: Transport
       - metanetx.reaction:
         - MNXR96113
@@ -43101,6 +43271,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: BCOATA
+      - doi:
+        - 10.1128/JB.187.11.3795-3799.2005
       - ec-code: 2.3.1.180
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -43866,6 +44038,11 @@
       - SBO: SBO:0000176
       - bigg.reaction: CAT
       - biocyc: CATAL-RXN
+      - doi:
+        - 10.1128/jb.179.12.4049-4052.1997
+        - 10.1128/JB.182.13.3767-3774.2000
+        - 10.1046/j.1365-2958.2000.01685.x
+        - 10.1016/j.resmic.2012.12.009
       - ec-code: 1.11.1.6
       - kegg.pathway: Glyoxylate and dicarboxylate metabolism
       - kegg.reaction: R00009
@@ -44079,6 +44256,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CDAS11
+      - doi:
+        - 10.1016/S1074-5521(02)00252-1
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Calcium-Dependent Antibiotics Biosynthesis
@@ -44099,6 +44278,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CDAS12
+      - doi:
+        - 10.1016/S1074-5521(02)00252-1
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Calcium-Dependent Antibiotics Biosynthesis
@@ -44116,6 +44297,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CDAS13
+      - doi:
+        - 10.1016/S1074-5521(02)00252-1
       - ec-code: 1.13.11.46
       - kegg.pathway:
         - Monobactam biosynthesis
@@ -44143,6 +44326,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CDAS14a
+      - doi:
+        - 10.1016/S1074-5521(02)00252-1
       - ec-code: 1.1.3.46
       - kegg.pathway:
         - Monobactam biosynthesis
@@ -44170,6 +44355,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CDAS14b
+      - doi:
+        - 10.1016/S1074-5521(02)00252-1
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Calcium-Dependent Antibiotics Biosynthesis
@@ -44187,6 +44374,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CDAS15
+      - doi:
+        - 10.1016/S1074-5521(02)00252-1
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Calcium-Dependent Antibiotics Biosynthesis
@@ -44205,6 +44394,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CDAS16
+      - doi:
+        - 10.1016/S1074-5521(02)00252-1
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Calcium-Dependent Antibiotics Biosynthesis
@@ -44233,6 +44424,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CDAS17
+      - doi:
+        - 10.1016/S1074-5521(02)00252-1
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Calcium-Dependent Antibiotics Biosynthesis
@@ -44252,6 +44445,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CDAS18
+      - doi:
+        - 10.1016/S1074-5521(02)00252-1
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Calcium-Dependent Antibiotics Biosynthesis
@@ -44270,6 +44465,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CDAS19
+      - doi:
+        - 10.1016/S1074-5521(02)00252-1
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Calcium-Dependent Antibiotics Biosynthesis
@@ -44318,6 +44515,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: CDAS3
       - biocyc: RXN-9514
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04533
@@ -44418,6 +44617,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: CDAS6
       - biocyc: META:RXN-9516
+      - doi:
+        - 10.1039/c0cc03444d
       - ec-code: 2.3.1.179
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04952
@@ -44444,6 +44645,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CDAS7
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04953
@@ -44817,6 +45020,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CIGAMS
+      - doi:
+        - 'PMID: 16554727'
       - ec-code: 6.3.1.13
       - kegg.reaction: R09591
       - kegg.subsystem: Metabolism of cofactors and vitamins
@@ -44955,6 +45160,8 @@
     - gene_reaction_rule: SCO5529
     - annotation: !!omap
       - SBO: SBO:0000176
+      - doi:
+        - 10.1002/biot.201800180
       - ec-code: 2.3.1.182
       - kegg.pathway:
         - C5-Branched dibasic acid metabolism
@@ -45200,6 +45407,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CLPNSII120
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.41
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R02030
@@ -45224,6 +45433,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CLPNSII140
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.41
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R02030
@@ -45248,6 +45459,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CLPNSII141
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.41
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R02030
@@ -45272,6 +45485,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CLPNSII150
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.41
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R02030
@@ -45296,6 +45511,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CLPNSII160
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.41
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R02030
@@ -45320,6 +45537,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CLPNSII161
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.41
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R02030
@@ -45344,6 +45563,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CLPNSII170
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.41
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R02030
@@ -45368,6 +45589,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CLPNSII180
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.41
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R02030
@@ -45392,6 +45615,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CLPNSII181
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.41
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R02030
@@ -45416,6 +45641,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CLPNSIIai150
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.41
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R02030
@@ -45440,6 +45667,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CLPNSIIai170
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.41
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R02030
@@ -45464,6 +45693,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CLPNSIIi140
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.41
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R02030
@@ -45488,6 +45719,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CLPNSIIi150
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.41
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R02030
@@ -45512,6 +45745,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CLPNSIIi160
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.41
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R02030
@@ -45536,6 +45771,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CLPNSIIi170
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.41
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R02030
@@ -45560,6 +45797,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CLPNSIIi180
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.41
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R02030
@@ -45825,6 +46064,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: COCHL
       - biocyc: R342-RXN
+      - doi:
+        - 10.1111/j.1365-2958.2004.04325.x
       - ec-code: 6.6.1.2
       - kegg.pathway: Porphyrin and chlorophyll metabolism
       - kegg.reaction: R05227
@@ -46089,6 +46330,8 @@
         - SCO6275
     - annotation: !!omap
       - SBO: SBO:0000176
+      - doi:
+        - 10.1007/s00203-006-0176-7
       - origin: iAA1259
   - !!omap
     - id: CPKS2
@@ -46110,6 +46353,8 @@
         - SCO6274
     - annotation: !!omap
       - SBO: SBO:0000176
+      - doi:
+        - 10.1007/s00203-006-0176-7
       - origin: iAA1259
   - !!omap
     - id: CPKS3
@@ -46134,6 +46379,9 @@
         - SCO6273
     - annotation: !!omap
       - SBO: SBO:0000176
+      - doi:
+        - 10.1039/c6sc02803a
+        - 10.1007/s00203-006-0176-7
       - origin: iAA1259
   - !!omap
     - id: CPKS4a
@@ -46152,6 +46400,9 @@
         - SCO6279
     - annotation: !!omap
       - SBO: SBO:0000176
+      - doi:
+        - 10.1039/c6sc02803a
+        - 10.1007/s00203-006-0176-7
       - origin: iAA1259
   - !!omap
     - id: CPKS4b
@@ -46170,6 +46421,9 @@
         - SCO6279
     - annotation: !!omap
       - SBO: SBO:0000176
+      - doi:
+        - 10.1039/c6sc02803a
+        - 10.1007/s00203-006-0176-7
       - origin: iAA1259
   - !!omap
     - id: CPKS5
@@ -46190,6 +46444,8 @@
         - (SCO6276 or SCO6281 or SCO6272)
     - annotation: !!omap
       - SBO: SBO:0000176
+      - doi:
+        - 10.1039/C2SC20410J
       - origin: iAA1259
   - !!omap
     - id: CPMPS
@@ -46205,6 +46461,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CPMPS
+      - doi:
+        - 10.1099/mic.0.042572-0
       - kegg.subsystem: Metabolism of cofactors and vitamins
       - metanetx.reaction:
         - MNXR126297
@@ -46295,6 +46553,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: CS
       - biocyc: RXN-14905
+      - doi:
+        - 10.1128/JB.183.10.3184-3192.2001
       - ec-code: 2.3.3.1
       - kegg.pathway:
         - Glyoxylate and dicarboxylate metabolism
@@ -46696,6 +46956,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: CYO2b
+      - doi:
+        - 10.1007/s002030100262
       - ec-code: 1.9.3.1
       - kegg.reaction: R00081
       - kegg.subsystem: Energy metabolism
@@ -47284,6 +47546,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: DADA
+      - doi:
+        - 10.1016/j.pep.2011.04.003
       - ec-code: 3.5.4.4
       - kegg.pathway: Purine metabolism
       - kegg.reaction: R02556
@@ -47834,6 +48098,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: DB4PS
       - biocyc: DIOHBUTANONEPSYN-RXN
+      - doi:
+        - 10.1021/bi061005x
       - ec-code: 4.1.99.12
       - kegg.pathway: Riboflavin metabolism
       - kegg.reaction: R07281
@@ -48300,6 +48566,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: DHACOAH
       - biocyc: META:RXN0-6513
+      - doi:
+        - 10.1073/pnas.1005399107
       - ec-code: 4.2.1.17
       - kegg.pathway:
         - Caprolactam degradation
@@ -48618,6 +48886,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: DHNANT4
+      - doi:
+        - 10.1021/bi400498d
       - kegg.subsystem: Metabolism of cofactors and vitamins
       - origin: iMK1208
       - subsystem: Cofactor and Prosthetic Group Biosynthesis
@@ -48657,6 +48927,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: DHNAS
+      - doi:
+        - 10.1126/science.1160446
       - kegg.subsystem: Metabolism of cofactors and vitamins
       - metanetx.reaction:
         - MNXR97411
@@ -48900,6 +49172,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: DHQTi
       - biocyc: 3-DEHYDROQUINATE-DEHYDRATASE-RXN
+      - doi:
+        - 10.1042/bj2650735
       - ec-code: 4.2.1.10
       - kegg.pathway: Phenylalanine, tyrosine and tryptophan biosynthesis
       - kegg.reaction: R03084
@@ -49605,6 +49879,8 @@
         - MqnC
     - annotation: !!omap
       - SBO: SBO:0000176
+      - doi:
+        - 10.1021/ja408594p
       - origin: iAA1259
   - !!omap
     - id: DXPRIi
@@ -49742,6 +50018,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR100x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04961
@@ -49766,6 +50044,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR100y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04962
@@ -49790,6 +50070,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR110x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -49809,6 +50091,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR110y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -49829,6 +50113,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: EAR120x
       - biocyc: META:RXN-9661
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04724
@@ -49854,6 +50140,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: EAR120y
       - biocyc: META:RXN-9534
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04725
@@ -49878,6 +50166,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR121x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - metanetx.reaction:
@@ -49899,6 +50189,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR121y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - metanetx.reaction:
@@ -49920,6 +50212,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR130x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -49939,6 +50233,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR130y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -49959,6 +50255,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: EAR140x
       - biocyc: META:RXN-9662
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04966
@@ -49984,6 +50282,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: EAR140y
       - biocyc: META:RXN-9538
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04967
@@ -50008,6 +50308,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR141x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - metanetx.reaction:
@@ -50029,6 +50331,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR141y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - metanetx.reaction:
@@ -50050,6 +50354,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR150x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50069,6 +50375,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR150y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50088,6 +50396,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR160x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04969
@@ -50112,6 +50422,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR160y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04970
@@ -50136,6 +50448,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR161x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - metanetx.reaction:
@@ -50157,6 +50471,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR161y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - metanetx.reaction:
@@ -50178,6 +50494,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR170x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50197,6 +50515,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR170y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50216,6 +50536,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR180x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.pathway:
         - Fatty acid biosynthesis
@@ -50242,6 +50564,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR180y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - metanetx.reaction:
@@ -50263,6 +50587,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR181x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - metanetx.reaction:
@@ -50284,6 +50610,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR181y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - metanetx.reaction:
@@ -50305,6 +50633,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR40x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04429
@@ -50329,6 +50659,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR40y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04430
@@ -50353,6 +50685,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR50x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50372,6 +50706,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR50y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50392,6 +50728,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: EAR60x
       - biocyc: META:RXN-9658
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04955
@@ -50417,6 +50755,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: EAR60y
       - biocyc: META:RXN-9521
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04956
@@ -50441,6 +50781,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR70x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50460,6 +50802,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR70y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50480,6 +50824,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: EAR80x
       - biocyc: META:RXN-9659
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04958
@@ -50505,6 +50851,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: EAR80y
       - biocyc: META:RXN-9526
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04959
@@ -50529,6 +50877,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR90x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50548,6 +50898,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EAR90y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50567,6 +50919,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARai110x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50586,6 +50940,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARai110y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50605,6 +50961,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARai130x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50624,6 +50982,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARai130y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50643,6 +51003,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARai150x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50662,6 +51024,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARai150y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50681,6 +51045,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARai170x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50700,6 +51066,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARai170y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50719,6 +51087,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARai70x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50738,6 +51108,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARai70y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50757,6 +51129,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARai90x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50776,6 +51150,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARai90y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50795,6 +51171,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi100x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50814,6 +51192,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi100y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50833,6 +51213,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi110x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50852,6 +51234,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi110y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50871,6 +51255,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi120x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50890,6 +51276,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi120y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50909,6 +51297,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi130x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50928,6 +51318,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi130y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50947,6 +51339,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi140x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50966,6 +51360,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi140y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -50985,6 +51381,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi150x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -51004,6 +51402,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi150y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -51023,6 +51423,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi160x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -51042,6 +51444,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi160y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -51061,6 +51465,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi170x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -51080,6 +51486,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi170y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -51099,6 +51507,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi180x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -51118,6 +51528,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi180y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -51137,6 +51549,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi60x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -51156,6 +51570,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi60y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -51175,6 +51591,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi70x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -51194,6 +51612,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi70y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -51213,6 +51633,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi80x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -51232,6 +51654,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi80y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -51251,6 +51675,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi90x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -51270,6 +51696,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: EARi90y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -52116,6 +52544,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: FACOAL100
+      - doi:
+        - 10.1128/AEM.68.9.4240-4246.2002
       - ec-code: 6.2.1.3
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -52138,6 +52568,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: FACOAL120
+      - doi:
+        - 10.1128/AEM.68.9.4240-4246.2002
       - ec-code: 6.2.1.3
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -52160,6 +52592,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: FACOAL140
+      - doi:
+        - 10.1128/AEM.68.9.4240-4246.2002
       - ec-code: 6.2.1.3
       - kegg.subsystem: Lipid metabolism
       - metanetx.reaction:
@@ -52184,6 +52618,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: FACOAL141
+      - doi:
+        - 10.1128/AEM.68.9.4240-4246.2002
       - ec-code: 6.2.1.3
       - kegg.subsystem: Lipid metabolism
       - metanetx.reaction:
@@ -52209,6 +52645,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: FACOAL160
       - biocyc: RXN-9623
+      - doi:
+        - 10.1128/AEM.68.9.4240-4246.2002
       - ec-code: 6.2.1.3
       - kegg.pathway:
         - Fatty acid biosynthesis
@@ -52238,6 +52676,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: FACOAL161
+      - doi:
+        - 10.1128/AEM.68.9.4240-4246.2002
       - ec-code: 6.2.1.3
       - kegg.subsystem: Lipid metabolism
       - metanetx.reaction:
@@ -52263,6 +52703,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: FACOAL180
       - biocyc: RXN-16380
+      - doi:
+        - 10.1128/AEM.68.9.4240-4246.2002
       - ec-code: 6.2.1.3
       - kegg.subsystem: Lipid metabolism
       - metanetx.reaction:
@@ -52287,6 +52729,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: FACOAL181
+      - doi:
+        - 10.1128/AEM.68.9.4240-4246.2002
       - ec-code: 6.2.1.3
       - kegg.subsystem: Lipid metabolism
       - metanetx.reaction:
@@ -52311,6 +52755,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: FACOAL60
+      - doi:
+        - 10.1128/AEM.68.9.4240-4246.2002
       - ec-code: 6.2.1.3
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -52333,6 +52779,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: FACOAL80
+      - doi:
+        - 10.1128/AEM.68.9.4240-4246.2002
       - ec-code: 6.2.1.3
       - kegg.subsystem: Lipid metabolism
       - metanetx.reaction:
@@ -52445,6 +52893,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: FANH
+      - doi:
+        - 10.1007/s00253-011-3833-y
       - ec-code: 3.5.1.9
       - kegg.pathway: Tryptophan metabolism
       - kegg.reaction: R00988
@@ -53062,6 +53512,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: FKYNH
       - biocyc: ARYLFORMAMIDASE-RXN
+      - doi:
+        - 10.1007/s00253-011-3833-y
       - ec-code: 3.5.1.9
       - kegg.pathway:
         - Tryptophan metabolism
@@ -53637,6 +54089,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: FUTH
       - biocyc: RXN-9780
+      - doi:
+        - 10.1021/ja408594p
       - ec-code: 3.2.2.26
       - kegg.pathway: Ubiquinone and other terpenoid-quinone biosynthesis
       - kegg.reaction: R08587
@@ -54036,6 +54490,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: G6PDA
+      - doi:
+        - 10.1128/JB.06370-11
       - ec-code: 3.5.99.6
       - kegg.pathway: Amino sugar and nucleotide sugar metabolism
       - kegg.reaction: R00765
@@ -54678,6 +55134,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: GDPDPK
       - biocyc: META:GDPPYPHOSKIN-RXN
+      - doi:
+        - 'PMID: 18051762'
       - ec-code: 2.7.6.5
       - kegg.subsystem: Nucleotide metabolism
       - metanetx.reaction:
@@ -54749,6 +55207,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: GDPTPDP
       - biocyc: RXN0-6427
+      - doi:
+        - 'PMID: 18051762'
       - ec-code: 3.1.7.2
       - kegg.subsystem: Nucleotide metabolism
       - metanetx.reaction:
@@ -54851,6 +55311,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: GERMA
       - biocyc: RXN1UA-25
+      - doi:
+        - 10.1021/ja2112228
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Germicidin Biosynthesis
@@ -54872,6 +55334,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: GERMB
       - biocyc: RXN1UA-20
+      - doi:
+        - 10.1021/ja2112228
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Germicidin Biosynthesis
@@ -54893,6 +55357,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: GERMC
       - biocyc: RXN1UA-21
+      - doi:
+        - 10.1021/ja2112228
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Germicidin Biosynthesis
@@ -54914,6 +55380,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: GERMD
       - biocyc: RXN1UA-24
+      - doi:
+        - 10.1021/ja2112228
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Germicidin Biosynthesis
@@ -55241,6 +55709,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: GLBRAN2
+      - doi:
+        - 10.1111/j.1365-2958.1995.mmi_18010089.x
       - ec-code: 2.4.1.18
       - kegg.subsystem: Carbohydrate metabolism
       - metanetx.reaction:
@@ -55479,6 +55949,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: GLGC
       - biocyc: GLUC1PADENYLTRANS-RXN
+      - doi:
+        - 10.1128/jb.179.24.7784-7789.1997
       - ec-code: 2.7.7.27
       - kegg.pathway:
         - Amino sugar and nucleotide sugar metabolism
@@ -55528,6 +56000,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: GLNS
+      - doi:
+        - 10.1007/s00203-006-0159-8
       - ec-code: 6.3.1.2
       - kegg.pathway:
         - Arginine biosynthesis
@@ -56922,6 +57396,8 @@
     - gene_reaction_rule: SCO6073
     - annotation: !!omap
       - SBO: SBO:0000176
+      - doi:
+        - 10.1007/s10295-013-1383-2
       - ec-code: 4.2.3.75
       - kegg.pathway: Sesquiterpenoid and triterpenoid biosynthesis
       - kegg.reaction: R07648
@@ -56943,6 +57419,8 @@
     - gene_reaction_rule: SCO6073
     - annotation: !!omap
       - SBO: SBO:0000176
+      - doi:
+        - 10.1007/s10295-013-1383-2
       - ec-code: 4.2.3.22
       - kegg.pathway: Sesquiterpenoid and triterpenoid biosynthesis
       - kegg.reaction: R07647
@@ -56988,6 +57466,8 @@
     - gene_reaction_rule: SCO6073
     - annotation: !!omap
       - SBO: SBO:0000176
+      - doi:
+        - 10.1007/s10295-013-1383-2
       - ec-code: 4.1.99.16
       - kegg.pathway: Sesquiterpenoid and triterpenoid biosynthesis
       - kegg.reaction: R09487
@@ -57085,6 +57565,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: GTPCII2
       - biocyc: GTP-CYCLOHYDRO-II-RXN
+      - doi:
+        - 10.1021/bi061005x
       - ec-code: 3.5.4.25
       - kegg.pathway:
         - Riboflavin metabolism
@@ -57111,6 +57593,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: GTPCIII2
+      - doi:
+        - 10.1021/bi061005x
       - kegg.subsystem: Metabolism of cofactors and vitamins
       - origin: iMK1208
       - subsystem: Cofactor and Prosthetic Group Biosynthesis
@@ -57155,6 +57639,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: GTPDPK
       - biocyc: GTPPYPHOSKIN-RXN
+      - doi:
+        - 'PMID: 18051762'
       - ec-code: 2.7.6.5
       - kegg.pathway: Purine metabolism
       - kegg.reaction: R00429
@@ -57198,6 +57684,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: GUACYC
       - biocyc: GUANYLCYC-RXN
+      - doi:
+        - 10.1046/j.1365-2958.1998.01033.x
       - ec-code: 4.6.1.1
       - kegg.pathway: Purine metabolism
       - kegg.reaction: R00434
@@ -57568,6 +58056,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: HADPCOADH3
       - biocyc: RXN0-2044
+      - doi:
+        - 10.1073/pnas.1005399107
       - ec-code: 1.1.1.35, 1.1.1.157
       - kegg.pathway:
         - Caprolactam degradation
@@ -57889,6 +58379,9 @@
       - SBO: SBO:0000176
       - bigg.reaction: HEX1
       - biocyc: RXN66-521
+      - doi:
+        - 10.1023/A:1010234916745
+        - 10.1016/j.resmic.2004.11.001
       - ec-code: 2.7.1.2
       - kegg.pathway:
         - Neomycin, kanamycin and gentamicin biosynthesis
@@ -58087,6 +58580,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: HISTD
       - biocyc: RXN-8001
+      - doi:
+        - 10.1016/0923-2508(92)90063-T
       - ec-code: 1.1.1.23
       - kegg.reaction: R01158
       - kegg.subsystem: Amino acid metabolism
@@ -58207,6 +58702,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: HKYNH
       - biocyc: 3-HYDROXY-KYNURENINASE-RXN
+      - doi:
+        - 10.1007/s00253-011-3833-y
       - ec-code: 3.7.1.3
       - kegg.pathway: Tryptophan metabolism
       - kegg.reaction: R02668
@@ -58544,6 +59041,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: HPROb
       - biocyc: RXN66-546
+      - doi:
+        - 10.1159/000321502
       - ec-code: 1.5.1.2
       - kegg.pathway: Arginine and proline metabolism
       - kegg.reaction: R03293
@@ -58865,6 +59364,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: IACGAMS2
+      - doi:
+        - 'PMID: 16554727'
       - kegg.subsystem: Metabolism of cofactors and vitamins
       - origin: iMK1208
       - subsystem: Cofactor and Prosthetic Group Biosynthesis
@@ -58901,6 +59402,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: IBCOATA
+      - doi:
+        - 10.1111/j.1574-6968.2011.02474.x
       - ec-code: 2.3.1.180
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -58941,6 +59444,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ICDHyr
+      - doi:
+        - 10.1016/j.biochi.2009.07.011
       - ec-code: 1.1.1.42
       - kegg.pathway:
         - Glutathione metabolism
@@ -59014,6 +59519,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: ICYSDS
+      - doi:
+        - 10.1016/j.bbagen.2008.01.008
       - ec-code: 2.8.1.7
       - kegg.pathway: Thiamine metabolism
       - kegg.reaction: R07460
@@ -59134,6 +59641,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: IGAMD
+      - doi:
+        - 'PMID: 16554727'
       - ec-code: 3.5.1.103
       - kegg.reaction: R09651
       - kegg.subsystem: Metabolism of cofactors and vitamins
@@ -59157,6 +59666,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: IGPDH
       - biocyc: IMIDPHOSDEHYD-RXN
+      - doi:
+        - 10.1016/0378-1119(90)90436-U
       - ec-code: 4.2.1.19
       - kegg.pathway: Histidine metabolism
       - kegg.reaction: R03457
@@ -59601,6 +60112,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: IVCOATA
+      - doi:
+        - 10.1128/JB.187.11.3795-3799.2005
       - ec-code: 2.3.1.180
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -59840,6 +60353,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: KAS15
       - biocyc: 2.3.1.180-RXN
+      - doi:
+        - 10.1111/j.1574-6968.2011.02474.x
       - ec-code: 2.3.1.180
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R10707
@@ -59911,6 +60426,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: KYN
       - biocyc: KYNURENINASE-RXN
+      - doi:
+        - 10.1007/s00253-011-3833-y
       - ec-code: 3.7.1.3
       - kegg.pathway: Tryptophan metabolism
       - kegg.reaction: R00987
@@ -60107,6 +60624,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: LDH_D
       - biocyc: DLACTDEHYDROGNAD-RXN
+      - doi:
+        - 10.1111/j.1365-2958.2004.04032.x
       - ec-code: 1.1.1.28
       - kegg.pathway: Pyruvate metabolism
       - kegg.reaction: R00704
@@ -60181,6 +60700,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: LFORKYNHYD
+      - doi:
+        - 10.1007/s00253-011-3833-y
       - ec-code: 3.7.1.3
       - kegg.pathway: Tryptophan metabolism
       - kegg.reaction: R03936
@@ -60487,6 +61008,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: LYSDC
       - biocyc: LYSDECARBOX-RXN
+      - doi:
+        - 10.1128/jb.171.1.299-302.1989
       - ec-code: 4.1.1.18
       - kegg.pathway:
         - Tropane, piperidine and pyridine alkaloid biosynthesis
@@ -60821,6 +61344,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: MALS
       - biocyc: MALSYN-RXN
+      - doi:
+        - 10.1038/sj/jim/7000240
       - ec-code: 2.3.3.9
       - kegg.pathway:
         - Pyruvate metabolism
@@ -60959,6 +61484,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: MAN6PI
+      - doi:
+        - 10.1007/s00253-011-3581-z
       - ec-code: 5.3.1.8
       - kegg.reaction: R00772
       - kegg.subsystem: Carbohydrate metabolism
@@ -61109,6 +61636,9 @@
       - SBO: SBO:0000176
       - bigg.reaction: MCOATA
       - biocyc: MALONYL-COA-ACP-TRANSACYL-RXN
+      - doi:
+        - 10.1016/S0969-2126(03)00004-2
+        - 10.1128/jb.178.19.5660-5667.1996
       - ec-code: 2.3.1.39
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R01626
@@ -61199,6 +61729,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: MCTP1A
+      - doi:
+        - 10.1128/JB.01048-08
       - kegg.subsystem: Glycan biosynthesis and metabolism
       - origin: iMK1208
       - subsystem: Murein Biosynthesis
@@ -61231,6 +61763,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: MCTP2A
+      - doi:
+        - 10.1128/JB.01048-08
       - kegg.subsystem: Glycan biosynthesis and metabolism
       - origin: iMK1208
       - subsystem: Murein Biosynthesis
@@ -61409,6 +61943,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: MDH
       - biocyc: MALATE-DEH-RXN
+      - doi:
+        - 10.1007/s11033-010-0273-1
       - ec-code: 1.1.1.37
       - kegg.pathway:
         - Carbon fixation in photosynthetic organisms
@@ -61442,6 +61978,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: ME1
       - biocyc: 1.1.1.39-RXN
+      - doi:
+        - 10.1128/AEM.00838-12
       - ec-code: 1.1.1.38
       - kegg.pathway:
         - Carbon fixation in photosynthetic organisms
@@ -61469,6 +62007,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: ME2
       - biocyc: MALIC-NADP-RXN
+      - doi:
+        - 10.1128/AEM.00838-12
       - ec-code: 1.1.1.40
       - kegg.pathway:
         - Carbon fixation in photosynthetic organisms
@@ -61612,6 +62152,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: METAT
       - biocyc: S-ADENMETSYN-RXN
+      - doi:
+        - 10.1128/JB.185.2.601-609.2003
       - ec-code: 2.5.1.6
       - kegg.pathway: Cysteine and methionine metabolism
       - kegg.reaction: R00177
@@ -62333,6 +62875,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: MMSAD3
       - biocyc: RXN-2902
+      - doi:
+        - 10.1128/jb.178.2.490-495.1996
       - ec-code: 1.2.1.27
       - kegg.pathway:
         - Propanoate metabolism
@@ -62364,6 +62908,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: MMSAD5
+      - doi:
+        - 10.1128/jb.178.2.490-495.1996
       - ec-code: 1.2.1.18
       - kegg.pathway: Propanoate metabolism
       - kegg.reaction: R03381
@@ -62384,6 +62930,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - biocyc: RXN1A0-6143
+      - doi:
+        - 10.1007/s10295-013-1383-2
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: BioCyc
       - subsystem: Methylenomycin biosynthesis
@@ -62400,6 +62948,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - biocyc: RXN1A0-6144
+      - doi:
+        - 10.1007/s10295-013-1383-2
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: BioCyc
       - subsystem: Methylenomycin biosynthesis
@@ -62443,6 +62993,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - biocyc: RXN1A0-6128
+      - doi:
+        - 10.1007/s10295-013-1383-2
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: BioCyc
       - subsystem: Methylenomycin biosynthesis
@@ -62460,6 +63012,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - biocyc: RXN1A0-6280
+      - doi:
+        - 10.1007/s10295-013-1383-2
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: BioCyc
       - subsystem: Methylenomycin biosynthesis
@@ -62475,6 +63029,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - biocyc: RXN1A0-6311
+      - doi:
+        - 10.1007/s10295-013-1383-2
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: BioCyc
       - subsystem: Methylenomycin biosynthesis
@@ -62801,6 +63357,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: MSHS
+      - doi:
+        - 'PMID: 16554727'
       - ec-code: 2.3.1.189
       - kegg.reaction: R09622
       - kegg.subsystem: Metabolism of cofactors and vitamins
@@ -63645,6 +64203,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: NDPK1
       - biocyc: GDPKIN-RXN
+      - doi:
+        - 10.1111/j.1432-1033.1996.0208u.x
       - ec-code: 2.7.4.6
       - kegg.pathway: Purine metabolism
       - kegg.reaction: R00330
@@ -63669,6 +64229,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: NDPK2
       - biocyc: UDPKIN-RXN
+      - doi:
+        - 10.1111/j.1432-1033.1996.0208u.x
       - ec-code: 2.7.4.6
       - kegg.pathway: Pyrimidine metabolism
       - kegg.reaction: R00156
@@ -63693,6 +64255,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: NDPK3
       - biocyc: CDPKIN-RXN
+      - doi:
+        - 10.1111/j.1432-1033.1996.0208u.x
       - ec-code: 2.7.4.6
       - kegg.pathway: Pyrimidine metabolism
       - kegg.reaction: R00570
@@ -63717,6 +64281,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: NDPK4
       - biocyc: DTDPKIN-RXN
+      - doi:
+        - 10.1111/j.1432-1033.1996.0208u.x
       - ec-code: 2.7.4.6
       - kegg.pathway: Pyrimidine metabolism
       - kegg.reaction: R02093
@@ -63741,6 +64307,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: NDPK5
       - biocyc: DGDPKIN-RXN
+      - doi:
+        - 10.1111/j.1432-1033.1996.0208u.x
       - ec-code: 2.7.4.6
       - kegg.pathway: Purine metabolism
       - kegg.reaction: R01857
@@ -63765,6 +64333,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: NDPK6
       - biocyc: DUDPKIN-RXN
+      - doi:
+        - 10.1111/j.1432-1033.1996.0208u.x
       - ec-code: 2.7.4.6
       - kegg.pathway: Pyrimidine metabolism
       - kegg.reaction: R02331
@@ -63789,6 +64359,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: NDPK7
       - biocyc: DCDPKIN-RXN
+      - doi:
+        - 10.1111/j.1432-1033.1996.0208u.x
       - ec-code: 2.7.4.6
       - kegg.pathway: Pyrimidine metabolism
       - kegg.reaction: R02326
@@ -63813,6 +64385,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: NDPK8
       - biocyc: DADPKIN-RXN
+      - doi:
+        - 10.1111/j.1432-1033.1996.0208u.x
       - ec-code: 2.7.4.6
       - kegg.pathway: Purine metabolism
       - kegg.reaction: R01137
@@ -63837,6 +64411,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: NDPK9
       - biocyc: RXN-14120
+      - doi:
+        - 10.1111/j.1432-1033.1996.0208u.x
       - ec-code: 2.7.4.6
       - kegg.pathway: Purine metabolism
       - kegg.reaction: R00722
@@ -64943,6 +65519,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: NTRIR2x
+      - doi:
+        - 10.1016/j.resmic.2012.05.004
       - ec-code: 1.7.1.15
       - kegg.pathway: Nitrogen metabolism
       - kegg.reaction: R00787
@@ -65330,6 +65908,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: OIVD2
       - biocyc: 1.2.1.25-RXN
+      - doi:
+        - 10.1007/s10295-008-0480-0
       - ec-code: 1.2.1.25
       - kegg.reaction: R01210
       - kegg.subsystem: Amino acid metabolism
@@ -65356,6 +65936,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: OIVD3
       - biocyc: META:2KETO-3METHYLVALERATE-RXN
+      - doi:
+        - 10.1007/s10295-008-0480-0
       - ec-code: 1.2.1.25
       - kegg.reaction: R03171
       - kegg.subsystem: Amino acid metabolism
@@ -65662,6 +66244,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: ORNTAC
       - biocyc: GLUTAMATE-N-ACETYLTRANSFERASE-RXN
+      - doi:
+        - 10.1099/13500872-140-2-311
       - ec-code: 2.3.1.35
       - kegg.pathway: Arginine biosynthesis
       - kegg.reaction: R02282
@@ -65760,6 +66344,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: OXDHCOAT
       - biocyc: META:RXN0-6512
+      - doi:
+        - 10.1073/pnas.1005399107
       - kegg.subsystem: Amino acid metabolism
       - metanetx.reaction:
         - MNXR102241
@@ -65874,6 +66460,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: P5CD
       - biocyc: PYRROLINECARBDEHYDROG-RXN
+      - doi:
+        - 10.1099/13500872-141-7-1739
       - ec-code: 1.2.1.88
       - kegg.pathway:
         - Arginine and proline metabolism
@@ -65902,6 +66490,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: P5CR
       - biocyc: PYRROLINECARBREDUCT-RXN
+      - doi:
+        - 10.1159/000321502
       - ec-code: 1.5.1.2
       - kegg.pathway: Arginine and proline metabolism
       - kegg.reaction: R01251
@@ -65951,6 +66541,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PACCOAE
+      - doi:
+        - 10.1073/pnas.1005399107
       - ec-code: 1.14.13.149
       - kegg.reaction: R09838
       - kegg.subsystem: Amino acid metabolism
@@ -65976,6 +66568,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: PACCOAL
       - biocyc: RXN-10819
+      - doi:
+        - 10.1073/pnas.1005399107
       - ec-code: 6.2.1.30
       - kegg.pathway: Phenylalanine metabolism
       - kegg.reaction: R02539
@@ -66809,6 +67403,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PCOATA
+      - doi:
+        - 10.1128/JB.187.11.3795-3799.2005
       - ec-code: 2.3.1.180
       - kegg.subsystem: Lipid metabolism
       - origin: iMK1208
@@ -66912,7 +67508,7 @@
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1269 and SCO1270 and (SCO2183 or SCO2371 or SCO7124)
-        and (SCO0884 or SCO04919 or SCO2180) and (SCO1268 or SCO7123 or SCO2181) and
+        and (SCO0884 or SCO4919 or SCO2180) and (SCO1268 or SCO7123 or SCO2181) and
         (SCO3815 or SCO3829)
     - annotation: !!omap
       - SBO: SBO:0000176
@@ -67399,6 +67995,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PGSA120
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.5
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R01801
@@ -67424,6 +68022,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PGSA140
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.5
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R01801
@@ -67449,6 +68049,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PGSA141
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.5
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R01801
@@ -67474,6 +68076,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PGSA150
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.5
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R01801
@@ -67498,6 +68102,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PGSA160
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.5
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R01801
@@ -67523,6 +68129,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PGSA161
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.5
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R01801
@@ -67548,6 +68156,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PGSA170
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.5
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R01801
@@ -67572,6 +68182,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PGSA180
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.5
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R01801
@@ -67597,6 +68209,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PGSA181
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.5
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R01801
@@ -67622,6 +68236,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PGSAai150
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.5
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R01801
@@ -67646,6 +68262,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PGSAai170
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.5
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R01801
@@ -67670,6 +68288,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PGSAi140
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.5
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R01801
@@ -67694,6 +68314,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PGSAi150
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.5
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R01801
@@ -67718,6 +68340,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PGSAi160
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.5
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R01801
@@ -67742,6 +68366,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PGSAi170
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.5
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R01801
@@ -67766,6 +68392,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PGSAi180
+      - doi:
+        - 10.1074/jbc.M109.006072
       - ec-code: 2.7.8.5
       - kegg.pathway: Glycerophospholipid metabolism
       - kegg.reaction: R01801
@@ -67816,6 +68444,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: PHCD
       - biocyc: HYDROXYPYRROLINEDEH-RXN
+      - doi:
+        - 10.1099/13500872-141-7-1739
       - ec-code: 1.2.1.88
       - kegg.pathway: Arginine and proline metabolism
       - kegg.reaction: R04444
@@ -68036,6 +68666,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PINOS120
+      - doi:
+        - 10.1074/jbc.M109.006072
       - kegg.pathway:
         - Glycerophospholipid metabolism
         - Inositol phosphate metabolism
@@ -68063,6 +68695,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PINOS140
+      - doi:
+        - 10.1074/jbc.M109.006072
       - kegg.pathway:
         - Glycerophospholipid metabolism
         - Inositol phosphate metabolism
@@ -68090,6 +68724,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PINOS141
+      - doi:
+        - 10.1074/jbc.M109.006072
       - kegg.pathway:
         - Glycerophospholipid metabolism
         - Inositol phosphate metabolism
@@ -68117,6 +68753,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PINOS150
+      - doi:
+        - 10.1074/jbc.M109.006072
       - kegg.pathway:
         - Glycerophospholipid metabolism
         - Inositol phosphate metabolism
@@ -68144,6 +68782,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PINOS160
+      - doi:
+        - 10.1074/jbc.M109.006072
       - kegg.pathway:
         - Glycerophospholipid metabolism
         - Inositol phosphate metabolism
@@ -68171,6 +68811,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PINOS161
+      - doi:
+        - 10.1074/jbc.M109.006072
       - kegg.pathway:
         - Glycerophospholipid metabolism
         - Inositol phosphate metabolism
@@ -68198,6 +68840,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PINOS170
+      - doi:
+        - 10.1074/jbc.M109.006072
       - kegg.pathway:
         - Glycerophospholipid metabolism
         - Inositol phosphate metabolism
@@ -68225,6 +68869,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PINOS180
+      - doi:
+        - 10.1074/jbc.M109.006072
       - kegg.pathway:
         - Glycerophospholipid metabolism
         - Inositol phosphate metabolism
@@ -68252,6 +68898,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PINOS181
+      - doi:
+        - 10.1074/jbc.M109.006072
       - kegg.pathway:
         - Glycerophospholipid metabolism
         - Inositol phosphate metabolism
@@ -68279,6 +68927,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PINOSai150
+      - doi:
+        - 10.1074/jbc.M109.006072
       - kegg.pathway:
         - Glycerophospholipid metabolism
         - Inositol phosphate metabolism
@@ -68306,6 +68956,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PINOSai170
+      - doi:
+        - 10.1074/jbc.M109.006072
       - kegg.pathway:
         - Glycerophospholipid metabolism
         - Inositol phosphate metabolism
@@ -68333,6 +68985,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PINOSi140
+      - doi:
+        - 10.1074/jbc.M109.006072
       - kegg.pathway:
         - Glycerophospholipid metabolism
         - Inositol phosphate metabolism
@@ -68360,6 +69014,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PINOSi150
+      - doi:
+        - 10.1074/jbc.M109.006072
       - kegg.pathway:
         - Glycerophospholipid metabolism
         - Inositol phosphate metabolism
@@ -68387,6 +69043,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PINOSi160
+      - doi:
+        - 10.1074/jbc.M109.006072
       - kegg.pathway:
         - Glycerophospholipid metabolism
         - Inositol phosphate metabolism
@@ -68414,6 +69072,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PINOSi170
+      - doi:
+        - 10.1074/jbc.M109.006072
       - kegg.pathway:
         - Glycerophospholipid metabolism
         - Inositol phosphate metabolism
@@ -68441,6 +69101,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PINOSi180
+      - doi:
+        - 10.1074/jbc.M109.006072
       - kegg.pathway:
         - Glycerophospholipid metabolism
         - Inositol phosphate metabolism
@@ -68703,6 +69365,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: PPAKr
       - biocyc: META:PROPKIN-RXN
+      - doi:
+        - 10.1111/j.1365-2958.2005.04953.x
       - ec-code: 2.7.2.1
       - kegg.pathway: Propanoate metabolism
       - kegg.reaction: R01353
@@ -68900,6 +69564,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: PPGPPDP
       - biocyc: PPGPPSYN-RXN
+      - doi:
+        - 'PMID: 18051762'
       - ec-code: 3.1.7.2
       - kegg.pathway: Purine metabolism
       - kegg.reaction: R00336
@@ -69172,6 +69838,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: PPRDNDH
       - biocyc: META:RXN-10854
+      - doi:
+        - 10.1128/jb.171.1.299-302.1989
       - kegg.subsystem: Amino acid metabolism
       - metanetx.reaction:
         - MNXR103138
@@ -70599,6 +71267,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: PTA2
       - biocyc: PTAALT-RXN
+      - doi:
+        - 10.1111/j.1365-2958.2005.04953.x
       - ec-code: 2.3.1.8
       - kegg.pathway: Propanoate metabolism
       - kegg.reaction: R00921
@@ -70623,6 +71293,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: PTAr
       - biocyc: PHOSACETYLTRANS-RXN
+      - doi:
+        - 10.1111/j.1365-2958.2005.04953.x
       - ec-code: 2.3.1.8
       - kegg.pathway:
         - Taurine and hypotaurine metabolism
@@ -70964,6 +71636,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: PUTA3
       - biocyc: RXN-14116
+      - doi:
+        - 10.1099/13500872-141-7-1739
       - ec-code: 1.2.1.88
       - kegg.pathway: Arginine and proline metabolism
       - kegg.reaction: R00245
@@ -71133,6 +71807,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: PYDXPS
+      - doi:
+        - 10.1111/j.1365-2958.2010.07381.x
       - kegg.subsystem: Metabolism of cofactors and vitamins
       - origin: iMK1208
       - subsystem: Cofactor and Prosthetic Group Biosynthesis
@@ -71506,6 +72182,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: REDS1
       - biocyc: MALONYL-COA-ACP-TRANSACYL-RXN
+      - doi:
+        - 10.1016/S0969-2126(03)00004-2
       - ec-code: 2.3.1.39
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R01626
@@ -71533,6 +72211,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: REDS10
       - biocyc: META:RXN-9523
+      - doi:
+        - 10.1016/j.chembiol.2007.11.015
       - ec-code: 2.3.1.179
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04957
@@ -71560,6 +72240,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: REDS11
       - biocyc: RXN-9524
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04536
@@ -71610,6 +72292,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: REDS13x
       - biocyc: RXN-9659
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04958
@@ -71636,6 +72320,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: REDS13y
       - biocyc: RXN-9526
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04959
@@ -71663,6 +72349,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: REDS14
       - biocyc: META:RXN-9527
+      - doi:
+        - 10.1016/j.chembiol.2007.11.015
       - ec-code: 2.3.1.179
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04960
@@ -71690,6 +72378,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: REDS15
       - biocyc: RXN-9528
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04534
@@ -71738,6 +72428,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REDS17x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04961
@@ -71763,6 +72455,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REDS17y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04962
@@ -71790,6 +72484,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: REDS18
       - biocyc: META:RXN-9531
+      - doi:
+        - 10.1016/j.chembiol.2007.11.015
       - ec-code: 2.3.1.179
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04963
@@ -71816,6 +72512,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REDS19
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04964
@@ -71843,6 +72541,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: REDS2
       - biocyc: 2.3.1.180-RXN
+      - doi:
+        - 10.1111/j.1574-6968.2011.02474.x
       - ec-code: 2.3.1.180
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R10707
@@ -71892,6 +72592,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: REDS21x
       - biocyc: RXN-9661
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04724
@@ -71918,6 +72620,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: REDS21y
       - biocyc: RXN-9534
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04725
@@ -71944,6 +72648,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: REDS22
       - biocyc: 3.1.2.21-RXN
+      - doi:
+        - 10.1074/jbc.M110.213512
       - kegg.pathway:
         - Fatty acid biosynthesis
         - Prodigiosin biosynthesis
@@ -71971,6 +72677,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REDS23
+      - doi:
+        - 10.1016/j.chembiol.2007.11.015
       - ec-code: 6.2.1.20
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
@@ -71989,6 +72697,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REDS24
+      - doi:
+        - 10.1016/j.chembiol.2007.11.015
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Undecylprodigiosin Biosynthesis
@@ -72008,6 +72718,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REDS25
+      - doi:
+        - 10.1016/j.chembiol.2007.11.015
       - ec-code: 2.3.1.179
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
@@ -72028,6 +72740,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REDS26
+      - doi:
+        - 10.1016/j.chembiol.2007.11.015
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Undecylprodigiosin Biosynthesis
@@ -72047,6 +72761,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REDS27
+      - doi:
+        - 10.1016/j.chembiol.2007.11.015
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Undecylprodigiosin Biosynthesis
@@ -72085,6 +72801,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REDS28
+      - doi:
+        - 10.1039/b609556a
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Undecylprodigiosin Biosynthesis
@@ -72103,6 +72821,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REDS29
+      - doi:
+        - 10.1016/S1074-5521(01)00054-0
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Undecylprodigiosin Biosynthesis
@@ -72123,6 +72843,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: REDS3
       - biocyc: RXN-9514
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04533
@@ -72148,6 +72870,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REDS30
+      - doi:
+        - 10.1039/b609556a
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Undecylprodigiosin Biosynthesis
@@ -72165,6 +72889,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REDS31
+      - doi:
+        - 10.1039/b609556a
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Undecylprodigiosin Biosynthesis
@@ -72183,6 +72909,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: REDS32
       - biocyc: MALONYL-COA-ACP-TRANSACYL-RXN
+      - doi:
+        - 10.1039/b609556a
       - ec-code: 2.3.1.39
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R01626
@@ -72209,6 +72937,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REDS33
+      - doi:
+        - 10.1039/b609556a
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Undecylprodigiosin Biosynthesis
@@ -72228,6 +72958,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REDS34
+      - doi:
+        - 10.1039/b609556a
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Undecylprodigiosin Biosynthesis
@@ -72246,6 +72978,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REDS35
+      - doi:
+        - 10.1016/S1074-5521(01)00054-0
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Undecylprodigiosin Biosynthesis
@@ -72304,6 +73038,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REDS37
+      - doi:
+        - 10.1016/j.chembiol.2007.11.015
       - kegg.subsystem: Biosynthesis of other secondary metabolites
       - origin: iMK1208
       - subsystem: Undecylprodigiosin Biosynthesis
@@ -72345,6 +73081,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REDS5x
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04429
@@ -72370,6 +73108,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REDS5y
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04430
@@ -72397,6 +73137,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: REDS6
       - biocyc: META:RXN-9516
+      - doi:
+        - 10.1016/j.chembiol.2007.11.015
       - ec-code: 2.3.1.179
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04952
@@ -72423,6 +73165,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REDS7
+      - doi:
+        - 10.1021/bi061187v
       - ec-code: 1.1.1.100
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04953
@@ -72472,6 +73216,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: REDS9x
       - biocyc: RXN-9658
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.9
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04955
@@ -72498,6 +73244,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: REDS9y
       - biocyc: RXN-9521
+      - doi:
+        - 10.1002/cbic.201402670
       - ec-code: 1.3.1.10
       - kegg.pathway: Fatty acid biosynthesis
       - kegg.reaction: R04956
@@ -72520,6 +73268,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: REPHACCOAI
+      - doi:
+        - 10.1073/pnas.1005399107
       - ec-code: 5.3.3.18
       - kegg.reaction: R09837
       - kegg.subsystem: Amino acid metabolism
@@ -72649,6 +73399,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: RNDR1
       - biocyc: ADPREDUCT-RXN
+      - doi:
+        - 10.1099/00221287-148-2-391
       - ec-code: 1.17.4.1
       - kegg.pathway: Purine metabolism
       - kegg.reaction: R02017
@@ -72674,6 +73426,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: RNDR2
       - biocyc: GDPREDUCT-RXN
+      - doi:
+        - 10.1099/00221287-148-2-391
       - ec-code: 1.17.4.1
       - kegg.pathway: Purine metabolism
       - kegg.reaction: R02019
@@ -72699,6 +73453,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: RNDR3
       - biocyc: CDPREDUCT-RXN
+      - doi:
+        - 10.1099/00221287-148-2-391
       - ec-code: 1.17.4.1
       - kegg.pathway: Pyrimidine metabolism
       - kegg.reaction: R02024
@@ -72724,6 +73480,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: RNDR4
       - biocyc: UDPREDUCT-RXN
+      - doi:
+        - 10.1099/00221287-148-2-391
       - ec-code: 1.17.4.1
       - kegg.pathway: Pyrimidine metabolism
       - kegg.reaction: R02018
@@ -72901,6 +73659,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: S2FE2SR
+      - doi:
+        - 10.1016/j.bbagen.2008.01.008
       - kegg.subsystem: Metabolism of cofactors and vitamins
       - metanetx.reaction:
         - MNXR104149
@@ -72928,6 +73688,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: S2FE2SS
+      - doi:
+        - 10.1016/j.bbagen.2008.01.008
       - kegg.subsystem: Metabolism of cofactors and vitamins
       - metanetx.reaction:
         - MNXR104150
@@ -72955,6 +73717,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: S2FE2SS2
+      - doi:
+        - 10.1016/j.bbagen.2008.01.008
       - kegg.subsystem: Metabolism of cofactors and vitamins
       - metanetx.reaction:
         - MNXR104151
@@ -72974,6 +73738,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: S2FE2ST
+      - doi:
+        - 10.1016/j.bbagen.2008.01.008
       - kegg.subsystem: Metabolism of cofactors and vitamins
       - metanetx.reaction:
         - MNXR104152
@@ -72994,6 +73760,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: S4FE4SR
+      - doi:
+        - 10.1016/j.bbagen.2008.01.008
       - kegg.subsystem: Metabolism of cofactors and vitamins
       - metanetx.reaction:
         - MNXR104171
@@ -73013,6 +73781,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: S4FE4ST
+      - doi:
+        - 10.1016/j.bbagen.2008.01.008
       - kegg.subsystem: Metabolism of cofactors and vitamins
       - metanetx.reaction:
         - MNXR104172
@@ -73293,6 +74063,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: SBTO
+      - doi:
+        - 10.1074/jbc.M610849200
       - kegg.subsystem: Carbohydrate metabolism
       - origin: iMK1208
       - subsystem: Alternate Carbon metabolism
@@ -73739,6 +74511,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: SCYSDS
+      - doi:
+        - 10.1016/j.bbagen.2008.01.008
       - kegg.subsystem: Metabolism of cofactors and vitamins
       - metanetx.reaction:
         - MNXR104298
@@ -73783,6 +74557,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: SDPTA
       - biocyc: SUCCINYLDIAMINOPIMTRANS-RXN
+      - doi:
+        - 10.1021/bi982574a
       - ec-code: 2.6.1.17
       - kegg.pathway: Lysine biosynthesis
       - kegg.reaction: R04475
@@ -74218,6 +74994,9 @@
       - SBO: SBO:0000176
       - bigg.reaction: SPODM
       - biocyc: SUPEROX-DISMUT-RXN
+      - doi:
+        - 10.1016/S0378-1119(99)00088-8
+        - 10.1046/j.1365-2958.1998.00674.x
       - ec-code: 1.15.1.1
       - kegg.reaction: R00275
       - kegg.subsystem: Other
@@ -74699,6 +75478,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: SULRi
       - biocyc: SULFITE-REDUCT-RXN
+      - doi:
+        - 10.1016/j.resmic.2012.05.004
       - ec-code: 1.8.1.2
       - kegg.pathway: Sulfur metabolism
       - kegg.reaction: R00858
@@ -75361,6 +76142,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: TGBPA
       - biocyc: TAGAALDOL-RXN
+      - doi:
+        - 10.1007/s00203-002-0406-6
       - ec-code: 4.1.2.40
       - kegg.pathway: Galactose metabolism
       - kegg.reaction: R01069
@@ -75576,6 +76359,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: THRA2i
       - biocyc: LTAA-RXN
+      - doi:
+        - 'PMID: 18051291'
       - ec-code: 4.1.2.48
       - kegg.pathway: Glycine, serine and threonine metabolism
       - kegg.reaction: R06171
@@ -75599,6 +76384,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: THRAi
       - biocyc: THREONINE-ALDOLASE-RXN
+      - doi:
+        - 'PMID: 18051291'
       - ec-code: 4.1.2.48
       - kegg.pathway: Glycine, serine and threonine metabolism
       - kegg.reaction: R00751
@@ -76108,6 +76895,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: TRDR
       - biocyc: THIOREDOXIN-REDUCT-NADPH-RXN
+      - doi:
+        - 10.1107/S1744309111021385
       - ec-code: 1.8.1.9
       - kegg.reaction: R02016
       - kegg.subsystem: Energy metabolism
@@ -76241,6 +77030,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: TRPO2
       - biocyc: RXN-8665
+      - doi:
+        - 10.1007/s00253-011-3833-y
       - ec-code: 1.13.11.11
       - kegg.pathway: Tryptophan metabolism
       - kegg.reaction: R00678
@@ -76345,6 +77136,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: TRPTRS
+      - doi:
+        - 10.1074/jbc.M202639200
       - ec-code: 6.1.1.2
       - kegg.pathway: Aminoacyl-tRNA biosynthesis
       - kegg.reaction: R03664
@@ -77926,6 +78719,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: X5PL3E
       - biocyc: LXULRU5P-RXN
+      - doi:
+        - 10.1128/jb.171.1.299-302.1989
       - ec-code: 5.1.3.22
       - kegg.pathway:
         - Ascorbate and aldarate metabolism
@@ -78083,6 +78878,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: XYLI1
       - biocyc: XYLISOM-RXN
+      - doi:
+        - 10.1016/j.femsyr.2005.09.001
       - ec-code: 5.3.1.5
       - kegg.pathway: Pentose and glucuronate interconversions
       - kegg.reaction: R01432
@@ -78156,6 +78953,8 @@
       - SBO: SBO:0000176
       - bigg.reaction: XYLK2
       - biocyc: LYXK-RXN
+      - doi:
+        - 10.1128/jb.171.1.299-302.1989
       - ec-code: 2.7.1.53
       - kegg.pathway: Pentose and glucuronate interconversions
       - kegg.reaction: R01901
@@ -78270,6 +79069,8 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - bigg.reaction: XYLTO
+      - doi:
+        - 10.1074/jbc.M610849200
       - ec-code: 1.1.3.41
       - kegg.pathway: Pentose and glucuronate interconversions
       - kegg.reaction: R07152
@@ -78476,6 +79277,8 @@
     - annotation: !!omap
       - SBO: SBO:0000655
       - bigg.reaction: 14GLUCANabc
+      - doi:
+        - 10.1099/mic.0.2008/019612-0
       - kegg.subsystem: Transport
       - origin: iMK1208
       - subsystem: Transport, Membrane
@@ -78618,6 +79421,8 @@
     - subsystem: Methionine and Cysteine Metabolism
     - annotation: !!omap
       - SBO: SBO:0000655
+      - doi:
+        - 10.1186/s12864-018-4905-5
       - origin: iAA1259
   - !!omap
     - id: ACGApts
@@ -78633,6 +79438,9 @@
     - annotation: !!omap
       - SBO: SBO:0000655
       - bigg.reaction: ACGApts
+      - doi:
+        - 10.1128/JB.185.23.7019-7023.2003
+        - 10.1111/j.1365-2958.2009.07020.x
       - kegg.subsystem: Transport
       - metanetx.reaction:
         - MNXR95253
@@ -78667,6 +79475,8 @@
     - annotation: !!omap
       - SBO: SBO:0000655
       - bigg.reaction: ACTt
+      - doi:
+        - 10.1128/mBio.00191-12
       - kegg.subsystem: Transport
       - origin: iMK1208
       - subsystem: Transport, Membrane
@@ -79432,6 +80242,8 @@
         - SCO6548
     - annotation: !!omap
       - SBO: SBO:0000655
+      - doi:
+        - 10.1093/femsle/fnv245
       - origin: iAA1259
   - !!omap
     - id: CHLabc
@@ -79494,6 +80306,9 @@
     - annotation: !!omap
       - SBO: SBO:0000655
       - bigg.reaction: CHTBSabc
+      - doi:
+        - 10.1099/mic.0.2008/019612-0
+        - 10.1128/AEM.02612-06
       - kegg.subsystem: Transport
       - origin: iMK1208
       - subsystem: Transport, Membrane
@@ -79525,6 +80340,8 @@
           or SCO5003 or SCO5673 or SCO2833  or SCO6012 or SCO2503 or SCO7225)
     - annotation: !!omap
       - SBO: SBO:0000655
+      - doi:
+        - 10.1128/AEM.02217-12
       - origin: iAA1259
   - !!omap
     - id: CITRLt
@@ -79681,6 +80498,8 @@
     - annotation: !!omap
       - SBO: SBO:0000655
       - bigg.reaction: COELICHELINabc
+      - doi:
+        - 10.1021/bi100451k
       - ec-code: 3.6.3.34
       - kegg.subsystem: Transport
       - origin: iMK1208
@@ -79703,6 +80522,8 @@
         - s0001
     - annotation: !!omap
       - SBO: SBO:0000655
+      - doi:
+        - 10.1039/C2SC20410J
       - origin: iAA1259
   - !!omap
     - id: CPKSt
@@ -79719,6 +80540,8 @@
         - SCO6278
     - annotation: !!omap
       - SBO: SBO:0000655
+      - doi:
+        - 10.1039/C2SC20410J
       - origin: iAA1259
   - !!omap
     - id: CSNt2
@@ -79794,6 +80617,8 @@
     - annotation: !!omap
       - SBO: SBO:0000655
       - bigg.reaction: CU2abc
+      - doi:
+        - 10.1074/jbc.270.47.28479
       - kegg.subsystem: Transport
       - origin: iMK1208
       - subsystem: Inorganic Ion Transport and metabolism
@@ -79850,6 +80675,8 @@
     - annotation: !!omap
       - SBO: SBO:0000655
       - bigg.reaction: CYO2a
+      - doi:
+        - 10.1007/s002030100262
       - kegg.subsystem: Energy metabolism
       - origin: iMK1208
       - subsystem: Oxidative phosphorylation
@@ -79927,6 +80754,8 @@
     - annotation: !!omap
       - SBO: SBO:0000655
       - bigg.reaction: CYTBD2
+      - doi:
+        - 10.1007/s002030100262
       - kegg.reaction: R09492
       - kegg.subsystem: Energy metabolism
       - metanetx.reaction:
@@ -80405,6 +81234,8 @@
     - annotation: !!omap
       - SBO: SBO:0000655
       - bigg.reaction: FEOXAMBabc
+      - doi:
+        - 10.1021/bi100451k
       - kegg.subsystem: Transport
       - origin: iMK1208
       - subsystem: Inorganic Ion Transport and metabolism
@@ -80442,6 +81273,8 @@
     - annotation: !!omap
       - SBO: SBO:0000655
       - bigg.reaction: FEOXAMEabc
+      - doi:
+        - 10.1021/bi100451k
       - kegg.subsystem: Transport
       - origin: iMK1208
       - subsystem: Inorganic Ion Transport and metabolism
@@ -80477,6 +81310,9 @@
     - annotation: !!omap
       - SBO: SBO:0000655
       - bigg.reaction: FRUpts
+      - doi:
+        - 10.1128/JB.185.23.7019-7023.2003
+        - 10.1111/j.1365-2958.2009.07020.x
       - kegg.subsystem: Transport
       - metanetx.reaction:
         - MNXR138359
@@ -80726,6 +81562,8 @@
     - annotation: !!omap
       - SBO: SBO:0000655
       - bigg.reaction: GLCt2
+      - doi:
+        - 10.1111/j.1365-2958.2004.04413.x
       - kegg.subsystem: Transport
       - metanetx.reaction:
         - MNXR100238
@@ -81629,6 +82467,8 @@
     - annotation: !!omap
       - SBO: SBO:0000655
       - bigg.reaction: LYXt2
+      - doi:
+        - 10.1128/jb.171.1.299-302.1989
       - kegg.subsystem: Transport
       - origin: iMK1208
       - subsystem: Transport, Membrane
@@ -81669,6 +82509,8 @@
     - annotation: !!omap
       - SBO: SBO:0000655
       - bigg.reaction: MALTHXabc
+      - doi:
+        - 10.1099/mic.0.2008/019612-0
       - kegg.subsystem: Transport
       - metanetx.reaction:
         - MNXR138566
@@ -81691,6 +82533,8 @@
     - annotation: !!omap
       - SBO: SBO:0000655
       - bigg.reaction: MALTPTabc
+      - doi:
+        - 10.1099/mic.0.2008/019612-0
       - kegg.subsystem: Transport
       - metanetx.reaction:
         - MNXR138568
@@ -81714,6 +82558,8 @@
       - SBO: SBO:0000655
       - bigg.reaction: MALTTRabc
       - biocyc: META:TRANS-RXN0-503
+      - doi:
+        - 10.1099/mic.0.2008/019612-0
       - kegg.subsystem: Transport
       - metanetx.reaction:
         - MNXR138570
@@ -81737,6 +82583,8 @@
       - SBO: SBO:0000655
       - bigg.reaction: MALTTTRabc
       - biocyc: TRANS-RXN0-504
+      - doi:
+        - 10.1099/mic.0.2008/019612-0
       - kegg.subsystem: Transport
       - metanetx.reaction:
         - MNXR101360
@@ -81760,6 +82608,8 @@
       - SBO: SBO:0000655
       - bigg.reaction: MALTabc
       - biocyc: ABC-16-RXN
+      - doi:
+        - 10.1099/mic.0.2008/019612-0
       - kegg.subsystem: Transport
       - metanetx.reaction:
         - MNXR101362
@@ -82270,6 +83120,8 @@
       - SBO: SBO:0000655
       - bigg.reaction: NAt3_2
       - biocyc: TRANS-RXN-129
+      - doi:
+        - 10.1007/s10295-009-0580-5
       - kegg.subsystem: Transport
       - metanetx.reaction:
         - MNXR101915
@@ -82381,6 +83233,9 @@
     - annotation: !!omap
       - SBO: SBO:0000655
       - bigg.reaction: NO3R2
+      - doi:
+        - 10.1016/j.bbrc.2009.05.147
+        - 10.1099/mic.0.042572-0
       - ec-code: 1.7.99.4
       - kegg.subsystem: Nucleotide metabolism
       - metanetx.reaction:
@@ -82533,6 +83388,8 @@
     - annotation: !!omap
       - SBO: SBO:0000655
       - bigg.reaction: PACALDt2r
+      - doi:
+        - 10.1128/jb.171.1.299-302.1989
       - kegg.subsystem: Transport
       - origin: iMK1208
       - subsystem: Transport, Membrane
@@ -83041,6 +83898,9 @@
         - s0001
     - annotation: !!omap
       - SBO: SBO:0000655
+      - doi:
+        - 10.1016/j.mib.2006.04.003
+        - 10.1073/pnas.0607472104
       - origin: iAA1259
   - !!omap
     - id: SCB2t
@@ -83064,6 +83924,9 @@
         - s0001
     - annotation: !!omap
       - SBO: SBO:0000655
+      - doi:
+        - 10.1016/j.mib.2006.04.003
+        - 10.1073/pnas.0607472104
       - origin: iAA1259
   - !!omap
     - id: SCB3t
@@ -83087,6 +83950,9 @@
         - s0001
     - annotation: !!omap
       - SBO: SBO:0000655
+      - doi:
+        - 10.1016/j.mib.2006.04.003
+        - 10.1073/pnas.0607472104
       - origin: iAA1259
   - !!omap
     - id: SERt2r
@@ -83284,6 +84150,8 @@
     - annotation: !!omap
       - SBO: SBO:0000655
       - bigg.reaction: SUCD3
+      - doi:
+        - 10.1046/j.1432-1327.1998.2570210.x
       - ec-code: 1.3.99.1
       - kegg.subsystem: Energy metabolism
       - metanetx.reaction:
@@ -83327,6 +84195,8 @@
     - annotation: !!omap
       - SBO: SBO:0000655
       - bigg.reaction: SUCRabc
+      - doi:
+        - 10.1016/S0032-9592(97)00088-5
       - kegg.subsystem: Transport
       - metanetx.reaction:
         - MNXR104639
@@ -83882,6 +84752,8 @@
         - (SCO5931 or SCO2292 or SCO1883 or SCO0674 or SCO0105)
     - annotation: !!omap
       - SBO: SBO:0000655
+      - doi:
+        - 10.1007/s12010-016-2103-y
       - origin: iAA1259
   - !!omap
     - id: XYLTabc
@@ -88096,11 +88968,6 @@
   - !!omap
     - id: SCO0491
     - name: SCF34.10c
-    - annotation: !!omap
-      - SBO: SBO:0000243
-  - !!omap
-    - id: SCO04919
-    - name: ''
     - annotation: !!omap
       - SBO: SBO:0000243
   - !!omap
