@@ -1,3 +1,11 @@
+#!/usr/bin/env python
+"""
+Author: Snorre Sulheim
+Date: 11.2018
+
+# Description
+Map model metabolites and reactions to metanetx identifiers using KEGG, metacyc and BiGG annotations.
+"""
 import cobra
 import pandas as pd
 from pathlib import Path

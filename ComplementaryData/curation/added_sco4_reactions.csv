@@ -57,7 +57,6 @@ BETA__45__UREIDOPROPIONASE__45__RXN;BETA-UREIDOPROPIONASE-RXN;"beta-ureidopropio
 BUTYRYL__45__COA__45__DEHYDROGENASE__45__RXN;BUTYRYL-COA-DEHYDROGENASE-RXN;"butyryl-CoA dehydrogenase;butanoyl-CoA dehydrogenase";R01178;MNXR115742;;BCOADH
 CARBOXY__45__OXOHEPT__45__ENEDIOATE__45__DECARBOXY__45__RXN;CARBOXY-OXOHEPT-ENEDIOATE-DECARBOXY-RXN;5-oxopent-3-ene-1,2,5-tricarboxylate carboxy-lyase;R04380;MNXR115744;;5OP3TCCL
 CATECHOL__45__23__45__DIOXYGENASE__45__RXN;CATECHOL-23-DIOXYGENASE-RXN;"catechol 2,3-dioxygenase;catechol dioxygenase";R00816;MNXR96456;CAT23DOX;CAT23DOX
-CDPDIGLYSYN__45__RXN;CDPDIGLYSYN-RXN;"phosphatidate cytidylyltransferase;CDP-diacylglycerol synthase;CTP:phosphatidate cytidyltransferase";R01799;MNXR115751;;PPCDYT
 CEPHALOSPORIN__45__C__45__DEACETYLASE__45__RXN;CEPHALOSPORIN-C-DEACETYLASE-RXN;CEPHALOSPORIN-C-DEACETYLASE-RXN;R03062;MNXR107922;;CEPSPORDA
 CHMS__45__DEHYDROGENASE__45__RXN;CHMS-DEHYDROGENASE-RXN;2-hydroxy-5-carboxymethylmuconate semialdehyde dehydrogenase;R04418;MNXR94997;CMCMSAD, 4C2HM6SADH;CMCMSAD
 CHOLESTEROL__45__OXIDASE__45__RXN;CHOLESTEROL-OXIDASE-RXN;cholesterol oxidase;R01459;MNXR107006;;CHOLOX
@@ -84,7 +83,6 @@ EXC_OUT_CPD__45__10680_c;EXC_OUT_CPD-10680_c;EXC_OUT_CPD-10680_c;;;;DM_33biflav_
 EXC_OUT_CPD__45__10681_c;EXC_OUT_CPD-10681_c;EXC_OUT_CPD-10681_c;;;;DM_38biflav_c
 EXC_OUT_CPD__45__14016_c;EXC_OUT_CPD-14016_c;EXC_OUT_CPD-14016_c;;;;DM_2mborn_c
 EXC_OUT_CPD__45__14522_c;EXC_OUT_CPD-14522_c;EXC_OUT_CPD-14522_c;;;;DM_ahop_c
-EXC_OUT_CPD__45__9962_c;EXC_OUT_CPD-9962_c;EXC_OUT_CPD-9962_c;;;;DM_albflon_c
 FHLMULTI__45__RXN;FHLMULTI-RXN;formate hydrogenlyase complex;;MNXR99594;FHL;FHL
 FORMIMINOGLUTAMATE__45__DEIMINASE__45__RXN;FORMIMINOGLUTAMATE-DEIMINASE-RXN;formiminoglutamate deiminase;R02286;MNXR99617;FORGLUIH;FORGLUIH
 FRUCTOSE__45__6__45__PHOSPHATE__45__PHOSPHOKETOLASE__45__RXN;FRUCTOSE-6-PHOSPHATE-PHOSPHOKETOLASE-RXN;"D-fructose-6-phosphate D-erythrose-4-phosphate-lyase (adding phosphate acetyl-phosphate-forming);fructose-6-phosphate phosphoketolase;D-fructose 6-phosphate phosphoketolase";R00761;MNXR115892;;FRU6PE4P
@@ -121,7 +119,6 @@ MHPHYDROXY__45__RXN;MHPHYDROXY-RXN;3-(3-hydroxyphenyl)propanoate hydroxylase;R06
 MYO__45__INOSITOL__45__1OR__45__4__45__MONOPHOSPHATASE__45__RXN;MYO-INOSITOL-1OR-4-MONOPHOSPHATASE-RXN;"myo-inositol-3-phosphate monophosphatase;inositol monopohsphatase;inositol-1(or 4)-monophosphatase;myo-inositol 3-phosphate monophosphatase;inositol monophosphatase";R01187;MNXR101574;MI3PP;MI3PP
 N__45__ACETYLNEURAMINATE__45__SYNTHASE__45__RXN;N-ACETYLNEURAMINATE-SYNTHASE-RXN;N-acetylneuraminate synthase;R01804;MNXR116074;;ACNMS
 NMNAMIDOHYDRO__45__RXN;NMNAMIDOHYDRO-RXN;NMN amidohydrolase;R02322;MNXR101969;NMNDA;NMNDA
-PHOSPHAGLYPSYN__45__RXN;PHOSPHAGLYPSYN-RXN;"phosphatidylglycerophosphate synthase;phosphatidylglycerolphosphate synthase;CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase;CDP-diacylglycerol glycerol-3-phosphate 3-phosphatidyltransferase";R01801;MNXR107179;;PPTGLYP
 PHOSPHASERDECARB__45__RXN;PHOSPHASERDECARB-RXN;phosphatidylserine decarboxylase;R02055;MNXR116127;;PPTSERDC
 PROLINE__45__RACEMASE__45__RXN;PROLINE-RACEMASE-RXN;proline racemase;R01255;MNXR106886;;PROLRM
 PYRIDOXINE__45__4__45__DEHYDROGENASE__45__RXN;PYRIDOXINE-4-DEHYDROGENASE-RXN;"pyridoxal reductase;pyridoxine 4-dehydrogenase/pyridoxal reductase";R01708;MNXR103366;PYDXOR;PYDXOR
@@ -196,7 +193,6 @@ RXN__45__12400;RXN-12400;XLLG xyloglucan oligosaccharide beta-galactosidase;;MNX
 RXN__45__12402;RXN-12402;isoprimeverose alpha-xylosidase;;MNXR117529;;IPAXYL
 RXN__45__12440;RXN-12440;L-ascorbate peroxidase;;MNXR117558;;ASCORPO
 RXN__45__12540;RXN-12540;Fenton reaction;;MNXR117619;;FENTON
-RXN__45__12541;RXN-12541;;;MNXR117620;;
 RXN__45__12653;RXN-12653;pentalenolactone synthase;R10162;MNXR113528;;PTLACS
 RXN__45__12654;RXN-12654;1-deoxy-11-oxopentalenate oxygenase;;MNXR113520;;11OXPENT
 RXN__45__12703_NADH;RXN-12703_NADH;3-oxocholest-4-en-26-oyl-CoA dehydrogenase (NADH);;;;3OCHOCDH_NADH
@@ -221,7 +217,6 @@ RXN__45__13129;RXN-13129;4-hydroxyacetophenone monooxygenase;;MNXR110620;;4HDAPM
 RXN__45__13141;RXN-13141;(S)-NADPHX dehydratase;;MNXR113626;NADPHXD;NADPHXD
 RXN__45__13142;RXN-13142;NADPHX epimerase;;MNXR113638;NADPHXE;NADPHXE
 RXN__45__13194;RXN-13194;(+)-epi-isozizaene,NADPH:oxygen oxidoreductase (5-hydroxylating);R10072;MNXR113454;;EIZOO
-RXN__45__13463;RXN-13463;2-oxopent-4-enoate isomerase (spontaneous);;MNXR118100;;OP4ENISOs
 RXN__45__13528_NADH;RXN-13528_NADH;adenosyl hopane synthase (NADH);;;;AHOPS_NADH
 RXN__45__13528_NADPH;RXN-13528_NADPH;adenosyl hopane synthase (NADPH);;;;AHOPS_NADPH
 RXN__45__13530;RXN-13530;formyl hopane synthase;;MNXR118151;;FORHOPS
@@ -319,7 +314,6 @@ RXN__45__8023_NADPH;RXN-8023_NADPH;"phytoene desaturase;all-trans-phytoene desat
 RXN__45__8024_NADH;RXN-8024_NADH;all-trans phytofluene desaturase (NADH);R04787;;;PHYFLUDS_NADH
 RXN__45__8024_NADPH;RXN-8024_NADPH;all-trans phytofluene desaturase (NADPH);R04787;;;PHYFLUDS_NADPH
 RXN__45__8060;RXN-8060;Ni-sirohydrochlorin a,c-diamide synthase;;MNXR122122;;NSHDDS
-RXN__45__8081;RXN-8081;F420-1:gamma-glutamyl ligase;;MNXR100101;GF4GL_1;GF4GL_1
 RXN__45__8182;RXN-8182;glutarate semialdehyde dehydrogenase;;MNXR114287;;GLUSAD
 RXN__45__8460;RXN-8460;"4,5-DOPA dioxygenase extradiol;4,5-DOPA-dioxygenase";['R02075', 'R08836'];MNXR107298;;45DOPA
 RXN__45__8461;RXN-8461;4,5-seco-dopa dehydratase (spontaneous);R08837;MNXR112330;;45SDOPs
@@ -376,7 +370,6 @@ RXN1F__45__150;RXN1F-150;"lycopene beta cyclase;lycopene beta-cyclase;trans lyco
 RXN1F__45__151;RXN1F-151;"lycopene beta cyclase;gamma-carotene beta-cyclase;gamma-carotene beta- cyclase";R03824;MNXR100063;GCATENEC, LCYB;LCYB
 RXN1F__45__20;RXN1F-20;magnesium chelatase;R03877;MNXR101721;MPML, MPML_1;MPML
 RXN1K__45__87;RXN1K-87;2-oxohept-3-enedioate isomerase;R04134;MNXR108679;;2OH3EDISO
-RXN66__45__447;RXN66-447;Sodium independent leucine transport;;MNXR101057;LEUtec;LEUtec
 RXN66__45__81;RXN66-81;nicotine monooxygenase;;MNXR123801;;NICMO
 RXNARA__45__8002;RXNARA-8002;phytoene synthase;R07270;MNXR108741;;PHYSYN
 RXNDQC__45__2;RXNDQC-2;indole-3-pyruvate monooxygenase;;MNXR113547;;I3PYRMO

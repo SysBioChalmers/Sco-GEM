@@ -1,3 +1,11 @@
+#!/usr/bin/env python
+"""
+Author: Snorre Sulheim
+
+# Description
+A variety fo functions not used in the pipeline directly, but to cureate a draft mapping
+of reactions and metabolites in Sco4 to iKS1317
+"""
 import sys
 import os
 import cobra
