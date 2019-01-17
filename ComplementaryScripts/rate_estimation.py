@@ -463,12 +463,16 @@ class RateEstimator(object):
             new_df.loc[idx, "Estimated growth rate"] = row["Growth rate"]
             
             tmp_balance = []
+            uptake_balance = []
             with model:
                 for c in carbon:
                     if np.isnan(row[c]):
                         tmp_balance.append(0)
                     else:
-                        # Carbon balance
+                        # Carbon 
+                        if row[c] < 0:
+                            uptake_balance.append(row[c]*CARBON_DICT[c])
+
                         tmp_balance.append(row[c]*CARBON_DICT[c])
                         
                         # FBA growth
@@ -479,7 +483,8 @@ class RateEstimator(object):
                 else:
                     new_df.loc[idx, "FBA growth rate"] = s.objective_value
 
-            new_df.loc[idx, "Carbon balance"] = -sum(tmp_balance)
+            ratio = sum(tmp_balance) / sum(uptake_balance)
+            new_df.loc[idx, "Carbon balance"] = ratio
         
         print(new_df.dtypes)
         if save_fn:
