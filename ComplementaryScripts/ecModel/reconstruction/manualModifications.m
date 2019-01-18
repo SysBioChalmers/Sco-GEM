@@ -93,8 +93,8 @@ for i = 1:length(model.rxns)
             model.S(int_pos(j),i) = newValue;
         end
     end
-    if i/250 == fix(i/250)
-        disp(['Improving model with curated data: Ready with rxn #' num2str(i)])
+    if rem(i,100) == 0 | i == rxns
+        disp(['Improving model with curated data: Ready with rxn ' num2str(i)])
     end
 end
 
