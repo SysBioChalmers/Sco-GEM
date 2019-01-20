@@ -93,7 +93,7 @@ for i = 1:length(model.rxns)
             model.S(int_pos(j),i) = newValue;
         end
     end
-    if rem(i,100) == 0 | i == rxns
+    if rem(i,100) == 0 | i == length(model.rxns)
         disp(['Improving model with curated data: Ready with rxn ' num2str(i)])
     end
 end
