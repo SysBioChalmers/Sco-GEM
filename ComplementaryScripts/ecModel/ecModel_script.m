@@ -72,6 +72,7 @@ sol=solveLP(ecModel_M1152_pool)
 % T = topUsedEnzymes(transpose(sol_pool),model_pool(1),conditions,'scoGEM',false,10);
 % writetable(T,['../../../../../ComplementaryData/ecmodel/ecScoGEM_pool_topUsedEnzymes.txt'])
 
+save([root '/scrap/ecPool.mat'],'ecModel*_pool')
 
 %% - Prepare proteomics data
 sample      = [cellstr(repmat('M145',9,1));cellstr(repmat('M1152',8,1))];
@@ -139,15 +140,16 @@ for i=1:length(sample(:,1))
     exportModel(prot(i).model,...
     [root,'/ModelFiles/xml/',sample{i,1},'_',num2str(sample{i,2}),'.xml']);
 end
+save([root '/scrap/proteomeModels.mat'],'prot');
 
 
+%% - 
 for i=1:9
     out(:,i)=prot(i).enzUsagesRS;
 end
 out=full(out);
 clear out
 
-save([root '/ModelFiles/mat/ecProtModels.mat'],'ecModel','ecModel_M1152','prot')
 
 end
 
