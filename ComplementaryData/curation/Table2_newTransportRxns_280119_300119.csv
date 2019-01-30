@@ -1,0 +1,27 @@
+ACTdiff,SCO3190 ,act_c[c]<=> act_e[e] ,true,-1000,1000
+FEt,SCO2539,fe2_e[e] + gtp_c[c]+h2o_c[c] -> fe2_c[c] + gdp_c[c] + pi_c[c]  + h_c[c],false,0,1000
+FeHemu,SCO2276,hemeO_c[c] + ATP_c[c] + h20_c[c] + fe2_e[e] -> hemeA_c[c] + adp_c[c] + pi_c[c] + fe2_c[c],false,0,1000
+FEt,SCO2277 and SCO3963,fe2_e[e] -> fe2_c[c],false,0,1000
+NH4t2,SCO5583 or SCO3085 ,nh4_e[e]<=>nh4_c[c],true,-1000,1000
+AMEt,SCO4104 or SCO5481,amet_c[c] + ca2_e[e]  + h2o_c[c] + atp_c[c] -> amet_c[c] + ca2_c[c] + adp_c[c] + pi_c[c]+ h_c[c],false,0,1000
+COBALTabc,SCO0245 and SCO2499 and ( SCO0210 or SCO5154 or SCO7540 or SCO0246 or SCO1435 or SCO1436 or SCO3764 or SCO1251 or SCO2534 or SCO3765 ),cobalt2_e[e] + atp_c[c] + h2o_c[c]->cobalt2_c[c] + adp_c[c] + pi_c[c]+ h_c[c],false,0,1000
+CHLNAt1,SCO6990,na1_e[e] + chol_e[e]  ->na1_c[c] + chol_c[c] ,false,0,1000
+BIOt,SCO2630,h2o_c[c] + atp_c[c] + btn_e[e]  -> h_c[c] + adp_c[c] + pi_c[c] + btn_c[c] ,false,0,1000
+CITHt,SCO1710,h_e[e] + cit_e[e]  -> h_c[c] + cit_c[c] ,false,0,1000
+UACGApts,SCO1128,uacgam_e[e] + pep_c[c] -> uacgam6p_c[c] + pyr_c[c],false,0,1000
+THMPPt,SCO1359 or SCO1362 or SCO1363 or SCO1588 or SCO1704 ,thmpp_e[e]<=>thmpp_c[c],true,-1000,1000
+LCTSt,SCO4329 and SCO4446 and SCO4451 and SCO4641 ,h_e[e] + lcts_e[e]  -> h_c[c] + lcts_c[c] ,false,0,1000
+THMmfs,SCO6384,thm_e[e] + h_e[e] <=> thm_c[c] + h_c[c],true,-1000,1000
+RAFFINabc ,SCO0290  and SCO7165,h2o_c[c] + atp_c[c] + raffin_e[e]  -> h_c[c] + raffin_c[c] + adp_c[c] + pi_c[c],false,0,1000
+MELTabc,SCO0290 and SCO7165,h2o_c[c] + atp_c[c] + melib_e[e]  -> h_c[c] + melib_c[c] + adp_c[c] + pi_c[c] ,false,0,1000
+LPROCabc,SCO037or  SCO0374  or SCO1367 or SCO2674 or SCO3752  or SCO5035 or SCO5453 or SCO5479 or SCO5654  and  SCO4884,lproc_e + h2o_c[c] + atp_c[c] -> lproc_c + h_c[c] + adp_c[c] + pi_c[c],false,0,1000
+GTHOC_abc,SCO1344 or SCO1655 or SCO6644 or SCO7563 ,gthox_e[e] + h2o_c[c] + atp_c[c] -> gthox_c[c] + h_c[c] + adp_c[c] + pi_c[c],false,0,1000
+MELIBabc,SCO1707, h2o_c[c] + atp_c[c] + melib_e[e]  -> h_c[c] + melib_c[c] + adp_c[c] + pi_c[c] ,false,0,1000
+HEMabc,SCO1840 or SCO6047 or SCO2677 or SCO6512 or SCO6742 or SCO5009,hemeO_e[e] + h2o_c[c] + atp_c[c]->hemeO_c[c] + adp_c[c] + h_c[c] + pi_c[c],false,0,1000
+SUFBCDabc,SCO1922 or SCO1924 or SCO1925 ,sufbcd_2fe2s2_e[e] + atp_c[c] + h20_c[c] -> sufbcd_2fe2s2_c[c] + adp_c[c] + h_c[c] + pi_c[c],false,0,1000
+SUFBCD4abc,SCO1922 or SCO1924 or SCO1925 ,sufbcd_4fe4s_e[e] + atp_c[c] + h2o_c[c] ->sufbcd_4fe4s_c[c]+ + adp_c[c]+h_c[c] + pi_c[c],false,0,1000
+COBALTabc,(SCO2324 or SCO5958 or SCO5959 or SCO5960 or SCO6720 ) and SCO2323 and SCO2325,cobalt2_e[e] + atp_c[c] + h2o_c[c] -> cobalt2_c[c] + adp_c[c] + h_c[c] +pi_c[c],false,0,1000
+ACTeabc,SCO0636 or SCO2463 or SCO2763  or SCO6683 or SCO6684 or SCO6295,act_c[c] + h2o_c[c] + atp_c[c] -> act_e[e] + adp_c[c] + h_c[c] + pi_c[c],false,0,1000
+LEUabc,SCO7606,leu__L_e[e] +h2o_c[c] + atp_c[c] -> leu__L_c[c] +adp_c[c] + h_c[c] + pi_c[c],false,0,1000
+HEMeabc,SCO4475,h2o_c[c] + atp_c[c] +ficytc_c[c]  -> h_c[c] + ficytc_e[e] + adp_c[c] + pi_c[c],false,0,1000
+SERabc,SCO5598,ser__L_e[e] + h2o_c[c] + atp_c[c] -> ser__L_c[c] + adp_c[c] + h_c[c] + pi_c[c],false,0,1000
