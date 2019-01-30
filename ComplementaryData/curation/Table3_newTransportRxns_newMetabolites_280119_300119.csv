@@ -1,0 +1,23 @@
+HISpep,SCO1391,pep_c[c] + his__L_e[e]-> pyr_c[c] + phis__L_c[c] ,false,0,1000
+ASCpts,SCO0136,pep_c[c] + asc__L_e[e]  -> pyr_c[c] + asc6p_c[c],false,0,1000
+Telu,SCO0562 or SCO0892 or SCO1963 or SCO2366 or SCO6313,Telu_e[e]  <=> Telu_c[c] ,true,-1000,1000
+FBae1,SCO0513,fb_c[c]-> fb_e[e],false,0,1000
+FUSt,SCO0791 or SCO0796 or SCO1099 or SCO1118 or SCO1985 or SCO7159 or SCO7318 ,fus_e[e] <=> fus_c[c],true,-1000,1000
+INDIGt,SCO2646,indig_e[e] <=> indig_c[c],true,-1000,1000
+TPPt,SCO2898 or SCO3164 or SCO3297 or SCO4592 or SCO5210 or SCO5531 or SCO5851 or SCO6376 or SCO7394,TPP_e[e]  -> TPP_c[c],false,0,1000
+PRNt,SCO0079,prn_e[e]  <=> prn_c[c] ,true,-1000,1000
+MEMYt,SCO0295,memy_e[e]+ h_e[c] <=> h_c[c ]+ memy_c[c],true,-1000,1000
+Cyt,SCO1812 or SCO7157 or SCO7703,cy_e[e] <=> cy_c[c],true,-1000,1000
+ENTBACTINt,(SCO3898 or SCO4337) and (SCO6427 or SCO6430 or SCO7309 or SCO7346 or SCO7369),entbactin_c[c] <=> entbactin_e[e] ,true,-1000,1000
+OXOFORMATEt,SCO6563,oxformate_e[e]  + h_e[e] -> oxoformate_c[c]+ h_c[c],false,0,1000
+CATECHOLopt,SCO0242 or SCO6122,catechol_e[e] <=> catechol_c[c] ,true,-1000,1000
+TELt,SCO1617 or SCO4795,tel_e[e]  <=> tel_c[c] ,true,-1000,1000
+FUCOSEt,SCO4462,fucose_e[e] + h_e[e] -> fucose_c[c] + h_c[c],false,0,1000
+RHMNabc,SCO0449,h2o_c[c] + atp_c[c] + rmn_e[e]   -> h_c[c] + rmn_c[c] + adp_c[c] + pi_c[c] ,false,0,1000
+GLUCSabc,SCO1465,glucs_e[e] + h2o_c[c] + atp_c[c] -> glucs_c[c] + h_c[c] + adp_c[c] + pi_c[c],false,0,1000
+DESabc,SCO1785 or SCO2422 or SCO6426 or SCO5780,des_e[e] + h2o_c[c] + atp_c[c] -> des_c[c] + adp_c[c] + h_c[c] + pi_c[c],false,0,1000
+FENTEROabc,SCO1786,fentero_e[e]  + h2o_c[c] + atp_c[c]->fentero_c[c] + adp_c[c] + h_c[c] + pi_c[c],false,0,1000
+COBALabc,SCO1787,h2o_c[c] + atp_c[c] +cobal_e[e]  -> pi_c[c] + cobal_c[c] + adp_c[c] + h_c[c] ,false,0,1000
+OMYCINabc,SCO2258 or SCO2306,omycin_e[e]  + h2o_c[c] + atp_c[c] -> omycin_c[c] + adp_c[c] + h_c[c] + pi_c[c],false,0,1000
+XYLBabc ,SCO7028 and SCO7029 and SCO7030,xylb_e[e] + h2o_c[c] + atp_c[c] -> h_c[c] + adp_c[c] + pi_c[c] + xylb_c[c],false,0,1000
+ASO3abc,SCO2128,aso3_e[e] +h2o_c[c] + atp_c[c] -> aso3_c[c] + adp_c[c] + h_[c] + pi_c[c],false,0,1000
