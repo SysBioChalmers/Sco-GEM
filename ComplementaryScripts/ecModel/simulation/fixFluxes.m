@@ -8,6 +8,9 @@ else
     error('Only data for strains M145 and M1152 are available.');
 end
 
+if isstr(sample)
+    sample=str2num(sample);
+end
 if nargin < 3 | ~ismember(sample,rates(:,1))
     error('Please specify a sample from the list of available time-points:\n %s',...
         join(string(num2str(rates(:,1)))));
@@ -27,8 +30,8 @@ end
            
 model = setParam(model,'eq',IDs,abs(UB));
 model = setParam(model,'lb','ATPM',0);
-model = setParam(model,'obj','BIOMASS_SCO',1);
-model = setParam(model,'lb','BIOMASS_SCO',0);
-sol=solveLP(model)
+model = setParam(model,'obj','BIOMASS_SCO_tRNA',1);
+model = setParam(model,'lb','BIOMASS_SCO_tRNA',0);
+sol=solveLP(model);
 gRate = rates(sampleIdx,3);
 end
