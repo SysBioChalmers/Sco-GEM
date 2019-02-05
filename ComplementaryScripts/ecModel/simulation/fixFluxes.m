@@ -21,14 +21,17 @@ if nargin < 4
 end
 
 sampleIdx   = find(ismember(rates(:,1), sample));
-UB          = rates(sampleIdx,4:end-1);
+UB          = 1.01*rates(sampleIdx,4:end-1);
+LB          = 0.99*rates(sampleIdx,4:end-1);
 IDs         = {'EX_glc__D_e_REV','EX_glu__L_e_REV',...
                'DM_RED_c','DM_germicidinA_c','DM_germicidinB_c'};
 if strcmp(strain,'M1152')
     UB      = [UB(1:2) 0 UB(4:end)]; % No RED produced, set to zero.
+    LB      = [LB(1:2) 0 LB(4:end)]; % No RED produced, set to zero.
 end
            
-model = setParam(model,'eq',IDs,abs(UB));
+model = setParam(model,'ub',IDs,abs(UB));
+model = setParam(model,'lb',IDs,abs(LB));
 model = setParam(model,'lb','ATPM',0);
 model = setParam(model,'obj','BIOMASS_SCO_tRNA',1);
 model = setParam(model,'lb','BIOMASS_SCO_tRNA',0);

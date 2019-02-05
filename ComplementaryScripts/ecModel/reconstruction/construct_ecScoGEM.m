@@ -103,36 +103,50 @@ clear gRate modifications
 %% - Make sample-specific proteome constrained models
 cd([ecDir '/gecko/geckomat/limit_proteins'])
 ecModel = setParam(ecModel,'eq',{'EX_glc__D_e','EX_glu__L_e'},0); %no excretion of glutamate or glucose
+ecModel = setParam(ecModel,'eq',{'PSEUDO_ACCEPTOR_NAD',...
+    'PSEUDO_ACCEPTOR_NADP','PSEUDO_DONOR_NADH','PSEUDO_DONOR_NADPH'},0);
 for i=1:length(sample)
     disp(['Generating ecModel for sample: ' sample(i)])
     protData = data.mean(:,i) + data.std(:,i);
-    model.(sample(i)) = constrainEnzymes(ecModel,Ptot,sigma,f,[],pIDs,protData);
+    model{i} = constrainEnzymes(ecModel,Ptot,sigma,f,[],pIDs,protData);
     cd ([ecDir '\simulation'])
-    [model.(sample(i)), gRate(i)] = fixFluxes(model.(sample(i)),strain{i},time{i});
+    [model{i}, gRate(i)] = fixFluxes(model{i},strain{i},time{i});
     if gRate(i)<0
-       gRate(i)=0.0070;
-    end    
-   cd([ecDir '/gecko/geckomat/limit_proteins'])
-   [model.(sample(i)),~,modifications.(sample(i))] = flexibilizeProteins(model.(sample(i)),gRate(i));
+        gRate(i)=0.0070;
+    end
+    cd([ecDir '/gecko/geckomat/limit_proteins'])
+    [model{i},~,modifications{i}] = flexibilizeProteins(model{i},gRate(i));
+    model{i} = setParam(model{i},'lb','BIOMASS_SCO_tRNA',0.99*gRate(i));
+    model{i} = setParam(model{i},'ub','BIOMASS_SCO_tRNA',1.01*gRate(i));
+    model{i} = setParam(model{i},'obj','ATPM',1);
+end
+
+%% All models should have the same flexibilization. First list
+clear allModifications
+allModifications = [modifications{1}.protein_IDs modifications{1}.modified_values];
+for i=1:length(modifications)
+    [Lia, Locb] = ismember(modifications{i}.protein_IDs,allModifications(:,1));
+    c = {cell2mat(modifications{i}.modified_values(Lia));cell2mat(allModifications(Locb(Lia),2))};
+    allModifications(Locb(Lia),2) = num2cell(max([c{:}], [], 2));
+    allModifications = [allModifications;table2cell(modifications{i}(~Lia,[1,3]))];
+end
+
+for i=1:length(model)
+    [Lia, Locb] = ismember(strcat(allModifications(:,1),'_exchange'),model{i}.rxnNames);
+    model{i}.ub(Locb(Lia)) = cell2mat(allModifications(Lia,2));
+end
+
+for i=1:length(sample)
+    %model{i} = setParam(model{i},'obj','BIOMASS_SCO_tRNA',1);
+    sol=solveLP(model{i},1);
+    disp(['Sol = ' num2str(sol.f)])
 end
 
 save([root '/scrap/proteomeModels.mat'],'model','gRate','modifications');
 
-%% Estimate ATP maintenance
-modelCell=struct2cell(model);
-for i=1:length(gRate)
-    modelCell{i} = setParam(modelCell{i},'obj','BIOMASS_SCO_tRNA',1);
-    sol(i) = solveLP(modelCell{i});
-    tmp = setParam(modelCell{i},'eq','BIOMASS_SCO_tRNA',-sol(i).f);
-    tmp = setParam(tmp,'obj','ATPM',1);
-    tmp2 = solveLP(tmp);
-    tmp = setParam(tmp,'obj','BIOMASS_SCO_tRNA',1);
-    modelCell{i}= setParam(tmp,'eq','ATPM',-0.999*tmp2.f);
-end
-
 %% Export SBML files
 for i=1:length(sample(:,1))
-    exportModel(modelCell{i},...
+    exportModel(model{i},...
     [root,'/ModelFiles/xml/ec',sample{i},'.xml']);
 end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
