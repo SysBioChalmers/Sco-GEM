@@ -1,5 +1,8 @@
-function [solVect,rxns] = organizeSolutions(model,sol);
+function [solVect,rxns] = organizeSolutions(model,sol,verbose);
 
+if nargin<3
+    verbose = false;
+end
 %% Combine isoenzymatic reactions
 rxns = model.rxns;
 keep = ones(length(rxns),1);
@@ -15,7 +18,9 @@ for i=1:length(rxns)
             rxnId = regexprep(rxns{i},'_REV','');
             fwdId = find(ismember(rxns,rxnId));
             if isempty(fwdId)
-                disp(['No fwd reaction for ' rxnId ' found'])
+                if verbose
+                    disp(['No fwd reaction for ' rxnId ' found'])
+                end
                 sol(i) = -sol(i);
             else
                 sol(fwdId) = sol(fwdId) - sol(i);

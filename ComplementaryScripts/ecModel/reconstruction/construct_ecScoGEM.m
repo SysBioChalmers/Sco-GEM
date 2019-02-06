@@ -142,7 +142,7 @@ for i=1:length(sample)
     disp(['Sol = ' num2str(sol.f)])
 end
 
-save([root '/scrap/proteomeModels.mat'],'model','gRate','modifications');
+save([root '/scrap/proteomeModels.mat'],'model','gRate','modifications','sample');
 
 %% Export SBML files
 for i=1:length(sample(:,1))
