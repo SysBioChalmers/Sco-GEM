@@ -31,7 +31,6 @@ save([root '/scrap/ecScoGEM_preManualMods.mat'],'ecModel','model_data','kcats');
 cd([ecDir '/reconstruction'])
 [ecModel,modifications] = manualModifications(ecModel);
 save([root '/scrap/ecScoGEM_postManualMods.mat'],'ecModel','model_data','kcats');
-%load([root '/scrap/ecScoGEM_postManualMods.mat'])
 ecModel = setParam(ecModel,'eq',{'EX_glc__D_e','EX_glu__L_e'},0); %no excretion of glutamate or glucose
 
 %% - Make M145 and M1152 specific models
@@ -65,7 +64,6 @@ ecModel_M1152=setParam(ecModel_M1152,'ub',{'EX_glc__D_e_REV',...
     'EX_glu__L_e_REV','EX_nh4_e_REV'},[GlcUptake.M1152,GluUptake.M1152,0]);
 
 save([root '/scrap/ecScoGEM_M145M1152.mat'],'ecModel*');
-load([root '/scrap/ecScoGEM_M145M1152.mat']);
 
 %% - Simulations with proteome pool
 sigma   = 0.5;
@@ -79,13 +77,7 @@ sol=solveLP(ecModel_M145_pool)
 [ecModel_M1152_pool, optSigma] = getConstrainedModel(ecModel_M1152,'',sigma,Ptot,gRate.M1152,modifications,'scoGEM');
 sol=solveLP(ecModel_M1152_pool)
 
-% conditions  = num2cell(sample(:,[1,3]),1);
-% conditions  = strcat(conditions{:,1},{'_'},conditions{:,2});
-% T = topUsedEnzymes(transpose(sol_pool),model_pool(1),conditions,'scoGEM',false,10);
-% writetable(T,['../../../../../ComplementaryData/ecmodel/ecScoGEM_pool_topUsedEnzymes.txt'])
-
 save([root '/scrap/ecPool.mat'],'ecModel*_pool')
-load([root '/scrap/ecPool.mat'])
 
 %% - Prepare proteomics data
 strain      = [string(repmat('M145',9,1));string(repmat('M1152',8,1))];
@@ -102,13 +94,20 @@ pIDs    = data.genes;
 clear gRate modifications
 %% - Make sample-specific proteome constrained models
 cd([ecDir '/gecko/geckomat/limit_proteins'])
+ecModel_M1152 = setParam(ecModel_M1152,'eq',{'EX_glc__D_e','EX_glu__L_e'},0); %no excretion of glutamate or glucose
+ecModel_M1152 = setParam(ecModel_M1152,'eq',{'PSEUDO_ACCEPTOR_NAD',...
+    'PSEUDO_ACCEPTOR_NADP','PSEUDO_DONOR_NADH','PSEUDO_DONOR_NADPH'},0);
 ecModel = setParam(ecModel,'eq',{'EX_glc__D_e','EX_glu__L_e'},0); %no excretion of glutamate or glucose
 ecModel = setParam(ecModel,'eq',{'PSEUDO_ACCEPTOR_NAD',...
     'PSEUDO_ACCEPTOR_NADP','PSEUDO_DONOR_NADH','PSEUDO_DONOR_NADPH'},0);
 for i=1:length(sample)
     disp(['Generating ecModel for sample: ' sample(i)])
     protData = data.mean(:,i) + data.std(:,i);
-    model{i} = constrainEnzymes(ecModel,Ptot,sigma,f,[],pIDs,protData);
+    if i<11
+        model{i} = constrainEnzymes(ecModel,Ptot,sigma,f,[],pIDs,protData);
+    else
+        model{i} = constrainEnzymes(ecModel_M1152,Ptot,sigma,f,[],pIDs,protData);
+    end
     cd ([ecDir '\simulation'])
     [model{i}, gRate(i)] = fixFluxes(model{i},strain{i},time{i});
     if gRate(i)<0
@@ -137,7 +136,7 @@ for i=1:length(model)
 end
 
 for i=1:length(sample)
-    %model{i} = setParam(model{i},'obj','BIOMASS_SCO_tRNA',1);
+    model{i} = setParam(model{i},'obj','BIOMASS_SCO_tRNA',1);
     sol=solveLP(model{i},1);
     disp(['Sol = ' num2str(sol.f)])
 end
