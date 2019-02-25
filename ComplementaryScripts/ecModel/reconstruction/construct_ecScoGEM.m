@@ -63,7 +63,7 @@ gRate.M1152      = rates.M1152(1,3);%
 ecModel_M1152=setParam(ecModel_M1152,'ub',{'EX_glc__D_e_REV',...
     'EX_glu__L_e_REV','EX_nh4_e_REV'},[GlcUptake.M1152,GluUptake.M1152,0]);
 
-load([root '/scrap/ecScoGEM_M145M1152.mat'],'ecModel*');
+save([root '/scrap/ecScoGEM_M145M1152.mat'],'ecModel*');
 
 %% - Simulations with proteome pool
 sigma   = 0.5;
@@ -78,9 +78,9 @@ sol=solveLP(ecModel_M145_pool)
 sol=solveLP(ecModel_M1152_pool)
 
 save([root '/scrap/ecPool.mat'],'ecModel*_pool')
-exportModel(ecModel_M145_pool,[root,'/ModelFiles/xml/ecM145_pool.xml']);
-exportModel(ecModel_M1152_pool,[root,'/ModelFiles/xml/ecM1152_pool.xml']);
-end
+exportForGit(ecModel_M145_pool,'ecM145_pool',root,'xml');
+exportForGit(ecModel_M145_pool,'ecM1152_pool',root,'xml');
+movefile [root '\ModelFiles\dependencies.txt'] [root '/ModelFiles/ecScoGEM_dependencies.txt']
 %% - Prepare proteomics data
 strain      = [string(repmat('M145',9,1));string(repmat('M1152',8,1))];
 time        = string([21;29;33;37;41;45;49;53;57;33;41;45;49;53;57;61;65]);
