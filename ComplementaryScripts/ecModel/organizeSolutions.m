@@ -21,9 +21,9 @@ for i=1:length(rxns)
                 if verbose
                     disp(['No fwd reaction for ' rxnId ' found'])
                 end
-                sol(i) = -sol(i);
-            else
-                sol(fwdId) = sol(fwdId) - sol(i);
+                sol(i,:) = -sol(i,:);
+            elseif any([sol(fwdId,:),sol(i,:)]) > 0
+                sol(fwdId,:) = sol(fwdId,:) - sol(i,:);
             end
             keep(i) = 0;
         end
@@ -31,7 +31,7 @@ for i=1:length(rxns)
 end
 keep=logical(keep);
 rxns = rxns(keep);
-sol  = sol(keep);
+sol  = sol(keep,:);
 
 %% Organize enzyme utilization reactions
 %Make list of enzymes in the model
@@ -47,7 +47,7 @@ rxnNames  = regexprep(rxnNames,'_exchange','');
 [~,idx]=ismember(proteins,rxnNames);
 idx = idx + protStart - 1;
 %Reorder solution vector
-sol(protStart:end-1) = sol(idx);
+sol(protStart:end-1,:) = sol(idx,:);
 solVect = sol;
 %Write vector specifying order of reactions in solution vector
 %rxns(1:protStart-1,1) = model.rxns(1:protStart-1);
