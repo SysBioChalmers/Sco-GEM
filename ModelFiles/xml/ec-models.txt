@@ -1,0 +1,7 @@
+# enzyme constrained models
+A set of ec-models are provided, each populated with proteomics data from one sample (strain and time-point are indicated in the filename).
+
+- prot_XXXXXX_exchange reactions correspond to protein usage in the model, where the upper bound is set by the measured protein concentration. 
+- determining the ratio between upper bound and actual flux indicates how much of that protein's capacity is used
+
+- draw_prot_XXXXXX reactions correspond to protein usage in the model where no proteomics measurement was available for that protein (it is instead drawn from the non-measured protein pool).
