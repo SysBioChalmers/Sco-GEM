@@ -1,0 +1,28 @@
+mets	coeffs
+lipopb_c	4.228099e-05
+ca2_c	5.413579e-06
+cobalt2_c	4.776994e-06
+cu2_c	3.510029e-05
+fad_c	1.576062e-04
+fmn_c	2.102677e-05
+fmnh2_c	1.370829e-05
+fe2_c	8.494727e-05
+k_c	4.163981e-05
+mg2_c	6.760645e-04
+mn2_c	1.383008e-04
+mocogdp_c	2.915914e-05
+nad_c	3.866086e-05
+nh4_c	
+ni2_c	1.674219e-05
+zn2_c	3.156188e-04
+2fe2s_c	2.579519e-05
+4fe4s_c	1.660319e-04
+adocbl_c	7.581754e-06
+btn_c	1.648628e-05
+hemeA_c	9.283915e-05
+pheme_c	3.422161e-05
+pydx5p_c	1.779235e-04
+pyr_c	1.020737e-06
+thmpp_c	2.255546e-05
+hemeO_c	
+bmocogdp_c	

@@ -10,6 +10,9 @@ BIGG_METABOLITE_URL_BASE = "http://bigg.ucsd.edu/universal/metabolites/"
 
 
 def in_BiGG(BiGG_id, id_type = "Reaction"):
+    """
+    Check if a given BiGG id exists in the BiGG database
+    """
     # If last characheter is lower, check if the main reaction exists
     if id_type.lower() == "reaction":
         url_base = BIGG_REACTION_URL_BASE
@@ -40,6 +43,11 @@ def in_BiGG(BiGG_id, id_type = "Reaction"):
     return in_BiGG
 
 def add_rxn_annotations(model, rxn_annotation_fn, check_BiGG = True):
+    """
+    Add annotations and change id of reactions added in from Sco4 according to the curated list found in
+    'added_sco4_reactions.csv'.
+
+    """
     reaction_annotation_df = pd.read_csv(rxn_annotation_fn, sep = ";", keep_default_na = False)
     
     for index, row in reaction_annotation_df.iterrows():
@@ -47,7 +55,7 @@ def add_rxn_annotations(model, rxn_annotation_fn, check_BiGG = True):
         try:
             reaction = model.reactions.get_by_id(row["Reaction ID"])
         except KeyError:
-            logging.info("Can't find reaction {0} with proper id: {1}".format(row["Reaction ID"], row["Fixed ID"]))
+            print("Can't find reaction {0} with proper id: {1}".format(row["Reaction ID"], row["Fixed ID"]))
             continue
 
         if not len(row["bigg"]):
@@ -77,6 +85,9 @@ def add_rxn_annotations(model, rxn_annotation_fn, check_BiGG = True):
         logging.info("Changed reaction id from {0} to {1}".format(row["Reaction ID"], row["New ID"]))
 
 def insert_ascii(reaction_id):
+    """
+    Replace normal signs with the ascii number to match ids with the spreadsheet
+    """
     return reaction_id.replace("-","__45__").replace("(","__40__").replace(")","__41__").replace(".", "__46__").replace("+", "__43__")
 
 def add_met_annotations(model, met_annotation_fn, check_BiGG = True):
