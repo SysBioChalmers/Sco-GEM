@@ -20,7 +20,7 @@ end
 save([root '/scrap/goodRxns.mat'], 'goodRxns*' );
 
 %% Take 1000 samples for each timepoint
-for i=1:10
+for i=1:9
     disp(['Sample: ' num2str(i)])
     RSraw{i} = randomSampling(model{i},1000,true,false,false,goodRxns1);
     [RS{i},rxns] = organizeSolutions(model{i},RSraw{i});
@@ -28,7 +28,7 @@ for i=1:10
     RSsd(:,i) = std(RS{i},0,2);
 end
 
-for i=11:length(gRate)
+for i=10:length(gRate)
     disp(['Sample: ' num2str(i)])
     RSraw{i} = randomSampling(model{i},1000,true,false,false,goodRxns2);
     [RS{i},rxns2] = organizeSolutions(model{i},RSraw{i});

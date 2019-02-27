@@ -63,7 +63,7 @@ gRate.M1152      = rates.M1152(1,3);%
 ecModel_M1152=setParam(ecModel_M1152,'ub',{'EX_glc__D_e_REV',...
     'EX_glu__L_e_REV','EX_nh4_e_REV'},[GlcUptake.M1152,GluUptake.M1152,0]);
 
-save([root '/scrap/ecScoGEM_M145M1152.mat'],'ecModel*');
+save([root '/scrap/ecScoGEM_M145M1152.mat'],'ecModel*','gRate');
 
 %% - Simulations with proteome pool
 sigma   = 0.5;
@@ -71,16 +71,16 @@ Ptot    = 0.456; % As reported by Shabab et al. (1996) Microbiol.
 
 cd([ecDir '/gecko/geckomat/limit_proteins'])
 
-[ecModel_M145_pool, optSigma] = getConstrainedModel(ecModel,'',sigma,Ptot,gRate.M1152,modifications,'scoGEM');
+[ecModel_M145_pool, optSigma] = getConstrainedModel(ecModel,'',sigma,Ptot,gRate.M1152,[],'scoGEM');
 sol=solveLP(ecModel_M145_pool)
 
-[ecModel_M1152_pool, optSigma] = getConstrainedModel(ecModel_M1152,'',sigma,Ptot,gRate.M1152,modifications,'scoGEM');
+[ecModel_M1152_pool, optSigma] = getConstrainedModel(ecModel_M1152,'',sigma,Ptot,gRate.M1152,[],'scoGEM');
 sol=solveLP(ecModel_M1152_pool)
 
 save([root '/scrap/ecPool.mat'],'ecModel*_pool')
 exportForGit(ecModel_M145_pool,'ecM145_pool',root,'xml');
-exportForGit(ecModel_M145_pool,'ecM1152_pool',root,'xml');
-movefile [root '\ModelFiles\dependencies.txt'] [root '/ModelFiles/ecScoGEM_dependencies.txt']
+exportForGit(ecModel_M1152_pool,'ecM1152_pool',root,'xml');
+movefile([root '\ModelFiles\dependencies.txt'],[root '/ModelFiles/ecScoGEM_dependencies.txt'])
 %% - Prepare proteomics data
 strain      = [string(repmat('M145',9,1));string(repmat('M1152',8,1))];
 time        = string([21;29;33;37;41;45;49;53;57;33;41;45;49;53;57;61;65]);
@@ -105,7 +105,7 @@ ecModel = setParam(ecModel,'eq',{'PSEUDO_ACCEPTOR_NAD',...
 for i=1:length(sample)
     disp(['Generating ecModel for sample: ' sample(i)])
     protData = data.mean(:,i) + data.std(:,i);
-    if i<11
+    if i<10
         model{i} = constrainEnzymes(ecModel,Ptot,sigma,f,[],pIDs,protData);
     else
         model{i} = constrainEnzymes(ecModel_M1152,Ptot,sigma,f,[],pIDs,protData);
