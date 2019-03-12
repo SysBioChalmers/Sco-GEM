@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-This file reconstructs scoGEM, the genome-scale model for Streptomyces coelicolor A3(2).
 Author: Snorre Sulheim
 Created: 28.02.2019
 Updated: 12.03.2019
@@ -10,17 +9,15 @@ Email: snorre.sulheim@sintef.no
 # Description
 The main function of this script is to update the annotation of reactions to different subsystems and pathways. 
 The curated annotation of subsystems and pathways is found in "ComplementaryData/curation/pathway_and_subsystem/subsystem_curated.csv".
-The curation is perorem by using KEGG annotations, BioCyc annotations and subsystem annotations from iMK1208. Every reactio is now annotated to
+The curation is performed by using KEGG annotations, BioCyc annotations and subsystem annotations from iMK1208. Every reaction is now annotated to
 *only one* subsystem and *only one* pathway. For the reactions with none or multiple pathway annotations in KEGG or BioCyc, we have used adjacent
 reactions to determine the annotation. All reactions are given a subsystem, but some reactions are missing a pathway-annotation.
 
-In addition to the main function *update_subsystem_annotation.pt*, there are several functions which has the follwing function:
+In addition to the main function *update_subsystem_annotation.pt*, there are several functions which has performs the following tasks:
 - get_pathways_from_biocyc: Extract pathway annotations from the BioCyc database online
 - get_pathways_from_KEGG: Extract pathway annotations from the KEGG database online
 - export_reaction_subsystem_and_pathways: Create a csv file with the current reaction annotations (the file used as a basis for curation)
 
-However, all work related to subsystem / pathway annotation goes in here, e.g. creating 
-csv-file used to export, querying KEGG or BioCyc for annotations etc
 
 Information about the metacyc pathway hierarchy
 https://ask.pathwaytools.com/question/17981/accessing-the-pathway-hierarchy/
