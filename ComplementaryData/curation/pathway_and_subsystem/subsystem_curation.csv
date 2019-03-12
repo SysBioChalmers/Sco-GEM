@@ -2230,7 +2230,7 @@
 2228;NI2t3;nickle (Ni+2) transport out via proton antiport;;;;Transport;;;Inorganic Ion Transport and metabolism;;Inorganic Ion Transport and metabolism
 2229;NMNP;NMN permease;;;;Transport;;;Transport, Membrane;;Membrane transport
 2230;NO2t2r;nitrite transport in via proton symport, reversible;;TRANS-RXN-26;;Transport;;;Inorganic Ion Transport and metabolism;;Inorganic Ion Transport and metabolism
-2231;NO3R2;Nitrate reductase (menaquinol-9);;;;Nucleotide metabolism;;;Nitrogen metabolism;;Nitrogen metabolism
+2231;NO3R2;Nitrate reductase (menaquinol-9);;;;Nucleotide metabolism;;;Nitrogen metabolism;;Energy metabolism
 2232;NO3t;nitrate transport via diffusion;;;;Transport;;;Transport, Membrane;;Membrane transport
 2233;NO3t7;nitrate transport in via nitrite antiport;;TRANS-RXN0-239;;Transport;;;Inorganic Ion Transport and metabolism;;Inorganic Ion Transport and metabolism
 2234;NOt;NO transport (diffusion);;;;Transport;;;Inorganic Ion Transport and metabolism;;Inorganic Ion Transport and metabolism

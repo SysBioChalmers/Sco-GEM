@@ -81597,7 +81597,7 @@
       - metanetx.reaction:
         - MNXR101988
       - origin: iMK1208
-      - subsystem: Nitrogen metabolism
+      - subsystem: Energy metabolism
   - !!omap
     - id: NO3t
     - name: nitrate transport via diffusion
