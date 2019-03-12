@@ -42,6 +42,7 @@ from consensusModel import redox_pseudometabolite
 from consensusModel import fix_SBO_terms
 from consensusModel import fix_biomass
 from consensusModel import feat_annotations
+from consensusModel import feat_subsystem_annotation
 from reversibility import reversibility
 import export
 
@@ -49,9 +50,10 @@ import export
 SAVE_PATH = "../ModelFiles/xml/scoGEM.xml"
 iKS1317_PATH = "../ComplementaryData/models/iKS1317.xml"
 
-REPO_DIR = Path(__file__).parent.parent
+REPO_DIR = Path(__file__).parent.parent.resolve()
+print("Repo dir: ", REPO_DIR)
 
-SCO4_PATH = str(REPO_DIR / "ComplementaryData/models/Sco4.xml")
+SCO4_PATH = str(REPO_DIR / "../ComplementaryData/models/Sco4.xml")
 SCO4_REACTION_MAPPING_FN = "../ComplementaryData/curation/rxns_iKS1317_vs_Sco4.csv"
 SCO4_METABOLITE_MAPPING_FN =  "../ComplementaryData/curation/mets_iKS1317_vs_Sco4.csv"
 SCO4_REACTION_ANNOTATION_FN = "../ComplementaryData/curation/added_sco4_reactions.csv"
@@ -60,20 +62,22 @@ SCO4_METABOLITE_ANNOTATION_FN = "../ComplementaryData/curation/added_sco4_metabo
 iAA1259_PATH = "../ComplementaryData/models/iAA1259.xml"
 iAA1259_NEW_REACTIONS_FN = "../ComplementaryData/curation/iAA1259_suppl_S4.csv" # New reactions
 
-MET_TO_METANETX_FN = str(REPO_DIR / "ComplementaryData" / "curation" /"metanetx_to_change.csv")
-RXN_TO_METANETX_FN = str(REPO_DIR / "ComplementaryData" / "curation" /"metanetx_reaction_annotations_to_change.csv")
-MET_TO_CHEBI_FN = str(REPO_DIR / "ComplementaryData" / "curation" /"chebi_annotation.csv")
+MET_TO_METANETX_FN = str(REPO_DIR / "../ComplementaryData" / "curation" /"metanetx_to_change.csv")
+RXN_TO_METANETX_FN = str(REPO_DIR / "../ComplementaryData" / "curation" /"metanetx_reaction_annotations_to_change.csv")
+MET_TO_CHEBI_FN = str(REPO_DIR / "../ComplementaryData" / "curation" /"chebi_annotation.csv")
 NEW_BIOMASS_DATA_FN = "../ComplementaryData/biomass/biomass_scaled.txt"
 EQUILIBRATOR_FN_1 = "../ComplementaryData/curation/reversibility/eQuilibrator_reversibility.csv"
 EQUILIBRATOR_FN_2 = "../ComplementaryData/curation/reversibility/eQuilibrator_reversibility_lethals.csv"
 
-DOI_ANNOTATIONS_FN = str(REPO_DIR / "ComplementaryData" / "annotations" / "reaction_notes_and_references.csv")
-GENE_ANNOTATIONS_FN = str(REPO_DIR / "ComplementaryData" / "annotations" / "genes.csv")
+DOI_ANNOTATIONS_FN = str(REPO_DIR / "../ComplementaryData" / "annotations" / "reaction_notes_and_references.csv")
+GENE_ANNOTATIONS_FN = str(REPO_DIR / "../ComplementaryData" / "annotations" / "genes.csv")
+SUBSYSTEM_ANNOTATION_FN = str(REPO_DIR / "../ComplementaryData" / "curation" / "pathway_and_subsystem" / "subsystem_curation.csv")
 
 def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
     scoGEM = cobra.io.read_sbml_model(model_fn)
     scoGEM.name = "scoGEM"
     scoGEM.id = "scoGEM"
+    scoGEM.solver = "glpk"
     
     if save_fn is None:
         save_fn = model_fn
@@ -122,6 +126,7 @@ def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
     # Additional annotations 
     feat_annotations.add_doi_annotations(scoGEM, DOI_ANNOTATIONS_FN)
     feat_annotations.add_gene_annotations(scoGEM, GENE_ANNOTATIONS_FN)
+    feat_subsystem_annotation.update_subsystem_annotations(scoGEM, SUBSYSTEM_ANNOTATION_FN)
 
     # Save model
     export.export(scoGEM, formats = ["xml", "yml"], write_requirements = write_requirements)
