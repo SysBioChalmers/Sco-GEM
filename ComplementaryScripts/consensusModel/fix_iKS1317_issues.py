@@ -38,9 +38,13 @@ def fix(model):
 
     # Fix id og mmy acetoacetyl and malonyl ACP
     model.metabolites.malACPmmy_c.charge = -1
-    model.metabolites.actACPmmy_c.id = "temp"
-    model.metabolites.malACPmmy_c.id = "actACPmmy_c"
-    model.metabolites.actACPmmy_c.id = "malACPmmy_c"
+    # model.metabolites.actACPmmy_c.id = "temp"
+    # model.metabolites.malACPmmy_c.id = "actACPmmy_c"
+    # model.constraints
+    # m_temp = model.metabolites.get_by_id("temp")
+    # m_temp.id = "malACPmmy_c"
+    # model.metabolites.actACPmmy_c.id = "malACPmmy_c"
+    # model.metabolites.temp.id = "malACPmmy_c"
 
 
     # Charge and reaction balancing
@@ -128,7 +132,8 @@ def add_R02395(model):
     model.add_reaction(reaction)
 
 if __name__ == '__main__':
-    scoGEM_PATH = "../../ModelFiles/scoGEM.xml"
+    scoGEM_PATH = "../../ModelFiles/xml/scoGEM.xml"
     model = cobra.io.read_sbml_model(scoGEM_PATH)
+    fix(model)
     add_R02395(model)
     print(model.optimize)

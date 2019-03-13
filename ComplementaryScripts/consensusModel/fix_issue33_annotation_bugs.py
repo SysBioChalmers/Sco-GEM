@@ -11,7 +11,7 @@ import pandas as pd
 
 def fix(scoGEM):
     fix_annotations(scoGEM)
-    fix_mmy_bug(scoGEM)
+    # fix_mmy_bug(scoGEM)
     fix_demand_biocyc_names(scoGEM)
     fix_misc(scoGEM)
     annotate_germicidin_pathway(scoGEM)
