@@ -1,7 +1,7 @@
 scipy==1.2.0
 bioservices==1.4.14
 requests==2.18.4
-matplotlib==3.0.2
+matplotlib>=3
 memote==0.8.4
 pandas==0.24.0
 numpy==1.15.4
