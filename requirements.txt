@@ -9,7 +9,7 @@ sympy==1.1.1
 equilibrator_api==0.1.11
 libChEBIpy==1.0.7
 pytest==3.2.5
-cobra==0.14.2
+cobra==0.13.4
 seaborn==0.9.0
 beautifulsoup4==4.7.1
 scikit_learn==0.20.3
