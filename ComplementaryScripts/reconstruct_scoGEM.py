@@ -46,32 +46,33 @@ from consensusModel import feat_subsystem_annotation
 from reversibility import reversibility
 import export
 
-
-SAVE_PATH = "../ModelFiles/xml/scoGEM.xml"
-iKS1317_PATH = "../ComplementaryData/models/iKS1317.xml"
-
 REPO_DIR = Path(__file__).parent.parent.resolve()
+COMPLEMENTARY_DATA = REPO_DIR / "ComplementaryData"
 print("Repo dir: ", REPO_DIR)
 
-SCO4_PATH = str(REPO_DIR / "../ComplementaryData/models/Sco4.xml")
-SCO4_REACTION_MAPPING_FN = "../ComplementaryData/curation/rxns_iKS1317_vs_Sco4.csv"
-SCO4_METABOLITE_MAPPING_FN =  "../ComplementaryData/curation/mets_iKS1317_vs_Sco4.csv"
-SCO4_REACTION_ANNOTATION_FN = "../ComplementaryData/curation/added_sco4_reactions.csv"
-SCO4_METABOLITE_ANNOTATION_FN = "../ComplementaryData/curation/added_sco4_metabolites.csv"
+SAVE_PATH = str(REPO_DIR/ "ModelFiles/xml/scoGEM.xml")
+iKS1317_PATH = str(COMPLEMENTARY_DATA / "models/iKS1317.xml")
 
-iAA1259_PATH = "../ComplementaryData/models/iAA1259.xml"
-iAA1259_NEW_REACTIONS_FN = "../ComplementaryData/curation/iAA1259_suppl_S4.csv" # New reactions
 
-MET_TO_METANETX_FN = str(REPO_DIR / "../ComplementaryData" / "curation" /"metanetx_to_change.csv")
-RXN_TO_METANETX_FN = str(REPO_DIR / "../ComplementaryData" / "curation" /"metanetx_reaction_annotations_to_change.csv")
-MET_TO_CHEBI_FN = str(REPO_DIR / "../ComplementaryData" / "curation" /"chebi_annotation.csv")
-NEW_BIOMASS_DATA_FN = "../ComplementaryData/biomass/biomass_scaled.txt"
-EQUILIBRATOR_FN_1 = "../ComplementaryData/curation/reversibility/eQuilibrator_reversibility.csv"
-EQUILIBRATOR_FN_2 = "../ComplementaryData/curation/reversibility/eQuilibrator_reversibility_lethals.csv"
+SCO4_PATH = str(COMPLEMENTARY_DATA / "models/Sco4.xml")
+SCO4_REACTION_MAPPING_FN = str(COMPLEMENTARY_DATA / "curation/rxns_iKS1317_vs_Sco4.csv")
+SCO4_METABOLITE_MAPPING_FN =  str(COMPLEMENTARY_DATA /"curation/mets_iKS1317_vs_Sco4.csv")
+SCO4_REACTION_ANNOTATION_FN = str(COMPLEMENTARY_DATA /"curation/added_sco4_reactions.csv")
+SCO4_METABOLITE_ANNOTATION_FN = str(COMPLEMENTARY_DATA /"curation/added_sco4_metabolites.csv")
 
-DOI_ANNOTATIONS_FN = str(REPO_DIR / "../ComplementaryData" / "annotations" / "reaction_notes_and_references.csv")
-GENE_ANNOTATIONS_FN = str(REPO_DIR / "../ComplementaryData" / "annotations" / "genes.csv")
-SUBSYSTEM_ANNOTATION_FN = str(REPO_DIR / "../ComplementaryData" / "curation" / "pathway_and_subsystem" / "subsystem_curation.csv")
+iAA1259_PATH = str(COMPLEMENTARY_DATA / "models/iAA1259.xml")
+iAA1259_NEW_REACTIONS_FN = str(COMPLEMENTARY_DATA / "curation/iAA1259_suppl_S4.csv") # New reactions
+
+MET_TO_METANETX_FN = str(COMPLEMENTARY_DATA / "curation" /"metanetx_to_change.csv")
+RXN_TO_METANETX_FN = str(COMPLEMENTARY_DATA / "curation" /"metanetx_reaction_annotations_to_change.csv")
+MET_TO_CHEBI_FN = str(COMPLEMENTARY_DATA / "curation" /"chebi_annotation.csv")
+NEW_BIOMASS_DATA_FN = str(COMPLEMENTARY_DATA / "biomass/biomass_scaled.txt")
+EQUILIBRATOR_FN_1 = str(COMPLEMENTARY_DATA / "curation/reversibility/eQuilibrator_reversibility.csv")
+EQUILIBRATOR_FN_2 = str(COMPLEMENTARY_DATA / "curation/reversibility/eQuilibrator_reversibility_lethals.csv")
+
+DOI_ANNOTATIONS_FN = str(COMPLEMENTARY_DATA / "annotations" / "reaction_notes_and_references.csv")
+GENE_ANNOTATIONS_FN = str(COMPLEMENTARY_DATA / "annotations" / "genes.csv")
+SUBSYSTEM_ANNOTATION_FN = str(COMPLEMENTARY_DATA / "curation" / "pathway_and_subsystem" / "subsystem_curation.csv")
 
 # Settings
 SOLVER = "glpk"
