@@ -11,7 +11,6 @@ import pandas as pd
 
 def fix(scoGEM):
     fix_annotations(scoGEM)
-    # fix_mmy_bug(scoGEM)
     fix_demand_biocyc_names(scoGEM)
     fix_misc(scoGEM)
     annotate_germicidin_pathway(scoGEM)
@@ -270,6 +269,10 @@ def fix_demand_biocyc_names(scoGEM):
         logging.info("Changed name and fixed biocyc annotation of reaction {0}".format(r_id))
 
 def fix_mmy_bug(scoGEM):
+    """
+    Discarded from reconstruction, because it was a bug from the fik_iKS1317_issues.py script, and
+    that bug was sorted out there. 
+    """
     # Change ID bug with acetoacetyl-mmyA and malonyl-mmyA
     m_ac = scoGEM.metabolites.get_by_id("malACPmmy_c")
     m_ac.id = "actACPmmy_c"

@@ -73,11 +73,14 @@ DOI_ANNOTATIONS_FN = str(REPO_DIR / "../ComplementaryData" / "annotations" / "re
 GENE_ANNOTATIONS_FN = str(REPO_DIR / "../ComplementaryData" / "annotations" / "genes.csv")
 SUBSYSTEM_ANNOTATION_FN = str(REPO_DIR / "../ComplementaryData" / "curation" / "pathway_and_subsystem" / "subsystem_curation.csv")
 
+# Settings
+SOLVER = "glpk"
+
 def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
     scoGEM = cobra.io.read_sbml_model(model_fn)
     scoGEM.name = "scoGEM"
     scoGEM.id = "scoGEM"
-    scoGEM.solver = "glpk"
+    scoGEM.solver = SOLVER
     
     if save_fn is None:
         save_fn = model_fn
@@ -88,6 +91,7 @@ def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
 
     ## 1b) Issues in Sco4 v4.00
     sco4_model = cobra.io.read_sbml_model(SCO4_PATH)
+    sco4_model.solver = SOLVER
     fix_sco4_issues.fix(sco4_model)
 
     ## 1c) Add missing / changed gene annotations in iMK1208 identifed in Sco4 / and by Snorre 21.09.2018
@@ -102,6 +106,7 @@ def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
 
     # Part 3: Add and modify reactions according to iAA1259
     iAA1259_model = cobra.io.read_sbml_model(iAA1259_PATH)
+    iAA1259_model.solver = SOLVER
     add_and_modify_reactions_according_to_iAA1259.fix_iAA1259(iAA1259_model)
     scoGEM = add_and_modify_reactions_according_to_iAA1259.add_reactions(iAA1259_model, scoGEM, iAA1259_NEW_REACTIONS_FN)
     scoGEM = add_and_modify_reactions_according_to_iAA1259.modify_reactions(scoGEM)

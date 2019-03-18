@@ -37,14 +37,17 @@ def fix(model):
 
 
     # Fix id og mmy acetoacetyl and malonyl ACP
-    model.metabolites.malACPmmy_c.charge = -1
-    # model.metabolites.actACPmmy_c.id = "temp"
-    # model.metabolites.malACPmmy_c.id = "actACPmmy_c"
-    # model.constraints
-    # m_temp = model.metabolites.get_by_id("temp")
-    # m_temp.id = "malACPmmy_c"
-    # model.metabolites.actACPmmy_c.id = "malACPmmy_c"
-    # model.metabolites.temp.id = "malACPmmy_c"
+    m_act = model.metabolites.malACPmmy_c
+    m_act.charge = -1
+
+    m_mal = model.metabolites.actACPmmy_c
+    m_mal.id = "temp"
+
+    m_act.id = "actACPmmy_c"
+    m_act.annotation["bigg.metabolite"] = "actACPmmy_c"
+
+    m_mal.id = "malACPmmy_c"
+    m_mal.annotation["bigg.metabolite"] = "malACPmmy_c"
 
 
     # Charge and reaction balancing
@@ -132,8 +135,9 @@ def add_R02395(model):
     model.add_reaction(reaction)
 
 if __name__ == '__main__':
-    scoGEM_PATH = "../../ModelFiles/xml/scoGEM.xml"
-    model = cobra.io.read_sbml_model(scoGEM_PATH)
+    iKS1317_fn = "../../ComplementaryData/models/iKS1317.xml"
+    model = cobra.io.read_sbml_model(iKS1317_fn)
+    model.solver = "glpk"
     fix(model)
-    add_R02395(model)
-    print(model.optimize)
+    # cobra.io.save_yaml_model(model, "../../../test_name_swap.yml")
+    # add_R02395(model)
