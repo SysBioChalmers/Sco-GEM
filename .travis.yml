@@ -1,5 +1,5 @@
 language: python
-sudo: false
+sudo: true
 python: 3.5
 cache:
   pip: true
@@ -19,7 +19,7 @@ install:
   - pip install --upgrade memote
 
 script:
-  - memote
-
-after_script:
+  - git status
+  # - memote run --exclusive test_basic #--skip-unchanged
+  - git checkout ${TRAVIS_BRANCH}
   - ./ComplementaryScripts/deploy.sh
