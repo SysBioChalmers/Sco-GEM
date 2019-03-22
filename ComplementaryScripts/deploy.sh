@@ -3,7 +3,7 @@
 # do NOT set -v or your GitHub API token will be leaked!
 set -e # exit with nonzero exit code if anything fails
 
-source_branch="master"
+source_branch="chore/travis"
 
 if [[ "${TRAVIS_PULL_REQUEST}" != "false" || "${TRAVIS_BRANCH}" != "${source_branch}" || "${TRAVIS_REPO_SLUG}" != "SysBioChalmers/Sco-GEM" ]]; then
     echo "Skip deploy."
@@ -21,12 +21,12 @@ cd "${HOME}"
 git clone --quiet --branch=${DEPLOY_BRANCH} https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git ${DEPLOY_BRANCH} > /dev/null
 
 # copy the results from the current memote run to deploy dir
-cp "${TRAVIS_BUILD_DIR}/Results/${TRAVIS_COMMIT}.json" "${HOME}/${DEPLOY_BRANCH}/Results/"
+cp "${TRAVIS_BUILD_DIR}/results/${TRAVIS_COMMIT}.json" "${HOME}/${DEPLOY_BRANCH}/results/"
 
 # create the report pointing to the history stored in deploy branch
 # need to be in build directory to access git history
 cd "${TRAVIS_BUILD_DIR}"
-memote --directory="${HOME}/${DEPLOY_BRANCH}/Results/" --filename="${HOME}/${DEPLOY_BRANCH}/index.html" report
+memote --directory="${HOME}/${DEPLOY_BRANCH}/results/" --filename="${HOME}/${DEPLOY_BRANCH}/index.html" report
 
 #add, commit and push files
 cd "${HOME}/${DEPLOY_BRANCH}"

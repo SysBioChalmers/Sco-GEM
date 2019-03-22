@@ -1,6 +1,6 @@
 language: python
 sudo: false
-python: 3.6
+python: 3.5
 cache:
   pip: true
 git:
@@ -17,5 +17,9 @@ before_install:
   - chmod +x ./ComplementaryScripts/deploy.sh
 install:
   - pip install --upgrade memote
+
 script:
-- ./ComplementaryScripts/deploy.sh
+  - memote
+
+after_script:
+  - ./ComplementaryScripts/deploy.sh
