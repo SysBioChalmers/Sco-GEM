@@ -5,21 +5,19 @@ cache:
   pip: true
 git:
   depth: false
-env:
-  global:
-  - DEPLOY_BRANCH="gh-pages"
-  - secure: OAhxV280kxvPu9YwE6VoVFOegSzfnK4WqTmzgZXMyXbXAD0wftUPryBsWeR9ESdsyqmeyodGh+7ah5FRsNPQUgtZdwhH2Ue1SZXU7B2ymzzfVA/19Um3bVXQDzT/30FH0odwLNstchyRPcPYqL9DnVaRo+bLURsfkxsaB/xSV55hXgWGztNj/iLTJ0pxjBO6LP2FGR9OUkFFeZdMFDg36MS5khHPB1qNBnvz/kAVITX2r0Ut6NPvsneCMO8lMYriHmDd793cPwfFnMikTeZKoDTfWfIaf3cRZM+f1f7bRoRIKArhPDZ8GU4W193i4IFME//iFgV/rRjX19yG5pcLub+Cv3RE32MGr5VTDRbOKibDJGtpdnr1bfHV46AxAdSKPE2V+NZuOPpHuFPLyIZRwCoYyEl7mwmOYWjdE7QTAQ9drFKbPV3AbED7EuGZLezi0n07JiH7yG+0Ubz0k9Z138bRVqsaaiuIUXv4oPAIFnz3kImqbTD5qMJiu+kXm8YEhMH6wIv/Cne2X69lAvq+E5h5raVXXqQ12CHnA3jWDXu5C0c9uZYFAVNtEezowxeC70Ir7o6fQoPnZpVAm9x7L+P7/3vWRBgxGOMqpUbGAvaC73Xn0zlzR7ONb+h2O7VnDDRV3msccF/j8STeireT8VD+g8A83g+eu86djTDQZ74=
 
+branches:
+  except:
+    - "gh-pages"
 #branches:
 #  master
 before_install:
   - pip install --upgrade pip setuptools wheel
-  - chmod +x ./ComplementaryScripts/deploy.sh
+  - chmod +x ./ComplementaryScripts/*deploy.sh
 install:
   - pip install --upgrade memote
 
 script:
-  - git status
   # - memote run --exclusive test_basic #--skip-unchanged
-  - git checkout ${TRAVIS_BRANCH}
-  - ./ComplementaryScripts/deploy.sh
+  - git checkout "${TRAVIS_BRANCH}"
+  - ./ComplementaryScripts/travis_deploy.sh
