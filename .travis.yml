@@ -7,10 +7,10 @@ git:
   depth: false
 
 branches:
+  - master
+  - chore/travis
   except:
     - "gh-pages"
-#branches:
-#  master
 before_install:
   - pip install --upgrade pip setuptools wheel
   - chmod +x ./ComplementaryScripts/*deploy.sh
@@ -18,6 +18,6 @@ install:
   - pip install --upgrade memote
 
 script:
-  # - memote run --exclusive test_basic #--skip-unchanged
+  - memote run --skip-unchanged
   - git checkout "${TRAVIS_BRANCH}"
   - ./ComplementaryScripts/travis_deploy.sh
