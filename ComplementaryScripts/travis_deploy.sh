@@ -30,14 +30,23 @@ else
     echo "Start deploy to ${deployment}..."
 fi
 
-# Generate the history report on the deployment branch.
-output="index.html"
+output_snapshot="/tmp/snapshot.html"
+git checkout "${TRAVIS_BRANCH}"
+echo "Generating updated snapshot report /tmp/snapshot.html."
+memote report snapshot --filename="/tmp/snapshot.html"
 git checkout "${deployment}"
-echo "Generating updated history report '${output}'."
-memote report history --filename="${output}"
+mv "/tmp/snapshot.html" ./
+
+# Generate the history report on the deployment branch.
+output_history="history.html"
+git checkout "${deployment}"
+echo "Generating updated history report '${output_history}'."
+memote report history --filename="${output_history}"
+
 
 # Add, commit and push the files.
-git add "${output}"
+git add "${output_history}"
+git add "snapshot.html"
 git commit -m "Travis report #${TRAVIS_BUILD_NUMBER}"
 git push --quiet "https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" "${deployment}" > /dev/null
 echo "Your new report will be visible at https://SysBioChalmers.github.io/Sco-GEM in a moment."
