@@ -31,7 +31,7 @@ else
 fi
 
 # Generate the history report on the deployment branch.
-output_history="index.html"
+output="index.html"
 git checkout "${deployment}"
 echo "Generating updated history report '${output}'."
 memote report history --filename="${output}"
