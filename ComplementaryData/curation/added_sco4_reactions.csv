@@ -1,4 +1,4 @@
-﻿Reaction ID;Fixed ID;Reaction name;KEGG annotation;metanetx;bigg;New ID
+Reaction ID;Fixed ID;Reaction name;KEGG annotation;metanetx;bigg;New ID
 1__46__1__46__1__46__127__45__RXN;1.1.1.127-RXN;"2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase;2,5-didehydro-3-deoxy-L-galactonate 5-reductase;2-keto-3-deoxy-D-gluconate dehydrogenase";R01542;MNXR107048;;2D3DGLUCDH
 1__46__14__46__12__46__1__45__RXN_NADH;1.14.12.1-RXN_NADH;anthranilate dioxygenase (NADH);R00825;MNXR106707;;ANTDIO_NADH
 1__46__14__46__12__46__1__45__RXN_NADPH;1.14.12.1-RXN_NADPH;anthranilate dioxygenase (NADPH);R00825;;;ANTDIO_NADPH

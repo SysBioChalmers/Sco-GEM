@@ -28,7 +28,7 @@ data.MW     = cell2mat(kegg(ib,5))./1000; % kDa
 %% Normalize for size, and convert to mmol/g protein
 data.norm   = data.top3 .* data.MW; % correct for each protein's kDa
 data.norm   = data.norm ./ sum(data.norm,1,'omitnan'); % weight ratio (g/g)
-data.norm   = data.norm ./ data.MW; % mmol / g protein
+%data.norm   = data.norm ./ data.MW; % mmol / g protein
 
 %data.norm   = data.norm .* 0.0002; % injected 0.2 ug, new unit: mg/0.2 ug
 %data.norm   = data.norm ./ (data.MW*1000); % convert to mmol/0.2 ug

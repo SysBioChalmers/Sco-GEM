@@ -146,6 +146,10 @@ rxnIndxs = find(model.S(index,:));
 rxnIndxs = rxnIndxs(1:end-2);
 model.S(index,rxnIndxs) = model.S(index,rxnIndxs)/2;
 
+% Block excretion of nutrients
+model = removeRxns(model,{'EX_glc__D_e','EX_glu__L_e'}); %no excretion of glutamate or glucose
+
+
 % Remove saved arm reactions:
 model = removeReactions(model,model.rxns(arm_pos(1:p)),true,true);
 
