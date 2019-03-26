@@ -1,8 +1,10 @@
-# scoGEM
+[![memote tested](https://img.shields.io/badge/memote-tested-blue.svg?style=plastic)](https://sysbiochalmers.github.io/Sco-GEM/)
+[![Build Status](https://travis-ci.org/SysBioChalmers/Sco-GEM.svg?branch=master)](https://travis-ci.org/SysBioChalmers/Sco-GEM)
+# Sco-GEM: The consensus genome-scale metabolic model of _Streptomyces coelicolor_
 
 - Brief Repository Description
 
-This repository contains the consensus genome-scale metabolic model **scoGEM** for the antibiotic producer _Streptomyces coelicolor_ A3(2), a representative species of _Actinomycetales_.
+This repository contains the consensus genome-scale metabolic model **Sco-GEM** for the antibiotic producer _Streptomyces coelicolor_ A3(2), a representative species of _Actinomycetales_.
 
 - Abstract:
 

@@ -42,38 +42,46 @@ from consensusModel import redox_pseudometabolite
 from consensusModel import fix_SBO_terms
 from consensusModel import fix_biomass
 from consensusModel import feat_annotations
+from consensusModel import feat_subsystem_annotation
 from reversibility import reversibility
 import export
 
+REPO_DIR = Path(__file__).parent.parent.resolve()
+COMPLEMENTARY_DATA = REPO_DIR / "ComplementaryData"
+print("Repo dir: ", REPO_DIR)
 
-SAVE_PATH = "../ModelFiles/xml/scoGEM.xml"
-iKS1317_PATH = "../ComplementaryData/models/iKS1317.xml"
+SAVE_PATH = str(REPO_DIR/ "ModelFiles/xml/scoGEM.xml")
+iKS1317_PATH = str(COMPLEMENTARY_DATA / "models/iKS1317.xml")
 
-REPO_DIR = Path(__file__).parent.parent
 
-SCO4_PATH = str(REPO_DIR / "ComplementaryData/models/Sco4.xml")
-SCO4_REACTION_MAPPING_FN = "../ComplementaryData/curation/rxns_iKS1317_vs_Sco4.csv"
-SCO4_METABOLITE_MAPPING_FN =  "../ComplementaryData/curation/mets_iKS1317_vs_Sco4.csv"
-SCO4_REACTION_ANNOTATION_FN = "../ComplementaryData/curation/added_sco4_reactions.csv"
-SCO4_METABOLITE_ANNOTATION_FN = "../ComplementaryData/curation/added_sco4_metabolites.csv"
+SCO4_PATH = str(COMPLEMENTARY_DATA / "models/Sco4.xml")
+SCO4_REACTION_MAPPING_FN = str(COMPLEMENTARY_DATA / "curation/rxns_iKS1317_vs_Sco4.csv")
+SCO4_METABOLITE_MAPPING_FN =  str(COMPLEMENTARY_DATA /"curation/mets_iKS1317_vs_Sco4.csv")
+SCO4_REACTION_ANNOTATION_FN = str(COMPLEMENTARY_DATA /"curation/added_sco4_reactions.csv")
+SCO4_METABOLITE_ANNOTATION_FN = str(COMPLEMENTARY_DATA /"curation/added_sco4_metabolites.csv")
 
-iAA1259_PATH = "../ComplementaryData/models/iAA1259.xml"
-iAA1259_NEW_REACTIONS_FN = "../ComplementaryData/curation/iAA1259_suppl_S4.csv" # New reactions
+iAA1259_PATH = str(COMPLEMENTARY_DATA / "models/iAA1259.xml")
+iAA1259_NEW_REACTIONS_FN = str(COMPLEMENTARY_DATA / "curation/iAA1259_suppl_S4.csv") # New reactions
 
-MET_TO_METANETX_FN = str(REPO_DIR / "ComplementaryData" / "curation" /"metanetx_to_change.csv")
-RXN_TO_METANETX_FN = str(REPO_DIR / "ComplementaryData" / "curation" /"metanetx_reaction_annotations_to_change.csv")
-MET_TO_CHEBI_FN = str(REPO_DIR / "ComplementaryData" / "curation" /"chebi_annotation.csv")
-NEW_BIOMASS_DATA_FN = "../ComplementaryData/biomass/biomass_scaled.txt"
-EQUILIBRATOR_FN_1 = "../ComplementaryData/curation/reversibility/eQuilibrator_reversibility.csv"
-EQUILIBRATOR_FN_2 = "../ComplementaryData/curation/reversibility/eQuilibrator_reversibility_lethals.csv"
+MET_TO_METANETX_FN = str(COMPLEMENTARY_DATA / "curation" /"metanetx_to_change.csv")
+RXN_TO_METANETX_FN = str(COMPLEMENTARY_DATA / "curation" /"metanetx_reaction_annotations_to_change.csv")
+MET_TO_CHEBI_FN = str(COMPLEMENTARY_DATA / "curation" /"chebi_annotation.csv")
+NEW_BIOMASS_DATA_FN = str(COMPLEMENTARY_DATA / "biomass/biomass_scaled.txt")
+EQUILIBRATOR_FN_1 = str(COMPLEMENTARY_DATA / "curation/reversibility/eQuilibrator_reversibility.csv")
+EQUILIBRATOR_FN_2 = str(COMPLEMENTARY_DATA / "curation/reversibility/eQuilibrator_reversibility_lethals.csv")
 
-DOI_ANNOTATIONS_FN = str(REPO_DIR / "ComplementaryData" / "annotations" / "reaction_notes_and_references.csv")
-GENE_ANNOTATIONS_FN = str(REPO_DIR / "ComplementaryData" / "annotations" / "genes.csv")
+DOI_ANNOTATIONS_FN = str(COMPLEMENTARY_DATA / "annotations" / "reaction_notes_and_references.csv")
+GENE_ANNOTATIONS_FN = str(COMPLEMENTARY_DATA / "annotations" / "genes.csv")
+SUBSYSTEM_ANNOTATION_FN = str(COMPLEMENTARY_DATA / "curation" / "pathway_and_subsystem" / "subsystem_curation.csv")
+
+# Settings
+SOLVER = "glpk"
 
 def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
     scoGEM = cobra.io.read_sbml_model(model_fn)
     scoGEM.name = "scoGEM"
     scoGEM.id = "scoGEM"
+    scoGEM.solver = SOLVER
     
     if save_fn is None:
         save_fn = model_fn
@@ -84,6 +92,7 @@ def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
 
     ## 1b) Issues in Sco4 v4.00
     sco4_model = cobra.io.read_sbml_model(SCO4_PATH)
+    sco4_model.solver = SOLVER
     fix_sco4_issues.fix(sco4_model)
 
     ## 1c) Add missing / changed gene annotations in iMK1208 identifed in Sco4 / and by Snorre 21.09.2018
@@ -98,6 +107,7 @@ def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
 
     # Part 3: Add and modify reactions according to iAA1259
     iAA1259_model = cobra.io.read_sbml_model(iAA1259_PATH)
+    iAA1259_model.solver = SOLVER
     add_and_modify_reactions_according_to_iAA1259.fix_iAA1259(iAA1259_model)
     scoGEM = add_and_modify_reactions_according_to_iAA1259.add_reactions(iAA1259_model, scoGEM, iAA1259_NEW_REACTIONS_FN)
     scoGEM = add_and_modify_reactions_according_to_iAA1259.modify_reactions(scoGEM)
@@ -122,6 +132,7 @@ def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
     # Additional annotations 
     feat_annotations.add_doi_annotations(scoGEM, DOI_ANNOTATIONS_FN)
     feat_annotations.add_gene_annotations(scoGEM, GENE_ANNOTATIONS_FN)
+    feat_subsystem_annotation.update_subsystem_annotations(scoGEM, SUBSYSTEM_ANNOTATION_FN)
 
     # Save model
     export.export(scoGEM, formats = ["xml", "yml"], write_requirements = write_requirements)
