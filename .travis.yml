@@ -7,10 +7,7 @@ git:
   depth: false
 
 branches:
-  # - master
-  # - chore/travis
-  except:
-    - gh-pages
+  - master
 before_install:
   - pip install --upgrade pip setuptools wheel
   - chmod +x ./ComplementaryScripts/*deploy.sh
