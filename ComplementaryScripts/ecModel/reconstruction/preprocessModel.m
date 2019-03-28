@@ -13,6 +13,11 @@
 
 function model = preprocessModel(model)
 
+%Remove unused biomass and NAD(P)H pseudoreactions
+model = removeReactions(model,{'BIOMASS_SCO','PROTEIN_PSEUDO','PSEUDO_ACCEPTOR_NAD',...
+            'PSEUDO_ACCEPTOR_NADP','PSEUDO_DONOR_NADH','PSEUDO_DONOR_NADPH'},0);
+model = setParam(model,'obj','BIOMASS_SCO_tRNA',1);
+
 %Remove gene rules from pseudoreactions (if any):
 for i = 1:length(model.rxns)
     if endsWith(model.rxnNames{i},' pseudoreaction')
