@@ -1,8 +1,8 @@
-# scoGEM
+# Sco-GEM
 
 - Brief Repository Description
 
-This repository contains the consensus genome-scale metabolic model **scoGEM** for the antibiotic producer _Streptomyces coelicolor_ A3(2), a representative species of _Actinomycetales_.
+This repository contains the consensus genome-scale metabolic model **Sco-GEM** for the antibiotic producer _Streptomyces coelicolor_ A3(2), a representative species of _Actinomycetales_.
 
 - Abstract:
 
@@ -17,13 +17,13 @@ _Streptomyces coelicolor_ is a representative species of soil-dwelling, filament
 
 - Pubmed ID: TBA
 
-- Last update: 20xx-xx-xx
+- Last update: 2019-02-25
 
 - The model contains:
 
-| Taxonomy | Template Model | Reactions | Metabolites| Genes |
-| ------------- |:-------------:|:-------------:|:-------------:|-----:|
-| _Streptomyces coelicolor_ A3(2) | iKS1317 | xx | xx | xx |
+| Taxonomy | Template Model | Reactions | Metabolites | Genes | Memote Score |
+| ------------- |:-------------:|:-------------:|:-------------:|-----:|-----:|
+| _Streptomyces coelicolor_ A3(2) | iKS1317 | 2544 | 2017 | 1613 |77|
 
 This repository is administered by Eduard Kerkhoven ([@SysBioChalmers](https://github.com/SysBioChalmers)), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology
 
@@ -42,3 +42,7 @@ This repository is administered by Eduard Kerkhoven ([@SysBioChalmers](https://g
 * Add the directory to your Matlab path, instructions [here](https://se.mathworks.com/help/matlab/ref/addpath.html?requestedDomain=www.mathworks.com).
 
 ### Contributors
+* [Eduard J. Kerkhoven](https://www.chalmers.se/en/staff/Pages/Eduard-Kerkhoven.aspx) ([@edkerk](https://github.com/edkerk)), Chalmers University of Technology, Sweden
+* [Tjasa Kumelj](https://www.ntnu.no/ansatte/tjasa.kumelj) ([@kumelj](https://github.com/tjasakumelj)), Norwegian University of Science and Technology, Norway
+* [Ali Salehzadeh-Yazdi](https://www.sbi.uni-rostock.de/team/detail/ali-salehzadeh-yazdi) ([@alisalehzadeh-yazdi](https://github.com/alisalehzadeh-yazdi), University of Rostock, Germany
+* [Snorre Sulheim](https://www.sintef.no/alle-ansatte/ansatt/?empId=5675) ([@sulheim](https://github.com/sulheim)), SINTEF Industry, Norway
