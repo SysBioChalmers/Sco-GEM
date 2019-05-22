@@ -283,6 +283,7 @@ def export_reaction_subsystem_and_pathways(model, csv_fn):
     print(df.head())
     df.to_csv(csv_fn, sep = ";")
 
+
 def print_subsystem_summary(model, key = "subsystem"):
     subsystem_total = defaultdict(int)
     subsystem_other = defaultdict(int)
@@ -312,6 +313,34 @@ def print_subsystem_summary(model, key = "subsystem"):
     print(df)
 
 
+def export_gene_pathway_list(model):
+    gene_pathway_list = []
+    maxlen = 0
+    for gene in model.genes:
+        if gene.id == "s0001":
+            # These are spontaneous reactions
+            continue
+
+        pathway_list = []
+        for r in gene.reactions:
+            try:
+                pathway = r.annotation["pathway"]
+            except:
+                continue
+            else:
+                pathway_list.append(pathway)
+        pathway_list = list(set(pathway_list))
+        if len(pathway_list):
+            for pathway in pathway_list:
+                gene_pathway_list.append([gene.id, pathway])
+        else:
+            gene_pathway_list.append([gene.id, None])
+
+    df = pd.DataFrame(gene_pathway_list, columns = ["Gene", "Pathway"])
+    df.to_csv(str(REPO_DIR / "model_gene_pathway_table.tsv"), sep = "\t")
+
+
+
 
 if __name__ == '__main__':
     model_fn = REPO_DIR / "ModelFiles" / "xml" / "scoGEM.xml"
@@ -338,3 +367,6 @@ if __name__ == '__main__':
     if 1:
         # Print subsystem numbers
         print_subsystem_summary(model)
+    if 0:
+        export_gene_pathway_list(model)
+
