@@ -206,7 +206,7 @@
 204;4NIPHOM;4-nitrophenol 2-monooxygenase;R03023;4-NITROPHENOL-2-MONOOXYGENASE-RXN;Aminobenzoate degradation;Xenobiotics biodegradation and metabolism;p-Nitrophenol-Degradation;Nitrophenol-Degradation;;Aminobenzoate degradation;Xenobiotics biodegradation and metabolism
 205;4NITROB;4-nitrobenzoate reductase ;;R364-RXN;;;;;;Xylene degradation;Xenobiotics biodegradation and metabolism
 206;4OT;"2-hydroxymuconate tautomerase;4-oxalocrotonate tautomerase";R03966;RXN-8529;Benzoate degradation, Dioxin degradation;Xenobiotics biodegradation and metabolism;3-Chlorocatechol-Degradation, AROMATIC-COMPOUNDS-DEGRADATION, Catechol-Degradation, Protocatechuate-Degradation;AROMATIC-COMPOUNDS-DEGRADATION, Chlorocatechol-Degradation, Degradation;;Benzoate degradation;Xenobiotics biodegradation and metabolism
-207;4PCP;tetrapeptide L,D-carboxypeptidase;;;;Glycan biosynthesis and metabolism;;;Murein Recycling;Murein recycling;Glycan biosynthesis and metabolism
+207;4PCP;tetrapeptide L,D-carboxypeptidase;;;;Glycan biosynthesis and metabolism;;;Murein Recycling;Murein Recycling;Glycan biosynthesis and metabolism
 208;4SBZADH;4-sulfobenzaldehyde dehydrogenase;R05272;SYDDEHYD-RXN;Toluene degradation;Xenobiotics biodegradation and metabolism;4-Toluenesulfonate-Degradation;Sulfoaromatics-Degradation;;Toluene degradation;Xenobiotics biodegradation and metabolism
 209;4SULFADH;4-sulfobenzyl alcohol dehydrogenase;R05271;SOLDEHYD-RXN;Toluene degradation;Xenobiotics biodegradation and metabolism;;;;Toluene degradation;Xenobiotics biodegradation and metabolism
 210;5CM2HMUCI;5-carboxymethyl-2-hydroxymuconate isomerase;R04379;5.3.3.10-RXN;Tyrosine metabolism;Amino acid metabolism;AROMATIC-COMPOUNDS-DEGRADATION;Degradation;;Tyrosine metabolism;Amino acid metabolism
@@ -337,7 +337,7 @@
 335;ADK2;adenylate kinase (Inorganic triphosphate, irreversible);;;;Nucleotide metabolism;;;Nucleotide Salvage Pathway;Purine metabolism;Nucleotide metabolism
 336;ADK3;adentylate kinase (GTP, irreversible);;RXN-14074;;Nucleotide metabolism;;;Nucleotide Salvage Pathway;Purine metabolism;Nucleotide metabolism
 337;ADK4;adentylate kinase (ITP, irreversible);;;;Nucleotide metabolism;;;Nucleotide Salvage Pathway;Purine metabolism;Nucleotide metabolism
-338;ADMDC;adenosylmethionine decarboxylase;R00178;SAMDECARB-RXN;Arginine and proline metabolism, Cysteine and methionine metabolism;Amino acid metabolism;Polyamine-Biosynthesis, Spermidine-Biosynthesis;Biosynthesis, Polyamine-Biosynthesis;Arginine and Proline metabolism;Arginine and Proline metabolism;Amino acid metabolism
+338;ADMDC;adenosylmethionine decarboxylase;R00178;SAMDECARB-RXN;Arginine and proline metabolism, Cysteine and methionine metabolism;Amino acid metabolism;Polyamine-Biosynthesis, Spermidine-Biosynthesis;Biosynthesis, Polyamine-Biosynthesis;Arginine and Proline metabolism;Arginine and proline metabolism;Amino acid metabolism
 339;ADNCYC;adenylate cyclase;R00089;ADENYLATECYC-RXN;Purine metabolism;Nucleotide metabolism;;;Nucleotide Salvage Pathway;Purine metabolism;Nucleotide metabolism
 340;ADNK1;adenosine kinase;R00185;ADENOSINE-KINASE-RXN;Purine metabolism;Nucleotide metabolism;Adenine-Adenosine-Salvage;Purine-Nucleotides-Salvage;Nucleotide Salvage Pathway;Purine metabolism;Nucleotide metabolism
 341;ADNUC;adenosine hydrolase;R01245;ADENOSINE-NUCLEOSIDASE-RXN;Purine metabolism;Nucleotide metabolism;;;Alternate Carbon metabolism;Purine metabolism;Nucleotide metabolism
@@ -372,7 +372,7 @@
 370;AGPATi160;1-hexadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (iso-C16:0);;;;Lipid metabolism;;;Glycerophospholipid metabolism;Glycerophospholipid metabolism;Lipid metabolism
 371;AGPATi170;1-heptadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (iso-C17:0);;;;Lipid metabolism;;;Glycerophospholipid metabolism;Glycerophospholipid metabolism;Lipid metabolism
 372;AGPATi180;1-octadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (iso-C18:0);;;;Lipid metabolism;;;Glycerophospholipid metabolism;Glycerophospholipid metabolism;Lipid metabolism
-373;AGPR;N-acetyl-g-glutamyl-phosphate reductase;R03443;N-ACETYLGLUTPREDUCT-RXN;Arginine biosynthesis;Amino acid metabolism;;;Arginine and Proline metabolism;Arginine and Proline metabolism;Amino acid metabolism
+373;AGPR;N-acetyl-g-glutamyl-phosphate reductase;R03443;N-ACETYLGLUTPREDUCT-RXN;Arginine biosynthesis;Amino acid metabolism;;;Arginine and Proline metabolism;Arginine and proline metabolism;Amino acid metabolism
 374;AGT;"alanine:glyoxylate aminotransferase;alanine--glyoxylate aminotransferase;serine--pyruvate aminotransferase";R00369;ALANINE--GLYOXYLATE-AMINOTRANSFERASE-RXN;Alanine, aspartate and glutamate metabolism;Amino acid metabolism;GLYCINE-SYN;IND-AMINO-ACID-SYN;;Alanine, aspartate and glutamate metabolism;Amino acid metabolism
 375;AHCi;adenosylhomocysteinase;R00192;ADENOSYLHOMOCYSTEINASE-RXN;Cysteine and methionine metabolism;Amino acid metabolism;;;Methionine metabolism;Cysteine and methionine metabolism;Amino acid metabolism
 376;AHLGAL;3,6-anhydro-L-galactose dehydrogenase ;;RXN-15892;;;Sugars-And-Polysaccharides-Degradation;Carbohydrates-Degradation;;Pentose and glucuronate interconversions;Carbohydrate metabolism
@@ -993,9 +993,9 @@
 991;G3PD5;Glycerol-3-phosphate dehydrogenase;R08657;;;Lipid metabolism;;;Glycerophospholipid metabolism;Glycerophospholipid metabolism;Lipid metabolism
 992;G3PD6;glycerol-3-phosphate dehydrogenase (menaquinone-9);;;;Energy metabolism;;;Oxidative phosphorylation;Glycerophospholipid metabolism;Lipid metabolism
 993;G3PD7;glycerol-3-phosphate 9demethylmenaquinone-9);;;;;;;;Glycerophospholipid metabolism;Lipid metabolism
-994;G5SADs;L-glutamate 5-semialdehyde dehydratase (spontaneous);R03314;META:SPONTPRO-RXN;Arginine and proline metabolism, Carbapenem biosynthesis;Biosynthesis of other secondary metabolites, Amino acid metabolism;PROLINE-SYN, ARGININE-DEG, Antibiotic-Biosynthesis, MISCELLANEOUS-DEG, PROLINE-DEG, L-Ornithine-Biosynthesis, Citrulline-Biosynthesis, Ethylene-Biosynthesis;Proteinogenic-Amino-Acids-Degradation, IND-AMINO-ACID-SYN, Other-Amino-Acid-Biosynthesis, Plant-Hormone-Biosynthesis, SECONDARY-METABOLITE-BIOSYNTHESIS, Amino-Acid-Degradation;Arginine and Proline metabolism;Arginine and Proline metabolism;Amino acid metabolism
+994;G5SADs;L-glutamate 5-semialdehyde dehydratase (spontaneous);R03314;META:SPONTPRO-RXN;Arginine and proline metabolism, Carbapenem biosynthesis;Biosynthesis of other secondary metabolites, Amino acid metabolism;PROLINE-SYN, ARGININE-DEG, Antibiotic-Biosynthesis, MISCELLANEOUS-DEG, PROLINE-DEG, L-Ornithine-Biosynthesis, Citrulline-Biosynthesis, Ethylene-Biosynthesis;Proteinogenic-Amino-Acids-Degradation, IND-AMINO-ACID-SYN, Other-Amino-Acid-Biosynthesis, Plant-Hormone-Biosynthesis, SECONDARY-METABOLITE-BIOSYNTHESIS, Amino-Acid-Degradation;Arginine and Proline metabolism;Arginine and proline metabolism;Amino acid metabolism
 995;G5SAT;Glutamate-1-semialdehyde 2,1-aminomutase;;;;Metabolism of cofactors and vitamins;;;Cofactor and Prosthetic Group Biosynthesis;Porphyrin and chlorophyll metabolism;Metabolism of cofactors and vitamins
-996;G5SD;glutamate-5-semialdehyde dehydrogenase;R03313;GLUTSEMIALDEHYDROG-RXN;Arginine and proline metabolism, Carbapenem biosynthesis;Biosynthesis of other secondary metabolites, Amino acid metabolism;PROLINE-SYN, L-Ornithine-Biosynthesis, Citrulline-Biosynthesis;Other-Amino-Acid-Biosynthesis, IND-AMINO-ACID-SYN;Arginine and Proline metabolism;Arginine and Proline metabolism;Amino acid metabolism
+996;G5SD;glutamate-5-semialdehyde dehydrogenase;R03313;GLUTSEMIALDEHYDROG-RXN;Arginine and proline metabolism, Carbapenem biosynthesis;Biosynthesis of other secondary metabolites, Amino acid metabolism;PROLINE-SYN, L-Ornithine-Biosynthesis, Citrulline-Biosynthesis;Other-Amino-Acid-Biosynthesis, IND-AMINO-ACID-SYN;Arginine and Proline metabolism;Arginine and proline metabolism;Amino acid metabolism
 997;G6PBDH;beta-D-glucose-6-phosphate:NADP+ 1-oxoreductase;R02736;GLU6PDEHYDROG-RXN;Glutathione metabolism, Pentose phosphate pathway;Metabolism of other amino acids, Carbohydrate metabolism;;;Pentose phosphate pathway;Pentose phosphate pathway;Carbohydrate metabolism
 998;G6PDA;glucosamine-6-phosphate deaminase;R00765;;Amino sugar and nucleotide sugar metabolism;Carbohydrate metabolism;;;Alternate Carbon metabolism;Amino sugar and nucleotide sugar metabolism;Carbohydrate metabolism
 999;G6PDH1b;beta-D-glucose-6-phosphate:NAD+ 1-oxidoreductase;R10907;;Pentose phosphate pathway;Carbohydrate metabolism;;;Pentose phosphate pathway;Pentose phosphate pathway;Carbohydrate metabolism
@@ -1040,7 +1040,7 @@
 1038;GF4GL_0;L-glutamate:coenzyme F420-0 ligase (GDP-forming);R09399;RXN-8080;Methane metabolism;Energy metabolism;Cofactor-Biosynthesis;Biosynthesis;Cofactor and Prosthetic Group Biosynthesis ;;Metabolism of cofactors and vitamins
 1039;GF4GL_1;L-glutamate:coenzyme F420-1 ligase (GDP-forming);R09400;;Methane metabolism;Energy metabolism;;;Cofactor and Prosthetic Group Biosynthesis ;;Metabolism of cofactors and vitamins
 1040;GF6PTA;glutamine-fructose-6-phosphate transaminase;R00768;;Amino sugar and nucleotide sugar metabolism, Alanine, aspartate and glutamate metabolism;Carbohydrate metabolism, Amino acid metabolism;;;Cell Envelope Biosynthesis;Alanine, aspartate and glutamate metabolism;Amino acid metabolism
-1041;GGGABADH;gamma-glutamyl-gamma-aminobutyraldehyde dehydrogenase;['R07417', 'R07418'];RXN0-3922;;;;;;Arginine and Proline metabolism;Amino acid metabolism
+1041;GGGABADH;gamma-glutamyl-gamma-aminobutyraldehyde dehydrogenase;['R07417', 'R07418'];RXN0-3922;;;;;;Arginine and proline metabolism;Amino acid metabolism
 1042;GGHCSH;gamma-glutamyl-hercynylcysteine sulfoxide hydrolase;;RXN-14429;;;Ergothioneine-Biosynthesis;SECONDARY-METABOLITE-BIOSYNTHESIS;;Ergothioneine biosynthesis;Biosynthesis of other secondary metabolites
 1043;GGLACOX;"L-gulono-gamma-lactone oxidase;gulonolactone (L-) oxidase";R03184;L-GULONOLACTONE-OXIDASE-RXN;Ascorbate and aldarate metabolism;Carbohydrate metabolism;;;;Ascorbate and aldarate metabolism;Carbohydrate metabolism
 1044;GGLGH;galactosylglycerol galactohydrolase;R01104;;Galactose metabolism;Carbohydrate metabolism;;;Alternate Carbon metabolism;Galactose metabolism;Carbohydrate metabolism
@@ -1065,7 +1065,7 @@
 1063;GLNLASE;gluconolactonase;R02933;RXN-8783;Ascorbate and aldarate metabolism;Carbohydrate metabolism;;;;Ascorbate and aldarate metabolism;Carbohydrate metabolism
 1064;GLNS;glutamine synthetase;R00253;;Arginine biosynthesis, Alanine, aspartate and glutamate metabolism, Glyoxylate and dicarboxylate metabolism, Nitrogen metabolism;Carbohydrate metabolism, Energy metabolism, Amino acid metabolism;;;Glutamate metabolism;Alanine, aspartate and glutamate metabolism;Amino acid metabolism
 1065;GLNTRS;Glutaminyl-tRNA synthetase;R03652;GLUTAMINE--TRNA-LIGASE-RXN;Aminoacyl-tRNA biosynthesis;Other;;;tRNA Charging;tRNA Charging;Biomass and maintenance functions
-1066;GLU5K;glutamate 5-kinase;R00239;GLUTKIN-RXN;Arginine and proline metabolism, Carbapenem biosynthesis;Biosynthesis of other secondary metabolites, Amino acid metabolism;PROLINE-SYN, L-Ornithine-Biosynthesis, Citrulline-Biosynthesis;Other-Amino-Acid-Biosynthesis, IND-AMINO-ACID-SYN;Arginine and Proline metabolism;Arginine and Proline metabolism;Amino acid metabolism
+1066;GLU5K;glutamate 5-kinase;R00239;GLUTKIN-RXN;Arginine and proline metabolism, Carbapenem biosynthesis;Biosynthesis of other secondary metabolites, Amino acid metabolism;PROLINE-SYN, L-Ornithine-Biosynthesis, Citrulline-Biosynthesis;Other-Amino-Acid-Biosynthesis, IND-AMINO-ACID-SYN;Arginine and Proline metabolism;Arginine and proline metabolism;Amino acid metabolism
 1067;GLUAAT;ATP:[L-glutamate:ammonia ligase (ADP-forming)] adenylyltransferase;R03473;;;Metabolism of other amino acids;;;;Alanine, aspartate and glutamate metabolism;Amino acid metabolism
 1068;GLUCORDH;D-glucuronate dehydrogenase;R09447;RXN-11407;;;D-Glucuronate-Degradation;SUGAR-ACIDS-DEG;;Ascorbate and aldarate metabolism;Carbohydrate metabolism
 1069;GLUDC;Glutamate Decarboxylase;R00261;GLUTDECARBOX-RXN;Butanoate metabolism, Alanine, aspartate and glutamate metabolism;Carbohydrate metabolism, Amino acid metabolism;;;Glutamate metabolism;Alanine, aspartate and glutamate metabolism;Amino acid metabolism
@@ -1334,9 +1334,9 @@
 1332;MGSDGS;"alpha-monoglucosyldiacylglycerol synthase;1,2-diacylglycerol 3-alpha-glucosyltransferase";R02689;2.4.1.157-RXN;Glycerolipid metabolism;Lipid metabolism;Glycolipids-Biosynthesis, Teichoic-Acids-Biosynthesis;Cell-Wall-Biosynthesis, Lipid-Biosynthesis;;Glycerolipid metabolism;Lipid metabolism
 1333;MHPGLUT;5-methyltetrahydropteroyltriglutamate-homocysteine S-methyltransferase;R04405;HOMOCYSMET-RXN;Cysteine and methionine metabolism;Amino acid metabolism;;;Methionine metabolism;Cysteine and methionine metabolism;Amino acid metabolism
 1334;MI1PP;myo-inositol 1-phosphatase;R01185;RXN0-5408;Inositol phosphate metabolism;Carbohydrate metabolism;Phytate-Degradation;CYCLITOLS-DEG;Cell Envelope Biosynthesis;Inositol phosphate metabolism;Carbohydrate metabolism
-1335;MI1PS;myo-Inositol-1-phosphate synthase;;;;Carbohydrate metabolism;;;Inositol Phosphate metabolism;Inositol Phosphate metabolism;Carbohydrate metabolism
-1336;MI1PS2;myo-Inositol-1-phosphate synthase;R07324;;Inositol phosphate metabolism, Streptomycin biosynthesis;Carbohydrate metabolism, Biosynthesis of other secondary metabolites;;;Inositol Phosphate metabolism;Inositol Phosphate metabolism;Carbohydrate metabolism
-1337;MI3PP;"myo-inositol-3-phosphate monophosphatase;inositol monopohsphatase;inositol-1(or 4)-monophosphatase;myo-inositol 3-phosphate monophosphatase;inositol monophosphatase";R01187;MYO-INOSITOL-1OR-4-MONOPHOSPHATASE-RXN;Streptomycin biosynthesis, Inositol phosphate metabolism;Biosynthesis of other secondary metabolites, Carbohydrate metabolism;;;;Inositol Phosphate metabolism;Carbohydrate metabolism
+1335;MI1PS;myo-Inositol-1-phosphate synthase;;;;Carbohydrate metabolism;;;Inositol Phosphate metabolism;Inositol phosphate metabolism;Carbohydrate metabolism
+1336;MI1PS2;myo-Inositol-1-phosphate synthase;R07324;;Inositol phosphate metabolism, Streptomycin biosynthesis;Carbohydrate metabolism, Biosynthesis of other secondary metabolites;;;Inositol Phosphate metabolism;Inositol phosphate metabolism;Carbohydrate metabolism
+1337;MI3PP;"myo-inositol-3-phosphate monophosphatase;inositol monopohsphatase;inositol-1(or 4)-monophosphatase;myo-inositol 3-phosphate monophosphatase;inositol monophosphatase";R01187;MYO-INOSITOL-1OR-4-MONOPHOSPHATASE-RXN;Streptomycin biosynthesis, Inositol phosphate metabolism;Biosynthesis of other secondary metabolites, Carbohydrate metabolism;;;;Inositol phosphate metabolism;Carbohydrate metabolism
 1338;MLTG1;Maltodextrin glucosidase (maltotriose);;META:RXN0-5183;;Carbohydrate metabolism;Glycan-Degradation;Glycan-Pathways;Alternate Carbon metabolism;Alternate Carbon metabolism;Carbohydrate metabolism
 1339;MLTG1e;Maltodextrin glucosidase (maltotriose);;RXN0-5183;;Carbohydrate metabolism;;;Alternate Carbon metabolism;Alternate Carbon metabolism;Carbohydrate metabolism
 1340;MLTG2;Maltodextrin glucosidase (maltotetraose);;;;Carbohydrate metabolism;;;Alternate Carbon metabolism;Alternate Carbon metabolism;Carbohydrate metabolism
@@ -1379,7 +1379,7 @@
 1377;MSHS;mycothiol synthase;R09622;;;Metabolism of cofactors and vitamins;;;Cofactor and Prosthetic Group Biosynthesis;Mycothiol biosynthesis;Metabolism of cofactors and vitamins
 1378;MSUCOADH;(2S)-methylsuccinyl-CoA dehydrogenase;;RXN-8959;;;Energy-Metabolism;Pathways;;Glyoxylate and dicarboxylate metabolism;Carbohydrate metabolism
 1379;MTAM_nh4;Aminomethyltransferase;R04125;;One carbon pool by folate, Glycine, serine and threonine metabolism;Metabolism of cofactors and vitamins, Amino acid metabolism;;;Glycine, serine and threonine metabolism;Glycine, serine and threonine metabolism;Amino acid metabolism
-1380;MTAN;methylthioadenosine nucleosidase;R01401;METHYLTHIOADENOSINE-NUCLEOSIDASE-RXN;Cysteine and methionine metabolism;Amino acid metabolism;Methylthioadenosine-Degradation;NUCLEO-DEG;Arginine and Proline metabolism;Arginine and Proline metabolism;Amino acid metabolism
+1380;MTAN;methylthioadenosine nucleosidase;R01401;METHYLTHIOADENOSINE-NUCLEOSIDASE-RXN;Cysteine and methionine metabolism;Amino acid metabolism;Methylthioadenosine-Degradation;NUCLEO-DEG;Arginine and Proline metabolism;Arginine and proline metabolism;Amino acid metabolism
 1381;MTAP;5'-methylthioadenosine phosphorylase;R01402;5-METHYLTHIOADENOSINE-PHOSPHORYLASE-RXN;Cysteine and methionine metabolism;Amino acid metabolism;;;Methionine metabolism;Methionine metabolism;Amino acid metabolism
 1382;MTBUTEMO;methyl tert-butyl ether monooxygenase;;RXN-17612;;;Carbohydrates-Degradation;Degradation;;Alternate Carbon metabolism;Carbohydrate metabolism
 1383;MTFHSs;Tetrahydrofolate:formaldehyde condensation (spontaneous);R09093;RXN-2881;;;;;;One carbon pool by folate;Metabolism of cofactors and vitamins
@@ -1473,7 +1473,7 @@
 1471;OAADC;oxaloacetate carboxy-lyase (pyruvate-forming);R00217;;Pyruvate metabolism;Carbohydrate metabolism;;;Anaplerotic Reactions;Pyruvate metabolism;Carbohydrate metabolism
 1472;OCDOR;unknown enzyme;R00744;;Propanoate metabolism;Carbohydrate metabolism;;;Propanoate metabolism;Propanoate metabolism;Carbohydrate metabolism
 1473;OCOAT1;3-oxoacid CoA-transferase (Succinyl-CoA: acetoacetate);R00410;RXNI-2;Butanoate metabolism, Synthesis and degradation of ketone bodies, Valine, leucine and isoleucine degradation;Carbohydrate metabolism, Lipid metabolism, Amino acid metabolism;;;Valine, leucine and isoleucine metabolism;Valine, leucine and isoleucine metabolism;Amino acid metabolism
-1474;OCT;ornithine carbamoyltransferase (irreversible);R01398;RXN-13482;Arginine biosynthesis;Amino acid metabolism;;;Arginine and Proline metabolism;Arginine and Proline metabolism;Amino acid metabolism
+1474;OCT;ornithine carbamoyltransferase (irreversible);R01398;RXN-13482;Arginine biosynthesis;Amino acid metabolism;;;Arginine and Proline metabolism;Arginine and proline metabolism;Amino acid metabolism
 1475;OCTNLL;Octanoate non-lipoylated apo domain ligase;;;;Metabolism of cofactors and vitamins;;;Cofactor and Prosthetic Group Biosynthesis;;Metabolism of cofactors and vitamins
 1476;OCTSYN;octalin synthase;;RXN-9475;;;SESQUITERPENOID-SYN;Terpenoid-Biosynthesis;;Sesquiterpenoid and triterpenoid biosynthesis;Metabolism of terpenoids and polyketides
 1477;OCTTT;trans-octaprenyltranstransferase;R07267;;;Metabolism of cofactors and vitamins;;;Cofactor and Prosthetic Group Biosynthesis;Ubiquinone and other terpenoid-quinone biosynthesis;Metabolism of cofactors and vitamins
@@ -1506,9 +1506,9 @@
 1504;OXPTNDH;glutarate-semialdehyde:NAD+ oxidoreductase;R02401;GLUTARATE-SEMIALDEHYDE-DEHYDROGENASE-RXN;Lysine degradation;Amino acid metabolism;LYSINE-DEG;Proteinogenic-Amino-Acids-Degradation;Threonine and Lysine metabolism;Threonine and Lysine metabolism;Amino acid metabolism
 1505;P2OLDH;"propan-2-ol dehydrogenase;isopropanol dehydrogenase";;RXN-17571;;;;;;Propanoate metabolism;Carbohydrate metabolism
 1506;P4CADH;"pterin-4-alpha-carbinolamine dehydratase;pterin-4alpha-carbinolamine dehydratase";R04734;RXN-7908;Folate biosynthesis;Metabolism of cofactors and vitamins;PHENYLALANINE-DEG;Proteinogenic-Amino-Acids-Degradation;;Folate biosynthesis;Metabolism of cofactors and vitamins
-1507;P5CD;1-pyrroline-5-carboxylate dehydrogenase;R00707;PYRROLINECARBDEHYDROG-RXN;Arginine and proline metabolism, Alanine, aspartate and glutamate metabolism;Amino acid metabolism;;;Arginine and Proline metabolism;Arginine and Proline metabolism;Amino acid metabolism
-1508;P5CR;pyrroline-5-carboxylate reductase;R01251;PYRROLINECARBREDUCT-RXN;Arginine and proline metabolism;Amino acid metabolism;PROLINE-SYN, MISCELLANEOUS-DEG, ARGININE-DEG;Proteinogenic-Amino-Acids-Degradation, Amino-Acid-Degradation, IND-AMINO-ACID-SYN;Arginine and Proline metabolism;Arginine and Proline metabolism;Amino acid metabolism
-1509;PAAT;"polyamine aminotransferase;putrescine aminotransferase";R08714;RXN-8;Arginine and proline metabolism;Amino acid metabolism;;;;Arginine and Proline metabolism;Amino acid metabolism
+1507;P5CD;1-pyrroline-5-carboxylate dehydrogenase;R00707;PYRROLINECARBDEHYDROG-RXN;Arginine and proline metabolism, Alanine, aspartate and glutamate metabolism;Amino acid metabolism;;;Arginine and Proline metabolism;Arginine and proline metabolism;Amino acid metabolism
+1508;P5CR;pyrroline-5-carboxylate reductase;R01251;PYRROLINECARBREDUCT-RXN;Arginine and proline metabolism;Amino acid metabolism;PROLINE-SYN, MISCELLANEOUS-DEG, ARGININE-DEG;Proteinogenic-Amino-Acids-Degradation, Amino-Acid-Degradation, IND-AMINO-ACID-SYN;Arginine and Proline metabolism;Arginine and proline metabolism;Amino acid metabolism
+1509;PAAT;"polyamine aminotransferase;putrescine aminotransferase";R08714;RXN-8;Arginine and proline metabolism;Amino acid metabolism;;;;Arginine and proline metabolism;Amino acid metabolism
 1510;PACCOAE;ring 1,2-phenylacetyl-CoA epoxidase (NADPH);R09838;;Phenylalanine metabolism;Amino acid metabolism;;;Alternate Carbon metabolism;Phenylalanine metabolism;Amino acid metabolism
 1511;PACCOAL;phenylacetate-CoA ligase;R02539;RXN-10819;Phenylalanine metabolism;Amino acid metabolism;;;Alternate Carbon metabolism;Phenylalanine metabolism;Amino acid metabolism
 1512;PACPTc;acetyl-CoA synthetase;R00926;;Propanoate metabolism;Carbohydrate metabolism;;;Propanoate metabolism;Propanoate metabolism;Carbohydrate metabolism
@@ -1654,7 +1654,7 @@
 1652;PRDX;Peroxidase (multiple substrates);R00602;RXN-14189;;;;;Unassigned;Alternate Carbon metabolism;Carbohydrate metabolism
 1653;PRFGS;phosphoribosylformylglycinamidine synthase;R04463;META:FGAMSYN-RXN;Purine metabolism;Nucleotide metabolism;;;Purine and pyrimidine biosynthesis;Purine metabolism;Nucleotide metabolism
 1654;PRMICI;1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino)imidazole-4-carboxamide isomerase (irreversible);R04640;PRIBFAICARPISOM-RXN;Histidine metabolism;Amino acid metabolism;HISTIDINE-SYN;IND-AMINO-ACID-SYN;Histidine metabolism;Histidine metabolism;Amino acid metabolism
-1655;PROD2;Proline dehydrogenase;R10507;;Arginine and proline metabolism, Carbapenem biosynthesis;Biosynthesis of other secondary metabolites, Amino acid metabolism;;;Arginine and Proline metabolism;Arginine and Proline metabolism;Amino acid metabolism
+1655;PROD2;Proline dehydrogenase;R10507;;Arginine and proline metabolism, Carbapenem biosynthesis;Biosynthesis of other secondary metabolites, Amino acid metabolism;;;Arginine and Proline metabolism;Arginine and proline metabolism;Amino acid metabolism
 1656;PRODSYN;R11662;R11662;;Prodigiosin biosynthesis;Biosynthesis of other secondary metabolites;;;Undecylprodigiosin Biosynthesis;Undecylprodigiosin Biosynthesis;Biosynthesis of other secondary metabolites
 1657;PROLRM;proline racemase;R01255;PROLINE-RACEMASE-RXN;Arginine and proline metabolism;Amino acid metabolism;;;;Arginine and proline metabolism;Amino acid metabolism
 1658;PROP2MO;propane 2-monooxygenase;;RXN-17568;;;Propane-Degradation;Carbohydrates-Degradation;;Alternate Carbon metabolism;Carbohydrate metabolism
@@ -1855,7 +1855,7 @@
 1853;SQLCYC2;squalene mutase (cyclizing);R07323;;Sesquiterpenoid and triterpenoid biosynthesis;Metabolism of terpenoids and polyketides;;;Sesquiterpenoid and triterpenoid biosynthesis;Sesquiterpenoid and triterpenoid biosynthesis;Metabolism of terpenoids and polyketides
 1854;SRUBSYN;SRUBSYN;;RXN1A0-6102;;Biosynthesis of other secondary metabolites;;;Undecylprodigiosin Biosynthesis;Undecylprodigiosin Biosynthesis;Biosynthesis of other secondary metabolites
 1855;SSALx;Succinate-semialdehyde dehydrogenase (NAD(P)+);R00713;SUCCINATE-SEMIALDEHYDE-DEHYDROGENASE-RXN;Butanoate metabolism, Alanine, aspartate and glutamate metabolism, Nicotinate and nicotinamide metabolism, Tyrosine metabolism;Carbohydrate metabolism, Metabolism of cofactors and vitamins, Amino acid metabolism;;;"Glutamate metabolism; Butanoate metabolism";Alanine, aspartate and glutamate metabolism;Amino acid metabolism
-1856;SSALy;succinate-semialdehyde dehydrogenase (NADP);R00714;SUCCSEMIALDDEHYDROG-RXN;Butanoate metabolism, Alanine, aspartate and glutamate metabolism, Nicotinate and nicotinamide metabolism, Tyrosine metabolism;Carbohydrate metabolism, Metabolism of cofactors and vitamins, Amino acid metabolism;AROMATIC-COMPOUNDS-DEGRADATION, TCA-VARIANTS, Nicotine-Degradation, 4-Aminobutyraye-Degradation;Other-Degradation, AMINE-DEG, Energy-Metabolism, Degradation;Arginine and Proline metabolism;Arginine and Proline metabolism;Amino acid metabolism
+1856;SSALy;succinate-semialdehyde dehydrogenase (NADP);R00714;SUCCSEMIALDDEHYDROG-RXN;Butanoate metabolism, Alanine, aspartate and glutamate metabolism, Nicotinate and nicotinamide metabolism, Tyrosine metabolism;Carbohydrate metabolism, Metabolism of cofactors and vitamins, Amino acid metabolism;AROMATIC-COMPOUNDS-DEGRADATION, TCA-VARIANTS, Nicotine-Degradation, 4-Aminobutyraye-Degradation;Other-Degradation, AMINE-DEG, Energy-Metabolism, Degradation;Arginine and Proline metabolism;Arginine and proline metabolism;Amino acid metabolism
 1857;SSBUTDH;"(S,S)-butanediol dehydrogenase;[(S,S)-2,3-butanediol-forming]-(S)-acetoin reductase;(S)-acetoin reductase [(S,S)-2,3-butanediol forming];[(S)-acetoin forming]-(S,S)-2,3-butanediol dehydrogenase";R02344;SS-BUTANEDIOL-DEHYDROGENASE-RXN;;;;;;Butanoate metabolism;Carbohydrate metabolism
 1858;STACHGALACT;Alpha-galactosidase;R03634;;Galactose metabolism;Carbohydrate metabolism;;;Alternate Carbon metabolism;Galactose metabolism;Carbohydrate metabolism
 1859;STRP6K;streptomycin 6-kinase;R02225;STREPTOMYCIN-6-KINASE-RXN;Streptomycin biosynthesis;Biosynthesis of other secondary metabolites;;;;Streptomycin biosynthesis;Biosynthesis of other secondary metabolites
@@ -1985,7 +1985,7 @@
 1983;UPPDC2;Uroporphyrinogen decarboxylase;R04972;RXN-10642;Porphyrin and chlorophyll metabolism;Metabolism of cofactors and vitamins;;;Cofactor and Prosthetic Group Biosynthesis;Porphyrin and chlorophyll metabolism;Metabolism of cofactors and vitamins
 1984;UPPRT;uracil phosphoribosyltransferase;R00966;URACIL-PRIBOSYLTRANS-RXN;Pyrimidine metabolism;Nucleotide metabolism;Pyrimidine-Nucleotide-Salvage;PYR-NUC-SYN;Nucleotide Salvage Pathway;Pyrimidine metabolism;Nucleotide metabolism
 1985;URCN;urocanase;R02914;UROCANATE-HYDRATASE-RXN;Histidine metabolism;Amino acid metabolism;;;Histidine metabolism;Histidine metabolism;Amino acid metabolism
-1986;UREA;urease;R00131;;Arginine biosynthesis, Purine metabolism, Atrazine degradation;Nucleotide metabolism, Amino acid metabolism;;;Arginine and Proline metabolism;Arginine and Proline metabolism;Amino acid metabolism
+1986;UREA;urease;R00131;;Arginine biosynthesis, Purine metabolism, Atrazine degradation;Nucleotide metabolism, Amino acid metabolism;;;Arginine and Proline metabolism;Arginine and proline metabolism;Amino acid metabolism
 1987;URECARB;urea carboxylase;R00774;UREA-CARBOXYLASE-RXN;Atrazine degradation, Arginine biosynthesis;Xenobiotics biodegradation and metabolism, Amino acid metabolism;;;;Atrazine degradation;Xenobiotics biodegradation and metabolism
 1988;URGLYUS;"ureidoglycolate urea-lyase;ureidoglycolate lyase";R00776;UREIDOGLYCOLATE-LYASE-RXN;Purine metabolism;Nucleotide metabolism;Allantoin-degradation;AMINE-DEG;;Purine metabolism;Nucleotide metabolism
 1989;URHYD;FAD-dependent urate hydroxylase;;RXN-11186;;;;;;Purine metabolism;Nucleotide metabolism
@@ -2041,7 +2041,7 @@
 2039;ACCt;N-acetylcysteine transport;;;;;;;Transport, Membrane;;Membrane transport
 2040;ACGApts;N-Acetyl-D-glucosamine transport via PEP:Pyr PTS;;;;Transport;;;Transport, Membrane;;Membrane transport
 2041;ACSERt;O-Acetyl-L-serine transport via facilitated transport;;;;Transport;;;Transport, Membrane;;Membrane transport
-2042;ACTt;actinorhodin transport via facilitated transport;;;;Transport;;;Transport, Membrane;;Membrane transport
+2042;ACTt;actinorhodin transport via facilitated transport;;;;Transport;;;Transport, Membrane;Actinorhodin Biosynthesis;Membrane transport
 2043;ACt2r;acetate transport via proton symport;;TRANS-RXN0-571;;Transport;;;Transport, Membrane;;Membrane transport
 2044;ACt4;Na+/Acetate symport;;;;Transport;;;Transport, Membrane;;Membrane transport
 2045;ADEt;adenine transport via proton symport (reversible);;TRANS-RXN0-577;;Transport;;;Transport, Membrane;;Membrane transport
@@ -2076,8 +2076,8 @@
 2074;CBL1abc;Cob(1)alamin transport via ABC system;;META:ABC-5-RXN;;Transport;;;Transport, Membrane;;Membrane transport
 2075;CD2abc;Cadmium (Cd+2) ABC transporter;;;;Transport;;;Inorganic Ion Transport and metabolism;;Inorganic Ion Transport and metabolism
 2076;CD2t4;cadmium (Cd+2) transport in/out via proton antiport;;;;Transport;;;Inorganic Ion Transport and metabolism;;Inorganic Ion Transport and metabolism
-2077;CDAabc;calcium-dependent antibiotics 2b transport via ABC system;;;;Transport;;;Transport, Membrane;;Membrane transport
-2078;CDAti;CDA efflux via diffusion;;;;Transport;;;Transport, Membrane;;Membrane transport
+2077;CDAabc;calcium-dependent antibiotics 2b transport via ABC system;;;;Transport;;;Transport, Membrane;Calcium-Dependent Antibiotics Biosynthesis;Membrane transport
+2078;CDAti;CDA efflux via diffusion;;;;Transport;;;Transport, Membrane;Calcium-Dependent Antibiotics Biosynthesis;Membrane transport
 2079;CELLBabc;cellobiose transport via ABC system;;;;Transport;;;Transport, Membrane;;Membrane transport
 2080;CELLUL_DEGe;Cellulose degradation (extracellular);;;;;;;;;Membrane transport
 2081;CHLabc;choline transport via ABC system;;;;Transport;;;Transport, Membrane;;Membrane transport
@@ -2188,9 +2188,9 @@
 2186;LEUabc;L-leucine transport via ABC system;;META:ABC-35-RXN;;Transport;;;Transport, Membrane;;Membrane transport
 2187;LEUt2r;L-leucine transport via proton symport;;TRANS-RXN0-270;;Transport;;;Transport, Membrane;;Membrane transport
 2188;LIPOt2;Lipoate transport via proton symport;;;;Transport;;;Transport, Membrane;;Membrane transport
-2189;LYSabc;L-lysine transport via ABC system;;META:ABC-3-RXN;;Transport;;;Transport, Membrane;;Membrane transport
-2190;LYSt2r;L-lysine transport in via proton symport;;TRANS-RXN-58;;Transport;;;Transport, Membrane;;Membrane transport
-2191;LYSt3r;L-lysine transport out via proton antiport;;TRANS-RXN-58;;Transport;;;Transport, Membrane;;Membrane transport
+2189;LYSabc;L-lysine transport via ABC system;;META:ABC-3-RXN;;Transport;;;Transport, Membrane;Threonine and Lysine metabolism;Membrane transport
+2190;LYSt2r;L-lysine transport in via proton symport;;TRANS-RXN-58;;Transport;;;Transport, Membrane;Threonine and Lysine metabolism;Membrane transport
+2191;LYSt3r;L-lysine transport out via proton antiport;;TRANS-RXN-58;;Transport;;;Transport, Membrane;Threonine and Lysine metabolism;Membrane transport
 2192;LYXDabc;D-lyxose transport via ABC system;;;;Transport;;;Transport, Membrane;;Membrane transport
 2193;LYXabc;L-lyxose transport via ABC system;;;;Transport;;;Transport, Membrane;;Membrane transport
 2194;LYXt2;L-Lyxose transport via proton symport;;;;Transport;;;Transport, Membrane;;Membrane transport
@@ -2205,8 +2205,8 @@
 2203;MALt2_2;Malate transport via proton symport (2 H);;META:TRANS-RXN-121A;;Transport;;;Transport, Membrane;;Membrane transport
 2204;MALt2_3;malate transport via proton symport (3 H);;;;Transport;;;Transport, Membrane;;Membrane transport
 2205;MALt3;L-malate transport out via proton antiport;;;;Transport;;;Transport, Membrane;;Membrane transport
-2206;MANpts;D-mannose transport via PEP:PTS;;;;Transport;;;Transport, Membrane;;Membrane transport
-2207;MANt2;D-mannose transport in via proton symport;;;;Transport;;;Transport, Membrane;;Membrane transport
+2206;MANpts;D-mannose transport via PEP:PTS;;;;Transport;;;Transport, Membrane;Fructose and mannose metabolism;Membrane transport
+2207;MANt2;D-mannose transport in via proton symport;;;;Transport;;;Transport, Membrane;Fructose and mannose metabolism;Membrane transport
 2208;MELIBt2;melibiose transport in via symport;;TRANS-RXN-94;;Transport;;;Transport, Membrane;;Membrane transport
 2209;MELTt2;melibiitol transport in via symport;;;;Transport;;;Transport, Membrane;;Membrane transport
 2210;MEOHtr;Methanol reversible transport via diffusion;;TRANS-RXN0-459;;Transport;;;Transport, Membrane;;Membrane transport
@@ -2259,11 +2259,11 @@
 2257;RAFFINt2;raffinose transport in via symport;;;;Transport;;;Transport, Membrane;;Membrane transport
 2258;REDt;undecylprodigiosin transport;;;;Transport;;;Transport, Membrane;;Membrane transport
 2259;RIBabc;D-ribose transport via ABC system;;;;Transport;;;Transport, Membrane;;Membrane transport
-2260;RMNabc;L-rhamnose transport via ABC system;;;;Transport;;;Transport, Membrane;;Membrane transport
-2261;RMNt;L-rhamnose transport via proton symport;;;;Transport;;;Transport, Membrane;;Membrane transport
+2260;RMNabc;L-rhamnose transport via ABC system;;;;Transport;;;Transport, Membrane;Fructose and mannose metabolism;Membrane transport
+2261;RMNt;L-rhamnose transport via proton symport;;;;Transport;;;Transport, Membrane;Fructose and mannose metabolism;Membrane transport
 2262;SALCpts;salicin transport via PEP:Pyr PTS;;;;Transport;;;Transport, Membrane;;Membrane transport
-2263;SBTabc;D-sorbitol transport via ABC system;;;;Transport;;;Transport, Membrane;;Membrane transport
-2264;SBTpts;D-sorbitol transport via PEP:PTS;;;;Transport;;;Transport, Membrane;;Membrane transport
+2263;SBTabc;D-sorbitol transport via ABC system;;;;Transport;;;Transport, Membrane;Fructose and mannose metabolism;Membrane transport
+2264;SBTpts;D-sorbitol transport via PEP:PTS;;;;Transport;;;Transport, Membrane;Fructose and mannose metabolism;Membrane transport
 2265;SCB1t;SCB1 transport (diffusible molecule);;;;;;;;;Membrane transport
 2266;SCB2t;SCB2 transport (diffusible molecule);;;;;;;;;Membrane transport
 2267;SCB3t;SCB3 transport (diffusible molecule);;;;;;;;;Membrane transport
