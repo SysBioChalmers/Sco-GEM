@@ -10,5 +10,5 @@ import cobra
 import logging
 from cobra.io import read_sbml_model
 solver='gurobi';
-scoGEM=cobra.io.read_sbml_model("C:/Users/kumelj/Downloads/OptKnock_050218/scoGEM_model_fix_transporters_140519/scoGEM.xml");
-cobra.io.save_yaml_model(scoGEM, "C:/Users/kumelj/Downloads/OptKnock_050218/scoGEM_model_fix_transporters_140519/scoGEM.xml");
+scoGEM=cobra.io.read_sbml_model("https://github.com/SysBioChalmers/Sco-GEM/fix/transporters/ModelFiles/xml/scoGEM.xml");
+cobra.io.save_yaml_model(scoGEM, "C:/Users/kumelj/Downloads/OptKnock_050218/scoGEM_model_fix_transporters_140519");
