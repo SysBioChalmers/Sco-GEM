@@ -43,6 +43,7 @@ from consensusModel import fix_SBO_terms
 from consensusModel import fix_biomass
 from consensusModel import feat_annotations
 from consensusModel import feat_subsystem_annotation
+from consensusModel import issue_82_delete_reactions
 from reversibility import reversibility
 import export
 
@@ -133,6 +134,9 @@ def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
     feat_annotations.add_doi_annotations(scoGEM, DOI_ANNOTATIONS_FN)
     feat_annotations.add_gene_annotations(scoGEM, GENE_ANNOTATIONS_FN)
     feat_subsystem_annotation.update_subsystem_annotations(scoGEM, SUBSYSTEM_ANNOTATION_FN)
+
+    # Issue 82 Delete reactions without gene associations
+    issue_82_delete_reactions.delete_reactions(scoGEM)
 
     # Save model
     export.export(scoGEM, formats = ["xml", "yml"], write_requirements = write_requirements)
