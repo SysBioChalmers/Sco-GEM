@@ -289,8 +289,8 @@
 287;ACPS1;acyl-carrier protein synthase;R01625;META:HOLO-ACP-SYNTH-RXN;Pantothenate and CoA biosynthesis;Metabolism of cofactors and vitamins;;;Cofactor and Prosthetic Group Biosynthesis;Pantothenate and CoA biosynthesis;Metabolism of cofactors and vitamins
 288;ACPSact;acyl-carrier protein synthase (actinorhodin);R01625;HOLO-ACP-SYNTH-RXN;Pantothenate and CoA biosynthesis;Metabolism of cofactors and vitamins;Cofactor-Biosynthesis, Activation;Biosynthesis, Activation-Inactivation-Interconversion;;Actinorhodin Biosynthesis;Metabolism of terpenoids and polyketides
 289;ACPScda;acyl-carrier protein synthase (calcium-dependent antibiotics);R01625;HOLO-ACP-SYNTH-RXN;Pantothenate and CoA biosynthesis;Metabolism of cofactors and vitamins;;;;Calcium-Dependent Antibiotics Biosynthesis;Biosynthesis of other secondary metabolites
-290;ACPScpk;acyl-carrier protein synthase (cpk);;;;;;;;Cpk biosynthesis;Metabolism of terpenoids and polyketides
-291;ACPSpdscpk;acyl-carrier-protein phosphodiesterase (cpk);;;;;;;;Cpk biosynthesis;Metabolism of terpenoids and polyketides
+290;ACPScpk;acyl-carrier protein synthase (cpk);;;;;;;;Coelimycin biosynthesis;Metabolism of terpenoids and polyketides
+291;ACPSpdscpk;acyl-carrier-protein phosphodiesterase (cpk);;;;;;;;Coelimycin biosynthesis;Metabolism of terpenoids and polyketides
 292;ACPSredL;acyl-carrier protein synthase (redL);R01625;HOLO-ACP-SYNTH-RXN;Pantothenate and CoA biosynthesis;Metabolism of cofactors and vitamins;Cofactor-Biosynthesis, Activation;Biosynthesis, Activation-Inactivation-Interconversion;Cofactor and Prosthetic Group Biosynthesis;Undecylprodigiosin Biosynthesis;Biosynthesis of other secondary metabolites
 293;ACPSredN;acyl-carrier protein synthase (redN);R01625;HOLO-ACP-SYNTH-RXN;Pantothenate and CoA biosynthesis;Metabolism of cofactors and vitamins;;;Cofactor and Prosthetic Group Biosynthesis;Undecylprodigiosin Biosynthesis;Biosynthesis of other secondary metabolites
 294;ACPSredQ;acyl-carrier protein synthase (redQ);R01625;HOLO-ACP-SYNTH-RXN;Pantothenate and CoA biosynthesis;Metabolism of cofactors and vitamins;Cofactor-Biosynthesis, Activation;Biosynthesis, Activation-Inactivation-Interconversion;Cofactor and Prosthetic Group Biosynthesis;Undecylprodigiosin Biosynthesis;Biosynthesis of other secondary metabolites
@@ -644,12 +644,12 @@
 642;CPC3MT;cobalt-precorrin-3B C17-methyltransferase;R05809;RXN-8761;Porphyrin and chlorophyll metabolism;Metabolism of cofactors and vitamins;Cobyrinate-diamide-Biosynthesis;Cofactor-Biosynthesis;Cofactor and Prosthetic Group Biosynthesis;Porphyrin and chlorophyll metabolism;Metabolism of cofactors and vitamins
 643;CPC6R;cobalt-precorrin-6A reductase;;;;Metabolism of cofactors and vitamins;;;Cofactor and Prosthetic Group Biosynthesis;Porphyrin and chlorophyll metabolism;Metabolism of cofactors and vitamins
 644;CPC8MM;cobalt-precorrin-8X methylmutase;R05814;;Porphyrin and chlorophyll metabolism;Metabolism of cofactors and vitamins;;;Cofactor and Prosthetic Group Biosynthesis;Porphyrin and chlorophyll metabolism;Metabolism of cofactors and vitamins
-645;CPKS1;CpkA initiation;;;;;;;;Cpk biosynthesis;Metabolism of terpenoids and polyketides
-646;CPKS2;CpkB polyketide elongation 1;;;;;;;;Cpk biosynthesis;Metabolism of terpenoids and polyketides
-647;CPKS3;CpkC polyketide elongation 2 and thioester reductase;;;;;;;;Cpk biosynthesis;Metabolism of terpenoids and polyketides
-648;CPKS4a;CpkG transaminase (with L-Ala);;;;;;;;Cpk biosynthesis;Metabolism of terpenoids and polyketides
-649;CPKS4b;CpkG transaminase (with L-Glu);;;;;;;;Cpk biosynthesis;Metabolism of terpenoids and polyketides
-650;CPKS5;Flavin dependent epoxidases/dehydrogenases;;;;;;;;Cpk biosynthesis;Metabolism of terpenoids and polyketides
+645;CPKS1;CpkA initiation;;;;;;;;Coelimycin biosynthesis;Metabolism of terpenoids and polyketides
+646;CPKS2;CpkB polyketide elongation 1;;;;;;;;Coelimycin biosynthesis;Metabolism of terpenoids and polyketides
+647;CPKS3;CpkC polyketide elongation 2 and thioester reductase;;;;;;;;Coelimycin biosynthesis;Metabolism of terpenoids and polyketides
+648;CPKS4a;CpkG transaminase (with L-Ala);;;;;;;;Coelimycin biosynthesis;Metabolism of terpenoids and polyketides
+649;CPKS4b;CpkG transaminase (with L-Glu);;;;;;;;Coelimycin biosynthesis;Metabolism of terpenoids and polyketides
+650;CPKS5;Flavin dependent epoxidases/dehydrogenases;;;;;;;;Coelimycin biosynthesis;Metabolism of terpenoids and polyketides
 651;CPMPS;cyclic pyranopterin monophosphate synthase;;;;Metabolism of cofactors and vitamins;;;Cofactor and Prosthetic Group Biosynthesis;Porphyrin and chlorophyll metabolism;Metabolism of cofactors and vitamins
 652;CPPPGO2;Oxygen Independent coproporphyrinogen-III oxidase;R06895;HEMN-RXN;Porphyrin and chlorophyll metabolism;Metabolism of cofactors and vitamins;Heme-b-Biosynthesis, Chlorophyllide-a-Biosynthesis;Chlorophyll-Biosynthesis, HEME-SYN;Cofactor and Prosthetic Group Biosynthesis;Porphyrin and chlorophyll metabolism;Metabolism of cofactors and vitamins
 653;CREATA;creatininase;R01884;CREATININASE-RXN;Arginine and proline metabolism;Amino acid metabolism;;;;Arginine and proline metabolism;Amino acid metabolism
@@ -2093,8 +2093,8 @@
 2091;COBALT2t3;cobalt (Co+2) transport out via proton antiport;;;;Transport;;;Inorganic Ion Transport and metabolism;;Inorganic Ion Transport and metabolism
 2092;COELICHELINUt;coelichelin secretion;;;;Transport;;;Inorganic Ion Transport and metabolism;;Inorganic Ion Transport and metabolism
 2093;COELICHELINabc;ferricoelichelin transport via ABC system;;;;Transport;;;Inorganic Ion Transport and metabolism;;Inorganic Ion Transport and metabolism
-2094;CPKS6;Extracellular spontaneous reaction;;;;;;;;;Membrane transport
-2095;CPKSt;Putative transmembrane efflux protein CpkF;;;;;;;;;Membrane transport
+2094;CPKS6;Extracellular spontaneous reaction;;;;;;;;Coelimycin biosynthesis;Membrane transport
+2095;CPKSt;Putative transmembrane efflux protein CpkF;;;;;;;;Coelimycin biosynthesis;Membrane transport
 2096;CSNt2;cytosine transport in via proton symport;;TRANS-RXN-199;;Transport;;;Transport, Membrane;;Membrane transport
 2097;CSNt2r;cytosine transport in via proton symport, reversible;;;;Transport;;;Transport, Membrane;;Membrane transport
 2098;CU1abc;Copper (Cu +1) ABC transporter;;;;Transport;;;Inorganic Ion Transport and metabolism;;Inorganic Ion Transport and metabolism
