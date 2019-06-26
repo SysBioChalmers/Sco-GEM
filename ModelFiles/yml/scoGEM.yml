@@ -4655,22 +4655,6 @@
       - metanetx.chemical: MNXM4345
       - origin: iMK1208
   - !!omap
-    - id: 3opcoa_c
-    - name: 3-oxopropionyl-CoA
-    - compartment: c
-    - charge: -4
-    - formula: C24H34N7O18P3S
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - bigg.metabolite: 3opcoa
-      - biocyc: CPD-17259
-      - chebi:
-        - CHEBI:84996
-        - CHEBI:28673
-      - kegg.compound: C05989
-      - metanetx.chemical: MNXM6325
-      - origin: iMA789
-  - !!omap
     - id: 3ophb_c
     - name: 3-octaprenyl-4-hydroxybenzoate
     - compartment: c
@@ -7331,21 +7315,6 @@
       - kegg.compound: C01904
       - metanetx.chemical: MNXM1018
       - origin: iMK1208
-  - !!omap
-    - id: abt_c
-    - name: L-Arabitol
-    - compartment: c
-    - charge: 0
-    - formula: C5H12O5
-    - annotation: !!omap
-      - SBO: SBO:0000247
-      - bigg.metabolite: abt
-      - biocyc: L-ARABITOL
-      - chebi:
-        - CHEBI:18403
-      - kegg.compound: C00532
-      - metanetx.chemical: MNXM801
-      - origin: iMA789
   - !!omap
     - id: acACP_c
     - name: Acetyl-ACP
@@ -37008,7 +36977,7 @@
       - metanetx.reaction:
         - MNXR95049
       - origin: iMK1208
-      - pathway: Murein recycling
+      - pathway: Murein Recycling
       - subsystem: Glycan biosynthesis and metabolism
   - !!omap
     - id: 4SBZADH
@@ -37374,29 +37343,6 @@
       - rhea: '32266'
       - subsystem: Amino acid metabolism
   - !!omap
-    - id: ABT2DG
-    - name: L-arabinitol 2-dehydrogenase
-    - metabolites: !!omap
-      - abt_c: -1.0
-      - h_c: 1.0
-      - nad_c: -1.0
-      - nadh_c: 1.0
-      - rbl__L_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: ''
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: ABT2DG
-      - ec-code: 1.1.1.13
-      - kegg.reaction: R02441
-      - metanetx.reaction:
-        - MNXR107507
-      - origin: iMA789
-      - pathway: Pentose and glucuronate interconversions
-      - rhea: '21359'
-      - subsystem: Carbohydrate metabolism
-  - !!omap
     - id: ABTA
     - name: 4-aminobutyrate transaminase
     - metabolites: !!omap
@@ -37419,30 +37365,6 @@
       - pathway: Alanine, aspartate and glutamate metabolism
       - rhea: '23355'
       - subsystem: Amino acid metabolism
-  - !!omap
-    - id: ABTD
-    - name: L-arabinitol 4-dehydrogenase
-    - metabolites: !!omap
-      - abt_c: -1.0
-      - h_c: 1.0
-      - nad_c: -1.0
-      - nadh_c: 1.0
-      - xylu__L_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: ''
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: ABTD
-      - biocyc: L-ARABINITOL-4-DEHYDROGENASE-RXN
-      - ec-code: 1.1.1.12
-      - kegg.reaction: R01903
-      - metanetx.reaction:
-        - MNXR137988
-      - origin: iMA789
-      - pathway: Pentose and glucuronate interconversions
-      - rhea: '16384'
-      - subsystem: Carbohydrate metabolism
   - !!omap
     - id: ABTDG
     - name: D-arabinitol 4-dehydrogenase (NAD)
@@ -38857,7 +38779,7 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - origin: iAA1259
-      - pathway: Cpk biosynthesis
+      - pathway: Coelimycin biosynthesis
       - subsystem: Metabolism of terpenoids and polyketides
   - !!omap
     - id: ACPSpdscpk
@@ -38878,7 +38800,7 @@
     - annotation: !!omap
       - SBO: SBO:0000176
       - origin: iAA1259
-      - pathway: Cpk biosynthesis
+      - pathway: Coelimycin biosynthesis
       - subsystem: Metabolism of terpenoids and polyketides
   - !!omap
     - id: ACPSredL
@@ -39960,7 +39882,7 @@
       - metanetx.reaction:
         - MNXR95455
       - origin: iMK1208
-      - pathway: Arginine and Proline metabolism
+      - pathway: Arginine and proline metabolism
       - rhea: '15984'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -40713,7 +40635,7 @@
       - metanetx.reaction:
         - MNXR95530
       - origin: iMK1208
-      - pathway: Arginine and Proline metabolism
+      - pathway: Arginine and proline metabolism
       - rhea: '21591'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -42938,29 +42860,6 @@
       - pathway: Threonine and Lysine metabolism
       - rhea: '10215'
       - subsystem: Amino acid metabolism
-  - !!omap
-    - id: ARAB2r
-    - name: aldehyde reductase
-    - metabolites: !!omap
-      - abt_c: 1.0
-      - arab__L_c: -1.0
-      - h_c: -1.0
-      - nad_c: 1.0
-      - nadh_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: ''
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: ARAB2r
-      - ec-code: 1.1.1.21
-      - kegg.reaction: R01758
-      - metanetx.reaction:
-        - MNXR107157
-      - origin: iMA789
-      - pathway: Pentose and glucuronate interconversions
-      - rhea: '25228'
-      - subsystem: Carbohydrate metabolism
   - !!omap
     - id: ARABDH
     - name: L-arabinonate dehydratase;L-arabonate dehydratase
@@ -46856,7 +46755,7 @@
       - doi:
         - 10.1007/s00203-006-0176-7
       - origin: iAA1259
-      - pathway: Cpk biosynthesis
+      - pathway: Coelimycin biosynthesis
       - subsystem: Metabolism of terpenoids and polyketides
   - !!omap
     - id: CPKS2
@@ -46881,7 +46780,7 @@
       - doi:
         - 10.1007/s00203-006-0176-7
       - origin: iAA1259
-      - pathway: Cpk biosynthesis
+      - pathway: Coelimycin biosynthesis
       - subsystem: Metabolism of terpenoids and polyketides
   - !!omap
     - id: CPKS3
@@ -46910,7 +46809,7 @@
         - 10.1039/c6sc02803a
         - 10.1007/s00203-006-0176-7
       - origin: iAA1259
-      - pathway: Cpk biosynthesis
+      - pathway: Coelimycin biosynthesis
       - subsystem: Metabolism of terpenoids and polyketides
   - !!omap
     - id: CPKS4a
@@ -46933,7 +46832,7 @@
         - 10.1039/c6sc02803a
         - 10.1007/s00203-006-0176-7
       - origin: iAA1259
-      - pathway: Cpk biosynthesis
+      - pathway: Coelimycin biosynthesis
       - subsystem: Metabolism of terpenoids and polyketides
   - !!omap
     - id: CPKS4b
@@ -46956,7 +46855,7 @@
         - 10.1039/c6sc02803a
         - 10.1007/s00203-006-0176-7
       - origin: iAA1259
-      - pathway: Cpk biosynthesis
+      - pathway: Coelimycin biosynthesis
       - subsystem: Metabolism of terpenoids and polyketides
   - !!omap
     - id: CPKS5
@@ -46980,7 +46879,7 @@
       - doi:
         - 10.1039/C2SC20410J
       - origin: iAA1259
-      - pathway: Cpk biosynthesis
+      - pathway: Coelimycin biosynthesis
       - subsystem: Metabolism of terpenoids and polyketides
   - !!omap
     - id: CPMPS
@@ -47985,23 +47884,6 @@
       - origin: iMK1208
       - pathway: Inositol phosphate metabolism
       - rhea: '13180'
-      - subsystem: Carbohydrate metabolism
-  - !!omap
-    - id: D5KGPA2
-    - name: 2-Deoxy-5-keto-D-gluconic acid 6-phosphate Dihydroxyacetone phosphate
-        lyase
-    - metabolites: !!omap
-      - d5kgp_c: -1.0
-      - g3p_c: 1.0
-      - msa_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: ''
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: D5KGPA2
-      - origin: iMA789
-      - pathway: Inositol phosphate metabolism
       - subsystem: Carbohydrate metabolism
   - !!omap
     - id: DABAACT
@@ -54789,7 +54671,7 @@
         - MNXR139188
         - MNXR99897
       - origin: iMK1208
-      - pathway: Arginine and Proline metabolism
+      - pathway: Arginine and proline metabolism
       - rhea: '28237'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -54830,7 +54712,7 @@
       - metanetx.reaction:
         - MNXR99896
       - origin: iMK1208
-      - pathway: Arginine and Proline metabolism
+      - pathway: Arginine and proline metabolism
       - rhea: '19544'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -55871,7 +55753,7 @@
       - metanetx.reaction:
         - MNXR123175
       - origin: Sco4
-      - pathway: Arginine and Proline metabolism
+      - pathway: Arginine and proline metabolism
       - rhea: '28410'
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
@@ -56145,31 +56027,6 @@
       - pathway: Alternate Carbon metabolism
       - subsystem: Carbohydrate metabolism
   - !!omap
-    - id: GLCOAS
-    - name: glutaryl-CoA synthetase
-    - metabolites: !!omap
-      - adp_c: 1.0
-      - atp_c: -1.0
-      - coa_c: -1.0
-      - glutar_c: -1.0
-      - glutcoa_c: 1.0
-      - pi_c: 1.0
-    - lower_bound: -1000
-    - upper_bound: 1000
-    - gene_reaction_rule: ''
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: GLCOAS
-      - biocyc: GLUTARATE--COA-LIGASE-RXN
-      - ec-code: 6.2.1.6
-      - kegg.reaction: R02402
-      - metanetx.reaction:
-        - MNXR100212
-      - origin: iMK1208
-      - pathway: C5-Branched dibasic acid metabolism
-      - rhea: '14172'
-      - subsystem: Carbohydrate metabolism
-  - !!omap
     - id: GLCP
     - name: glycogen phosphorylase
     - metabolites: !!omap
@@ -56431,7 +56288,7 @@
       - metanetx.reaction:
         - MNXR100277
       - origin: iMK1208
-      - pathway: Arginine and Proline metabolism
+      - pathway: Arginine and proline metabolism
       - rhea: '14880'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -59179,28 +59036,6 @@
       - rhea: '18844'
       - subsystem: Carbohydrate metabolism
   - !!omap
-    - id: HPCOR
-    - name: unknown enzyme
-    - metabolites: !!omap
-      - 3hpcoa_c: -1.0
-      - 3opcoa_c: 1.0
-      - h_c: 1.0
-      - nadp_c: -1.0
-      - nadph_c: 1.0
-    - lower_bound: -1000
-    - upper_bound: 1000
-    - gene_reaction_rule: ''
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: HPCOR
-      - kegg.reaction: R04919
-      - metanetx.reaction:
-        - MNXR139319
-        - MNXR100685
-      - origin: iMA789
-      - pathway: Propanoate metabolism
-      - subsystem: Carbohydrate metabolism
-  - !!omap
     - id: HPHL
     - name: enoyl-CoA hydratase
     - metabolites: !!omap
@@ -61216,22 +61051,6 @@
       - pathway: tRNA Charging
       - subsystem: Biomass and maintenance functions
   - !!omap
-    - id: LYXE
-    - name: D-lyxose ketol-isomerase
-    - metabolites: !!omap
-      - lyx__D_c: 1.0
-      - lyx__L_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: ''
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: LYXE
-      - ec-code: 5.3.1.15
-      - origin: iMA789
-      - pathway: Pentose and glucuronate interconversions
-      - subsystem: Carbohydrate metabolism
-  - !!omap
     - id: LYXI
     - name: Lyxose isomerase
     - metabolites: !!omap
@@ -62589,7 +62408,7 @@
       - metanetx.reaction:
         - MNXR101571
       - origin: iMK1208
-      - pathway: Inositol Phosphate metabolism
+      - pathway: Inositol phosphate metabolism
       - subsystem: Carbohydrate metabolism
   - !!omap
     - id: MI1PS2
@@ -62609,7 +62428,7 @@
         - MNXR101572
         - MNXR101575
       - origin: iMK1208
-      - pathway: Inositol Phosphate metabolism
+      - pathway: Inositol phosphate metabolism
       - rhea: '10719'
       - subsystem: Carbohydrate metabolism
   - !!omap
@@ -62633,7 +62452,7 @@
       - metanetx.reaction:
         - MNXR101574
       - origin: Sco4
-      - pathway: Inositol Phosphate metabolism
+      - pathway: Inositol phosphate metabolism
       - rhea: '30742'
       - sbo: SBO:0000176
       - subsystem: Carbohydrate metabolism
@@ -63553,7 +63372,7 @@
         - MNXR101744
         - MNXR138642
       - origin: iMK1208
-      - pathway: Arginine and Proline metabolism
+      - pathway: Arginine and proline metabolism
       - rhea: '13620'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -65706,28 +65525,6 @@
       - pathway: Pyruvate metabolism
       - subsystem: Carbohydrate metabolism
   - !!omap
-    - id: OCDOR
-    - name: unknown enzyme
-    - metabolites: !!omap
-      - 3opcoa_c: -1.0
-      - h2o_c: -1.0
-      - h_c: 2.0
-      - malcoa_c: 1.0
-      - nadp_c: -1.0
-      - nadph_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: ''
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: OCDOR
-      - kegg.reaction: R00744
-      - metanetx.reaction:
-        - MNXR102146
-      - origin: iMA789
-      - pathway: Propanoate metabolism
-      - subsystem: Carbohydrate metabolism
-  - !!omap
     - id: OCOAT1
     - name: '3-oxoacid CoA-transferase (Succinyl-CoA: acetoacetate)'
     - metabolites: !!omap
@@ -65771,7 +65568,7 @@
       - metanetx.reaction:
         - MNXR102137
       - origin: iMK1208
-      - pathway: Arginine and Proline metabolism
+      - pathway: Arginine and proline metabolism
       - rhea: '19516'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -66541,7 +66338,7 @@
         - MNXR138985
         - MNXR102301
       - origin: iMK1208
-      - pathway: Arginine and Proline metabolism
+      - pathway: Arginine and proline metabolism
       - rhea: '16420'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -66569,7 +66366,7 @@
         - MNXR139030
         - MNXR102302
       - origin: iMK1208
-      - pathway: Arginine and Proline metabolism
+      - pathway: Arginine and proline metabolism
       - rhea: '14112'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -66592,7 +66389,7 @@
       - metanetx.reaction:
         - MNXR112228
       - origin: Sco4
-      - pathway: Arginine and Proline metabolism
+      - pathway: Arginine and proline metabolism
       - rhea: '30710'
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
@@ -70027,7 +69824,7 @@
         - MNXR139796
         - MNXR103187
       - origin: iMK1208
-      - pathway: Arginine and Proline metabolism
+      - pathway: Arginine and proline metabolism
       - rhea: '26127'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -74734,7 +74531,7 @@
       - metanetx.reaction:
         - MNXR104541
       - origin: iMK1208
-      - pathway: Arginine and Proline metabolism
+      - pathway: Arginine and proline metabolism
       - rhea: '13216'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -77712,7 +77509,7 @@
       - metanetx.reaction:
         - MNXR105153
       - origin: iMK1208
-      - pathway: Arginine and Proline metabolism
+      - pathway: Arginine and proline metabolism
       - rhea: '20560'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -78443,32 +78240,6 @@
       - rhea: '10967'
       - subsystem: Carbohydrate metabolism
   - !!omap
-    - id: XYLK2
-    - name: L-xylulokinase
-    - metabolites: !!omap
-      - adp_c: 1.0
-      - atp_c: -1.0
-      - h_c: 1.0
-      - xu5p__L_c: 1.0
-      - xylu__L_c: -1.0
-    - lower_bound: -1000
-    - upper_bound: 1000
-    - gene_reaction_rule: ''
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: XYLK2
-      - biocyc: LYXK-RXN
-      - doi:
-        - 10.1128/jb.171.1.299-302.1989
-      - ec-code: 2.7.1.53
-      - kegg.reaction: R01901
-      - metanetx.reaction:
-        - MNXR138925
-      - origin: iMK1208
-      - pathway: Pentose and glucuronate interconversions
-      - rhea: '18872'
-      - subsystem: Carbohydrate metabolism
-  - !!omap
     - id: XYLLAC
     - name: D-xylonolactonase
     - metabolites: !!omap
@@ -78490,74 +78261,6 @@
       - origin: Sco4
       - pathway: Pentose and glucuronate interconversions
       - sbo: SBO:0000176
-      - subsystem: Carbohydrate metabolism
-  - !!omap
-    - id: XYLR2
-    - name: D-iditol 2-dehydrogenase
-    - metabolites: !!omap
-      - h_c: 1.0
-      - nad_c: -1.0
-      - nadh_c: 1.0
-      - xylt_c: -1.0
-      - xylu__L_c: 1.0
-    - lower_bound: -1000
-    - upper_bound: 1000
-    - gene_reaction_rule: ''
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: XYLR2
-      - ec-code: 1.1.1.15
-      - kegg.reaction: R05831
-      - metanetx.reaction:
-        - MNXR138947
-      - origin: iMA789
-      - pathway: Pentose and glucuronate interconversions
-      - subsystem: Carbohydrate metabolism
-  - !!omap
-    - id: XYLR3
-    - name: aldehyde reductase
-    - metabolites: !!omap
-      - h_c: -1.0
-      - nad_c: 1.0
-      - nadh_c: -1.0
-      - xyl__D_c: -1.0
-      - xylt_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: ''
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: XYLR3
-      - ec-code: 1.1.1.21
-      - kegg.reaction: R09477
-      - metanetx.reaction:
-        - MNXR132760
-      - origin: iMA789
-      - pathway: Pentose and glucuronate interconversions
-      - rhea: '27444'
-      - subsystem: Carbohydrate metabolism
-  - !!omap
-    - id: XYLTD_D
-    - name: D-xylulose reductase
-    - metabolites: !!omap
-      - h_c: 1.0
-      - nad_c: -1.0
-      - nadh_c: 1.0
-      - xylt_c: -1.0
-      - xylu__D_c: 1.0
-    - lower_bound: -1000
-    - upper_bound: 1000
-    - gene_reaction_rule: ''
-    - annotation: !!omap
-      - SBO: SBO:0000176
-      - bigg.reaction: XYLTD_D
-      - biocyc: D-XYLULOSE-REDUCTASE-RXN
-      - ec-code: 1.1.1.9
-      - kegg.reaction: R01896
-      - metanetx.reaction:
-        - MNXR105262
-      - origin: iMA789
-      - pathway: Pentose and glucuronate interconversions
       - subsystem: Carbohydrate metabolism
   - !!omap
     - id: XYLTO
@@ -78970,6 +78673,7 @@
       - doi:
         - 10.1128/mBio.00191-12
       - origin: iMK1208
+      - pathway: Actinorhodin Biosynthesis
       - subsystem: Membrane transport
   - !!omap
     - id: ACt2r
@@ -79644,6 +79348,7 @@
       - SBO: SBO:0000655
       - bigg.reaction: CDAabc
       - origin: iMK1208
+      - pathway: Calcium-Dependent Antibiotics Biosynthesis
       - subsystem: Membrane transport
   - !!omap
     - id: CDAti
@@ -79658,6 +79363,7 @@
       - SBO: SBO:0000655
       - bigg.reaction: CDAti
       - origin: iMA789
+      - pathway: Calcium-Dependent Antibiotics Biosynthesis
       - subsystem: Membrane transport
   - !!omap
     - id: CELLBabc
@@ -79970,6 +79676,7 @@
       - doi:
         - 10.1039/C2SC20410J
       - origin: iAA1259
+      - pathway: Coelimycin biosynthesis
       - subsystem: Membrane transport
   - !!omap
     - id: CPKSt
@@ -79989,6 +79696,7 @@
       - doi:
         - 10.1039/C2SC20410J
       - origin: iAA1259
+      - pathway: Coelimycin biosynthesis
       - subsystem: Membrane transport
   - !!omap
     - id: CSNt2
@@ -81729,6 +81437,7 @@
       - metanetx.reaction:
         - MNXR101265
       - origin: iMK1208
+      - pathway: Threonine and Lysine metabolism
       - subsystem: Membrane transport
   - !!omap
     - id: LYSt2r
@@ -81748,6 +81457,7 @@
       - metanetx.reaction:
         - MNXR101266
       - origin: iMK1208
+      - pathway: Threonine and Lysine metabolism
       - subsystem: Membrane transport
   - !!omap
     - id: LYSt3r
@@ -81768,6 +81478,7 @@
         - MNXR101267
         - MNXR101266
       - origin: iMK1208
+      - pathway: Threonine and Lysine metabolism
       - subsystem: Membrane transport
   - !!omap
     - id: LYXDabc
@@ -82070,6 +81781,7 @@
       - metanetx.reaction:
         - MNXR138580
       - origin: iMA789
+      - pathway: Fructose and mannose metabolism
       - subsystem: Membrane transport
   - !!omap
     - id: MANt2
@@ -82088,6 +81800,7 @@
       - metanetx.reaction:
         - MNXR101403
       - origin: iMK1208
+      - pathway: Fructose and mannose metabolism
       - subsystem: Membrane transport
   - !!omap
     - id: MELIBt2
@@ -83089,6 +82802,7 @@
       - metanetx.reaction:
         - MNXR138795
       - origin: iMK1208
+      - pathway: Fructose and mannose metabolism
       - subsystem: Membrane transport
   - !!omap
     - id: RMNt
@@ -83107,6 +82821,7 @@
       - metanetx.reaction:
         - MNXR138796
       - origin: iMA789
+      - pathway: Fructose and mannose metabolism
       - subsystem: Membrane transport
   - !!omap
     - id: SALCpts
@@ -83144,6 +82859,7 @@
       - SBO: SBO:0000655
       - bigg.reaction: SBTabc
       - origin: iMK1208
+      - pathway: Fructose and mannose metabolism
       - subsystem: Membrane transport
   - !!omap
     - id: SBTpts
@@ -83163,6 +82879,7 @@
       - metanetx.reaction:
         - MNXR104290
       - origin: iMA789
+      - pathway: Fructose and mannose metabolism
       - subsystem: Membrane transport
   - !!omap
     - id: SCB1t
@@ -84216,19 +83933,6 @@
       - bigg.reaction: DM_5drib_c
       - metanetx.reaction:
         - MNXR97542
-      - origin: iMK1208
-      - subsystem: Exchange
-  - !!omap
-    - id: DM_ACT_c
-    - name: Sink needed to allow intracellular actinorhodin to leave system
-    - metabolites: !!omap
-      - act_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: ''
-    - annotation: !!omap
-      - SBO: SBO:0000628
-      - bigg.reaction: DM_ACT_c
       - origin: iMK1208
       - subsystem: Exchange
   - !!omap

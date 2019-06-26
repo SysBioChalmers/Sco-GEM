@@ -1,7 +1,8 @@
 equilibrator_api==0.1.11
 scipy==1.2.0
 requests==2.18.4
-matplotlib==3.0.2
+matplotlib>=3
+memote==0.8.4
 pandas==0.24.0
 libChEBIpy==1.0.7
 cobra==0.14.2

@@ -28,6 +28,7 @@ import pandas as pd
 from pathlib import Path
 import json
 import logging
+from collections import defaultdict
 
 
 
@@ -283,6 +284,64 @@ def export_reaction_subsystem_and_pathways(model, csv_fn):
     df.to_csv(csv_fn, sep = ";")
 
 
+def print_subsystem_summary(model, key = "subsystem"):
+    subsystem_total = defaultdict(int)
+    subsystem_other = defaultdict(int)
+    subsystem_sco4 = defaultdict(int)
+    subsystem_iAA1259 = defaultdict(int)
+    subsystem_iKS1317 = defaultdict(int)
+
+    for r in model.reactions:
+        subsystem = r.annotation[key]
+        try:
+            origin = r.annotation["origin"]
+        except KeyError:
+            print(r)
+            origin = "missing"
+        if origin == "Sco4":
+            subsystem_sco4[subsystem] += 1
+        elif origin == "iAA1259":
+            subsystem_iAA1259[subsystem] += 1
+        elif origin == "missing":
+            subsystem_other[subsystem] += 1
+        else:
+            subsystem_iKS1317[subsystem] += 1
+        subsystem_total[subsystem] += 1
+
+    df = pd.DataFrame([subsystem_total, subsystem_iKS1317, subsystem_sco4, subsystem_iAA1259, subsystem_other]).T
+    df.columns = ["Total", "iKS1317", "Sco4", "iAA1259", "Other"]
+    print(df)
+
+
+def export_gene_pathway_list(model):
+    gene_pathway_list = []
+    maxlen = 0
+    for gene in model.genes:
+        if gene.id == "s0001":
+            # These are spontaneous reactions
+            continue
+
+        pathway_list = []
+        for r in gene.reactions:
+            try:
+                pathway = r.annotation["pathway"]
+            except:
+                continue
+            else:
+                pathway_list.append(pathway)
+        pathway_list = list(set(pathway_list))
+        if len(pathway_list):
+            for pathway in pathway_list:
+                gene_pathway_list.append([gene.id, pathway])
+        else:
+            gene_pathway_list.append([gene.id, None])
+
+    df = pd.DataFrame(gene_pathway_list, columns = ["Gene", "Pathway"])
+    df.to_csv(str(REPO_DIR / "model_gene_pathway_table.tsv"), sep = "\t")
+
+
+
+
 if __name__ == '__main__':
     model_fn = REPO_DIR / "ModelFiles" / "xml" / "scoGEM.xml"
     model = cobra.io.read_sbml_model(str(model_fn))
@@ -296,7 +355,7 @@ if __name__ == '__main__':
         model = get_pathways_from_KEGG(model)
         export_reaction_subsystem_and_pathways(model, csv_fn)
 
-    if 1:
+    if 0:
         import sys
         sys.path.append("C:/Users/snorres/git/scoGEM/ComplementaryScripts")
         import export
@@ -304,3 +363,10 @@ if __name__ == '__main__':
         subsystem_curated_csv = str(REPO_DIR / "ComplementaryData" / "curation" / "pathway_and_subsystem" / "subsystem.txt")
         update_subsystem_annotations(model, subsystem_curated_csv)
         # export.export(model, formats = ["xml", "yml"])
+
+    if 1:
+        # Print subsystem numbers
+        print_subsystem_summary(model)
+    if 0:
+        export_gene_pathway_list(model)
+
