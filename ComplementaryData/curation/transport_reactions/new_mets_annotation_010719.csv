@@ -12,7 +12,7 @@ prn,purine nucleoside ,purine nucleoside,MNXM79745,purine ribonucleoside,C15586,
 memy,none,none,none,methylenomycin ,none,C9H10O4
 cy,cyanate,cyanate,MNXM1191,cyanate,C01417,CHNO
 entbactin,enterobactin,enterobactin,MNXM883,enterobactin,C05821,C30H27N3O15
-oxformate,formate,formate,MNXM39,formate,C00058,CH2O2
+oxformate,oxalate:formate,oxalate:formate,MNXM39,oxalate:formate,C00058,CH2O2
 catechol,catechol,catechol,MNXM181,catechol,C00090,C6H6O2
 tel,tellurite,tellurite,MNXM22001,ethyl tellurac,C19570,(C5H10NS2)4.Te
 fucose,fucose,fucose,MNXM53947,fucose,C01019,C01019
