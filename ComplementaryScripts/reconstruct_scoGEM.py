@@ -70,6 +70,7 @@ MET_TO_CHEBI_FN = str(COMPLEMENTARY_DATA / "curation" /"chebi_annotation.csv")
 NEW_BIOMASS_DATA_FN = str(COMPLEMENTARY_DATA / "biomass/biomass_scaled.txt")
 EQUILIBRATOR_FN_1 = str(COMPLEMENTARY_DATA / "curation/reversibility/eQuilibrator_reversibility.csv")
 EQUILIBRATOR_FN_2 = str(COMPLEMENTARY_DATA / "curation/reversibility/eQuilibrator_reversibility_lethals.csv")
+ATP_DRIVEN_REACTIONS_REVERSIBILITY_FN = str(COMPLEMENTARY_DATA / "curation/reversibility/reversibility_ATP_driven_reactions.csv")
 
 DOI_ANNOTATIONS_FN = str(COMPLEMENTARY_DATA / "annotations" / "reaction_notes_and_references.csv")
 GENE_ANNOTATIONS_FN = str(COMPLEMENTARY_DATA / "annotations" / "genes.csv")
@@ -128,7 +129,9 @@ def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
 
 
     # Part 5
-    scoGEM = reversibility.change_bounds_according_to_eQuilibrator(scoGEM, EQUILIBRATOR_FN_1, EQUILIBRATOR_FN_2)
+    reversibility.change_bounds_according_to_eQuilibrator(scoGEM, EQUILIBRATOR_FN_1, EQUILIBRATOR_FN_2)
+    reversibility.change_lower_bound_on_CPKS_reactions(scoGEM)
+    reversibility.change_bounds_on_ATP_driven_reactions(scoGEM, ATP_DRIVEN_REACTIONS_REVERSIBILITY_FN)
 
     # Additional annotations 
     feat_annotations.add_doi_annotations(scoGEM, DOI_ANNOTATIONS_FN)

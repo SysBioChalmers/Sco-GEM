@@ -1,3 +1,20 @@
+# -*- coding: utf-8 -*-
+"""
+
+Author: Snorre Sulheim 
+Created: December 2018
+Updated: 25.06.2019
+
+
+This script is solving issue # 54, which is basically 3 tasks:
+1) Change reaction bounds based on dG-values (change in gibbs free energy) predicted using eQuilibrator
+2) Change lower bound to 0 for CPKS4a and CPKS4b to avoid unrealistic loop
+3) Make most of the ATP-driven reactions irreversible, the table is given in issue #54. All ATP-driven reactions are forward unless
+    a) Estimated positive dG
+    b) nucleoside-diphosphate kinase, i.e. all NDPK* reactions (known to be reversible)
+    This data is read from /ComplementaryData/curation/reversibility/reversibility_ATP_driven_reactions.csv,
+    which contain the reversible ATP-driven reactions (before correction)
+"""
 from cobra.io import read_sbml_model, write_sbml_model
 import pandas as pd
 from collections import defaultdict
@@ -11,6 +28,9 @@ import logging
 KEY_TO_BOUNDS_DICT = {"forward": (0, 1000),
                       "backward": (-1000, 0),
                       "reversible": (-1000, 1000)}
+
+
+
 
 def read_metacyc_data(fn):
     """
@@ -467,7 +487,6 @@ def change_bounds_according_to_eQuilibrator(model, equilibrator_data_fn, eq_leth
     skip += ["URIK1", "URIK2", "UPPRT"] # Cause false positive prediction with SCO5626 mutant.
     model = create_model(model, reversibility_dict, lethal_df, skip = skip)
     revert_backward_reactions(model)
-    return model
 
 def revert_backward_reactions(model):
     for reaction in model.reactions:
@@ -483,6 +502,22 @@ def revert_backward_reactions(model):
             print("{0}: Changed bounds from {1} to {2}".format(reaction.id, old_bounds, reaction.bounds))
             print("{0}: Changed reaction direction, i.e. from {1} to {2}".format(reaction.id, old_string, reaction.reaction))
             
+
+def change_lower_bound_on_CPKS_reactions(model):
+    model.reactions.CPKS4a.lower_bound = 0
+    model.reactions.CPKS4b.lower_bound = 0
+    logging.info("Changed lower bound of CPKS4a and CPKS4b to 0 to avoid loop")
+
+def change_bounds_on_ATP_driven_reactions(model, ATP_driven_reactions_fn = "../../ComplementaryData/curation/reversibility/reversibility_ATP_driven_reactions.csv"):
+    df = pd.read_csv(ATP_driven_reactions_fn, index_col = 0, sep = ";")
+    for r_id, row in df.iterrows():
+        r = model.reactions.get_by_id(r_id)
+        bounds = KEY_TO_BOUNDS_DICT[str(row["Direction"]).lower()]
+        if bounds[0] != r.lower_bound:
+            logging.info("Change lower bound of {0} from {1} to {2}".format(r_id, r.lower_bound, r.bounds[0]))
+            r.lower_bound = bounds[0]
+
+    
 
 
 if __name__ == '__main__':
@@ -501,7 +536,7 @@ if __name__ == '__main__':
         create_model(scoGEM, constraining_dict, lethal_df, save_fn = save_fn, model_id = "metacycScoGEM")
         
    
-    if 1:
+    if 0:
         # Pipeline for eQuilibrator
         equilibrator_data_fn = "../../ComplementaryData/curation/reversibility/eQuilibrator_reversibility.csv"
         df = read_equilibrator_data2(equilibrator_data_fn, threshold = 30, consider_uncertainty = False)
@@ -519,3 +554,18 @@ if __name__ == '__main__':
         skip += ["URIK1", "URIK2", "UPPRT"] # Cause false positive prediction with SCO5626 mutant.
         # skip LEUTA, VALTA, ILETA?
         create_model(scoGEM, constraining_dict, lethal_df, save_fn = save_fn, model_id = "eqScoGEM", skip = skip)
+
+    if 0:
+        # Print dG for a few reactions
+        equilibrator_data_fn = "../../ComplementaryData/curation/reversibility/eQuilibrator_reversibility.csv"
+        df = read_equilibrator_data2(equilibrator_data_fn, threshold = 30, consider_uncertainty = False)
+        ALL_ATP_DRIVEN_REACTIONS = [
+        "ADNCYC","GALKr","PGK","PYK","CYTK2","PRPPS","CDPMEK","NDPK9","CBIAT","UGMDDS","DBTS","DPCOAK","PTPATi","ADNK1","SHKK","PACCOAL","CBLAT","ACS","D5KGK","MCCC","DHAK","ACS2","UMPK","CBPS","NMNAT",
+        "ALALAC","TMDK1","PYDXK","ASPK","BUTCOAL","NDPK5","UAMAS","PPDK","PYDXNK","RMK","NDPK6","PPCK","NDPK7","PFK_2","SUCOAS","PYDAMK","PPK2r","NDPK8","NDPK1","PMPK","DGK1","ADK1","XYLK2","ACTCOALIG",
+        "DADK","ADSK","HEX4","NDPK2","UAMAGS","GLU5K","PNTK","NDPK3","KHK2","PRAGSr","SUCBZL","UAAGDS","NDPK4","XYLK","ACKr","DTMPK","CTPS1","MMCOAL","FACOAL160","FMNAT","HPPK2","HMPK1","GLGC","DURIK1",
+        "CYTDK1","LTHRK","ACGAMK","MACPAL","GK1i","DDGLK","RBFK","GLCOAS","MALTHIK","CYTK1"]
+        for r in ATP_DRIVEN_REACTIONS:
+            print(r)
+            print(df.loc[df["Rxn"] == r, "dG"].values)
+    if 1:
+        change_bounds_on_ATP_driven_reactions(scoGEM)
