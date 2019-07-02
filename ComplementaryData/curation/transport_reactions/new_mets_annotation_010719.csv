@@ -1,5 +1,5 @@
 metabolite ID in the Sco-GEM model,biocyc_name (new metabolites),metanetx (new metabolites),metanetx ID (MNX chem id)(new metabolites),KEGG_name,KEGG ID,chemical formula
-,,,,,,
+,,,,,,,
 phis__L,a[protein]-N-phosphohistidine,protein-N-phosphohistidine,MNXM162508,protein N(pi)-phospho-L-histidine,C04261,C7H9N4O5PR2
 asc__L,L-ascorbate,ascorbate,MNXM152361,ascorbate,C00072,C00072
 asc6p,L-ascorbate 6-phosphate,L-ascorbate 6-phosphate,MNXM2689,L-ascorbate 6-phosphate ,C16186,C6H909P
@@ -22,3 +22,4 @@ fentero,ferric-enterobactin complex,ferrienterobactin,MNXM7354,Fe-enerobactin,C0
 cobal,cobalamin,methyl(III)cobalamin,MNXM12258,cobalamin/Fe3+-siderophores,C00194,C72H100CoN18017P
 omycin,oleandomycin,oleandomycins,MNXM65458,oleandomycin,C01946,C35H61NO12
 xylb,"(1,4)-beta-cylobiose",xylobiose,MNXM9373,xylobiose,C01630,C10H1809
+,,,,,,,
