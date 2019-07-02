@@ -41,8 +41,8 @@ for i=1:length(sample)
     end
     cd([ecDir '/gecko/geckomat/limit_proteins'])
     [model{i},~,modifications{i}] = flexibilizeProteins(model{i},gRate(i));
-    model{i} = setParam(model{i},'lb','BIOMASS_SCO_tRNA',0.99*gRate(i));
-    model{i} = setParam(model{i},'ub','BIOMASS_SCO_tRNA',1.01*gRate(i));
+    model{i} = setParam(model{i},'lb','BIOMASS_SCO_tRNA',0.95*gRate(i));
+    model{i} = setParam(model{i},'ub','BIOMASS_SCO_tRNA',1.05*gRate(i));
     model{i} = setParam(model{i},'obj','ATPM',1);
 end
 
