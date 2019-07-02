@@ -14,6 +14,11 @@ root  = regexprep(ecDir,'(.*)\\[^\\]*\\.*','$1');
 %% - Reconstructs ecScoGEM from scoGEM
 model      = importModel([root '/ModelFiles/xml/scoGEM.xml']);
 
+% ec-models represent M145 and M1152 strains, these don't contain the two
+% plasmids. Any SCP* gene should be removed.
+scpGene    = model.genes(contains(model.genes,'SCP'));
+model      = removeGenes(model,scpGene,true,true,true);
+
 cd([ecDir '/reconstruction'])
 model      = preprocessModel(model);
 save([root '/scrap/Sco-GEM.mat'],'model');
@@ -27,7 +32,7 @@ save([root '/scrap/ecScoGEM_preManualMods.mat'],'ecModel','model_data','kcats');
 
 cd([ecDir '/reconstruction'])
 [ecModel,modifications] = manualModifications(ecModel);
-load([root '/scrap/ecScoGEM_postManualMods.mat'],'ecModel','model_data','kcats');
+save([root '/scrap/ecScoGEM_postManualMods.mat'],'ecModel','model_data','kcats');
 
 %% - Make M145 and M1152 specific models
 % For M1152, remove reactions involving act, red, cpk and cda clusters
