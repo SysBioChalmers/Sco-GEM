@@ -17,7 +17,7 @@ import seaborn as sns
 pd.set_option("display.max_rows", 150)
 pd.set_option("display.max_columns", 101)
 
-matplotlib.rcParams.update({'font.size': 18})
+matplotlib.rcParams.update({'font.size': 10})
 
 
 SELECTED_PATHWAYS_M145 = ["Inositol phosphate metabolism", "Glycolysis/Gluconeogenesis", "Pyruvate metabolism", "Oxidative phosphorylation", "Glycine, serine and threonine metabolism",
@@ -33,20 +33,21 @@ SELECTED_PATHWAYS_M1152 = ["Inositol phosphate metabolism", "Glycolysis/Gluconeo
 def pathway_analysis_plot(model_fn, random_samples_fn, selected_pwys, row_order = None, labels = None, mask_rows = None):
     model = cobra.io.read_sbml_model(model_fn)
     M145_df, M1152_df = get_random_samples(random_samples_fn, model, key = "pathway")
-    
+
+
     #M145    
     M145_sub_df  = M145_df.groupby("Subsystem").sum()
     M145_sub_df = M145_sub_df.loc[selected_pwys, :]
     M145_sub_df.index.name = None
     # M145_sub_df.columns = [x.replace("_", " - ")+"h" for x in M145_sub_df.columns.values]
-    M145_sub_df.columns = [x.split("_")[1] for x in M145_sub_df.columns.values]
+    M145_sub_df.columns = [x.split("_")[-1] for x in M145_sub_df.columns.values]
 
     # M1152
     M1152_sub_df  = M1152_df.groupby("Subsystem").sum()
     M1152_sub_df = M1152_sub_df.loc[selected_pwys, :]
     M1152_sub_df.index.name = None
     # M1152_sub_df.columns = [x.replace("_", " - ")+"h" for x in M1152_sub_df.columns.values]
-    M1152_sub_df.columns = [x.split("_")[1] for x in M1152_sub_df.columns.values]
+    M1152_sub_df.columns = [x.split("_")[-1] for x in M1152_sub_df.columns.values]
     
 
     if mask_rows:
@@ -54,8 +55,7 @@ def pathway_analysis_plot(model_fn, random_samples_fn, selected_pwys, row_order 
     
     if row_order:
         M1152_sub_df = M1152_sub_df.iloc[row_order, :]
-    
-    
+
     # Plot Settings
     # fig, [ax_M145, ax_M1152] = plt.subplots(1, 2, sharey = True)
     figsize = (14, 14)
@@ -81,37 +81,42 @@ def pathway_analysis_plot(model_fn, random_samples_fn, selected_pwys, row_order 
     plt.close()
     
 
-def pathway_analysis(model_fn, random_samples_fn, selected_pwys, strain = "M145", row_order = None, labels = None, mask_rows = None, store = True):
+def pathway_analysis(model_fn, random_samples_fn, selected_pwys, strain = "M145", row_order = None, labels = None, 
+                     mask_rows = None, store = True, key = "pathway", sep = ","):
     model = cobra.io.read_sbml_model(model_fn)
-    M145_df, M1152_df = get_random_samples(random_samples_fn, model, key = "pathway")
-    if strain == "M145":
-        sub_df  = M145_df.groupby("Subsystem").sum()
-    else:
-        sub_df  = M1152_df.groupby("Subsystem").sum()
+    df = get_random_samples(random_samples_fn, model, key = key, sep = sep, column_key = None)
+    sub_df = df.groupby(key).sum()
 
-    # print(sub_df)
-    # print(sub_df.std(axis = 1))
-
-    std_df = sub_df.std(axis = 1).sort_values(ascending = False)
+    # Remove all zero rows
+    sub_df = sub_df.loc[(sub_df != 0).any(axis = 1), :]
+    
+    # Standardize
+    standardized_df = sub_df.subtract(sub_df.mean(axis = 1), axis = 0).divide(sub_df.std(axis = 1), axis = 0)
+   
+    std_df = sub_df.iloc[:, :9].std(axis = 1).sort_values(ascending = False)
+    rstd_df = sub_df.std(axis = 1).divide(sub_df.mean(axis = 1), axis = 0).sort_values(ascending = False)
     print(std_df)
+    # print(rstd_df)
+
     if store:
         store_df = sub_df.copy()
         store_df["std"] = sub_df.std(axis = 1)
-        norm_type = random_samples_fn.rsplit("_")[1].split(".")[0]
-        csv_fn = """C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/
-                    scoGEM/random sampling/Eduard random sampling/{0}/sub_df_{1}.svg""".format(strain, norm_type)
+        norm_type = random_samples_fn.rsplit("_")[-1].split(".")[0]
+        csv_fn = "C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/{0}/sub_df_{1}.svg".format(strain, norm_type)
         store_df.to_csv(csv_fn)
     
+    # Select top X
+    selected_pwys = list(std_df.index)[:20]
 
-    sub_df = sub_df.loc[selected_pwys, :]
-    sub_df.index.names = ["Pathways"]
+    selected_df = standardized_df.loc[selected_pwys, :]
+    selected_df.index.names = ["Pathways"]
 
     if labels:
         print(labels)
-        sub_df = sub_df.loc[:, labels]
+        selected_df = selected_df.loc[:, labels]
 
     if mask_rows:
-        sub_df.iloc[mask_rows, :] = None
+        selected_df.iloc[mask_rows, :] = None
 
     
     # Settings
@@ -120,9 +125,9 @@ def pathway_analysis(model_fn, random_samples_fn, selected_pwys, strain = "M145"
     cmap.set_bad("gray", alpha = 0)
     if row_order:
         sub_df = sub_df.iloc[row_order, :]
-        g = sns.clustermap(sub_df, cmap = cmap, z_score = 0, col_cluster = False, row_cluster = False, figsize = figsize, vmin = -2, vmax = 2)
+        g = sns.clustermap(selected_df, cmap = cmap, col_cluster = False, row_cluster = False, figsize = figsize, vmin = -2, vmax = 2)
     else:
-        g = sns.clustermap(sub_df, cmap = cmap, z_score = 0, col_cluster = False, figsize = figsize, vmin = -2, vmax = 2)
+        g = sns.clustermap(selected_df, cmap = cmap, col_cluster = False, figsize = figsize, vmin = -2, vmax = 2, yticklabels = True)
         print("Row order:", g.dendrogram_row.reordered_ind)
 
 
@@ -168,14 +173,25 @@ def subsystem_analysis(model_fn, random_samples_fn, strain = "M145", row_order =
     plt.subplots_adjust(left = 0.03, right = 0.85)
     plt.show()
 
-def get_random_samples(fn, model, key = "subsystem"):
-    df = pd.read_csv(fn, index_col = 0, header = 0)
+def get_random_samples(fn, model, key = "subsystem", sep = "\t", column_key = "MEAN"):
+    df = pd.read_csv(fn, index_col = 0, header = 0, sep = sep)
+    df_data = df.iloc[:, 2:].abs()
+    subsystem_df = add_subsystem_to_df(df_data, model, key)
+    if column_key:
+        columns = [x for x in df.columns.values if column_key in x] + [key]
+        subsystem_df = subsystem_df.loc[:, columns]
+    return subsystem_df
+
+
+
+def get_random_samples_and_split(fn, model, key = "subsystem"):
+    df = pd.read_csv(fn, index_col = 0, header = 0, sep = "\t")
     df_data = df.iloc[:, 2:].abs()
     subsystem_df = add_subsystem_to_df(df_data, model, key)
 
-    M1152_columns = [x for x in df.columns.values if "M1152" in x] + ["Subsystem"]
+    M1152_columns = [x for x in df.columns.values if "MEAN_M1152" in x] + [key]
     M1152_df = subsystem_df[M1152_columns]
-    M145_columns = [x for x in df.columns.values if "M145" in x] + ["Subsystem"]
+    M145_columns = [x for x in df.columns.values if "MEAN_M145" in x] + [key]
     M145_df = subsystem_df[M145_columns]
     return M145_df, M1152_df
 
@@ -185,7 +201,7 @@ def add_subsystem_to_df(df, model, key = "subsystem"):
     df is a dataframe where the indexes are reaction ids and the columns are different timepoints / strains
     the values are the different fluxes
     """
-    df["Subsystem"] = None
+    df[key] = None
     keep_columns = list(df.columns.values)
     add_rows = []
     df["Keep"] = True
@@ -204,7 +220,7 @@ def add_subsystem_to_df(df, model, key = "subsystem"):
             continue
 
         if isinstance(subsystem, str) and len(subsystem):
-            df.loc[r_id, "Subsystem"] = subsystem
+            df.loc[r_id, key] = subsystem
             # print(r_id, subsystem)
         else:
             print("Multiple subsystem annotations for: ", r.id)
@@ -219,10 +235,8 @@ def compare_pathway_ratios():
     pass
 
 if __name__ == '__main__':
-    co2_normalized_random_samples_fn = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/ec-RandSampComb_AllSamples_co2.csv"
-    uptake_normalized_random_samples_fn = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/ec-RandSampComb_AllSamples_uptake.csv"
-    non_normalized_random_samples_fn = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/ec-RandSampComb_AllSamples_none.csv"
-
+    co2_normalized_random_samples_fn = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/random sampling march/ec-RandSampComb_AllSamples_co2.csv"
+    
     model_fn = "../../ModelFiles/xml/scoGEM.xml"
     if 0:
         labels = ["M145_21", "M145_29", "M145_33", "M145_37", "M145_41", "M145_45", "M145_49", "M145_53", "M145_57"]  #
@@ -245,7 +259,7 @@ if __name__ == '__main__':
 
 
     if 1:
-        pathway_analysis(model_fn, co2_normalized_random_samples_fn, SELECTED_PATHWAYS_M145, strain = "M145")
+        pathway_analysis(model_fn, co2_normalized_random_samples_fn, SELECTED_PATHWAYS_M145, strain = "M145", sep = ",")
         # row_order = [7, 6, 2, 9, 12, 3, 10, 13, 11, 0, 1, 5, 4, 8]
         # mask_rows = [10,11,12,13]
         # pathway_analysis(model_fn, co2_normalized_random_samples_fn, SELECTED_PATHWAYS_M145, strain = "M1152", row_order = row_order, mask_rows = mask_rows)

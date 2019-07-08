@@ -4,7 +4,7 @@ import pandas as pd
 from pathlib import Path
 import argparse
 
-REPO_DIR = Path(__file__).parent.parent
+REPO_DIR = Path(__file__).parent.parent.parent
 XML_FILES_DIR = REPO_DIR / "ModelFiles" / "xml"
 RESULTS_FOLDER = REPO_DIR / "ComplementaryData" / "ecmodel" / "random_sampling"
 
@@ -23,7 +23,7 @@ def run_random_sampling(strain, timepoint, iterations = 10, processes = 1):
     model.solver = "gurobi"
     print("Model imported. Preparing model by removing blocked reactions")
     prep_model(model)
-    print("The growth is fixed to: ", model.reactions.BIOMASS_SCO.bounds)
+    print("The growth is fixed to: ", model.reactions.BIOMASS_SCO_tRNA.bounds)
     # fba_solution = model.optimize()
     # print(model.summary())
 
@@ -42,9 +42,32 @@ def check_or_make_folder(folder_path):
         folder_path.mkdir()
 
 def prep_model(model):
-    model.reactions.BIOMASS_SCO_tRNA.delete()
+    model.reactions.BIOMASS_SCO_tRNA.objective_coefficient = 1
+    # model.reactions.ATPM.lower_bound = 2.55
+    set_ATPM_lower_bound(model)
     remove_blocked_reactions(model)
     finite_upper_bound(model)
+
+def set_ATPM_lower_bound(model):
+    with model as temp:
+        temp.reactions.BIOMASS_SCO_tRNA.objective_coefficient = 0
+        temp.reactions.ATPM.objective_coefficient = 1
+        temp.optimize()
+        max_atpm = temp.reactions.ATPM.flux
+    model.reactions.ATPM.lower_bound = 0.99 * max_atpm
+        
+
+def test_model(strain, timepoint):
+    model = get_model(strain, timepoint)
+    model.solver = "gurobi"
+    print("Model imported. Preparing model by removing blocked reactions")
+    prep_model(model)
+    s = model.optimize()
+    if s.status == 'infeasible':
+        print("Status infeasible for model {0} at {1} hours".format(strain, timepoint))
+    else:
+        print("Status OK for model {0} at {1} hours".format(strain, timepoint))
+
 
 def finite_upper_bound(model):
     n = 0
