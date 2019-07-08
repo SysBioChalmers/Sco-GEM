@@ -44,66 +44,59 @@ end
 
 [~,goodRxnsPool1] = randomSampling(model{1},2);
 [~,goodRxnsPool2] = randomSampling(model{11},2);
-load([root '/scrap/goodRxnsPool.mat'], 'goodRxnsPool*' );
+save([root '/scrap/goodRxnsPool.mat'], 'goodRxnsPool*' );
 
 cd('..')
 for i=1:9
     disp(['Sample: ' num2str(i)])
-    RSraw{i} = randomSampling(model{i},1000,true,false,false,goodRxnsPool1);
-    [RS{i},rxns] = organizeSolutions(model{i},RSraw{i},true,true);
+    RSraw{i} = randomSampling(model{i},5000,true,false,false,goodRxnsPool1);
+    [RS{i},rxns{i}] = organizeSolutions(model{i},RSraw{i},true,true);
 end
 
 for i=10:17
     disp(['Sample: ' num2str(i)])
-    RSraw{i} = randomSampling(model{i},1000,true,false,false,goodRxnsPool2);
-    [RS{i},rxns2] = organizeSolutions(model{i},RSraw{i},true,true);
-    [Lia, Locb] = ismember(rxns2,rxns);
-    tmpRS = zeros(length(rxns),1000);
-    tmpRS(Locb(Lia),:) = sparse(RSraw{i}(Lia,:));
-    RS{i} = tmpRS;
+    RSraw{i} = randomSampling(model{i},5000,true,false,false,goodRxnsPool2);
+    [RS{i},rxns{i}] = organizeSolutions(model{i},RSraw{i},true,true);
 end
+
+for i=1:length(RSraw)
+    tmpMean = mean(RS{i},2);
+    tmpStd  = std(RS{i},0,2);
+    [Lia, Locb] = ismember(rxns{1},rxns{i});
+    RSmean(Lia,i) = tmpMean(Locb(Lia));
+    RSsd(Lia,i) = tmpStd(Locb(Lia));
+end
+
+scatter(1:length(RSmean(:,1)),log10(RSmean(:,1)))
+hold on
+scatter(1:length(RSmean(:,10)),log10(RSmean(:,10)))
+hold off
 
 % Normalize for CO2 excretion
-co2Idx = find(ismember(rxnsRaw,'EX_co2_e'));
-for i=1:length(RS)
-    normFactor = RS{i}(co2Idx,:);
-    disp(num2str(normFactor(1)))
-    RSnorm{i} = RS{i} ./ normFactor;
-    RSmean(:,i) = mean(RSnorm{i},2);
-    RSsd(:,i) = std(RSnorm{i},0,2);
+co2Idx = find(ismember(rxns{1},'EX_co2_e'));
+for i=1:length(RSraw)
+    normFactor = RSmean(co2Idx,i);
+    disp(num2str(normFactor))
+    RSmean(:,i) = RSmean(:,i) ./ normFactor;
+    RSsd(:,i) = RSsd(:,i) ./ normFactor;
 end
+
+save([root '/scrap/RSpool.mat'],'RSraw','RSmean', 'RSsd','rxns')
 
 %% Export data
-save([root '/scrap/RSpool.mat'],'RSraw','RS','rxns')
-
-for i=1:length(RS)
-    RSmean(:,i) = mean(RSnorm{i},2);
-    RSsd(:,i) = std(RSnorm{i},0,2);
-end
 
 % Calculate flux-Z
 clear Z Zflux
-Zflux(:,1) = getFluxZ(RSnorm{2},RSnorm{6});
-Zflux(:,2) = getFluxZ(RSnorm{2},RSnorm{11});
-Zflux(:,3) = getFluxZ(RSnorm{11},RSnorm{15});
-Zflux(:,4) = getFluxZ(RSnorm{6},RSnorm{15});
+Zflux(:,1) = getFluxZ(RSmean(:,2),RSmean(:,6));
+Zflux(:,2) = getFluxZ(RSmean(:,2),RSmean(:,11));
+Zflux(:,3) = getFluxZ(RSmean(:,11),RSmean(:,15));
+Zflux(:,4) = getFluxZ(RSmean(:,6),RSmean(:,15));
 
-rsOut=[rxns num2cell(RSmean) num2cell(RSsd) num2cell(Zflux)];
-fid = fopen([root '/ComplementaryData/ecmodel/simulations/ec-RSPoolCombNorm.tsv'],'w');
+rsOut=[rxns{1} num2cell(full(RSmean)) num2cell(full(RSsd)) num2cell(Zflux)];
+fid = fopen([root '/ComplementaryData/ecmodel/simulations/ec-RandSampComb_proteinPool_noProteomics.tsv'],'w');
 fprintf(fid,[repmat('%s\t',1,38) '%s\n'],...
     ['rxns' strcat('MEAN_',transpose(sample)) strcat('STDEV_',transpose(sample)) 'Z_M145_29h_vs_M145_45h' 'Z_M145_29h_vs_M1152_41h' 'Z_M1152_41h_vs_M1152_57h' 'Z_M145_45h_vs_M1152_57h']);
-for j=1:length(rxnsRaw)
-
+for j=1:length(rxns)
     fprintf(fid,['%s\t' repmat('%d\t',1,37) '%d\n'],rsOut{j,:});
-end
-fclose(fid);
-
-% RxnGene List
-modelScoGEM = importModel('../../ModelFiles/xml/scoGEM.xml');
-rxngene=getRxnGeneList(modelScoGEM);
-fid = fopen([root '/ComplementaryData/ecmodel/simulations/rxnGenePool.tsv'],'w');
-for k=1:length(rxngene)
-    fprintf(fid,'%s\t%s\t',rxngene{k,:});
-    fprintf(fid,'%s\n',modelScoGEM.rxnNames{ismember(modelScoGEM.rxns,rxngene{k,1})});
 end
 fclose(fid);
