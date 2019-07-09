@@ -179,6 +179,13 @@ def apply_metabolite_mapping(iAA1259_model):
         m = iAA1259_model.metabolites.get_by_id(old_id)
         m.id = new_id
 
+def add_exchange_reaction_for_ycpk(model):
+    model.add_boundary(model.metabolites.ycpk_e, "exchange")
+    model.reactions.EX_ycpk_e.lower_bound = 0
+    model.reactions.EX_ycpk_e.annotation["subsystem"] = "Exchange"
+    model.reactions.EX_ycpk_e.annotation["origin"] = "Sco-GEM"
+    logging.info("Added exchange reaction EX_ycpk_e")
+
 def map_S4():
     S4_df = pd.read_csv(S4_FN, sep = ";")
     print(S4_df)
