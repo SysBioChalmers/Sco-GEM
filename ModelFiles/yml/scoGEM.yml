@@ -87348,6 +87348,18 @@
         - MNXR98152
       - origin: iMK1208
       - subsystem: Exchange
+  - !!omap
+    - id: EX_ycpk_e
+    - name: yellow Cpk compound exchange
+    - metabolites: !!omap
+      - ycpk_e: -1
+    - lower_bound: 0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - origin: Sco-GEM
+      - sbo: SBO:0000627
+      - subsystem: Exchange
 - genes:
   - !!omap
     - id: SCO0006

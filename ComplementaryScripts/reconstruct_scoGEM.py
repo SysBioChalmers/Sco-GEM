@@ -141,6 +141,9 @@ def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
     # Issue 82 Delete reactions without gene associations
     issue_82_delete_reactions.delete_reactions(scoGEM)
 
+    # Issue 85 cpk exchange reaction
+    add_and_modify_reactions_according_to_iAA1259.add_exchange_reaction_for_ycpk(scoGEM)
+
     # Save model
     export.export(scoGEM, formats = ["xml", "yml"], write_requirements = write_requirements)
 
