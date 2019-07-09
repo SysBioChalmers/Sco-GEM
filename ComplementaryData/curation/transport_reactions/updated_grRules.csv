@@ -1,43 +1,43 @@
 Gene association,RxnID,RxnFormula,transport class,reversibility,lb,ub
-(SCO0137 or  SCO3196) and SCO1391 and SCO5841,FRUpts,pep[c] + fru[e]  -> pyr[c] + f1p[c],PTS,false,0,1000
-(SCO0836 or SCO2070) and SCO2656 and SCO4498,GLUt2r,h[e] + glu__L[e]  <=> h[c] + glu__L[c],proton symport,true,−1000,1000
-SCO3826 or SCO5963 or SCO6330 or SCO7187 o SCO7196 or SCO7660,Kt2,h[e] + k[e]  -> h[c] + k[c],proton symport,false,0,1000
-(SCO3698 or SCO6837) and ( SCO7367 or SCO3577 or SCO3578 ),ASO3t8,h2o[c] + atp[c] + aso3[c]  -> h[c] + adp[c] + pi[c] + aso3[e],ABC,false,0,1000
-SCO7002 or SCO5057,PTRCt2,h[e] + ptrc[e]  -> h[c] + ptrc[c],proton symport,false,0,1000
-SCO6370 and SCO6739,CHLt2,h[e] + chol[e]  -> h[c] + chol[c],proton symport,false,0,1000
-SCO0874 and ( SCO0776 or SCO1310 or SCO2772 or SCO6751 ),CD2t4,h[e] + cd2[c]  <=> h[c] + cd2[e],proton antiport,true,−1000,1000
-SCO2772 or SCO3024 or SCO3521  or  SCO0776 or SCO1310 or SCO2772 or SCO6751,COBALT2t3,h[e] + cobalt2[c]  -> h[c] + cobalt2[e],proton antiport,false,0,1000
-SCO2772 or SCO3024 or SCO3521  or  SCO0776 or SCO1310 or SCO2772 or SCO6751,CD2t4,h[e] + cd2[c]  <=> h[c] + cd2[e],proton antiport,true,−1000,1000
-SCO2772 or SCO3024 or SCO3521  or  SCO0776 or SCO1310 or SCO2772 or SCO6751,ZN2t3,h[e] + zn2[c]  -> h[c] + zn2[e],proton antiport,false,0,1000
-(SCO2071 or SCO3185) and SCO1962,NAt3_1,h[e] + na1[c]  -> h[c] + na1[e],proton antiport,false,0,1000
-SCO2959 or SCO3809 or SCO0213,NO3t7,no3[e] + no2[c]  -> no2[e] + no3[c],facilitated antiport,false,0,1000
-SCO3915 or SCO5578 or SCO7153 or SCO4007 or SCO4024 or SCO4265 or SCO4896 or SCO5947,GLCt2,glc__D[e] + h[e]  -> h[c] + glc__D[c],proton symport,false,0,1000
-SCO6567 and SCO6646,ARBt2r,h[e] + arab__L[e]  <=> h[c] + arab__L[c],proton symport,true,−1000,1000
-SCO6690 or SCO6809 or SCO6822 or SCO6896 or SCO6899 or SCO6970 or SCO7128,AKGt2r,h[e] + akg[e]  <=> h[c] + akg[c],proton symport,true,−1000,1000
-(SCO0423 or SCO0839 or SCO2454 or SCO2519 or SCO3166 or SCO5084 or SCO5502 or SCO5905 or SCO6091 or SCO6666 or SCO7077 or SCO7090 ) and SCO5083,ACTt,2 nad[c] + act[c]  -> 2 nadh[c] + gact[e],facilitated symport,false,0,1000
-SCO3139 or SCO4229 or SCO4437 or SCO0152 or SCO0871 or SCO1218,INOSTt4,inost[e] + na1[e]  -> inost[c] + na1[c],sodium symport,false,0,1000
-SCO5529 or SCO5282 or SCO5827 or SCO5871 or SCO7596,PROt4,na1[e] + pro__L[e]  -> pro__L[c] + na1[c],sodium symport,false,0,1000
-SCO1632 and SCO1633 and SCO5150 and SCO3410 and SCO3410,THRt4,na1[e] + thr__L[e]  -> thr__L[c] + na1[c],sodium symport,false,0,1000
-SCO0625 and SCO5436,MALt2_2,2 h[e] + mal__L[e]  -> 2 h[c] + mal__L[c],proton symport,false,0,1000
-SCO0625 and SCO5436,SUCFUMt,succ[c] + fum[e]  <=> fum[c] + succ[e],facilitated symport,true,−1000,1000
-( SCO2931 and SCO2930 and SCO2932 and SCO2933 ) or ( SCO6062 and SCO6063 and SCO6064 and SCO6065 ) or (SCO0169 or SCO4770),GLYBabc,h2o[c] + atp[c] + glyb[e]  -> h[c] + adp[c] + pi[c] + glyb[c],ABC,false,0,1000
-(SCO0271 or SCO0353 or SCO0363 or SCO0453 or SCO0454 or SCO0455) and SCO7409 and SCO7410 and SCO7408  and SCO1065,LCTSabc,h2o[c] + atp[c] + lcts[e]  -> h[c] + adp[c] + lcts[c] + pi[c],ABC,false,0,1000
-(SCO0272 or SCO0354 or SCO7011 or SCO7012) and SCO1065,DARBabc,h2o[c] + atp[c] + arab__D[e]  -> h[c] + adp[c] + pi[c] + arab__D[c],ABC,false,0,1000
-( SCO3706 and SCO3705 and SCO3704 ) or SCO0824,MOBDabc,h2o[c] + atp[c] + mobd[e]  -> h[c] + adp[c] + pi[c] + mobd[c],ABC,false,0,1000
-( SCO2404  or SCO3667)and SCO6010 and SCO6011 and SCO6009,XYLabc,h2o[c] + atp[c] + xyl__D[e]  -> h[c] + adp[c] + pi[c] + xyl__D[c],ABC,false,0,1000
-SCO2405 or ( SCO6567 and SCO6568 and SCO6569 ),ARBabc,h2o[c] + atp[c] + arab__L[e]  -> h[c] + arab__L[c] + adp[c] + pi[c],ABC,false,0,1000
-(SCO2406 or SCO6980 or SCO6981) or ( SCO2746 and SCO2747 and SCO2749 ) or ( SCO6259 and SCO6258 and SCO6257 ),RIBabc,h2o[c] + atp[c] + rib__D[e]  -> h[c] + rib__D[c] + adp[c] + pi[c],ABC,false,0,1000
- ((SCO2432 or SCO6229 or SCO6230 or SCO7487 or SCO7505 or SCO6086 or SCO6087) and SCO5232 and SCO5233 and SCO5234 and SCO4240))   or (SCO6005 and SCO6006 and SCO6007 and SCO4240 ),CHTBSabc,h2o[c] + atp[c] + chtbs[e]  -> h[c] + chtbs[c] + adp[c] + pi[c],ABC,false,0,1000
-SCO2664 and  SCO5258 and SCO5259 and SCO5260,GLNabc,h2o[c] + atp[c] + gln__L[e]  -> h[c] + gln__L[c] + adp[c] + pi[c],ABC,false,0,1000
-(SCO3454 or SCO3455 or SCO3456) and SCO5668 and SCO5669 and SCO5670 and SCO5658 and SCO5667 ,SPMDabc,h2o[c] + atp[c] + spmd[e]  -> h[c] + adp[c] + pi[c] + spmd[c],ABC,false,0,1000
-SCO4887 or SCO4888,GALabc,h2o[c] + atp[c] + gal[e]  -> h[c] + adp[c] + gal[c] + pi[c],ABC,false,0,1000
-SCO5429 or (SCO7556 and SCO7557 and SCO7555 and SCO4240 ) or ( SCO2796 and SCO2797 and SCO2795 and SCO4240 ),CELLBabc,h2o[c] + atp[c] + cellb[e]  -> h[c] + cellb[c] + adp[c] + pi[c],ABC,false,0,1000
-(SCO5961 and  SCO6454 and SCO6452 and SCO6453 and SCO6451 ) or SCO2499 ,Niabc,h2o[c] + atp[c] + ni2[e]  -> h[c] + adp[c] + pi[c] + ni2[c],ABC,false,0,1000
-( SCO0670 or SCO6979) and SCO0809 and SCO0810 and SCO0808 and SCO0811,RMNabc,h2o[c] + atp[c] + rmn[e]  -> h[c] + adp[c] + pi[c] + rmn[c],ABC,false,0,1000
-SCO6094 or ( SCO7544 and SCO7545 and SCO7546 ),TAURabc,h2o[c] + atp[c] + taur[e]  -> h[c] + adp[c] + pi[c] + taur[c],ABC,false,0,1000
-(SCO6111 or SCO6455) or ( SCO1559 and SCO1558 and SCO1557 ),METabc,h2o[c] + atp[c] + met__L[e]  -> h[c] + adp[c] + pi[c] + met__L[c],ABC,false,0,1000
-SCO6149 or ( SCO5648 and SCO5647 and SCO5646 ),THMabc,h2o[c] + atp[c] + thm[e]  -> h[c] + adp[c] + pi[c] + thm[c],ABC,false,0,1000
-SCO7680 or ( SCO3706 and SCO3705 and SCO3704 ),SULabc,h2o[c] + atp[c] + so4[e]  -> h[c] + adp[c] + pi[c] + so4[c],ABC,false,0,1000
-SCO0164 or SCO0860 or SCO6460,CD2abc,h2o[c] + atp[c] + cd2[c]  -> h[c] + adp[c] + pi[c] + cd2[e],ABC,false,0,1000
-SCO3216 or SCO2499 or SCO4332,MG2uabc,h2o[c] + atp[c] + mg2[e]  -> h[c] + adp[c] + pi[c] + mg2[c],ABC,false,0,1000
-SCO7367 or SCO3577 or SCO3578 or SCO2128,ASO3t8,h2o_c[c] + atp_c[c] + aso3_c[c]  -> h_c[c] + adp_c[c] + pi_c[c] + aso3_e[e],arsenite efflux,false,0,1000
+(G_SCO0137 or  G_SCO3196) and G_SCO1391 and G_SCO5841 ,FRUpts ,pep[c] + fru[e]  -> pyr[c] + f1p[c] ,PTS,false,0,1000
+(G_SCO0836 or G_SCO2070) and G_SCO2656 and G_SCO4498 ,GLUt2r ,h[e] + glu__L[e]  <=> h[c] + glu__L[c] ,proton symport,true,−1000,1000
+G_SCO3826 or G_SCO5963 or G_SCO6330 or G_SCO7187 o G_SCO7196 or G_SCO7660,Kt2,h[e] + k[e]  -> h[c] + k[c] ,proton symport,false,0,1000
+(G_SCO3698 or G_SCO6837) and ( G_SCO7367 or G_SCO3577 or G_SCO3578 ),ASO3t8 ,h2o[c] + atp[c] + aso3[c]  -> h[c] + adp[c] + pi[c] + aso3[e] ,ABC,false,0,1000
+G_SCO7002 or G_SCO5057 ,PTRCt2 ,h[e] + ptrc[e]  -> h[c] + ptrc[c] ,proton symport,false,0,1000
+G_SCO6370 and G_SCO6739,CHLt2 ,h[e] + chol[e]  -> h[c] + chol[c] ,proton symport,false,0,1000
+G_SCO0874 and ( G_SCO0776 or G_SCO1310 or G_SCO2772 or G_SCO6751 ),CD2t4,h[e] + cd2[c]  <=> h[c] + cd2[e] ,proton antiport,true,−1000,1000
+G_SCO2772 or G_SCO3024 or G_SCO3521  or  G_SCO0776 or G_SCO1310 or G_SCO2772 or G_SCO6751 ,COBALT2t3 ,h[e] + cobalt2[c]  -> h[c] + cobalt2[e] ,proton antiport,false,0,1000
+G_SCO2772 or G_SCO3024 or G_SCO3521  or  G_SCO0776 or G_SCO1310 or G_SCO2772 or G_SCO6751 ,CD2t4,h[e] + cd2[c]  <=> h[c] + cd2[e] ,proton antiport,true,−1000,1000
+G_SCO2772 or G_SCO3024 or G_SCO3521  or  G_SCO0776 or G_SCO1310 or G_SCO2772 or G_SCO6751 ,ZN2t3,h[e] + zn2[c]  -> h[c] + zn2[e] ,proton antiport,false,0,1000
+(G_SCO2071 or G_SCO3185) and G_SCO1962,NAt3_1,h[e] + na1[c]  -> h[c] + na1[e] ,proton antiport,false,0,1000
+G_SCO2959 or G_SCO3809 or G_SCO0213,NO3t7,no3[e] + no2[c]  -> no2[e] + no3[c] ,facilitated antiport,false,0,1000
+G_SCO3915 or G_SCO5578 or G_SCO7153 or G_SCO4007 or G_SCO4024 or G_SCO4265 or G_SCO4896 or G_SCO5947 ,GLCt2 ,glc__D[e] + h[e]  -> h[c] + glc__D[c] ,proton symport,false,0,1000
+G_SCO6567 and G_SCO6646,ARBt2r ,h[e] + arab__L[e]  <=> h[c] + arab__L[c] ,proton symport,true,−1000,1000
+G_SCO6690 or G_SCO6809 or G_SCO6822 or G_SCO6896 or G_SCO6899 or G_SCO6970 or G_SCO7128 ,AKGt2r ,h[e] + akg[e]  <=> h[c] + akg[c] ,proton symport,true,−1000,1000
+(G_SCO0423 or G_SCO0839 or G_SCO2454 or G_SCO2519 or G_SCO3166 or G_SCO5084 or G_SCO5502 or G_SCO5905 or G_SCO6091 or G_SCO6666 or G_SCO7077 or G_SCO7090 ) and G_SCO5083,ACTt,2 nad[c] + act[c]  -> 2 nadh[c] + gact[e] ,facilitated symport,false,0,1000
+G_SCO3139 or G_SCO4229 or G_SCO4437 or G_SCO0152 or G_SCO0871 or G_SCO1218 ,INOSTt4 ,inost[e] + na1[e]  -> inost[c] + na1[c] ,sodium symport,false,0,1000
+G_SCO5529 or G_SCO5282 or G_SCO5827 or G_SCO5871 or G_SCO7596,PROt4 ,na1[e] + pro__L[e]  -> pro__L[c] + na1[c] ,sodium symport,false,0,1000
+G_SCO1632 and G_SCO1633 and G_SCO5150 and G_SCO3410 and G_SCO3410,THRt4 ,na1[e] + thr__L[e]  -> thr__L[c] + na1[c] ,sodium symport,false,0,1000
+G_SCO0625 and G_SCO5436,MALt2_2 ,2 h[e] + mal__L[e]  -> 2 h[c] + mal__L[c] ,proton symport,false,0,1000
+G_SCO0625 and G_SCO5436,SUCFUMt,succ[c] + fum[e]  <=> fum[c] + succ[e] ,facilitated symport,true,−1000,1000
+( G_SCO2931 and G_SCO2930 and G_SCO2932 and G_SCO2933 ) or ( G_SCO6062 and G_SCO6063 and G_SCO6064 and G_SCO6065 ) or (G_SCO0169 or G_SCO4770) ,GLYBabc ,h2o[c] + atp[c] + glyb[e]  -> h[c] + adp[c] + pi[c] + glyb[c] ,ABC,false,0,1000
+(G_SCO0271 or G_SCO0353 or G_SCO0363 or G_SCO0453 or G_SCO0454 or G_SCO0455) and G_SCO7409 and G_SCO7410 and G_SCO7408  and G_SCO1065,LCTSabc ,h2o[c] + atp[c] + lcts[e]  -> h[c] + adp[c] + lcts[c] + pi[c] ,ABC,false,0,1000
+(G_SCO0272 or G_SCO0354 or G_SCO7011 or G_SCO7012) and G_SCO1065,DARBabc,h2o[c] + atp[c] + arab__D[e]  -> h[c] + adp[c] + pi[c] + arab__D[c] ,ABC,false,0,1000
+( G_SCO3706 and G_SCO3705 and G_SCO3704 ) or G_SCO0824 ,MOBDabc,h2o[c] + atp[c] + mobd[e]  -> h[c] + adp[c] + pi[c] + mobd[c] ,ABC,false,0,1000
+( G_SCO2404  or G_SCO3667)and G_SCO6010 and G_SCO6011 and G_SCO6009 ,XYLabc ,h2o[c] + atp[c] + xyl__D[e]  -> h[c] + adp[c] + pi[c] + xyl__D[c] ,ABC,false,0,1000
+G_SCO2405 or ( G_SCO6567 and G_SCO6568 and G_SCO6569 ) ,ARBabc ,h2o[c] + atp[c] + arab__L[e]  -> h[c] + arab__L[c] + adp[c] + pi[c] ,ABC,false,0,1000
+(G_SCO2406 or G_SCO6980 or G_SCO6981) or ( G_SCO2746 and G_SCO2747 and G_SCO2749 ) or ( G_SCO6259 and G_SCO6258 and G_SCO6257 ) ,RIBabc,h2o[c] + atp[c] + rib__D[e]  -> h[c] + rib__D[c] + adp[c] + pi[c] ,ABC,false,0,1000
+ ((G_SCO2432 or G_SCO6229 or G_SCO6230 or G_SCO7487 or G_SCO7505 or G_SCO6086 or G_SCO6087) and G_SCO5232 and G_SCO5233 and G_SCO5234 and G_SCO4240))   or (G_SCO6005 and G_SCO6006 and G_SCO6007 and G_SCO4240 ) ,CHTBSabc ,h2o[c] + atp[c] + chtbs[e]  -> h[c] + chtbs[c] + adp[c] + pi[c] ,ABC,false,0,1000
+G_SCO2664 and  G_SCO5258 and G_SCO5259 and G_SCO5260 ,GLNabc ,h2o[c] + atp[c] + gln__L[e]  -> h[c] + gln__L[c] + adp[c] + pi[c] ,ABC,false,0,1000
+(G_SCO3454 or G_SCO3455 or G_SCO3456) and G_SCO5668 and G_SCO5669 and G_SCO5670 and G_SCO5658 and G_SCO5667  ,SPMDabc ,h2o[c] + atp[c] + spmd[e]  -> h[c] + adp[c] + pi[c] + spmd[c] ,ABC,false,0,1000
+G_SCO4887 or G_SCO4888 ,GALabc,h2o[c] + atp[c] + gal[e]  -> h[c] + adp[c] + gal[c] + pi[c] ,ABC,false,0,1000
+G_SCO5429 or (G_SCO7556 and G_SCO7557 and G_SCO7555 and G_SCO4240 ) or ( G_SCO2796 and G_SCO2797 and G_SCO2795 and G_SCO4240 ) ,CELLabc ,h2o[c] + atp[c] + cellb[e]  -> h[c] + cellb[c] + adp[c] + pi[c] ,ABC,false,0,1000
+(G_SCO5961 and  G_SCO6454 and G_SCO6452 and G_SCO6453 and G_SCO6451 ) or G_SCO2499  ,Niabc ,h2o[c] + atp[c] + ni2[e]  -> h[c] + adp[c] + pi[c] + ni2[c] ,ABC,false,0,1000
+( G_SCO0670 or G_SCO6979) and G_SCO0809 and G_SCO0810 and G_SCO0808 and G_SCO0811 ,RMNabc,h2o[c] + atp[c] + rmn[e]  -> h[c] + adp[c] + pi[c] + rmn[c] ,ABC,false,0,1000
+G_SCO6094 or ( G_SCO7544 and G_SCO7545 and G_SCO7546 ) ,TAURabc ,h2o[c] + atp[c] + taur[e]  -> h[c] + adp[c] + pi[c] + taur[c] ,ABC,false,0,1000
+(G_SCO6111 or G_SCO6455) or ( G_SCO1559 and G_SCO1558 and G_SCO1557 ) ,METabc ,h2o[c] + atp[c] + met__L[e]  -> h[c] + adp[c] + pi[c] + met__L[c] ,ABC,false,0,1000
+G_SCO6149 or ( G_SCO5648 and G_SCO5647 and G_SCO5646 ),THMabc ,h2o[c] + atp[c] + thm[e]  -> h[c] + adp[c] + pi[c] + thm[c] ,ABC,false,0,1000
+G_SCO7680 or ( G_SCO3706 and G_SCO3705 and G_SCO3704 ),SULabc,h2o[c] + atp[c] + so4[e]  -> h[c] + adp[c] + pi[c] + so4[c] ,ABC,false,0,1000
+G_SCO0164 or G_SCO0860 or G_SCO6460 ,CD2abc ,h2o[c] + atp[c] + cd2[c]  -> h[c] + adp[c] + pi[c] + cd2[e] ,ABC,false,0,1000
+G_SCO3216 or G_SCO2499 or G_SCO4332 ,MG2uabc ,h2o[c] + atp[c] + mg2[e]  -> h[c] + adp[c] + pi[c] + mg2[c] ,ABC,false,0,1000
+G_SCO7367 or SCO3577 or SCO3578 or SCO2128,ASO3t8 ,h2o_c[c] + atp_c[c] + aso3_c[c]  -> h_c[c] + adp_c[c] + pi_c[c] + aso3_e[e] ,arsenite efflux,false,0,1000
