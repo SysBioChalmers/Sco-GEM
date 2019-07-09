@@ -96,7 +96,7 @@ rsOut=[rxns{1} num2cell(full(RSmean)) num2cell(full(RSsd)) num2cell(Zflux)];
 fid = fopen([root '/ComplementaryData/ecmodel/simulations/ec-RandSampComb_proteinPool_noProteomics.tsv'],'w');
 fprintf(fid,[repmat('%s\t',1,38) '%s\n'],...
     ['rxns' strcat('MEAN_',transpose(sample)) strcat('STDEV_',transpose(sample)) 'Z_M145_29h_vs_M145_45h' 'Z_M145_29h_vs_M1152_41h' 'Z_M1152_41h_vs_M1152_57h' 'Z_M145_45h_vs_M1152_57h']);
-for j=1:length(rxns)
+for j=1:length(rxns{1})
     fprintf(fid,['%s\t' repmat('%d\t',1,37) '%d\n'],rsOut{j,:});
 end
 fclose(fid);
