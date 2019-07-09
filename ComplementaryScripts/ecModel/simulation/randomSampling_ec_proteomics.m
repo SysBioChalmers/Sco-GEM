@@ -16,26 +16,24 @@ end
 % be discarded from further random sampling.
 [~,goodRxns1] = randomSampling(model{1},2);
 [~,goodRxns2] = randomSampling(model{11},2);
-save([root '/scrap/goodRxns2.mat'], 'goodRxns*' );
+load([root '/scrap/goodRxns2.mat'], 'goodRxns*' );
 
 %% Take 5000 samples for each timepoint. Reorder reactions so that they
 % match between models.
 nSamples = 5000;
 for i=1:9
     disp(['Sample: ' num2str(i)])
-    %RSraw{i} = randomSampling(model{i},nSamples,true,false,false,goodRxns1);
+    RSraw{i} = randomSampling(model{i},nSamples,true,false,false,goodRxns1);
     [RS{i},rxns{i}] = organizeSolutions(model{i},RSraw{i},true,true);
 end
 
 for i=10:17
     disp(['Sample: ' num2str(i)])
-    %RSraw{i} = randomSampling(model{i},nSamples,true,false,false,goodRxns2);
+    RSraw{i} = randomSampling(model{i},nSamples,true,false,false,goodRxns2);
     [RS{i},rxns{i}] = organizeSolutions(model{i},RSraw{i},true,true);
 end
 
-% Export data
-save([root '/scrap/RScomb.mat'],'RSraw','RS','rxns')
-
+% Take mean and stdev, and match reactions between M145 and M1152
 for i=1:length(RSraw)
     tmpMean = mean(RS{i},2);
     tmpStd  = std(RS{i},0,2);
@@ -58,6 +56,9 @@ Zflux(:,1) = getFluxZ(RSmean(:,2),RSmean(:,6));
 Zflux(:,2) = getFluxZ(RSmean(:,2),RSmean(:,11));
 Zflux(:,3) = getFluxZ(RSmean(:,11),RSmean(:,15));
 Zflux(:,4) = getFluxZ(RSmean(:,6),RSmean(:,15));
+
+% Export data
+save([root '/scrap/RScomb.mat'],'RSraw','RS*','rxns')
 
 rsOut=[rxns{1} num2cell(full(RSmean)) num2cell(full(RSsd)) num2cell(Zflux)];
 fid = fopen([root '/ComplementaryData/ecmodel/simulations/ec-RandSampComb_CO2norm.tsv'],'w');
