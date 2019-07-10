@@ -16,7 +16,7 @@ end
 % be discarded from further random sampling.
 [~,goodRxns1] = randomSampling(model{1},2);
 [~,goodRxns2] = randomSampling(model{11},2);
-load([root '/scrap/goodRxns2.mat'], 'goodRxns*' );
+save([root '/scrap/goodRxns2.mat'], 'goodRxns*' );
 
 %% Take 5000 samples for each timepoint. Reorder reactions so that they
 % match between models.
@@ -60,11 +60,11 @@ Zflux(:,4) = getFluxZ(RSmean(:,6),RSmean(:,15));
 % Export data
 save([root '/scrap/RScomb.mat'],'RSraw','RS*','rxns')
 
-rsOut=[rxns{1} num2cell(full(RSmean)) num2cell(full(RSsd)) num2cell(Zflux)];
-fid = fopen([root '/ComplementaryData/ecmodel/simulations/ec-RandSampComb_CO2norm.tsv'],'w');
-fprintf(fid,[repmat('%s\t',1,39) '%s\n'],...
-    ['rxns' strcat('MEAN_',transpose(sample)) strcat('STDEV_',transpose(sample)) 'Z_M145_29h_vs_M145_45h' 'Z_M145_29h_vs_M1152_41h' 'Z_M1152_41h_vs_M1152_57h' 'Z_M145_45h_vs_M1152_57h']);
+rsOut=[rxns{1} num2cell(full(RSmean)) num2cell(full(RSsd))];
+fid = fopen([root '/ComplementaryData/ecmodel/simulations/ec-RandSampComb_proteomics_CO2norm.tsv'],'w');
+fprintf(fid,[repmat('%s\t',1,34) '%s\n'],...
+    ['rxns' strcat('MEAN_',transpose(sample)) strcat('STDEV_',transpose(sample))]);
 for j=1:length(rsOut)
-    fprintf(fid,['%s' repmat('\t%d',1,38) '\n'],rsOut{j,:});
+    fprintf(fid,['%s' repmat('\t%d',1,34) '\n'],rsOut{j,:});
 end
 fclose(fid);

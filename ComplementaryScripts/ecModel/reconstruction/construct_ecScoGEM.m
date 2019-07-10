@@ -51,6 +51,9 @@ cd([ecDir '/gecko/geckomat/utilities'])
 ecModel_M1152 = getSubset_ecModel(modelM1152, ecModel);
 ecModel_M1152 = setParam(ecModel_M1152,'eq',{'EX_glc__D_e','EX_glu__L_e','EX_o2_e'},0);
 
+ecModel_M1152.ub(ecModel_M1152.ub == 1000) = Inf;
+ecModel_M1152.lb(ecModel_M1152.lb == -1000) = -Inf;
+
 rates.M145 = dlmread([root '/ComplementaryData/growth/M145/average/M145_estimated_rates.csv'],',',1,0);
 GlcUptake.M145  = -rates.M145(1,4);%
 GluUptake.M145  = -rates.M145(1,5);%

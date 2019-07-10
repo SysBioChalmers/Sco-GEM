@@ -70,7 +70,7 @@ end
 save([root '/scrap/proteomeModels.mat'],'model','gRate','modifications','sample');
 
 %% Export SBML files
-for i=11:length(sample(:,1))
+for i=1:length(sample(:,1))
     exportModel(model{i},...
     [root,'/ModelFiles/xml/ec',sample{i},'.xml']);
 end
