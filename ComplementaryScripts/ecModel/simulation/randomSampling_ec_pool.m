@@ -85,18 +85,11 @@ save([root '/scrap/RSpool.mat'],'RSraw','RSmean', 'RSsd','rxns')
 
 %% Export data
 
-% Calculate flux-Z
-clear Z Zflux
-Zflux(:,1) = getFluxZ(RSmean(:,2),RSmean(:,6));
-Zflux(:,2) = getFluxZ(RSmean(:,2),RSmean(:,11));
-Zflux(:,3) = getFluxZ(RSmean(:,11),RSmean(:,15));
-Zflux(:,4) = getFluxZ(RSmean(:,6),RSmean(:,15));
-
-rsOut=[rxns{1} num2cell(full(RSmean)) num2cell(full(RSsd)) num2cell(Zflux)];
+rsOut=[rxns{1} num2cell(full(RSmean)) num2cell(full(RSsd))];
 fid = fopen([root '/ComplementaryData/ecmodel/simulations/ec-RandSampComb_proteinPool_noProteomics.tsv'],'w');
-fprintf(fid,[repmat('%s\t',1,38) '%s\n'],...
-    ['rxns' strcat('MEAN_',transpose(sample)) strcat('STDEV_',transpose(sample)) 'Z_M145_29h_vs_M145_45h' 'Z_M145_29h_vs_M1152_41h' 'Z_M1152_41h_vs_M1152_57h' 'Z_M145_45h_vs_M1152_57h']);
+fprintf(fid,[repmat('%s\t',1,34) '%s\n'],...
+    ['rxns' strcat('MEAN_',transpose(sample)) strcat('STDEV_',transpose(sample))]);
 for j=1:length(rxns{1})
-    fprintf(fid,['%s\t' repmat('%d\t',1,37) '%d\n'],rsOut{j,:});
+    fprintf(fid,['%s\t' repmat('%d\t',1,33) '%d\n'],rsOut{j,:});
 end
 fclose(fid);
