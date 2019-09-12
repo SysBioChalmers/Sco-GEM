@@ -1,21 +1,21 @@
 Gene annotation,RxbName,Rxn_Formula,transport class,reversibility,lower bound,upperbound,annotation note for transporters
-"G_SCO1391,HISpep,pep[c] + his__L[e] ->  pyr[c] + phis__L[c] ,PTS,false,0,1000,""TransportDB, literature (Puttick et al., Biochimica et Biophysica Acta (BBA) 2008)"""
-"G_SCO0136,ASCpts,pep[c] + asc__L[e]  ->  pyr[c] + asc6p[c],PTS,false,0,1000,""KEGG, TransportDB and 90% identity on protein homology on 14 Streptomyces species (e.g. S.sp.19, S. sp. E5N91 SAI-083"""
+G_SCO1391,HISpep,pep[c] + his__L[e] ->  pyr[c] + phis__L[c] ,PTS,false,0,1000,"TransportDB, literature (Puttick et al., Biochimica et Biophysica Acta (BBA) 2008)"
+G_SCO0136,ASCpts,pep[c] + asc__L[e]  ->  pyr[c] + asc6p[c],PTS,false,0,1000,"KEGG, TransportDB and 90% identity on protein homology on 14 Streptomyces species (e.g. S.sp.19, S. sp. E5N91 SAI-083"
 G_SCO0562 or G_SCO0892 or G_SCO1963 or G_SCO2366 or G_SCO6313,Telu,Telu[e]  <=>  Telu[c] ,faccilitated diffusion,true,-1000,1000,KEGG
-"G_SCO0513,FBae1,fb[c] ->  fb[e],faccilitated diffusion,false,0,1000,""BLAST alignment of FASTA sequences G_SCO0513, G_SCO6229 (coding transport of N,N-diacetylchitobiose) Evalue=7e-38"""
-"G_SCO0791 or G_SCO0796 or G_SCO1099 or G_SCO1118 or G_SCO1985 or G_SCO7159 or G_SCO7318 ,FUSt,fus[e]  <=>  fus[c],faccilitated diffusion,true,-1000,1000,""KEGG and 90% identity on protein homology with 12 Streptomyces strains (e.g. S. lividans TK24, STRLI, S. sp., 2114.2,...)"""
-"G_SCO2646,INDIGt,indig[e]  <=>  indig[c],faccilitated diffusion,true,-1000,1000,""KEGG and and 90% identity on protein homology with 9 Streptomyces strains (e.g., S. lividans TK24, S. sp. 2114.2, S. sp. 2221.1,…)"""
+G_SCO0513,FBae1,fb[c] ->  fb[e],faccilitated diffusion,false,0,1000,"BLAST alignment of FASTA sequences G_SCO0513, G_SCO6229 (coding transport of N,N-diacetylchitobiose) Evalue=7e-38"
+G_SCO0791 or G_SCO0796 or G_SCO1099 or G_SCO1118 or G_SCO1985 or G_SCO7159 or G_SCO7318 ,FUSt,fus[e]  <=>  fus[c],faccilitated diffusion,true,-1000,1000,"KEGG and 90% identity on protein homology with 12 Streptomyces strains (e.g. S. lividans TK24, STRLI, S. sp., 2114.2,...)"
+G_SCO2646,INDIGt,indig[e]  <=>  indig[c],faccilitated diffusion,true,-1000,1000,"KEGG and and 90% identity on protein homology with 9 Streptomyces strains (e.g., S. lividans TK24, S. sp. 2114.2, S. sp. 2221.1,…)"
 G_SCO2898 or G_SCO3164 or G_SCO3297 or G_SCO4592 or G_SCO5210 or G_SCO5531 or G_SCO5851 or G_SCO6376 or G_SCO7394,TPPt,TPP[e]  ->  TPP[c],faccilitated diffusion,false,0,1000,TransportDB
 G_SCO0079,PRNt,prn[e]  <=>  prn[c] ,faccilitated diffusion,true,-1000,1000,100% identity on protein homology with S. sp. 111WW2
-"G_SCO0295,MEMYt,memy[e]+ h[c]  <=>  h[c ]+ memy[c],proton antiport,true,-1000,1000,""KEGG and 90% identity on protein homology with e.g. S. sp. 2114.2, S.sp. 2221.1, S. sp. 19"""
-"G_SCO1812 or G_SCO7157 or G_SCO7703,Cyt,cy[e]  <=>  cy[c],faccilitated diffusion,true,-1000,1000,""KEGG and TransportDB and 90% identity on protein homology with 4 Streptomyces strains (e.g. S.sp. 2114.2, S.sp. 2221.1, S.sp. 19, S. sp. E5N91 SAI-083"""
+G_SCO0295,MEMYt,memy[e]+ h[c]  <=>  h[c ]+ memy[c],proton antiport,true,-1000,1000,"KEGG and 90% identity on protein homology with e.g. S. sp. 2114.2, S.sp. 2221.1, S. sp. 19"
+G_SCO1812 or G_SCO7157 or G_SCO7703,Cyt,cy[e]  <=>  cy[c],faccilitated diffusion,true,-1000,1000,"KEGG and TransportDB and 90% identity on protein homology with 4 Streptomyces strains (e.g. S.sp. 2114.2, S.sp. 2221.1, S.sp. 19, S. sp. E5N91 SAI-083"
 (G_SCO3898 or G_SCO4337) and (G_SCO6427 or G_SCO6430 or G_SCO7309 or G_SCO7346 or G_SCO7369),ENTBACTINt,entbactin[c]  <=>  entbactin[e] ,faccilitated diffusion,true,-1000,1000,KEGG 
 G_SCO6563,OXOFORMATEt,oxformate[e]  + h[e]  ->  oxoformate[c]+ h[c],proton symport,false,0,1000,90% identity on protein homology with e.g. S. ambofaciens
-"G_SCO0242 or G_SCO6122,CATECHOLopt,catechol[e]  <=>  catechol[c] ,faccilitated diffusion,true,-1000,1000,""100% identity on protein homology with 4 Streptomyces species (e.g. S. sp. 2114.2, S.sp.2221.1, S.sp.111WW2, S.sp. 19)"""
+G_SCO0242 or G_SCO6122,CATECHOLopt,catechol[e]  <=>  catechol[c] ,faccilitated diffusion,true,-1000,1000,"100% identity on protein homology with 4 Streptomyces species (e.g. S. sp. 2114.2, S.sp.2221.1, S.sp.111WW2, S.sp. 19)"
 G_SCO1617 or G_SCO4795,TELt,tel[e]  <=>  tel[c] ,faccilitated diffusion,true,-1000,1000,TransportDB and KEGG
-"G_SCO4462,FUCOSEt,fucose[e] + h[e]  ->  fucose[c] + h[c],proton symport,false,0,1000,""90% identity on protein homology with e.g. S. sp. 2114.2, S.sp. 2221.2, S.sp. 19)"""
+G_SCO4462,FUCOSEt,fucose[e] + h[e]  ->  fucose[c] + h[c],proton symport,false,0,1000,"90% identity on protein homology with e.g. S. sp. 2114.2, S.sp. 2221.2, S.sp. 19)"
 G_SCO1465,GLUCSabc,glucs[e] + h2o[c] + atp[c]  ->  glucs[c] + h[c] + adp[c] + pi[c],ABC,false,0,1000,KEGG
 G_SCO1785 or G_SCO2422 or G_SCO6426 or G_SCO5780,DESabc,des[e] + h2o[c] + atp[c] ->  des[c] + adp[c] + h[c] + pi[c],ABC,false,0,1000,KEGG
 G_SCO1786,FENTEROabc,fentero[e]  + h2o[c] + atp[c] -> fentero[c] + adp[c] + h[c] + pi[c],ABC,false,0,1000,KEGG
 G_SCO2258 or G_SCO2306,OMYCINabc,omycin[e]  + h2o[c] + atp[c]  ->  omycin[c] + adp[c] + h[c] + pi[c],ABC,false,0,1000,KEGG
-"G_SCO7028 and G_SCO7029 and G_SCO7030,XYLBabc ,xylb[e] + h2o[c] + atp[c]  ->  h[c] + adp[c] + pi[c] + xylb[c],ABC,false,0,1000,""KEGG and 100% identity on protein homology with e.g. S.sp. 2114.2, S.sp. 2221.1, S.sp. 19"""
+G_SCO7028 and G_SCO7029 and G_SCO7030,XYLBabc ,xylb[e] + h2o[c] + atp[c]  ->  h[c] + adp[c] + pi[c] + xylb[c],ABC,false,0,1000,"KEGG and 100% identity on protein homology with e.g. S.sp. 2114.2, S.sp. 2221.1, S.sp. 19"
