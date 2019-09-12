@@ -44,7 +44,10 @@ CYTOSOLIC_GDPD_GENES = ["SCO1090", "SCO1419", "SCO3976", "SCO5661"]
 TAT_SECRETED_GENES = ["SCO0736", "SCO1172", "SCO1196", "SCO1356", "SCO1432", "SCO1565", "SCO1590", "SCO1639", "SCO1906", "SCO2068", "SCO2286", "SCO2758", "SCO2780", "SCO2786", "SCO3484", "SCO3790", "SCO4672", "SCO6052", "SCO6198", "SCO6272", "SCO6281", "SCO6457", "SCO6580", "SCO6594", "SCO6691", "SCO7631", "SCO7677"]
 CYO2a_GENES = ["SCO2150", "SCO2149", "SCO7236", "SCO2148", "SCO7120"]
 ATP_SYNTHASE_GENES = ["SCO5368", "SCO5370", "SCO5373", "SCO5374"]
+ALL_ATP_SYNTHASE_GENES = ["SCO5366", "SCO5367", "SCO5368", "SCO5369", "SCO5370", "SCO5371", "SCO5372", "SCO5373","SCO5374"]
 INOSITOL_DEHYDROGENASE_GENES = ["SCO6255", "SCO6984", "SCO7254", "SCO1527"]
+SPODM = ["SCO0999", "SCO2633", "SCO5254"]
+CAT = ["SCO0379", "SCO0560", "SCO0666", "SCO2529", "SCO6204", "SCO7590"]
 
 def convert_sample_number_to_timepoint(row):
     if row["Strain"] == "M145":
@@ -68,6 +71,9 @@ def convert_to_timepoint(strain, hour):
     return timepoint_dict[int(hour)]
 
 def get_all_flux(folder, reactions):
+    """
+    DEPRECEATED
+    """
     folder = Path(folder)
     df_dict = {}
     for i, file in enumerate(folder.glob("*.csv")):
@@ -106,7 +112,7 @@ def get_gene_data(gene_expression_csv, gene_ids):
     # The csv file contains normalized rna-seq data for each of the three biological replicates for each strain
     df_gene_fermentors = pd.read_csv(gene_expression_csv, sep = "\t")
     df_gene_fermentors.set_index("Identifier", inplace = True)
-    # print(df_gene_fermentors.T)
+    print(df_gene_fermentors.T)
 
     df_gene = df_gene_fermentors.T
 
@@ -114,7 +120,7 @@ def get_gene_data(gene_expression_csv, gene_ids):
     df_gene.loc[df_gene.index.str.contains("|".join(M145_FERMENTORS)), "Strain"] = "M145"    
     df_gene.loc[df_gene.index.str.contains("|".join(M1152_FERMENTORS)), "Strain"] = "M1152"    
     
-
+    print(df_gene)
     # Set timepoint
     df_gene.loc[:, "Hours"] = df_gene.index.str[5:7]
 
@@ -206,7 +212,6 @@ def plot_genes_transcriptome_proteome(proteome_norm_tsv, gene_expression_csv, ge
     df_transcr = get_gene_data(gene_expression_csv, gene_ids)
     df_prot = get_proteome(proteome_norm_tsv, gene_ids)
 
-
     for i, gene in enumerate(gene_ids):
         # ax = axes[i]
         fig, ax = plt.subplots(1, figsize  = (8, 6))
@@ -221,7 +226,7 @@ def plot_genes_transcriptome_proteome(proteome_norm_tsv, gene_expression_csv, ge
         lines = ax.lines + ax2.lines[::2]
         labels = ["M145 transcriptome", "M1152 transcriptome", "M145 proteome", "M1152 proteome"]
         ax.legend(lines, labels, bbox_to_anchor=(1,0), loc="lower right", 
-                bbox_transform=fig.transFigure, ncol=1)
+                bbox_transform=fig.transFigure, ncol=4)
 
         ax.set_ylabel("Normalized transcriptome data")
         ax2.set_ylabel("Normalized proteome data")
@@ -232,9 +237,9 @@ def plot_genes_transcriptome_proteome(proteome_norm_tsv, gene_expression_csv, ge
 def plot_genes(gene_expression_csv, gene_ids):
     df_selected_genes = get_gene_data(gene_expression_csv, gene_ids)
     
-    df_melt = df_selected_genes.melt(["Time point", "Strain"], value_vars = gene_ids, var_name = "Gene", value_name = "Normalized count")
+    df_melt = df_selected_genes.melt(["Time point", "Strain"], value_vars = gene_ids, var_name = "Gene", value_name = "Log2 normalized count")
     print(df_melt)
-    sns.lineplot(x = "Time point", y = "Normalized count", hue = "Gene", style = "Strain", data = df_melt, err_style = "bars")
+    sns.lineplot(x = "Time point", y = "Log2 normalized count", hue = "Gene", style = "Strain", data = df_melt, err_style = "bars")
     plt.show()
 
 
@@ -252,21 +257,23 @@ def get_proteome(proteome_norm_tsv, gene_ids):
 
 def plot_proteome(proteome_norm_tsv, gene_ids):
     df_prot = get_proteome(proteome_norm_tsv, gene_ids)
-    sns.lineplot(data = df_prot)
-    plt.show()
-    df_melt = df_prot.melt(["Time point", "Strain"], value_vars = gene_ids, var_name = "Gene", value_name = "Normalized counts")
-    sns.lineplot(x = "Time point", y = "Normalized counts", hue = "Gene", style = "Strain", data = df_melt, err_style = "bars")
+    # sns.lineplot(data = df_prot)
+    # plt.show()
+    df_melt = df_prot.melt(["Time point", "Strain"], value_vars = gene_ids, var_name = "Protein", value_name = "Normalized counts")
+    sns.lineplot(x = "Time point", y = "Normalized counts", hue = "Protein", style = "Strain", data = df_melt, err_style = "bars")
     plt.show()
 
 def plot_germicidin():
     germicidin_fn = "C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/manuscript/germicidin_long_table.csv"
     df = pd.read_csv(germicidin_fn, header = 0, sep = ";")
     print(df.head())
-    sns.lineplot(x = "Time [h]", y = "Concentration [ng/ml]", hue = "Compound", style = "Strain", data = df)
+    ax = sns.lineplot(x = "Time [h]", y = "Concentration [ng/ml]", hue = "Strain", style = "Compound", data = df, palette = ["b", "r"])
+    ax.axvline(x = 47, ymin = 0, ymax = 1, c = "r", ls = "--")
+    ax.axvline(x = 35, ymin = 0, ymax = 1, c = "b", ls = "--")
     plt.show()
 
 if __name__ == '__main__':
-    mean_flux_co2_scaled = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/ec-RandSampComb_AllSamples_co2.csv"
+    mean_flux_co2_scaled = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/randomsampling_july/ec-RandSampComb_proteomics_CO2norm.tsv"
     all_random_samples_folder = "C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/Eduard random sampling"
     gene_expression_csv = "C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/manuscript/m145-m1152-normalized_allfermenters.tsv"
     proteome_norm_tsv = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Correlation_ProtRNA_Ed/proteomeNorm.tsv"
@@ -274,33 +281,46 @@ if __name__ == '__main__':
 
 
     # plot_gene_and_single_flux(mean_flux_co2_scaled, gene_expression_csv)
-    # plot_reactions(mean_flux_co2_scaled, reaction_ids = DIFFERENT_M1152)
+    # plot_reactions(mean_flux_co2_scaled, reaction_ids = ["EX_glc__D_e", "EX_glu__L_e"])
 
     if 0:
         # Plot no 1
         get_all_flux(all_random_samples_folder, DIFFERENT_M1152+DELAYED_M1152)
         for r in DIFFERENT_M1152+DELAYED_M1152:
             plot_all_flux(all_random_samples_folder, r)
-    if 1:
+    if 0:
         plot_germicidin()
     if 0:
         # plot no 2
         gene_ids = ["SCO6984", "SCO1527"]
-        plot_genes(gene_expression_csv, gene_ids)
+        # plot_genes(gene_expression_csv, gene_ids)
+        # plot_genes(gene_expression_csv, ALL_ATP_SYNTHASE_GENES)
+        # plot_genes(gene_expression_csv, SPODM)
+        plot_genes(gene_expression_csv, CAT)
+
 
     if 0:
         #  Plot proteome (no 3)
         gene_ids = ["SCO1196", "SCO1968", "SCO2286"]
         plot_proteome(proteome_norm_tsv, gene_ids)
 
+    if 1:
+        #  Plot proteome (no 4)
+        gene_ids = ["SCO1565", "SCO4229"]
+        # plot_proteome(proteome_norm_tsv, gene_ids)
+        # plot_proteome(proteome_norm_tsv, ALL_ATP_SYNTHASE_GENES)
+        plot_proteome(proteome_norm_tsv, SPODM)
+        plot_proteome(proteome_norm_tsv, CAT)
+
     if 0:
         # Plot proteome and transcriptome in same plot
         
         # plot_delayed_genes_transcriptome_proteome(proteome_norm_tsv, gene_expression_csv, CYO2a_GENES)
-        # plot_delayed_genes_transcriptome_proteome(proteome_norm_tsv, gene_expression_csv, ATP_SYNTHASE_GENES)
+        plot_genes_transcriptome_proteome(proteome_norm_tsv, gene_expression_csv, ATP_SYNTHASE_GENES)
         # plot_delayed_genes_transcriptome_proteome(proteome_norm_tsv, gene_expression_csv, DELAYED_GENES)
-        plot_genes_transcriptome_proteome(proteome_norm_tsv, gene_expression_csv, INOSITOL_DEHYDROGENASE_GENES)
+        # plot_genes_transcriptome_proteome(proteome_norm_tsv, gene_expression_csv, INOSITOL_DEHYDROGENASE_GENES)
+        # plot_genes_transcriptome_proteome(proteome_norm_tsv, gene_expression_csv, ["SCO1565", "SCO4229"])
     if 0:
-        get_all_flux(all_random_samples_folder, ["INS2D"])
-        plot_all_flux(all_random_samples_folder, "INS2D")
+        get_all_flux(all_random_samples_folder, ["CS", "ACONTa"])
+        plot_all_flux(all_random_samples_folder, "CS")
         
