@@ -140,9 +140,6 @@ def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
     reversibility.change_bounds_on_ATP_driven_reactions(scoGEM, ATP_DRIVEN_REACTIONS_REVERSIBILITY_FN)
 
 
-    #Part 6 - Add transport reactions
-    fix_transporters.fix_transporters(scoGEM,MODIFIED_TRANSPORT_REACTIONS_FN, NEW_TRANSPORT_REACTIONS_FN,
-                                      NEW_TRANSPORT_REACTIONS_TO_NEW_METABOLITES_FN, NEW_METABOLITES_TO_NEW_TRANSPORT_REACTIONS)
 
     # Additional annotations 
     feat_annotations.add_doi_annotations(scoGEM, DOI_ANNOTATIONS_FN)
@@ -154,6 +151,10 @@ def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
 
     # Issue 85 cpk exchange reaction
     add_and_modify_reactions_according_to_iAA1259.add_exchange_reaction_for_ycpk(scoGEM)
+   
+    #Part 6 - Add transport reactions
+    fix_transporters.fix_transporters(scoGEM,MODIFIED_TRANSPORT_REACTIONS_FN, NEW_TRANSPORT_REACTIONS_FN,
+                                      NEW_TRANSPORT_REACTIONS_TO_NEW_METABOLITES_FN, NEW_METABOLITES_TO_NEW_TRANSPORT_REACTIONS)
 
     # Save model
     export.export(scoGEM, formats = ["xml", "yml"], write_requirements = write_requirements)
