@@ -41,6 +41,7 @@ from consensusModel import fix_issue33_annotation_bugs
 from consensusModel import redox_pseudometabolite
 from consensusModel import fix_SBO_terms
 from consensusModel import fix_biomass
+from consensusModel import fix_transporters
 from consensusModel import feat_annotations
 from consensusModel import feat_subsystem_annotation
 from consensusModel import issue_82_delete_reactions
@@ -71,6 +72,11 @@ NEW_BIOMASS_DATA_FN = str(COMPLEMENTARY_DATA / "biomass/biomass_scaled.txt")
 EQUILIBRATOR_FN_1 = str(COMPLEMENTARY_DATA / "curation/reversibility/eQuilibrator_reversibility.csv")
 EQUILIBRATOR_FN_2 = str(COMPLEMENTARY_DATA / "curation/reversibility/eQuilibrator_reversibility_lethals.csv")
 ATP_DRIVEN_REACTIONS_REVERSIBILITY_FN = str(COMPLEMENTARY_DATA / "curation/reversibility/reversibility_ATP_driven_reactions.csv")
+
+MODIFIED_TRANSPORT_REACTIONS_FN = str(COMPLEMENTARY_DATA / "curation" / "transport_reactions" / "updated_grRules.csv")
+NEW_TRANSPORT_REACTIONS_FN = str(COMPLEMENTARY_DATA / "curation" / "transport_reactions" / "newTransportRxns.csv")
+NEW_TRANSPORT_REACTIONS_TO_NEW_METABOLITES_FN = str(COMPLEMENTARY_DATA / "curation" / "transport_reactions" / "newTransportRxns_newMets.csv")
+NEW_METABOLITES_TO_NEW_TRANSPORT_REACTIONS = str(COMPLEMENTARY_DATA / "curation" / "transport_reactions" / "new_mets_annotation.csv")
 
 DOI_ANNOTATIONS_FN = str(COMPLEMENTARY_DATA / "annotations" / "reaction_notes_and_references.csv")
 GENE_ANNOTATIONS_FN = str(COMPLEMENTARY_DATA / "annotations" / "genes.csv")
@@ -132,6 +138,11 @@ def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
     reversibility.change_bounds_according_to_eQuilibrator(scoGEM, EQUILIBRATOR_FN_1, EQUILIBRATOR_FN_2)
     reversibility.change_lower_bound_on_CPKS_reactions(scoGEM)
     reversibility.change_bounds_on_ATP_driven_reactions(scoGEM, ATP_DRIVEN_REACTIONS_REVERSIBILITY_FN)
+
+
+    #Part 6 - Add transport reactions
+    fix_transporters.fix_transporters(scoGEM,MODIFIED_TRANSPORT_REACTIONS_FN, NEW_TRANSPORT_REACTIONS_FN,
+                                      NEW_TRANSPORT_REACTIONS_TO_NEW_METABOLITES_FN, NEW_METABOLITES_TO_NEW_TRANSPORT_REACTIONS)
 
     # Additional annotations 
     feat_annotations.add_doi_annotations(scoGEM, DOI_ANNOTATIONS_FN)
