@@ -72,12 +72,13 @@ def new_transport_reactions_to_new_metabolites(model, new_transport_reactions_ne
                 m.annotation["metabetx.chemical"] = row["metanetx ID"]
                 m.charge = 0
                 new_metabolites.append(m)
+
                 if compartment == "e":
                     # Add exchange reaction
                     exchange_reaction = model.add_boundary(m)
                     exchange_reaction.annotation["subsystem"] = "Exchange"
                     exchange_reaction.annotation["SBO"]= "SBO:0000627"
-                    
+
             else:
                 logging.info("Metabolite {0} is alredy in the model".format(m_id))
                 continue
@@ -157,5 +158,4 @@ if __name__ == '__main__':
     print("Metabolites: ", len(model.metabolites))
     print("Genes: ", len(model.genes))
     
-    # cobra.io.write_sbml_model(model, "../../test.xml")
     # cobra.io.save_yaml_model(model, "../../test.yml")
