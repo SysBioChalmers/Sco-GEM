@@ -1,13 +1,17 @@
 # -*- coding: utf-8 -*-
 """
-This file adds reactions and apply selected changes from iAA1259 based on the mapping of reactions and metabolites. 
 Author: Snorre Sulheim
 Date: 21.09.2018
 
 # Description
+This file adds reactions and apply selected changes from iAA1259 based on the mapping of reactions and metabolites.
+This script is supposed to be run thorugh the reconstruct_scoGEM.py script.
 
 # Files required
-
+- iAA1259_suppl_S4.csv"
+- iAA1259_suppl_S5.csv
+- scoGEM model
+- iAA1259
 """
 
 import cobra
@@ -43,6 +47,7 @@ reaction_mappings = {
     "CYOO": "CYTBD2", # Check gene annotation
     "AMMQT9r": "AMMQT9", #Bounds changed and genes
 }
+
 
 # Changed reactions
 """These is a manually curated dict of reactions that are modified in iAA1259.
@@ -174,6 +179,13 @@ def apply_metabolite_mapping(iAA1259_model):
         m = iAA1259_model.metabolites.get_by_id(old_id)
         m.id = new_id
 
+def add_exchange_reaction_for_ycpk(model):
+    model.add_boundary(model.metabolites.ycpk_e, "exchange")
+    model.reactions.EX_ycpk_e.lower_bound = 0
+    model.reactions.EX_ycpk_e.annotation["subsystem"] = "Exchange"
+    model.reactions.EX_ycpk_e.annotation["origin"] = "Sco-GEM"
+    logging.info("Added exchange reaction EX_ycpk_e")
+
 def map_S4():
     S4_df = pd.read_csv(S4_FN, sep = ";")
     print(S4_df)
@@ -202,9 +214,3 @@ if __name__ == '__main__':
     fix_iAA1259(iAA1259_model)
     add_reactions(iAA1259_model, scoGEM, S4_FN, True)
     change_biomass(iAA1259_model, scoGEM)
-    # map_S4()
-
-    # with open(S4_FN, "r") as f:
-    #     reader = csv.reader(f, delimiter = ";")
-    #     for row in reader:
-    #         print(len(row), row)

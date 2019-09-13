@@ -139,6 +139,7 @@ def reconstruct_scoGEM(model_fn, save_fn = None, write_requirements = True):
     reversibility.change_lower_bound_on_CPKS_reactions(scoGEM)
     reversibility.change_bounds_on_ATP_driven_reactions(scoGEM, ATP_DRIVEN_REACTIONS_REVERSIBILITY_FN)
 
+
     #Part 6 - Add transport reactions
     fix_transporters.fix_transporters(scoGEM,MODIFIED_TRANSPORT_REACTIONS_FN, NEW_TRANSPORT_REACTIONS_FN,
                                       NEW_TRANSPORT_REACTIONS_TO_NEW_METABOLITES_FN, NEW_METABOLITES_TO_NEW_TRANSPORT_REACTIONS)
