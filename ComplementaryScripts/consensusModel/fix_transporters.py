@@ -37,7 +37,7 @@ def modify_existing_transporters(model, existing_reactions_fn):
         r.gene_reaction_rule = row["Gene association"]
 
 def new_transport_reactions_to_existing_metabolites(model, new_transport_reactions_fn):
-    df = pd.read_csv(new_transport_reactions_fn, header = 0, sep = ",", index_col = False)
+    df = pd.read_csv(new_transport_reactions_fn, header = 0, sep = ",", index_col = False, quotechar = '"')
     for i, row in df.iterrows():
         r_id = row["RxnID"].strip()
         new_reaction = cobra.Reaction(r_id)
@@ -47,7 +47,7 @@ def new_transport_reactions_to_existing_metabolites(model, new_transport_reactio
         new_reaction.build_reaction_from_string(reaction_string)
         new_reaction.annotation["SBO"] = "SBO:0000655"
         new_reaction.annotation["subsystem"] = row["Subsystem"]
-        new_reaction.name = row["Reaction name"]
+        new_reaction.name = row["Reaction name"].strip()
 
         _check_and_fix_new_extracellular_metabolites(model, new_reaction)
 
@@ -64,12 +64,12 @@ def new_transport_reactions_to_new_metabolites(model, new_transport_reactions_ne
                 model.metabolites.get_by_id(m_id)
             except KeyError:
                 m = cobra.Metabolite(m_id)
-                m.name = row["KEGG_name"]
+                m.name = row["KEGG_name"].strip()
                 m.compartment = compartment
-                m.formula = row["chemical formula"]
-                m.annotation["kegg.compound"] = row["KEGG ID"]
+                m.formula = row["chemical formula"].strip()
+                m.annotation["kegg.compound"] = row["KEGG ID"].strip()
                 m.annotation["SBO"] = "SBO:0000247"
-                m.annotation["metabetx.chemical"] = row["metanetx ID"]
+                m.annotation["metabetx.chemical"] = row["metanetx ID"].strip()
                 m.charge = 0
                 new_metabolites.append(m)
 
@@ -89,13 +89,13 @@ def new_transport_reactions_to_new_metabolites(model, new_transport_reactions_ne
     for i, row in df.iterrows():
         r_id = row["RxnID"].strip()
         new_reaction = cobra.Reaction(r_id)
-        new_reaction.gene_reaction_rule = row["Gene annotation"]
+        new_reaction.gene_reaction_rule = row["Gene annotation"].strip()
         model.add_reaction(new_reaction)
         reaction_string = row["Rxn_Formula"].replace("[","_").replace("]","")
         new_reaction.build_reaction_from_string(reaction_string)
         new_reaction.annotation["SBO"] = "SBO:0000655"
-        new_reaction.annotation["subsystem"] = row["Subsystem"]
-        new_reaction.name = row["Reaction name"]        
+        new_reaction.annotation["subsystem"] = row["Subsystem"].strip()
+        new_reaction.name = row["Reaction name"].strip()
         _check_and_fix_new_extracellular_metabolites(model, new_reaction)
 
 

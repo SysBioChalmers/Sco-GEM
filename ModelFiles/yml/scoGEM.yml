@@ -9495,7 +9495,7 @@
       - origin: iMK1208
   - !!omap
     - id: asc6p_c
-    - name: 'L-ascorbate 6-phosphate '
+    - name: L-ascorbate 6-phosphate
     - compartment: c
     - charge: 0
     - formula: C6H909P
@@ -9505,7 +9505,7 @@
       - metabetx.chemical: MNXM2689
   - !!omap
     - id: asc6p_e
-    - name: 'L-ascorbate 6-phosphate '
+    - name: L-ascorbate 6-phosphate
     - compartment: e
     - charge: 0
     - formula: C6H909P
@@ -20622,23 +20622,23 @@
       - origin: iMA789
   - !!omap
     - id: lps_c
-    - name: ' Lipopolysaccharide'
+    - name: Lipopolysaccharide
     - compartment: c
     - charge: 0
     - formula: R
     - annotation: !!omap
       - SBO: SBO:0000247
-      - kegg.compound: ' C00338'
+      - kegg.compound: C00338
       - metabetx.chemical: MNXM60426
   - !!omap
     - id: lps_e
-    - name: ' Lipopolysaccharide'
+    - name: Lipopolysaccharide
     - compartment: e
     - charge: 0
     - formula: R
     - annotation: !!omap
       - SBO: SBO:0000247
-      - kegg.compound: ' C00338'
+      - kegg.compound: C00338
       - metabetx.chemical: MNXM60426
   - !!omap
     - id: lycop_c
@@ -78203,7 +78203,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: ACTabc
-    - name: ' Membrane"'
+    - name: Actinorhodin transport via ABC system
     - metabolites: !!omap
       - act_c: -1
       - act_e: 1
@@ -78218,10 +78218,10 @@
         SCO6295
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' "Transport'
+      - subsystem: Membrane transport
   - !!omap
     - id: ACTdiff
-    - name: ' Membrane"'
+    - name: Actinorhodin transport by facilitated diffusion
     - metabolites: !!omap
       - act_c: -1
       - act_e: 1
@@ -78230,7 +78230,7 @@
     - gene_reaction_rule: SCO3190
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' "Transport'
+      - subsystem: Membrane transport
   - !!omap
     - id: ACTt
     - name: actinorhodin transport via facilitated transport
@@ -78447,7 +78447,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: AMEt
-    - name: ' Membrane"'
+    - name: Transport of S-Adenosyl-L-methionine via ABC system
     - metabolites: !!omap
       - adp_c: 1
       - atp_c: -1
@@ -78461,7 +78461,7 @@
     - gene_reaction_rule: SCO4104 or SCO5481
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' "Transport'
+      - subsystem: Membrane transport
   - !!omap
     - id: ANTHte
     - name: anthranilate transport via facilitated diffusion
@@ -78591,7 +78591,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: ASCpts
-    - name: ' Acorbate transport via PEP:Pyr PTS'
+    - name: Acorbate transport via PEP:Pyr PTS
     - metabolites: !!omap
       - asc6p_c: 1
       - ascb__L_e: -1
@@ -78602,7 +78602,7 @@
     - gene_reaction_rule: SCO0136
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: ASNabc
     - name: L-asparagine transport via ABC system/putative L-asparagine permease
@@ -78645,7 +78645,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: ASO3abc
-    - name: ' Membrane"'
+    - name: Arsenite influx via ABC system
     - metabolites: !!omap
       - adp_c: 1
       - aso3_c: 1
@@ -78659,7 +78659,7 @@
     - gene_reaction_rule: SCO2128
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' "Transport'
+      - subsystem: Membrane transport
   - !!omap
     - id: ASO3t8
     - name: arsenite efflux via ATP hydrolysis
@@ -78801,7 +78801,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: BTNt
-    - name: ' Membrane"'
+    - name: Biotin transport via ABC system
     - metabolites: !!omap
       - adp_c: 1
       - atp_c: -1
@@ -78815,7 +78815,7 @@
     - gene_reaction_rule: SCO2630
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' "Transport'
+      - subsystem: Membrane transport
   - !!omap
     - id: BTNt2i
     - name: Biotin transport via proton symport
@@ -78895,7 +78895,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: CATECHOLt
-    - name: ' Catechol transport via facilitated diffusion'
+    - name: Catechol transport via facilitated diffusion
     - metabolites: !!omap
       - catechol_c: 1
       - catechol_e: -1
@@ -78904,7 +78904,7 @@
     - gene_reaction_rule: SCO0242 or SCO6122
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: CBIabc
     - name: Cobinamide transport via ABC system (uptake)
@@ -79065,7 +79065,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: CHLNAt1
-    - name: ' Choline transport via sodium symport'
+    - name: Choline transport via sodium symport
     - metabolites: !!omap
       - chol_c: 1
       - chol_e: -1
@@ -79076,7 +79076,7 @@
     - gene_reaction_rule: SCO6990
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' Inorganic Ion Transport and metabolism'
+      - subsystem: Inorganic Ion Transport and metabolism
   - !!omap
     - id: CHLabc
     - name: choline transport via ABC system
@@ -79190,7 +79190,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: CITt2
-    - name: ' Membrane"'
+    - name: Citrate transport via proton symport
     - metabolites: !!omap
       - cit_c: 1
       - cit_e: -1
@@ -79201,7 +79201,7 @@
     - gene_reaction_rule: SCO1710
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' "Transport'
+      - subsystem: Membrane transport
   - !!omap
     - id: CITt3
     - name: citrate transport out via proton antiport
@@ -79303,7 +79303,7 @@
       - subsystem: Inorganic Ion Transport and metabolism
   - !!omap
     - id: COBALTabc
-    - name: ' Cobalt transport via ABC system'
+    - name: Cobalt transport via ABC system
     - metabolites: !!omap
       - adp_c: 1
       - atp_c: -1
@@ -79318,7 +79318,7 @@
         SCO2323 and SCO2325
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' Inorganic Ion Transport and metabolism'
+      - subsystem: Inorganic Ion Transport and metabolism
   - !!omap
     - id: COELICHELINUt
     - name: coelichelin secretion
@@ -79644,7 +79644,7 @@
     - gene_reaction_rule: SCO1812 or SCO7157 or SCO7703
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: DADNt2
     - name: deoxyadenosine transport in via proton symport
@@ -79796,7 +79796,7 @@
     - gene_reaction_rule: SCO1785 or SCO2422 or SCO6426 or SCO5780
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: DGSNt2
     - name: deoxyguanosine transport in via proton symport
@@ -79926,7 +79926,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: ENTBACTINt
-    - name: ' enterobactin transport via facilitated diffusion'
+    - name: enterobactin transport via facilitated diffusion
     - metabolites: !!omap
       - entbactin_c: -1
       - entbactin_e: 1
@@ -79936,7 +79936,7 @@
         or SCO7346 or SCO7369)
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: ENTERt
     - name: enterobactin exporter EntS
@@ -80019,7 +80019,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: FBae1
-    - name: ' chitobiose transport via facilitated diffsuion'
+    - name: chitobiose transport via facilitated diffsuion
     - metabolites: !!omap
       - fb_c: -1
       - fb_e: 1
@@ -80028,7 +80028,7 @@
     - gene_reaction_rule: SCO0513
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: FE2t2
     - name: iron (II) transport in via proton symport
@@ -80099,7 +80099,7 @@
     - gene_reaction_rule: SCO1786
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: FEOXAMBUt
     - name: desferrioxamine B secretion
@@ -80176,7 +80176,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: FEt
-    - name: ' GTP driven iron (II) transport'
+    - name: GTP driven iron (II) transport
     - metabolites: !!omap
       - fe2_c: 1
       - fe2_e: -1
@@ -80190,10 +80190,10 @@
     - gene_reaction_rule: SCO2539
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' Inorganic Ion Transport and metabolism'
+      - subsystem: Inorganic Ion Transport and metabolism
   - !!omap
     - id: FICYTabc
-    - name: ' Membrane"'
+    - name: Ferricytochrome transport via ABC system
     - metabolites: !!omap
       - adp_c: 1
       - atp_c: -1
@@ -80207,7 +80207,7 @@
     - gene_reaction_rule: SCO4475
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' "Transport'
+      - subsystem: Membrane transport
   - !!omap
     - id: FORti
     - name: formate transport via diffusion
@@ -80267,7 +80267,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: FUCOSEt
-    - name: ' Fucose transport via proton symport'
+    - name: Fucose transport via proton symport
     - metabolites: !!omap
       - fucose_c: 1
       - fucose_e: -1
@@ -80278,7 +80278,7 @@
     - gene_reaction_rule: SCO4462
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: FUMt2_2
     - name: Fumarate transport via proton symport (2 H)
@@ -80300,7 +80300,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: FUSt
-    - name: ' fusaric acid transport via facilitated diffusion'
+    - name: fusaric acid transport via facilitated diffusion
     - metabolites: !!omap
       - fus_c: 1
       - fus_e: -1
@@ -80310,10 +80310,10 @@
         or SCO7318
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: Fe2
-    - name: ' Facilitated diffusion of iron (II)'
+    - name: Facilitated diffusion of iron (II)
     - metabolites: !!omap
       - fe2_c: 1
       - fe2_e: -1
@@ -80322,10 +80322,10 @@
     - gene_reaction_rule: SCO2277 and SCO3963
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' Inorganic Ion Transport and metabolism'
+      - subsystem: Inorganic Ion Transport and metabolism
   - !!omap
     - id: FeHemu
-    - name: ' Membrane"'
+    - name: Iron (II) coupled Heme transport
     - metabolites: !!omap
       - adp_c: 1
       - atp_c: -1
@@ -80340,7 +80340,7 @@
     - gene_reaction_rule: SCO2276
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' "Transport'
+      - subsystem: Membrane transport
   - !!omap
     - id: GALCTNt2
     - name: D-galactonate transport via proton symport
@@ -80580,7 +80580,7 @@
     - gene_reaction_rule: SCO1465
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: GLUabc
     - name: L-glutamate transport via ABC system
@@ -80877,7 +80877,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: GTHOXabc
-    - name: ' Membrane"'
+    - name: Oxidized glutathione
     - metabolites: !!omap
       - adp_c: 1
       - atp_c: -1
@@ -80891,7 +80891,7 @@
     - gene_reaction_rule: SCO1344 or SCO1655 or SCO6644 or SCO7563
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' "Transport'
+      - subsystem: Membrane transport
   - !!omap
     - id: GUAt
     - name: Guanine transport via diffusion
@@ -80979,7 +80979,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: HEMabc
-    - name: ' Membrane"'
+    - name: Heme transport via ABC system
     - metabolites: !!omap
       - adp_c: 1
       - atp_c: -1
@@ -80993,7 +80993,7 @@
     - gene_reaction_rule: SCO1840 or SCO6047 or SCO2677 or SCO6512 or SCO6742 or SCO5009
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' "Transport'
+      - subsystem: Membrane transport
   - !!omap
     - id: HISabc
     - name: L-histidine transport via ABC system
@@ -81018,7 +81018,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: HISpep
-    - name: ' Histidine transport via PEP:Pyr PTS'
+    - name: Histidine transport via PEP:Pyr PTS
     - metabolites: !!omap
       - his__L_e: -1
       - pep_c: -1
@@ -81029,7 +81029,7 @@
     - gene_reaction_rule: SCO1391
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: HISt2r
     - name: L-histidine reversible transport via proton symport
@@ -81144,7 +81144,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: INDIGt
-    - name: ' dibromoindigo transport via facilitated diffusion'
+    - name: dibromoindigo transport via facilitated diffusion
     - metabolites: !!omap
       - indig_c: 1
       - indig_e: -1
@@ -81153,7 +81153,7 @@
     - gene_reaction_rule: SCO2646
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: INDOLEt2r
     - name: Indole transport via proton symport, reversible
@@ -81302,7 +81302,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: LCTSt
-    - name: ' Membrane"'
+    - name: Lactose transport via proton symport
     - metabolites: !!omap
       - h_c: 1
       - h_e: -1
@@ -81313,7 +81313,7 @@
     - gene_reaction_rule: SCO4329 and SCO4446 and SCO4451 and SCO4641
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' "Transport'
+      - subsystem: Membrane transport
   - !!omap
     - id: LEUabc
     - name: L-leucine transport via ABC system
@@ -81391,7 +81391,7 @@
         SCO5453 or SCO5479 or SCO5654  and  SCO4884
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: LYSabc
     - name: L-lysine transport via ABC system
@@ -81779,7 +81779,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: MELIBabc
-    - name: ' Membrane"'
+    - name: Melibiose transport via ABC system
     - metabolites: !!omap
       - adp_c: 1
       - atp_c: -1
@@ -81793,7 +81793,7 @@
     - gene_reaction_rule: (SCO0290 and SCO7165) or SCO1707
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' "Transport'
+      - subsystem: Membrane transport
   - !!omap
     - id: MELIBt2
     - name: melibiose transport in via symport
@@ -81906,7 +81906,7 @@
       - subsystem: Inorganic Ion Transport and metabolism
   - !!omap
     - id: MMYAt
-    - name: ' Methylenomycin A transport via proton antiport  '
+    - name: Methylenomycin A transport via proton antiport
     - metabolites: !!omap
       - mmyA_c: 1
       - mmyA_e: -1
@@ -81915,10 +81915,10 @@
     - gene_reaction_rule: SCO0295
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: MMYBt
-    - name: ' Methylenomycin B transport via proton antiport  '
+    - name: Methylenomycin B transport via proton antiport
     - metabolites: !!omap
       - mmyB_c: 1
       - mmyB_e: -1
@@ -81927,7 +81927,7 @@
     - gene_reaction_rule: SCO0295
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: MN2t3
     - name: manganese (Mn+2) transport out via proton antiport
@@ -82397,7 +82397,7 @@
     - gene_reaction_rule: SCO2258 or SCO2306
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: ORNabc
     - name: ornithine transport via ABC system
@@ -82438,7 +82438,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: OXOFORMATEt
-    - name: ' oxalate:formate transport via proton symport'
+    - name: oxalate:formate transport via proton symport
     - metabolites: !!omap
       - h_c: 1
       - h_e: -1
@@ -82449,7 +82449,7 @@
     - gene_reaction_rule: SCO6563
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: PACALDt2r
     - name: phenylacetaldehyde reversible transport via proton symport
@@ -82597,7 +82597,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: PRNt
-    - name: ' purine ribonucleoside transport via facilitated diffusion'
+    - name: purine ribonucleoside transport via facilitated diffusion
     - metabolites: !!omap
       - prn_c: 1
       - prn_e: -1
@@ -82606,7 +82606,7 @@
     - gene_reaction_rule: SCO0079
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: PROabc
     - name: L-proline transport via ABC system
@@ -82790,7 +82790,7 @@
       - subsystem: Inorganic Ion Transport and metabolism
   - !!omap
     - id: RAFFINabc
-    - name: ' Membrane"'
+    - name: Raffinose transport via ABC system
     - metabolites: !!omap
       - adp_c: 1
       - atp_c: -1
@@ -82804,7 +82804,7 @@
     - gene_reaction_rule: SCO0290  and SCO7165
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' "Transport'
+      - subsystem: Membrane transport
   - !!omap
     - id: RAFFINt2
     - name: raffinose transport in via symport
@@ -83042,7 +83042,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: SERabc
-    - name: ' Membrane"'
+    - name: Serine transport via ABC system
     - metabolites: !!omap
       - adp_c: 1
       - atp_c: -1
@@ -83056,7 +83056,7 @@
     - gene_reaction_rule: SCO5598
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' "Transport'
+      - subsystem: Membrane transport
   - !!omap
     - id: SERt2r
     - name: L-serine reversible transport via proton symport
@@ -83297,7 +83297,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: SUFBCD4abc
-    - name: ' Membrane"'
+    - name: ABC system transport of SufBCD with bound [4Fe-4S] cluster
     - metabolites: !!omap
       - adp_c: 1
       - atp_c: -1
@@ -83311,10 +83311,10 @@
     - gene_reaction_rule: SCO1922 or SCO1924 or SCO1925
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' "Transport'
+      - subsystem: Membrane transport
   - !!omap
     - id: SUFBCDabc
-    - name: ' Membrane"'
+    - name: ABC system transport of SufBCD with two bound [2Fe-2S] clusters
     - metabolites: !!omap
       - adp_c: 1
       - atp_c: -1
@@ -83328,7 +83328,7 @@
     - gene_reaction_rule: SCO1922 or SCO1924 or SCO1925
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' "Transport'
+      - subsystem: Membrane transport
   - !!omap
     - id: SULabc
     - name: sulfate transport via ABC system
@@ -83410,7 +83410,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: TELUt
-    - name: ' tellurite transport via facilitated diffusion'
+    - name: tellurite transport via facilitated diffusion
     - metabolites: !!omap
       - telu_c: 1
       - telu_e: -1
@@ -83419,10 +83419,10 @@
     - gene_reaction_rule: SCO0562 or SCO0892 or SCO1963 or SCO2366 or SCO6313
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: TELt
-    - name: ' Tellurite transport via facilitated diffusion'
+    - name: Tellurite transport via facilitated diffusion
     - metabolites: !!omap
       - tel_c: 1
       - tel_e: -1
@@ -83431,7 +83431,7 @@
     - gene_reaction_rule: SCO1617 or SCO4795
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: THD2
     - name: NAD(P) transhydrogenase
@@ -83501,7 +83501,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: THMmfs
-    - name: ' Membrane"'
+    - name: Thiamine transport via proton symport
     - metabolites: !!omap
       - h_c: 1
       - h_e: -1
@@ -83512,7 +83512,7 @@
     - gene_reaction_rule: SCO6384
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: ' "Transport'
+      - subsystem: Membrane transport
   - !!omap
     - id: THRabc
     - name: L-threonine transport via ABC system
@@ -83609,7 +83609,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: TPPt
-    - name: ' tetraphenylphosphonium transport via facilitated diffusion'
+    - name: tetraphenylphosphonium transport via facilitated diffusion
     - metabolites: !!omap
       - TPP_c: 1
       - TPP_e: -1
@@ -83619,7 +83619,7 @@
         or SCO5851 or SCO6376 or SCO7394
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: TREabc
     - name: trehalose transport via ABC system
@@ -83908,7 +83908,7 @@
       - subsystem: Membrane transport
   - !!omap
     - id: XYLBabc
-    - name: ' Thiamine pyrophosphate transport via ABC system'
+    - name: Thiamine pyrophosphate transport via ABC system
     - metabolites: !!omap
       - adp_c: 1
       - atp_c: -1
@@ -83922,7 +83922,7 @@
     - gene_reaction_rule: SCO7028 and SCO7029 and SCO7030
     - annotation: !!omap
       - SBO: SBO:0000655
-      - subsystem: Transport, Membrane
+      - subsystem: Membrane transport
   - !!omap
     - id: XYLTabc
     - name: xylitol transport via ABC system
@@ -84979,7 +84979,7 @@
       - subsystem: Exchange
   - !!omap
     - id: EX_asc6p_e
-    - name: L-ascorbate 6-phosphate  exchange
+    - name: L-ascorbate 6-phosphate exchange
     - metabolites: !!omap
       - asc6p_e: -1
     - lower_bound: -1000.0
@@ -86567,7 +86567,7 @@
       - subsystem: Exchange
   - !!omap
     - id: EX_lps_e
-    - name: ' Lipopolysaccharide exchange'
+    - name: Lipopolysaccharide exchange
     - metabolites: !!omap
       - lps_e: -1
     - lower_bound: -1000.0
