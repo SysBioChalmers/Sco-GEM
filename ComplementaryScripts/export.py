@@ -47,11 +47,11 @@ Example
 =======
 The script can either be run directly from the command line::
 
-    $ python export.py scoGEM.xml --folder ModelFiles --formats xml yml txt
+    $ python export.py Sco-GEM.xml --folder ModelFiles --formats xml yml txt
 
 or using the module function::
     from export import export
-    export(scoGEM, formats = ["xml", "yml", "txt"])
+    export(Sco_GEM, formats = ["xml", "yml", "txt"])
 
 
 """
@@ -67,19 +67,19 @@ REPO_MAIN_FOLDER = Path(__file__).resolve().parent.parent
 
 
 
-def export(scoGEM, folder = "ModelFiles", name = "scoGEM", formats = ["xml", "yml", "txt"], sbml_level = 3, sbml_version = 1, use_fbc_package = True,
+def export(Sco_GEM, folder = "ModelFiles", name = "Sco-GEM", formats = ["xml", "yml", "txt"], sbml_level = 3, sbml_version = 1, use_fbc_package = True,
            write_requirements = True):
     """
     Sort the model entities and export the model in given formats
 
     Parameters
     ----------
-    scoGEM: cobra.core.model.Model
+    Sco_GEM: cobra.core.model.Model
         The model file
     folder: str, optional
         The subfolder in the repository in which all the model files are stored, relative to the root dir of the repository (default: "ModelFiles")
     name: str, optional
-        Model file name (default: "scoGEM")
+        Model file name (default: "Sco-GEM")
     formats: list of str, optional
         The formats the model should be exported in (default: ["xml", "yml", "txt"])
     sbml_level: int, optional
@@ -90,7 +90,7 @@ def export(scoGEM, folder = "ModelFiles", name = "scoGEM", formats = ["xml", "ym
         If the fbc-package should be used to store the sbml-file (default: True)
 
     """
-    sort_model(scoGEM)
+    sort_model(Sco_GEM)
 
     main_folder_path = REPO_MAIN_FOLDER / folder
     # write xml
@@ -99,24 +99,24 @@ def export(scoGEM, folder = "ModelFiles", name = "scoGEM", formats = ["xml", "ym
             model_fn_xml = main_folder_path / "xml" / "{0}.xml".format(name)
             check_folder(model_fn_xml)
             print("Writing {0}".format(str(model_fn_xml)))
-            cobra.io.write_sbml_model(scoGEM, str(model_fn_xml), use_fbc_package = use_fbc_package)
+            cobra.io.write_sbml_model(Sco_GEM, str(model_fn_xml), use_fbc_package = use_fbc_package)
         else:
             model_fn_xml = main_folder_path / "xml" / "{0}_lvl2.xml".format(name)
             check_folder(model_fn_xml)
             print("Writing {0}".format(str(model_fn_xml)))
-            cobra.io.write_legacy_sbml(scoGEM, str(model_fn_xml), use_fbc_package = use_fbc_package)
+            cobra.io.write_legacy_sbml(Sco_GEM, str(model_fn_xml), use_fbc_package = use_fbc_package)
     
     if ("yml" in formats) or ("yaml" in formats):
         model_fn_yml = main_folder_path / "yml" / "{0}.yml".format(name)
         check_folder(model_fn_yml)
         print("Writing {0}".format(str(model_fn_yml)))
-        cobra.io.save_yaml_model(scoGEM, str(model_fn_yml))
+        cobra.io.save_yaml_model(Sco_GEM, str(model_fn_yml))
 
     if "json" in formats:
         model_fn_json = main_folder_path / "json" / "{0}.json".format(name)
         check_folder(model_fn_json)
         print("Writing {0}".format(str(model_fn_json)))
-        cobra.io.save_json_model(scoGEM, str(model_fn_json))
+        cobra.io.save_json_model(Sco_GEM, str(model_fn_json))
         
     if "txt" in formats:
         print("Can't print txt-files yet. Skipping")
@@ -124,13 +124,13 @@ def export(scoGEM, folder = "ModelFiles", name = "scoGEM", formats = ["xml", "ym
         # model_fn_txt = main_folder_path / "txt" / "{0}.txt".format(name)
         # check_folder(model_fn_txt)
         # print("Writing {0}".format(str(model_fn_txt)))
-        # cobra.io.write_sbml_model(scoGEM, str(model_fn_txt))
+        # cobra.io.write_sbml_model(Sco_GEM, str(model_fn_txt))
 
     if "mat" in formats:
         model_fn_mat = main_folder_path / "mat" / "{0}.mat".format(name)
         check_folder(model_fn_mat)
         print("Writing {0}".format(str(model_fn_mat)))
-        cobra.io.save_matlab_model(scoGEM, str(model_fn_mat))
+        cobra.io.save_matlab_model(Sco_GEM, str(model_fn_mat))
 
     if write_requirements:
         write_requirements_fun(REPO_MAIN_FOLDER)
@@ -140,25 +140,25 @@ def check_folder(file_path):
         file_path.parent.mkdir(parents = True, exist_ok = True)
 
 
-def sort_model(scoGEM):
+def sort_model(Sco_GEM):
     # Sort metabolites
-    scoGEM.metabolites.sort()
+    Sco_GEM.metabolites.sort()
     
     # Sort compartments
     # ToDo: This is currently not working
-    # scoGEM.compartments = sort_dict(scoGEM.compartments)
+    # Sco_GEM.compartments = sort_dict(Sco_GEM.compartments)
 
     # Sort genes
-    scoGEM.genes.sort()
+    Sco_GEM.genes.sort()
 
 
     # Sort reactions
-    reaction_order_dict = sort_reactions(scoGEM)
-    scoGEM.reactions.sort(key = lambda r: reaction_order_dict[r.id])
+    reaction_order_dict = sort_reactions(Sco_GEM)
+    Sco_GEM.reactions.sort(key = lambda r: reaction_order_dict[r.id])
 
 
 
-def sort_reactions(scoGEM):
+def sort_reactions(Sco_GEM):
     reaction_order_dict = {}
     i = 0
 
@@ -173,7 +173,7 @@ def sort_reactions(scoGEM):
     atpm_reactions = []
     encapsulating_reactions = []
     other_reactions = []
-    for r in scoGEM.reactions:
+    for r in Sco_GEM.reactions:
         try:
             sbo = r.annotation["SBO"]
         except KeyError:
@@ -231,14 +231,14 @@ def sort_dict(model_dict, by = "key"):
 
 if __name__ == '__main__':
     if 0:
-        scoGEM_FN = "../ModelFiles/xml/scoGEM.xml"
-        scoGEM = cobra.io.read_sbml_model(scoGEM_FN)
-        export(scoGEM)
+        Sco_GEM_FN = "../ModelFiles/xml/Sco-GEM.xml"
+        Sco_GEM = cobra.io.read_sbml_model(Sco_GEM_FN)
+        export(Sco_GEM)
     else:
-        parser = argparse.ArgumentParser(description= "Export the scoGEM model")
+        parser = argparse.ArgumentParser(description= "Export the Sco-GEM model")
         parser.add_argument("model_path", help = "Path to SBML (xml) model file")
         parser.add_argument("--formats", nargs='+', help = "The different file formats to export the model in", default = ["xml", "yml", "txt"])
-        parser.add_argument("--name", type = str, help = "General name of exported model files", default = "scoGEM")
+        parser.add_argument("--name", type = str, help = "General name of exported model files", default = "Sco-GEM")
         parser.add_argument("--folder", type = str, help = "The general subfolder relative to the repo's root directory to store the model files in", default = "ModelFiles")
         parser.add_argument("--sbml_level", type = str, help = "SBML level", default = 3)
         parser.add_argument("--sbml_version", type = str, help = "SBML version", default = 1)
@@ -249,7 +249,7 @@ if __name__ == '__main__':
 
         model_path = str(cwd / args.model_path)
         try:
-            scoGEM = cobra.io.read_sbml_model(model_path)
+            Sco_GEM = cobra.io.read_sbml_model(model_path)
         except OSError as e:
             print("Cant find model file: {0}".format(model_path))
             raise
@@ -259,4 +259,4 @@ if __name__ == '__main__':
                 print("Currently, only SBML-version 1 is supported. sbml_version parameter ignored.")
             sbml_version = 1
                 
-            export(scoGEM, args.folder, args.name, args.formats, args.sbml_level, sbml_version, args.use_fbc_package)
+            export(Sco_GEM, args.folder, args.name, args.formats, args.sbml_level, sbml_version, args.use_fbc_package)
