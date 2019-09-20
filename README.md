@@ -48,4 +48,5 @@ This repository is administered by Eduard Kerkhoven ([@SysBioChalmers](https://g
 ### Contributors
 * [Eduard J. Kerkhoven](https://www.chalmers.se/en/staff/Pages/Eduard-Kerkhoven.aspx) ([@edkerk](https://github.com/edkerk)), Chalmers University of Technology, Sweden
 * [Snorre Sulheim](https://www.sintef.no/en/all-employees/employee/?empId=5675) ([@sulheim](https://github.com/sulheim)), SINTEF Industry, Norway / Norwegian University of Science and Technology, Norway
-* [Tjasa Kumelj](https://www.ntnu.edu/employees/tjasa.kumelj) ([@kumelj](https://github.com/kumelj)), Norwegian University of Science and Technology, Norway
+* [Tjasa Kumelj](https://www.ntnu.edu/employees/tjasa.kumelj) ([@tjasakumelj](https://github.com/tjasakumelj)), Norwegian University of Science and Technology, Norway
+* [Ali Salehzadeh-Yazdi](https://www.sbi.uni-rostock.de/team/detail/ali-salehzadeh-yazdi) ([@alisalehzadeh-yazdi](https://github.com/alisalehzadeh-yazdi)), University of Rostock, Germany
