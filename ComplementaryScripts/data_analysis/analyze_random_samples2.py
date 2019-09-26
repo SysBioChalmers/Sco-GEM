@@ -433,6 +433,10 @@ def analyze_malcoa_consumption(model_fn, random_samples_fn, sep = "\t", subplot 
 
     plt.show()
 
+    
+    print(df_consumption[df_consumption["rxns"]!="MCOATA"].groupby(["Strain", "Time point"]).sum())
+    print(df_consumption[df_consumption["rxns"]=="MCOATA"].groupby(["Strain", "Time point"]).sum())
+
 
 def analyze_pyruvate_consumption(model_fn, random_samples_fn, sep = "\t"):
     metabolite_id = "pyr_c"
@@ -698,7 +702,7 @@ if __name__ == '__main__':
         # pathway_analysis_plot(model_fn, uptake_normalized_random_samples_fn, SELECTED_PATHWAYS_M145, row_order = row_order, mask_rows = mask_rows)
     if 0:
         analyze_accoa_consumption(model_fn, co2_normalized_random_samples_fn, subplot = False)
-    if 0:
+    if 1:
         analyze_malcoa_consumption(model_fn, co2_normalized_random_samples_fn, subplot = True)
 
     if 0:
@@ -715,7 +719,7 @@ if __name__ == '__main__':
         plot_key_metabolic_reactions(growth_normalized_random_samples_fn, "Growth rate normalized", "\t")
         plot_key_metabolic_reactions(all_flux_normalized_random_samples_fn, "Normalized by sum of fluxes", "\t")
 
-    if 1:
+    if 0:
         # plot_selected_reactions(co2_normalized_random_samples_fn, ["CS", "ICDHyr"], "Aceyl-CoA consumption into TCA cycle", "\t")
         # plot_selected_reactions(co2_normalized_random_samples_fn, ["FBA", "PFK", "ENO", "G6PDH2r"], "Aceyl-CoA consumption into TCA cycle", "\t", strain = "M145")
         plot_selected_reactions(co2_normalized_random_samples_fn, ["ILETA", "LEUTA", "VALTA", "ILEDHr", "VALDHr", "LLEUDr"], "Branched-chain amino acids", "\t", strain = "M145")
