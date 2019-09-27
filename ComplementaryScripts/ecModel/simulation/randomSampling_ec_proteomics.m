@@ -43,7 +43,7 @@ for i=1:length(RSraw)
 end
 
 % Normalize for CO2 excretion
-co2Idx = find(ismember(rxns{1},'EX_co2_e'));
+co2Idx = find(ismember(rxns{1},'BIOMASS_SCO_tRNA'));
 for i=1:length(RSraw)
     normFactor = RSmean(co2Idx,i);
     disp(num2str(normFactor))
@@ -51,20 +51,24 @@ for i=1:length(RSraw)
     RSsd(:,i) = RSsd(:,i) ./ normFactor;
 end
 
-clear Z Zflux
-Zflux(:,1) = getFluxZ(RSmean(:,2),RSmean(:,6));
-Zflux(:,2) = getFluxZ(RSmean(:,2),RSmean(:,11));
-Zflux(:,3) = getFluxZ(RSmean(:,11),RSmean(:,15));
-Zflux(:,4) = getFluxZ(RSmean(:,6),RSmean(:,15));
-
 % Export data
-save([root '/scrap/RScomb.mat'],'RSraw','RS*','rxns')
+load([root '/scrap/RScomb.mat'],'RSraw','RS*','rxns')
 
 rsOut=[rxns{1} num2cell(full(RSmean)) num2cell(full(RSsd))];
-fid = fopen([root '/ComplementaryData/ecmodel/simulations/ec-RandSampComb_proteomics_CO2norm.tsv'],'w');
+fid = fopen([root '/ComplementaryData/ecmodel/simulations/ec-RandSampComb_proteomics_growthNorm.tsv'],'w');
 fprintf(fid,[repmat('%s\t',1,34) '%s\n'],...
     ['rxns' strcat('MEAN_',transpose(sample)) strcat('STDEV_',transpose(sample))]);
 for j=1:length(rsOut)
     fprintf(fid,['%s' repmat('\t%d',1,34) '\n'],rsOut{j,:});
 end
 fclose(fid);
+
+%% Export random samples
+for j=1:length(RS)
+    fid = fopen([root '/scrap/RS_' sample{j,:} '.csv'],'w');
+    for i=1:size(RS{j},1)
+        fprintf(fid,'%s\t',rxns{j}{i});
+        fprintf(fid,[repmat('%d\t',1,size(RS{j},2)-1) '%d\n'],full(RS{j}(i,:)));
+    end
+    fclose(fid);
+end
