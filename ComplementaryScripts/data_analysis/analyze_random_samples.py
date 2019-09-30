@@ -1,10 +1,14 @@
 # -*- coding: utf-8 -*-
 """
 This file analyze the random samples from the enzyme-constrained models 
-created by Eduard Kerkhoven by using the Raven Toolbox. 
+created by Eduard Kerkhoven by using the Raven Toolbox.
+
+This file is more a collection of snippets used to create figures for the manuscript than anything else. It is poorly commented / documented.
+
 
 Author: Snorre Sulheim
 Created: 12.03.2019
+Modified: 30.09.2019
 Email: snorre.sulheim@sintef.no
 """
 import pandas as pd
@@ -36,6 +40,9 @@ OTHER_AMINO_ACIDS = []
 NUCLEOTIDE_METABOLISM = ["Purine metabolism", "Pyrimidine metabolism"]                          
 
 def pathway_analysis_plot(model_fn, random_samples_fn, selected_pwys, row_order = None, labels = None, mask_rows = None, sep = "\t", key = "pathway", absolute_values = True):
+    """
+    Plot random sampling heatmap for both M1454 and M1152
+    """
     model = cobra.io.read_sbml_model(model_fn)
     df = get_random_samples(random_samples_fn, model, key = key, sep = sep, column_key = "MEAN", absolute_values = absolute_values)
     sub_df = df.groupby(key).sum()
@@ -70,7 +77,6 @@ def pathway_analysis_plot(model_fn, random_samples_fn, selected_pwys, row_order 
     else:
         abs_string = "real"
 
-
     # Plot Settings
     # fig, [ax_M145, ax_M1152] = plt.subplots(1, 2, sharey = True)
     figsize = (14, 14)
@@ -102,6 +108,9 @@ def pathway_analysis_plot(model_fn, random_samples_fn, selected_pwys, row_order 
 
 def pathway_analysis(model_fn, random_samples_fn, selected_pwys, strain = "M145", row_order = None, labels = None, 
                      mask_rows = None, store = True, key = "pathway", sep = ",", absolute_values = True):
+    """
+    Plot pathway heatmap for either M145 or M1152
+    """
     model = cobra.io.read_sbml_model(model_fn)
     df = get_random_samples(random_samples_fn, model, key = key, sep = sep, column_key = "MEAN", absolute_values = absolute_values)
     sub_df = df.groupby(key).sum()
@@ -162,8 +171,10 @@ def pathway_analysis(model_fn, random_samples_fn, selected_pwys, strain = "M145"
     plt.show()
 
 
-def get_random_samples(fn, model, key = "subsystem", sep = "\t", column_key = "MEAN", 
-                       discard_values_above_max_M145 = True, skipcolumns = 0, absolute_values = True):
+def get_random_samples(fn, model, key = "subsystem", sep = "\t", column_key = "MEAN", skipcolumns = 0, absolute_values = True):
+    """
+    Reads the random samples and performs some data preprocessing. 
+    """
     df = pd.read_csv(fn, index_col = 0, header = 0, sep = sep)
     df_data = df.iloc[:, skipcolumns:]
     
@@ -180,19 +191,14 @@ def get_random_samples(fn, model, key = "subsystem", sep = "\t", column_key = "M
         columns = [x for x in df.columns.values if column_key in x]
         df_data = df_data.loc[:, columns]
         
-    if discard_values_above_max_M145:
-        # Remove rows from the sampling in which the value are larger than the maximum value of M145
-        M145_columns = [x for x in df_data.columns.values if "M145" in x]
-        print("M145 columns: ", M145_columns)
-        max_M145 = df_data.loc[:, M145_columns].max().max()
-        large_value_rows = df_data.abs().max(axis = 1) > max_M145
-        df_data = df_data.loc[~large_value_rows, :]
-        print("Removed the following reaction because of large values (absolute value above {0}): {1}".format(max_M145, large_value_rows[large_value_rows].index))
 
     subsystem_df = add_subsystem_to_df(df_data, model, key)
     return subsystem_df
 
 def get_random_samples_raw(fn, sep = "\t", column_key = "MEAN", skipcolumns = 0):
+    """
+    Reads the random sampling data without the preprocessing
+    """
     df = pd.read_csv(fn, index_col = 0, header = 0, sep = sep)
     df_data = df.iloc[:, skipcolumns:]
 
@@ -273,6 +279,9 @@ def add_subsystem_to_df(df, model, key = "subsystem"):
     return df_to_keep
 
 def make_contribution_subsystems_plots(model_fn, random_samples_fn, sep = "\t", key = "pathway", absolute_values = False):
+    """
+    Used for data QC. Plots histogram to see which reactions that have the largest contribution to each pathway
+    """
     model = cobra.io.read_sbml_model(model_fn)
     df = get_random_samples(random_samples_fn, model, key = key, sep = sep, column_key = "MEAN", absolute_values = absolute_values)
     
@@ -293,10 +302,6 @@ def make_contribution_subsystems_plots(model_fn, random_samples_fn, sep = "\t", 
         fig.savefig(fn)
         plt.close()
 
-
-
-def compare_pathway_ratios():
-    pass
 
 def analyze_accoa_consumption(model_fn, random_samples_fn, sep = "\t", subplot = True):
     metabolite_id = "accoa_c"
@@ -353,6 +358,9 @@ def analyze_accoa_consumption(model_fn, random_samples_fn, sep = "\t", subplot =
 
 
 def analyze_malcoa_consumption(model_fn, random_samples_fn, sep = "\t", subplot = True):
+    """
+    Make two plots: One of the reactions producing malonyl-CoA and on for the reactions consuming Malonyl-CoA
+    """
     metabolite_id = "malcoa_c"
     model = cobra.io.read_sbml_model(model_fn)
     df = get_random_samples_raw(random_samples_fn, sep = sep, column_key = "MEAN")
@@ -438,109 +446,10 @@ def analyze_malcoa_consumption(model_fn, random_samples_fn, sep = "\t", subplot 
     print(df_consumption[df_consumption["rxns"]=="MCOATA"].groupby(["Strain", "Time point"]).sum())
 
 
-def analyze_pyruvate_consumption(model_fn, random_samples_fn, sep = "\t"):
-    metabolite_id = "pyr_c"
-    model = cobra.io.read_sbml_model(model_fn)
-    df = get_random_samples_raw(random_samples_fn, sep = sep, column_key = "MEAN")
-    
-    metabolite = model.metabolites.get_by_id(metabolite_id)
-
-    reaction_ids = []
-    reaction_multiplier = []
-    for r in metabolite.reactions:
-        reaction_ids.append(r.id)
-        reaction_multiplier.append(r.get_coefficient(metabolite_id))
-
-    df_selected = (df.loc[reaction_ids, :].T*reaction_multiplier).T
-    strain_annotation = [x.split("_")[1] for x in df_selected.columns.values]
-    timepoint_annotation = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8]
-    print(strain_annotation, timepoint_annotation)
-
-
-
-    df_all_0 = (df_selected.abs() < 1e-3).all(axis = 1)
-    df_selected = df_selected.loc[~df_all_0, :].T
-
-    # # SUM ACCOAC and MCOATA
-    # df_selected["ACCOAC + MCOATA"] = df_selected["ACCOAC"] + df_selected["MCOATA"]
-    # df_selected.drop(["ACCOAC", "MCOATA"], axis = 1, inplace = True)
-
-
-
-    df_selected["Strain"] = strain_annotation
-    df_selected["Time point"] = timepoint_annotation
-    df_long_form = pd.melt(df_selected, id_vars = ["Strain", "Time point"], value_vars = df_selected.columns.values[:-2], value_name = "Flux")
-
-    print(df_long_form)
-    
-    # Production
-    df_production = df_long_form.loc[df_long_form["Flux"] > 1e-8, :]
-    df_consumption = df_long_form.loc[df_long_form["Flux"] < -1e-8, :]
-    df_consumption["Flux"] *= -1
-
-    fig, [ax1, ax2] = plt.subplots(2)
-
-    sns.lineplot(data = df_production, x = "Time point", y = "Flux", hue = "rxns", style = "Strain", ax = ax1, style_order = ["M145", "M1152"])
-    ax1.set_title("Pyruvate production")
-    ax1.set_yscale("log")
-
-    sns.lineplot(data = df_consumption, x = "Time point", y = "Flux", hue = "rxns", style = "Strain", ax = ax2, style_order = ["M145", "M1152"])
-    ax2.set_title("Pyruvate consumption")
-    ax2.set_yscale("log")
-    plt.show()
-
-def analyze_glutamate_consumption(model_fn, random_samples_fn, sep = "\t"):
-    metabolite_id = "glu__L_c"
-    model = cobra.io.read_sbml_model(model_fn)
-    df = get_random_samples_raw(random_samples_fn, sep = sep, column_key = "MEAN")
-    
-    metabolite = model.metabolites.get_by_id(metabolite_id)
-
-    reaction_ids = []
-    reaction_multiplier = []
-    for r in metabolite.reactions:
-        reaction_ids.append(r.id)
-        reaction_multiplier.append(r.get_coefficient(metabolite_id))
-
-    df_selected = (df.loc[reaction_ids, :].T*reaction_multiplier).T
-    strain_annotation = [x.split("_")[1] for x in df_selected.columns.values]
-    timepoint_annotation = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8]
-    print(strain_annotation, timepoint_annotation)
-
-
-
-    df_all_0 = (df_selected.abs() < 1e-3).all(axis = 1)
-    df_selected = df_selected.loc[~df_all_0, :].T
-
-    # # SUM ACCOAC and MCOATA
-    # df_selected["ACCOAC + MCOATA"] = df_selected["ACCOAC"] + df_selected["MCOATA"]
-    # df_selected.drop(["ACCOAC", "MCOATA"], axis = 1, inplace = True)
-
-
-
-    df_selected["Strain"] = strain_annotation
-    df_selected["Time point"] = timepoint_annotation
-    df_long_form = pd.melt(df_selected, id_vars = ["Strain", "Time point"], value_vars = df_selected.columns.values[:-2], value_name = "Flux")
-
-    print(df_long_form)
-    
-    # Production
-    df_production = df_long_form.loc[df_long_form["Flux"] > 1e-8, :]
-    df_consumption = df_long_form.loc[df_long_form["Flux"] < -1e-8, :]
-    df_consumption["Flux"] *= -1
-
-    fig, [ax1, ax2] = plt.subplots(2)
-
-    sns.lineplot(data = df_production, x = "Time point", y = "Flux", hue = "rxns", style = "Strain", ax = ax1, style_order = ["M145", "M1152"])
-    ax1.set_title("Glutamate production")
-    ax1.set_yscale("log")
-
-    sns.lineplot(data = df_consumption, x = "Time point", y = "Flux", hue = "rxns", style = "Strain", ax = ax2, style_order = ["M145", "M1152"])
-    ax2.set_title("Glutamate consumption")
-    ax2.set_yscale("log")
-    plt.show()
-
 def analyze_met_consumption(model_fn, random_samples_fn, metabolite_id = "nadh_c", metabolite_name = "NADH", sep = "\t", lim = 1e-3):
+    """
+    Make two plots: One of the reactions producing the chosen metabolite and one for the reactions consuming the metabolite
+    """
     model = cobra.io.read_sbml_model(model_fn)
     df = get_random_samples_raw(random_samples_fn, sep = sep, column_key = "MEAN")
     
@@ -627,6 +536,9 @@ def plot_key_metabolic_reactions(random_samples_fn, title = "", sep = ","):
     plt.close()
 
 def plot_selected_reactions(random_samples_fn, reactions, title = "", sep = ",", strain = "M145"):
+    """
+    Plot the flux for a list of chosen reactions
+    """
     df = get_random_samples_raw(random_samples_fn, sep = sep, column_key = "MEAN")
     df_selected = df.loc[reactions, :]
     df_selected.columns = ["-".join(x.split("_")[1:]) for x in df_selected.columns.values]
@@ -641,24 +553,7 @@ def plot_selected_reactions(random_samples_fn, reactions, title = "", sep = ",",
     ax.set_ylabel("Normalized mean flux")
     ax.set_xlabel("Hours")
     plt.show()
-    # Standardize
-    # print(df_selected.subtract(df_selected.mean(axis = 1), 0))
-    # df_centered = df_selected.subtract(df_selected.mean(axis = 1), 0)
-    # df_z_score = df_centered.div(df_centered.std(axis = 1), 0)
-    
-    # strain_annotation = [x.split("_")[1] for x in df_selected.columns.values]   
-    # timepoint_annotation = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8]
-    # cmap = sns.cm.vlag
-    # g = sns.clustermap(df_selected, row_cluster = False, col_cluster = False, z_score = 0, cmap = cmap, vmin = -1.5, vmax = 1.5)
-    
 
-    # sns.heatmap(df_z_score, cmap = cmap, vmin = -1.5, vmax = 1.5, cbar_kws={'label': 'Flux Z-score'})
-    # plt.title(title)
-    # plt.subplots_adjust(bottom = 0.2)
-    # save_key = random_samples_fn.split("/")[-1].split(".")[0]
-    # plt.savefig("C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/Random sampling july/key_metabolic_reactions_{0}.svg".format(save_key))    
-    # # plt.show()    
-    # plt.close()
 
 if __name__ == '__main__':
     co2_normalized_random_samples_fn = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/randomsampling_july/ec-RandSampComb_proteomics_CO2norm.tsv"
