@@ -1,361 +1,226 @@
+# -*- coding: utf-8 -*-
+"""
+This file analyze the random samples from the enzyme-constrained models 
+created by Eduard Kerkhoven by using the Raven Toolbox. 
+
+Author: Snorre Sulheim
+Created: 12.03.2019
+Email: snorre.sulheim@sintef.no
+"""
 import pandas as pd
 from pathlib import Path
-import scipy.stats as st
-import numpy as np
-from matplotlib import pyplot as plt
-from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
 import cobra
+from matplotlib import pyplot as plt
+import matplotlib
 import seaborn as sns
-import re
+
+pd.set_option("display.max_rows", 150)
+pd.set_option("display.max_columns", 101)
 
 
-REPO_DIR = Path(__file__).parent.parent.parent
-RESULT_FOLDER = REPO_DIR / "ComplementaryData" / "ecmodel" / "random_sampling" 
-
-def get_df(strain = None, timepoint = None, iterations = None, processes = None, filename = None):
-    if not filename:
-        filename = "randomsampling_{0}_{1}h_{2}_iterations_{3}_processes.csv".format(strain, timepoint, iterations, processes)
-    df = pd.read_csv(str(filename), index_col = 0)
-    df_agg = df.agg(["mean", "std"]).T
-    idx = (df_agg["mean"] == 0) & (df_agg["std"] == 0)
-    df_agg_nz = df_agg.loc[~idx]
-    df_nz = df.T[~idx]
-    n = len(df.index)
-
-    return df_agg, df_agg_nz, df_nz, n
-
-def revert_GECKO_reactions(full_flux_frame, key = "fluxes"):
-    """
-    Sum all the different parallell reactions created by the GECKO-method
-    - irreversible to reversible (REV)
-    - arm_reactions?
-    - _Nox reactions
-    """
-    all_reaction_ids = list(full_flux_frame.index)
-    full_flux_frame["keep"] = False
-    full_flux_frame["base id"] = list(full_flux_frame.index)
-
-    # get arm reactions
-    arm_ids = []
-    non_arm_ids  = []
-
-    for r_id in all_reaction_ids:
-        if r_id[:4] == "arm_":
-            full_flux_frame.loc[r_id, "keep"] = True
-            if r_id[-4:] == "_REV":
-                full_flux_frame.loc[r_id, "base id"] = r_id[4:-4]
-                full_flux_frame.loc[r_id, key] *= -1
-            else:
-                full_flux_frame.loc[r_id, "base id"] = r_id[4:]
-            arm_ids.append(r_id[4:])
-        else:
-            non_arm_ids.append(r_id)
+# MAT
+matplotlib.rcParams.update({'font.size': 10, 'legend.loc':'upper right'})
 
 
-    for r_id in non_arm_ids:
-        no_stripped_id = re.sub(r"No\d+\Z", "", r_id)
-        if not no_stripped_id in arm_ids:
-            full_flux_frame.loc[r_id, "keep"] = True
-        
-            if no_stripped_id[-4:] == "_REV":
-                full_flux_frame.loc[r_id, "base id"] = no_stripped_id[:-4]
-                full_flux_frame.loc[r_id, key] *= -1
-            else:
-                full_flux_frame.loc[r_id, "base id"] = no_stripped_id
-        
+SELECTED_PATHWAYS_M145 = ["Glycolysis/Gluconeogenesis", "Pyruvate metabolism", "Oxidative phosphorylation", "Glycine, serine and threonine metabolism",
+                          "Citric Acid Cycle", "Alanine, aspartate and glutamate metabolism", "Pentose phosphate pathway",
+                          "Fatty acid biosynthesis", "Valine, leucine and isoleucine metabolism", "Nucleotide biosynthesis",
+                          "Undecylprodigiosin Biosynthesis", "Calcium-Dependent Antibiotics Biosynthesis", "Actinorhodin Biosynthesis", "Coelimycin biosynthesis"]#, 
+                          # "Fatty acid biosynthesis", "Glycerophospholipid metabolism"]
 
-    flux_frame = full_flux_frame.loc[full_flux_frame["keep"], [key, "base id"]]
-    # print(flux_frame)
+SELECTED_PATHWAYS_M1152 = ["Glycolysis/Gluconeogenesis", "Pyruvate metabolism", "Oxidative phosphorylation", "Glycine, serine and threonine metabolism",
+                          "Citric Acid Cycle", "Alanine, aspartate and glutamate metabolism", "Pentose phosphate pathway", "Glyoxylate and dicarboxylate metabolism",
+                          "Fatty acid biosynthesis", "Valine, leucine and isoleucine metabolism", "Nucleotide biosynthesis"]
 
-    flux_frame_sum = flux_frame.groupby("base id").sum()
-    # print(flux_frame_sum)
-    return flux_frame_sum
+OTHER_AMINO_ACIDS = []
+NUCLEOTIDE_METABOLISM = ["Purine metabolism", "Pyrimidine metabolism"]                          
 
-def compare_two(fn1, fn2):
-    df1_agg, df1_agg_nz, df1_nz, n1 = get_df(filename = fn1)
-    df2_agg, df2_agg_nz, df2_nz, n2 = get_df(filename = fn2)
+def pathway_analysis_plot(model_fn, random_samples_fn, selected_pwys, row_order = None, labels = None, mask_rows = None, sep = "\t", key = "pathway", absolute_values = True):
+    model = cobra.io.read_sbml_model(model_fn)
+    df = get_random_samples(random_samples_fn, model, key = key, sep = sep, column_key = "MEAN", absolute_values = absolute_values)
+    sub_df = df.groupby(key).sum()
+
+    # Remove all zero rows
+    sub_df = sub_df.loc[(sub_df != 0).any(axis = 1), :]
+
+    # Standardize
+    standardized_df = sub_df.subtract(sub_df.mean(axis = 1), axis = 0).divide(sub_df.std(axis = 1), axis = 0)
     
-    for r_id in df2_agg.index:
-        try:
-            m1, s1 = df1_agg.loc[r_id, :]
-            m2, s2 = df2_agg.loc[r_id, :]
-        except KeyError:
-            print(r_id, "is not in both datasets")
-            continue
-        try:
-            t, dof, p = welch_ttest(m1, s1, m2, s2, n1, n2)
-        except ZeroDivisionError:
-            continue
-        print(r_id, p, m1-m2)
+    #M145
+    M145_columns = [x for x in standardized_df.columns if "M145" in x]
+    M145_sub_df = standardized_df.loc[selected_pwys, M145_columns]
+    M145_sub_df.index.name = None
+    # M145_sub_df.columns = [x.replace("_", " - ")+"h" for x in M145_sub_df.columns.values]
+    M145_sub_df.columns = [x.split("_")[-1] for x in M145_sub_df.columns.values]
 
-def merge_means(fn_list):
-    df_list = []
-    for fn in fn_list:
-        df_agg, df_agg_nz, _, _ = get_df(filename = fn)
-        df_list.append(df_agg["mean"])
-
-    df = df_list.pop(0).to_frame()
-    # df.sort_values(by = "mean", inplace = True)
-    print(df.head())
-
-
-    for i, df_i in enumerate(df_list):
-        print(i)
-        print(df_i["NNDPRNo1"])
-        df = df.join(df_i.to_frame(), rsuffix = "_{0}".format(i+1), how = "inner")
-    print(df.head())
-    df.to_csv(str(RESULT_FOLDER / "mean_df.csv"))
-    return df
-
-
-def welch_ttest(m1, s1, m2, s2, n1, n2 = None):
-    if not n2:
-        n2 = n1
-    v1 = s1**2
-    v2 = s2**2
-    t = (m1 - m2) / np.sqrt(v1 / n1 + v2 / n2)
-    dof = (v1 / n1 + v2 / n2)**2 / (v1**2 / (n1**2 * (n1 - 1)) + v2**2 / (n2**2 * (n2 - 1)))
-    p = 2 * st.t.cdf(-abs(t), dof)
-    return t, dof, p
-
-
-def plot_means(fn_list):
-    # df = merge_means(fn_list)
-    # df = df.reset_index()
-    df = pd.read_csv(str(RESULT_FOLDER / "mean_df.csv"), index_col = 0)
-    # df = df.iloc[:100, :]
-    df.sort_values(by = "mean_1", inplace = True)
-    df[df<0] = 0
-    draw_prot_idx = df.index.str.contains("draw_prot_")
-    df_prot = df[draw_prot_idx]
-    df = df[~draw_prot_idx]
-    print(df_prot)
-    df_prot = df_prot.reset_index()
-    df = df.reset_index()
-
-    df_prot.plot(lw = 0, marker = "o", alpha = 0.7, markeredgecolor = "k")
-
-    print(df)
-    # df.sort_values(by = "mean_1", inplace = True, ascending = False, kind = "mergesort")
-    # df.reset_index(inplace = True)
-    df.plot(lw = 0, marker = "o", alpha = 0.7, markeredgecolor = "k")
-    # df.plot(y = "mean_1", logy = True, lw = 0, marker = "o", alpha = 0.7, markeredgecolor = "k")
-    # plt.show()
-
-def aggregate_pca(fn_list, labels, key = "mean", name = "temp", load = False):
-    """
-    Calculate and displaye a PCA-plot for the given strains / timepoints for the mean/median/min/max values of the random samples
-    """
-    df = aggregate_random_samples(fn_list, labels, key, name, load)
-    
-    features = list(df.columns.values)
-    # features.remove("label")
-    # features.remove("strain no")
-    print(len(features))
-    # protein reactions
-    draw_prot_features = [x for x in features if x[:10] == "draw_prot_"]
-    prot_features = [x for x in features if x[:5] == "prot_"]
-    all_prot_features = draw_prot_features + prot_features
-    non_prot_features = [x for x in features if not x in all_prot_features]
+    # M1152
+    M1152_columns = [x for x in standardized_df.columns if "M1152" in x]
+    M1152_sub_df = standardized_df.loc[selected_pwys, M1152_columns]
+    M1152_sub_df.index.name = None
+    # M1152_sub_df.columns = [x.replace("_", " - ")+"h" for x in M1152_sub_df.columns.values]
+    M1152_sub_df.columns = [x.split("_")[-1] for x in M1152_sub_df.columns.values]
     
 
-    draw_prot_x = df.loc[:, draw_prot_features].values
-    prot_x = df.loc[:, prot_features].values
-    all_prot_x = df.loc[:, all_prot_features].values
-    non_prot_x = df.loc[:, non_prot_features].values
-    y = df.loc[:, "label"].values
-
-
-    pca(draw_prot_x, y, labels, "Draw protein reactions", draw_prot_features)
-    pca(prot_x, y, labels, "Protein exchange reactions", prot_features)
-    pca(all_prot_x, y, labels, "All protein reactions", all_prot_features)
-    pca(non_prot_x, y, labels, "All non-protein reactions", non_prot_features)
-
-def full_pca(fn_list, labels):
-    # df = merge_data(fn_list, labels)
-    df = pd.read_csv(str(RESULT_FOLDER / "merge_data.csv"), index_col = 0)
-    print(df.T.index)
-    # print(df)
-    # df = revert_GECKO_reactions(df.T, list(df.index))
-    print(df.shape)
-
-    # Select strains
-    idx = df.loc[:,"label"].isin(labels)
-    df = df.loc[idx, :]
-    print(df.shape)
-    # df[df.isna()] = 0
-
-    features = list(df.columns.values)
-    features.remove("label")
-    features.remove("strain no")
-    print(len(features))
-    # protein reactions
-    draw_prot_features = [x for x in features if x[:10] == "draw_prot_"]
-    prot_features = [x for x in features if x[:5] == "prot_"]
-    all_prot_features = draw_prot_features + prot_features
-    non_prot_features = [x for x in features if not x in all_prot_features]
+    if mask_rows:
+        M1152_sub_df.iloc[mask_rows, :] = None
     
 
-    draw_prot_x = df.loc[:, draw_prot_features].values
-    prot_x = df.loc[:, prot_features].values
-    all_prot_x = df.loc[:, all_prot_features].values
-    non_prot_x = df.loc[:, non_prot_features].values
-    y = df.loc[:, "label"].values
-
-
-    pca(draw_prot_x, y, labels, "Draw protein reactions", draw_prot_features)
-    pca(prot_x, y, labels, "Protein exchange reactions", prot_features)
-    pca(all_prot_x, y, labels, "All protein reactions", all_prot_features)
-    pca(non_prot_x, y, labels, "All non-protein reactions", non_prot_features)
-
-def pca(x, y, labels, title, features):
-    """
-    Maxe a PCA plot for the the four first principal components of th data
-    """
-    print(title, x.shape)
-    # Replace nan with 0
-    x[np.isnan(x)] = 0
-
-    x = StandardScaler().fit_transform(x)
-    pca = PCA(n_components = 4)
-    princcomp = pca.fit_transform(x)
-    pca_df = pd.DataFrame(data = princcomp, columns = ["PCA 1", "PCA 2", "PCA 3", "PCA 4"])
-    pca_df["label"] = y
-
-
-    # Weights
-    weight_df = pd.DataFrame(data = pca.components_, columns = features)
-    print(weight_df)
-    print(weight_df.shape)
-
-
-    # pca_df.to_csv(str(RESULT_FOLDER / "pca_df.csv"))
-    
-    fig, [ax1, ax2] = plt.subplots(1, 2, figsize = (20, 10))
-    fig.suptitle(title)
-    n = len(labels)
-    colors = plt.cm.tab20(np.arange(n))
-    for i, label in enumerate(labels):
-        keep_idx = pca_df["label"] == label
-        ax1.scatter(pca_df.loc[keep_idx, "PCA 1"], pca_df.loc[keep_idx, "PCA 2"], color = colors[i], label = label)
-        ax2.scatter(pca_df.loc[keep_idx, "PCA 3"], pca_df.loc[keep_idx, "PCA 4"], color = colors[i], label = label)
-    ax1.set_xlabel("PCA 1 ({0:.1f}% explained variance)".format(pca.explained_variance_ratio_[0]*100))
-    ax1.set_ylabel("PCA 2 ({0:.1f}% explained variance)".format(pca.explained_variance_ratio_[1]*100))
-    ax2.set_xlabel("PCA 3 ({0:.1f}% explained variance)".format(pca.explained_variance_ratio_[2]*100))
-    ax2.set_ylabel("PCA 4 ({0:.1f}% explained variance)".format(pca.explained_variance_ratio_[3]*100))
-    ax1.legend()
-    ax2.legend()
-    plt.show()
-
-    fig, axes = plt.subplots(2,2, figsize = (24, 16))
-    axes = [ax for sublist in axes for ax in sublist]
-    for ax, (index, row) in zip(axes, weight_df.iterrows()):
-        largest_n = row.abs().nlargest(100)
-        largest_n.plot(kind = "barh", ax = ax)
-        ax.set_xlabel("Weight principal component {0}".format(index+1))
-    fig.suptitle("{0}: Top 100 weights PCA".format(title))
-    plt.show()
-
-
-def merge_data(fn_list, labels):
-    """
-    Concatenate data from random samples into one data frame
-    """
-    df_list = []
-    for i, fn in enumerate(fn_list):
-        df = pd.read_csv(str(fn), index_col = 0)
-        df["strain no"] = i+1
-        df["label"] = labels[i]
-        df_list.append(df)
-    df = pd.concat(df_list, sort = False)
-    df.to_csv(str(RESULT_FOLDER / "merge_data.csv"))
-    # df[df.isna()] = 0
-    return df
-
-def aggregate_random_samples(fn_list, labels, key = "mean", name = "temp", load = False):
-    df_list = []
-    if load:
-        df = pd.read_csv(str(RESULT_FOLDER / "{0}_{1}.csv".format(key, name)), index_col = 0)
+    if absolute_values:
+        abs_string = "abs"
     else:
-        for i, fn in enumerate(fn_list):
-            df = pd.read_csv(str(fn), index_col = 0)
-            print(fn, "\n", df.loc[:, ["EX_glc__D_e_REV", "EX_glu__L_e_REV"]])
-            
-            df[df.isna()] = 0
-            agg_df = df.agg([key]).T
-            agg_df["strain no"] = i
-            
-            reverted_df = revert_GECKO_reactions(agg_df, key)[key]
-            print(reverted_df.index)
-            df_list.append(reverted_df)
+        abs_string = "real"
 
-        df = pd.concat(df_list, axis  = 1, keys = labels, sort = False)
-        df.to_csv(str(RESULT_FOLDER / "{0}_{1}.csv".format(key, name)))
-    return df
 
-def QC_of_aggregated_samples(fn_list, labels, key = "mean", name = "temp", load = False):
-    df = aggregate_random_samples(fn_list, labels, key, name, load)
+    # Plot Settings
+    # fig, [ax_M145, ax_M1152] = plt.subplots(1, 2, sharey = True)
+    figsize = (14, 14)
+    cmap = sns.cm.vlag
+    cmap.set_bad("gray", alpha = 0)
 
-    # Find number of large values Large values
-    print("Values larger than 10")
-    print(df[(df.abs()>10).any(axis=1)])
+    g_M145 = sns.clustermap(M145_sub_df, cmap = cmap, col_cluster = False, vmin = -1.3, vmax = 1.3, figsize = figsize)
+    print("Row order:", g_M145.dendrogram_row.reordered_ind)
+    # plt.setp(g_M145.ax_heatmap.xaxis.get_majorticklabels(), rotation=90)
+    plt.subplots_adjust(left = 0.03, right = 0.5)
 
-    # # plot mean values
-    # df.plot(kind = "bar")
+    plt.savefig("C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/Random sampling july/M145/all_pathways_uptake_{0}.svg".format(abs_string))
+    # plt.savefig("C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/Eduard random sampling/M145/all_pathways.png")
     # plt.show()
-
-    # Histogram
-    df.plot(kind = "hist", bins = 1000, logy = True, stacked = True)
-    plt.show()
-
-
-
-def analyze_subsystem_max_min_median(fn_list, labels, key = "mean", name = "temp", load = False, row_order = None):
-    df = aggregate_random_samples(fn_list, labels, key, name, load)
-    df[df.isna()] = 0
-    
-    # Remove outlier rows
-    outlier_row_idx = (df.abs()>10).any(axis=1)
-    print("Removed the following rows:", "\n", df[outlier_row_idx])
-    df = df[~outlier_row_idx]
-    
-    print(df.abs().sum())
-    carbon_sum = df.loc[["EX_glc__D_e", "EX_glu__L_e"], labels].sum() * -1
-    df_abs = add_subsystem_to_df(df.abs()/carbon_sum)
-    sub_df = df_abs.groupby("Subsystem").sum()
-    print(sub_df)
+    plt.close()
 
     if row_order:
-        sub_df = sub_df.iloc[row_order, :]
-        g = sns.clustermap(sub_df, cmap = "vlag", z_score = 0, col_cluster = False, row_cluster = False)
+        M1152_sub_df = M1152_sub_df.iloc[g_M145.dendrogram_row.reordered_ind, :]
+    # Set hatches
+    g_M1152 = sns.clustermap(M1152_sub_df, cmap = cmap, col_cluster = False, row_cluster = False, vmin = -1.3, vmax = 1.3, figsize = figsize)
+    g_M1152.ax_heatmap.patch.set(hatch='//', edgecolor='black')
+    # plt.setp(g_M1152.ax_heatmap.xaxis.get_majorticklabels(), rotation=45)
+    plt.subplots_adjust(left = 0.03, right = 0.5)
+    # plt.savefig("C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/Eduard random sampling/M1152/all_pathways.png")
+    plt.savefig("C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/Random sampling july/M1152/all_pathways_uptake_{0}.svg".format(abs_string))
+    # plt.show()
+    plt.close()
+    
+
+def pathway_analysis(model_fn, random_samples_fn, selected_pwys, strain = "M145", row_order = None, labels = None, 
+                     mask_rows = None, store = True, key = "pathway", sep = ",", absolute_values = True):
+    model = cobra.io.read_sbml_model(model_fn)
+    df = get_random_samples(random_samples_fn, model, key = key, sep = sep, column_key = "MEAN", absolute_values = absolute_values)
+    sub_df = df.groupby(key).sum()
+
+    # Remove all zero rows
+    sub_df = sub_df.loc[(sub_df != 0).any(axis = 1), :]
+    
+    # Standardize
+    standardized_df = sub_df.subtract(sub_df.mean(axis = 1), axis = 0).divide(sub_df.std(axis = 1), axis = 0)
+   
+    # print(sub_df.mean(axis = 1).sort_values(ascending = False))
+    std_df = sub_df.iloc[:, 1:].std(axis = 1).sort_values(ascending = False)
+    # rstd_df = sub_df.std(axis = 1).divide(sub_df.mean(axis = 1), axis = 0).sort_values(ascending = False)
+    print(std_df)
+    # print(rstd_df)
+
+    if store:
+        store_df = sub_df.copy()
+        store_df["std"] = sub_df.std(axis = 1)
+        norm_type = random_samples_fn.rsplit("_")[-1].split(".")[0]
+        csv_fn = "C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/{0}/sub_df_{1}.svg".format(strain, norm_type)
+        store_df.to_csv(csv_fn)
+    
+    strain_columns = [x for x in standardized_df.columns if strain in x]
+    strain_df = standardized_df.loc[:, strain_columns]
+
+    # Select top X
+    # selected_pwys = list(std_df.index)[:70]
+
+    selected_df = strain_df.loc[:, :]
+    selected_df.index.names = ["Pathways"]
+
+
+    if labels:
+        print(labels)
+        selected_df = selected_df.loc[:, labels]
+
+    if mask_rows:
+        selected_df.iloc[mask_rows, :] = None
+
+    selected_df.columns = ["-".join(x.split("_")[1:]) for x in selected_df.columns.values]
+    
+    # Settings
+    figsize = (12, 14)
+    cmap = sns.cm.vlag
+    cmap.set_bad("gray", alpha = 0)
+    if row_order:
+        selected_df = selected_df.iloc[row_order, :]
+        g = sns.clustermap(selected_df, cmap = cmap, col_cluster = False, row_cluster = False, figsize = figsize, vmin = -1.2, vmax = 1.2, yticklabels = True)
     else:
-        g = sns.clustermap(sub_df, cmap = "vlag", z_score = 0, col_cluster = False)
+        g = sns.clustermap(selected_df, cmap = cmap, col_cluster = False, figsize = figsize, vmin = -1.2, vmax = 1.2, yticklabels = True)
         print("Row order:", g.dendrogram_row.reordered_ind)
+        
 
-    # sub_df.plot(kind  ="barh")
-    plt.show()
-
-def analyze_individual_max_min_median(fn_list, labels, key = "mean", name = "temp", load = False):
-    df = aggregate_random_samples(fn_list, labels, key, name, load)
-    df[df.isna()] = 0
-    # print(df.isna().sum().sum())
-    ## Plot clustermap
-    # Normalize by dividing by the sum of carbon uptake
-    carbon_sum = df.loc[["EX_glc__D_e", "EX_glu__L_e"], labels].sum() * -1
-    df.loc[:, labels] = df.loc[:, labels] / carbon_sum
-    g = sns.clustermap(df.loc[:, labels], z_score = True, cmap = "vlag", col_cluster = False)
+    # Set hatches
+    g.ax_heatmap.patch.set(hatch='//', edgecolor='black')
+    plt.subplots_adjust(left = 0.03, right = 0.62, bottom = 0.07, top = 0.97)
     plt.show()
 
 
-def add_subsystem_to_df(df):
+def get_random_samples(fn, model, key = "subsystem", sep = "\t", column_key = "MEAN", 
+                       discard_values_above_max_M145 = True, skipcolumns = 0, absolute_values = True):
+    df = pd.read_csv(fn, index_col = 0, header = 0, sep = sep)
+    df_data = df.iloc[:, skipcolumns:]
+    
+    # A few reactions are changed sign of to make the total flux even out with a correlated "looped" reaction
+    # PGM and PGK is just defined in the opposite direction in the model
+
+    df_data.loc[["SUCOAS", "PGM", "PGK"], :] = df_data.loc[["SUCOAS", "PGM", "PGK"], :].abs()
+    df_data.loc["HACD1", :] *=-1
+
+    
+    if absolute_values:
+        df_data = df_data.abs()
+    if column_key:
+        columns = [x for x in df.columns.values if column_key in x]
+        df_data = df_data.loc[:, columns]
+        
+    if discard_values_above_max_M145:
+        # Remove rows from the sampling in which the value are larger than the maximum value of M145
+        M145_columns = [x for x in df_data.columns.values if "M145" in x]
+        print("M145 columns: ", M145_columns)
+        max_M145 = df_data.loc[:, M145_columns].max().max()
+        large_value_rows = df_data.abs().max(axis = 1) > max_M145
+        df_data = df_data.loc[~large_value_rows, :]
+        print("Removed the following reaction because of large values (absolute value above {0}): {1}".format(max_M145, large_value_rows[large_value_rows].index))
+
+    subsystem_df = add_subsystem_to_df(df_data, model, key)
+    return subsystem_df
+
+def get_random_samples_raw(fn, sep = "\t", column_key = "MEAN", skipcolumns = 0):
+    df = pd.read_csv(fn, index_col = 0, header = 0, sep = sep)
+    df_data = df.iloc[:, skipcolumns:]
+
+    if column_key:
+        columns = [x for x in df.columns.values if column_key in x]
+        df_data = df_data.loc[:, columns]
+    return df_data
+
+
+
+def get_random_samples_and_split(fn, model, key = "subsystem"):
+    df = pd.read_csv(fn, index_col = 0, header = 0, sep = "\t")
+    df_data = df.iloc[:, 2:].abs()
+    subsystem_df = add_subsystem_to_df(df_data, model, key)
+
+    M1152_columns = [x for x in df.columns.values if "MEAN_M1152" in x] + [key]
+    M1152_df = subsystem_df[M1152_columns]
+    M145_columns = [x for x in df.columns.values if "MEAN_M145" in x] + [key]
+    M145_df = subsystem_df[M145_columns]
+    return M145_df, M1152_df
+
+
+def add_subsystem_to_df(df, model, key = "subsystem"):
     """
     df is a dataframe where the indexes are reaction ids and the columns are different timepoints / strains
     the values are the different fluxes
     """
-    model_fn = str(REPO_DIR / "ModelFiles"/"xml"/"scoGEM.xml")
-    model = cobra.io.read_sbml_model(model_fn)
-    df["Subsystem"] = "Missing annotation"
+    df[key] = None
     keep_columns = list(df.columns.values)
     add_rows = []
     df["Keep"] = True
@@ -364,66 +229,497 @@ def add_subsystem_to_df(df):
             r = model.reactions.get_by_id(r_id)
         except KeyError:
             df.loc[r_id, "Keep"] = False
-            print(r_id)
+            # print(r_id)
             continue
         try:
-            subsystem = r.annotation["kegg.subsystem"]
+            subsystem = r.annotation[key]
         except KeyError:
             df.loc[r_id, "Keep"] = False
             print("Missing subsystem: {0}".format(r_id))
             continue
 
         if isinstance(subsystem, str) and len(subsystem):
-            df.loc[r_id, "Subsystem"] = subsystem
-        elif isinstance(subsystem, list):
-            print(r_id, subsystem)
-            df.loc[r_id, "Subsystem"] = subsystem[0]
-            for ss in subsystem[1:]:
-                print(r_id, subsystem)
-                new_row = row.copy()
-                new_row["Subsystem"] = ss
-                df = df.append(new_row)
+            if "Valine, leucine and isoleucine" in subsystem:
+                # Currently there are Valine, leucine and isoleucine metabolism, biosynthesis and degradation,
+                # but it makes sense to combine these
+                subsystem = "Valine, leucine and isoleucine metabolism"
+            elif subsystem in OTHER_AMINO_ACIDS:
+                subsystem = "Metabolism of other amino acids"
+            elif subsystem == "FERI metabolism":
+                # FERI metabolism is only one reaction, FNOR, which recycles NADP with ferredoxin used by AKGDH2 reaction
+                subsystem = "Citric Acid Cycle"
+            elif subsystem in NUCLEOTIDE_METABOLISM:
+                subsystem = "Nucleotide biosynthesis"
+            elif r_id == "CDAS11":
+                subsystem = "Fatty acid degradation"
+            elif r.id == "MALTHIK":
+                subsystem = "Glyoxylate and dicarboxylate metabolism"
+            elif r.id == "HEX1":
+                subsystem = "Glycolysis/Gluconeogenesis"
+            elif r.id == "HACD1":
+                subsystem = "Butanoate metabolism"
+
+
+
+            df.loc[r_id, key] = subsystem
+            # print(r_id, subsystem)
+        else:
+            print("Multiple subsystem annotations for: ", r.id)
+            df.loc[r_id, "Keep"] = False
+
     df = df.loc[df["Keep"], :]
     df_to_keep = df.loc[:, keep_columns]
-    df_to_keep.loc[:, keep_columns[:-1]] = df_to_keep.loc[:, keep_columns[:-1]].abs()/df_to_keep.loc[:, keep_columns[:-1]].abs().sum()
+    # df_to_keep.loc[:, keep_columns[:-1]] = df_to_keep.loc[:, keep_columns[:-1]].abs()/df_to_keep.loc[:, keep_columns[:-1]].abs().sum()
     return df_to_keep
 
+def make_contribution_subsystems_plots(model_fn, random_samples_fn, sep = "\t", key = "pathway", absolute_values = False):
+    model = cobra.io.read_sbml_model(model_fn)
+    df = get_random_samples(random_samples_fn, model, key = key, sep = sep, column_key = "MEAN", absolute_values = absolute_values)
+    
+    if absolute_values:
+        abs_string = "abs"
+    else:
+        abs_string = "real"
+
+
+    for pathway, pwy_df in df.groupby(key):
+        fig, ax = plt.subplots(1)
+        pwy_df.drop(key, axis = 1, inplace = True)
+        # pwy_df = pwy_df.abs()
+        pwy_df.plot(kind = "bar", logy = absolute_values, title = pathway, figsize = (20, 14), ax = ax).legend(loc = 1)
+        ax.set_ylim(1.1*pwy_df.min().min(), 1.1*pwy_df.max().max())
+        pathway = pathway.replace("/", "-")
+        fn = "C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/Random sampling july/pathway contribution plot/{0}_{1}.svg".format(pathway, abs_string)
+        fig.savefig(fn)
+        plt.close()
 
 
 
+def compare_pathway_ratios():
+    pass
+
+def analyze_accoa_consumption(model_fn, random_samples_fn, sep = "\t", subplot = True):
+    metabolite_id = "accoa_c"
+    model = cobra.io.read_sbml_model(model_fn)
+    df = get_random_samples_raw(random_samples_fn, sep = sep, column_key = "MEAN")
+    
+    metabolite = model.metabolites.get_by_id(metabolite_id)
+
+    reaction_ids = []
+    reaction_multiplier = []
+    for r in metabolite.reactions:
+        reaction_ids.append(r.id)
+        reaction_multiplier.append(r.get_coefficient(metabolite_id))
+
+    df_selected = (df.loc[reaction_ids, :].T*reaction_multiplier).T
+    strain_annotation = [x.split("_")[1] for x in df_selected.columns.values]
+    timepoint_annotation = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8]
+    print(len(strain_annotation), len(timepoint_annotation))
+
+    # Sum ACTCOALIG anf PTAr
+    print(df_selected)
+
+    df_all_0 = (df_selected.abs() < 1e-4).all(axis = 1)
+    df_selected = df_selected.loc[~df_all_0, :].T
+
+    # ACTOALIG and PTAr is creating a loop
+    # df_selected["ACTCOALIG - PTAr"] = df_selected["ACTCOALIG"] + df_selected["PTAr"]
+    # df_selected.drop(["PTAr", "ACTCOALIG"], axis = 1, inplace = True)
+
+
+    df_selected["Strain"] = strain_annotation
+    df_selected["Time point"] = timepoint_annotation
+    df_long_form = pd.melt(df_selected, id_vars = ["Strain", "Time point"], value_vars = df_selected.columns.values[:-2], value_name = "Flux")
+
+    # Production
+    df_production = df_long_form.loc[df_long_form["Flux"] > 1e-8, :]
+    df_consumption = df_long_form.loc[df_long_form["Flux"] < -1e-8, :]
+    df_consumption["Flux"] *= -1
+
+    if subplot:
+        fig, [ax1, ax2] = plt.subplots(2)
+    else:
+        fig1, ax1 = plt.subplots(1)
+        fig2, ax2 = plt.subplots(1)
+
+    sns.lineplot(data = df_production, x = "Time point", y = "Flux", hue = "rxns", style = "Strain", ax = ax1)
+    ax1.set_title("Acetyl-CoA production")
+    ax1.set_yscale("log")
+
+    sns.lineplot(data = df_consumption, x = "Time point", y = "Flux", hue = "rxns", style = "Strain", ax = ax2)
+    ax2.set_title("Acetyl-CoA consumption")
+    ax2.set_yscale("log")
+    plt.show()
+
+
+def analyze_malcoa_consumption(model_fn, random_samples_fn, sep = "\t", subplot = True):
+    metabolite_id = "malcoa_c"
+    model = cobra.io.read_sbml_model(model_fn)
+    df = get_random_samples_raw(random_samples_fn, sep = sep, column_key = "MEAN")
+    
+    metabolite = model.metabolites.get_by_id(metabolite_id)
+
+    reaction_ids = []
+    reaction_multiplier = []
+    for r in metabolite.reactions:
+        reaction_ids.append(r.id)
+        reaction_multiplier.append(r.get_coefficient(metabolite_id))
+
+    df_selected = (df.loc[reaction_ids, :].T*reaction_multiplier).T
+    strain_annotation = [x.split("_")[1] for x in df_selected.columns.values]
+    timepoint_annotation = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8]
+    print(len(strain_annotation), len(timepoint_annotation))
+
+
+
+    df_all_0 = (df_selected.abs() < 1e-10).all(axis = 1)
+    df_selected = df_selected.loc[~df_all_0, :].T
+
+    # Sum RED, ACT
+    red_columns = [x for x in df_selected.columns if x[:4] == "REDS"]
+    df_selected["RED"] = df_selected.loc[:, red_columns].sum(axis = 1)
+    df_selected.drop(red_columns, axis = 1, inplace = True)
+
+    cpk_columns = [x for x in df_selected.columns if x[:4] == "CPKS"]
+    df_selected["CPK"] = df_selected.loc[:, cpk_columns].sum(axis = 1)
+    df_selected.drop(cpk_columns, axis = 1, inplace = True)
+
+    cda_columns = [x for x in df_selected.columns if x[:4] == "CDAS"]
+    df_selected["CDA"] = df_selected.loc[:, cda_columns].sum(axis = 1)
+    df_selected.drop(cda_columns, axis = 1, inplace = True)
+
+    act_columns = [x for x in df_selected.columns if x[:4] == "ACTS"]
+    df_selected["ACT"] = df_selected.loc[:, act_columns].sum(axis = 1)
+    df_selected.drop(act_columns, axis = 1, inplace = True)
+
+    # SUM ACCOAC and MCOATA
+    # df_selected["ACCOAC + MCOATA + ACCOAC_1"] = df_selected["ACCOAC"] + df_selected["MCOATA"] + df_selected["ACCOAC"]
+    # df_selected.drop(["ACCOAC", "MCOATA"], axis = 1, inplace = True)
+
+
+
+    df_selected["Strain"] = strain_annotation
+    df_selected["Time point"] = timepoint_annotation
+    print(df_selected)
+    df_selected = df_selected.reindex(["ACCOAC", "ACCOAC_1", "ACT", "MCOATA", "CPK", "RED", "CDA", "THYDNAPS", "Strain", "Time point"], axis = 1)
+    df_long_form = pd.melt(df_selected, id_vars = ["Strain", "Time point"], value_vars = df_selected.columns.values[:-2], value_name = "Normalized flux")
+    
+    # Production
+    df_production = df_long_form.loc[df_long_form["Normalized flux"] > 1e-8, :]
+    df_consumption = df_long_form.loc[df_long_form["Normalized flux"] < -1e-8, :]
+    df_consumption["Normalized flux"] *= -1
+    print(df_consumption)
+
+    if subplot:
+        fig, [ax1, ax2] = plt.subplots(1, 2, sharey = True)
+    else:
+        fig1, ax1 = plt.subplots(1)
+        fig2, ax2 = plt.subplots(1)
+
+    sns.lineplot(data = df_production, x = "Time point", y = "Normalized flux", hue = "rxns", style = "Strain", ax = ax1, lw = 2)
+    ax1.set_title("Malonyl-CoA production")
+    ax1.set_yscale("log")
+    ax1.legend(loc='lower left')#, bbox_to_anchor=(1.01, 0.5), ncol=1)
+    # ax1.spines['right'].set_visible(False)
+    # ax1.spines['top'].set_visible(False)
+
+    sns.lineplot(data = df_consumption, x = "Time point", y = "Normalized flux", hue = "rxns", style = "Strain", ax = ax2, lw = 2)
+    ax2.set_title("Malonyl-CoA consumption")
+    ax2.set_yscale("log")
+    ax2.legend(loc='lower left')
+    # ax2.spines['right'].set_visible(False)
+    # ax2.spines['top'].set_visible(False)
+    sns.despine()
+
+    plt.show()
+
+    
+    print(df_consumption[df_consumption["rxns"]!="MCOATA"].groupby(["Strain", "Time point"]).sum())
+    print(df_consumption[df_consumption["rxns"]=="MCOATA"].groupby(["Strain", "Time point"]).sum())
+
+
+def analyze_pyruvate_consumption(model_fn, random_samples_fn, sep = "\t"):
+    metabolite_id = "pyr_c"
+    model = cobra.io.read_sbml_model(model_fn)
+    df = get_random_samples_raw(random_samples_fn, sep = sep, column_key = "MEAN")
+    
+    metabolite = model.metabolites.get_by_id(metabolite_id)
+
+    reaction_ids = []
+    reaction_multiplier = []
+    for r in metabolite.reactions:
+        reaction_ids.append(r.id)
+        reaction_multiplier.append(r.get_coefficient(metabolite_id))
+
+    df_selected = (df.loc[reaction_ids, :].T*reaction_multiplier).T
+    strain_annotation = [x.split("_")[1] for x in df_selected.columns.values]
+    timepoint_annotation = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8]
+    print(strain_annotation, timepoint_annotation)
+
+
+
+    df_all_0 = (df_selected.abs() < 1e-3).all(axis = 1)
+    df_selected = df_selected.loc[~df_all_0, :].T
+
+    # # SUM ACCOAC and MCOATA
+    # df_selected["ACCOAC + MCOATA"] = df_selected["ACCOAC"] + df_selected["MCOATA"]
+    # df_selected.drop(["ACCOAC", "MCOATA"], axis = 1, inplace = True)
+
+
+
+    df_selected["Strain"] = strain_annotation
+    df_selected["Time point"] = timepoint_annotation
+    df_long_form = pd.melt(df_selected, id_vars = ["Strain", "Time point"], value_vars = df_selected.columns.values[:-2], value_name = "Flux")
+
+    print(df_long_form)
+    
+    # Production
+    df_production = df_long_form.loc[df_long_form["Flux"] > 1e-8, :]
+    df_consumption = df_long_form.loc[df_long_form["Flux"] < -1e-8, :]
+    df_consumption["Flux"] *= -1
+
+    fig, [ax1, ax2] = plt.subplots(2)
+
+    sns.lineplot(data = df_production, x = "Time point", y = "Flux", hue = "rxns", style = "Strain", ax = ax1, style_order = ["M145", "M1152"])
+    ax1.set_title("Pyruvate production")
+    ax1.set_yscale("log")
+
+    sns.lineplot(data = df_consumption, x = "Time point", y = "Flux", hue = "rxns", style = "Strain", ax = ax2, style_order = ["M145", "M1152"])
+    ax2.set_title("Pyruvate consumption")
+    ax2.set_yscale("log")
+    plt.show()
+
+def analyze_glutamate_consumption(model_fn, random_samples_fn, sep = "\t"):
+    metabolite_id = "glu__L_c"
+    model = cobra.io.read_sbml_model(model_fn)
+    df = get_random_samples_raw(random_samples_fn, sep = sep, column_key = "MEAN")
+    
+    metabolite = model.metabolites.get_by_id(metabolite_id)
+
+    reaction_ids = []
+    reaction_multiplier = []
+    for r in metabolite.reactions:
+        reaction_ids.append(r.id)
+        reaction_multiplier.append(r.get_coefficient(metabolite_id))
+
+    df_selected = (df.loc[reaction_ids, :].T*reaction_multiplier).T
+    strain_annotation = [x.split("_")[1] for x in df_selected.columns.values]
+    timepoint_annotation = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8]
+    print(strain_annotation, timepoint_annotation)
+
+
+
+    df_all_0 = (df_selected.abs() < 1e-3).all(axis = 1)
+    df_selected = df_selected.loc[~df_all_0, :].T
+
+    # # SUM ACCOAC and MCOATA
+    # df_selected["ACCOAC + MCOATA"] = df_selected["ACCOAC"] + df_selected["MCOATA"]
+    # df_selected.drop(["ACCOAC", "MCOATA"], axis = 1, inplace = True)
+
+
+
+    df_selected["Strain"] = strain_annotation
+    df_selected["Time point"] = timepoint_annotation
+    df_long_form = pd.melt(df_selected, id_vars = ["Strain", "Time point"], value_vars = df_selected.columns.values[:-2], value_name = "Flux")
+
+    print(df_long_form)
+    
+    # Production
+    df_production = df_long_form.loc[df_long_form["Flux"] > 1e-8, :]
+    df_consumption = df_long_form.loc[df_long_form["Flux"] < -1e-8, :]
+    df_consumption["Flux"] *= -1
+
+    fig, [ax1, ax2] = plt.subplots(2)
+
+    sns.lineplot(data = df_production, x = "Time point", y = "Flux", hue = "rxns", style = "Strain", ax = ax1, style_order = ["M145", "M1152"])
+    ax1.set_title("Glutamate production")
+    ax1.set_yscale("log")
+
+    sns.lineplot(data = df_consumption, x = "Time point", y = "Flux", hue = "rxns", style = "Strain", ax = ax2, style_order = ["M145", "M1152"])
+    ax2.set_title("Glutamate consumption")
+    ax2.set_yscale("log")
+    plt.show()
+
+def analyze_met_consumption(model_fn, random_samples_fn, metabolite_id = "nadh_c", metabolite_name = "NADH", sep = "\t", lim = 1e-3):
+    model = cobra.io.read_sbml_model(model_fn)
+    df = get_random_samples_raw(random_samples_fn, sep = sep, column_key = "MEAN")
+    
+    metabolite = model.metabolites.get_by_id(metabolite_id)
+
+    reaction_ids = []
+    reaction_multiplier = []
+    for r in metabolite.reactions:
+        reaction_ids.append(r.id)
+        reaction_multiplier.append(r.get_coefficient(metabolite_id))
+
+    df_selected = (df.loc[reaction_ids, :].T*reaction_multiplier).T
+    strain_annotation = [x.split("_")[1] for x in df_selected.columns.values]
+    timepoint_annotation = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8]
+    print(strain_annotation, timepoint_annotation)
+
+
+
+    df_all_0 = (df_selected.abs() < lim).all(axis = 1)
+    df_selected = df_selected.loc[~df_all_0, :].T
+
+
+    df_selected["Strain"] = strain_annotation
+    df_selected["Time point"] = timepoint_annotation
+    df_long_form = pd.melt(df_selected, id_vars = ["Strain", "Time point"], value_vars = df_selected.columns.values[:-2], value_name = "Flux")
+
+    print(df_long_form)
+    
+    # Production
+    df_production = df_long_form[df_long_form["Flux"] > 1e-8]
+    df_consumption = df_long_form[df_long_form["Flux"] < -1e-8]
+    df_consumption["Flux"] *= -1
+
+    print(df_production.groupby(["Strain", "Time point"]).sum())
+
+
+    fig, [ax1, ax2] = plt.subplots(2)
+
+    sns.lineplot(data = df_production, x = "Time point", y = "Flux", hue = "rxns", style = "Strain", ax = ax1, style_order = ["M145", "M1152"])
+    ax1.set_title("{0} production".format(metabolite_name))
+    ax1.set_yscale("log")
+
+    sns.lineplot(data = df_consumption, x = "Time point", y = "Flux", hue = "rxns", style = "Strain", ax = ax2, style_order = ["M145", "M1152"])
+    ax2.set_title("{0} consumption".format(metabolite_name))
+    ax2.set_yscale("log")
+    plt.show()
+
+def plot_key_metabolic_reactions(random_samples_fn, title = "", sep = ","):
+    """
+    Plot the mean predicted flux through the following reactions selected by Tjasa Kumelj
+    - PFK
+    - G6PDH2r
+    - TAGS140
+    - PDH
+    - MCOATA
+    - ACTS1
+    - ICDHyr
+    - AKGDH2
+    - CYO2a
+    - CYO2b
+    - NADH17b
+    - GLUN
+    - GLUDxi
+    """
+    key_reactions = ["TAGS140","MCOATA","PFK", "PDH","ACTS1","AKGDH2","ICDHyr","CYO2a","CYO2b","G6PDH2r","NADH17b","GLUN","GLUDxi"]
+    df = get_random_samples_raw(random_samples_fn, sep = sep, column_key = "MEAN")
+    df_selected = df.loc[key_reactions, :]
+    df_selected.columns = ["-".join(x.split("_")[1:]) for x in df_selected.columns.values]
+    # print(df_selected)
+    # Standardize
+    print(df_selected.subtract(df_selected.mean(axis = 1), 0))
+    df_centered = df_selected.subtract(df_selected.mean(axis = 1), 0)
+    df_z_score = df_centered.div(df_centered.std(axis = 1), 0)
+    # strain_annotation = [x.split("_")[1] for x in df_selected.columns.values]   
+    # timepoint_annotation = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8]
+    cmap = sns.cm.vlag
+    # g = sns.clustermap(df_selected, row_cluster = False, col_cluster = False, z_score = 0, cmap = cmap, vmin = -1.5, vmax = 1.5)
+    sns.heatmap(df_z_score, cmap = cmap, vmin = -1.5, vmax = 1.5, cbar_kws={'label': 'Flux Z-score'})
+    plt.title(title)
+    plt.subplots_adjust(bottom = 0.2)
+    save_key = random_samples_fn.split("/")[-1].split(".")[0]
+    plt.savefig("C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/Random sampling july/key_metabolic_reactions_{0}.svg".format(save_key))    
+    # plt.show()    
+    plt.close()
+
+def plot_selected_reactions(random_samples_fn, reactions, title = "", sep = ",", strain = "M145"):
+    df = get_random_samples_raw(random_samples_fn, sep = sep, column_key = "MEAN")
+    df_selected = df.loc[reactions, :]
+    df_selected.columns = ["-".join(x.split("_")[1:]) for x in df_selected.columns.values]
+    if strain:
+        selected_columns = [x for x in df_selected.columns if strain in x]
+        df_selected = df_selected.loc[:, selected_columns]
+        df_selected.columns = [x.split("-")[1] for x in df_selected.columns]
+
+    print(df_selected)
+    
+    ax = df_selected.T.plot(alpha = 0.9, logy = False)
+    ax.set_ylabel("Normalized mean flux")
+    ax.set_xlabel("Hours")
+    plt.show()
+    # Standardize
+    # print(df_selected.subtract(df_selected.mean(axis = 1), 0))
+    # df_centered = df_selected.subtract(df_selected.mean(axis = 1), 0)
+    # df_z_score = df_centered.div(df_centered.std(axis = 1), 0)
+    
+    # strain_annotation = [x.split("_")[1] for x in df_selected.columns.values]   
+    # timepoint_annotation = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8]
+    # cmap = sns.cm.vlag
+    # g = sns.clustermap(df_selected, row_cluster = False, col_cluster = False, z_score = 0, cmap = cmap, vmin = -1.5, vmax = 1.5)
+    
+
+    # sns.heatmap(df_z_score, cmap = cmap, vmin = -1.5, vmax = 1.5, cbar_kws={'label': 'Flux Z-score'})
+    # plt.title(title)
+    # plt.subplots_adjust(bottom = 0.2)
+    # save_key = random_samples_fn.split("/")[-1].split(".")[0]
+    # plt.savefig("C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/Random sampling july/key_metabolic_reactions_{0}.svg".format(save_key))    
+    # # plt.show()    
+    # plt.close()
 
 if __name__ == '__main__':
-    fn_list = [
-    # RESULT_FOLDER / "randomsample_M145_21h_1000_iterations.csv",
-    RESULT_FOLDER / "randomsample_M145_29h_1000_iterations.csv",
-    RESULT_FOLDER / "randomsample_M145_33h_1000_iterations.csv",
-    RESULT_FOLDER / "randomsample_M145_37h_1000_iterations.csv",
-    RESULT_FOLDER / "randomsample_M145_41h_1000_iterations.csv",
-    RESULT_FOLDER / "randomsample_M145_45h_1000_iterations.csv",
-    RESULT_FOLDER / "randomsample_M145_49h_1000_iterations.csv",
-    RESULT_FOLDER / "randomsample_M145_53h_1000_iterations.csv",
-    RESULT_FOLDER / "randomsample_M145_57h_1000_iterations.csv",
-    # RESULT_FOLDER / "randomsample_M1152_33h_1000_iterations.csv",
-    # RESULT_FOLDER / "randomsample_M1152_41h_1000_iterations.csv",
-    # RESULT_FOLDER / "randomsample_M1152_45h_1000_iterations.csv",
-    # RESULT_FOLDER / "randomsample_M1152_49h_1000_iterations.csv",
-    # RESULT_FOLDER / "randomsample_M1152_53h_1000_iterations.csv",
-    # RESULT_FOLDER / "randomsample_M1152_57h_1000_iterations.csv",
-    # RESULT_FOLDER / "randomsample_M1152_61h_1000_iterations.csv",
-    # RESULT_FOLDER / "randomsample_M1152_65h_1000_iterations.csv",
-    ]
-
-    labels = ["M145-29", "M145-33", "M145-37", "M145-41", "M145-45", "M145-49", "M145-53", "M145-57"]  #"M145-21", 
-    # labels = ["M1152-33", "M1152-41", "M1152-45", "M1152-49", "M1152-53", "M1152-57", "M1152-61", "M1152-65"]
-    # labels = ["M1152-41", "M1152-45", "M1152-49", "M1152-53", "M1152-57", "M1152-61", "M1152-65"]
+    co2_normalized_random_samples_fn = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/randomsampling_july/ec-RandSampComb_proteomics_CO2norm.tsv"
+    gluglc_normalized_random_samples_fn = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/randomsampling_july/ec-RandSampComb_proteomics_GlcGluNorm.tsv"
+    growth_normalized_random_samples_fn = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/randomsampling_july/ec-RandSampComb_proteomics_growthNorm.tsv"
+    all_flux_normalized_random_samples_fn = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/randomsampling_july/ec-RandSampComb_proteomics_AllFluxNorm.tsv"
     
-    # compare_two(fn, fn2)
-    # plot_means([fn1, fn2, fn3, fn4, fn5, fn6])
+    model_fn = "../../ModelFiles/xml/scoGEM.xml"
+    if 0:
+        labels = ["M145_21", "M145_29", "M145_33", "M145_37", "M145_41", "M145_45", "M145_49", "M145_53", "M145_57"]  #
+        subsystem_analysis(model_fn, co2_normalized_random_samples_fn, strain = "M145", labels = labels)
+    if 0:
+        labels = ["M1152_33", "M1152_41", "M1152_45", "M1152_49", "M1152_53", "M1152_57", "M1152_61", "M1152_65"] # 
+        # row_order = [2, 8, 10, 6, 13, 4, 14, 1, 9, 5, 7, 0, 12, 3, 11]
+        # row_order = [6, 13, 2, 10, 0, 5, 7, 9, 14, 1, 4, 8, 11, 3, 12]
+        row_order = None
+        subsystem_analysis(model_fn, co2_normalized_random_samples_fn, strain = "M1152", labels = labels, row_order = row_order)
+
+    if 0:
+        labels = ["M145_21", "M145_29", "M145_33", "M145_37", "M145_41", "M145_45", "M145_49", "M145_53", "M145_57"]  #,
+        subsystem_analysis(model_fn, uptake_normalized_random_samples_fn, strain = "M145", labels = labels)
+    if 0:
+        labels = ["M1152_33", "M1152_41", "M1152_45", "M1152_49", "M1152_53", "M1152_57", "M1152_61", "M1152_65"] #  
+        # row_order = [3, 0, 14, 4, 1, 9, 5, 7, 8, 12, 6, 13, 2, 10, 11] # all x33
+        row_order = [3, 12, 8, 0, 14, 4, 1, 7, 5, 9, 6, 13, 2, 10, 11]
+        subsystem_analysis(model_fn, uptake_normalized_random_samples_fn, strain = "M1152", labels = labels, row_order = row_order)
 
 
-    # aggregate_pca(fn_list, labels = labels, key = "mean", name = "M1152", load = False)
-    # QC_of_aggregated_samples(fn_list, labels = labels, key = "mean", name = "M1152", load = True)
-    # M145_row_order = [1, 12, 9, 3, 5, 11, 7, 4, 10, 0, 8, 2, 6, 13]
-    # analyze_subsystem_max_min_median(fn_list, labels, key = "mean", name = "M1152_x33", load = True, row_order = M145_row_order)
-    analyze_subsystem_max_min_median(fn_list, labels, key = "mean", name = "M145", load = True)
+    if 0:
+        row_order = [4, 58, 19, 40, 26, 66, 23, 24, 69, 72, 46, 79, 18, 54, 14, 27, 7, 5, 67, 53, 29, 21, 74, 51, 48, 8, 52, 42, 49, 63, 70, 59, 81, 76, 44, 47, 61, 22, 30, 35, 56, 64, 80, 32, 45, 38, 65, 62, 43, 13, 28, 9, 71, 73, 31, 57, 36, 37, 15, 1, 78, 0, 12, 34, 17, 77, 20, 6, 11, 2, 55, 16, 25, 60, 75, 3, 10, 41, 50, 39, 33, 68]
+        pathway_analysis(model_fn, co2_normalized_random_samples_fn, SELECTED_PATHWAYS_M145, strain = "MEAN", sep = "\t", store = False, absolute_values = False)
+        pathway_analysis(model_fn, gluglc_normalized_random_samples_fn, SELECTED_PATHWAYS_M145, strain = "MEAN", sep = "\t", store = False, absolute_values = False, row_order = row_order)
+        # row_order = [7, 6, 2, 9, 12, 3, 10, 13, 11, 0, 1, 5, 4, 8]
+        # mask_rows = [10,11,12,13]
+        # pathway_analysis(model_fn, co2_normalized_random_samples_fn, SELECTED_PATHWAYS_M145, strain = "M1152", row_order = row_order, mask_rows = mask_rows)
 
+    if 0:
+        row_order = [12, 13, 10, 11, 3, 2, 8, 6, 7, 9, 5, 4, 0, 1]
+        mask_rows = [10,11,12,13]
+        pathway_analysis_plot(model_fn, co2_normalized_random_samples_fn, SELECTED_PATHWAYS_M145, row_order = True, mask_rows = mask_rows, absolute_values = False)
+        # pathway_analysis_plot(model_fn, uptake_normalized_random_samples_fn, SELECTED_PATHWAYS_M145, row_order = row_order, mask_rows = mask_rows)
+    if 0:
+        analyze_accoa_consumption(model_fn, co2_normalized_random_samples_fn, subplot = False)
+    if 1:
+        analyze_malcoa_consumption(model_fn, co2_normalized_random_samples_fn, subplot = True)
+
+    if 0:
+        analyze_pyruvate_consumption(model_fn, co2_normalized_random_samples_fn)
+    if 0:
+        analyze_glutamate_consumption(model_fn, co2_normalized_random_samples_fn) 
+    if 0:
+        analyze_met_consumption(model_fn, co2_normalized_random_samples_fn, "akg_c", "Glutamate", lim = 1e-2)
+    if 0:
+        make_contribution_subsystems_plots(model_fn, co2_normalized_random_samples_fn, absolute_values = False)
+    if 0:
+        plot_key_metabolic_reactions(co2_normalized_random_samples_fn, "CO2-normalized ", "\t")
+        plot_key_metabolic_reactions(gluglc_normalized_random_samples_fn, "Glucose and glutamate carbon uptake normalized","\t")
+        plot_key_metabolic_reactions(growth_normalized_random_samples_fn, "Growth rate normalized", "\t")
+        plot_key_metabolic_reactions(all_flux_normalized_random_samples_fn, "Normalized by sum of fluxes", "\t")
+
+    if 0:
+        # plot_selected_reactions(co2_normalized_random_samples_fn, ["CS", "ICDHyr"], "Aceyl-CoA consumption into TCA cycle", "\t")
+        # plot_selected_reactions(co2_normalized_random_samples_fn, ["FBA", "PFK", "ENO", "G6PDH2r"], "Aceyl-CoA consumption into TCA cycle", "\t", strain = "M145")
+        plot_selected_reactions(co2_normalized_random_samples_fn, ["ILETA", "LEUTA", "VALTA", "ILEDHr", "VALDHr", "LLEUDr"], "Branched-chain amino acids", "\t", strain = "M145")
