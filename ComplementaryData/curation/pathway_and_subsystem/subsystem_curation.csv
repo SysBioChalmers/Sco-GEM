@@ -1,4 +1,4 @@
-﻿No;Reaction ID;Reaction name;kegg.reaction;biocyc;kegg.pathway;kegg.subsystem;biocyc.subsystem1;biocyc.subsystem2;subsystem;curated pathway;curated subsystem
+No;Reaction ID;Reaction name;kegg.reaction;biocyc;kegg.pathway;kegg.subsystem;biocyc.subsystem1;biocyc.subsystem2;subsystem;curated pathway;curated subsystem
 0;BIOMASS_SCO;S. coelicolor biomass objective function - with 75.79 GAM estimate;;;;;;;Biomass and maintenance functions;;Biomass and maintenance functions
 1;BIOMASS_SCO_tRNA;S. coelicolor biomass function with AA replaced by tRNA-AA;;;;;;;Biomass and maintenance functions;;Biomass and maintenance functions
 2;CARBOHYDRATE_PSEUDO;Carbohydrate pseudoreaction;;;;;;;Biomass and maintenance functions;;Biomass and maintenance functions

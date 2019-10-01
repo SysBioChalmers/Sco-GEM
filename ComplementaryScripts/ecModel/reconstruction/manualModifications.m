@@ -138,16 +138,18 @@ for i = 1:length(model.rxns)
         end
     end
 end
+% Remove saved arm reactions:
+model = removeReactions(model,model.rxns(arm_pos(1:p)),true,true);
 
 % Aconitase (Q7AKF3/EC 4.2.1.3): The rxn is represented as a two
-% step rxn, so the kcat must be divided by 2
+% step rxn, so the kcat must be multiplied by 2
 index = find(strcmpi('prot_Q7AKF3',model.mets));
 rxnIndxs = find(model.S(index,:));
 rxnIndxs = rxnIndxs(1:end-2);
 model.S(index,rxnIndxs) = model.S(index,rxnIndxs)/2;
 
-% Remove saved arm reactions:
-model = removeReactions(model,model.rxns(arm_pos(1:p)),true,true);
+% Block excretion of glutamate, glucose and oxygen, to avoid multiple solution
+model = setParam(model,'eq',{'EX_glc__D_e','EX_glu__L_e','EX_o2_e'},0);
 
 % Remove unused enzymes after manual curation (2017-01-16):
 rem_enz = false(size(model.enzymes));
@@ -163,10 +165,6 @@ for i = 1:length(rem_enz)
     disp(['Removing unused protein: ' rem_enz{i}])
 end
 
-% Remove incorrect pathways:
-cd ../gecko/geckomat/change_model/
-model = removeIncorrectPathways(model);
-cd ../../../reconstruction/
 % Map the index of the modified Kcat values to the new model (after rxns removals)
 modifications = mapModifiedRxns(modifications,model);
 end

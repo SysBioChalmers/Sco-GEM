@@ -1,38 +1,42 @@
-function [solVect,rxns] = organizeSolutions(model,sol,verbose);
+function [solVect,rxns] = organizeSolutions(model,sol,combine,verbose);
 
+if nargin<4
+    verbose = true;
+end
 if nargin<3
-    verbose = false;
+    combine = true;
 end
 %% Combine isoenzymatic reactions
 rxns = model.rxns;
 keep = ones(length(rxns),1);
-for i=1:length(rxns)
-    if keep(i) == 1
-        if contains(rxns(i),'arm_')
-            rxnId = regexprep(rxns{i},'arm_','');
-            rxns{i} = rxnId;
-            keep(find(contains(rxns,[rxnId 'No']))) = 0;
-        end
-        rxns{i} = regexprep(rxns{i},'No1$','');
-        if contains(rxns(i),'_REV')
-            rxnId = regexprep(rxns{i},'_REV','');
-            fwdId = find(ismember(rxns,rxnId));
-            if isempty(fwdId)
-                if verbose
-                    disp(['No fwd reaction for ' rxnId ' found'])
-                end
-                sol(i,:) = -sol(i,:);
-            elseif any([sol(fwdId,:),sol(i,:)]) > 0
-                sol(fwdId,:) = sol(fwdId,:) - sol(i,:);
+if combine
+    for i=1:length(rxns)
+        if keep(i) == 1
+            if contains(rxns(i),'arm_')
+                rxnId = regexprep(rxns{i},'arm_','');
+                rxns{i} = rxnId;
+                keep(find(contains(rxns,[rxnId 'No']))) = 0;
             end
-            keep(i) = 0;
+            rxns{i} = regexprep(rxns{i},'No1$','');
+            if contains(rxns(i),'_REV')
+                rxnId = regexprep(rxns{i},'_REV','');
+                fwdId = find(ismember(rxns,rxnId));
+                if isempty(fwdId)
+                    if verbose
+                        disp(['No fwd reaction for ' rxnId ' found'])
+                    end
+                    sol(i,:) = -sol(i,:);
+                elseif any([sol(fwdId,:),sol(i,:)]) > 0
+                    sol(fwdId,:) = sol(fwdId,:) - sol(i,:);
+                end
+                keep(i) = 0;
+            end
         end
     end
 end
 keep=logical(keep);
 rxns = rxns(keep);
 sol  = sol(keep,:);
-
 %% Organize enzyme utilization reactions
 %Make list of enzymes in the model
 proteins  = sort(model.enzymes);
