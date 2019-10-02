@@ -123,15 +123,15 @@ def get_gene_data(gene_expression_csv, gene_ids):
     print(df_gene)
     # Set timepoint
     df_gene.loc[:, "Hours"] = df_gene.index.str[5:7]
-
+    
     df_selected_genes = df_gene.loc[:, gene_ids+["Strain", "Hours"]]
     df_selected_genes["Time point"] = df_selected_genes.apply(convert_to_timepoint2, axis = 1)
 
     return df_selected_genes
 
-def get_single_flux(mean_flux_fn):
-    df_flux = pd.read_csv(mean_flux_fn, index_col = 0)
-
+def get_single_flux(mean_flux_fn, sep = "\t"):
+    df_flux = pd.read_csv(mean_flux_fn, index_col = 0, sep = sep)
+    print(df_flux)
     #Remove the gene annotation and name
     df_flux = df_flux.iloc[:, 2:].T
     # df_flux.loc[df_flux.index.str.contains("M145"), "Strain"] = "M145"
@@ -212,6 +212,7 @@ def plot_genes_transcriptome_proteome(proteome_norm_tsv, gene_expression_csv, ge
     df_transcr = get_gene_data(gene_expression_csv, gene_ids)
     df_prot = get_proteome(proteome_norm_tsv, gene_ids)
 
+
     for i, gene in enumerate(gene_ids):
         # ax = axes[i]
         fig, ax = plt.subplots(1, figsize  = (8, 6))
@@ -219,10 +220,12 @@ def plot_genes_transcriptome_proteome(proteome_norm_tsv, gene_expression_csv, ge
         ax2 = ax.twinx()
         ax2 = sns.lineplot(x = "Time point", y = gene, hue = "Strain", data = df_prot, err_style = "bars", ax = ax2,
                            legend = False, alpha = 0.8)
+
         for i in range(len(ax2.lines)):
             # print(ax2.lines[i].__dict__)
             # if ax2.lines[i]._linestyle is not None:
             ax2.lines[i].set_linestyle("--")
+
         lines = ax.lines + ax2.lines[::2]
         labels = ["M145 transcriptome", "M1152 transcriptome", "M145 proteome", "M1152 proteome"]
         ax.legend(lines, labels, bbox_to_anchor=(1,0), loc="lower right", 
@@ -241,8 +244,6 @@ def plot_genes(gene_expression_csv, gene_ids):
     print(df_melt)
     sns.lineplot(x = "Time point", y = "Log2 normalized count", hue = "Gene", style = "Strain", data = df_melt, err_style = "bars")
     plt.show()
-
-
 
 
 def get_proteome(proteome_norm_tsv, gene_ids):
@@ -272,6 +273,24 @@ def plot_germicidin():
     ax.axvline(x = 35, ymin = 0, ymax = 1, c = "b", ls = "--")
     plt.show()
 
+def plot_histogram_carbon_nitrogen_uptake_and_secretion(mean_flux_fn, cols = ["M145_29", "M1152_41"], 
+                        in_reactions = ["EX_glc__D_e", "EX_glu__L_e"], out_reactions = ["EX_nh4_e", "EX_ac_e"]):
+    df_flux = pd.read_csv(mean_flux_fn, index_col = 0, sep = "\t")
+    
+    reactions = in_reactions + out_reactions
+    df_mean = df_flux.loc[reactions, ["MEAN_{0}".format(x) for x in cols]]
+    df_mean.loc[in_reactions, :] *= -1
+
+    df_mean.reset_index(inplace = True)
+    df_mean.columns = ["Reaction ID"] + cols
+    # df_mean.plot(kind = "bar", use_index = True)
+    # plt.show()
+    
+    df_melt = df_mean.melt(["Reaction ID"], value_vars = cols, var_name = "Strain", value_name = "CO2 normalized flux")
+    sns.barplot(data = df_melt, x = "Reaction ID", y = "CO2 normalized flux", hue = "Strain")
+    plt.show()
+
+    
 if __name__ == '__main__':
     mean_flux_co2_scaled = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/randomsampling_july/ec-RandSampComb_proteomics_CO2norm.tsv"
     all_random_samples_folder = "C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/Eduard random sampling"
@@ -288,6 +307,7 @@ if __name__ == '__main__':
         get_all_flux(all_random_samples_folder, DIFFERENT_M1152+DELAYED_M1152)
         for r in DIFFERENT_M1152+DELAYED_M1152:
             plot_all_flux(all_random_samples_folder, r)
+
     if 0:
         plot_germicidin()
     if 0:
@@ -303,6 +323,7 @@ if __name__ == '__main__':
         #  Plot proteome (no 3)
         gene_ids = ["SCO1196", "SCO1968", "SCO2286"]
         plot_proteome(proteome_norm_tsv, gene_ids)
+
 
     if 1:
         #  Plot proteome (no 4)
@@ -323,4 +344,6 @@ if __name__ == '__main__':
     if 0:
         get_all_flux(all_random_samples_folder, ["CS", "ACONTa"])
         plot_all_flux(all_random_samples_folder, "CS")
-        
+
+    if 1:
+        plot_histogram_carbon_nitrogen_uptake_and_secretion(mean_flux_co2_scaled)
