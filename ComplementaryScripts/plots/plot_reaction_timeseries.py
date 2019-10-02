@@ -44,7 +44,6 @@ CYTOSOLIC_GDPD_GENES = ["SCO1090", "SCO1419", "SCO3976", "SCO5661"]
 TAT_SECRETED_GENES = ["SCO0736", "SCO1172", "SCO1196", "SCO1356", "SCO1432", "SCO1565", "SCO1590", "SCO1639", "SCO1906", "SCO2068", "SCO2286", "SCO2758", "SCO2780", "SCO2786", "SCO3484", "SCO3790", "SCO4672", "SCO6052", "SCO6198", "SCO6272", "SCO6281", "SCO6457", "SCO6580", "SCO6594", "SCO6691", "SCO7631", "SCO7677"]
 CYO2a_GENES = ["SCO2150", "SCO2149", "SCO7236", "SCO2148", "SCO7120"]
 ATP_SYNTHASE_GENES = ["SCO5368", "SCO5370", "SCO5373", "SCO5374"]
-
 ALL_ATP_SYNTHASE_GENES = ["SCO5366", "SCO5367", "SCO5368", "SCO5369", "SCO5370", "SCO5371", "SCO5372", "SCO5373","SCO5374"]
 INOSITOL_DEHYDROGENASE_GENES = ["SCO6255", "SCO6984", "SCO7254", "SCO1527"]
 SPODM = ["SCO0999", "SCO2633", "SCO5254"]
@@ -124,8 +123,7 @@ def get_gene_data(gene_expression_csv, gene_ids):
     print(df_gene)
     # Set timepoint
     df_gene.loc[:, "Hours"] = df_gene.index.str[5:7]
-
-
+    
     df_selected_genes = df_gene.loc[:, gene_ids+["Strain", "Hours"]]
     df_selected_genes["Time point"] = df_selected_genes.apply(convert_to_timepoint2, axis = 1)
 
@@ -218,20 +216,20 @@ def plot_genes_transcriptome_proteome(proteome_norm_tsv, gene_expression_csv, ge
     for i, gene in enumerate(gene_ids):
         # ax = axes[i]
         fig, ax = plt.subplots(1, figsize  = (8, 6))
-        ax = sns.lineplot(x = "Time point", y = gene, hue = "Strain", data = df_transcr, legend = "full")#, ax = ax)
+        ax = sns.lineplot(x = "Time point", y = gene, hue = "Strain", data = df_transcr, legend = False)#, ax = ax)
         ax2 = ax.twinx()
         ax2 = sns.lineplot(x = "Time point", y = gene, hue = "Strain", data = df_prot, err_style = "bars", ax = ax2,
-                           legend = "full", alpha = 0.8)
+                           legend = False, alpha = 0.8)
 
         for i in range(len(ax2.lines)):
             # print(ax2.lines[i].__dict__)
             # if ax2.lines[i]._linestyle is not None:
             ax2.lines[i].set_linestyle("--")
-        # lines = ax.lines + ax2.lines[::2]
 
-        # labels = ["M145 transcriptome", "M1152 transcriptome", "M145 proteome", "M1152 proteome"]
-        # ax.legend(lines, labels, bbox_to_anchor=(1,0), loc="lower right", 
-        #         bbox_transform=fig.transFigure, ncol=1)
+        lines = ax.lines + ax2.lines[::2]
+        labels = ["M145 transcriptome", "M1152 transcriptome", "M145 proteome", "M1152 proteome"]
+        ax.legend(lines, labels, bbox_to_anchor=(1,0), loc="lower right", 
+                bbox_transform=fig.transFigure, ncol=4)
 
         ax.set_ylabel("Normalized transcriptome data")
         ax2.set_ylabel("Normalized proteome data")
@@ -240,11 +238,11 @@ def plot_genes_transcriptome_proteome(proteome_norm_tsv, gene_expression_csv, ge
         plt.show()
 
 def plot_genes(gene_expression_csv, gene_ids):
-    df_gene = get_gene_data(gene_expression_csv, gene_ids)
+    df_selected_genes = get_gene_data(gene_expression_csv, gene_ids)
     
-    df_melt = df_selected_genes.melt(["Time point", "Strain"], value_vars = gene_ids, var_name = "Gene", value_name = "Normalized count")
+    df_melt = df_selected_genes.melt(["Time point", "Strain"], value_vars = gene_ids, var_name = "Gene", value_name = "Log2 normalized count")
     print(df_melt)
-    sns.lineplot(x = "Time point", y = "Normalized count", hue = "Gene", style = "Strain", data = df_melt, err_style = "bars")
+    sns.lineplot(x = "Time point", y = "Log2 normalized count", hue = "Gene", style = "Strain", data = df_melt, err_style = "bars")
     plt.show()
 
 
@@ -293,8 +291,6 @@ def plot_histogram_carbon_nitrogen_uptake_and_secretion(mean_flux_fn, cols = ["M
     plt.show()
 
     
-
-    
 if __name__ == '__main__':
     mean_flux_co2_scaled = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/randomsampling_july/ec-RandSampComb_proteomics_CO2norm.tsv"
     all_random_samples_folder = "C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/Eduard random sampling"
@@ -328,7 +324,8 @@ if __name__ == '__main__':
         gene_ids = ["SCO1196", "SCO1968", "SCO2286"]
         plot_proteome(proteome_norm_tsv, gene_ids)
 
-    if 0:
+
+    if 1:
         #  Plot proteome (no 4)
         gene_ids = ["SCO1565", "SCO4229"]
         # plot_proteome(proteome_norm_tsv, gene_ids)
@@ -350,4 +347,3 @@ if __name__ == '__main__':
 
     if 1:
         plot_histogram_carbon_nitrogen_uptake_and_secretion(mean_flux_co2_scaled)
-        
