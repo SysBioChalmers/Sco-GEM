@@ -45,7 +45,7 @@ def new_transport_reactions_to_existing_metabolites(model, new_transport_reactio
         model.add_reaction(new_reaction)
         reaction_string = row["Rxn_Formula"].replace("[","_").replace("]","")
         new_reaction.build_reaction_from_string(reaction_string)
-        new_reaction.annotation["SBO"] = "SBO:0000655"
+        new_reaction.annotation["sbo"] = "SBO:0000655"
         new_reaction.annotation["subsystem"] = row["Subsystem"]
         new_reaction.name = row["Reaction name"].strip()
 
@@ -68,7 +68,7 @@ def new_transport_reactions_to_new_metabolites(model, new_transport_reactions_ne
                 m.compartment = compartment
                 m.formula = row["chemical formula"].strip()
                 m.annotation["kegg.compound"] = row["KEGG ID"].strip()
-                m.annotation["SBO"] = "SBO:0000247"
+                m.annotation["sbo"] = "SBO:0000247"
                 m.annotation["metabetx.chemical"] = row["metanetx ID"].strip()
                 m.charge = 0
                 new_metabolites.append(m)
@@ -77,7 +77,8 @@ def new_transport_reactions_to_new_metabolites(model, new_transport_reactions_ne
                     # Add exchange reaction
                     exchange_reaction = model.add_boundary(m)
                     exchange_reaction.annotation["subsystem"] = "Exchange"
-                    exchange_reaction.annotation["SBO"]= "SBO:0000627"
+                    exchange_reaction.annotation["sbo"]= "SBO:0000627"
+                    exchange_reaction.lower_bound = 0
 
             else:
                 logging.info("Metabolite {0} is alredy in the model".format(m_id))
@@ -93,7 +94,7 @@ def new_transport_reactions_to_new_metabolites(model, new_transport_reactions_ne
         model.add_reaction(new_reaction)
         reaction_string = row["Rxn_Formula"].replace("[","_").replace("]","")
         new_reaction.build_reaction_from_string(reaction_string)
-        new_reaction.annotation["SBO"] = "SBO:0000655"
+        new_reaction.annotation["sbo"] = "SBO:0000655"
         new_reaction.annotation["subsystem"] = row["Subsystem"].strip()
         new_reaction.name = row["Reaction name"].strip()
         _check_and_fix_new_extracellular_metabolites(model, new_reaction)
@@ -124,7 +125,8 @@ def _check_and_fix_new_extracellular_metabolites(model, reaction):
             # Add exchange reaction
             exchange_reaction = model.add_boundary(m)
             exchange_reaction.annotation["subsystem"] = "Exchange"
-            exchange_reaction.annotation["SBO"]= "SBO:0000627"
+            exchange_reaction.annotation["sbo"]= "SBO:0000627"
+            exchange_reaction.lower_bound = 0
 
 
 
