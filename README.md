@@ -1,3 +1,4 @@
+
 [![memote tested](https://img.shields.io/badge/memote-tested-blue.svg?style=plastic)](https://sysbiochalmers.github.io/Sco-GEM/)
 [![Build Status](https://travis-ci.org/SysBioChalmers/Sco-GEM.svg?branch=master)](https://travis-ci.org/SysBioChalmers/Sco-GEM)
 [![Join the chat at https://gitter.im/SysBioChalmers/Sco-GEM](https://badges.gitter.im/SysBioChalmers/Sco-GEM.svg)](https://gitter.im/SysBioChalmers/Sco-GEM?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -21,13 +22,14 @@ _Streptomyces coelicolor_ is a representative species of soil-dwelling, filament
 
 - Pubmed ID: TBA
 
-- Last update: 2019-09-20
+- Last update: 2019-10-04
 
 - The model contains:
 
 | Taxonomy | Template Model | Reactions | Metabolites| Genes | Memote score |
 | ------------- |:-------------:|:-------------:|:-------------:|-----:|-----:|
-| _Streptomyces coelicolor_ A3(2) | iKS1317 | 2612 | 2071 | 1798 | 76%|
+| _Streptomyces coelicolor_ A3(2) | iKS1317 | 2612 | 2073 | 1777 | 76%|
+
 
 This repository is administered by Eduard Kerkhoven ([@SysBioChalmers](https://github.com/SysBioChalmers)), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology
 
@@ -50,3 +52,4 @@ This repository is administered by Eduard Kerkhoven ([@SysBioChalmers](https://g
 * [Snorre Sulheim](https://www.sintef.no/en/all-employees/employee/?empId=5675) ([@sulheim](https://github.com/sulheim)), SINTEF Industry, Norway / Norwegian University of Science and Technology, Norway
 * [Tjasa Kumelj](https://www.ntnu.edu/employees/tjasa.kumelj) ([@tjasakumelj](https://github.com/tjasakumelj)), Norwegian University of Science and Technology, Norway
 * [Ali Salehzadeh-Yazdi](https://www.sbi.uni-rostock.de/team/detail/ali-salehzadeh-yazdi) ([@alisalehzadeh-yazdi](https://github.com/alisalehzadeh-yazdi)), University of Rostock, Germany
+
