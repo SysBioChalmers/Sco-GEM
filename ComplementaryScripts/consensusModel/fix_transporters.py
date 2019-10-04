@@ -126,6 +126,7 @@ def _check_and_fix_new_extracellular_metabolites(model, reaction):
             exchange_reaction = model.add_boundary(m)
             exchange_reaction.annotation["subsystem"] = "Exchange"
             exchange_reaction.annotation["sbo"]= "SBO:0000627"
+            exchange_reaction.lower_bound = 0
 
 
 
