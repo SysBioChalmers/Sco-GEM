@@ -157,7 +157,7 @@ def reconstruct_Sco_GEM(model_fn, save_fn = None, write_requirements = True):
                                       NEW_TRANSPORT_REACTIONS_TO_NEW_METABOLITES_FN, NEW_METABOLITES_TO_NEW_TRANSPORT_REACTIONS)
 
     # Save model
-    export.export(Sco_GEM, formats = ["xml", "yml"], write_requirements = write_requirements)
+    export.export(Sco_GEM, formats = ["xml", "yml"], write_requirements = write_requirements, objective = "BIOMASS_SCO_tRNA")
 
 if __name__ == '__main__':
     logging.basicConfig(filename='reconstruct_Sco_GEM.log', level=logging.INFO)

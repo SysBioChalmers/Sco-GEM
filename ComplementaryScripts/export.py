@@ -67,8 +67,8 @@ REPO_MAIN_FOLDER = Path(__file__).resolve().parent.parent
 
 
 
-def export(Sco_GEM, folder = "ModelFiles", name = "Sco-GEM", formats = ["xml", "yml", "txt"], sbml_level = 3, sbml_version = 1, use_fbc_package = True,
-           write_requirements = True):
+def export(Sco_GEM, folder = "ModelFiles", name = "Sco-GEM", formats = ["xml", "yml", "txt"], 
+           write_requirements = True, objective = None):
     """
     Sort the model entities and export the model in given formats
 
@@ -82,29 +82,23 @@ def export(Sco_GEM, folder = "ModelFiles", name = "Sco-GEM", formats = ["xml", "
         Model file name (default: "Sco-GEM")
     formats: list of str, optional
         The formats the model should be exported in (default: ["xml", "yml", "txt"])
-    sbml_level: int, optional
-        The sbml level of the xml file (default: 3)
-    sbml_version: int, optional
-        The version of the sbml level (default: 1)
     use_fbc_package: bool, optional
         If the fbc-package should be used to store the sbml-file (default: True)
+    objective: str, optional
+        The id of the objective function, default BIOMASS_SCO
 
     """
+    if objective:
+        set_objective(Sco_GEM, objective)
     sort_model(Sco_GEM)
 
     main_folder_path = REPO_MAIN_FOLDER / folder
     # write xml
     if ("xml" in formats) or ("sbml" in formats):
-        if sbml_level == 3:
-            model_fn_xml = main_folder_path / "xml" / "{0}.xml".format(name)
-            check_folder(model_fn_xml)
-            print("Writing {0}".format(str(model_fn_xml)))
-            cobra.io.write_sbml_model(Sco_GEM, str(model_fn_xml), use_fbc_package = use_fbc_package)
-        else:
-            model_fn_xml = main_folder_path / "xml" / "{0}_lvl2.xml".format(name)
-            check_folder(model_fn_xml)
-            print("Writing {0}".format(str(model_fn_xml)))
-            cobra.io.write_legacy_sbml(Sco_GEM, str(model_fn_xml), use_fbc_package = use_fbc_package)
+        model_fn_xml = main_folder_path / "xml" / "{0}.xml".format(name)
+        check_folder(model_fn_xml)
+        print("Writing {0}".format(str(model_fn_xml)))
+        cobra.io.write_sbml_model(Sco_GEM, str(model_fn_xml))
     
     if ("yml" in formats) or ("yaml" in formats):
         model_fn_yml = main_folder_path / "yml" / "{0}.yml".format(name)
@@ -138,6 +132,11 @@ def export(Sco_GEM, folder = "ModelFiles", name = "Sco-GEM", formats = ["xml", "
 def check_folder(file_path):
     if not file_path.parent.is_dir():
         file_path.parent.mkdir(parents = True, exist_ok = True)
+
+
+def set_objective(Sco_GEM, r_id):
+    Sco_GEM.reactions.BIOMASS_SCO.objective_coefficient = 0
+    Sco_GEM.reactions.get_by_id(r_id).objective_coefficient = 1
 
 
 def sort_model(Sco_GEM):
@@ -240,10 +239,8 @@ if __name__ == '__main__':
         parser.add_argument("--formats", nargs='+', help = "The different file formats to export the model in", default = ["xml", "yml", "txt"])
         parser.add_argument("--name", type = str, help = "General name of exported model files", default = "Sco-GEM")
         parser.add_argument("--folder", type = str, help = "The general subfolder relative to the repo's root directory to store the model files in", default = "ModelFiles")
-        parser.add_argument("--sbml_level", type = str, help = "SBML level", default = 3)
-        parser.add_argument("--sbml_version", type = str, help = "SBML version", default = 1)
-        parser.add_argument("--use_fbc_package", type = bool, help = "Use the fbc package", default = True)
-
+        parser.add_argument("--objective", type = str, help = "The reaction ID of the objective function", default = "BIOMASS_SCO_tRNA")
+     
         args = parser.parse_args()
         cwd = Path.cwd()
 
@@ -259,4 +256,4 @@ if __name__ == '__main__':
                 print("Currently, only SBML-version 1 is supported. sbml_version parameter ignored.")
             sbml_version = 1
                 
-            export(Sco_GEM, args.folder, args.name, args.formats, args.sbml_level, sbml_version, args.use_fbc_package)
+            export(Sco_GEM, args.folder, args.name, args.formats)
