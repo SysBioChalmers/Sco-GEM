@@ -10,11 +10,11 @@ branches:
   - master
 before_install:
   - pip install --upgrade pip setuptools wheel
-  - chmod +x ./ComplementaryScripts/*deploy.sh
 install:
   - pip install --upgrade memote
 
 script:
   # - memote run --skip-unchanged
   - git checkout "${TRAVIS_BRANCH}"
+  - chmod +x ./ComplementaryScripts/*deploy.sh
   - ./ComplementaryScripts/travis_deploy.sh
