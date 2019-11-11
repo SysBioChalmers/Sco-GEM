@@ -39401,7 +39401,7 @@
         - 10.1099/00221287-145-9-2323
       - ec-code: 1.3.99.12
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: ACOADH1
@@ -39423,7 +39423,7 @@
       - metanetx.reaction:
         - MNXR95306
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: ACOATA
@@ -46901,7 +46901,7 @@
       - metanetx.reaction:
         - MNXR108509
       - origin: KEGG
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine biosynthesis
       - subsystem: Amino acid metabolism
   - !!omap
     - id: CITCIb
@@ -46920,7 +46920,7 @@
       - metanetx.reaction:
         - MNXR96730
       - origin: KEGG
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine biosynthesis
       - subsystem: Amino acid metabolism
   - !!omap
     - id: CITL
@@ -46965,7 +46965,7 @@
         - MNXR96734
         - MNXR111048
       - origin: KEGG
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine biosynthesis
       - subsystem: Amino acid metabolism
   - !!omap
     - id: CLADHAL
@@ -60958,7 +60958,7 @@
       - bigg.reaction: IBCOAQ9R
       - ec-code: 1.3.99.3
       - origin: iMA789
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: IBCOATA
@@ -60999,9 +60999,9 @@
       - metanetx.reaction:
         - MNXR100777
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Butanoate metabolism
       - rhea: '13144'
-      - subsystem: Amino acid metabolism
+      - subsystem: Lipid metabolism
   - !!omap
     - id: ICDHyr
     - name: isocitrate dehydrogenase (NADP)
@@ -62427,7 +62427,7 @@
       - metanetx.reaction:
         - MNXR101096
       - origin: KEGG
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: LLYXDH
@@ -62702,7 +62702,7 @@
       - metanetx.reaction:
         - MNXR95195
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - rhea: '30722'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -63072,7 +63072,7 @@
       - metanetx.reaction:
         - MNXR108000
       - origin: iMA789
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: MBCOA3
@@ -63090,7 +63090,7 @@
       - bigg.reaction: MBCOA3
       - ec-code: 1.3.99.3
       - origin: iMA789
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: MBCOAi
@@ -63112,7 +63112,7 @@
       - metanetx.reaction:
         - MNXR95318
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - rhea: '31066'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -63138,7 +63138,7 @@
       - metanetx.reaction:
         - MNXR101411
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: MCOALY
@@ -67147,7 +67147,7 @@
       - metanetx.reaction:
         - MNXR102148
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - rhea: '25483'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -67371,7 +67371,7 @@
       - metanetx.reaction:
         - MNXR102172
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - rhea: '25180'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -67399,7 +67399,7 @@
       - metanetx.reaction:
         - MNXR102173
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - rhea: '14000'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -67428,7 +67428,7 @@
         - MNXR102174
         - MNXR107999
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: OMCDC
@@ -67450,7 +67450,7 @@
       - metanetx.reaction:
         - MNXR102180
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine biosynthesis
       - rhea: '25081'
       - subsystem: Amino acid metabolism
       - unipathway.reaction: UCR01652
@@ -79357,7 +79357,7 @@
       - metanetx.reaction:
         - MNXR105183
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - rhea: '30766'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -79380,7 +79380,7 @@
       - metanetx.reaction:
         - MNXR96230
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine biosynthesis
       - rhea: '24816'
       - subsystem: Amino acid metabolism
   - !!omap
