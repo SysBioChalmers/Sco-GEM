@@ -34478,7 +34478,7 @@
       - metanetx.reaction:
         - MNXR94818
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: 33BIFLAV
@@ -35618,7 +35618,7 @@
       - metanetx.reaction:
         - MNXR113893
       - origin: Sco4
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
   - !!omap
@@ -38509,7 +38509,7 @@
       - metanetx.reaction:
         - MNXR95160
       - origin: Sco4
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - rhea: '12601'
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
@@ -40894,7 +40894,7 @@
       - metanetx.reaction:
         - MNXR95434
       - origin: Sco4
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '25315'
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
@@ -44117,7 +44117,7 @@
       - metanetx.reaction:
         - MNXR95904
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - rhea: '10215'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -44381,7 +44381,7 @@
       - metanetx.reaction:
         - MNXR96039
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '24287'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -45864,7 +45864,7 @@
       - metanetx.reaction:
         - MNXR96455
       - origin: iMK1208
-      - pathway: Glyoxylate and dicarboxylate metabolism
+      - pathway: Catalase
       - rhea: '20312'
       - subsystem: Carbohydrate metabolism
   - !!omap
@@ -46825,7 +46825,7 @@
         - MNXR96721
         - MNXR113007
       - origin: iMK1208
-      - pathway: Mycothiol biosynthesis
+      - pathway: Mycothiol metabolism
       - rhea: '26179'
       - subsystem: Metabolism of cofactors and vitamins
   - !!omap
@@ -49389,7 +49389,7 @@
       - metanetx.reaction:
         - MNXR97139
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: DAPDC
@@ -49411,7 +49411,7 @@
       - metanetx.reaction:
         - MNXR97141
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '15104'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -49432,7 +49432,7 @@
       - metanetx.reaction:
         - MNXR97143
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '15396'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -50550,7 +50550,7 @@
         - MNXR138232
         - MNXR139260
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '35334'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -50574,7 +50574,7 @@
         - MNXR113514
         - MNXR97394
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '34174'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -58036,7 +58036,7 @@
       - metanetx.reaction:
         - MNXR114287
       - origin: Sco4
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
   - !!omap
@@ -58110,7 +58110,7 @@
       - metanetx.reaction:
         - MNXR100293
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - rhea: '30850'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -60393,7 +60393,7 @@
       - metanetx.reaction:
         - MNXR113658
       - origin: Sco4
-      - pathway: Mycothiol biosynthesis
+      - pathway: Mycothiol metabolism
       - rhea: '28498'
       - sbo: SBO:0000176
       - subsystem: Metabolism of cofactors and vitamins
@@ -60940,7 +60940,7 @@
       - doi:
         - 'PMID: 16554727'
       - origin: iMK1208
-      - pathway: Mycothiol biosynthesis
+      - pathway: Mycothiol metabolism
       - subsystem: Metabolism of cofactors and vitamins
   - !!omap
     - id: IBCOAQ9R
@@ -61210,7 +61210,7 @@
         - MNXR113065
         - MNXR100812
       - origin: iMK1208
-      - pathway: Mycothiol biosynthesis
+      - pathway: Mycothiol metabolism
       - rhea: '26183'
       - subsystem: Metabolism of cofactors and vitamins
   - !!omap
@@ -62551,7 +62551,7 @@
       - metanetx.reaction:
         - MNXR106536
       - origin: Sco4
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - rhea: '23228'
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
@@ -62577,7 +62577,7 @@
       - metanetx.reaction:
         - MNXR101256
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - rhea: '22355'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -64882,7 +64882,7 @@
         - MNXR113037
         - MNXR101740
       - origin: iMK1208
-      - pathway: Mycothiol biosynthesis
+      - pathway: Mycothiol metabolism
       - rhea: '26175'
       - subsystem: Metabolism of cofactors and vitamins
   - !!omap
@@ -65208,6 +65208,7 @@
       - metanetx.reaction:
         - MNXR116769
       - origin: Sco4
+      - pathway: Mycothiol metabolism
       - rhea: '27349'
       - sbo: SBO:0000176
       - subsystem: Metabolism of cofactors and vitamins
@@ -65234,6 +65235,7 @@
       - metanetx.reaction:
         - MNXR112566
       - origin: Sco4
+      - pathway: Mycothiol metabolism
       - rhea: '28502'
       - sbo: SBO:0000176
       - subsystem: Metabolism of cofactors and vitamins
@@ -65257,6 +65259,7 @@
         - MNXR101792
         - MNXR109780
       - origin: iMK1208
+      - pathway: Mycothiol metabolism
       - subsystem: Metabolism of cofactors and vitamins
   - !!omap
     - id: NAACPHYD
@@ -67876,7 +67879,7 @@
       - metanetx.reaction:
         - MNXR102248
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - rhea: '12067'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -70022,7 +70025,7 @@
       - metanetx.reaction:
         - MNXR116488
       - origin: Sco4
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
   - !!omap
@@ -71099,7 +71102,7 @@
       - metanetx.reaction:
         - MNXR103138
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: PPS
@@ -75517,7 +75520,7 @@
       - metanetx.reaction:
         - MNXR104300
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - rhea: '22611'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -75542,7 +75545,7 @@
       - metanetx.reaction:
         - MNXR104301
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '11963'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -75965,6 +75968,7 @@
       - metanetx.reaction:
         - MNXR104498
       - origin: iMK1208
+      - pathway: Superoxide dismutase
       - rhea: '20699'
       - subsystem: Biomass and maintenance functions
   - !!omap
@@ -77135,7 +77139,7 @@
       - metanetx.reaction:
         - MNXR139259
       - origin: KEGG
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '35326'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -77160,7 +77164,7 @@
         - MNXR138858
         - MNXR104806
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '17328'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -77254,7 +77258,7 @@
         - MNXR95864
         - MNXR138054
       - origin: Sco4
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '13085'
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
@@ -77281,7 +77285,7 @@
         - MNXR139271
         - MNXR108820
       - origin: Sco4
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '24797'
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
@@ -83077,7 +83081,7 @@
       - metanetx.reaction:
         - MNXR101265
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - subsystem: Membrane transport
   - !!omap
     - id: LYSt2r
@@ -83097,7 +83101,7 @@
       - metanetx.reaction:
         - MNXR101266
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - subsystem: Membrane transport
   - !!omap
     - id: LYSt3r
@@ -83118,7 +83122,7 @@
         - MNXR101267
         - MNXR101266
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - subsystem: Membrane transport
   - !!omap
     - id: LYXDabc
