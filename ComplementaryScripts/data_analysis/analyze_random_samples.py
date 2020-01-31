@@ -16,6 +16,7 @@ from pathlib import Path
 import cobra
 from matplotlib import pyplot as plt
 import matplotlib
+import numpy as np
 import seaborn as sns
 
 pd.set_option("display.max_rows", 150)
@@ -26,22 +27,124 @@ pd.set_option("display.max_columns", 101)
 matplotlib.rcParams.update({'font.size': 10, 'legend.loc':'upper right'})
 
 
+# Definition of different groups of pathways used om plotting
+
 SELECTED_PATHWAYS_M145 = ["Glycolysis/Gluconeogenesis", "Pyruvate metabolism", "Oxidative phosphorylation", "Glycine, serine and threonine metabolism",
                           "Citric Acid Cycle", "Alanine, aspartate and glutamate metabolism", "Pentose phosphate pathway",
-                          "Fatty acid biosynthesis", "Valine, leucine and isoleucine metabolism", "Nucleotide biosynthesis",
+                          "Fatty acid biosynthesis", "Valine, leucine and isoleucine degradation", "Nucleotide biosynthesis",
                           "Undecylprodigiosin Biosynthesis", "Calcium-Dependent Antibiotics Biosynthesis", "Actinorhodin Biosynthesis", "Coelimycin biosynthesis"]#, 
                           # "Fatty acid biosynthesis", "Glycerophospholipid metabolism"]
 
 SELECTED_PATHWAYS_M1152 = ["Glycolysis/Gluconeogenesis", "Pyruvate metabolism", "Oxidative phosphorylation", "Glycine, serine and threonine metabolism",
                           "Citric Acid Cycle", "Alanine, aspartate and glutamate metabolism", "Pentose phosphate pathway", "Glyoxylate and dicarboxylate metabolism",
-                          "Fatty acid biosynthesis", "Valine, leucine and isoleucine metabolism", "Nucleotide biosynthesis"]
+                          "Fatty acid biosynthesis", "Valine, leucine and isoleucine degradation", "Nucleotide biosynthesis"]
 
-OTHER_AMINO_ACIDS = []
 NUCLEOTIDE_METABOLISM = ["Purine metabolism", "Pyrimidine metabolism"]                          
+
+CENTRAL_CARBON =  ["Glycolysis/Gluconeogenesis", 
+                  "Citric Acid Cycle",
+                  "Pentose phosphate pathway",
+                  "Fructose and mannose metabolism",
+                  "Alternate Carbon metabolism",
+                  "Pyruvate metabolism",
+                  "Pentose and glucuronate interconversions",
+                  "Glycogen metabolism",
+                  "Peptidoglycan biosynthesis",
+                  "Murein Recycling",
+                  "Murein Biosynthesis",
+                  "Glyoxylate and dicarboxylate metabolism",
+                  "Starch and sucrose metabolism",
+                  "Butanoate metabolism",
+                  "Propanoate metabolism",
+                  "Carbon fixation pathways in prokaryotes",
+                  "Amino sugar and nucleotide sugar metabolism",
+                  "C5-Branched dibasic acid metabolism",
+                  "Inositol phosphate metabolism",
+                ]
+
+AMINO_ACIDS = ["Alanine, aspartate and glutamate metabolism", 
+               "Glycine, serine and threonine metabolism",
+               "Valine, leucine and isoleucine degradation",
+               "Phenylalanine, tyrosine and tryptophan biosynthesis",
+               "Valine, leucine and isoleucine biosynthesis", 
+               "Arginine and proline metabolism", 
+               "Cysteine and methionine metabolism",
+               "Lysine degradation",
+               "Arginine biosynthesis",
+               "Cysteine metabolism",
+               "Lysine biosynthesis",
+               "Histidine metabolism",
+               "Phenylalanine metabolism",
+               "Methionine metabolism",
+               "Thiamine metabolism",
+               "Tyrosine metabolism",
+               "Tryptophan metabolism",
+               "D-Alanine metabolism",
+               "Ascorbate and aldarate metabolism",
+               "D-Glutamine and D-glutamate metabolism",
+               "Nitrogen metabolism"]
+
+LIPIDS =  ["Fatty acid biosynthesis",
+          "Glycerolipid metabolism",
+          "Fatty acid degradation",
+          "Glycerophospholipid metabolism"]
+
+VITAMINS_COFACTORS =  ["Vitamin B6 metabolism",
+                      "Pantothenate and CoA biosynthesis",
+                      "beta-Alanine metabolism",
+                      "Nicotinate and nicotinamide metabolism",
+                      "Folate biosynthesis",
+                      "Porphyrin and chlorophyll metabolism",
+                      "Riboflavin metabolism",
+                      "Folate metabolism",
+                      "One carbon pool by folate",
+                      "Lipoic acid metabolism",
+                      "Biotin metabolism"]
+
+TOXIC_COMPOUND_DEGRADATION = ["Atrazine degradation",
+                              "Benzoate degradation",
+                              "Aminobenzoate degradation",
+                              ]
+
+ALL_BGC =  ["Terpenoid backbone biosynthesis",
+           "Desferrioxamine biosynthesis",
+           "Germicidin Biosynthesis",
+           "Sesquiterpenoid and triterpenoid biosynthesis",
+           "Ubiquinone and other terpenoid-quinone biosynthesis",
+           "Albaflavenol biosynthesis",
+           "Geosmin synthase",
+           "Biflaviolin synthase",
+           "2-methylisoborneol synthase"]
+
+REMOVED_BGC = ["Undecylprodigiosin Biosynthesis",
+               "Actinorhodin Biosynthesis",
+               "Calcium-Dependent Antibiotics Biosynthesis",
+               "Coelimycin biosynthesis"]
+
+OXIDATIVE_STRESS = ["Mycothiol metabolism",
+                    "Catalase",
+                    "Superoxide dismutase"]
+
+
+IGNORE = ["D-Arginine and D-ornithine metabolism",
+          "Toluene degradation",
+          "Polyketide sugar unit biosynthesis",
+          "Galactose metabolism",
+          "Biosynthesis of type II polyketide backbone",
+          "Glutathione metabolism"
+          ]
+
+OTHER = ["Nucleotide biosynthesis",
+         "Methane metabolism",
+         "Sulfur metabolism",
+         "Oxidative phosphorylation",
+         "NADH repair",
+         "tRNA Charging",
+         ]
 
 def pathway_analysis_plot(model_fn, random_samples_fn, selected_pwys, row_order = None, labels = None, mask_rows = None, sep = "\t", key = "pathway", absolute_values = True):
     """
-    Plot random sampling heatmap for both M1454 and M1152
+    Plot random sampling heatmap for both M145 and M1152 in idividual plots
     """
     model = cobra.io.read_sbml_model(model_fn)
     df = get_random_samples(random_samples_fn, model, key = key, sep = sep, column_key = "MEAN", absolute_values = absolute_values)
@@ -82,7 +185,7 @@ def pathway_analysis_plot(model_fn, random_samples_fn, selected_pwys, row_order 
     figsize = (14, 14)
     cmap = sns.cm.vlag
     cmap.set_bad("gray", alpha = 0)
-
+    print(M145_sub_df)
     g_M145 = sns.clustermap(M145_sub_df, cmap = cmap, col_cluster = False, vmin = -1.3, vmax = 1.3, figsize = figsize)
     print("Row order:", g_M145.dendrogram_row.reordered_ind)
     # plt.setp(g_M145.ax_heatmap.xaxis.get_majorticklabels(), rotation=90)
@@ -107,17 +210,18 @@ def pathway_analysis_plot(model_fn, random_samples_fn, selected_pwys, row_order 
     
 
 def pathway_analysis(model_fn, random_samples_fn, selected_pwys, strain = "M145", row_order = None, labels = None, 
-                     mask_rows = None, store = True, key = "pathway", sep = ",", absolute_values = True):
+                     mask_rows = None, store = True, key = "pathway", sep = ",", absolute_values = True,
+                     show_cbar = False, mask_cells = None):
     """
-    Plot pathway heatmap for either M145 or M1152
+    Plot pathway heatmap for either M145, M1152 or both in one and same plot
     """
     model = cobra.io.read_sbml_model(model_fn)
     df = get_random_samples(random_samples_fn, model, key = key, sep = sep, column_key = "MEAN", absolute_values = absolute_values)
     sub_df = df.groupby(key).sum()
 
     # Remove all zero rows
-    sub_df = sub_df.loc[(sub_df != 0).any(axis = 1), :]
-    
+    sub_df = sub_df.loc[(sub_df.abs() > 1e-8).any(axis = 1), :]
+    print(sub_df.loc[(sub_df.abs() < 1e-8).any(axis = 1), :].abs().max(axis = 1).sort_values(ascending = False))
     # Standardize
     standardized_df = sub_df.subtract(sub_df.mean(axis = 1), axis = 0).divide(sub_df.std(axis = 1), axis = 0)
    
@@ -139,8 +243,9 @@ def pathway_analysis(model_fn, random_samples_fn, selected_pwys, strain = "M145"
 
     # Select top X
     # selected_pwys = list(std_df.index)[:70]
-
-    selected_df = strain_df.loc[:, :]
+    if not selected_pwys:
+        selected_pwys = strain_df.index
+    selected_df = strain_df.loc[selected_pwys, :]
     selected_df.index.names = ["Pathways"]
 
 
@@ -148,26 +253,37 @@ def pathway_analysis(model_fn, random_samples_fn, selected_pwys, strain = "M145"
         print(labels)
         selected_df = selected_df.loc[:, labels]
 
-    if mask_rows:
-        selected_df.iloc[mask_rows, :] = None
+    # if isinstance(mask_cells, np.ndarray):
+    #     print(selected_df.shape, mask_cells.shape)
+    #     selected_df[mask_cells] = None
 
     selected_df.columns = ["-".join(x.split("_")[1:]) for x in selected_df.columns.values]
     
     # Settings
-    figsize = (12, 14)
+    figsize = (10, len(selected_pwys)/3)
     cmap = sns.cm.vlag
     cmap.set_bad("gray", alpha = 0)
+    print(selected_df)
     if row_order:
         selected_df = selected_df.iloc[row_order, :]
         g = sns.clustermap(selected_df, cmap = cmap, col_cluster = False, row_cluster = False, figsize = figsize, vmin = -1.2, vmax = 1.2, yticklabels = True)
     else:
-        g = sns.clustermap(selected_df, cmap = cmap, col_cluster = False, figsize = figsize, vmin = -1.2, vmax = 1.2, yticklabels = True)
+        g = sns.clustermap(selected_df, cmap = cmap, col_cluster = False, figsize = figsize, vmin = -1.2, vmax = 1.2, yticklabels = True, mask=mask_cells)
         print("Row order:", g.dendrogram_row.reordered_ind)
         
+    # Remove labels
+    ax = g.ax_heatmap
+    ax.set_xlabel("")
+    ax.set_ylabel("")
+
+    # Show colorbar
+    g.cax.set_visible(show_cbar)
 
     # Set hatches
     g.ax_heatmap.patch.set(hatch='//', edgecolor='black')
-    plt.subplots_adjust(left = 0.03, right = 0.62, bottom = 0.07, top = 0.97)
+    # .xticks(rotation=45)
+    #plt.setp(g.ax_heatmap.xaxis.get_majorticklabels(), rotation=45, ha = "center")
+    plt.subplots_adjust(left = 0.03, right = 0.60, bottom = 0.27, top = 0.97)
     plt.show()
 
 
@@ -246,11 +362,12 @@ def add_subsystem_to_df(df, model, key = "subsystem"):
 
         if isinstance(subsystem, str) and len(subsystem):
             if "Valine, leucine and isoleucine" in subsystem:
-                # Currently there are Valine, leucine and isoleucine metabolism, biosynthesis and degradation,
-                # but it makes sense to combine these
-                subsystem = "Valine, leucine and isoleucine metabolism"
-            elif subsystem in OTHER_AMINO_ACIDS:
-                subsystem = "Metabolism of other amino acids"
+                # NOTE FOR REVIEW: Undid this merging 
+                # subsystem = "Valine, leucine and isoleucine metabolism"
+                pass
+            # elif subsystem in OTHER_AMINO_ACIDS:
+            #     subsystem = "Metabolism of other amino acids"
+
             elif subsystem == "FERI metabolism":
                 # FERI metabolism is only one reaction, FNOR, which recycles NADP with ferredoxin used by AKGDH2 reaction
                 subsystem = "Citric Acid Cycle"
@@ -554,6 +671,45 @@ def plot_selected_reactions(random_samples_fn, reactions, title = "", sep = ",",
     ax.set_xlabel("Hours")
     plt.show()
 
+def print_genes_in_subsystem(model_fn, pathway):
+    model = cobra.io.read_sbml_model(model_fn)
+
+    pathway_genes = []
+    for r in model.reactions:
+        try:
+            p_r = r.annotation["pathway"]
+        except:
+            continue
+        if p_r == pathway:
+            pathway_genes += [g.id for g in r.genes]
+
+    print("Genes related to {0};".format(pathway))
+    print(list(set(pathway_genes)))
+
+def plot_all_reactions_for_metabolite(model_fn, metabolite_id, random_samples_fn, sep = "\t"):
+    model = cobra.io.read_sbml_model(model_fn)
+    df = get_random_samples_raw(random_samples_fn, sep = sep, column_key = "MEAN")
+
+    metabolite = model.metabolites.get_by_id(metabolite_id)
+    reactions = [r.id for r in metabolite.reactions]
+
+    coeff = [r.metabolites[metabolite] for r in metabolite.reactions]
+    df_scaled = df.loc[reactions, :].multiply(coeff, axis = 0)
+    # print(df_scaled)    
+
+    std_df = df_scaled.std(axis = 1).sort_values(ascending = False)
+    print(std_df)
+    # print(df_scaled[reactions, :].head())
+    df_selected = df_scaled.loc[std_df > 1e-3, :]
+
+    # Row colors
+    lut = dict(zip([1,-1], "gr"))
+    row_sign = [np.sign(r.metabolites[metabolite]) for r in metabolite.reactions if r.id in df_selected.index]
+    row_colors = [lut[x] for x in row_sign]
+
+    g = sns.clustermap(df_selected, z_score = None, cmap = sns.cm.vlag, col_cluster = False, vmin = -0.1, vmax = 0.1)#row_colors = row_colors)
+    plt.show()
+
 
 if __name__ == '__main__':
     co2_normalized_random_samples_fn = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/randomsampling_july/ec-RandSampComb_proteomics_CO2norm.tsv"
@@ -583,9 +739,12 @@ if __name__ == '__main__':
 
 
     if 0:
+        matplotlib.rcParams.update({'font.size': 6, 'legend.loc':'upper right'})
         row_order = [4, 58, 19, 40, 26, 66, 23, 24, 69, 72, 46, 79, 18, 54, 14, 27, 7, 5, 67, 53, 29, 21, 74, 51, 48, 8, 52, 42, 49, 63, 70, 59, 81, 76, 44, 47, 61, 22, 30, 35, 56, 64, 80, 32, 45, 38, 65, 62, 43, 13, 28, 9, 71, 73, 31, 57, 36, 37, 15, 1, 78, 0, 12, 34, 17, 77, 20, 6, 11, 2, 55, 16, 25, 60, 75, 3, 10, 41, 50, 39, 33, 68]
+        # subplots adjust left = 0.03, right = 0.35, bottom = 0.27, top = 0.97
         pathway_analysis(model_fn, co2_normalized_random_samples_fn, SELECTED_PATHWAYS_M145, strain = "MEAN", sep = "\t", store = False, absolute_values = False)
-        pathway_analysis(model_fn, gluglc_normalized_random_samples_fn, SELECTED_PATHWAYS_M145, strain = "MEAN", sep = "\t", store = False, absolute_values = False, row_order = row_order)
+        #pathway_analysis(model_fn, gluglc_normalized_random_samples_fn, SELECTED_PATHWAYS_M145, strain = "MEAN", sep = "\t", store = False, absolute_values = False, row_order = row_order)
+        
         # row_order = [7, 6, 2, 9, 12, 3, 10, 13, 11, 0, 1, 5, 4, 8]
         # mask_rows = [10,11,12,13]
         # pathway_analysis(model_fn, co2_normalized_random_samples_fn, SELECTED_PATHWAYS_M145, strain = "M1152", row_order = row_order, mask_rows = mask_rows)
@@ -618,3 +777,28 @@ if __name__ == '__main__':
         # plot_selected_reactions(co2_normalized_random_samples_fn, ["CS", "ICDHyr"], "Aceyl-CoA consumption into TCA cycle", "\t")
         # plot_selected_reactions(co2_normalized_random_samples_fn, ["FBA", "PFK", "ENO", "G6PDH2r"], "Aceyl-CoA consumption into TCA cycle", "\t", strain = "M145")
         plot_selected_reactions(co2_normalized_random_samples_fn, ["ILETA", "LEUTA", "VALTA", "ILEDHr", "VALDHr", "LLEUDr"], "Branched-chain amino acids", "\t", strain = "M145")
+    if 0:
+        # Plot Supplementary figure 3 as several subpanels
+        matplotlib.rcParams.update({'font.size': 10, 'legend.loc':'upper right'})
+
+        # Glycolysis
+        #pathway_analysis(model_fn, co2_normalized_random_samples_fn, CENTRAL_CARBON, strain = "MEAN", sep = "\t", store = False, absolute_values = False)
+
+        # Amino acids
+        # pathway_analysis(model_fn, co2_normalized_random_samples_fn, AMINO_ACIDS, strain = "MEAN", sep = "\t", store = False, absolute_values = False)
+
+        
+        # for key in [OXIDATIVE_STRESS]:
+        #     # Lipids
+        #     pathway_analysis(model_fn, co2_normalized_random_samples_fn, key, strain = "MEAN", sep = "\t", store = False, absolute_values = False, show_cbar = False)
+
+        # BGC
+        mask_cells = np.zeros((len(REMOVED_BGC+ALL_BGC), 17), dtype = bool)
+        mask_cells[0:4, 9:] = 1
+        # mask_cells = mask_cells.T
+        pathway_analysis(model_fn, co2_normalized_random_samples_fn, REMOVED_BGC + ALL_BGC, strain = "MEAN", sep = "\t", store = False, absolute_values = False, mask_cells = mask_cells)
+    if 0:
+        # print_genes_in_subsystem(model_fn, "Alanine, aspartate and glutamate metabolism")
+        print_genes_in_subsystem(model_fn, "D-Glutamine and D-glutamate metabolism")
+    if 1:
+        plot_all_reactions_for_metabolite(model_fn, "glu__L_c", co2_normalized_random_samples_fn)
