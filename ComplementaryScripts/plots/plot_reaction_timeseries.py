@@ -316,6 +316,7 @@ def plot_germicidin():
 
     ax.axvline(x = 47, ymin = 0, ymax = 1, c = "r", ls = "--")
     ax.axvline(x = 35, ymin = 0, ymax = 1, c = "b", ls = "--")
+    ax.axvline(x = 38, ymin = 0, ymax = 1, c = "g", ls = "--")
     plt.show()
 
 def plot_histogram_carbon_nitrogen_uptake_and_secretion(mean_flux_fn, cols = ["M145_29", "M1152_41"], 
