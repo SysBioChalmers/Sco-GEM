@@ -28,7 +28,6 @@ matplotlib.rcParams.update({'font.size': 10, 'legend.loc':'upper right'})
 
 
 # Definition of different groups of pathways used om plotting
-
 SELECTED_PATHWAYS_M145 = ["Glycolysis/Gluconeogenesis", "Pyruvate metabolism", "Oxidative phosphorylation", "Glycine, serine and threonine metabolism",
                           "Citric Acid Cycle", "Alanine, aspartate and glutamate metabolism", "Pentose phosphate pathway",
                           "Fatty acid biosynthesis", "Valine, leucine and isoleucine degradation", "Nucleotide biosynthesis",
@@ -185,7 +184,7 @@ def pathway_analysis_plot(model_fn, random_samples_fn, selected_pwys, row_order 
     figsize = (14, 14)
     cmap = sns.cm.vlag
     cmap.set_bad("gray", alpha = 0)
-    print(M145_sub_df)
+
     g_M145 = sns.clustermap(M145_sub_df, cmap = cmap, col_cluster = False, vmin = -1.3, vmax = 1.3, figsize = figsize)
     print("Row order:", g_M145.dendrogram_row.reordered_ind)
     # plt.setp(g_M145.ax_heatmap.xaxis.get_majorticklabels(), rotation=90)
@@ -222,6 +221,7 @@ def pathway_analysis(model_fn, random_samples_fn, selected_pwys, strain = "M145"
     # Remove all zero rows
     sub_df = sub_df.loc[(sub_df.abs() > 1e-8).any(axis = 1), :]
     print(sub_df.loc[(sub_df.abs() < 1e-8).any(axis = 1), :].abs().max(axis = 1).sort_values(ascending = False))
+
     # Standardize
     standardized_df = sub_df.subtract(sub_df.mean(axis = 1), axis = 0).divide(sub_df.std(axis = 1), axis = 0)
    
@@ -362,12 +362,14 @@ def add_subsystem_to_df(df, model, key = "subsystem"):
 
         if isinstance(subsystem, str) and len(subsystem):
             if "Valine, leucine and isoleucine" in subsystem:
+
+                # Currently there are Valine, leucine and isoleucine metabolism, biosynthesis and degradation,
+                # but it makes sense to combine these
                 # NOTE FOR REVIEW: Undid this merging 
                 # subsystem = "Valine, leucine and isoleucine metabolism"
                 pass
-            # elif subsystem in OTHER_AMINO_ACIDS:
-            #     subsystem = "Metabolism of other amino acids"
-
+            elif subsystem in OTHER_AMINO_ACIDS:
+                subsystem = "Metabolism of other amino acids"
             elif subsystem == "FERI metabolism":
                 # FERI metabolism is only one reaction, FNOR, which recycles NADP with ferredoxin used by AKGDH2 reaction
                 subsystem = "Citric Acid Cycle"
@@ -502,11 +504,13 @@ def analyze_malcoa_consumption(model_fn, random_samples_fn, sep = "\t", subplot 
 
     # Sum RED, ACT
     red_columns = [x for x in df_selected.columns if x[:4] == "REDS"]
-    df_selected["RED"] = df_selected.loc[:, red_columns].sum(axis = 1)
+
+    df_selected["Red"] = df_selected.loc[:, red_columns].sum(axis = 1)
     df_selected.drop(red_columns, axis = 1, inplace = True)
 
     cpk_columns = [x for x in df_selected.columns if x[:4] == "CPKS"]
-    df_selected["CPK"] = df_selected.loc[:, cpk_columns].sum(axis = 1)
+    df_selected["Cpk"] = df_selected.loc[:, cpk_columns].sum(axis = 1)
+
     df_selected.drop(cpk_columns, axis = 1, inplace = True)
 
     cda_columns = [x for x in df_selected.columns if x[:4] == "CDAS"]
@@ -514,7 +518,7 @@ def analyze_malcoa_consumption(model_fn, random_samples_fn, sep = "\t", subplot 
     df_selected.drop(cda_columns, axis = 1, inplace = True)
 
     act_columns = [x for x in df_selected.columns if x[:4] == "ACTS"]
-    df_selected["ACT"] = df_selected.loc[:, act_columns].sum(axis = 1)
+    df_selected["Act"] = df_selected.loc[:, act_columns].sum(axis = 1)
     df_selected.drop(act_columns, axis = 1, inplace = True)
 
     # SUM ACCOAC and MCOATA
@@ -522,11 +526,10 @@ def analyze_malcoa_consumption(model_fn, random_samples_fn, sep = "\t", subplot 
     # df_selected.drop(["ACCOAC", "MCOATA"], axis = 1, inplace = True)
 
 
-
     df_selected["Strain"] = strain_annotation
     df_selected["Time point"] = timepoint_annotation
     print(df_selected)
-    df_selected = df_selected.reindex(["ACCOAC", "ACCOAC_1", "ACT", "MCOATA", "CPK", "RED", "CDA", "THYDNAPS", "Strain", "Time point"], axis = 1)
+    df_selected = df_selected.reindex(["ACCOAC", "ACCOAC_1", "Act", "MCOATA", "Cpk", "Red", "CDA", "THYDNAPS", "Strain", "Time point"], axis = 1)
     df_long_form = pd.melt(df_selected, id_vars = ["Strain", "Time point"], value_vars = df_selected.columns.values[:-2], value_name = "Normalized flux")
     
     # Production
@@ -671,6 +674,7 @@ def plot_selected_reactions(random_samples_fn, reactions, title = "", sep = ",",
     ax.set_xlabel("Hours")
     plt.show()
 
+
 def print_genes_in_subsystem(model_fn, pathway):
     model = cobra.io.read_sbml_model(model_fn)
 
@@ -717,7 +721,8 @@ if __name__ == '__main__':
     growth_normalized_random_samples_fn = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/randomsampling_july/ec-RandSampComb_proteomics_growthNorm.tsv"
     all_flux_normalized_random_samples_fn = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/randomsampling_july/ec-RandSampComb_proteomics_AllFluxNorm.tsv"
     
-    model_fn = "../../ModelFiles/xml/scoGEM.xml"
+
+    model_fn = "../../ModelFiles/xml/Sco-GEM.xml"
     if 0:
         labels = ["M145_21", "M145_29", "M145_33", "M145_37", "M145_41", "M145_45", "M145_49", "M145_53", "M145_57"]  #
         subsystem_analysis(model_fn, co2_normalized_random_samples_fn, strain = "M145", labels = labels)
@@ -738,6 +743,7 @@ if __name__ == '__main__':
         subsystem_analysis(model_fn, uptake_normalized_random_samples_fn, strain = "M1152", labels = labels, row_order = row_order)
 
 
+
     if 0:
         matplotlib.rcParams.update({'font.size': 6, 'legend.loc':'upper right'})
         row_order = [4, 58, 19, 40, 26, 66, 23, 24, 69, 72, 46, 79, 18, 54, 14, 27, 7, 5, 67, 53, 29, 21, 74, 51, 48, 8, 52, 42, 49, 63, 70, 59, 81, 76, 44, 47, 61, 22, 30, 35, 56, 64, 80, 32, 45, 38, 65, 62, 43, 13, 28, 9, 71, 73, 31, 57, 36, 37, 15, 1, 78, 0, 12, 34, 17, 77, 20, 6, 11, 2, 55, 16, 25, 60, 75, 3, 10, 41, 50, 39, 33, 68]
@@ -745,6 +751,7 @@ if __name__ == '__main__':
         pathway_analysis(model_fn, co2_normalized_random_samples_fn, SELECTED_PATHWAYS_M145, strain = "MEAN", sep = "\t", store = False, absolute_values = False)
         #pathway_analysis(model_fn, gluglc_normalized_random_samples_fn, SELECTED_PATHWAYS_M145, strain = "MEAN", sep = "\t", store = False, absolute_values = False, row_order = row_order)
         
+
         # row_order = [7, 6, 2, 9, 12, 3, 10, 13, 11, 0, 1, 5, 4, 8]
         # mask_rows = [10,11,12,13]
         # pathway_analysis(model_fn, co2_normalized_random_samples_fn, SELECTED_PATHWAYS_M145, strain = "M1152", row_order = row_order, mask_rows = mask_rows)
@@ -756,7 +763,8 @@ if __name__ == '__main__':
         # pathway_analysis_plot(model_fn, uptake_normalized_random_samples_fn, SELECTED_PATHWAYS_M145, row_order = row_order, mask_rows = mask_rows)
     if 0:
         analyze_accoa_consumption(model_fn, co2_normalized_random_samples_fn, subplot = False)
-    if 1:
+
+    if 0:
         analyze_malcoa_consumption(model_fn, co2_normalized_random_samples_fn, subplot = True)
 
     if 0:
@@ -802,3 +810,4 @@ if __name__ == '__main__':
         print_genes_in_subsystem(model_fn, "D-Glutamine and D-glutamate metabolism")
     if 1:
         plot_all_reactions_for_metabolite(model_fn, "glu__L_c", co2_normalized_random_samples_fn)
+

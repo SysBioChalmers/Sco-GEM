@@ -65,6 +65,7 @@ TARGET_GLUTAMATE_GENES = ["SCO4159","SCO2213","SCO2198","SCO2210","SCO5584","SCO
                           "SCO3416","SCO1613","SCO2241","SCO6962","SCO4078","SCO7049","SCO5520","SCO6412","SCO5676",
                           "SCO7034","SCO1018"]
 
+
 def convert_sample_number_to_timepoint(row):
     if row["Strain"] == "M145":
         timepoint_dict = {"P6":1, "P14":2, "P18":3, "P22":4, "P26":5, "P30":6, "P34":7, "P38":8, "P42":9}
@@ -88,7 +89,9 @@ def convert_to_timepoint(strain, hour):
 
 def get_all_flux(folder, reactions):
     """
+
     DEPRECATED
+
     """
     folder = Path(folder)
     df_dict = {}
@@ -128,7 +131,6 @@ def get_gene_data(gene_expression_csv, gene_ids):
     # The csv file contains normalized rna-seq data for each of the three biological replicates for each strain
     df_gene_fermentors = pd.read_csv(gene_expression_csv, sep = "\t")
     df_gene_fermentors.set_index("Identifier", inplace = True)
-    #print(df_gene_fermentors.T)
 
     df_gene = df_gene_fermentors.T
 
@@ -136,7 +138,6 @@ def get_gene_data(gene_expression_csv, gene_ids):
     df_gene.loc[df_gene.index.str.contains("|".join(M145_FERMENTORS)), "Strain"] = "M145"    
     df_gene.loc[df_gene.index.str.contains("|".join(M1152_FERMENTORS)), "Strain"] = "M1152"    
     
-    # print(df_gene.head())
     # Set timepoint
     df_gene.loc[:, "Hours"] = df_gene.index.str[5:7]
     
@@ -289,6 +290,7 @@ def plot_genes_clustermap(gene_expression_csv, gene_ids, z_score = 0, change_min
     # top=0.92,bottom=0.255,left=0.14,right=0.755,hspace=0.19,wspace=0.2
     plt.show()
 
+
 def get_proteome(proteome_norm_tsv, gene_ids):
     df = pd.read_csv(proteome_norm_tsv, sep = "\t", index_col = 0).T
     df_selected_genes = df.loc[:, gene_ids] # Select only a few genes
@@ -341,6 +343,7 @@ def read_differentially_expressed_genes(fn):
     df = pd.read_csv(fn, sep = ",", header = 0)
     return list(df["Gene (SCO-number)"])
 
+    
 if __name__ == '__main__':
     mean_flux_co2_scaled = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/randomsampling_july/ec-RandSampComb_proteomics_CO2norm.tsv"
     all_random_samples_folder = "C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/Eduard random sampling"
@@ -358,7 +361,8 @@ if __name__ == '__main__':
         for r in DIFFERENT_M1152+DELAYED_M1152:
             plot_all_flux(all_random_samples_folder, r)
 
-    if 1:
+
+    if 0:
         plot_germicidin()
     if 0:
         # plot no 2
@@ -366,6 +370,7 @@ if __name__ == '__main__':
         # plot_genes(gene_expression_csv, gene_ids)
         # plot_genes(gene_expression_csv, ALL_ATP_SYNTHASE_GENES)
         plot_genes(gene_expression_csv, SPODM)
+
         plot_genes(gene_expression_csv, CAT)
 
 
@@ -375,7 +380,9 @@ if __name__ == '__main__':
         plot_proteome(proteome_norm_tsv, gene_ids)
 
 
+
     if 0:
+
         #  Plot proteome (no 4)
         gene_ids = ["SCO1565", "SCO4229"]
         # plot_proteome(proteome_norm_tsv, gene_ids)
@@ -433,3 +440,4 @@ if __name__ == '__main__':
 
 
         plot_genes_clustermap(gene_expression_csv, genes, z_score = 0, change_min = 0, max_min = 0)
+

@@ -40,6 +40,11 @@ DELETE_REACTION_LIST = ["RXN0-5224",
 
 
 def fix(sco4_model, model_fn = None, save = False):
+    """
+    Deleted reactions from Sco4 that were identified as wrong during Sco4 model development
+
+    Note: This doesn't work with cobra > 0.16 because they then handle ascii conversion upon reading the model
+    """
     converted_ids = convert_to_ascii_codes(DELETE_REACTION_LIST)
     for reaction_id in converted_ids:
         sco4_model.reactions.get_by_id(reaction_id).remove_from_model()
