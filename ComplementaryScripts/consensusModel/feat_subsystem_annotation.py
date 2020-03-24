@@ -41,8 +41,7 @@ def update_subsystem_annotations(model, csv_fn, remove_old_subsystem_annotations
     from the *reconstruct_scoGEM.py* script. Removes old pathway and subsystem annotations by default.Then new annotations based on the curated columns in the 
     spreadsheet subsystem_curated.csv.
     """
-    df = pd.read_csv(csv_fn, sep = ";", usecols = ["Reaction ID", "curated pathway", "curated subsystem"], index_col = 0)
-
+    df = pd.read_csv(csv_fn, sep = ",", usecols = ["Reaction ID", "curated pathway", "curated subsystem"], index_col = 0)
     for r in model.reactions:
         # Remove old annotations
         if remove_old_subsystem_annotations:
@@ -343,7 +342,7 @@ def export_gene_pathway_list(model):
 
 
 if __name__ == '__main__':
-    model_fn = REPO_DIR / "ModelFiles" / "xml" / "scoGEM.xml"
+    model_fn = REPO_DIR / "ModelFiles" / "xml" / "Sco-GEM.xml"
     model = cobra.io.read_sbml_model(str(model_fn))
 
     if 0:
@@ -355,16 +354,16 @@ if __name__ == '__main__':
         model = get_pathways_from_KEGG(model)
         export_reaction_subsystem_and_pathways(model, csv_fn)
 
-    if 0:
+    if 1:
         import sys
         sys.path.append("C:/Users/snorres/git/scoGEM/ComplementaryScripts")
-        import export
+        # import export
         # update the subsystem annotations based on the curated csv-file"
-        subsystem_curated_csv = str(REPO_DIR / "ComplementaryData" / "curation" / "pathway_and_subsystem" / "subsystem.txt")
+        subsystem_curated_csv = str(REPO_DIR / "ComplementaryData" / "curation" / "pathway_and_subsystem" / "subsystem_curation.csv")
         update_subsystem_annotations(model, subsystem_curated_csv)
         # export.export(model, formats = ["xml", "yml"])
 
-    if 1:
+    if 0:
         # Print subsystem numbers
         print_subsystem_summary(model)
     if 0:

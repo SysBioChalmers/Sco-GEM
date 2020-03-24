@@ -34478,7 +34478,7 @@
       - metanetx.reaction:
         - MNXR94818
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: 33BIFLAV
@@ -35618,7 +35618,7 @@
       - metanetx.reaction:
         - MNXR113893
       - origin: Sco4
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
   - !!omap
@@ -38509,7 +38509,7 @@
       - metanetx.reaction:
         - MNXR95160
       - origin: Sco4
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - rhea: '12601'
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
@@ -39401,7 +39401,7 @@
         - 10.1099/00221287-145-9-2323
       - ec-code: 1.3.99.12
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: ACOADH1
@@ -39423,7 +39423,7 @@
       - metanetx.reaction:
         - MNXR95306
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: ACOATA
@@ -40894,7 +40894,7 @@
       - metanetx.reaction:
         - MNXR95434
       - origin: Sco4
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '25315'
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
@@ -44117,7 +44117,7 @@
       - metanetx.reaction:
         - MNXR95904
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - rhea: '10215'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -44381,7 +44381,7 @@
       - metanetx.reaction:
         - MNXR96039
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '24287'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -45864,7 +45864,7 @@
       - metanetx.reaction:
         - MNXR96455
       - origin: iMK1208
-      - pathway: Glyoxylate and dicarboxylate metabolism
+      - pathway: Catalase
       - rhea: '20312'
       - subsystem: Carbohydrate metabolism
   - !!omap
@@ -46825,7 +46825,7 @@
         - MNXR96721
         - MNXR113007
       - origin: iMK1208
-      - pathway: Mycothiol biosynthesis
+      - pathway: Mycothiol metabolism
       - rhea: '26179'
       - subsystem: Metabolism of cofactors and vitamins
   - !!omap
@@ -46901,7 +46901,7 @@
       - metanetx.reaction:
         - MNXR108509
       - origin: KEGG
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine biosynthesis
       - subsystem: Amino acid metabolism
   - !!omap
     - id: CITCIb
@@ -46920,7 +46920,7 @@
       - metanetx.reaction:
         - MNXR96730
       - origin: KEGG
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine biosynthesis
       - subsystem: Amino acid metabolism
   - !!omap
     - id: CITL
@@ -46965,7 +46965,7 @@
         - MNXR96734
         - MNXR111048
       - origin: KEGG
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine biosynthesis
       - subsystem: Amino acid metabolism
   - !!omap
     - id: CLADHAL
@@ -49389,7 +49389,7 @@
       - metanetx.reaction:
         - MNXR97139
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: DAPDC
@@ -49411,7 +49411,7 @@
       - metanetx.reaction:
         - MNXR97141
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '15104'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -49432,7 +49432,7 @@
       - metanetx.reaction:
         - MNXR97143
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '15396'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -50550,7 +50550,7 @@
         - MNXR138232
         - MNXR139260
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '35334'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -50574,7 +50574,7 @@
         - MNXR113514
         - MNXR97394
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '34174'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -58036,7 +58036,7 @@
       - metanetx.reaction:
         - MNXR114287
       - origin: Sco4
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
   - !!omap
@@ -58110,7 +58110,7 @@
       - metanetx.reaction:
         - MNXR100293
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - rhea: '30850'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -60393,7 +60393,7 @@
       - metanetx.reaction:
         - MNXR113658
       - origin: Sco4
-      - pathway: Mycothiol biosynthesis
+      - pathway: Mycothiol metabolism
       - rhea: '28498'
       - sbo: SBO:0000176
       - subsystem: Metabolism of cofactors and vitamins
@@ -60940,7 +60940,7 @@
       - doi:
         - 'PMID: 16554727'
       - origin: iMK1208
-      - pathway: Mycothiol biosynthesis
+      - pathway: Mycothiol metabolism
       - subsystem: Metabolism of cofactors and vitamins
   - !!omap
     - id: IBCOAQ9R
@@ -60958,7 +60958,7 @@
       - bigg.reaction: IBCOAQ9R
       - ec-code: 1.3.99.3
       - origin: iMA789
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: IBCOATA
@@ -60999,9 +60999,9 @@
       - metanetx.reaction:
         - MNXR100777
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Butanoate metabolism
       - rhea: '13144'
-      - subsystem: Amino acid metabolism
+      - subsystem: Lipid metabolism
   - !!omap
     - id: ICDHyr
     - name: isocitrate dehydrogenase (NADP)
@@ -61210,7 +61210,7 @@
         - MNXR113065
         - MNXR100812
       - origin: iMK1208
-      - pathway: Mycothiol biosynthesis
+      - pathway: Mycothiol metabolism
       - rhea: '26183'
       - subsystem: Metabolism of cofactors and vitamins
   - !!omap
@@ -62427,7 +62427,7 @@
       - metanetx.reaction:
         - MNXR101096
       - origin: KEGG
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: LLYXDH
@@ -62551,7 +62551,7 @@
       - metanetx.reaction:
         - MNXR106536
       - origin: Sco4
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - rhea: '23228'
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
@@ -62577,7 +62577,7 @@
       - metanetx.reaction:
         - MNXR101256
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - rhea: '22355'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -62702,7 +62702,7 @@
       - metanetx.reaction:
         - MNXR95195
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - rhea: '30722'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -63072,7 +63072,7 @@
       - metanetx.reaction:
         - MNXR108000
       - origin: iMA789
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: MBCOA3
@@ -63090,7 +63090,7 @@
       - bigg.reaction: MBCOA3
       - ec-code: 1.3.99.3
       - origin: iMA789
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: MBCOAi
@@ -63112,7 +63112,7 @@
       - metanetx.reaction:
         - MNXR95318
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - rhea: '31066'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -63138,7 +63138,7 @@
       - metanetx.reaction:
         - MNXR101411
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: MCOALY
@@ -64882,7 +64882,7 @@
         - MNXR113037
         - MNXR101740
       - origin: iMK1208
-      - pathway: Mycothiol biosynthesis
+      - pathway: Mycothiol metabolism
       - rhea: '26175'
       - subsystem: Metabolism of cofactors and vitamins
   - !!omap
@@ -65208,6 +65208,7 @@
       - metanetx.reaction:
         - MNXR116769
       - origin: Sco4
+      - pathway: Mycothiol metabolism
       - rhea: '27349'
       - sbo: SBO:0000176
       - subsystem: Metabolism of cofactors and vitamins
@@ -65234,6 +65235,7 @@
       - metanetx.reaction:
         - MNXR112566
       - origin: Sco4
+      - pathway: Mycothiol metabolism
       - rhea: '28502'
       - sbo: SBO:0000176
       - subsystem: Metabolism of cofactors and vitamins
@@ -65257,6 +65259,7 @@
         - MNXR101792
         - MNXR109780
       - origin: iMK1208
+      - pathway: Mycothiol metabolism
       - subsystem: Metabolism of cofactors and vitamins
   - !!omap
     - id: NAACPHYD
@@ -67147,7 +67150,7 @@
       - metanetx.reaction:
         - MNXR102148
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - rhea: '25483'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -67371,7 +67374,7 @@
       - metanetx.reaction:
         - MNXR102172
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - rhea: '25180'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -67399,7 +67402,7 @@
       - metanetx.reaction:
         - MNXR102173
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - rhea: '14000'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -67428,7 +67431,7 @@
         - MNXR102174
         - MNXR107999
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: OMCDC
@@ -67450,7 +67453,7 @@
       - metanetx.reaction:
         - MNXR102180
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine biosynthesis
       - rhea: '25081'
       - subsystem: Amino acid metabolism
       - unipathway.reaction: UCR01652
@@ -67876,7 +67879,7 @@
       - metanetx.reaction:
         - MNXR102248
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - rhea: '12067'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -70022,7 +70025,7 @@
       - metanetx.reaction:
         - MNXR116488
       - origin: Sco4
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
   - !!omap
@@ -71099,7 +71102,7 @@
       - metanetx.reaction:
         - MNXR103138
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - subsystem: Amino acid metabolism
   - !!omap
     - id: PPS
@@ -75517,7 +75520,7 @@
       - metanetx.reaction:
         - MNXR104300
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - rhea: '22611'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -75542,7 +75545,7 @@
       - metanetx.reaction:
         - MNXR104301
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '11963'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -75965,6 +75968,7 @@
       - metanetx.reaction:
         - MNXR104498
       - origin: iMK1208
+      - pathway: Superoxide dismutase
       - rhea: '20699'
       - subsystem: Biomass and maintenance functions
   - !!omap
@@ -77135,7 +77139,7 @@
       - metanetx.reaction:
         - MNXR139259
       - origin: KEGG
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '35326'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -77160,7 +77164,7 @@
         - MNXR138858
         - MNXR104806
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '17328'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -77254,7 +77258,7 @@
         - MNXR95864
         - MNXR138054
       - origin: Sco4
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '13085'
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
@@ -77281,7 +77285,7 @@
         - MNXR139271
         - MNXR108820
       - origin: Sco4
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - rhea: '24797'
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
@@ -79357,7 +79361,7 @@
       - metanetx.reaction:
         - MNXR105183
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine degradation
       - rhea: '30766'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -79380,7 +79384,7 @@
       - metanetx.reaction:
         - MNXR96230
       - origin: iMK1208
-      - pathway: Valine, leucine and isoleucine metabolism
+      - pathway: Valine, leucine and isoleucine biosynthesis
       - rhea: '24816'
       - subsystem: Amino acid metabolism
   - !!omap
@@ -83077,7 +83081,7 @@
       - metanetx.reaction:
         - MNXR101265
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - subsystem: Membrane transport
   - !!omap
     - id: LYSt2r
@@ -83097,7 +83101,7 @@
       - metanetx.reaction:
         - MNXR101266
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine degradation
       - subsystem: Membrane transport
   - !!omap
     - id: LYSt3r
@@ -83118,7 +83122,7 @@
         - MNXR101267
         - MNXR101266
       - origin: iMK1208
-      - pathway: Threonine and Lysine metabolism
+      - pathway: Lysine biosynthesis
       - subsystem: Membrane transport
   - !!omap
     - id: LYXDabc

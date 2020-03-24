@@ -49,6 +49,23 @@ INOSITOL_DEHYDROGENASE_GENES = ["SCO6255", "SCO6984", "SCO7254", "SCO1527"]
 SPODM = ["SCO0999", "SCO2633", "SCO5254"]
 CAT = ["SCO0379", "SCO0560", "SCO0666", "SCO2529", "SCO6204", "SCO7590"]
 
+# Stress genes as asked for by reviewers
+# From paper
+STRESS_GENES_1 = ["SCO5126","SCO6635","SCO0596","SCO0167","SCO0200","SCO7299","SCO5031","SCO0560","SCO0999","SCO2633","SCO3890","SCO0641","SCO2367","SCO2368","SCO3767","SCO4277","SCO5806"] # From https://pubs.acs.org/doi/10.1021/acs.jproteome.7b00163
+
+# From the identified differentially expressed genes
+STRESS_GENES_2 = ["SCO2633", "SCO4834", "SCO4835", "SCO0185", "SCO0186", "SCO0187","SCO0188","SCO7416", "SCO7417",
+                  "SCO7418", "SCO7419", "SCO7420", "SCO7421", "SCO7422", "SCO2885"]
+
+# Glutamate related genes
+ALL_GLUTAMATE_GENES = ['SCO0386', 'SCO0401', 'SCO0603', 'SCO0910', 'SCO0985', 'SCO1018', 'SCO1042', 'SCO1204', 'SCO1254', 'SCO1483', 'SCO1484', 'SCO1487', 'SCO1522', 'SCO1570', 'SCO1578', 'SCO1579', 'SCO1613', 'SCO1773', 'SCO1776', 'SCO1977', 'SCO2025', 'SCO2026', 'SCO2051', 'SCO2086', 'SCO2089', 'SCO2117', 'SCO2198', 'SCO2210', 'SCO2234', 'SCO2238', 'SCO2241', 'SCO2587', 'SCO2614', 'SCO2664', 'SCO2789', 'SCO2829', 'SCO2830', 'SCO2831', 'SCO2951', 'SCO2999', 'SCO3213', 'SCO3382', 'SCO3411', 'SCO3416', 'SCO3435', 'SCO3615', 'SCO3629', 'SCO3658', 'SCO3807', 'SCO3851', 'SCO4078', 'SCO4086', 'SCO4089', 'SCO4162', 'SCO4469', 'SCO4498', 'SCO4645', 'SCO4683', 'SCO4740', 'SCO4780', 'SCO4785', 'SCO4911', 'SCO4984', 'SCO5042', 'SCO5150', 'SCO5520', 'SCO5655', 'SCO5676', 'SCO5774', 'SCO5775', 'SCO5776', 'SCO5777', 'SCO5778', 'SCO5779', 'SCO6060', 'SCO6222', 'SCO6412', 'SCO6702', 'SCO6732', 'SCO6789', 'SCO6962', 'SCO7034', 'SCO7035', 'SCO7036', 'SCO7049', 'SCO7152']
+
+TARGET_GLUTAMATE_GENES = ["SCO4159","SCO2213","SCO2198","SCO2210","SCO5584","SCO5585","SCO2234","SCO5774","SCO5775",
+                          "SCO5776","SCO5777","SCO5778","SCO5779","SCO4683","SCO2999","SCO1977","SCO2025","SCO2026",
+                          "SCO3416","SCO1613","SCO2241","SCO6962","SCO4078","SCO7049","SCO5520","SCO6412","SCO5676",
+                          "SCO7034","SCO1018"]
+
+
 def convert_sample_number_to_timepoint(row):
     if row["Strain"] == "M145":
         timepoint_dict = {"P6":1, "P14":2, "P18":3, "P22":4, "P26":5, "P30":6, "P34":7, "P38":8, "P42":9}
@@ -72,7 +89,9 @@ def convert_to_timepoint(strain, hour):
 
 def get_all_flux(folder, reactions):
     """
-    DEPRECEATED
+
+    DEPRECATED
+
     """
     folder = Path(folder)
     df_dict = {}
@@ -112,7 +131,6 @@ def get_gene_data(gene_expression_csv, gene_ids):
     # The csv file contains normalized rna-seq data for each of the three biological replicates for each strain
     df_gene_fermentors = pd.read_csv(gene_expression_csv, sep = "\t")
     df_gene_fermentors.set_index("Identifier", inplace = True)
-    print(df_gene_fermentors.T)
 
     df_gene = df_gene_fermentors.T
 
@@ -120,7 +138,6 @@ def get_gene_data(gene_expression_csv, gene_ids):
     df_gene.loc[df_gene.index.str.contains("|".join(M145_FERMENTORS)), "Strain"] = "M145"    
     df_gene.loc[df_gene.index.str.contains("|".join(M1152_FERMENTORS)), "Strain"] = "M1152"    
     
-    print(df_gene)
     # Set timepoint
     df_gene.loc[:, "Hours"] = df_gene.index.str[5:7]
     
@@ -241,8 +258,36 @@ def plot_genes(gene_expression_csv, gene_ids):
     df_selected_genes = get_gene_data(gene_expression_csv, gene_ids)
     
     df_melt = df_selected_genes.melt(["Time point", "Strain"], value_vars = gene_ids, var_name = "Gene", value_name = "Log2 normalized count")
-    print(df_melt)
+    #print(df_melt.head())
     sns.lineplot(x = "Time point", y = "Log2 normalized count", hue = "Gene", style = "Strain", data = df_melt, err_style = "bars")
+    plt.show()
+
+def plot_genes_clustermap(gene_expression_csv, gene_ids, z_score = 0, change_min = 1, max_min = 9):
+    df_selected_genes = get_gene_data(gene_expression_csv, gene_ids)
+    #print(df_selected_genes.head())
+    df_mean = df_selected_genes.groupby(["Strain", "Hours"]).mean()
+    df_mean.reset_index(inplace  = True)
+    df_mean.index = df_mean["Strain"] + "-" + df_mean["Hours"].map(str)+"h"
+    #print(df_mean.index)
+    print(df_mean.index)
+    df_mean.sort_values(by = ["Strain", "Hours"], ascending = [False, True], inplace = True)
+    print(df_mean.index)
+
+    df_change = df_mean.loc[:, gene_ids].max(axis = 0) - df_mean.loc[:, gene_ids].min(axis = 0)
+    
+    df_idx = (df_change > change_min) & (df_mean.loc[:, gene_ids].max(axis = 0) >max_min)
+
+    df_gene = df_mean.loc[:, gene_ids]
+    df_selected = df_gene.loc[:, df_idx]
+    # df_selected.sort_index(inplace = True, ascending = False)
+
+    g = sns.clustermap(df_selected.T, col_cluster = False, cmap  = "Reds", 
+                        z_score = z_score, figsize = (8, 10), cbar_kws={'label': 'log2 RNA-seq'})
+    ax = g.ax_heatmap
+    ax.set_xlabel("")
+    ax.set_ylabel("")
+    #plt.setp(ax.xaxis.get_majorticklabels(), rotation=45)
+    # top=0.92,bottom=0.255,left=0.14,right=0.755,hspace=0.19,wspace=0.2
     plt.show()
 
 
@@ -265,12 +310,15 @@ def plot_proteome(proteome_norm_tsv, gene_ids):
     plt.show()
 
 def plot_germicidin():
-    germicidin_fn = "C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/manuscript/germicidin_long_table.csv"
-    df = pd.read_csv(germicidin_fn, header = 0, sep = ";")
+    germicidin_fn = "../../ComplementaryData/data/germicidin.csv"
+    df = pd.read_csv(germicidin_fn, header = 0, sep = ",")
     print(df.head())
-    ax = sns.lineplot(x = "Time [h]", y = "Concentration [ng/ml]", hue = "Strain", style = "Compound", data = df, palette = ["b", "r"])
+    ax = sns.lineplot(x = "Time [h]", y = "Concentration [ng/ml]", hue = "Strain", style = "Compound", data = df, palette = ["b", "r", "g"], err_style = "band", markers=True, ci = 'sd')
+
+
     ax.axvline(x = 47, ymin = 0, ymax = 1, c = "r", ls = "--")
     ax.axvline(x = 35, ymin = 0, ymax = 1, c = "b", ls = "--")
+    ax.axvline(x = 38, ymin = 0, ymax = 1, c = "g", ls = "--")
     plt.show()
 
 def plot_histogram_carbon_nitrogen_uptake_and_secretion(mean_flux_fn, cols = ["M145_29", "M1152_41"], 
@@ -290,13 +338,18 @@ def plot_histogram_carbon_nitrogen_uptake_and_secretion(mean_flux_fn, cols = ["M
     sns.barplot(data = df_melt, x = "Reaction ID", y = "CO2 normalized flux", hue = "Strain")
     plt.show()
 
+
+def read_differentially_expressed_genes(fn):
+    df = pd.read_csv(fn, sep = ",", header = 0)
+    return list(df["Gene (SCO-number)"])
+
     
 if __name__ == '__main__':
     mean_flux_co2_scaled = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/randomsampling_july/ec-RandSampComb_proteomics_CO2norm.tsv"
     all_random_samples_folder = "C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/Eduard random sampling"
     gene_expression_csv = "C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/manuscript/m145-m1152-normalized_allfermenters.tsv"
     proteome_norm_tsv = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Correlation_ProtRNA_Ed/proteomeNorm.tsv"
-
+    differentially_expressed_genes_csv = "C:/Users/snorres/git/Sco-GEM/ComplementaryData/data/differentially_expressed_genes.csv"
 
 
     # plot_gene_and_single_flux(mean_flux_co2_scaled, gene_expression_csv)
@@ -308,6 +361,7 @@ if __name__ == '__main__':
         for r in DIFFERENT_M1152+DELAYED_M1152:
             plot_all_flux(all_random_samples_folder, r)
 
+
     if 0:
         plot_germicidin()
     if 0:
@@ -315,7 +369,8 @@ if __name__ == '__main__':
         gene_ids = ["SCO6984", "SCO1527"]
         # plot_genes(gene_expression_csv, gene_ids)
         # plot_genes(gene_expression_csv, ALL_ATP_SYNTHASE_GENES)
-        # plot_genes(gene_expression_csv, SPODM)
+        plot_genes(gene_expression_csv, SPODM)
+
         plot_genes(gene_expression_csv, CAT)
 
 
@@ -325,7 +380,9 @@ if __name__ == '__main__':
         plot_proteome(proteome_norm_tsv, gene_ids)
 
 
-    if 1:
+
+    if 0:
+
         #  Plot proteome (no 4)
         gene_ids = ["SCO1565", "SCO4229"]
         # plot_proteome(proteome_norm_tsv, gene_ids)
@@ -345,5 +402,42 @@ if __name__ == '__main__':
         get_all_flux(all_random_samples_folder, ["CS", "ACONTa"])
         plot_all_flux(all_random_samples_folder, "CS")
 
-    if 1:
+    if 0:
         plot_histogram_carbon_nitrogen_uptake_and_secretion(mean_flux_co2_scaled)
+
+    if 0:
+        # Plot gene expression and proteome abundance of genes related to oxidative stress
+        genes = list(set(STRESS_GENES_2 + SPODM + CAT))
+        genes.sort()
+        
+        differentially_expressed_genes = read_differentially_expressed_genes(differentially_expressed_genes_csv)
+        diff_genes = []
+        for g in genes:
+            if not g in differentially_expressed_genes:
+                print("{0} is not differentially expressed".format(g))
+            else:
+                diff_genes.append(g)
+
+
+
+        plot_genes_clustermap(gene_expression_csv, diff_genes)
+
+    if 0:
+        # Plot gene expression  of genes related to glutamate
+        genes = list(set(TARGET_GLUTAMATE_GENES))
+        genes.sort()
+        print(genes)
+        differentially_expressed_genes = read_differentially_expressed_genes(differentially_expressed_genes_csv)
+        diff_genes = []
+        i = 0
+        for g in genes:
+            if not g in differentially_expressed_genes:
+                print("{0} is not differentially expressed".format(g))
+                i+=1
+            else:
+                diff_genes.append(g)
+        print(len(genes), i)
+
+
+        plot_genes_clustermap(gene_expression_csv, genes, z_score = 0, change_min = 0, max_min = 0)
+

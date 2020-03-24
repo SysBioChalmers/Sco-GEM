@@ -21,14 +21,14 @@ _Streptomyces coelicolor_ is a representative species of soil-dwelling, filament
 > TBA
 
 - Pubmed ID: TBA
-
+- doi: https://doi.org/10.1101/796722
 - Last update: 2019-10-04
 
 - The model contains:
 
 | Taxonomy | Template Model | Reactions | Metabolites| Genes | Memote score |
 | ------------- |:-------------:|:-------------:|:-------------:|-----:|-----:|
-| _Streptomyces coelicolor_ A3(2) | iKS1317 | 2612 | 2073 | 1777 | 76%|
+| _Streptomyces coelicolor_ A3(2) | iKS1317 | 2612 | 2073 | 1777 | 77%|
 
 
 This repository is administered by Eduard Kerkhoven ([@SysBioChalmers](https://github.com/SysBioChalmers)), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology
