@@ -141,10 +141,13 @@ OTHER = ["Nucleotide biosynthesis",
          "tRNA Charging",
          ]
 
-def pathway_analysis_plot(model_fn, random_samples_fn, selected_pwys, row_order = None, labels = None, mask_rows = None, sep = "\t", key = "pathway", absolute_values = True):
+def pathway_analysis_plot(model_fn, random_samples_fn, selected_pwys, row_order = None, labels = None, mask_rows = None, sep = "\t", key = "pathway", absolute_values = True, folder = None):
     """
     Plot random sampling heatmap for both M145 and M1152 in idividual plots
     """
+    if not folder:
+      folder = "."
+
     model = cobra.io.read_sbml_model(model_fn)
     df = get_random_samples(random_samples_fn, model, key = key, sep = sep, column_key = "MEAN", absolute_values = absolute_values)
     sub_df = df.groupby(key).sum()
@@ -190,7 +193,8 @@ def pathway_analysis_plot(model_fn, random_samples_fn, selected_pwys, row_order 
     # plt.setp(g_M145.ax_heatmap.xaxis.get_majorticklabels(), rotation=90)
     plt.subplots_adjust(left = 0.03, right = 0.5)
 
-    plt.savefig("C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/Random sampling july/M145/all_pathways_uptake_{0}.svg".format(abs_string))
+    path_M145 = folder + "/all_pathways_uptake_M145_{0}.svg".format(abs_string)
+    plt.savefig(path_M145)
     # plt.savefig("C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/Eduard random sampling/M145/all_pathways.png")
     # plt.show()
     plt.close()
@@ -203,7 +207,8 @@ def pathway_analysis_plot(model_fn, random_samples_fn, selected_pwys, row_order 
     # plt.setp(g_M1152.ax_heatmap.xaxis.get_majorticklabels(), rotation=45)
     plt.subplots_adjust(left = 0.03, right = 0.5)
     # plt.savefig("C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/Eduard random sampling/M1152/all_pathways.png")
-    plt.savefig("C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/Random sampling july/M1152/all_pathways_uptake_{0}.svg".format(abs_string))
+    path_M1152 = folder + "/all_pathways_uptake_M1152_{0}.eps".format(abs_string)
+    plt.savefig(path_M1152)
     # plt.show()
     plt.close()
     
@@ -368,8 +373,8 @@ def add_subsystem_to_df(df, model, key = "subsystem"):
                 # NOTE FOR REVIEW: Undid this merging 
                 # subsystem = "Valine, leucine and isoleucine metabolism"
                 pass
-            elif subsystem in OTHER_AMINO_ACIDS:
-                subsystem = "Metabolism of other amino acids"
+            # elif subsystem in OTHER_AMINO_ACIDS:
+            #     subsystem = "Metabolism of other amino acids"
             elif subsystem == "FERI metabolism":
                 # FERI metabolism is only one reaction, FNOR, which recycles NADP with ferredoxin used by AKGDH2 reaction
                 subsystem = "Citric Acid Cycle"
@@ -756,7 +761,9 @@ if __name__ == '__main__':
         # mask_rows = [10,11,12,13]
         # pathway_analysis(model_fn, co2_normalized_random_samples_fn, SELECTED_PATHWAYS_M145, strain = "M1152", row_order = row_order, mask_rows = mask_rows)
 
-    if 0:
+    if 1:
+
+        matplotlib.rcParams.update({'font.size': 16, 'legend.loc':'upper right'})
         row_order = [12, 13, 10, 11, 3, 2, 8, 6, 7, 9, 5, 4, 0, 1]
         mask_rows = [10,11,12,13]
         pathway_analysis_plot(model_fn, co2_normalized_random_samples_fn, SELECTED_PATHWAYS_M145, row_order = True, mask_rows = mask_rows, absolute_values = False)
@@ -808,6 +815,6 @@ if __name__ == '__main__':
     if 0:
         # print_genes_in_subsystem(model_fn, "Alanine, aspartate and glutamate metabolism")
         print_genes_in_subsystem(model_fn, "D-Glutamine and D-glutamate metabolism")
-    if 1:
+    if 0:
         plot_all_reactions_for_metabolite(model_fn, "glu__L_c", co2_normalized_random_samples_fn)
 
