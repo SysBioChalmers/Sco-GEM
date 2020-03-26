@@ -18,6 +18,7 @@ function: plot_all_flux()
 
 import cobra
 import pandas as pd
+import matplotlib
 import matplotlib.pyplot as plt
 from pathlib import Path
 import seaborn as sns
@@ -51,19 +52,25 @@ CAT = ["SCO0379", "SCO0560", "SCO0666", "SCO2529", "SCO6204", "SCO7590"]
 
 # Stress genes as asked for by reviewers
 # From paper
-STRESS_GENES_1 = ["SCO5126","SCO6635","SCO0596","SCO0167","SCO0200","SCO7299","SCO5031","SCO0560","SCO0999","SCO2633","SCO3890","SCO0641","SCO2367","SCO2368","SCO3767","SCO4277","SCO5806"] # From https://pubs.acs.org/doi/10.1021/acs.jproteome.7b00163
+STRESS_GENES_1 = ["SCO5126","SCO6635","SCO0596","SCO0167","SCO0200","SCO7299","SCO5031","SCO3890","SCO0641","SCO2367","SCO2368","SCO3767","SCO4277","SCO5806"] # From https://pubs.acs.org/doi/10.1021/acs.jproteome.7b00163
 
 # From the identified differentially expressed genes
-STRESS_GENES_2 = ["SCO2633", "SCO4834", "SCO4835", "SCO0185", "SCO0186", "SCO0187","SCO0188","SCO7416", "SCO7417",
+STRESS_GENES_2 = ["SCO4834", "SCO4835", "SCO0185", "SCO0186", "SCO0187","SCO0188","SCO7416", "SCO7417",
                   "SCO7418", "SCO7419", "SCO7420", "SCO7421", "SCO7422", "SCO2885"]
 
 # Glutamate related genes
 ALL_GLUTAMATE_GENES = ['SCO0386', 'SCO0401', 'SCO0603', 'SCO0910', 'SCO0985', 'SCO1018', 'SCO1042', 'SCO1204', 'SCO1254', 'SCO1483', 'SCO1484', 'SCO1487', 'SCO1522', 'SCO1570', 'SCO1578', 'SCO1579', 'SCO1613', 'SCO1773', 'SCO1776', 'SCO1977', 'SCO2025', 'SCO2026', 'SCO2051', 'SCO2086', 'SCO2089', 'SCO2117', 'SCO2198', 'SCO2210', 'SCO2234', 'SCO2238', 'SCO2241', 'SCO2587', 'SCO2614', 'SCO2664', 'SCO2789', 'SCO2829', 'SCO2830', 'SCO2831', 'SCO2951', 'SCO2999', 'SCO3213', 'SCO3382', 'SCO3411', 'SCO3416', 'SCO3435', 'SCO3615', 'SCO3629', 'SCO3658', 'SCO3807', 'SCO3851', 'SCO4078', 'SCO4086', 'SCO4089', 'SCO4162', 'SCO4469', 'SCO4498', 'SCO4645', 'SCO4683', 'SCO4740', 'SCO4780', 'SCO4785', 'SCO4911', 'SCO4984', 'SCO5042', 'SCO5150', 'SCO5520', 'SCO5655', 'SCO5676', 'SCO5774', 'SCO5775', 'SCO5776', 'SCO5777', 'SCO5778', 'SCO5779', 'SCO6060', 'SCO6222', 'SCO6412', 'SCO6702', 'SCO6732', 'SCO6789', 'SCO6962', 'SCO7034', 'SCO7035', 'SCO7036', 'SCO7049', 'SCO7152']
 
-TARGET_GLUTAMATE_GENES = ["SCO4159","SCO2213","SCO2198","SCO2210","SCO5584","SCO5585","SCO2234","SCO5774","SCO5775",
+TARGET_GLUTAMATE_GENES = ["SCO4159","SCO2213","SCO2198","SCO2210","SCO5583", "SCO5584","SCO5585","SCO2234","SCO5774",
+                          "SCO5775", "SCO2197","SCO2199",
                           "SCO5776","SCO5777","SCO5778","SCO5779","SCO4683","SCO2999","SCO1977","SCO2025","SCO2026",
                           "SCO3416","SCO1613","SCO2241","SCO6962","SCO4078","SCO7049","SCO5520","SCO6412","SCO5676",
-                          "SCO7034","SCO1018"]
+                          "SCO7034","SCO1018"] #glnII, amtB, glnK, SCO2197, SCO2199
+
+# SCO2198 - glnA - downregulated after switch
+# glnII - SCO2210 - very high in tp1. somewhat downregulated after switch
+# SCO5583 - ammonium transporter
+# Very high in tp1, then low
 
 
 def convert_sample_number_to_timepoint(row):
@@ -262,7 +269,7 @@ def plot_genes(gene_expression_csv, gene_ids):
     sns.lineplot(x = "Time point", y = "Log2 normalized count", hue = "Gene", style = "Strain", data = df_melt, err_style = "bars")
     plt.show()
 
-def plot_genes_clustermap(gene_expression_csv, gene_ids, z_score = 0, change_min = 1, max_min = 9):
+def plot_genes_clustermap(gene_expression_csv, gene_ids, z_score = 0, change_min = 1, max_min = 9, row_colors = None):
     df_selected_genes = get_gene_data(gene_expression_csv, gene_ids)
     #print(df_selected_genes.head())
     df_mean = df_selected_genes.groupby(["Strain", "Hours"]).mean()
@@ -282,7 +289,7 @@ def plot_genes_clustermap(gene_expression_csv, gene_ids, z_score = 0, change_min
     # df_selected.sort_index(inplace = True, ascending = False)
 
     g = sns.clustermap(df_selected.T, col_cluster = False, cmap  = "Reds", 
-                        z_score = z_score, figsize = (8, 10), cbar_kws={'label': 'log2 RNA-seq'})
+                        z_score = z_score, figsize = (8, 10), cbar_kws={'label': 'log2 RNA-seq'}, row_colors = row_colors)
     ax = g.ax_heatmap
     ax.set_xlabel("")
     ax.set_ylabel("")
@@ -407,8 +414,16 @@ if __name__ == '__main__':
 
     if 0:
         # Plot gene expression and proteome abundance of genes related to oxidative stress
-        genes = list(set(STRESS_GENES_2 + SPODM + CAT))
-        genes.sort()
+        genes = SPODM + CAT+STRESS_GENES_2
+        # genes.sort()
+
+        palette = sns.color_palette('muted', 6)
+        ax = sns.palplot(palette,)
+        plt.show()
+        row_colors = [palette[0]]*3+[palette[1]]*6+[palette[2]]*2+[palette[3]]*4+[palette[4]]*7+[palette[5]]
+        
+
+
         
         differentially_expressed_genes = read_differentially_expressed_genes(differentially_expressed_genes_csv)
         diff_genes = []
@@ -420,10 +435,12 @@ if __name__ == '__main__':
 
 
 
-        plot_genes_clustermap(gene_expression_csv, diff_genes)
+        plot_genes_clustermap(gene_expression_csv, genes, z_score = None, row_colors = row_colors,change_min = 0, max_min = 0)
+        # plot_genes(gene_expression_csv, diff_genes)
 
-    if 0:
+    if 1:
         # Plot gene expression  of genes related to glutamate
+        # matplotlib.rcParams.update({'font.size': 10, 'legend.loc':'upper right'})
         genes = list(set(TARGET_GLUTAMATE_GENES))
         genes.sort()
         print(genes)
@@ -439,5 +456,9 @@ if __name__ == '__main__':
         print(len(genes), i)
 
 
-        plot_genes_clustermap(gene_expression_csv, genes, z_score = 0, change_min = 0, max_min = 0)
+        plot_genes_clustermap(gene_expression_csv, genes, z_score = None, change_min = 0, max_min = 0)
 
+    if 0:
+        differentially_expressed_genes = read_differentially_expressed_genes(differentially_expressed_genes_csv)
+        gene = "SCO4426"
+        print(gene in differentially_expressed_genes)
