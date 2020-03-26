@@ -139,7 +139,7 @@ def read_equilibrator_data2(fn, threshold = 30, consider_uncertainty = True, dG0
 
 def create_model(model, constraining_dict, lethal_df, save_fn = None, model_id = None, skip = []):
 
-    # Disregard all reactions in the first column of lethal_df
+    # Disregard all reactions in lethal_df
     lethal_reactions = list(set(list(lethal_df.loc[:, "rxn1"])+list(lethal_df.loc[:, "rxn2"])+list(lethal_df.loc[:, "rxn3"])))
     lethal_reactions += skip
     i = 0
@@ -517,11 +517,30 @@ def change_bounds_on_ATP_driven_reactions(model, ATP_driven_reactions_fn = "../.
             logging.info("Change lower bound of {0} from {1} to {2}".format(r_id, r.lower_bound, r.bounds[0]))
             r.lower_bound = bounds[0]
 
-    
+
+def check_cofactor_associated_reactions(model, eq_df, met_ids = ["nadph_c"]):
+    print(eq_df.columns)
+    eq_reactions = list(eq_df["Rxn"])
+    # reaction_ids = []
+    for mid in met_ids:
+        m = model.metabolites.get_by_id(mid)
+        reaction_ids = [r.id for r in m.reactions]
+        matched_r = []
+
+        i = 0
+        for r in reaction_ids:
+            if r in eq_reactions:
+                i += 1
+                matched_r.append(r)
+        print(mid, ":\t", i)
+        print(eq_df.loc[eq_df["Rxn"].isin(matched_r), :])
+        print(matched_r)
+        print("\n")
+        
 
 
 if __name__ == '__main__':
-    scoGEM = read_sbml_model("../../ModelFiles/xml/scoGEM.xml")
+    scoGEM = read_sbml_model("../../ModelFiles/xml/Sco-GEM.xml")
     if 0:
         # Pipeline for metacyc data
         metacyc_data_fn = "../../ComplementaryData/curation/reversibility/Reversibility-based-model-MetaCyc.csv"
@@ -567,5 +586,13 @@ if __name__ == '__main__':
         for r in ATP_DRIVEN_REACTIONS:
             print(r)
             print(df.loc[df["Rxn"] == r, "dG"].values)
-    if 1:
+    if 0:
         change_bounds_on_ATP_driven_reactions(scoGEM)
+
+    if 1:
+        pd.set_option("display.max_columns", 15)
+        equilibrator_data_fn = "../../ComplementaryData/curation/reversibility/eQuilibrator_reversibility.csv"
+        df = read_equilibrator_data2(equilibrator_data_fn, threshold = 30, consider_uncertainty = False)
+        check_cofactor_associated_reactions(scoGEM, df, ["atp_c", "nadh_c", "nadph_c", "fadh2_c", "2dmmq9_c", "hqn_c", "mqn9_c", "q8_c", "qnon_c"])
+        # Metabolite    Nuber of reactions
+        # 

@@ -50,7 +50,7 @@ RED_M145_OD = [0.1, 0.0, 0.0, 0.0, 0.1, 0.4, 0.7, 1.4, 2.1, 3.7]
 
 REPO_MAIN_FOLDER = Path(__file__).resolve().parent.parent
 GROWTH_DATA_FOLDER = REPO_MAIN_FOLDER / "ComplementaryData"/ "growth"
-scoGEM_FN = REPO_MAIN_FOLDER / "ModelFiles" / "xml" / "scoGEM.xml"
+scoGEM_FN = REPO_MAIN_FOLDER / "ModelFiles" / "xml" / "Sco-GEM.xml"
 
 class RateEstimator(object):
     def __init__(self, strain_name, online_fn, offline_fn, offline_std_fn = None, proteome_timepoints = None):
@@ -254,7 +254,7 @@ class RateEstimator(object):
 
         phases_dict = self.substrate_fits[substrate_name]
         phases_dict[phase_name] = {"time": time_arr, "fit": fit, "popt": popt, "type": "linear", "pcov": pcov}
-        # print(substrate_name, popt, df[substrate_name])
+        # print(substrate_name, popt, df[substrate_name], pcov, "std-rate", np.sqrt(pcov[0,0]))
 
     def predict_uptake_rates_for_phases(self, substrate_list,  timepoint_phasename_list):
         for substrate in substrate_list:
@@ -271,7 +271,8 @@ class RateEstimator(object):
              # Save timepoints for rate estimation
             dic["rate_times"] = timepoints
             dic["at_rate_times"] = lin_fun(np.array(timepoints), *dic["popt"])
-        
+            
+
         elif dic["type"] == "sigmoid":
             dt = dic["time"][1] - dic["time"][0]
             ds_dt = np.zeros(len(timepoints))
@@ -296,6 +297,7 @@ class RateEstimator(object):
         rate_dic = self.substrate_rates[substrate]
         for i, (t, x) in enumerate(zip(timepoints, cdw_values)):
             rate_dic[t] = 1e3 * ds_dt[i] / x / MOLAR_MASS_DICT[substrate]
+            print("{0} {1} {2}".format(t, substrate, x), "std", 1e3 * np.sqrt(cdw_dic["pcov"][0,0])/ (x*MOLAR_MASS_DICT[substrate]))
             # print("# ", substrate,  ds_dt, x)
         # print(self.substrate_rates)
 
@@ -555,6 +557,7 @@ if __name__ == '__main__':
     if 1:
         # M145
         folder = "Average"
+        folder = "F516"
         online_M145_fn = GROWTH_DATA_FOLDER / "M145" / folder / "M145_online_data.csv"
         offline_M145_fn = GROWTH_DATA_FOLDER / "M145" / folder / "M145_offline_data.csv"
         offline_M145_std_fn = GROWTH_DATA_FOLDER / "M145" / folder / "M145_offline_data_std.csv"
@@ -564,7 +567,8 @@ if __name__ == '__main__':
         p3 = proteomic_timepoints_M145[6:] 
 
         # RE = RateEstimator("M145", online_M145_fn, offline_M145_fn, proteome_timepoints = proteomic_timepoints_M145)
-        RE = RateEstimator("M145", online_M145_fn, offline_M145_fn, offline_M145_std_fn, proteomic_timepoints_M145)
+        # RE = RateEstimator("M145", online_M145_fn, offline_M145_fn, offline_M145_std_fn, proteomic_timepoints_M145)
+        RE = RateEstimator("M145", online_M145_fn, offline_M145_fn,  proteomic_timepoints_M145)
 
         RE.set_phase("Exponential phase", 14, 21)
         RE.set_phase("Linear phase 1", 21, 37)
@@ -608,7 +612,7 @@ if __name__ == '__main__':
         
         carbon = ["Glutamic acid", "Glucose", "Germicidin-A", "Germicidin-B", "CO2", "Undecylprodigiosin 2"]
         RE.model_rates(str(scoGEM_FN), carbon, save_fn =  GROWTH_DATA_FOLDER / "M145" / folder /  "M145_carbon_balance.csv")
-    if 1:
+    if 0:
 
         # M1152
         folder = "Average"
