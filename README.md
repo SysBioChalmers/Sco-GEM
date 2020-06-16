@@ -37,7 +37,7 @@ This repository is administered by Eduard Kerkhoven ([@SysBioChalmers](https://g
 
 ### Recommended Software:
 * A functional Matlab installation (MATLAB 7.3 or higher).
-* Python 3 including standard packages and additional packages described in requirements.txt
+* Python 3.6 or 3.7 including standard packages and additional packages described in requirements.txt
 * [RAVEN Toolbox 2](https://github.com/SysBioChalmers/RAVEN) for MATLAB (required for contributing to development). 
 * libSBML MATLAB API ([version 5.16.0](https://sourceforge.net/projects/sbml/files/libsbml/5.13.0/stable/MATLAB%20interface/)  is recommended).
 * [Gurobi Optimizer for MATLAB](http://www.gurobi.com/registration/download-reg).
