@@ -48,7 +48,7 @@ from consensusModel import issue_82_delete_reactions
 from reversibility import reversibility
 import export
 
-REPO_DIR = Path(__file__).parent.parent.resolve()
+REPO_DIR = Path(__file__).resolve().parent.parent
 COMPLEMENTARY_DATA = REPO_DIR / "ComplementaryData"
 print("Repo dir: ", REPO_DIR)
 
