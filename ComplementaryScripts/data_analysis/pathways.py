@@ -38,7 +38,7 @@ amino_acids = ["Alanine, aspartate and glutamate metabolism",
                "Tryptophan metabolism",
                "D-Alanine metabolism",
                "Ascorbate and aldarate metabolism",
-               "D-Glutamine and D-glutamate metabolism"¨,
+               "D-Glutamine and D-glutamate metabolism",
                "Nitrogen metabolism"]
 
 lipids =  ["Fatty acid biosynthesis",

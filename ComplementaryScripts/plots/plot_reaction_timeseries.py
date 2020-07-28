@@ -384,7 +384,46 @@ def read_differentially_expressed_genes(fn):
     df = pd.read_csv(fn, sep = ",", header = 0)
     return list(df["Gene (SCO-number)"])
 
+def plot_biomass_yield():
+    glucose_MW = 180.156*1e-3 # g/mmol
+    glutamate_MW = 147.13*1e-3  # g/mmol
+
+    M145_rates = "../../ComplementaryData/growth/M145/Average/M145_estimated_rates.csv"    
+    M1152_rates = "../../ComplementaryData/growth/M1152/Average/M1152_estimated_rates.csv"    
+
+    M145_df = pd.read_csv(M145_rates)
+    M1152_df = pd.read_csv(M1152_rates)
+
+    M145_df["Growth rate"] = [max(0, x) for x in M145_df["Growth rate"]]
+    M1152_df["Growth rate"] = [max(0, x) for x in M1152_df["Growth rate"]]
+
+    M145_df["Yield on glucose"] = M145_df["Growth rate"] / (M145_df["Glucose"].abs()*glucose_MW)
+    M145_df["Yield on glutamic acid"] = M145_df["Growth rate"] / (M145_df["Glutamic acid"].abs()*glutamate_MW)
+
+    M1152_df["Yield on glucose"] = M1152_df["Growth rate"] / (M1152_df["Glucose"].abs()*glucose_MW)
+    M1152_df["Yield on glutamic acid"] = M1152_df["Growth rate"] / (M1152_df["Glutamic acid"].abs()*glutamate_MW)
+
     
+    df = pd.DataFrame()
+    df["Biomass yield (g DW/g substrate)"] = list(M145_df["Yield on glucose"]) + list(M145_df["Yield on glutamic acid"]) + list(M1152_df["Yield on glucose"]) + list(M1152_df["Yield on glutamic acid"])
+
+    n_M145 = len(M145_df["TAI"])
+    n_M1152 = len(M1152_df["TAI"])
+
+    df["Time after inoculation (h)"] = list(M145_df["TAI"])*2 + list(M1152_df["TAI"])*2
+    df["Sample time point"] = list(np.arange(1, n_M145+1))*2 + list(np.arange(1, n_M1152+1))*2
+
+
+    df["Strain"] = ["M145"]*2*n_M145 + ["M1152"]*2*n_M1152
+    df["Substrate"] = ["Glucose"]*n_M145 + ["Glutamic acid"]*n_M145 + ["Glucose"]*n_M1152 + ["Glutamic acid"]*n_M1152 
+
+
+    # sns.lineplot(x = "Time after inoculation (h)", y = "Biomass yield (g DW/g substrate)", hue = "Strain", style = "Substrate", data = df)
+    sns.lineplot(x = "Sample time point", y = "Biomass yield (g DW/g substrate)", hue = "Strain", style = "Substrate", data = df)
+
+    plt.savefig("Biomass_yield.svg")
+    
+
 if __name__ == '__main__':
     mean_flux_co2_scaled = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/randomsampling_july/ec-RandSampComb_proteomics_CO2norm.tsv"
     all_random_samples_folder = "C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/Eduard random sampling"
@@ -494,7 +533,10 @@ if __name__ == '__main__':
 
         plot_genes_clustermap(gene_expression_csv, genes, z_score = None, change_min = 0, max_min = 0)
 
+    if 1:
+        plot_biomass_yield()
     if 0:
         differentially_expressed_genes = read_differentially_expressed_genes(differentially_expressed_genes_csv)
         gene = "SCO4426"
         print(gene in differentially_expressed_genes)
+
