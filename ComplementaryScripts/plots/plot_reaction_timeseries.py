@@ -23,6 +23,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 import seaborn as sns
 import re
+import numpy as np
 
 
 pd.set_option('display.max_rows', 1000)
@@ -328,6 +329,39 @@ def plot_germicidin():
     ax.axvline(x = 38, ymin = 0, ymax = 1, c = "g", ls = "--")
     plt.show()
 
+def plot_CDW_normalized_germicidin():
+    germicidin_fn = "../../ComplementaryData/data/germicidin.csv"
+    CDW_fn = "../../ComplementaryData/data/CDW.csv"
+
+    df_germicidin = pd.read_csv(germicidin_fn, header = 0, sep = ",")
+    df_cdw = pd.read_csv(CDW_fn)
+
+    # Use linear interpolation to calculat the CDW for the time points for each sample
+    CDW = []
+    for i, r in df_germicidin.iterrows():
+        CDW.append(_get_weight_for_time_strain(r["Time [h]"], r["Sample ID"], df_cdw))
+    df_germicidin["CDW [g/l]"] = CDW
+
+    # Calculate weight-normalized CDW
+    # Multiply by thousand to convert from /ml to /l
+    df_germicidin[r"Biomass-normalized germicidin levels ($\mu$g/gDW)"] = df_germicidin["Concentration [ng/ml]"]/df_germicidin["CDW [g/l]"]
+    
+    ax = sns.lineplot(x = "Time [h]", y = r"Biomass-normalized germicidin levels ($\mu$g/gDW)", hue = "Strain", style = "Compound", data = df_germicidin, palette = ["b", "r", "g"], err_style = "band", markers=True, ci = 'sd')
+
+#    ax.set_ylabel(r"Biomass-normalized germicidin levels ($\mu$g/gDW)",fontdict=dict(weight='bold'))
+    ax.set_xlabel("Time after inoculation (h)", fontdict=dict(weight='normal'))
+
+
+    ax.axvline(x = 47, ymin = 0, ymax = 1, c = "r", ls = "--")
+    ax.axvline(x = 35, ymin = 0, ymax = 1, c = "b", ls = "--")
+    ax.axvline(x = 38, ymin = 0, ymax = 1, c = "g", ls = "--")
+    plt.show()
+
+def _get_weight_for_time_strain(time, sample_ID, df_cdw):
+    f_number = sample_ID.split("-")[0]
+    df = df_cdw[df_cdw["F-number"] == f_number]
+    return np.interp(time, df["Time [h]"], df["CDW [g/l]"])
+
 def plot_histogram_carbon_nitrogen_uptake_and_secretion(mean_flux_fn, cols = ["M145_29", "M1152_41"], 
                         in_reactions = ["EX_glc__D_e", "EX_glu__L_e"], out_reactions = ["EX_nh4_e", "EX_ac_e"]):
     df_flux = pd.read_csv(mean_flux_fn, index_col = 0, sep = "\t")
@@ -371,6 +405,8 @@ if __name__ == '__main__':
 
     if 0:
         plot_germicidin()
+    if 1:
+        plot_CDW_normalized_germicidin()
     if 0:
         # plot no 2
         gene_ids = ["SCO6984", "SCO1527"]
@@ -438,7 +474,7 @@ if __name__ == '__main__':
         plot_genes_clustermap(gene_expression_csv, genes, z_score = None, row_colors = row_colors,change_min = 0, max_min = 0)
         # plot_genes(gene_expression_csv, diff_genes)
 
-    if 1:
+    if 0:
         # Plot gene expression  of genes related to glutamate
         # matplotlib.rcParams.update({'font.size': 10, 'legend.loc':'upper right'})
         genes = list(set(TARGET_GLUTAMATE_GENES))
