@@ -23,6 +23,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 import seaborn as sns
 import re
+import numpy as np
 
 
 pd.set_option('display.max_rows', 1000)
@@ -328,6 +329,39 @@ def plot_germicidin():
     ax.axvline(x = 38, ymin = 0, ymax = 1, c = "g", ls = "--")
     plt.show()
 
+def plot_CDW_normalized_germicidin():
+    germicidin_fn = "../../ComplementaryData/data/germicidin.csv"
+    CDW_fn = "../../ComplementaryData/data/CDW.csv"
+
+    df_germicidin = pd.read_csv(germicidin_fn, header = 0, sep = ",")
+    df_cdw = pd.read_csv(CDW_fn)
+
+    # Use linear interpolation to calculat the CDW for the time points for each sample
+    CDW = []
+    for i, r in df_germicidin.iterrows():
+        CDW.append(_get_weight_for_time_strain(r["Time [h]"], r["Sample ID"], df_cdw))
+    df_germicidin["CDW [g/l]"] = CDW
+
+    # Calculate weight-normalized CDW
+    # Multiply by thousand to convert from /ml to /l
+    df_germicidin[r"Biomass-normalized germicidin levels ($\mu$g/gDW)"] = df_germicidin["Concentration [ng/ml]"]/df_germicidin["CDW [g/l]"]
+    
+    ax = sns.lineplot(x = "Time [h]", y = r"Biomass-normalized germicidin levels ($\mu$g/gDW)", hue = "Strain", style = "Compound", data = df_germicidin, palette = ["b", "r", "g"], err_style = "band", markers=True, ci = 'sd')
+
+#    ax.set_ylabel(r"Biomass-normalized germicidin levels ($\mu$g/gDW)",fontdict=dict(weight='bold'))
+    ax.set_xlabel("Time after inoculation (h)", fontdict=dict(weight='normal'))
+
+
+    ax.axvline(x = 47, ymin = 0, ymax = 1, c = "r", ls = "--")
+    ax.axvline(x = 35, ymin = 0, ymax = 1, c = "b", ls = "--")
+    ax.axvline(x = 38, ymin = 0, ymax = 1, c = "g", ls = "--")
+    plt.show()
+
+def _get_weight_for_time_strain(time, sample_ID, df_cdw):
+    f_number = sample_ID.split("-")[0]
+    df = df_cdw[df_cdw["F-number"] == f_number]
+    return np.interp(time, df["Time [h]"], df["CDW [g/l]"])
+
 def plot_histogram_carbon_nitrogen_uptake_and_secretion(mean_flux_fn, cols = ["M145_29", "M1152_41"], 
                         in_reactions = ["EX_glc__D_e", "EX_glu__L_e"], out_reactions = ["EX_nh4_e", "EX_ac_e"]):
     df_flux = pd.read_csv(mean_flux_fn, index_col = 0, sep = "\t")
@@ -350,7 +384,46 @@ def read_differentially_expressed_genes(fn):
     df = pd.read_csv(fn, sep = ",", header = 0)
     return list(df["Gene (SCO-number)"])
 
+def plot_biomass_yield():
+    glucose_MW = 180.156*1e-3 # g/mmol
+    glutamate_MW = 147.13*1e-3  # g/mmol
+
+    M145_rates = "../../ComplementaryData/growth/M145/Average/M145_estimated_rates.csv"    
+    M1152_rates = "../../ComplementaryData/growth/M1152/Average/M1152_estimated_rates.csv"    
+
+    M145_df = pd.read_csv(M145_rates)
+    M1152_df = pd.read_csv(M1152_rates)
+
+    M145_df["Growth rate"] = [max(0, x) for x in M145_df["Growth rate"]]
+    M1152_df["Growth rate"] = [max(0, x) for x in M1152_df["Growth rate"]]
+
+    M145_df["Yield on glucose"] = M145_df["Growth rate"] / (M145_df["Glucose"].abs()*glucose_MW)
+    M145_df["Yield on glutamic acid"] = M145_df["Growth rate"] / (M145_df["Glutamic acid"].abs()*glutamate_MW)
+
+    M1152_df["Yield on glucose"] = M1152_df["Growth rate"] / (M1152_df["Glucose"].abs()*glucose_MW)
+    M1152_df["Yield on glutamic acid"] = M1152_df["Growth rate"] / (M1152_df["Glutamic acid"].abs()*glutamate_MW)
+
     
+    df = pd.DataFrame()
+    df["Biomass yield (g DW/g substrate)"] = list(M145_df["Yield on glucose"]) + list(M145_df["Yield on glutamic acid"]) + list(M1152_df["Yield on glucose"]) + list(M1152_df["Yield on glutamic acid"])
+
+    n_M145 = len(M145_df["TAI"])
+    n_M1152 = len(M1152_df["TAI"])
+
+    df["Time after inoculation (h)"] = list(M145_df["TAI"])*2 + list(M1152_df["TAI"])*2
+    df["Sample time point"] = list(np.arange(1, n_M145+1))*2 + list(np.arange(1, n_M1152+1))*2
+
+
+    df["Strain"] = ["M145"]*2*n_M145 + ["M1152"]*2*n_M1152
+    df["Substrate"] = ["Glucose"]*n_M145 + ["Glutamic acid"]*n_M145 + ["Glucose"]*n_M1152 + ["Glutamic acid"]*n_M1152 
+
+
+    # sns.lineplot(x = "Time after inoculation (h)", y = "Biomass yield (g DW/g substrate)", hue = "Strain", style = "Substrate", data = df)
+    sns.lineplot(x = "Sample time point", y = "Biomass yield (g DW/g substrate)", hue = "Strain", style = "Substrate", data = df)
+
+    plt.savefig("Biomass_yield.svg")
+    
+
 if __name__ == '__main__':
     mean_flux_co2_scaled = "C:/Users/snorres/Google Drive/scoGEM community model/Supporting information/Model/randomsampling_july/ec-RandSampComb_proteomics_CO2norm.tsv"
     all_random_samples_folder = "C:/Users/snorres/OneDrive - SINTEF/SINTEF projects/INBioPharm/scoGEM/random sampling/Eduard random sampling"
@@ -371,6 +444,8 @@ if __name__ == '__main__':
 
     if 0:
         plot_germicidin()
+    if 1:
+        plot_CDW_normalized_germicidin()
     if 0:
         # plot no 2
         gene_ids = ["SCO6984", "SCO1527"]
@@ -458,6 +533,8 @@ if __name__ == '__main__':
 
         plot_genes_clustermap(gene_expression_csv, genes, z_score = None, change_min = 0, max_min = 0)
 
+    if 1:
+        plot_biomass_yield()
     if 0:
         differentially_expressed_genes = read_differentially_expressed_genes(differentially_expressed_genes_csv)
         gene = "SCO4426"
