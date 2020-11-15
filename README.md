@@ -5,24 +5,22 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/SysBioChalmers/Sco-GEM?style=plastic)
 # Sco-GEM: The consensus genome-scale metabolic model of _Streptomyces coelicolor_
 
-- Brief Repository Description
-
+### Brief Repository Description
 This repository contains the consensus genome-scale metabolic model **Sco-GEM** for the antibiotic producer _Streptomyces coelicolor_ A3(2), a representative species of _Actinomycetales_.
 
-- Abstract:
-
+### Abstract
 _Streptomyces coelicolor_ is a representative species of soil-dwelling, filamentous and gram-positive actinobacterium harbouring enriched secondary metabolite biosynthesis gene clusters. As a well-known pharmaceutical and bioactive compound producer, _S. coelicolor_ has been exploited for antibiotic and secondary metabolite production.
 
-- Model KeyWords:
-
+### Model KeyWords
 **GEM Category:** Species; **Utilisation:** Predictive simulation; **Field:** Metabolic-network reconstruction; **Type of Model:** Reconstruction and refinement; **Model Source:** [iKS1317](http://dx.doi.org/); **Omic Source:** [Genomics](http://dx.doi.org/10.1038/417141a); **Taxonomy:** _Streptomyces coelicolor_; **Metabolic System:** General Metabolism; **Strain:** A3(2); **Condition:** Complex medium;
 
-- Reference:
-> TBA
+### Reference
+S. Sulheim, T. Kumelj, D. van Dissel, A. Salehzadeh-Yazdi, C. Du, G. P. van Wezel, K. Nieselt, E. Almaas, A. Wentzel, E. J. Kerkhoven (2020). Enzyme-constrained models and omics analysis of Streptomyces coelicolor reveal metabolic changes that enhance heterologous production. Iscience, 23(9), 101525
 
-- Pubmed ID: TBA
-- doi: https://doi.org/10.1101/796722
-- Last update: 2019-10-04
+
+- Pubmed ID: https://pubmed.ncbi.nlm.nih.gov/32942174/
+- doi: https://doi.org/10.1016/j.isci.2020.101525
+- Last update: 2020-07-18
 
 - The model contains:
 
