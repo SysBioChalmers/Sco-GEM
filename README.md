@@ -13,7 +13,7 @@ This repository contains the consensus genome-scale metabolic model **Sco-GEM** 
 
 > S. Sulheim, T. Kumelj, D. van Dissel, A. Salehzadeh-Yazdi, C. Du, G.P. van Wezel, K. Nieselt, E. Almaas, A. Wentzel, E.J. Kerkhoven (2020). Enzyme-constrained models and omics analysis of _Streptomyces coelicolor_ reveal metabolic changes that enhance heterologous production. iScience, 23(9), 101525 [doi:10.1016/j.isci.2020.101525](https://doi.org/10.1016/j.isci.2020.101525), [pmid:32942174](https://pubmed.ncbi.nlm.nih.gov/32942174/)
 
-The Sco-GEM model distributed on this GitHub repository is continuously updated. To get access to the models, data and code associated to the Sulheim _et al_. (2020) publication, use [Sco-GEM release 1.2.1](https://github.com/SysBioChalmers/Sco-GEM/releases/tag/v1.2.1).
+The Sco-GEM model distributed on this GitHub repository is continuously updated, with the latest releases available [here](https://github.com/SysBioChalmers/Sco-GEM/releases). To get access to the models, data and code associated to the Sulheim _et al_. (2020) publication, use [Sco-GEM release 1.2.1](https://github.com/SysBioChalmers/Sco-GEM/releases/tag/v1.2.1).
 
 ### Keywords
 
@@ -37,7 +37,7 @@ The Sco-GEM model distributed on this GitHub repository is continuously updated.
 
 ### Installation & Usage
 
-Sco-GEM is primarily distributed in SBML L3V1 FBCv1 format, and therefore  works well with RAVEN Toolbox, cobrapy, COBRA Toolbox, etc.
+Sco-GEM is primarily distributed in SBML L3V1 FBCv1 format, and therefore works well with RAVEN Toolbox, cobrapy, COBRA Toolbox, etc.
 
 Development of the model is preferably done via cobrapy, using the [export.py](.code/export.py) function distributed in /code to save new model version, to reduce the number of changes in the model and aid comparison of model versions.
 
