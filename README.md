@@ -5,17 +5,17 @@
 [![Join the chat at https://gitter.im/SysBioChalmers/Sco-GEM](https://badges.gitter.im/SysBioChalmers/Sco-GEM.svg)](https://gitter.im/SysBioChalmers/Sco-GEM?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ![Version release (latest by date)](https://img.shields.io/github/v/release/SysBioChalmers/Sco-GEM?style=plastic)
 
-#### Description
+### Description
 
 This repository contains the consensus genome-scale metabolic model **Sco-GEM** for the antibiotic producer _Streptomyces coelicolor_ A3(2), a representative species of soil-dwelling, filamentous and gram-positive actinobacterium harbouring enriched secondary metabolite biosynthesis gene clusters. As a well-known pharmaceutical and bioactive compound producer, _S. coelicolor_ has been exploited for antibiotic and secondary metabolite production.
 
-#### Citation
+### Citation
 
 > S. Sulheim, T. Kumelj, D. van Dissel, A. Salehzadeh-Yazdi, C. Du, G.P. van Wezel, K. Nieselt, E. Almaas, A. Wentzel, E.J. Kerkhoven (2020). Enzyme-constrained models and omics analysis of _Streptomyces coelicolor_ reveal metabolic changes that enhance heterologous production. iScience, 23(9), 101525 [doi:10.1016/j.isci.2020.101525](https://doi.org/10.1016/j.isci.2020.101525), [pmid:32942174](https://pubmed.ncbi.nlm.nih.gov/32942174/)
 
 The Sco-GEM model distributed on this GitHub repository is continuously updated. To get access to the models, data and code associated to the Sulheim _et al_. (2020) publication, use [Sco-GEM release 1.2.1](https://github.com/SysBioChalmers/Sco-GEM/releases/tag/v1.2.1).
 
-#### Keywords
+### Keywords
 
 **Utilisation:** Predictive simulation; Multi-omics integrative analysis  
 **Field:** Metabolic-network reconstruction  
@@ -29,7 +29,7 @@ The Sco-GEM model distributed on this GitHub repository is continuously updated.
 **Strain:** A3(2)  
 **Condition:** Complex medium  
 
-#### Model Overview
+### Model Overview
 
 | Taxonomy | Template Model | Reactions | Metabolites| Genes | Memote score |
 | ------------- |:-------------:|:-------------:|:-------------:|-----:|-----:|
