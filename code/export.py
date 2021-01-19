@@ -47,26 +47,13 @@ Example
 =======
 The script can either be run directly from the command line::
 
-    $ python export.py Sco-GEM.xml --folder ModelFiles --formats xml yml txt
+    $ python export.py Sco-GEM.xml --folder model --formats xml yml txt
 
 or using the module function::
     from export import export
     export(Sco_GEM, formats = ["xml", "yml", "txt"])
 
-
 """
-# from consensusModel.fix_SBO_terms import REACTION_SBO_TERMS
-REACTION_SBO_TERMS = {
-    "exchange reaction":     "SBO:0000627",
-    "demand reaction":       "SBO:0000628",
-    "biomass production":    "SBO:0000629",
-    "ATP mainteinance":      "SBO:0000630",
-    "encapsulating process": "SBO:0000395",
-    "transport reaction":    "SBO:0000655",
-    "biochemical reaction":  "SBO:0000176",
-    "sink reaction":         "SBO:0000632",
-    "pseudoreaction":        "SBO:0000631",
-}
 import cobra
 from collections import OrderedDict
 from pathlib import Path
@@ -75,9 +62,7 @@ import subprocess
 
 REPO_MAIN_FOLDER = Path(__file__).resolve().parent.parent
 
-
-
-def export(Sco_GEM, folder = "ModelFiles", name = "Sco-GEM", formats = ["xml", "yml", "txt"], 
+def export(Sco_GEM, folder = "model", name = "Sco-GEM", formats = ["xml", "yml", "txt"], 
            write_requirements = True, objective = None):
     """
     Sort the model entities and export the model in given formats
@@ -87,7 +72,7 @@ def export(Sco_GEM, folder = "ModelFiles", name = "Sco-GEM", formats = ["xml", "
     Sco_GEM: cobra.core.model.Model
         The model file
     folder: str, optional
-        The subfolder in the repository in which all the model files are stored, relative to the root dir of the repository (default: "ModelFiles")
+        The subfolder in the repository in which all the model files are stored, relative to the root dir of the repository (default: "model")
     name: str, optional
         Model file name (default: "Sco-GEM")
     formats: list of str, optional
@@ -165,9 +150,19 @@ def sort_model(Sco_GEM):
     reaction_order_dict = sort_reactions(Sco_GEM)
     Sco_GEM.reactions.sort(key = lambda r: reaction_order_dict[r.id])
 
-
-
 def sort_reactions(Sco_GEM):
+
+    REACTION_SBO_TERMS = {
+    "exchange reaction":     "SBO:0000627",
+    "demand reaction":       "SBO:0000628",
+    "biomass production":    "SBO:0000629",
+    "ATP mainteinance":      "SBO:0000630",
+    "encapsulating process": "SBO:0000395",
+    "transport reaction":    "SBO:0000655",
+    "biochemical reaction":  "SBO:0000176",
+    "sink reaction":         "SBO:0000632",
+    "pseudoreaction":        "SBO:0000631",
+}
     reaction_order_dict = {}
     i = 0
 
@@ -184,7 +179,7 @@ def sort_reactions(Sco_GEM):
     other_reactions = []
     for r in Sco_GEM.reactions:
         try:
-            sbo = r.annotation["SBO"]
+            sbo = r.annotation["sbo"]
         except KeyError:
             non_sbo_reactions.append(r.id)
             continue
@@ -219,7 +214,6 @@ def sort_reactions(Sco_GEM):
     return reaction_order_dict
 
 
-
 def write_requirements_fun(directory, force = True):
     directory = str(directory)
     if force:
@@ -240,7 +234,7 @@ def sort_dict(model_dict, by = "key"):
 
 if __name__ == '__main__':
     if 0:
-        Sco_GEM_FN = "../ModelFiles/xml/Sco-GEM.xml"
+        Sco_GEM_FN = "../model/xml/Sco-GEM.xml"
         Sco_GEM = cobra.io.read_sbml_model(Sco_GEM_FN)
         export(Sco_GEM)
     else:
@@ -248,7 +242,7 @@ if __name__ == '__main__':
         parser.add_argument("model_path", help = "Path to SBML (xml) model file")
         parser.add_argument("--formats", nargs='+', help = "The different file formats to export the model in", default = ["xml", "yml", "txt"])
         parser.add_argument("--name", type = str, help = "General name of exported model files", default = "Sco-GEM")
-        parser.add_argument("--folder", type = str, help = "The general subfolder relative to the repo's root directory to store the model files in", default = "ModelFiles")
+        parser.add_argument("--folder", type = str, help = "The general subfolder relative to the repo's root directory to store the model files in", default = "model")
         parser.add_argument("--objective", type = str, help = "The reaction ID of the objective function", default = "BIOMASS_SCO_tRNA")
      
         args = parser.parse_args()
