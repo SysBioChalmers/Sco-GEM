@@ -20,12 +20,12 @@ The Sco-GEM model distributed on this GitHub repository is continuously updated,
 **Utilisation:** Predictive simulation; Multi-omics integrative analysis  
 **Field:** Metabolic-network reconstruction  
 **Type of model:** Curated reconstruction  
-**Model source:** [iKS1317](http://doi.org/10.1002/biot.201800180)
-**Omic source:** [Genomics](http://dx.doi.org/10.1038/417141a); [Transcriptomics](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132487); [Proteomics](http://dx.doi.org/10.6019/PXD013178) 
-**Taxonomic name:** _Streptomyces coelicolor_
+**Model source:** [iKS1317](http://doi.org/10.1002/biot.201800180)  
+**Omic source:** [Genomics](http://dx.doi.org/10.1038/417141a); [Transcriptomics](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132487); [Proteomics](http://dx.doi.org/10.6019/PXD013178)  
+**Taxonomic name:** _Streptomyces coelicolor_  
 **Taxonomy ID:** [taxonomy:100226](https://identifiers.org/taxonomy:100226)  
-**Genome ID:** [insdc.gca:GCA_000203835.1](https://identifiers.org/insdc.gca:GCA_000203835.1)
-**Metabolic system:** General metabolism (primary and secondary)
+**Genome ID:** [insdc.gca:GCA_000203835.1](https://identifiers.org/insdc.gca:GCA_000203835.1)  
+**Metabolic system:** General metabolism (primary and secondary)  
 **Strain:** A3(2)  
 **Condition:** Complex medium  
 
