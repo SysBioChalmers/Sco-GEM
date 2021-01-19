@@ -1,6 +1,0 @@
-rxn1,rxn1_lb,rxn1_ub,rxn2,rxn2_lb,rxn2_ub,rxn3,rxn3_lb,rxn3_ub,model growth
-NADH2r,-1000,1000,,,,,,,0.1166
-PPS,-1000,1000,,,,,,,0.116
-ACGS,-1000,1000,,,,,,,0.116
-CYSS,-1000,1000,,,,,,,0.116
-HSDy,0,1000,HSDxi,0.0,1000.0,,,,0.0
