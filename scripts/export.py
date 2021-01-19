@@ -55,8 +55,18 @@ or using the module function::
 
 
 """
-from consensusModel.fix_SBO_terms import REACTION_SBO_TERMS
-
+# from consensusModel.fix_SBO_terms import REACTION_SBO_TERMS
+REACTION_SBO_TERMS = {
+    "exchange reaction":     "SBO:0000627",
+    "demand reaction":       "SBO:0000628",
+    "biomass production":    "SBO:0000629",
+    "ATP mainteinance":      "SBO:0000630",
+    "encapsulating process": "SBO:0000395",
+    "transport reaction":    "SBO:0000655",
+    "biochemical reaction":  "SBO:0000176",
+    "sink reaction":         "SBO:0000632",
+    "pseudoreaction":        "SBO:0000631",
+}
 import cobra
 from collections import OrderedDict
 from pathlib import Path
