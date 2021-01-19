@@ -4167,7 +4167,6 @@
     - charge: -4
     - formula: C31H48N7O18P3S
     - annotation: !!omap
-      - 3dmet: B04993
       - bigg.metabolite: 3odcoa
       - biocyc: CPD0-2123
       - chebi:
@@ -4175,7 +4174,6 @@
         - CHEBI:62548
       - kegg.compound: C05265
       - metanetx.chemical: MNXM677
-      - obo.chebi: CHEBI%3A28528
       - origin: iMK1208
       - pubchem.substance: '7652'
       - sbo: SBO:0000247
@@ -6438,7 +6436,6 @@
       - inchi: InChI=1S/C19H19N5O6/c20-16-13-17(22-7-21-16)24(8-23-13)18-15(27)14(26)12(30-18)5-4-11(25)9-2-1-3-10(6-9)19(28)29/h1-3,6-8,12,14-15,18,26-27H,4-5H2,(H,28,29)(H2,20,21,22)/p-1/t12-,14-,15-,18-/m1/s1
       - kegg.compound: C20773
       - metanetx.chemical: MNXM41844
-      - obo.chebi: CHEBI%3A64286
       - origin: Sco4
       - pubchem.compound: '56927842'
       - sbo: SBO:0000247
@@ -7094,7 +7091,7 @@
     - formula: C24H2OP
     - annotation: !!omap
       - kegg.compound: C11152
-      - metabetx.chemical: MNXM84011
+      - metanetx.chemical: MNXM84011
       - sbo: SBO:0000247
   - !!omap
     - id: TPP_e
@@ -7104,7 +7101,7 @@
     - formula: C24H2OP
     - annotation: !!omap
       - kegg.compound: C11152
-      - metabetx.chemical: MNXM84011
+      - metanetx.chemical: MNXM84011
       - sbo: SBO:0000247
   - !!omap
     - id: XXXGsacch_c
@@ -7386,16 +7383,13 @@
     - charge: -4
     - formula: C23H34N7O17P3S
     - annotation: !!omap
-      - 3dmet: B04621
       - bigg.metabolite: accoa
       - biocyc: ACETYL-COA
-      - cas: 72-89-9
       - chebi:
         - CHEBI:15351
         - CHEBI:57288
       - kegg.compound: C00024
       - metanetx.chemical: MNXM21
-      - obo.chebi: CHEBI%3A15351
       - origin: iMK1208
       - pubchem.substance: '3326'
       - sbo: SBO:0000247
@@ -7437,10 +7431,7 @@
     - notes: !!omap
       - FORMULA: C5H9NO3S
     - annotation: !!omap
-      - cas: 616-91-1
       - kegg.compound: C06809
-      - kegg.drug: D00221
-      - obo.chebi: CHEBI%3A28939
       - origin: iAA1259
       - pubchem.substance: '9028'
       - sbo: SBO:0000247
@@ -7453,10 +7444,7 @@
     - notes: !!omap
       - FORMULA: C5H9NO3S
     - annotation: !!omap
-      - cas: 616-91-1
       - kegg.compound: C06809
-      - kegg.drug: D00221
-      - obo.chebi: CHEBI%3A28939
       - origin: iAA1259
       - pubchem.substance: '9028'
       - sbo: SBO:0000247
@@ -8078,14 +8066,11 @@
     - charge: 0
     - formula: C5H5N5
     - annotation: !!omap
-      - 3dmet: B00041
       - bigg.metabolite: ade
       - biocyc: ADENINE-RING
-      - cas: 73-24-5
       - chebi: CHEBI:16708
       - kegg.compound: C00147
       - metanetx.chemical: MNXM168
-      - obo.chebi: CHEBI%3A16708
       - origin: iMK1208
       - pubchem.substance: '3447'
       - sbo: SBO:0000247
@@ -8587,17 +8572,14 @@
     - charge: -2
     - formula: C5H4O5
     - annotation: !!omap
-      - 3dmet: B00008
       - bigg.metabolite: akg
       - biocyc: CPD-16852
-      - cas: 328-50-7
       - chebi:
         - CHEBI:16810
         - CHEBI:30915
         - CHEBI:30916
       - kegg.compound: C00026
       - metanetx.chemical: MNXM20
-      - obo.chebi: CHEBI%3A30915
       - origin: iMK1208
       - pubchem.substance: '3328'
       - sbo: SBO:0000247
@@ -8695,10 +8677,8 @@
     - charge: 0
     - formula: C3H7NO2
     - annotation: !!omap
-      - 3dmet: B00011
       - bigg.metabolite: ala__L
       - biocyc: L-ALPHA-ALANINE
-      - cas: 56-41-7
       - chebi:
         - CHEBI:32431
         - CHEBI:32440
@@ -8710,7 +8690,6 @@
         - CHEBI:16449
       - kegg.compound: C00041
       - metanetx.chemical: MNXM32
-      - obo.chebi: CHEBI%3A16977
       - origin: iMK1208
       - pubchem.substance: '3343'
       - sbo: SBO:0000247
@@ -8967,17 +8946,14 @@
     - charge: 1
     - formula: C15H23N6O5S
     - annotation: !!omap
-      - 3dmet: B04620
       - bigg.metabolite: amet
       - biocyc: S-ADENOSYLMETHIONINE
-      - cas: 29908-03-0
       - chebi:
         - CHEBI:15414
         - CHEBI:67040
         - CHEBI:59789
       - kegg.compound: C00019
       - metanetx.chemical: MNXM16
-      - obo.chebi: CHEBI%3A15414
       - origin: iMK1208
       - pubchem.substance: '3321'
       - sbo: SBO:0000247
@@ -9613,7 +9589,7 @@
     - formula: C6H909P
     - annotation: !!omap
       - kegg.compound: C16186
-      - metabetx.chemical: MNXM2689
+      - metanetx.chemical: MNXM2689
       - sbo: SBO:0000247
   - !!omap
     - id: asc6p_e
@@ -9623,7 +9599,7 @@
     - formula: C6H909P
     - annotation: !!omap
       - kegg.compound: C16186
-      - metabetx.chemical: MNXM2689
+      - metanetx.chemical: MNXM2689
       - sbo: SBO:0000247
   - !!omap
     - id: ascb__L_c
@@ -9652,7 +9628,7 @@
     - formula: C6H8O6
     - annotation: !!omap
       - kegg.compound: C00072
-      - metabetx.chemical: MNXM152361
+      - metanetx.chemical: MNXM152361
       - sbo: SBO:0000247
   - !!omap
     - id: asn__L_c
@@ -11282,13 +11258,13 @@
     - charge: 0
     - formula: C12H22O11
     - annotation: !!omap
-      - 3dmet: B04644
       - bigg.metabolite: cellb
       - biocyc: CPD-15975
-      - chebi: CHEBI:36217
+      - chebi:
+        - CHEBI:36217
+        - CHEBI:17057
       - kegg.compound: C00185
       - metanetx.chemical: MNXM1142
-      - obo.chebi: CHEBI%3A17057
       - origin: iMK1208
       - pubchem.substance: '3485'
       - sbo: SBO:0000247
@@ -12116,14 +12092,11 @@
     - charge: 0
     - formula: CO2
     - annotation: !!omap
-      - 3dmet: B01131
       - bigg.metabolite: co2
       - biocyc: CARBON-DIOXIDE
-      - cas: 124-38-9
       - chebi: CHEBI:16526
       - kegg.compound: C00011
       - metanetx.chemical: MNXM13
-      - obo.chebi: CHEBI%3A16526
       - origin: iMK1208
       - pubchem.substance: '3313'
       - sbo: SBO:0000247
@@ -12183,16 +12156,13 @@
     - charge: -4
     - formula: C21H32N7O16P3S
     - annotation: !!omap
-      - 3dmet: B04618
       - bigg.metabolite: coa
       - biocyc: CO-A
-      - cas: 85-61-0
       - chebi:
         - CHEBI:15346
         - CHEBI:57287
       - kegg.compound: C00010
       - metanetx.chemical: MNXM12
-      - obo.chebi: CHEBI%3A15346
       - origin: iMK1208
       - pubchem.substance: '3312'
       - sbo: SBO:0000247
@@ -12766,7 +12736,7 @@
     - formula: CHNO
     - annotation: !!omap
       - kegg.compound: C01417
-      - metabetx.chemical: MNXM1191
+      - metanetx.chemical: MNXM1191
       - sbo: SBO:0000247
   - !!omap
     - id: cy_e
@@ -12776,7 +12746,7 @@
     - formula: CHNO
     - annotation: !!omap
       - kegg.compound: C01417
-      - metabetx.chemical: MNXM1191
+      - metanetx.chemical: MNXM1191
       - sbo: SBO:0000247
   - !!omap
     - id: cyan_c
@@ -12877,10 +12847,8 @@
     - charge: 0
     - formula: C3H7NO2S
     - annotation: !!omap
-      - 3dmet: B01159
       - bigg.metabolite: cys__L
       - biocyc: CYS
-      - cas: 52-90-4
       - chebi:
         - CHEBI:32442
         - CHEBI:15356
@@ -12894,7 +12862,6 @@
         - CHEBI:32456
       - kegg.compound: C00097
       - metanetx.chemical: MNXM55
-      - obo.chebi: CHEBI%3A17561
       - origin: iMK1208
       - pubchem.substance: '3397'
       - sbo: SBO:0000247
@@ -13089,11 +13056,9 @@
     - annotation: !!omap
       - bigg.metabolite: dad_5
       - biocyc: CH33ADO
-      - cas: 4754-39-6
       - chebi: CHEBI:17319
       - kegg.compound: C05198
       - metanetx.chemical: MNXM316
-      - obo.chebi: CHEBI%3A17319
       - origin: iMK1208
       - pubchem.substance: '7603'
       - sbo: SBO:0000247
@@ -13581,7 +13546,7 @@
     - formula: C2H5O4P
     - annotation: !!omap
       - kegg.compound: C03167
-      - metabetx.chemical: MNXM803
+      - metanetx.chemical: MNXM803
       - sbo: SBO:0000247
   - !!omap
     - id: des_e
@@ -13591,7 +13556,7 @@
     - formula: C2H5O4P
     - annotation: !!omap
       - kegg.compound: C03167
-      - metabetx.chemical: MNXM803
+      - metanetx.chemical: MNXM803
       - sbo: SBO:0000247
   - !!omap
     - id: dgal6p_c
@@ -13773,7 +13738,6 @@
     - charge: -2
     - formula: C3H5O6P
     - annotation: !!omap
-      - 3dmet: B00029
       - bigg.metabolite: dhap
       - biocyc: DIHYDROXY-ACETONE-PHOSPHATE
       - chebi:
@@ -13781,7 +13745,6 @@
         - CHEBI:57642
       - kegg.compound: C00111
       - metanetx.chemical: MNXM77
-      - obo.chebi: CHEBI%3A16108
       - origin: iMK1208
       - pubchem.substance: '3411'
       - sbo: SBO:0000247
@@ -14084,7 +14047,6 @@
         - CHEBI:58864
       - kegg.compound: C17010
       - metanetx.chemical: MNXM3255
-      - obo.chebi: CHEBI%3A58864
       - origin: iMK1208
       - sbo: SBO:0000247
   - !!omap
@@ -15084,7 +15046,7 @@
     - formula: C30H27N3O15
     - annotation: !!omap
       - kegg.compound: C05821
-      - metabetx.chemical: MNXM883
+      - metanetx.chemical: MNXM883
       - sbo: SBO:0000247
   - !!omap
     - id: entbactin_e
@@ -15094,7 +15056,7 @@
     - formula: C30H27N3O15
     - annotation: !!omap
       - kegg.compound: C05821
-      - metabetx.chemical: MNXM883
+      - metanetx.chemical: MNXM883
       - sbo: SBO:0000247
   - !!omap
     - id: enter_c
@@ -15472,7 +15434,7 @@
     - formula: C16H28N2O11
     - annotation: !!omap
       - kegg.compound: C01674
-      - metabetx.chemical: MNXM46302
+      - metanetx.chemical: MNXM46302
       - sbo: SBO:0000247
   - !!omap
     - id: fb_e
@@ -15482,7 +15444,7 @@
     - formula: C16H28N2O11
     - annotation: !!omap
       - kegg.compound: C01674
-      - metabetx.chemical: MNXM46302
+      - metanetx.chemical: MNXM46302
       - sbo: SBO:0000247
   - !!omap
     - id: fc1p_c
@@ -15591,9 +15553,7 @@
       - bigg.metabolite: fe2
       - biocyc: FE+2
       - chebi: CHEBI:29033
-      - kegg.compound:
-        - C14818
-        - C00023
+      - kegg.compound: C14818
       - metanetx.chemical: MNXM111
       - origin: iMK1208
       - sbo: SBO:0000247
@@ -15647,7 +15607,7 @@
     - formula: C30H21N3015
     - annotation: !!omap
       - kegg.compound: C06230
-      - metabetx.chemical: MNXM7354
+      - metanetx.chemical: MNXM7354
       - sbo: SBO:0000247
   - !!omap
     - id: fentero_e
@@ -15657,7 +15617,7 @@
     - formula: C30H21N3015
     - annotation: !!omap
       - kegg.compound: C06230
-      - metabetx.chemical: MNXM7354
+      - metanetx.chemical: MNXM7354
       - sbo: SBO:0000247
   - !!omap
     - id: feroxB_c
@@ -15668,7 +15628,6 @@
     - annotation: !!omap
       - bigg.metabolite: feroxB
       - chebi: CHEBI:5044
-      - kegg.compound: C07597
       - metanetx.chemical:
         - MNXM53317
         - MNXM162837
@@ -15683,7 +15642,6 @@
     - annotation: !!omap
       - bigg.metabolite: feroxB
       - chebi: CHEBI:5044
-      - kegg.compound: C07597
       - metanetx.chemical:
         - MNXM53317
         - MNXM162837
@@ -16259,7 +16217,7 @@
     - formula: C01019
     - annotation: !!omap
       - kegg.compound: C01019
-      - metabetx.chemical: MNXM53947
+      - metanetx.chemical: MNXM53947
       - sbo: SBO:0000247
   - !!omap
     - id: fucose_e
@@ -16269,7 +16227,7 @@
     - formula: C01019
     - annotation: !!omap
       - kegg.compound: C01019
-      - metabetx.chemical: MNXM53947
+      - metanetx.chemical: MNXM53947
       - sbo: SBO:0000247
   - !!omap
     - id: fum_c
@@ -16278,17 +16236,14 @@
     - charge: -2
     - formula: C4H2O4
     - annotation: !!omap
-      - 3dmet: B00033
       - bigg.metabolite: fum
       - biocyc: FUM
-      - cas: 110-17-8
       - chebi:
         - CHEBI:37154
         - CHEBI:29806
         - CHEBI:18012
       - kegg.compound: C00122
       - metanetx.chemical: MNXM93
-      - obo.chebi: CHEBI%3A18012
       - origin: iMK1208
       - pubchem.substance: '3422'
       - sbo: SBO:0000247
@@ -16338,7 +16293,7 @@
     - formula: C10H13NO2
     - annotation: !!omap
       - kegg.compound: C10146
-      - metabetx.chemical: MNXM54068
+      - metanetx.chemical: MNXM54068
       - sbo: SBO:0000247
   - !!omap
     - id: fus_e
@@ -16348,7 +16303,7 @@
     - formula: C10H13NO2
     - annotation: !!omap
       - kegg.compound: C10146
-      - metabetx.chemical: MNXM54068
+      - metanetx.chemical: MNXM54068
       - sbo: SBO:0000247
   - !!omap
     - id: fut_c
@@ -16428,9 +16383,7 @@
         - CHEBI:59776
         - CHEBI:29052
         - CHEBI:17138
-      - kegg.compound:
-        - C00118
-        - C00661
+      - kegg.compound: C00118
       - metanetx.chemical: MNXM74
       - origin: iMK1208
       - sbo: SBO:0000247
@@ -17620,10 +17573,8 @@
     - charge: -1
     - formula: C5H8NO4
     - annotation: !!omap
-      - 3dmet: B00007
       - bigg.metabolite: glu__L
       - biocyc: GLT
-      - cas: 56-86-0
       - chebi:
         - CHEBI:18237
         - CHEBI:29988
@@ -17634,7 +17585,6 @@
         - CHEBI:76051
       - kegg.compound: C00025
       - metanetx.chemical: MNXM89557
-      - obo.chebi: CHEBI%3A16015
       - origin: iMK1208
       - pubchem.substance: '3327'
       - sbo: SBO:0000247
@@ -17724,7 +17674,7 @@
     - formula: C6H11O6R
     - annotation: !!omap
       - kegg.compound: C00963
-      - metabetx.chemical: MNXM55183
+      - metanetx.chemical: MNXM55183
       - sbo: SBO:0000247
   - !!omap
     - id: glucs_e
@@ -17734,7 +17684,7 @@
     - formula: C6H11O6R
     - annotation: !!omap
       - kegg.compound: C00963
-      - metabetx.chemical: MNXM55183
+      - metanetx.chemical: MNXM55183
       - sbo: SBO:0000247
   - !!omap
     - id: glucys_c
@@ -18026,16 +17976,13 @@
     - charge: -1
     - formula: C2H3O3
     - annotation: !!omap
-      - 3dmet: B01175
       - bigg.metabolite: glyclt
       - biocyc: GLYCOLLATE
-      - cas: 79-14-1
       - chebi:
         - CHEBI:29805
         - CHEBI:17497
       - kegg.compound: C00160
       - metanetx.chemical: MNXM222
-      - obo.chebi: CHEBI%3A17497
       - origin: iMK1208
       - pubchem.substance: '3460'
       - sbo: SBO:0000247
@@ -18535,7 +18482,6 @@
     - charge: 0
     - formula: H2O
     - annotation: !!omap
-      - 3dmet: B01124
       - bigg.metabolite: h2o
       - biocyc: WATER
       - chebi:
@@ -18544,7 +18490,6 @@
         - CHEBI:15377
       - kegg.compound: C00001
       - metanetx.chemical: MNXM2
-      - obo.chebi: CHEBI%3A15377
       - origin: iMK1208
       - pubchem.substance: '3303'
       - sbo: SBO:0000247
@@ -18629,7 +18574,6 @@
       - chebi: CHEBI:15378
       - kegg.compound: C00080
       - metanetx.chemical: MNXM1
-      - obo.chebi: CHEBI%3A15378
       - origin: iMK1208
       - pubchem.substance: '3380'
       - sbo: SBO:0000247
@@ -18645,7 +18589,6 @@
       - chebi: CHEBI:15378
       - kegg.compound: C00080
       - metanetx.chemical: MNXM1
-      - obo.chebi: CHEBI%3A15378
       - origin: iMK1208
       - pubchem.substance: '3380'
       - sbo: SBO:0000247
@@ -19943,7 +19886,7 @@
         - CHEBI:16087
         - CHEBI:36454
         - CHEBI:36453
-      - kegg.compound: C00311
+      - kegg.compound: C00451
       - metanetx.chemical: MNXM89661
       - origin: iMK1208
       - sbo: SBO:0000247
@@ -20142,7 +20085,7 @@
     - formula: C16H8Br2N2O2
     - annotation: !!omap
       - kegg.compound: C17084
-      - metabetx.chemical: MNXM488555
+      - metanetx.chemical: MNXM488555
       - sbo: SBO:0000247
   - !!omap
     - id: indig_e
@@ -20152,7 +20095,7 @@
     - formula: C16H8Br2N2O2
     - annotation: !!omap
       - kegg.compound: C17084
-      - metabetx.chemical: MNXM488555
+      - metanetx.chemical: MNXM488555
       - sbo: SBO:0000247
   - !!omap
     - id: indole_c
@@ -20796,7 +20739,7 @@
     - formula: R
     - annotation: !!omap
       - kegg.compound: C00338
-      - metabetx.chemical: MNXM60426
+      - metanetx.chemical: MNXM60426
       - sbo: SBO:0000247
   - !!omap
     - id: lps_e
@@ -20806,7 +20749,7 @@
     - formula: R
     - annotation: !!omap
       - kegg.compound: C00338
-      - metabetx.chemical: MNXM60426
+      - metanetx.chemical: MNXM60426
       - sbo: SBO:0000247
   - !!omap
     - id: lycop_c
@@ -21109,16 +21052,13 @@
     - charge: -5
     - formula: C24H33N7O19P3S
     - annotation: !!omap
-      - 3dmet: B04627
       - bigg.metabolite: malcoa
       - biocyc: MALONYL-COA
-      - cas: 524-14-1
       - chebi:
         - CHEBI:15531
         - CHEBI:57384
       - kegg.compound: C00083
       - metanetx.chemical: MNXM40
-      - obo.chebi: CHEBI%3A15531
       - origin: iMK1208
       - pubchem.substance: '3383'
       - sbo: SBO:0000247
@@ -21660,10 +21600,8 @@
     - charge: 0
     - formula: C5H11NO2S
     - annotation: !!omap
-      - 3dmet: B01148
       - bigg.metabolite: met__L
       - biocyc: MET
-      - cas: 63-68-3
       - chebi:
         - CHEBI:64558
         - CHEBI:16643
@@ -21675,7 +21613,6 @@
         - CHEBI:32644
       - kegg.compound: C00073
       - metanetx.chemical: MNXM61
-      - obo.chebi: CHEBI%3A16643
       - origin: iMK1208
       - pubchem.substance: '3373'
       - sbo: SBO:0000247
@@ -22100,7 +22037,7 @@
       - chebi:
         - CHEBI:18291
         - CHEBI:29035
-      - kegg.compound: C00034
+      - kegg.compound: C19610
       - metanetx.chemical:
         - MNXM1932
         - MNXM2255
@@ -22118,7 +22055,7 @@
       - chebi:
         - CHEBI:18291
         - CHEBI:29035
-      - kegg.compound: C00034
+      - kegg.compound: C19610
       - metanetx.chemical:
         - MNXM1932
         - MNXM2255
@@ -22475,7 +22412,7 @@
     - annotation: !!omap
       - bigg.metabolite: msh
       - chebi: CHEBI:16768
-      - kegg.compound: C06717
+      - kegg.compound: C00051
       - metanetx.chemical:
         - MNXM114216
         - MNXM590
@@ -23018,7 +22955,6 @@
     - charge: -3
     - formula: C21H25N7O17P3
     - annotation: !!omap
-      - 3dmet: B01129
       - bigg.metabolite: nadp
       - biocyc: NADP
       - chebi:
@@ -23028,7 +22964,6 @@
         - CHEBI:18009
       - kegg.compound: C00006
       - metanetx.chemical: MNXM5
-      - obo.chebi: CHEBI%3A18009
       - origin: iMK1208
       - pubchem.substance: '3308'
       - sbo: SBO:0000247
@@ -23233,7 +23168,7 @@
       - bigg.metabolite: ni2
       - biocyc: NI+2
       - chebi: CHEBI:28112
-      - kegg.compound: C00291
+      - kegg.compound: C19609
       - metanetx.chemical: MNXM1847
       - origin: iMK1208
       - sbo: SBO:0000247
@@ -23247,7 +23182,7 @@
       - bigg.metabolite: ni2
       - biocyc: NI+2
       - chebi: CHEBI:28112
-      - kegg.compound: C00291
+      - kegg.compound: C19609
       - metanetx.chemical: MNXM1847
       - origin: iMK1208
       - sbo: SBO:0000247
@@ -23928,7 +23863,7 @@
     - formula: C35H61NO12
     - annotation: !!omap
       - kegg.compound: C01946
-      - metabetx.chemical: MNXM65458
+      - metanetx.chemical: MNXM65458
       - sbo: SBO:0000247
   - !!omap
     - id: omycin_e
@@ -23938,7 +23873,7 @@
     - formula: C35H61NO12
     - annotation: !!omap
       - kegg.compound: C01946
-      - metabetx.chemical: MNXM65458
+      - metanetx.chemical: MNXM65458
       - sbo: SBO:0000247
   - !!omap
     - id: op4en_c
@@ -24010,9 +23945,7 @@
         - CHEBI:44667
         - CHEBI:15729
         - CHEBI:46912
-      - kegg.compound:
-        - C00077
-        - C01602
+      - kegg.compound: C00077
       - metanetx.chemical: MNXM89689
       - origin: iMK1208
       - sbo: SBO:0000247
@@ -24144,7 +24077,7 @@
     - formula: CH2O2
     - annotation: !!omap
       - kegg.compound: C00058
-      - metabetx.chemical: MNXM39
+      - metanetx.chemical: MNXM39
       - sbo: SBO:0000247
   - !!omap
     - id: oxformate_e
@@ -24154,7 +24087,7 @@
     - formula: CH2O2
     - annotation: !!omap
       - kegg.compound: C00058
-      - metabetx.chemical: MNXM39
+      - metanetx.chemical: MNXM39
       - sbo: SBO:0000247
   - !!omap
     - id: oxptn_c
@@ -24573,16 +24506,13 @@
     - charge: -2
     - formula: C11H21N2O7PS
     - annotation: !!omap
-      - 3dmet: B04774
       - bigg.metabolite: pan4p
       - biocyc: PHOSPHOPANTOTHEINE-GROUP
-      - cas: 2226-71-3
       - chebi:
         - CHEBI:16858
         - CHEBI:47942
       - kegg.compound: C01134
       - metanetx.chemical: MNXM722721
-      - obo.chebi: CHEBI%3A16858
       - origin: iMK1208
       - pubchem.substance: '4365'
       - sbo: SBO:0000247
@@ -25782,7 +25712,7 @@
     - formula: C7H9N4O5PR2
     - annotation: !!omap
       - kegg.compound: C04261
-      - metabetx.chemical: MNXM162508
+      - metanetx.chemical: MNXM162508
       - sbo: SBO:0000247
   - !!omap
     - id: phis__L_e
@@ -25792,7 +25722,7 @@
     - formula: C7H9N4O5PR2
     - annotation: !!omap
       - kegg.compound: C04261
-      - metabetx.chemical: MNXM162508
+      - metanetx.chemical: MNXM162508
       - sbo: SBO:0000247
   - !!omap
     - id: phitcoa_c
@@ -26009,9 +25939,9 @@
         - CHEBI:39745
         - CHEBI:18367
         - CHEBI:43474
+        - CHEBI:26020
       - kegg.compound: C00009
       - metanetx.chemical: MNXM9
-      - obo.chebi: CHEBI%3A26020
       - origin: iMK1208
       - sbo: SBO:0000247
   - !!omap
@@ -26841,7 +26771,7 @@
     - formula: C10H12N4O4
     - annotation: !!omap
       - kegg.compound: C15586
-      - metabetx.chemical: MNXM79745
+      - metanetx.chemical: MNXM79745
       - sbo: SBO:0000247
   - !!omap
     - id: prn_e
@@ -26851,7 +26781,7 @@
     - formula: C10H12N4O4
     - annotation: !!omap
       - kegg.compound: C15586
-      - metabetx.chemical: MNXM79745
+      - metanetx.chemical: MNXM79745
       - sbo: SBO:0000247
   - !!omap
     - id: proPCPredO_c
@@ -27706,16 +27636,13 @@
     - charge: -1
     - formula: C3H3O3
     - annotation: !!omap
-      - 3dmet: B00006
       - bigg.metabolite: pyr
       - biocyc: PYRUVATE
-      - cas: 127-17-3
       - chebi:
         - CHEBI:15361
         - CHEBI:32816
       - kegg.compound: C00022
       - metanetx.chemical: MNXM23
-      - obo.chebi: CHEBI%3A32816
       - origin: iMK1208
       - pubchem.substance: '3324'
       - sbo: SBO:0000247
@@ -28143,7 +28070,7 @@
       - chebi:
         - CHEBI:62346
         - CHEBI:26546
-      - kegg.compound: C00507
+      - kegg.compound: C02338
       - metanetx.chemical: MNXM1151
       - origin: iMK1208
       - sbo: SBO:0000247
@@ -28159,7 +28086,7 @@
       - chebi:
         - CHEBI:62346
         - CHEBI:26546
-      - kegg.compound: C00507
+      - kegg.compound: C02338
       - metanetx.chemical: MNXM1151
       - origin: iMK1208
       - sbo: SBO:0000247
@@ -28950,17 +28877,14 @@
     - charge: -2
     - formula: C4H4O4
     - annotation: !!omap
-      - 3dmet: B00012
       - bigg.metabolite: succ
       - biocyc: SUC
-      - cas: 110-15-6
       - chebi:
         - CHEBI:30031
         - CHEBI:15741
         - CHEBI:30779
       - kegg.compound: C00042
       - metanetx.chemical: MNXM25
-      - obo.chebi: CHEBI%3A15741
       - origin: iMK1208
       - pubchem.substance: '3344'
       - sbo: SBO:0000247
@@ -29859,7 +29783,7 @@
     - formula: C20H40N4S8Te
     - annotation: !!omap
       - kegg.compound: C19570
-      - metabetx.chemical: MNXM22001
+      - metanetx.chemical: MNXM22001
       - sbo: SBO:0000247
   - !!omap
     - id: tel_e
@@ -29869,7 +29793,7 @@
     - formula: C20H40N4S8Te
     - annotation: !!omap
       - kegg.compound: C19570
-      - metabetx.chemical: MNXM22001
+      - metanetx.chemical: MNXM22001
       - sbo: SBO:0000247
   - !!omap
     - id: telu_c
@@ -29879,7 +29803,7 @@
     - formula: C2H6Te
     - annotation: !!omap
       - kegg.compound: C02677
-      - metabetx.chemical: MNXM531896
+      - metanetx.chemical: MNXM531896
       - sbo: SBO:0000247
   - !!omap
     - id: telu_e
@@ -29889,7 +29813,7 @@
     - formula: C2H6Te
     - annotation: !!omap
       - kegg.compound: C02677
-      - metabetx.chemical: MNXM531896
+      - metanetx.chemical: MNXM531896
       - sbo: SBO:0000247
   - !!omap
     - id: thchd_c
@@ -31354,9 +31278,7 @@
       - chebi:
         - CHEBI:57654
         - CHEBI:16141
-      - kegg.compound:
-        - C17556
-        - C00348
+      - kegg.compound: C17556
       - metanetx.chemical: MNXM251
       - origin: iMK1208
       - sbo: SBO:0000247
@@ -32239,7 +32161,7 @@
     - formula: C10H1809
     - annotation: !!omap
       - kegg.compound: C01630
-      - metabetx.chemical: MNXM9373
+      - metanetx.chemical: MNXM9373
       - sbo: SBO:0000247
   - !!omap
     - id: xylb_e
@@ -32249,7 +32171,7 @@
     - formula: C10H1809
     - annotation: !!omap
       - kegg.compound: C01630
-      - metabetx.chemical: MNXM9373
+      - metanetx.chemical: MNXM9373
       - sbo: SBO:0000247
   - !!omap
     - id: xylnact__D_c
@@ -36629,7 +36551,6 @@
       - bigg.reaction: 4HPROOR
       - biocyc: R04221
       - ec-code: 1.4.3.3
-      - kegg.orthology: K00273
       - kegg.reaction: R04221
       - metanetx.reaction: MNXR108742
       - origin: Sco4
@@ -37217,7 +37138,6 @@
       - bigg.reaction: AAAHYD
       - biocyc: R05590
       - ec-code: 3.5.1.4
-      - kegg.orthology: K01426
       - kegg.reaction: R05590
       - metanetx.reaction: MNXR109702
       - origin: Sco4
@@ -37309,27 +37229,6 @@
       - metanetx.reaction: MNXR95161
       - origin: Sco4
       - pathway: Cysteine and methionine metabolism
-      - sbo: SBO:0000176
-      - subsystem: Amino acid metabolism
-  - !!omap
-    - id: ABPYRATA
-    - name: 4-aminobutyrate aminotransferase
-    - metabolites: !!omap
-      - 4abut_c: -1.0
-      - ala__L_c: 1.0
-      - pyr_c: -1.0
-      - sucsal_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO5676 or SCO7034
-    - annotation: !!omap
-      - bigg.reaction: ABPYRATA
-      - ec-code: 2.6.1.19
-      - kegg.reaction: R10178
-      - metanetx.reaction: MNXR113544
-      - origin: iMA789
-      - pathway: Alanine, aspartate and glutamate metabolism
-      - rhea: '32266'
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
   - !!omap
@@ -41900,9 +41799,6 @@
       - bigg.reaction: APATT
       - biocyc: R01618
       - ec-code: 2.7.7.53
-      - kegg.orthology:
-        - K00988
-        - K19710
       - kegg.reaction: R01618
       - metanetx.reaction: MNXR95863
       - origin: Sco4
@@ -43839,11 +43735,6 @@
         - 1.2.1.10
         - 1.2.1.57
         - 1.2.1.87
-      - kegg.orthology:
-        - K00132
-        - K04072
-        - K04073
-        - K18366
       - kegg.reaction: R01172
       - metanetx.reaction: MNXR96320
       - origin: Sco4
@@ -43944,7 +43835,6 @@
       - bigg.reaction: BUTCOAL
       - biocyc: R01176
       - ec-code: 6.2.1.2
-      - kegg.orthology: K01896
       - kegg.reaction: R01176
       - metanetx.reaction: MNXR106852
       - origin: Sco4
@@ -44931,7 +44821,6 @@
       - bigg.reaction: CDP4DGNOx
       - biocyc: R03391
       - ec-code: 1.17.1.1
-      - kegg.orthology: K00523
       - kegg.reaction: R03391
       - metanetx.reaction: MNXR108139
       - origin: Sco4
@@ -46765,7 +46654,6 @@
       - bigg.reaction: CTPGNAC
       - biocyc: R04215
       - ec-code: 2.7.7.43
-      - kegg.orthology: K00983
       - kegg.reaction: R04215
       - metanetx.reaction: MNXR108739
       - origin: Sco4
@@ -47713,7 +47601,6 @@
       - bigg.reaction: DARGO
       - biocyc: R02923
       - ec-code: 1.4.3.3
-      - kegg.orthology: K00273
       - kegg.reaction: R02923
       - metanetx.reaction: MNXR97150
       - origin: Sco4
@@ -49436,7 +49323,6 @@
       - bigg.reaction: DORNO
       - biocyc: R02457
       - ec-code: 1.4.3.3
-      - kegg.orthology: K00273
       - kegg.reaction: R02457
       - metanetx.reaction: MNXR97759
       - origin: Sco4
@@ -49557,7 +49443,6 @@
       - bigg.reaction: DPROLORED
       - biocyc: R02894
       - ec-code: 1.4.3.3
-      - kegg.orthology: K00273
       - kegg.reaction: R02894
       - metanetx.reaction: MNXR107807
       - origin: Sco4
@@ -52788,7 +52673,6 @@
       - bigg.reaction: FBA4
       - biocyc: R01785
       - ec-code: 4.1.2.19
-      - kegg.orthology: K01629
       - kegg.reaction: R01785
       - metanetx.reaction: MNXR99462
       - origin: Sco4
@@ -53434,11 +53318,15 @@
       - h_c: 1.0
       - nadp_c: 1.0
       - nadph_c: -1.0
-    - lower_bound: -1000.0
+    - lower_bound: 0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0681
+    - notes: !!omap
+      - NOTES: See DOI, in non-photosynthetic bacteria this reaction is only in forward
+          direction.
     - annotation: !!omap
       - bigg.reaction: FNOR
+      - doi: 10.1016/j.abb.2008.02.014
       - ec-code: 1.18.1.2
       - kegg.reaction: R01195
       - metanetx.reaction: MNXR99609
@@ -54256,6 +54144,7 @@
       - bigg.reaction: GABTA
       - biocyc: RXN-6902
       - ec-code: 2.6.1.96
+      - kegg.reaction: R10178
       - metanetx.reaction: MNXR113544
       - origin: Sco4
       - pathway: Alanine, aspartate and glutamate metabolism
@@ -56577,28 +56466,6 @@
       - sbo: SBO:0000176
       - subsystem: Carbohydrate metabolism
   - !!omap
-    - id: GND2
-    - name: phosphogluconate dehydrogenase (NAD)
-    - metabolites: !!omap
-      - 6pgc_c: -1.0
-      - co2_c: 1.0
-      - nad_c: -1.0
-      - nadh_c: 1.0
-      - ru5p__D_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO0975 or SCO3877 or SCO6658
-    - annotation: !!omap
-      - bigg.reaction: GND2
-      - ec-code: 1.1.1.343
-      - kegg.reaction: R10221
-      - metanetx.reaction: MNXR113581
-      - origin: iMK1208
-      - pathway: Pentose phosphate pathway
-      - rhea: '33026'
-      - sbo: SBO:0000176
-      - subsystem: Carbohydrate metabolism
-  - !!omap
     - id: GNK
     - name: gluconokinase
     - metabolites: !!omap
@@ -58746,7 +58613,7 @@
       - icit_c: -1.0
       - nadp_c: -1.0
       - nadph_c: 1.0
-    - lower_bound: -1000.0
+    - lower_bound: 0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7000
     - annotation: !!omap
@@ -59631,7 +59498,6 @@
       - bigg.reaction: KHK2
       - biocyc: R01902
       - ec-code: 2.7.1.5
-      - kegg.orthology: K00848
       - kegg.reaction: R01902
       - metanetx.reaction:
         - MNXR100937
@@ -68201,7 +68067,6 @@
       - bigg.reaction: PPNAD2OR
       - biocyc: R02252
       - ec-code: 1.3.1.31
-      - kegg.orthology: K10797
       - kegg.reaction: R02252
       - metanetx.reaction: MNXR107408
       - origin: Sco4
@@ -76864,7 +76729,7 @@
     - gene_reaction_rule: SCO0186 or SCO2101
     - annotation: !!omap
       - bigg.reaction: ZCAROTDH2
-      - biocyc: R04800
+      - biocyc: META:RXN-12412
       - ec-code:
         - 1.3.5.6
         - 1.3.99.26
