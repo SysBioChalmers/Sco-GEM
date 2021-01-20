@@ -36354,7 +36354,7 @@
       - bigg.reaction: 45DOPA
       - biocyc: META:RXN-8460
       - ec-code: 1.13.11.29
-      - kegg.reaction: "['R02075', 'R08836']"
+      - kegg.reaction: R08836
       - metanetx.reaction: MNXR107298
       - origin: Sco4
       - pathway: Betalain biosynthesis
@@ -41775,7 +41775,7 @@
     - annotation: !!omap
       - bigg.reaction: APAT2r
       - biocyc: META:RXN-2901
-      - ec-code: 2.6.1.19, 2.6.1.55
+      - ec-code: 2.6.1.-
       - kegg.reaction: R00908
       - metanetx.reaction: MNXR95862
       - origin: iMK1208
@@ -45094,7 +45094,6 @@
     - gene_reaction_rule: SCO1663
     - annotation: !!omap
       - bigg.reaction: CIGAMS
-      - doi: 'PMID: 16554727'
       - ec-code: 6.3.1.13
       - kegg.reaction: R09591
       - metanetx.reaction:
@@ -45102,6 +45101,7 @@
         - MNXR113007
       - origin: iMK1208
       - pathway: Mycothiol metabolism
+      - pubmed: '16554727'
       - rhea: '26179'
       - sbo: SBO:0000176
       - subsystem: Metabolism of cofactors and vitamins
@@ -54683,11 +54683,11 @@
     - annotation: !!omap
       - bigg.reaction: GDPDPK
       - biocyc: META:GDPPYPHOSKIN-RXN
-      - doi: 'PMID: 18051762'
       - ec-code: 2.7.6.5
       - metanetx.reaction: MNXR100088
       - origin: iMK1208
       - pathway: Purine metabolism
+      - pubmed: '18051762'
       - sbo: SBO:0000176
       - subsystem: Nucleotide metabolism
   - !!omap
@@ -54757,11 +54757,11 @@
     - annotation: !!omap
       - bigg.reaction: GDPTPDP
       - biocyc: META:RXN0-6427
-      - doi: 'PMID: 18051762'
       - ec-code: 3.1.7.2
       - metanetx.reaction: MNXR100094
       - origin: iMK1208
       - pathway: Purine metabolism
+      - pubmed: '18051762'
       - sbo: SBO:0000176
       - subsystem: Nucleotide metabolism
   - !!omap
@@ -56963,12 +56963,12 @@
     - annotation: !!omap
       - bigg.reaction: GTPDPK
       - biocyc: META:GTPPYPHOSKIN-RXN
-      - doi: 'PMID: 18051762'
       - ec-code: 2.7.6.5
       - kegg.reaction: R00429
       - metanetx.reaction: MNXR100457
       - origin: iMK1208
       - pathway: Purine metabolism
+      - pubmed: '18051762'
       - rhea: '22091'
       - sbo: SBO:0000176
       - subsystem: Nucleotide metabolism
@@ -57343,7 +57343,7 @@
       - bigg.reaction: HADPCOADH3
       - biocyc: META:RXN0-2044
       - doi: 10.1073/pnas.1005399107
-      - ec-code: 1.1.1.35, 1.1.1.157
+      - ec-code: 1.1.1.35
       - kegg.reaction: R06941
       - metanetx.reaction: MNXR100555
       - origin: iMK1208
@@ -58541,9 +58541,9 @@
     - gene_reaction_rule: SCO4204
     - annotation: !!omap
       - bigg.reaction: IACGAMS2
-      - doi: 'PMID: 16554727'
       - origin: iMK1208
       - pathway: Mycothiol metabolism
+      - pubmed: '16554727'
       - sbo: SBO:0000176
       - subsystem: Metabolism of cofactors and vitamins
   - !!omap
@@ -58794,7 +58794,6 @@
     - gene_reaction_rule: SCO5126 or SCO4967
     - annotation: !!omap
       - bigg.reaction: IGAMD
-      - doi: 'PMID: 16554727'
       - ec-code: 3.5.1.103
       - kegg.reaction: R09651
       - metanetx.reaction:
@@ -58802,6 +58801,7 @@
         - MNXR100812
       - origin: iMK1208
       - pathway: Mycothiol metabolism
+      - pubmed: '16554727'
       - rhea: '26183'
       - sbo: SBO:0000176
       - subsystem: Metabolism of cofactors and vitamins
@@ -62305,7 +62305,6 @@
     - gene_reaction_rule: SCO4151
     - annotation: !!omap
       - bigg.reaction: MSHS
-      - doi: 'PMID: 16554727'
       - ec-code: 2.3.1.189
       - kegg.reaction: R09622
       - metanetx.reaction:
@@ -62313,6 +62312,7 @@
         - MNXR101740
       - origin: iMK1208
       - pathway: Mycothiol metabolism
+      - pubmed: '16554727'
       - rhea: '26175'
       - sbo: SBO:0000176
       - subsystem: Metabolism of cofactors and vitamins
@@ -66373,7 +66373,7 @@
     - annotation: !!omap
       - bigg.reaction: PFK_2
       - biocyc: META:TAGAKIN-RXN
-      - ec-code: 2.7.1.11, 2.7.1.56, 2.7.1.144
+      - ec-code: 2.7.1.144
       - kegg.reaction: R03236
       - metanetx.reaction: MNXR102509
       - origin: iMK1208
@@ -67977,12 +67977,12 @@
     - annotation: !!omap
       - bigg.reaction: PPGPPDP
       - biocyc: META:PPGPPSYN-RXN
-      - doi: 'PMID: 18051762'
       - ec-code: 3.1.7.2
       - kegg.reaction: R00336
       - metanetx.reaction: MNXR103109
       - origin: iMK1208
       - pathway: Purine metabolism
+      - pubmed: '18051762'
       - rhea: '14256'
       - sbo: SBO:0000176
       - subsystem: Nucleotide metabolism
@@ -73148,7 +73148,7 @@
         or SCO5107 or SCO7109 )
     - annotation: !!omap
       - bigg.reaction: SUCD9
-      - ec-code: 1.3.5.1, 1.3.5.4
+      - ec-code: 1.3.5.1
       - kegg.reaction: R02164
       - metanetx.reaction: MNXR139089
       - origin: KEGG
@@ -74175,12 +74175,12 @@
     - annotation: !!omap
       - bigg.reaction: THRA2i
       - biocyc: META:LTAA-RXN
-      - doi: 'PMID: 18051291'
       - ec-code: 4.1.2.48
       - kegg.reaction: R06171
       - metanetx.reaction: MNXR104834
       - origin: iMK1208
       - pathway: Glycine, serine and threonine metabolism
+      - pubmed: '18051291'
       - rhea: '26212'
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
@@ -74197,12 +74197,12 @@
     - annotation: !!omap
       - bigg.reaction: THRAi
       - biocyc: META:THREONINE-ALDOLASE-RXN
-      - doi: 'PMID: 18051291'
       - ec-code: 4.1.2.48
       - kegg.reaction: R00751
       - metanetx.reaction: MNXR104833
       - origin: iMK1208
       - pathway: Glycine, serine and threonine metabolism
+      - pubmed: '18051291'
       - rhea: '19628'
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism

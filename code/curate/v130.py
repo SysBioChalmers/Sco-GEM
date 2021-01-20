@@ -27,6 +27,19 @@ def misc_reaction_curations(model):
     # Fixes Issue #33
     ZCAROTDH2 = model.reactions.get_by_id("ZCAROTDH2")
     ZCAROTDH2.annotation['biocyc'] = 'META:RXN-12412'
+    # Fixes Issue #111
+    SUCD9 = model.reactions.get_by_id("SUCD9")
+    SUCD9.annotation['ec-code'] = '1.3.5.1'
+    PFK_2 = model.reactions.get_by_id("PFK_2")
+    PFK_2.annotation['ec-code'] = '2.7.1.144'
+    APAT2r = model.reactions.get_by_id("APAT2r")
+    APAT2r.annotation['ec-code'] = '2.6.1.-'
+    HADPCOADH3 = model.reactions.get_by_id("HADPCOADH3")
+    HADPCOADH3.annotation['ec-code'] = '1.1.1.35'  
+    _45DOPA = model.reactions.get_by_id("45DOPA")
+    _45DOPA.annotation['kegg.reaction'] = 'R08836'  
+    
+    
 
 
 if __name__ == '__main__':
