@@ -1,7 +1,7 @@
-cobra==0.20.0
 requests==2.25.1
-numpy==1.19.5
 pandas==1.2.0
+cobra==0.20.0
+numpy==1.19.5
 beautifulsoup4==4.9.3
 bioservices==1.7.11
 equilibrator_api==0.4.0
