@@ -2,7 +2,7 @@
 
 Author: Eduard Kerkhoven 
 Created: 2021-01-19
-Updated: 2021-01-20
+Updated: 2021-01-24
 
 Curations for release v1.3.0.
 
@@ -11,8 +11,12 @@ Indicated is which issues are solved, more detailed explanation is given in the
 relevant pull requests.
 
 """
+import sys
+sys.path.append("..")
+
 from cobra.io import read_sbml_model, write_sbml_model
 import export
+import lxml
 import pandas as pd
 
 def misc_reaction_curations(model):
@@ -39,11 +43,32 @@ def misc_reaction_curations(model):
     _45DOPA = model.reactions.get_by_id("45DOPA")
     _45DOPA.annotation['kegg.reaction'] = 'R08836'  
 
-def remove_annotation_type(model):
-    # Contributes to Issue #105
+def add_gene_annotation(model):
+    # Fixes #44
+    df = pd.read_csv('../../data/curation/v130_uniprot_proteome_UP000001973.tab', sep = '\t')
+    df.index=df['id'].str.replace('.','')
+    df=df.fillna('')
     for g in model.genes:
-        g.annotation.pop('go', None)
-        g.annotation.pop('pfam', None)
+        g.annotation['sbo'] = 'SBO:0000243'
+        if g.id in df.index:
+            pos = df.index.get_loc(g.id)
+            if df.uniprot[pos]:
+                g.annotation['uniprot'] = df.uniprot[pos]
+            if df.pfam[pos]:
+                tmp = df.pfam[pos].rstrip(';')
+                g.annotation['pfam'] = tmp.split(';')
+            if df.panther[pos]:
+                tmp = df.panther[pos].rstrip(';')
+                g.annotation['panther'] = tmp.split(';')   
+            if df.refseq[pos]:
+                tmp = df.refseq[pos].rstrip(';')
+                g.annotation['refseq'] = tmp.split(';')   
+            if df.name[pos] != '':
+                g.name = df.name[pos]
+            else:
+                g.name = df.id[pos] # If left empty, SBML I/O inserts "G_geneId"
+        else:
+            print("No annotation data for gene: {0}".format(g.id))
 
 def list_annotations(model):
     # Contributes to Issue #105
@@ -68,7 +93,7 @@ def correct_pubchem(model):
 if __name__ == '__main__':
     model = read_sbml_model("../../model/xml/Sco-GEM.xml")
     misc_reaction_curations(model)
-    remove_annotation_type(model)  
     # list_annotations(model)  # Only needs to be run once to gather metabolite IDs and pubchem.substance annotations
     correct_pubchem(model)
+    add_gene_annotation(model)
     export.export(model, formats = ["xml", "yml"], write_requirements = 1, objective = "BIOMASS_SCO_tRNA")
