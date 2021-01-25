@@ -82361,7 +82361,7 @@
       - xyl__D_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: (SCO2404 or SCO3667) and SCO6010 and SCO6011 and SCO6009
     - annotation: !!omap
       - bigg.reaction: XYLabc
       - metanetx.reaction: MNXR115654
@@ -94919,6 +94919,20 @@
       - sbo: SBO:0000243
       - uniprot: Q9RDN5
   - !!omap
+    - id: SCO2404
+    - name: SCO2404
+    - annotation: !!omap
+      - go:
+        - GO:0030246
+        - GO:0030288
+      - pfam:
+        - PF13407
+      - refseq:
+        - NP_626650.1
+        - WP_003976402.1
+      - sbo: SBO:0000243
+      - uniprot: Q9RDN3
+  - !!omap
     - id: SCO2405
     - name: SCO2405
     - annotation: !!omap
@@ -99823,6 +99837,20 @@
         - WP_011029150.1
       - sbo: SBO:0000243
       - uniprot: Q9X8S5
+  - !!omap
+    - id: SCO3667
+    - name: SCO3667
+    - annotation: !!omap
+      - go:
+        - GO:0030246
+        - GO:0030288
+      - pfam:
+        - PF13407
+      - refseq:
+        - NP_627860.1
+        - WP_003975272.1
+      - sbo: SBO:0000243
+      - uniprot: Q9KYQ3
   - !!omap
     - id: SCO3678
     - name: dcd
@@ -108485,6 +108513,49 @@
         - WP_011030593.1
       - sbo: SBO:0000243
       - uniprot: O50501
+  - !!omap
+    - id: SCO6009
+    - name: SCO6009
+    - annotation: !!omap
+      - go:
+        - GO:0030246
+        - GO:0030288
+      - pfam:
+        - PF13407
+      - refseq:
+        - NP_630123.1
+        - WP_011030594.1
+      - sbo: SBO:0000243
+      - uniprot: O50503
+  - !!omap
+    - id: SCO6010
+    - name: SCO6010
+    - annotation: !!omap
+      - go:
+        - GO:0005524
+        - GO:0016887
+      - pfam:
+        - PF00005
+      - refseq:
+        - NP_630124.1
+        - WP_011030595.1
+      - sbo: SBO:0000243
+      - uniprot: O50504
+  - !!omap
+    - id: SCO6011
+    - name: SCO6011
+    - annotation: !!omap
+      - go:
+        - GO:0005886
+        - GO:0016021
+        - GO:0022857
+      - pfam:
+        - PF02653
+      - refseq:
+        - NP_630125.1
+        - WP_003972911.1
+      - sbo: SBO:0000243
+      - uniprot: O50505
   - !!omap
     - id: SCO6013
     - name: dxs2
