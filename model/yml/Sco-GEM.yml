@@ -44101,8 +44101,7 @@
       - o2_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: SCO0379 or SCO0560 or ( SCO0666 and SCO2529 ) or SCO6204
-        or SCO7590
+    - gene_reaction_rule: SCO0379 or SCO0560 or SCO0666 or SCO6204 or SCO7590
     - annotation: !!omap
       - bigg.reaction: CAT
       - biocyc: META:CATAL-RXN

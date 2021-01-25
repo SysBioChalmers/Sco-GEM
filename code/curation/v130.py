@@ -49,6 +49,9 @@ def misc_reaction_curations(model):
     # As mentioned in #119
     XYLabc = model.reactions.get_by_id('XYLabc')
     XYLabc.gene_reaction_rule = '(SCO2404 or SCO3667) and SCO6010 and SCO6011 and SCO6009'
+    # Fixes Issue #100
+    CAT = model.reactions.get_by_id("CAT")
+    CAT.gene_reaction_rule = "SCO0379 or SCO0560 or SCO0666 or SCO6204 or SCO7590"
 
 def add_gene_annotation(model):
     # Fixes #44
