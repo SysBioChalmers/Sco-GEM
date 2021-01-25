@@ -41,7 +41,12 @@ def misc_reaction_curations(model):
     HADPCOADH3 = model.reactions.get_by_id("HADPCOADH3")
     HADPCOADH3.annotation['ec-code'] = '1.1.1.35'  
     _45DOPA = model.reactions.get_by_id("45DOPA")
-    _45DOPA.annotation['kegg.reaction'] = 'R08836'  
+    _45DOPA.annotation['kegg.reaction'] = 'R08836'
+    # Fixes Issue #88
+    G6PDH2r = model.reactions.get_by_id('G6PDH2r')
+    G6PDH2r.annotation['doi'] = '10.1371/journal.pone.0084151'
+    G6PDH2r.notes['NOTES'] = 'See DOI, G6PDH can only use NADPH, not NADH.'
+    model.reactions.remove('G6PDH1b')
 
 def add_gene_annotation(model):
     # Fixes #44

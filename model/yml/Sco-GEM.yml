@@ -54059,27 +54059,6 @@
       - sbo: SBO:0000176
       - subsystem: Carbohydrate metabolism
   - !!omap
-    - id: G6PDH1b
-    - name: beta-D-glucose-6-phosphate:NAD+ 1-oxidoreductase
-    - metabolites: !!omap
-      - 6pgl_c: 1.0
-      - g6p_B_c: -1.0
-      - h_c: 1.0
-      - nad_c: -1.0
-      - nadh_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO1937 or SCO6661
-    - annotation: !!omap
-      - bigg.reaction: G6PDH1b
-      - ec-code: 1.1.1.363
-      - kegg.reaction: R10907
-      - metanetx.reaction: MNXR114219
-      - origin: KEGG
-      - pathway: Pentose phosphate pathway
-      - sbo: SBO:0000176
-      - subsystem: Carbohydrate metabolism
-  - !!omap
     - id: G6PDH2r
     - name: glucose 6-phosphate dehydrogenase
     - metabolites: !!omap
@@ -54091,9 +54070,12 @@
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1937 or SCO6661
+    - notes: !!omap
+      - NOTES: See DOI, G6PDH can only use NADPH, not NADH.
     - annotation: !!omap
       - bigg.reaction: G6PDH2r
       - biocyc: META:RXN-14819
+      - doi: 10.1371/journal.pone.0084151
       - ec-code: 1.1.1.49
       - kegg.reaction: R00835
       - metanetx.reaction:
