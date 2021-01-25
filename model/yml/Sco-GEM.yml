@@ -2227,8 +2227,6 @@
     - compartment: c
     - charge: 0
     - formula: C13H23O8P
-    - notes: !!omap
-      - FORMULA: C13H23O8P
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -2238,8 +2236,6 @@
     - compartment: c
     - charge: 0
     - formula: C13H23O8P
-    - notes: !!omap
-      - FORMULA: C13H23O8P
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -4936,8 +4932,6 @@
     - compartment: c
     - charge: 0
     - formula: C14H25O7P
-    - notes: !!omap
-      - FORMULA: C14H25O7P
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -4947,8 +4941,6 @@
     - compartment: c
     - charge: 0
     - formula: C14H23O7P
-    - notes: !!omap
-      - FORMULA: C14H23O7P
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -5421,8 +5413,6 @@
     - compartment: c
     - charge: 0
     - formula: C14H24O5
-    - notes: !!omap
-      - FORMULA: C14H24O5
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -5432,8 +5422,6 @@
     - compartment: c
     - charge: 0
     - formula: C13H22O4
-    - notes: !!omap
-      - FORMULA: C13H22O4
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -5730,8 +5718,6 @@
     - compartment: c
     - charge: 0
     - formula: C13H21O7P
-    - notes: !!omap
-      - FORMULA: C13H21O7P
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -5741,8 +5727,6 @@
     - compartment: c
     - charge: 0
     - formula: C13H23O7P
-    - notes: !!omap
-      - FORMULA: C13H23O7P
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -6680,8 +6664,6 @@
     - compartment: c
     - charge: -1
     - formula: C11H21N2O7PRS
-    - notes: !!omap
-      - FORMULA: C11H21N2O7PRS
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -7427,8 +7409,6 @@
     - compartment: c
     - charge: 0
     - formula: C5H9NO3S
-    - notes: !!omap
-      - FORMULA: C5H9NO3S
     - annotation: !!omap
       - kegg.compound: C06809
       - origin: iAA1259
@@ -7440,8 +7420,6 @@
     - compartment: e
     - charge: 0
     - formula: C5H9NO3S
-    - notes: !!omap
-      - FORMULA: C5H9NO3S
     - annotation: !!omap
       - kegg.compound: C06809
       - origin: iAA1259
@@ -8053,8 +8031,6 @@
     - compartment: c
     - charge: 0
     - formula: C12H19NO
-    - notes: !!omap
-      - FORMULA: C12H19NO
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -8250,8 +8226,6 @@
     - compartment: c
     - charge: 0
     - formula: C13H22O5
-    - notes: !!omap
-      - FORMULA: C13H22O5
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -9241,8 +9215,6 @@
     - compartment: c
     - charge: -1
     - formula: RHO
-    - notes: !!omap
-      - FORMULA: RHO
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -11273,8 +11245,6 @@
     - compartment: e
     - charge: 0
     - formula: C3000H5002O2501
-    - notes: !!omap
-      - FORMULA: C3000H5002O2501
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -11284,8 +11254,6 @@
     - compartment: e
     - charge: 0
     - formula: C3000H5002O2501
-    - notes: !!omap
-      - FORMULA: C3000H5002O2501
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -11389,8 +11357,6 @@
     - compartment: e
     - charge: 0
     - formula: C8H13NO5
-    - notes: !!omap
-      - FORMULA: C8H13NO5
     - annotation: !!omap
       - metanetx.chemical: MNXM92167
       - origin: iAA1259
@@ -12443,8 +12409,6 @@
     - compartment: c
     - charge: 0
     - formula: C12H15NO2
-    - notes: !!omap
-      - FORMULA: C12H15NO2
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -12454,8 +12418,6 @@
     - compartment: e
     - charge: 0
     - formula: C12H15NO2
-    - notes: !!omap
-      - FORMULA: C12H15NO2
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -18404,8 +18366,6 @@
     - compartment: c
     - charge: -1
     - formula: C21H33N2O9PRS
-    - notes: !!omap
-      - FORMULA: C21H33N2O9PRS
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -18764,8 +18724,6 @@
     - compartment: c
     - charge: 0
     - formula: C12H15O2
-    - notes: !!omap
-      - FORMULA: C12H15O2
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -18957,8 +18915,6 @@
     - compartment: c
     - charge: -1
     - formula: C17H29N2O8PRS
-    - notes: !!omap
-      - FORMULA: C17H29N2O8PRS
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -21786,8 +21742,6 @@
     - compartment: c
     - charge: 0
     - formula: C13H21O7P
-    - notes: !!omap
-      - FORMULA: C13H21O7P
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -21798,8 +21752,6 @@
     - compartment: c
     - charge: 0
     - formula: C13H23O7P
-    - notes: !!omap
-      - FORMULA: C13H23O7P
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -28345,8 +28297,6 @@
     - compartment: c
     - charge: 0
     - formula: C13H24O4
-    - notes: !!omap
-      - FORMULA: C13H24O4
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -28356,8 +28306,6 @@
     - compartment: e
     - charge: 0
     - formula: C13H24O4
-    - notes: !!omap
-      - FORMULA: C13H24O4
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -28367,8 +28315,6 @@
     - compartment: c
     - charge: 0
     - formula: C13H24O4
-    - notes: !!omap
-      - FORMULA: C13H24O4
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -28378,8 +28324,6 @@
     - compartment: e
     - charge: 0
     - formula: C13H24O4
-    - notes: !!omap
-      - FORMULA: C13H24O4
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -28389,8 +28333,6 @@
     - compartment: c
     - charge: 0
     - formula: C14H26O4
-    - notes: !!omap
-      - FORMULA: C14H26O4
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -28400,8 +28342,6 @@
     - compartment: e
     - charge: 0
     - formula: C14H26O4
-    - notes: !!omap
-      - FORMULA: C14H26O4
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -32135,8 +32075,6 @@
     - compartment: e
     - charge: 0
     - formula: C2640H4226O2113
-    - notes: !!omap
-      - FORMULA: C2640H4226O2113
     - annotation: !!omap
       - kegg.compound: C00707
       - origin: iAA1259
@@ -32147,8 +32085,6 @@
     - compartment: e
     - charge: 0
     - formula: C2640H4226O2113
-    - notes: !!omap
-      - FORMULA: C2640H4226O2113
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -32272,8 +32208,6 @@
     - compartment: e
     - charge: 0
     - formula: C17H20N2O4S
-    - notes: !!omap
-      - FORMULA: C17H20N2O4S
     - annotation: !!omap
       - origin: iAA1259
       - sbo: SBO:0000247
@@ -32723,7 +32657,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0300
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 11OXPENT
       - biocyc: META:RXN-12654
@@ -32747,7 +32681,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6292
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 1P4H2CDA
       - biocyc: META:3.5.4.22-RXN
@@ -32773,7 +32707,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6304
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 23DHBZS
       - biocyc: META:RXN-13704
@@ -32796,7 +32730,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3477
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 23LGALAC
       - biocyc: META:RXN-16964
@@ -32911,7 +32845,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5321
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 24DCLPMO
       - biocyc: META:24-DICHLOROPHENOL-6-MONOOXYGENASE-RXN
@@ -32936,7 +32870,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7066
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 24DCOAR
       - biocyc: META:DIENOYLCOAREDUCT-RXN
@@ -32957,7 +32891,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5546
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 24DHX5M6OI
       - biocyc: META:RXN-17165
@@ -32978,7 +32912,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2017
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 25DBUT
       - biocyc: META:4.1.1.86-RXN
@@ -33004,7 +32938,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6305
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 2A3MUCSD
       - biocyc: META:AMINO-CARBOXYMUCONATE-SEMIALDEHYDE-RXN
@@ -33033,7 +32967,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7285 or SCO1109 or SCO5980
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 2ABZMOx
       - biocyc: META:ANTHRANILOYL-COA-MONOOXYGENASE-RXN
@@ -33064,7 +32998,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7285 or SCO1109 or SCO5980
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 2ABZMOy
       - biocyc: META:ANTHRANILOYL-COA-MONOOXYGENASE-RXN_NADPH
@@ -33094,7 +33028,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4913 or SCO5666 or SCO7139
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 2AMUCSAD
       - biocyc: META:1.2.1.32-RXN
@@ -33121,7 +33055,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3823 or SCO1199 or SCO4266 or SCO0780 or SCO5073
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 2CLRED
       - biocyc: META:RXN-14536
@@ -33145,7 +33079,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3476
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 2D3DGLUCDH
       - biocyc: META:1.1.1.127-RXN
@@ -33170,7 +33104,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3474 or SCO3494 or SCO0851
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 2DHGLCK
       - biocyc: META:DEHYDOGLUCONOKINASE-RXN
@@ -33194,7 +33128,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6440
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 2FURAPS
       - biocyc: META:RXN-15946
@@ -33217,7 +33151,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0346 or SCO2850 or SCO6308
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 2K3DRHAM
       - biocyc: META:RXN-12095
@@ -33259,7 +33193,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7700
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 2METBOD
       - biocyc: META:RXN-12976
@@ -33282,7 +33216,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3807
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 2OGLUAH
       - biocyc: META:RXN-13072
@@ -33304,7 +33238,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5546
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 2OH3EDISO
       - biocyc: META:RXN1K-87
@@ -33355,7 +33289,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6998 or SCO1207
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 33BIFLAV
       - biocyc: META:RXN-9932
@@ -33398,7 +33332,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0347 or SCO0358 or SCO3480 or SCO7629
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 36AHDGALC
       - biocyc: META:RXN-15893
@@ -33423,7 +33357,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6998 or SCO1207
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 38BIFLAVS
       - biocyc: META:RXN-9933
@@ -33448,7 +33382,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0235 or SCO0240 or SCO2491 or SCO7693
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 38DPCLOR
       - biocyc: META:RXN-5285
@@ -33474,7 +33408,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6414 or SCO6411
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 3AIBUTS
       - biocyc: META:RXN-11210
@@ -33497,7 +33431,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6442
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 3CLBZADH
       - biocyc: META:RXN-9909
@@ -33521,7 +33455,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7436
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 3CLBZDH
       - biocyc: META:RXN-9910
@@ -33564,7 +33498,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4787
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 3DM4HXPPO
       - biocyc: META:RXN-14671
@@ -33587,7 +33521,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4787
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 3DMA4HMO
       - biocyc: META:RXN-14670
@@ -34280,7 +34214,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1346 or SCO1815
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 3HBCOADH
       - biocyc: META:RXN-5901
@@ -34329,7 +34263,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5773
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 3HCINNMH
       - biocyc: META:RXN-10040
@@ -34356,7 +34290,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5773
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 3HPPPNH
       - biocyc: META:MHPHYDROXY-RXN
@@ -34381,7 +34315,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0365
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 3HXACOADH
       - biocyc: META:RXN-905
@@ -34405,7 +34339,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2476
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 3HXKYN
       - biocyc: META:RXN-17143
@@ -34428,7 +34362,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6298
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 3K5AHC
       - biocyc: META:R125-RXN
@@ -34451,7 +34385,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6442
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 3MBZALDH
       - biocyc: META:RXN-8580
@@ -34476,7 +34410,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7436
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 3MBZDH
       - biocyc: META:RXN-8583
@@ -36301,7 +36235,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6293
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 3T3LPROD
       - biocyc: META:TRANS-L-3-HYDROXYPROLINE-DEHYDRATASE-RXN
@@ -36348,7 +36282,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3204
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 45DOPA
       - biocyc: META:RXN-8460
@@ -36372,7 +36306,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 45SDOPs
       - biocyc: META:RXN-8461
@@ -36393,7 +36327,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5940
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 4C4HX2OA
       - biocyc: META:RXN-2464
@@ -36420,7 +36354,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4383
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 4CMCOAS
       - biocyc: META:4-COUMARATE--COA-LIGASE-RXN
@@ -36445,7 +36379,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2477
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 4COXADH
       - biocyc: META:COLCYD-RXN
@@ -36470,7 +36404,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3084 or SCO1308
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 4HBHYOX
       - biocyc: META:4-HYDROXYBENZOATE-3-MONOOXYGENASE-RXN
@@ -36545,7 +36479,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6740
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 4HPROOR
       - biocyc: META:R04221
@@ -36590,7 +36524,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7611
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 4HXBOPT
       - biocyc: META:R229-RXN
@@ -36643,7 +36577,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5842 or SCO6582
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 4HYBUT
       - biocyc: META:RXN-18387
@@ -36690,7 +36624,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3415
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 4IP7MO2H__R
       - biocyc: META:RXN-9394
@@ -36716,7 +36650,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3415
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 4IP7MO2H__S
       - biocyc: META:RXN-9421
@@ -36741,7 +36675,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 4IZPHYDs
       - biocyc: META:RXN-7587
@@ -36766,7 +36700,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6442
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 4MBZALDH
       - biocyc: META:RXN-8581
@@ -36791,7 +36725,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7436
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 4MBZDH
       - biocyc: META:RXN-8582
@@ -36816,7 +36750,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4280
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 4NIPHOM
       - biocyc: META:4-NITROPHENOL-2-MONOOXYGENASE-RXN
@@ -36860,7 +36794,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4682
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 4OT
       - biocyc: META:RXN-8529
@@ -36906,7 +36840,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1207 or SCO6998
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 4SBZADH
       - biocyc: META:SYDDEHYD-RXN
@@ -36931,7 +36865,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2477
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 4SULFADH
       - biocyc: META:SOLDEHYD-RXN
@@ -36953,7 +36887,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2225
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 5CM2HMUCI
       - biocyc: META:5.3.3.10-RXN
@@ -37020,7 +36954,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1984
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 5METDA
       - biocyc: META:RXN-10035
@@ -37043,7 +36977,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5546
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 5OP3TCCL
       - biocyc: META:CARBOXY-OXOHEPT-ENEDIOATE-DECARBOXY-RXN
@@ -37068,7 +37002,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4644 or SCO5662
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 6ADOFUT
       - biocyc: META:RXN-14910
@@ -37090,7 +37024,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3415
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: 6HEXHYD
       - biocyc: META:6-HEXANOLIDE-HYDROLYSIS-RXN
@@ -37132,7 +37066,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6344 or SCO7601
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: AAAHYD
       - biocyc: META:R05590
@@ -37195,7 +37129,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3306 or SCO1417
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: AATA
       - biocyc: META:2-AMINOADIPATE-AMINOTRANSFERASE-RXN
@@ -37219,7 +37153,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4645 or SCO5941
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: AATC
       - biocyc: META:RXN-11737
@@ -37314,7 +37248,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0103
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: AC1MO
       - biocyc: META:RXN-17569
@@ -37535,7 +37469,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5247
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ACCAHh
       - biocyc: META:4.1.99.4-RXN
@@ -37605,9 +37539,6 @@
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5134
-    - notes: !!omap
-      - GENE_ASSOCIATION: SCO5134
-      - SUBSYSTEM: Methionine and Cysteine Metabolism
     - annotation: !!omap
       - doi: 10.1186/s12864-018-4905-5
       - origin: iAA1259
@@ -37628,7 +37559,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2180
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ACETDH
       - biocyc: META:RXN-9718
@@ -37742,7 +37673,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1676 or SCO6487
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ACITRULD
       - biocyc: META:RXN-7933
@@ -37831,7 +37762,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4881
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ACNMS
       - biocyc: META:N-ACETYLNEURAMINATE-SYNTHASE-RXN
@@ -38089,7 +38020,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1676 or SCO6487
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ACODA
       - biocyc: META:ACETYLORNDEACET-RXN
@@ -38609,8 +38540,6 @@
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
-    - notes: !!omap
-      - SUBSYSTEM: Cofactor and Prosthetic Group Biosynthesis
     - annotation: !!omap
       - origin: iAA1259
       - pathway: Coelimycin biosynthesis
@@ -38628,9 +38557,6 @@
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0046
-    - notes: !!omap
-      - GENE_ASSOCIATION: SCO0046
-      - SUBSYSTEM: Cofactor and Prosthetic Group Biosynthesis
     - annotation: !!omap
       - origin: iAA1259
       - pathway: Coelimycin biosynthesis
@@ -38862,7 +38788,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0312 or SCO6938 or SCO5984
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ACRCOAR
       - biocyc: META:RXN-8568
@@ -38937,7 +38863,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5842 or SCO6582
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ACTCOALIG
       - biocyc: META:ACETATE--COA-LIGASE-ADP-FORMING-RXN
@@ -38961,7 +38887,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6702
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ACTCOAT
       - biocyc: META:R11-RXN
@@ -38987,7 +38913,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6702
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ACTCOAT2
       - biocyc: META:R8-RXN
@@ -39442,7 +39368,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5941
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ADAPAT
       - biocyc: META:RXN-4822
@@ -39796,7 +39722,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4494
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ADOXFUTS
       - biocyc: META:RXN-15264
@@ -39980,9 +39906,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - AUTHORS: PMC3855536
       - CONFIDENCE LEVEL: '4'
-      - SUBSYSTEM: Quinol and Quinone Biosynthesis
     - annotation: !!omap
       - doi: 10.1021/ja408594p
       - origin: iAA1259
@@ -40405,7 +40329,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6412
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: AGT
       - biocyc: META:ALANINE--GLYOXYLATE-AMINOTRANSFERASE-RXN
@@ -40471,7 +40395,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: AHLGALb
       - biocyc: META:RXN-15999
@@ -41234,7 +41158,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0443
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ALPHNH
       - biocyc: META:ALLOPHANATE-HYDROLASE-RXN
@@ -41376,7 +41300,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6769
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: AMBACS
       - biocyc: META:RXN-13533
@@ -41400,7 +41324,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5983
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: AMBCOAL
       - biocyc: META:AMINOBENZCOALIG-RXN
@@ -41424,7 +41348,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6344 or SCO7601
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: AMID
       - biocyc: META:GUANIDINOBUTANAMIDE-NH3-RXN
@@ -41449,7 +41373,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6344 or SCO7601
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: AMID3
       - biocyc: META:RXNN-404
@@ -41473,7 +41397,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6344 or SCO7601
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: AMID5
       - biocyc: META:R311-RXN
@@ -41651,7 +41575,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7117
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ANTDIOx
       - biocyc: META:1.14.12.1-RXN
@@ -41683,7 +41607,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7117
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ANTDIOy
       - biocyc: META:1.14.12.1-RXN_NADPH
@@ -41751,7 +41675,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: AP2EISOs
       - biocyc: META:RXN-15124
@@ -41793,7 +41717,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1530
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: APATT
       - biocyc: META:R01618
@@ -41836,7 +41760,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5655
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: APATr
       - biocyc: META:2.6.1.18-RXN
@@ -42553,7 +42477,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2401
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ARABDH
       - biocyc: META:L-ARABINONATE-DEHYDRATASE-RXN
@@ -42575,7 +42499,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ARABISOs
       - biocyc: META:RXN-14809
@@ -42596,7 +42520,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2439
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ARABLAC
       - biocyc: META:L-ARABINONOLACTONASE-RXN
@@ -42640,7 +42564,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5136
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ARAT
       - biocyc: META:RXN-14147
@@ -42756,7 +42680,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5941
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ARUH
       - biocyc: META:RXN-8956
@@ -42803,7 +42727,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5857
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ASCISOs
       - biocyc: META:RXN-8784
@@ -42828,7 +42752,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ASCOROX
       - biocyc: META:RXN-12876
@@ -42853,7 +42777,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ASCORPO
       - biocyc: META:RXN-12440
@@ -43129,7 +43053,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5042
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ASPT
       - biocyc: META:ASPARTASE-RXN
@@ -43353,7 +43277,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: BALDHs
       - biocyc: META:RXN-6268
@@ -43375,7 +43299,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1701 or SCO1428 or SCO3051
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: BCOADH
       - biocyc: META:BUTYRYL-COA-DEHYDROGENASE-RXN
@@ -43510,7 +43434,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7437
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: BFORCL
       - biocyc: META:BENZOYLFORMATE-DECARBOXYLASE-RXN
@@ -43534,7 +43458,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7437
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: BFORMDC
       - biocyc: META:HYDROXYBENZOYLFORMATE-DECARBOXYLASE-RXN
@@ -43576,7 +43500,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6471
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: BMMCOAL
       - biocyc: META:RXN-8961
@@ -43679,7 +43603,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1690
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: BSUZCOAD
       - biocyc: META:RXN-865
@@ -43726,7 +43650,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: BTCOAR
       - biocyc: META:R01172
@@ -43803,7 +43727,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6414 or SCO6411
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: BUPN
       - biocyc: META:BETA-UREIDOPROPIONASE-RXN
@@ -43829,7 +43753,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6195
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: BUTCOAL
       - biocyc: META:R01176
@@ -43910,7 +43834,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6442
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: BZALDH
       - biocyc: META:BENZYL-ALC-DEHYDROGENASE-RXN
@@ -43935,7 +43859,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7436
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: BZDH
       - biocyc: META:BENZALDEHYDE-DEHYDROGENASE-NAD+-RXN
@@ -43958,7 +43882,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0362 or SCO6583
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: BZSCT
       - biocyc: META:RXN-864
@@ -43985,7 +43909,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0737
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: C7AHXDH
       - biocyc: META:7-ALPHA-HYDROXYSTEROID-DEH-RXN
@@ -44034,7 +43958,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4383
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CAFFCOA
       - biocyc: META:RXN-1126
@@ -44059,7 +43983,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2940 or SCO2941 or SCO6170 or SCO6171 or SCO6172
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CARBMODH
       - biocyc: META:1.2.7.4-RXN
@@ -44083,7 +44007,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6898
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CARBPHOL
       - biocyc: META:RXN-14196
@@ -44111,7 +44035,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2222
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CARNMOx
       - biocyc: META:RXN-5921
@@ -44138,7 +44062,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2222
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CARNMOy
       - biocyc: META:RXN-5921_NADPH
@@ -44207,7 +44131,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6304
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CAT23DOX
       - biocyc: META:CATECHOL-23-DIOXYGENASE-RXN
@@ -44277,7 +44201,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CBMD
       - biocyc: META:RXN0-5222
@@ -44815,7 +44739,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0103
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CDP4DGNOx
       - biocyc: META:R03391
@@ -44840,7 +44764,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0103
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CDP4DGNOy
       - biocyc: META:1.17.1.1-RXN_NADPH
@@ -44890,7 +44814,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7057
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CEPSPORDA
       - biocyc: META:CEPHALOSPORIN-C-DEACETYLASE-RXN
@@ -44934,7 +44858,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0583 or SCO3636
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CHO43OR
       - biocyc: META:RXN-12848
@@ -45002,7 +44926,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4781
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CHOLOX
       - biocyc: META:CHOLESTEROL-OXIDASE-RXN
@@ -45025,7 +44949,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4506
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CHORDH
       - biocyc: META:RXN-12345
@@ -45118,7 +45042,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4383
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CINNCOAL
       - biocyc: META:RXN-2001
@@ -45143,7 +45067,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1923 or SCO2106 or SCO2469 or SCO6039 or SCO7117
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CINNDOX
       - biocyc: META:RXN-12072
@@ -45249,7 +45173,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0404 or SCO0899 or SCO1097 or SCO3446 or SCO7205 or SCO7440
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CLADHAL
       - biocyc: META:DHLBXANAU-RXN
@@ -45959,7 +45883,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1612 or SCO1706 or SCO4913 or SCO5666 or SCO7139
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CMCMSAD
       - biocyc: META:CHMS-DEHYDROGENASE-RXN
@@ -46189,7 +46113,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7644
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: COSPERDH
       - biocyc: META:RXN-11565
@@ -46298,9 +46222,6 @@
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6275
-    - notes: !!omap
-      - GENE_ASSOCIATION: SCO6275
-      - SUBSYSTEM: Coelimycin Biosynthesis
     - annotation: !!omap
       - doi: 10.1007/s00203-006-0176-7
       - origin: iAA1259
@@ -46321,9 +46242,6 @@
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6274
-    - notes: !!omap
-      - GENE_ASSOCIATION: SCO6274
-      - SUBSYSTEM: Coelimycin Biosynthesis
     - annotation: !!omap
       - doi: 10.1007/s00203-006-0176-7
       - origin: iAA1259
@@ -46347,9 +46265,6 @@
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6273
-    - notes: !!omap
-      - GENE_ASSOCIATION: SCO6273
-      - SUBSYSTEM: Coelimycin Biosynthesis
     - annotation: !!omap
       - doi:
         - 10.1039/c6sc02803a
@@ -46369,9 +46284,6 @@
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6279
-    - notes: !!omap
-      - GENE_ASSOCIATION: SCO6279
-      - SUBSYSTEM: Coelimycin Biosynthesis
     - annotation: !!omap
       - doi:
         - 10.1039/c6sc02803a
@@ -46391,9 +46303,6 @@
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6279
-    - notes: !!omap
-      - GENE_ASSOCIATION: SCO6279
-      - SUBSYSTEM: Coelimycin Biosynthesis
     - annotation: !!omap
       - doi:
         - 10.1039/c6sc02803a
@@ -46415,8 +46324,6 @@
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
-    - notes: !!omap
-      - SUBSYSTEM: Coelimycin Biosynthesis
     - annotation: !!omap
       - doi: 10.1039/C2SC20410J
       - origin: iAA1259
@@ -46477,7 +46384,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6654 or SCO7569
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CREATA
       - biocyc: META:CREATININASE-RXN
@@ -46502,7 +46409,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4634
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CREATDA
       - biocyc: META:CREATININE-DEAMINASE-RXN
@@ -46576,7 +46483,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7644
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CSPMDDH
       - biocyc: META:RXN-11566
@@ -46648,7 +46555,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4880
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CTPGNAC
       - biocyc: META:R04215
@@ -46741,7 +46648,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1612 or SCO1706 or SCO7139
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CUMALDH
       - biocyc: META:RXN-663
@@ -46766,7 +46673,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5854 or SCO4164
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CYANST
       - biocyc: META:THIOSULFATE-SULFURTRANSFERASE-RXN
@@ -46791,7 +46698,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6938
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CYC1CCDH
       - biocyc: META:R282-RXN
@@ -46817,7 +46724,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2490
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CYCHEXDH
       - biocyc: META:RXN-9832
@@ -46845,7 +46752,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0300 or SCO3172
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CYCHEXMO
       - biocyc: META:CYCLOHEXANONE-MONOOXYGENASE-RXN
@@ -46870,7 +46777,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7363
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CYCHEX_2
       - biocyc: META:CYCLOHEXANOL-DEHYDROGENASE-RXN
@@ -46895,7 +46802,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3051
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CYCOADH
       - biocyc: META:R265-RXN
@@ -47027,7 +46934,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0435
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CYSBLY
       - biocyc: META:RXN-15131
@@ -47184,7 +47091,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4880
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CYT5MONP
       - biocyc: META:RXN-9990
@@ -47254,7 +47161,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4909
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CYTDK1
       - biocyc: META:CYTIKIN-RXN
@@ -47279,7 +47186,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4909
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CYTDK2
       - biocyc: META:CYTIDINEKIN-RXN
@@ -47460,7 +47367,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0667
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DACGKIN
       - biocyc: META:DIACYLGLYKIN-RXN
@@ -47595,7 +47502,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6740
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DARGO
       - biocyc: META:R02923
@@ -48072,7 +47979,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4841
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DCPEPFU
       - biocyc: META:RXN-11081
@@ -48139,7 +48046,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4169
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DCYCHEX
       - biocyc: META:LINC-RXN
@@ -48207,7 +48114,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4988
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DDGALK
       - biocyc: META:DEHYDDEOXGALACTKIN-RXN
@@ -48301,7 +48208,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7570
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DGALACYC
       - biocyc: META:RXN-15902
@@ -48384,7 +48291,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0392
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DGLUC4KR
       - biocyc: META:RXN-12921
@@ -48407,7 +48314,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0392
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DGLUCMT
       - biocyc: META:RXN-12931
@@ -48428,7 +48335,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7570
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DGLUCYC
       - biocyc: META:RXN-15907
@@ -48452,7 +48359,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2285
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DGLYHRED
       - biocyc: META:RXN-16262
@@ -48561,7 +48468,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7072 or SCO7073
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DHAPT
       - biocyc: META:2.7.1.121-RXN
@@ -48586,7 +48493,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4168
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DHBD
       - biocyc: META:DHBDEHYD-RXN
@@ -48611,7 +48518,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7681
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DHBS
       - biocyc: META:DHBAMPLIG-RXN
@@ -48737,7 +48644,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6441
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DHICONF
       - biocyc: META:RXN-15819
@@ -48933,7 +48840,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6415
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DHPD
       - biocyc: META:DIHYDROPYRIMIDINASE-RXN
@@ -49070,7 +48977,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6415
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DHYDTHYM
       - biocyc: META:RXN-11211
@@ -49179,7 +49086,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0122 or SCO7468
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DMETMO
       - biocyc: META:1.14.13.8-RXN
@@ -49317,7 +49224,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6740
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DORNO
       - biocyc: META:R02457
@@ -49389,7 +49296,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1423
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DPMSYN
       - biocyc: META:2.4.1.83-RXN
@@ -49437,7 +49344,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6740
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DPROLORED
       - biocyc: META:R02894
@@ -49485,7 +49392,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4842
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DRIB2FUR
       - biocyc: META:RXN-11080
@@ -49507,7 +49414,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1844
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DRIBPA
       - biocyc: META:DARABALDOL-RXN
@@ -49569,7 +49476,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DTDP26DGR
       - biocyc: META:RXN-12943
@@ -49725,12 +49632,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4550
     - notes: !!omap
-      - AUTHORS: PMC3855536
       - CONFIDENCE LEVEL: '4'
-      - GENE ASSOCIATION: SCO4550
-      - GENE SYMBOL: MqnC
-      - GENE_ASSOCIATION: SCO4550
-      - SUBSYSTEM: Quinol and Quinone Biosynthesis
     - annotation: !!omap
       - doi: 10.1021/ja408594p
       - origin: iAA1259
@@ -49792,7 +49694,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2401
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DXYLDH
       - biocyc: META:XYLONATE-DEHYDRATASE-RXN
@@ -51778,7 +51680,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5223
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: EIZOO
       - biocyc: META:RXN-13194
@@ -52485,7 +52387,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1705
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: FALDH2
       - biocyc: META:RXN-2962
@@ -52512,7 +52414,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1705
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: FALDH3
       - biocyc: META:RXN-2962_NADPH
@@ -52534,7 +52436,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: FALGTHLs
       - biocyc: META:RXN-2961
@@ -52580,7 +52482,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3858
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: FARNDPPS
       - biocyc: META:2.5.1.68-RXN
@@ -52667,7 +52569,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0813
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: FBA4
       - biocyc: META:R01785
@@ -52729,7 +52631,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1844
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: FCLPA
       - biocyc: META:FUCPALDOL-RXN
@@ -52818,7 +52720,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: FENTON
       - biocyc: META:RXN-12540
@@ -53007,7 +52909,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2785
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: FEROXCYC
       - biocyc: META:RXN-10998
@@ -53032,7 +52934,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2785
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: FEROXG1S
       - biocyc: META:RXN-10997
@@ -53132,7 +53034,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6820
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: FHL
       - biocyc: META:FHLMULTI-RXN
@@ -53182,7 +53084,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1208
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: FLAVMO
       - biocyc: META:RXN-15585
@@ -53388,7 +53290,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3071
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: FORGLUIH
       - biocyc: META:FORMIMINOGLUTAMATE-DEIMINASE-RXN
@@ -53412,7 +53314,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: FORHOPS
       - biocyc: META:RXN-13530
@@ -53434,7 +53336,6 @@
     - gene_reaction_rule: ''
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
-      - SUBSYSTEM: Oxidative Phosphorylation
     - annotation: !!omap
       - metanetx.reaction: MNXR99639
       - origin: iAA1259
@@ -53514,7 +53415,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0617
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: FRU6PE4P
       - biocyc: META:FRUCTOSE-6-PHOSPHATE-PHOSPHOKETOLASE-RXN
@@ -53538,7 +53439,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: FRUISOs
       - biocyc: META:RXN-14515
@@ -53668,7 +53569,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5546 or SCO6308
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: FUMAH
       - biocyc: META:RXN-10445
@@ -53943,7 +53844,6 @@
     - gene_reaction_rule: ''
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
-      - SUBSYSTEM: Oxidative Phosphorylation
     - annotation: !!omap
       - metanetx.reaction: MNXR99882
       - origin: iAA1259
@@ -54120,7 +54020,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5655
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GABTA
       - biocyc: META:RXN-6902
@@ -54144,7 +54044,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4492
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GADECARB
       - biocyc: META:GALLATE-DECARBOXYLASE-RXN
@@ -54186,7 +54086,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0349
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GALACDH
       - biocyc: META:RXN-1884
@@ -54209,7 +54109,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0347 or SCO0358 or SCO3480 or SCO7415
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GALCTD
       - biocyc: META:GALACTARDEHYDRA-RXN
@@ -54334,7 +54234,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6700
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GALOO
       - biocyc: META:RXN-11861
@@ -54405,7 +54305,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1896
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GALURDH
       - biocyc: META:URONATE-DEHYDROGENASE-RXN
@@ -54550,7 +54450,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3954
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GCGBGE
       - biocyc: META:RXN-10901
@@ -54571,7 +54471,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3954
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GCGUAIDH
       - biocyc: META:RXN-10898
@@ -54595,7 +54495,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0910
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GCL
       - biocyc: META:GLUTCYSLIG-RXN
@@ -54619,7 +54519,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6180
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GDCARBM
       - biocyc: META:RXN-16912
@@ -54685,7 +54585,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0382
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GDPMANDH
       - biocyc: META:GDP-MANNOSE-6-DEHYDROGENASE-RXN
@@ -54756,7 +54656,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6073
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GEOSMS
       - biocyc: META:RXN-9476
@@ -54780,7 +54680,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6782
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GERDH
       - biocyc: META:RXN-11968
@@ -54804,7 +54704,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7701
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GERDPM
       - biocyc: META:RXN-12975
@@ -54825,7 +54725,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GERISOs
       - biocyc: META:RXN-9193
@@ -55006,7 +54906,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1612 or SCO1706 or SCO4913 or SCO5666 or SCO6793 or SCO7139
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GGGABADH
       - biocyc: META:RXN0-3922
@@ -55030,7 +54930,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0912
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GGHCSH
       - biocyc: META:RXN-14429
@@ -55052,7 +54952,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5857
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GGLACOX
       - biocyc: META:L-GULONOLACTONE-OXIDASE-RXN
@@ -55101,7 +55001,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5671
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GGLUPUT
       - biocyc: META:RXN0-3921
@@ -55149,7 +55049,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0645
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GHBDHy
       - biocyc: META:RXN-11002
@@ -55454,7 +55354,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2439
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GLNLASE
       - biocyc: META:RXN-8783
@@ -55570,7 +55470,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1896
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GLUCORDH
       - biocyc: META:RXN-11407
@@ -55684,7 +55584,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GLULACIs
       - biocyc: META:RXN-15905
@@ -55771,7 +55671,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7035
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GLUSAD
       - biocyc: META:RXN-8182
@@ -56092,7 +55992,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0348 or SCO3478 or SCO7119
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GLYCTD
       - biocyc: META:GLYCOLATE-REDUCTASE-RXN
@@ -56176,7 +56076,6 @@
     - gene_reaction_rule: ''
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
-      - SUBSYSTEM: Oxidative Phosphorylation
     - annotation: !!omap
       - metanetx.reaction: MNXR100341
       - origin: iAA1259
@@ -56240,7 +56139,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6740
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GLYO1
       - biocyc: META:1.4.3.19-RXN
@@ -56266,7 +56165,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1509
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GLYOX
       - biocyc: META:GLYOXII-RXN
@@ -56335,7 +56234,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5681
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GMGGDCAP
       - biocyc: META:RXN-11805
@@ -56357,7 +56256,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6187
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GMHEPAT
       - biocyc: META:RXN0-4342
@@ -56481,7 +56380,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3779
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GNNUC
       - biocyc: META:RXN0-366
@@ -57028,7 +56927,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2770
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GUDBUTNAH
       - biocyc: META:GUANIDINOBUTYRASE-RXN
@@ -57053,7 +56952,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5857
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GUL14LACDH
       - biocyc: META:RXN-14395
@@ -57077,7 +56976,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1901
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: GUL5DH
       - biocyc: META:RXN-15920
@@ -57408,7 +57307,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3242 or SCO4491 or SCO6574
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: HBZOPT
       - biocyc: META:4OHBENZOATE-OCTAPRENYLTRANSFER-RXN
@@ -57454,7 +57353,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2784
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: HCSUCT
       - biocyc: META:RXN-10996
@@ -57498,7 +57397,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6759
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: HDXSQLS
       - biocyc: META:RXN-17129
@@ -57563,7 +57462,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6187
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: HEP7PHOK
       - biocyc: META:RXN0-4341
@@ -57610,7 +57509,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0911
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: HERCOX
       - biocyc: META:RXN-14430
@@ -57706,7 +57605,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5546
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: HEXHYD
       - biocyc: META:RXN-8824
@@ -57994,7 +57893,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: HMMSHALDs
       - biocyc: META:RXN-6581
@@ -58103,7 +58002,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4913 or SCO5666 or SCO7139
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: HMSD
       - biocyc: META:RXN-8527
@@ -58261,7 +58160,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2696
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: HPYRRx
       - biocyc: META:HYDROXYPYRUVATE-REDUCTASE-RXN
@@ -58287,7 +58186,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2696
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: HPYRRy
       - biocyc: META:HYDROXYPYRUVATE-REDUCTASE-RXN_NADPH
@@ -58495,7 +58394,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4416
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: I3PYRMO
       - biocyc: META:RXNDQC-2
@@ -59023,7 +58922,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1055
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: IPAXYL
       - biocyc: META:RXN-12402
@@ -59244,7 +59143,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5514 or SCO7154
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: KARA1
       - biocyc: META:ACETOLACTREDUCTOISOM-RXN
@@ -59474,7 +59373,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0814
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: KHK2
       - biocyc: META:R01902
@@ -59524,7 +59423,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5966
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: LACDHCYT
       - biocyc: META:D-LACTATE-DEHYDROGENASE-CYTOCHROME-RXN
@@ -59588,7 +59487,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2824
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: LALDD2
       - biocyc: META:D-LACTALDEHYDE-DEHYDROGENASE-RXN
@@ -59612,7 +59511,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1526
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: LAURAT
       - biocyc: META:LAUROYLACYLTRAN-RXN
@@ -59660,7 +59559,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0191
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: LCYB
       - biocyc: META:RXN1F-151
@@ -59683,7 +59582,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0191
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: LCYG
       - biocyc: META:RXN1F-150
@@ -59799,7 +59698,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7162
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: LGALACD
       - biocyc: META:RXN-15924
@@ -59822,7 +59721,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0913
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: LHISTMT
       - biocyc: META:RXN-14431
@@ -59958,7 +59857,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7415
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: LLYXDH
       - biocyc: META:RXN-15590
@@ -60055,7 +59954,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0498 or SCO2016 or SCO2783 or SCO6434
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: LYS6MO
       - biocyc: META:1.14.13.59-RXN
@@ -60268,7 +60167,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6656
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MAHYD
       - biocyc: META:RXN-17572
@@ -60348,7 +60247,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1959
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MALPYRISO
       - biocyc: META:MALEYLPYRUVATE-ISOMERASE-RXN
@@ -60439,7 +60338,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4809 or SCO6586
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MALTHIK
       - biocyc: META:MALATE--COA-LIGASE-RXN
@@ -60463,7 +60362,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2346
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MAN1PPP
       - biocyc: META:MANNITOL-1-PHOSPHATASE-RXN
@@ -60530,7 +60429,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MANISOs
       - biocyc: META:RXN-14500
@@ -60635,7 +60534,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6471
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MCOALY
       - biocyc: META:MALYL-COA-LYASE-RXN
@@ -61332,7 +61231,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3486 or SCO6441
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MGLYXOX
       - biocyc: META:METHYL-GLYOXAL-DEHYDROG-RXN
@@ -61356,7 +61255,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4554
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MGSDGS
       - biocyc: META:2.4.1.157-RXN
@@ -61464,7 +61363,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0479 or SCO5860 or SCO6445
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MI3PP
       - biocyc: META:MYO-INOSITOL-1OR-4-MONOPHOSPHATASE-RXN
@@ -61793,7 +61692,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2726
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MMSAD1
       - biocyc: META:1.2.1.27-RXN
@@ -61999,7 +61898,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7629
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MNNH
       - biocyc: META:MANNONDEHYDRAT-RXN
@@ -62112,7 +62011,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0130
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MPAHYD
       - biocyc: META:RXN-8743
@@ -62134,7 +62033,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0616
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MPL
       - biocyc: META:MALTOSE-PHOSPHORYLASE-RXN
@@ -62164,7 +62063,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1850 or SCO5277
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MPML
       - biocyc: META:RXN1F-20
@@ -62310,7 +62209,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6469
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MSUCOADH
       - biocyc: META:RXN-8959
@@ -62405,7 +62304,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2106
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MTBUTEMO
       - biocyc: META:RXN-17612
@@ -62427,7 +62326,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MTFHSs
       - biocyc: META:RXN-2881
@@ -62599,7 +62498,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3698 or SCO6837
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MYCARSL
       - biocyc: META:RXN-11187
@@ -62623,7 +62522,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1705 or SCO0741
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MYCFORM
       - biocyc: META:1.2.1.66-RXN
@@ -62691,7 +62590,7 @@
     - gene_reaction_rule: SCO1612 or SCO1706 or SCO3420 or SCO4780 or SCO4913 or SCO5666
         or SCO5679 or SCO6441 or SCO6793 or SCO7139
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: NABTNO
       - biocyc: META:RXN-37
@@ -62789,7 +62688,6 @@
     - gene_reaction_rule: ''
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
-      - SUBSYSTEM: Oxidative Phosphorylation
     - annotation: !!omap
       - metanetx.reaction: MNXR101876
       - origin: iAA1259
@@ -62810,7 +62708,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4742
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: NADHXDH
       - biocyc: META:RXN0-6727
@@ -62831,7 +62729,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4742
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: NADHXE
       - biocyc: META:RXN-12752
@@ -62853,7 +62751,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: NADHXSs__R
       - biocyc: META:RXN-12754
@@ -62873,7 +62771,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: NADHXSs__S
       - biocyc: META:RXN-12753
@@ -62919,9 +62817,6 @@
     - gene_reaction_rule: SCO3823
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
-      - GENE ASSOCIATION: SCO3823
-      - GENE_ASSOCIATION: SCO3823
-      - SUBSYSTEM: Oxidative Phosphorylation
     - annotation: !!omap
       - metanetx.reaction: MNXR101893
       - origin: iAA1259
@@ -62942,7 +62837,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4742
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: NADPHXD
       - biocyc: META:RXN-13141
@@ -62963,7 +62858,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4742
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: NADPHXE
       - biocyc: META:RXN-13142
@@ -63315,7 +63210,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0627
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: NHHAAH
       - biocyc: META:3.5.2.14-RXN
@@ -63341,7 +63236,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0122 or SCO7468
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: NICMO
       - biocyc: META:RXN66-81
@@ -63386,7 +63281,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5754
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: NMNDA
       - biocyc: META:NMNAMIDOHYDRO-RXN
@@ -63642,7 +63537,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1852
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: NSHDDS
       - biocyc: META:RXN-8060
@@ -64378,7 +64273,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6785 or SCO6730
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: O426ISO
       - biocyc: META:RXN-17645
@@ -64402,7 +64297,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1453
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: O4OXOCYR
       - biocyc: META:RXN-16308
@@ -64505,7 +64400,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6073
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: OCTSYN
       - biocyc: META:RXN-9475
@@ -64778,7 +64673,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1453
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ONTROOXR
       - biocyc: META:RXN-16310
@@ -64823,7 +64718,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4490 or SCO4492
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: OPHBDC
       - biocyc: META:3-OCTAPRENYL-4-OHBENZOATE-DECARBOX-RXN
@@ -64930,7 +64825,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0498 or SCO6434
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ORNHYDXx
       - biocyc: META:RXN-13783
@@ -64957,7 +64852,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0498 or SCO6434
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ORNHYDXy
       - biocyc: META:RXN-13783_NADPH
@@ -65159,7 +65054,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6706 or SCO0179 or SCO1174 or SCO7362 or SCO4055 or SCO0259
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: P2OLDH
       - biocyc: META:RXN-17571
@@ -65180,7 +65075,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6540
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: P4CADH
       - biocyc: META:RXN-7908
@@ -65260,7 +65155,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5655
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: PAAT
       - biocyc: META:RXN-8
@@ -66521,7 +66416,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4323
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: PGLYCP
       - biocyc: META:GPH-RXN
@@ -67123,7 +67018,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6760 or SCO0187
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: PHYSYN
       - biocyc: META:RXNARA-8002
@@ -67170,7 +67065,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6760 or SCO0187
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: PHYTES
       - biocyc: META:2.5.1.32-RXN
@@ -67192,7 +67087,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: PICDDHs
       - biocyc: META:RXN-10723
@@ -67721,7 +67616,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0235 or SCO0240 or SCO2491 or SCO7693
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: POR_1
       - biocyc: META:RXN1F-10
@@ -68043,7 +67938,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4297 or SCO7066
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: PPNAD2OR
       - biocyc: META:R02252
@@ -68183,7 +68078,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1923 or SCO2106 or SCO2469 or SCO6039 or SCO7117
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: PPPNDO
       - biocyc: META:HCAMULTI-RXN
@@ -68257,7 +68152,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3203
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: PPTRIAT
       - biocyc: META:RXN-9382
@@ -68279,7 +68174,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6468
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: PPTSERDC
       - biocyc: META:PHOSPHASERDECARB-RXN
@@ -68600,7 +68495,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6293
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: PROLRM
       - biocyc: META:PROLINE-RACEMASE-RXN
@@ -68627,7 +68522,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0103
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: PROP2MO
       - biocyc: META:RXN-17568
@@ -69529,7 +69424,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7452
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: PTC6MT
       - biocyc: META:RXN-17982
@@ -69553,7 +69448,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3099 or SCO3636 or SCO3770
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: PTLACS
       - biocyc: META:RXN-12653
@@ -69602,7 +69497,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4279
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: PTRCAT1
       - biocyc: META:RXN-0
@@ -69648,7 +69543,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1971
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: PU5PG
       - biocyc: META:RXN0-5398
@@ -69856,7 +69751,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0364 or SCO4930
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: PYACOADH
       - biocyc: META:RXN-902
@@ -69974,7 +69869,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7264 or SCO0299 or SCO0429 or SCO3730 or SCO7654
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: PYDXOR
       - biocyc: META:PYRIDOXINE-4-DEHYDROGENASE-RXN
@@ -70069,7 +69964,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4594 or SCO4595 or SCO6269 or SCO6270
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: PYRS
       - biocyc: META:PYRUFLAVREDUCT-RXN
@@ -70110,7 +70005,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: QUINHYDs
       - biocyc: META:RXN-5721
@@ -70313,7 +70208,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6550
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: RBTDG
       - biocyc: META:RIBITOL-2-DEHYDROGENASE-RXN
@@ -70336,7 +70231,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: RE0691C
       - biocyc: META:RXN-6423
@@ -71318,7 +71213,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: RHAMFs
       - biocyc: META:RXN-15356
@@ -71339,7 +71234,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6111 or SCO7680
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: RIB1MPTS
       - biocyc: META:RXN0-6732
@@ -71815,7 +71710,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6186
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: S7PI
       - biocyc: META:RXN0-4301
@@ -71910,7 +71805,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3452
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: SAMAAT
       - biocyc: META:2.1.1.138-RXN
@@ -71935,7 +71830,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3452
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: SAMAT
       - biocyc: META:2.1.1.137-RXN
@@ -71982,7 +71877,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6289 or SCO6291
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: SARCOX
       - biocyc: META:SARCOX-RXN
@@ -72029,7 +71924,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1901 or SCO2402 or SCO3477
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: SBTD_D2
       - biocyc: META:RXN-7644
@@ -72072,10 +71967,6 @@
     - gene_reaction_rule: SCO6266
     - notes: !!omap
       - CONFIDENCE LEVEL: '3'
-      - GENE ASSOCIATION: SCO6266
-      - GENE SYMBOL: ScbA
-      - GENE_ASSOCIATION: SCO6266
-      - SUBSYSTEM: Butyrolactones Biosynthesis
     - annotation: !!omap
       - origin: iAA1259
       - pathway: Gamma-butyrolactones biosynthesis
@@ -72093,9 +71984,6 @@
     - gene_reaction_rule: s0001
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
-      - GENE ASSOCIATION: s0001
-      - GENE_ASSOCIATION: s0001
-      - SUBSYSTEM: Butyrolactones Biosynthesis
     - annotation: !!omap
       - origin: iAA1259
       - pathway: Gamma-butyrolactones biosynthesis
@@ -72115,10 +72003,6 @@
     - gene_reaction_rule: SCO6267
     - notes: !!omap
       - CONFIDENCE LEVEL: '3'
-      - GENE ASSOCIATION: SCO6267
-      - GENE SYMBOL: ScbC
-      - GENE_ASSOCIATION: SCO6267
-      - SUBSYSTEM: Butyrolactones Biosynthesis
     - annotation: !!omap
       - origin: iAA1259
       - pathway: Gamma-butyrolactones biosynthesis
@@ -72137,7 +72021,6 @@
     - gene_reaction_rule: ''
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
-      - SUBSYSTEM: Butyrolactones Biosynthesis
     - annotation: !!omap
       - origin: iAA1259
       - pathway: Gamma-butyrolactones biosynthesis
@@ -72157,10 +72040,6 @@
     - gene_reaction_rule: SCO6264
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
-      - GENE ASSOCIATION: SCO6264
-      - GENE SYMBOL: ScbB
-      - GENE_ASSOCIATION: SCO6264
-      - SUBSYSTEM: Butyrolactones Biosynthesis
     - annotation: !!omap
       - origin: iAA1259
       - pathway: Gamma-butyrolactones biosynthesis
@@ -72179,10 +72058,6 @@
     - gene_reaction_rule: SCO6266
     - notes: !!omap
       - CONFIDENCE LEVEL: '3'
-      - GENE ASSOCIATION: SCO6266
-      - GENE SYMBOL: ScbA
-      - GENE_ASSOCIATION: SCO6266
-      - SUBSYSTEM: Butyrolactones Biosynthesis
     - annotation: !!omap
       - origin: iAA1259
       - pathway: Gamma-butyrolactones biosynthesis
@@ -72201,10 +72076,6 @@
     - gene_reaction_rule: SCO6266
     - notes: !!omap
       - CONFIDENCE LEVEL: '3'
-      - GENE ASSOCIATION: SCO6266
-      - GENE SYMBOL: ScbA
-      - GENE_ASSOCIATION: SCO6266
-      - SUBSYSTEM: Butyrolactones Biosynthesis
     - annotation: !!omap
       - origin: iAA1259
       - pathway: Gamma-butyrolactones biosynthesis
@@ -72222,9 +72093,6 @@
     - gene_reaction_rule: s0001
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
-      - GENE ASSOCIATION: s0001
-      - GENE_ASSOCIATION: s0001
-      - SUBSYSTEM: Butyrolactones Biosynthesis
     - annotation: !!omap
       - origin: iAA1259
       - pathway: Gamma-butyrolactones biosynthesis
@@ -72244,10 +72112,6 @@
     - gene_reaction_rule: SCO6267
     - notes: !!omap
       - CONFIDENCE LEVEL: '3'
-      - GENE ASSOCIATION: SCO6267
-      - GENE SYMBOL: ScbC
-      - GENE_ASSOCIATION: SCO6267
-      - SUBSYSTEM: Butyrolactones Biosynthesis
     - annotation: !!omap
       - origin: iAA1259
       - pathway: Gamma-butyrolactones biosynthesis
@@ -72266,7 +72130,6 @@
     - gene_reaction_rule: ''
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
-      - SUBSYSTEM: Butyrolactones Biosynthesis
     - annotation: !!omap
       - origin: iAA1259
       - pathway: Gamma-butyrolactones biosynthesis
@@ -72286,10 +72149,6 @@
     - gene_reaction_rule: SCO6264
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
-      - GENE ASSOCIATION: SCO6264
-      - GENE SYMBOL: ScbB
-      - GENE_ASSOCIATION: SCO6264
-      - SUBSYSTEM: Butyrolactones Biosynthesis
     - annotation: !!omap
       - origin: iAA1259
       - pathway: Gamma-butyrolactones biosynthesis
@@ -72308,10 +72167,6 @@
     - gene_reaction_rule: SCO6266
     - notes: !!omap
       - CONFIDENCE LEVEL: '3'
-      - GENE ASSOCIATION: SCO6266
-      - GENE SYMBOL: ScbA
-      - GENE_ASSOCIATION: SCO6266
-      - SUBSYSTEM: Butyrolactones Biosynthesis
     - annotation: !!omap
       - origin: iAA1259
       - pathway: Gamma-butyrolactones biosynthesis
@@ -72329,9 +72184,6 @@
     - gene_reaction_rule: s0001
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
-      - GENE ASSOCIATION: s0001
-      - GENE_ASSOCIATION: s0001
-      - SUBSYSTEM: Butyrolactones Biosynthesis
     - annotation: !!omap
       - origin: iAA1259
       - pathway: Gamma-butyrolactones biosynthesis
@@ -72351,10 +72203,6 @@
     - gene_reaction_rule: SCO6267
     - notes: !!omap
       - CONFIDENCE LEVEL: '3'
-      - GENE ASSOCIATION: SCO6267
-      - GENE SYMBOL: ScbC
-      - GENE_ASSOCIATION: SCO6267
-      - SUBSYSTEM: Butyrolactones Biosynthesis
     - annotation: !!omap
       - origin: iAA1259
       - pathway: Gamma-butyrolactones biosynthesis
@@ -72373,7 +72221,6 @@
     - gene_reaction_rule: ''
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
-      - SUBSYSTEM: Butyrolactones Biosynthesis
     - annotation: !!omap
       - origin: iAA1259
       - pathway: Gamma-butyrolactones biosynthesis
@@ -72393,10 +72240,6 @@
     - gene_reaction_rule: SCO6264
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
-      - GENE ASSOCIATION: SCO6264
-      - GENE SYMBOL: ScbB
-      - GENE_ASSOCIATION: SCO6264
-      - SUBSYSTEM: Butyrolactones Biosynthesis
     - annotation: !!omap
       - origin: iAA1259
       - pathway: Gamma-butyrolactones biosynthesis
@@ -72769,7 +72612,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0348 or SCO0663 or SCO2696 or SCO3478
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: SLD
       - biocyc: META:RXN-11689
@@ -72792,7 +72635,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2346
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: SORB6PP
       - biocyc: META:SORBITOL-6-PHOSPHATASE-RXN
@@ -73010,7 +72853,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0256
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: SSBUTDH
       - biocyc: META:SS-BUTANEDIOL-DEHYDROGENASE-RXN
@@ -73057,7 +72900,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5700 or SCO4264
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: STRP6K
       - biocyc: META:STREPTOMYCIN-6-KINASE-RXN
@@ -73148,7 +72991,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0362 or SCO3130
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: SUCOAGCT
       - biocyc: META:RXN-14724
@@ -73170,7 +73013,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3130
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: SUCOAICT
       - biocyc: META:RXN-8987
@@ -73219,7 +73062,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2032
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: SUCOMALT
       - biocyc: META:RXN-8964
@@ -73263,7 +73106,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1012
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: SULFPDH
       - biocyc: META:RXN-11728
@@ -73345,7 +73188,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: TAG6ISOs
       - biocyc: META:RXN-16992
@@ -73742,7 +73585,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7131
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: TBFORMD
       - biocyc: META:RXN-17615
@@ -73765,7 +73608,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6678
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: TCLBZRED
       - biocyc: META:RXN-18404
@@ -74103,7 +73946,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3636
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: THPAT
       - biocyc: META:2.3.1.89-RXN
@@ -74129,7 +73972,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: THPICHYDs
       - biocyc: META:RXN-4821
@@ -74309,7 +74152,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1208
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: THYDNAPO
       - biocyc: META:RXN-15586
@@ -74333,7 +74176,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1206 or SCO7671
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: THYDNAPS
       - biocyc: META:RXN-9931
@@ -74517,7 +74360,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0122 or SCO7468
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: TMETMO
       - biocyc: META:RXN-12900
@@ -74677,7 +74520,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO7010 or SCO2228 or SCO3780
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: TRE6PH
       - biocyc: META:TRE6PHYDRO-RXN
@@ -74726,7 +74569,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0616
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: TRE6PPP
       - biocyc: META:2.4.1.216-RXN
@@ -74773,7 +74616,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0616 or SCO0721
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: TREPP
       - biocyc: META:ALPHAALPHA-TREHALOSE-PHOSPHORYLASE-RXN
@@ -74938,7 +74781,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1454
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: TRYP2MO
       - biocyc: META:TRYPTOPHAN-2-MONOOXYGENASE-RXN
@@ -74962,7 +74805,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3944 or SCO2053
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: TRYPYRAT
       - biocyc: META:RXN-10139
@@ -75009,7 +74852,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2700
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: TYRMO
       - biocyc: META:RXN-5861
@@ -75104,7 +74947,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2089
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: UAAGLS2
       - biocyc: META:6.3.2.7-RXN
@@ -75402,7 +75245,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5365
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: UDPAGACA
       - biocyc: META:GLCNACPTRANS-RXN
@@ -75428,7 +75271,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2088
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: UDPAMALA
       - biocyc: META:6.3.2.10-RXN
@@ -75499,7 +75342,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0499
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: UDPGDC
       - biocyc: META:RXN0-1861
@@ -75622,7 +75465,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0499
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ULA4NFT
       - biocyc: META:RXN0-1862
@@ -75690,7 +75533,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2707
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: UNDCAPPT
       - biocyc: META:RXN-11791
@@ -75712,7 +75555,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6374 or SCO4658 or SCO4875
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: UNDEGLCT
       - biocyc: META:RXN-18036
@@ -75930,7 +75773,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0443
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: URECARB
       - biocyc: META:UREA-CARBOXYLASE-RXN
@@ -75955,7 +75798,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0346 or SCO2850
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: URGLYUS
       - biocyc: META:UREIDOGLYCOLATE-LYASE-RXN
@@ -75982,7 +75825,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1338
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: URHYD
       - biocyc: META:RXN-11186
@@ -76028,7 +75871,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4909
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: URIK1
       - biocyc: META:URIDINEKIN-RXN
@@ -76099,7 +75942,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3317 or SCO1553
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: URO3MET
       - biocyc: META:UROPORIIIMETHYLTRANSA-RXN
@@ -76192,7 +76035,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6441
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: VNDH
       - biocyc: META:1.2.1.67-RXN
@@ -76218,7 +76061,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3420 or SCO5679 or SCO6793 or SCO7436
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: VNDH_2
       - biocyc: META:HYDROXYBENZALDEHYDE-OXIDATION-NAD-RXN
@@ -76245,7 +76088,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3420
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: VNDH_4
       - biocyc: META:HYDROXYBENZALDEHYDE-OXIDATION-NADP-RXN
@@ -76369,7 +76212,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO4984 or SCO6222
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: VPAMTr
       - biocyc: META:VALINE-PYRUVATE-AMINOTRANSFER-RXN
@@ -76460,7 +76303,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2430
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: XGLCOLIG
       - biocyc: META:RXN-12398
@@ -76482,7 +76325,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2430
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: XLLGXYL
       - biocyc: META:RXN-12400
@@ -76504,7 +76347,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2430
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: XLXG
       - biocyc: META:RXN-12399
@@ -76640,7 +76483,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2439
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: XYLLAC
       - biocyc: META:RXN-12246
@@ -76991,8 +76834,6 @@
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
-    - notes: !!omap
-      - SUBSYSTEM: Methionine and Cysteine Metabolism
     - annotation: !!omap
       - doi: 10.1186/s12864-018-4905-5
       - origin: iAA1259
@@ -77658,7 +77499,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3216 or SCO4332
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: CA2abc1
       - biocyc: META:3.6.3.8-RXN
@@ -77858,9 +77699,6 @@
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6548
-    - notes: !!omap
-      - GENE_ASSOCIATION: SCO6548
-      - SUBSYSTEM: Polysaccharides degradation
     - annotation: !!omap
       - doi: 10.1093/femsle/fnv245
       - origin: iAA1259
@@ -77956,7 +77794,6 @@
     - gene_reaction_rule: ''
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
-      - SUBSYSTEM: Polysaccharides degradation
     - annotation: !!omap
       - doi: 10.1128/AEM.02217-12
       - origin: iAA1259
@@ -78156,9 +77993,6 @@
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: s0001
-    - notes: !!omap
-      - GENE_ASSOCIATION: s0001
-      - SUBSYSTEM: Coelimycin Biosynthesis
     - annotation: !!omap
       - doi: 10.1039/C2SC20410J
       - origin: iAA1259
@@ -78174,9 +78008,6 @@
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6278
-    - notes: !!omap
-      - GENE_ASSOCIATION: SCO6278
-      - SUBSYSTEM: Coelimycin Biosynthesis
     - annotation: !!omap
       - doi: 10.1039/C2SC20410J
       - origin: iAA1259
@@ -78710,7 +78541,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO2264
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: ENTERt
       - biocyc: META:TRANS-RXN0-496
@@ -80381,7 +80212,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0434
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: MALTt1r
       - biocyc: META:TRANS-RXN0-575
@@ -80788,7 +80619,6 @@
     - gene_reaction_rule: ''
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
-      - SUBSYSTEM: Oxidative Phosphorylation
     - annotation: !!omap
       - metanetx.reaction: MNXR101875
       - origin: iAA1259
@@ -81611,9 +81441,6 @@
     - gene_reaction_rule: s0001
     - notes: !!omap
       - CONFIDENCE LEVEL: '3'
-      - GENE ASSOCIATION: s0001
-      - GENE_ASSOCIATION: s0001
-      - SUBSYSTEM: Butyrolactones Biosynthesis
     - annotation: !!omap
       - doi:
         - 10.1016/j.mib.2006.04.003
@@ -81632,9 +81459,6 @@
     - gene_reaction_rule: s0001
     - notes: !!omap
       - CONFIDENCE LEVEL: '3'
-      - GENE ASSOCIATION: s0001
-      - GENE_ASSOCIATION: s0001
-      - SUBSYSTEM: Butyrolactones Biosynthesis
     - annotation: !!omap
       - doi:
         - 10.1016/j.mib.2006.04.003
@@ -81653,9 +81477,6 @@
     - gene_reaction_rule: s0001
     - notes: !!omap
       - CONFIDENCE LEVEL: '3'
-      - GENE ASSOCIATION: s0001
-      - GENE_ASSOCIATION: s0001
-      - SUBSYSTEM: Butyrolactones Biosynthesis
     - annotation: !!omap
       - doi:
         - 10.1016/j.mib.2006.04.003
@@ -82486,8 +82307,6 @@
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
-    - notes: !!omap
-      - SUBSYSTEM: Polysaccharides degradation
     - annotation: !!omap
       - doi: 10.1007/s12010-016-2103-y
       - origin: iAA1259
@@ -82622,7 +82441,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6758 or SCO2996
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: tcaABC
       - biocyc: META:RXN-18029
@@ -82653,7 +82472,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DM_2mborn_c
       - biocyc: META:EXC_OUT_CPD-14016
@@ -82669,7 +82488,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DM_33biflav_c
       - biocyc: META:EXC_OUT_CPD-10680
@@ -82685,7 +82504,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DM_38biflav_c
       - biocyc: META:EXC_OUT_CPD-10681
@@ -82756,7 +82575,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DM_acetone_c
       - biocyc: META:EXC_OUT_ACETONE
@@ -82786,7 +82605,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - notes: !!omap
-      - Confidence Level: '2'
+      - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: DM_ahop_c
       - biocyc: META:EXC_OUT_CPD-14522
