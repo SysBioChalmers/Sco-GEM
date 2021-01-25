@@ -60,6 +60,10 @@ def add_gene_annotation(model):
             if df.panther[pos]:
                 tmp = df.panther[pos].rstrip(';')
                 g.annotation['panther'] = tmp.split(';')   
+            if df.go[pos]:
+                tmp = df.go[pos].rstrip(';')
+                tmp = tmp.replace(' ','')
+                g.annotation['go'] = tmp.split(';')   
             if df.refseq[pos]:
                 tmp = df.refseq[pos].rstrip(';')
                 g.annotation['refseq'] = tmp.split(';')   
