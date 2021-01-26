@@ -2,7 +2,6 @@
 
 [![memote tested](https://img.shields.io/badge/memote-tested-blue.svg?style=plastic)](https://sysbiochalmers.github.io/Sco-GEM/)
 [![Build Status](https://travis-ci.org/SysBioChalmers/Sco-GEM.svg?branch=master)](https://travis-ci.org/SysBioChalmers/Sco-GEM)
-[![Join the chat at https://gitter.im/SysBioChalmers/Sco-GEM](https://badges.gitter.im/SysBioChalmers/Sco-GEM.svg)](https://gitter.im/SysBioChalmers/Sco-GEM?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ![Version release (latest by date)](https://img.shields.io/github/v/release/SysBioChalmers/Sco-GEM?style=plastic)
 [![DOI](https://zenodo.org/badge/145685631.svg)](https://zenodo.org/badge/latestdoi/145685631)
 
