@@ -45,13 +45,26 @@ def misc_reaction_curations(model):
     G6PDH2r = model.reactions.get_by_id('G6PDH2r')
     G6PDH2r.annotation['doi'] = '10.1371/journal.pone.0084151'
     G6PDH2r.notes['NOTES'] = 'See DOI, G6PDH can only use NADPH, not NADH.'
-    model.reactions.remove('G6PDH1b')
+    #model.reactions.remove('G6PDH1b')
     # As mentioned in #119
     XYLabc = model.reactions.get_by_id('XYLabc')
     XYLabc.gene_reaction_rule = '(SCO2404 or SCO3667) and SCO6010 and SCO6011 and SCO6009'
     # Fixes Issue #100
     CAT = model.reactions.get_by_id("CAT")
     CAT.gene_reaction_rule = "SCO0379 or SCO0560 or SCO0666 or SCO6204 or SCO7590"
+    # Fixes Issue #89
+    model.reactions.remove('G6PI')
+    model.reactions.remove('PGIA')
+    model.metabolites.remove('g6p_A_c')
+    model.metabolites.remove('g6p_B_c')
+    model.reactions.remove('BFBP')
+    model.reactions.remove('TALAb')
+    model.reactions.remove('TKT2h')
+    model.metabolites.remove('f6p_B_c')
+    model.reactions.remove('FBA_1')
+    model.metabolites.remove('fdp_B_c')
+
+    
 
 def add_gene_annotation(model):
     # Fixes #44
