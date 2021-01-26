@@ -90,19 +90,19 @@ def export(Sco_GEM, folder = "model", name = "Sco-GEM", formats = ["xml", "yml",
     main_folder_path = REPO_MAIN_FOLDER / folder
     # write xml
     if ("xml" in formats) or ("sbml" in formats):
-        model_fn_xml = main_folder_path / "xml" / "{0}.xml".format(name)
+        model_fn_xml = main_folder_path / "{0}.xml".format(name)
         check_folder(model_fn_xml)
         print("Writing {0}".format(str(model_fn_xml)))
         cobra.io.write_sbml_model(Sco_GEM, str(model_fn_xml))
     
     if ("yml" in formats) or ("yaml" in formats):
-        model_fn_yml = main_folder_path / "yml" / "{0}.yml".format(name)
+        model_fn_yml = main_folder_path / "{0}.yml".format(name)
         check_folder(model_fn_yml)
         print("Writing {0}".format(str(model_fn_yml)))
         cobra.io.save_yaml_model(Sco_GEM, str(model_fn_yml))
 
     if "json" in formats:
-        model_fn_json = main_folder_path / "json" / "{0}.json".format(name)
+        model_fn_json = main_folder_path / "{0}.json".format(name)
         check_folder(model_fn_json)
         print("Writing {0}".format(str(model_fn_json)))
         cobra.io.save_json_model(Sco_GEM, str(model_fn_json))
@@ -110,13 +110,13 @@ def export(Sco_GEM, folder = "model", name = "Sco-GEM", formats = ["xml", "yml",
     if "txt" in formats:
         print("Can't print txt-files yet. Skipping")
         # raise NotImplementedError
-        # model_fn_txt = main_folder_path / "txt" / "{0}.txt".format(name)
+        # model_fn_txt = main_folder_path / "{0}.txt".format(name)
         # check_folder(model_fn_txt)
         # print("Writing {0}".format(str(model_fn_txt)))
         # cobra.io.write_sbml_model(Sco_GEM, str(model_fn_txt))
 
     if "mat" in formats:
-        model_fn_mat = main_folder_path / "mat" / "{0}.mat".format(name)
+        model_fn_mat = main_folder_path / "{0}.mat".format(name)
         check_folder(model_fn_mat)
         print("Writing {0}".format(str(model_fn_mat)))
         cobra.io.save_matlab_model(Sco_GEM, str(model_fn_mat))
@@ -234,7 +234,7 @@ def sort_dict(model_dict, by = "key"):
 
 if __name__ == '__main__':
     if 0:
-        Sco_GEM_FN = "../model/xml/Sco-GEM.xml"
+        Sco_GEM_FN = "../model/Sco-GEM.xml"
         Sco_GEM = cobra.io.read_sbml_model(Sco_GEM_FN)
         export(Sco_GEM)
     else:
