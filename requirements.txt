@@ -1,14 +1,14 @@
-pandas==1.2.0
-numpy==1.19.5
 cobra==0.20.0
 requests==2.25.1
+pandas==1.2.0
+numpy==1.19.5
 beautifulsoup4==4.9.3
 bioservices==1.7.11
 equilibrator_api==0.4.0
 libchebipy==1.0.10
 matplotlib==3.3.3
 memote==0.12.0
-pytest==6.2.1
+pytest==6.2.2
 pythoncyc==2.0.2
 PyYAML==5.4.1
 scipy==1.6.0
