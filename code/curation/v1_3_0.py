@@ -55,16 +55,40 @@ def misc_reaction_curations(model):
     # Fixes Issue #89
     model.reactions.remove('G6PI')
     model.reactions.remove('PGIA')
+    model.reactions.remove('GLUKB')
+    model.reactions.remove('G6PBDH')
+    model.reactions.remove('S6PGB')
+    g6p_B_c = model.metabolites.get_by_id('g6p_B_c')
+    g6p_c = model.metabolites.get_by_id('g6p_c')
+    TRE6PPP = model.reactions.get_by_id('TRE6PPP')
+    TRE6PPP.add_metabolites({g6p_c: 1})
+    TRE6PPP.subtract_metabolites({g6p_B_c: 1})
     model.metabolites.remove('g6p_A_c')
     model.metabolites.remove('g6p_B_c')
+
+    g1p_B_c = model.metabolites.get_by_id('g1p_B_c')
+    g1p_c = model.metabolites.get_by_id('g1p_c')
+    TRE6PPP.add_metabolites({g1p_c: 1})
+    TRE6PPP.subtract_metabolites({g1p_B_c: 1})
+
+    MPL = model.reactions.get_by_id('MPL')
+    MPL.add_metabolites({g1p_c: 1})
+    MPL.subtract_metabolites({g1p_B_c: 1})
+
+    TREPP = model.reactions.get_by_id('TREPP')
+    TREPP.add_metabolites({g1p_c: 1})
+    TREPP.subtract_metabolites({g1p_B_c: 1})
+
     model.reactions.remove('BFBP')
     model.reactions.remove('TALAb')
     model.reactions.remove('TKT2h')
     model.metabolites.remove('f6p_B_c')
+    
     model.reactions.remove('FBA_1')
     model.metabolites.remove('fdp_B_c')
 
-    
+    model.reactions.remove('FRUISOs')
+    model.metabolites.remove('fru_B_c')
 
 def add_gene_annotation(model):
     # Fixes #44
@@ -118,7 +142,7 @@ def correct_pubchem(model):
         m.annotation['pubchem.compound'] = str(df.pubchem_compound[idx])
 
 if __name__ == '__main__':
-    model = read_sbml_model("../../model/xml/Sco-GEM.xml")
+    model = read_sbml_model("../../model/Sco-GEM.xml")
     misc_reaction_curations(model)
     # list_annotations(model)  # Only needs to be run once to gather metabolite IDs and pubchem.substance annotations
     correct_pubchem(model)
