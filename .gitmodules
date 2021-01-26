@@ -1,4 +1,0 @@
-[submodule "ComplementaryScripts/ecModel/gecko"]
-	path = ComplementaryScripts/ecModel/gecko
-	url = https://github.com/edkerk/GECKO
-	branch = scoGEM
