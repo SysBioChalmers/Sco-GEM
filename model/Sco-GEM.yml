@@ -91998,6 +91998,9 @@
       - refseq:
         - NP_626155.1
         - WP_003976931.1
+      - refseq:
+        - NP_626155.1
+        - WP_003976931.1
       - sbo: SBO:0000243
       - uniprot: Q9X9Y3
   - !!omap
@@ -94917,6 +94920,7 @@
         - GO:0022857
         - GO:0031224
       - pfam: PF07690
+      - refseq:
       - refseq:
         - NP_626779.1
         - WP_011028416.1
@@ -100248,6 +100252,8 @@
       - pfam: PF00581
       - refseq:
         - NP_733629.1
+      - refseq:
+        - NP_733629.1
         - WP_003974806.1
       - sbo: SBO:0000243
       - uniprot: Q8CJU5
@@ -103090,6 +103096,9 @@
     - annotation: !!omap
       - go: GO:0016301
       - pfam: PF00294
+      - refseq:
+        - NP_629140.1
+        - WP_011029988.1
       - refseq:
         - NP_629140.1
         - WP_011029988.1
