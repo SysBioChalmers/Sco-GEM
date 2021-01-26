@@ -45,7 +45,7 @@ def misc_reaction_curations(model):
     G6PDH2r = model.reactions.get_by_id('G6PDH2r')
     G6PDH2r.annotation['doi'] = '10.1371/journal.pone.0084151'
     G6PDH2r.notes['NOTES'] = 'See DOI, G6PDH can only use NADPH, not NADH.'
-    #model.reactions.remove('G6PDH1b')
+    model.reactions.remove('G6PDH1b')
     # As mentioned in #119
     XYLabc = model.reactions.get_by_id('XYLabc')
     XYLabc.gene_reaction_rule = '(SCO2404 or SCO3667) and SCO6010 and SCO6011 and SCO6009'
