@@ -245,6 +245,10 @@ def correct_metabolite_annotations(model):
     feroxB_e = model.metabolites.get_by_id('feroxB_e')
     feroxB_e.annotation.pop('kegg.compound', None)
 
+def add_model_id(model):
+    # Closes issue #128
+    model.id = "Sco_GEM"
+
 if __name__ == '__main__':
     model = export.get_latest_master_unversioned()
     misc_reaction_curations(model)
@@ -254,4 +258,4 @@ if __name__ == '__main__':
     correct_metabolite_annotations(model)
     export.export(model, formats = "xml", write_requirements = 0, objective = "BIOMASS_SCO_tRNA")
     model = read_sbml_model("../../model/Sco-GEM.xml") # Extra round of I/O to consistently output single GO and PFAM annotations in YAML file
-    export.export(model, formats = ["xml", "yml"], write_requirements = 0, objective = "BIOMASS_SCO_tRNA")
+    export.export(model, formats = ["xml", "yml"], write_requirements = 1, objective = "BIOMASS_SCO_tRNA")
