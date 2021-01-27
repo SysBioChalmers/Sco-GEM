@@ -11217,7 +11217,9 @@
     - annotation: !!omap
       - bigg.metabolite: cellb
       - biocyc: META:CPD-15975
-      - chebi: CHEBI:36217
+      - chebi:
+        - CHEBI:36217
+        - CHEBI:17057
       - kegg.compound: C00185
       - metanetx.chemical: MNXM1142
       - origin: iMK1208
@@ -113007,7 +113009,7 @@
     - name: s0001
     - annotation: !!omap
       - sbo: SBO:0000243
-- id: ''
+- id: Sco_GEM
 - name: Sco-GEM
 - compartments: !!omap
   - c: Cytoplasm
