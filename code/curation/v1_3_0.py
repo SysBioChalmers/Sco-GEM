@@ -75,7 +75,7 @@ def misc_reaction_curations(model):
     MMSAD3 = model.reactions.get_by_id("MMSAD3")
     n = MMSAD3.metabolites.pop(accoa_res)
     MMSAD3.add_metabolites({accoa: n})
-
+    model.metabolites.remove("accoa_res_c")
 
     
 
