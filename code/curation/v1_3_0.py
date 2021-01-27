@@ -22,14 +22,17 @@ def misc_reaction_curations(model):
     # Fixes Issue #87
     ICDHyr = model.reactions.get_by_id("ICDHyr")
     ICDHyr.lower_bound = 0
+    
     # Fixes Issue #90
     FNOR = model.reactions.get_by_id("FNOR")
     FNOR.lower_bound = 0
     FNOR.annotation['doi'] = '10.1016/j.abb.2008.02.014'
     FNOR.notes['NOTES'] = 'See DOI, in non-photosynthetic bacteria this reaction is only in forward direction.'
+    
     # Fixes Issue #33
     ZCAROTDH2 = model.reactions.get_by_id("ZCAROTDH2")
     ZCAROTDH2.annotation['biocyc'] = 'META:RXN-12412'
+    
     # Fixes Issue #111
     SUCD9 = model.reactions.get_by_id("SUCD9")
     SUCD9.annotation['ec-code'] = '1.3.5.1'
@@ -41,31 +44,41 @@ def misc_reaction_curations(model):
     HADPCOADH3.annotation['ec-code'] = '1.1.1.35'  
     _45DOPA = model.reactions.get_by_id("45DOPA")
     _45DOPA.annotation['kegg.reaction'] = 'R08836'
+    
     # Fixes Issue #88
     G6PDH2r = model.reactions.get_by_id('G6PDH2r')
     G6PDH2r.annotation['doi'] = '10.1371/journal.pone.0084151'
     G6PDH2r.notes['NOTES'] = 'See DOI, G6PDH can only use NADPH, not NADH.'
     model.reactions.remove('G6PDH1b')
+    
     # As mentioned in #119
     XYLabc = model.reactions.get_by_id('XYLabc')
     XYLabc.gene_reaction_rule = '(SCO2404 or SCO3667) and SCO6010 and SCO6011 and SCO6009'
+    
     # Fixes Issue #100
     CAT = model.reactions.get_by_id("CAT")
     CAT.gene_reaction_rule = "SCO0379 or SCO0560 or SCO0666 or SCO6204 or SCO7590"
+    
     # Fixes Issue #89
+    ## Remove model reactions
     model.reactions.remove('G6PI')
     model.reactions.remove('PGIA')
     model.reactions.remove('GLUKB')
     model.reactions.remove('G6PBDH')
     model.reactions.remove('S6PGB')
+    model.reactions.remove('BFBP')
+    model.reactions.remove('TALAb')
+    model.reactions.remove('TKT2h')
+    model.reactions.remove('FBA_1')
+    model.reactions.remove('FRUISOs')
+    
+    ## Replace specific isomers with generic versions
     g6p_B_c = model.metabolites.get_by_id('g6p_B_c')
     g6p_c = model.metabolites.get_by_id('g6p_c')
     TRE6PPP = model.reactions.get_by_id('TRE6PPP')
     TRE6PPP.add_metabolites({g6p_c: 1})
     TRE6PPP.subtract_metabolites({g6p_B_c: 1})
-    model.metabolites.remove('g6p_A_c')
-    model.metabolites.remove('g6p_B_c')
-
+    
     g1p_B_c = model.metabolites.get_by_id('g1p_B_c')
     g1p_c = model.metabolites.get_by_id('g1p_c')
     TRE6PPP.add_metabolites({g1p_c: 1})
@@ -79,15 +92,11 @@ def misc_reaction_curations(model):
     TREPP.add_metabolites({g1p_c: 1})
     TREPP.subtract_metabolites({g1p_B_c: 1})
 
-    model.reactions.remove('BFBP')
-    model.reactions.remove('TALAb')
-    model.reactions.remove('TKT2h')
-    model.metabolites.remove('f6p_B_c')
-    
-    model.reactions.remove('FBA_1')
-    model.metabolites.remove('fdp_B_c')
-
-    model.reactions.remove('FRUISOs')
+    ## Delete now orphaned metabolites
+    model.metabolites.remove('g6p_A_c')
+    model.metabolites.remove('g6p_B_c')
+    model.metabolites.remove('f6p_B_c')  
+    model.metabolites.remove('fdp_B_c')    
     model.metabolites.remove('fru_B_c')
 
 def add_gene_annotation(model):
