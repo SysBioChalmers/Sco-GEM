@@ -64,6 +64,19 @@ def misc_reaction_curations(model):
     model.reactions.remove('FBA_1')
     model.metabolites.remove('fdp_B_c')
 
+    # Fix issue #127
+    accoa_res = model.metabolites.get_by_id("accoa_res_c")
+    accoa = model.metabolites.get_by_id("accoa_c")
+
+    IPPS = model.reactions.get_by_id("IPPS")
+    n = IPPS.metabolites.pop(accoa_res)
+    IPPS.add_metabolites({accoa: n})
+
+    MMSAD3 = model.reactions.get_by_id("MMSAD3")
+    n = MMSAD3.metabolites.pop(accoa_res)
+    MMSAD3.add_metabolites({accoa: n})
+    model.metabolites.remove("accoa_res_c")
+
     
 
 def add_gene_annotation(model):
