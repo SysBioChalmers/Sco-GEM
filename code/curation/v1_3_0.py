@@ -68,6 +68,19 @@ def misc_reaction_curations(model):
     GABTA = model.reactions.get_by_id('GABTA')
     GABTA.annotation['kegg.reaction'] = 'R10178'
 
+    # Fix issue #127
+    accoa_res = model.metabolites.get_by_id("accoa_res_c")
+    accoa = model.metabolites.get_by_id("accoa_c")
+
+    IPPS = model.reactions.get_by_id("IPPS")
+    n = IPPS.metabolites.pop(accoa_res)
+    IPPS.add_metabolites({accoa: n})
+
+    MMSAD3 = model.reactions.get_by_id("MMSAD3")
+    n = MMSAD3.metabolites.pop(accoa_res)
+    MMSAD3.add_metabolites({accoa: n})
+    model.metabolites.remove("accoa_res_c")
+    
     # Fixes Issue #89
     ## Remove model reactions
     model.reactions.remove('G6PI')
@@ -87,7 +100,7 @@ def misc_reaction_curations(model):
     TRE6PPP = model.reactions.get_by_id('TRE6PPP')
     TRE6PPP.add_metabolites({g6p_c: 1})
     TRE6PPP.subtract_metabolites({g6p_B_c: 1})
-    
+   
     g1p_B_c = model.metabolites.get_by_id('g1p_B_c')
     g1p_c = model.metabolites.get_by_id('g1p_c')
     TRE6PPP.add_metabolites({g1p_c: 1})
