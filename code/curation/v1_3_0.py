@@ -117,10 +117,15 @@ def correct_pubchem(model):
         m.annotation.pop('pubchem.substance', None)
         m.annotation['pubchem.compound'] = str(df.pubchem_compound[idx])
 
+def add_model_id(model):
+    # Closes issue #128
+    model.id = "Sco_GEM"
+
 if __name__ == '__main__':
     model = read_sbml_model("../../model/xml/Sco-GEM.xml")
     misc_reaction_curations(model)
     # list_annotations(model)  # Only needs to be run once to gather metabolite IDs and pubchem.substance annotations
     correct_pubchem(model)
     add_gene_annotation(model)
+    add_model_id(model)
     export.export(model, formats = ["xml", "yml"], write_requirements = 1, objective = "BIOMASS_SCO_tRNA")
