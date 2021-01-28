@@ -57,6 +57,8 @@ or using the module function::
 import cobra
 from collections import OrderedDict
 from pathlib import Path
+from os import remove
+from sys import exit
 import argparse
 import subprocess
 
@@ -221,7 +223,6 @@ def write_requirements_fun(directory, force = True):
     else:
         subprocess.run(["pipreqs", "."], cwd = directory)
 
-
 def sort_dict(model_dict, by = "key"):
     sorted_dict = OrderedDict()
     if by == "key":
@@ -231,6 +232,17 @@ def sort_dict(model_dict, by = "key"):
         for key in sorted(model_dict, key = model_dict.get):
             sorted_dict[key] = model_dict[key]
     return sorted_dict
+
+def get_latest_master_unversioned():
+    print("Loading the latest model version from 'master'...")
+    git_result = subprocess.run(["git","show","master:ModelFiles/xml/Sco-GEM.xml"], stdout = open("_latestMaster.xml", "w")) # git pull
+    if git_result.returncode != 0:
+        sys.exit("Git failed to checkout the latest model version from 'master'".format(branch_name))
+    
+    model = cobra.io.read_sbml_model("_latestMaster.xml")
+    remove("_latestMaster.xml")
+    model.id = "Sco_GEM" # Remove versioning in model ID
+    return model
 
 if __name__ == '__main__':
     if 0:

@@ -7375,22 +7375,6 @@
       - pubchem.compound: '444493'
       - sbo: SBO:0000247
   - !!omap
-    - id: accoa_res_c
-    - name: Acetyl-CoA
-    - compartment: c
-    - charge: -4
-    - formula: C23H34N7O17P3S
-    - annotation: !!omap
-      - bigg.metabolite: accoa
-      - biocyc: META:ACETYL-COA
-      - chebi:
-        - CHEBI:15351
-        - CHEBI:57288
-      - kegg.compound: C00024
-      - metanetx.chemical: MNXM21
-      - origin: iMK1208
-      - sbo: SBO:0000247
-  - !!omap
     - id: accp_c
     - name: Apo-[carboxylase]
     - compartment: c
@@ -11217,7 +11201,9 @@
     - annotation: !!omap
       - bigg.metabolite: cellb
       - biocyc: META:CPD-15975
-      - chebi: CHEBI:36217
+      - chebi:
+        - CHEBI:36217
+        - CHEBI:17057
       - kegg.compound: C00185
       - metanetx.chemical: MNXM1142
       - origin: iMK1208
@@ -16071,20 +16057,6 @@
       - kegg.compound: C00488
       - metanetx.chemical: MNXM1231
       - origin: iMK1208
-      - sbo: SBO:0000247
-  - !!omap
-    - id: fru_B_c
-    - name: beta-D-fructofuranose
-    - compartment: c
-    - charge: 0
-    - formula: ''
-    - annotation: !!omap
-      - bigg.metabolite: fru_B
-      - biocyc: META:BETA-D-FRUCTOSE
-      - chebi: CHEBI:28645
-      - kegg.compound: C02336
-      - metanetx.chemical: MNXM1542
-      - origin: Sco4
       - sbo: SBO:0000247
   - !!omap
     - id: fru_c
@@ -53321,25 +53293,6 @@
       - sbo: SBO:0000176
       - subsystem: Carbohydrate metabolism
   - !!omap
-    - id: FRUISOs
-    - name: fructose isomerase (spontaneous)
-    - metabolites: !!omap
-      - fru_B_c: 1.0
-      - fru_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: ''
-    - notes: !!omap
-      - CONFIDENCE LEVEL: '2'
-    - annotation: !!omap
-      - bigg.reaction: FRUISOs
-      - biocyc: META:RXN-14515
-      - metanetx.reaction: MNXR140425
-      - origin: Sco4
-      - pathway: Fructose and mannose metabolism
-      - sbo: SBO:0000176
-      - subsystem: Carbohydrate metabolism
-  - !!omap
     - id: FRUK
     - name: fructose-1-phosphate kinase
     - metabolites: !!omap
@@ -53804,30 +53757,6 @@
       - rhea: '19544'
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
-  - !!omap
-    - id: G6PBDH
-    - name: beta-D-glucose-6-phosphate:NADP+ 1-oxoreductase
-    - metabolites: !!omap
-      - 6pgl_c: 1.0
-      - g6p_B_c: -1.0
-      - h_c: 1.0
-      - nadp_c: -1.0
-      - nadph_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO1937 or SCO6661
-    - annotation: !!omap
-      - bigg.reaction: G6PBDH
-      - biocyc: META:GLU6PDEHYDROG-RXN
-      - ec-code: 1.1.1.49
-      - kegg.reaction: R02736
-      - metanetx.reaction:
-        - MNXR99907
-        - MNXR99903
-      - origin: KEGG
-      - pathway: Pentose phosphate pathway
-      - sbo: SBO:0000176
-      - subsystem: Carbohydrate metabolism
   - !!omap
     - id: G6PDA
     - name: glucosamine-6-phosphate deaminase
@@ -55423,27 +55352,6 @@
       - rhea: '11615'
       - sbo: SBO:0000176
       - subsystem: Amino acid metabolism
-  - !!omap
-    - id: GLUKB
-    - name: glucokinase-bglc
-    - metabolites: !!omap
-      - adp_c: 1.0
-      - atp_c: -1.0
-      - g6p_B_c: 1.0
-      - glc__bD_c: -1.0
-      - h_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO0063 or SCO1077 or SCO2126 or SCO4285 or SCO6110 or SCO6260
-    - annotation: !!omap
-      - bigg.reaction: GLUKB
-      - ec-code: 2.7.1.2
-      - kegg.reaction: R01600
-      - metanetx.reaction: MNXR107081
-      - origin: iMA789
-      - pathway: Glycolysis/Gluconeogenesis
-      - sbo: SBO:0000176
-      - subsystem: Carbohydrate metabolism
   - !!omap
     - id: GLULACIs
     - name: Glucorolactone isomerase (spontaneous)
@@ -58916,7 +58824,7 @@
     - metabolites: !!omap
       - 3c3hmp_c: 1.0
       - 3mob_c: -1.0
-      - accoa_res_c: -1.0
+      - accoa_c: -1.0
       - coa_c: 1.0
       - h2o_c: -1.0
       - h_c: 1.0
@@ -61580,7 +61488,7 @@
     - id: MMSAD3
     - name: methylmalonate-semialdehyde dehydrogenase (malonic semialdehyde)
     - metabolites: !!omap
-      - accoa_res_c: 1.0
+      - accoa_c: 1.0
       - co2_c: 1.0
       - coa_c: -1.0
       - msa_c: -1.0
@@ -61895,7 +61803,7 @@
     - id: MPL
     - name: maltose phosphorylase
     - metabolites: !!omap
-      - g1p_B_c: 1.0
+      - g1p_c: 1.0
       - glc__D_c: 1.0
       - malt_c: -1.0
       - pi_c: -1.0
@@ -71531,27 +71439,6 @@
       - sbo: SBO:0000176
       - subsystem: Metabolism of cofactors and vitamins
   - !!omap
-    - id: S6PGB
-    - name: 6-phospho-beta-glucosidase
-    - metabolites: !!omap
-      - 2hymeph_c: 1.0
-      - g6p_B_c: 1.0
-      - h2o_c: -1.0
-      - salcn6p_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO2661 or SCO6670
-    - annotation: !!omap
-      - bigg.reaction: S6PGB
-      - ec-code: 3.2.1.86
-      - kegg.reaction: R05134
-      - metanetx.reaction: MNXR109345
-      - origin: iMA789
-      - pathway: Glycolysis/Gluconeogenesis
-      - rhea: '33130'
-      - sbo: SBO:0000176
-      - subsystem: Energy metabolism
-  - !!omap
     - id: S7PI
     - name: D-sedoheptulose 7-phosphate isomerase
     - metabolites: !!omap
@@ -74368,8 +74255,8 @@
     - id: TRE6PPP
     - name: trehalose-6-phosphate phosphorylase
     - metabolites: !!omap
-      - g1p_B_c: 1.0
-      - g6p_B_c: 1.0
+      - g1p_c: 1.0
+      - g6p_c: 1.0
       - pi_c: -1.0
       - tre6p_c: -1.0
     - lower_bound: -1000.0
@@ -74415,7 +74302,7 @@
     - id: TREPP
     - name: trehalose phosphorylase
     - metabolites: !!omap
-      - g1p_B_c: 1.0
+      - g1p_c: 1.0
       - glc__D_c: 1.0
       - pi_c: -1.0
       - tre_c: -1.0
@@ -91805,9 +91692,6 @@
       - refseq:
         - NP_626155.1
         - WP_003976931.1
-      - refseq:
-        - NP_626155.1
-        - WP_003976931.1
       - sbo: SBO:0000243
       - uniprot: Q9X9Y3
   - !!omap
@@ -94727,7 +94611,6 @@
         - GO:0022857
         - GO:0031224
       - pfam: PF07690
-      - refseq:
       - refseq:
         - NP_626779.1
         - WP_011028416.1
@@ -100059,8 +99942,6 @@
       - pfam: PF00581
       - refseq:
         - NP_733629.1
-      - refseq:
-        - NP_733629.1
         - WP_003974806.1
       - sbo: SBO:0000243
       - uniprot: Q8CJU5
@@ -102903,9 +102784,6 @@
     - annotation: !!omap
       - go: GO:0016301
       - pfam: PF00294
-      - refseq:
-        - NP_629140.1
-        - WP_011029988.1
       - refseq:
         - NP_629140.1
         - WP_011029988.1
@@ -113115,7 +112993,7 @@
     - name: s0001
     - annotation: !!omap
       - sbo: SBO:0000243
-- id: ''
+- id: Sco_GEM
 - name: Sco-GEM
 - compartments: !!omap
   - c: Cytoplasm
