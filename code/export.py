@@ -61,6 +61,7 @@ from sys import exit
 import argparse
 import subprocess
 from dotenv import find_dotenv
+from re import match
 
 # find .env + define paths
 REPO_PATH = find_dotenv()
@@ -211,7 +212,7 @@ def sort_reactions(Sco_GEM):
 def write_requirements_fun(directory, force = True):
     directory = str(directory)
     if force:
-        subprocess.run(["pipreqs", "--ignore", "code/sulheim2020", "--force", "."], cwd = directory)
+        subprocess.run(["pipreqs", "--force", "."], cwd = directory)
     else:
         subprocess.run(["pipreqs", "."], cwd = directory)
 
@@ -225,14 +226,19 @@ def sort_dict(model_dict, by = "key"):
             sorted_dict[key] = model_dict[key]
     return sorted_dict
 
-def get_latest_master_unversioned():
-    print("Loading the latest model version from 'master'...")
-    git_result = subprocess.run(["git","show","master:ModelFiles/xml/Sco-GEM.xml"], stdout = open("_latestMaster.xml", "w")) # git pull
-    if git_result.returncode != 0:
-        exit("Git failed to checkout the latest model version from 'master'".format(branch_name))
+def get_earlier_model_unversioned(version):
+    # version is either 'master' for the latest model on master branch, or a
+    # tag that corresponds to a particular release, e.g. 'v1.2.3'.
+    if version == 'master':
+        git_result = subprocess.run(["git","show","master:ModelFiles/xml/Sco-GEM.xml"], stdout = open("_earlierModel.xml", "w")) # change "ModelFiles/xml" to "model" before PR to master
+    elif match(r"v\d+.\d+.\d",version):
+        tagpath = "refs/tags/" + version + ":ModelFiles/xml/Sco-GEM.xml" # change "ModelFiles/xml" to "model" before PR to master
+        git_result = subprocess.run(["git","show",tagpath], stdout = open("_earlierModel.xml", "w"))
+    else:
+        exit("Unclear which earlier model version should be loaded.")
     
-    model = cobra.io.read_sbml_model("_latestMaster.xml")
-    remove("_latestMaster.xml")
+    model = cobra.io.read_sbml_model("_earlierModel.xml")
+    remove("_earlierModel.xml")
     model.id = "Sco_GEM" # Remove versioning in model ID
     return model
 

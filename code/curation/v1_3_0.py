@@ -265,7 +265,7 @@ def add_model_id(model):
     model.id = "Sco_GEM"
 
 if __name__ == '__main__':
-    model = export.get_latest_master_unversioned()
+    model = export.get_earlier_model_unversioned('v1.2.1')
     misc_reaction_curations(model)
     # list_annotations(model)  # Only needs to be run once to gather metabolite IDs and pubchem.substance annotations
     correct_pubchem(model)
