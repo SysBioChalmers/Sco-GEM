@@ -74,10 +74,12 @@ def misc_reaction_curations(model):
 
     IPPS = model.reactions.get_by_id("IPPS")
     n = IPPS.metabolites.pop(accoa_res)
+    IPPS.subtract_metabolites({accoa_res: n})
     IPPS.add_metabolites({accoa: n})
 
     MMSAD3 = model.reactions.get_by_id("MMSAD3")
     n = MMSAD3.metabolites.pop(accoa_res)
+    MMSAD3.subtract_metabolites({accoa_res: n})
     MMSAD3.add_metabolites({accoa: n})
     model.metabolites.remove("accoa_res_c")
     

@@ -7375,22 +7375,6 @@
       - pubchem.compound: '444493'
       - sbo: SBO:0000247
   - !!omap
-    - id: accoa_res_c
-    - name: Acetyl-CoA
-    - compartment: c
-    - charge: -4
-    - formula: C23H34N7O17P3S
-    - annotation: !!omap
-      - bigg.metabolite: accoa
-      - biocyc: META:ACETYL-COA
-      - chebi:
-        - CHEBI:15351
-        - CHEBI:57288
-      - kegg.compound: C00024
-      - metanetx.chemical: MNXM21
-      - origin: iMK1208
-      - sbo: SBO:0000247
-  - !!omap
     - id: accp_c
     - name: Apo-[carboxylase]
     - compartment: c
@@ -58840,7 +58824,7 @@
     - metabolites: !!omap
       - 3c3hmp_c: 1.0
       - 3mob_c: -1.0
-      - accoa_res_c: -1.0
+      - accoa_c: -1.0
       - coa_c: 1.0
       - h2o_c: -1.0
       - h_c: 1.0
@@ -61504,7 +61488,7 @@
     - id: MMSAD3
     - name: methylmalonate-semialdehyde dehydrogenase (malonic semialdehyde)
     - metabolites: !!omap
-      - accoa_res_c: 1.0
+      - accoa_c: 1.0
       - co2_c: 1.0
       - coa_c: -1.0
       - msa_c: -1.0
