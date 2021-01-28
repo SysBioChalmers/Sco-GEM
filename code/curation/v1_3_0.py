@@ -47,6 +47,7 @@ def misc_reaction_curations(model):
     _45DOPA = model.reactions.get_by_id("45DOPA")
     _45DOPA.annotation['kegg.reaction'] = 'R08836'
     
+
     # Fixes Issue #88, #106
     G6PDH2r = model.reactions.get_by_id('G6PDH2r')
     G6PDH2r.annotation['doi'] = '10.1371/journal.pone.0084151'
@@ -61,6 +62,7 @@ def misc_reaction_curations(model):
     # Fixes Issue #100
     CAT = model.reactions.get_by_id("CAT")
     CAT.gene_reaction_rule = "SCO0379 or SCO0560 or SCO0666 or SCO6204 or SCO7590"
+
     # TODO: remove SCO2529 gene?
     
     # Fixes Issue #104
@@ -82,6 +84,7 @@ def misc_reaction_curations(model):
     MMSAD3.subtract_metabolites({accoa_res: n})
     MMSAD3.add_metabolites({accoa: n})
     model.metabolites.remove("accoa_res_c")
+
     
     # Fixes Issue #89
     ## Remove model reactions
@@ -102,7 +105,7 @@ def misc_reaction_curations(model):
     TRE6PPP = model.reactions.get_by_id('TRE6PPP')
     TRE6PPP.add_metabolites({g6p_c: 1})
     TRE6PPP.subtract_metabolites({g6p_B_c: 1})
-   
+
     g1p_B_c = model.metabolites.get_by_id('g1p_B_c')
     g1p_c = model.metabolites.get_by_id('g1p_c')
     TRE6PPP.add_metabolites({g1p_c: 1})
@@ -123,7 +126,7 @@ def misc_reaction_curations(model):
     model.metabolites.remove('fdp_B_c')    
     model.metabolites.remove('fru_B_c')
 
-	# Fixes Issue #105
+	  # Fixes Issue #105
     for r in model.reactions:
         r.notes.pop('GENE ASSOCIATION', None)
         r.notes.pop('GENE_ASSOCIATION', None)
@@ -265,6 +268,7 @@ def add_model_id(model):
     model.id = "Sco_GEM"
 
 if __name__ == '__main__':
+    model = read_sbml_model("../../model/Sco-GEM.xml")
     model = export.get_latest_master_unversioned()
     misc_reaction_curations(model)
     # list_annotations(model)  # Only needs to be run once to gather metabolite IDs and pubchem.substance annotations
