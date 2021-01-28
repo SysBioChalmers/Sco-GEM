@@ -61,7 +61,7 @@ def misc_reaction_curations(model):
     # Fixes Issue #100
     CAT = model.reactions.get_by_id("CAT")
     CAT.gene_reaction_rule = "SCO0379 or SCO0560 or SCO0666 or SCO6204 or SCO7590"
-    # TODO: remove SCO2529 gene?
+    model.genes.remove('SCO2529')
     
     # Fixes Issue #104
     model.reactions.remove('ABPYRATA')
