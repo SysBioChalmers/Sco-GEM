@@ -35,15 +35,56 @@ The Sco-GEM model distributed on this GitHub repository is continuously updated,
 | ------------- |:-------------:|:-------------:|:-------------:|-----:|-----:|
 | _Streptomyces coelicolor_ A3(2) | iKS1317 | 2612 | 2073 | 1777 | 77%|
 
-### Installation & Usage
+## Installation & Usage
 
-Sco-GEM is primarily distributed in SBML L3V1 FBCv1 format, and therefore works well with RAVEN Toolbox, cobrapy, COBRA Toolbox, etc.
+### **User:**
 
-Development of the model is preferably done via cobrapy, using the [export.py](.code/export.py) function distributed in /code to save new model version, to reduce the number of changes in the model and aid comparison of model versions.
+To obtain Sco-GEM, clone it from [`master`](https://github.com/sysbiochalmers/Sco-GEM) in the GitHub repository, or just download the [latest release](https://github.com/sysbiochalmers/Sco-GEM/releases).
 
-### Contributing
+Sco-GEM is distributed in SBML L3V1 FBCv1 format (`model/Sco-GEM.xml`), and therefore works well with any appropriate constraint-based modelling package, such as [cobrapy](https://github.com/opencobra/cobrapy), [RAVEN Toolbox](https://github.com/sysbiochalmers/raven/) and [COBRA Toolbox](https://github.com/opencobra/cobratoolbox). Installation instructions for each package are provided on their website, after which you can use their default functions for loading and exporting of the models:
 
-Contributions are always welcome! Please read the [contributing guideline](.github/CONTRIBUTING.md) to get started.
+***cobrapy***
+```python
+import cobra
+model = cobra.io.read_sbml_model('Sco-GEM.xml')
+cobra.io.write_sbml_model(model, 'Sco-GEM.xml')
+```
+
+***RAVEN Toolbox*** \* 
+```matlab
+model = importModel('Sco-GEM.xml')
+exportModel(model, 'Sco-GEM.xml')
+```
+
+***COBRA Toolbox*** \*
+```matlab
+model = readCbModel('Sco-GEM.xml')
+writeCbModel(model, 'Sco-GEM.xml')
+```
+
+\* note that some annotation might be lost when exporting the model from RAVEN and COBRA Toolboxes
+
+### **Contributor:**
+
+Development of the model is done via cobrapy, to ensure that model content is retained as much as possible (I/O through other software might result in undesired loss of annotation). Therefore, make sure you have Python 3.6+ installed.
+
+[Fork](https://github.com/sysbiochalmers/sco-gem/fork) the Sco-GEM repository to your own GitHub account, and create a new branch from `devel`.
+
+In Python, create an environment with all requirements:
+
+```python
+pip install -r requirements.txt  # installs all dependencies
+touch .env                       # creates a .env file for locating the root, required
+```
+
+Load the model using the default code specified [above](#user). Export the model with the function provided the repository:
+```python
+cd ./code
+import export
+export.export(model, 'Sco-GEM.xml')
+```
+
+More information on contributing to Sco-GEM can be found in the [contributing guidelines](.github/CONTRIBUTING.md), read these to get started. Contributions are always welcome!
 
 ### Contributors
 * [Eduard J. Kerkhoven](https://www.chalmers.se/en/staff/Pages/Eduard-Kerkhoven.aspx) ([@edkerk](https://github.com/edkerk)), Chalmers University of Technology, Sweden
