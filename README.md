@@ -77,11 +77,11 @@ pip install -r requirements.txt  # installs all dependencies
 touch .env                       # creates a .env file for locating the root, required
 ```
 
-Load the model using the default code specified [above](#user). Export the model with the function provided the repository:
+Load the model using the default code specified [above](#user). Export the model with the `export` function provided in the repository:
 ```python
 cd ./code
 import export
-export.export(model, 'Sco-GEM.xml')
+export.export(model, formats = ['xml', 'yml'])
 ```
 
 More information on contributing to Sco-GEM can be found in the [contributing guidelines](.github/CONTRIBUTING.md), read these to get started. Contributions are always welcome!
