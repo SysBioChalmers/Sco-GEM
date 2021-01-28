@@ -25,7 +25,9 @@ def add_metabolite_charge(model): # Name the subroutine related to the tasks per
     # Write here the code to do the curations related to a particular issue
     # Multiple issues can be addressed in the same function or subroutine, but
     # indicate within the code where which issue is fixed.
-
+    m = model.metabolites[0]
+    m.charge = -2 
+    
 if __name__ == '__main__':
     # Load the latest model version, that your script aims to update
     model = export.get_earlier_model_unversioned('v1.2.1') 
