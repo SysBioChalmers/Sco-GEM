@@ -230,9 +230,9 @@ def get_earlier_model_unversioned(version):
     # version is either 'master' for the latest model on master branch, or a
     # tag that corresponds to a particular release, e.g. 'v1.2.3'.
     if version == 'master':
-        git_result = subprocess.run(["git","show","master:ModelFiles/xml/Sco-GEM.xml"], stdout = open("_earlierModel.xml", "w")) # change "ModelFiles/xml" to "model" before PR to master
+        git_result = subprocess.run(["git","show","master:model/Sco-GEM.xml"], stdout = open("_earlierModel.xml", "w"))
     elif match(r"v\d+.\d+.\d",version):
-        tagpath = "refs/tags/" + version + ":ModelFiles/xml/Sco-GEM.xml" # change "ModelFiles/xml" to "model" before PR to master
+        tagpath = "refs/tags/" + version + ":model/Sco-GEM.xml"
         git_result = subprocess.run(["git","show",tagpath], stdout = open("_earlierModel.xml", "w"))
     else:
         exit("Unclear which earlier model version should be loaded.")

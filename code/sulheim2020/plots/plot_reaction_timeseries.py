@@ -513,7 +513,7 @@ if __name__ == '__main__':
         plot_genes_clustermap(gene_expression_csv, genes, z_score = None, row_colors = row_colors,change_min = 0, max_min = 0)
         # plot_genes(gene_expression_csv, diff_genes)
 
-    if 0:
+    if 1:
         # Plot gene expression  of genes related to glutamate
         # matplotlib.rcParams.update({'font.size': 10, 'legend.loc':'upper right'})
         genes = list(set(TARGET_GLUTAMATE_GENES))
@@ -539,4 +539,3 @@ if __name__ == '__main__':
         differentially_expressed_genes = read_differentially_expressed_genes(differentially_expressed_genes_csv)
         gene = "SCO4426"
         print(gene in differentially_expressed_genes)
-
