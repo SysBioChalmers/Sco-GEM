@@ -12,13 +12,19 @@ relevant pull requests.
 
 """
 import sys
-sys.path.append("..")
-
 from cobra.io import read_sbml_model, write_sbml_model
-import export
 import pandas as pd
 from pathlib import Path
+from dotenv import find_dotenv
 import re
+
+# find .env + define paths
+REPO_PATH = find_dotenv()
+REPO_PATH = REPO_PATH[:-5]
+MODEL_PATH = f"{REPO_PATH}/model"
+
+sys.path.append(REPO_PATH + "/code")
+import export
 
 def misc_reaction_curations(model):
     # Fixes Issue #87
@@ -154,7 +160,7 @@ def misc_reaction_curations(model):
 
 def add_gene_annotation(model):
     # Fixes #44, #64
-    df = pd.read_csv('../../data/curation/v130_uniprot_proteome_UP000001973.tab', sep = '\t')
+    df = pd.read_csv(REPO_PATH + '/data/curation/v130_uniprot_proteome_UP000001973.tab', sep = '\t')
     df.index=df['id'].str.replace('.','')
     df=df.fillna('')
     for g in model.genes:
@@ -195,11 +201,11 @@ def list_annotations(model):
             df['reaction'].append(m.id)
             df['pubchem_substance'].append(m.annotation['pubchem.substance'])
     df = pd.DataFrame(df)
-    df.to_csv('../../data/curation/v130_pubchem_substance.csv', sep = ';', index = 0)
+    df.to_csv(REPO_PATH + '/data/curation/v130_pubchem_substance.csv', sep = ';', index = 0)
 
 def correct_pubchem(model):
     # Contributes to Issue #105
-    df = pd.read_csv('../../data/curation/v130_pubchem_substance.csv', sep = ';')
+    df = pd.read_csv(REPO_PATH + '/data/curation/v130_pubchem_substance.csv', sep = ';')
     m = model.metabolites.get_by_id('3oddecACP_c') # Has no replacement pubchem.compound, remove manually
     m.annotation.pop('pubchem.substance', None)
     for idx,id in enumerate(df.metabolite):
@@ -285,5 +291,5 @@ if __name__ == '__main__':
     correct_metabolite_annotations(model)
     block_pseudodonor_acceptor_rxn(model)
     export.export(model, formats = "xml", write_requirements = 0, objective = "BIOMASS_SCO_tRNA")
-    model = read_sbml_model("../../model/Sco-GEM.xml") # Extra round of I/O to consistently output single GO and PFAM annotations in YAML file
+    model = read_sbml_model(MODEL_PATH + "/Sco-GEM.xml") # Extra round of I/O to consistently output single GO and PFAM annotations in YAML file
     export.export(model, formats = ["xml", "yml"], write_requirements = 1, objective = "BIOMASS_SCO_tRNA")
