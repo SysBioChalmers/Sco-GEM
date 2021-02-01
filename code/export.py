@@ -212,7 +212,7 @@ def sort_reactions(Sco_GEM):
 def write_requirements_fun(directory, force = True):
     directory = str(directory)
     if force:
-        subprocess.run(["pipreqs", "--force", "."], cwd = directory)
+        subprocess.run(["pipreqs", "--ignore", "code/sulheim2020", "--force", "."], cwd = directory)
     else:
         subprocess.run(["pipreqs", "."], cwd = directory)
 

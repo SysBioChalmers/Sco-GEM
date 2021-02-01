@@ -32505,8 +32505,8 @@
     - metabolites: !!omap
       - acceptor_c: 1.0
       - nad_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0.0
+    - upper_bound: 0.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000631
@@ -32517,8 +32517,8 @@
     - metabolites: !!omap
       - acceptor_c: 1.0
       - nadp_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0.0
+    - upper_bound: 0.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000631
@@ -32529,8 +32529,8 @@
     - metabolites: !!omap
       - donor_c: 1.0
       - nadh_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0.0
+    - upper_bound: 0.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000631
@@ -32541,8 +32541,8 @@
     - metabolites: !!omap
       - donor_c: 1.0
       - nadph_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0.0
+    - upper_bound: 0.0
     - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000631
