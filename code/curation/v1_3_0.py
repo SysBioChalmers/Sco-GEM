@@ -267,6 +267,14 @@ def add_model_id(model):
     # Closes issue #128
     model.id = "Sco_GEM"
 
+def block_pseudodonor_acceptor_rxn(model):
+    # Blocks the pseudoreactions that connect the donor and acceptor
+    # pseudometabolites to NAD(P)(H) by default.
+    pseudo_rxns = ['PSEUDO_ACCEPTOR_NADP','PSEUDO_ACCEPTOR_NAD','PSEUDO_DONOR_NADPH','PSEUDO_DONOR_NADH']
+    for i in pseudo_rxns:
+        r = model.reactions.get_by_id(i)
+        r.knock_out()
+
 if __name__ == '__main__':
     model = read_sbml_model("../../model/Sco-GEM.xml")
     model = export.get_latest_master_unversioned()
@@ -275,6 +283,7 @@ if __name__ == '__main__':
     correct_pubchem(model)
     add_gene_annotation(model)
     correct_metabolite_annotations(model)
+    block_pseudodonor_acceptor_rxn(model)
     export.export(model, formats = "xml", write_requirements = 0, objective = "BIOMASS_SCO_tRNA")
     model = read_sbml_model("../../model/Sco-GEM.xml") # Extra round of I/O to consistently output single GO and PFAM annotations in YAML file
     export.export(model, formats = ["xml", "yml"], write_requirements = 1, objective = "BIOMASS_SCO_tRNA")
