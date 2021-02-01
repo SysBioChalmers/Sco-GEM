@@ -1,17 +1,30 @@
 # -*- coding: utf-8 -*-
 """
-This script does:
-Increase the version
+This script prepares the model and auxiliary files to make a new release, by
+going through the following steps:
+
+1. Check that the current git branch is 'master'
+2. Check which type of version bump is desired ('major', 'minor' or 'patch')
+3. Load the model from the current branch
+4. Define new version number
+5. Check that 'history.md' details the changes for the new version
+6. Change the version number in the model file and export xml and yml formats
+7. Write the new version number in version.txt
+8. Update 'README.md' to contain updated model stats (number of reactions,
+   metabolites and genes)
 
 Example
 =======
-The script can either be run directly from the command line::
+The script is run directly from the command line while in the master branch:
 
-    $ python export.py Sco-GEM.xml --folder model --formats xml yml txt
+    $ python increaseVersion 'bumpType'
 
-or using the module function::
-    from export import export
-    export(Sco_GEM, formats = ["xml", "yml", "txt"])
+where 'bumpType' is either:
+    'major'     e.g. increase from version 1.2.3 to 2.0.0
+    'minor'     e.g. increase from version 1.2.3 to 1.3.0
+    'patch'     e.g. increase from version 1.2.3 to 1.2.4
+
+See contributing guidelines for direction on when which bumpType is appropriate.
 
 """
 import cobra
@@ -19,18 +32,24 @@ import export
 import argparse
 import sys
 import re
-from pathlib import Path
+from dotenv import find_dotenv
+import subprocess
 
-REPO_MAIN_FOLDER = Path(__file__).resolve().parent.parent
+# find .env + define paths
+REPO_PATH = find_dotenv()
+REPO_PATH = REPO_PATH[:-5]
+MODEL_PATH = f"{REPO_PATH}/model"
 
 def check_git_branch():
+    # Make sure that current branch is master branch, otherwise exit.
     print("Checking that current branch is master...")
     branch_name = subprocess.run(["git","branch","--show-current"], stdout = subprocess.PIPE).stdout.decode("utf-8")
     if branch_name != "master":
         sys.exit("The local git branch is '{0}'. This function is only to increase the version of Sco-GEM in the 'master' branch.".format(branch_name))
 
 def increase_version(model,bumpType):
-    f = open(REPO_MAIN_FOLDER + "version.txt", "rt")
+    # Determine and print new version number.
+    f = open(REPO_PATH + "/version.txt", "rt")
     oldVersion = f.read()
     f.close()
     
@@ -59,31 +78,35 @@ def increase_version(model,bumpType):
     return newVersion
 
 def write_version_file(newVersion):
+    # Write /version.txt with the new version number
     print("Update version.txt...")
-    with open(REPO_MAIN_FOLDER + "version.txt", "w") as filetowrite:
+    with open(REPO_PATH + "/version.txt", "w") as filetowrite:
         filetowrite.write(newVersion)
 
 def check_history(newVersion):
+    # Make sure that the history.md contains a line with the new version number,
+    # suggesting that history.md has been updated.
     print("Check that history.md details the latest changes...")
-    file = open(REPO_MAIN_FOLDER + "history.md","r")
+    file = open(REPO_PATH + "/history.md","r")
     history = file.read()
     file.close
     if "Sco-GEM v" + newVersion + ":" not in history:
         sys.exit("history.md does not yet contain the latest changes. Copy these from the version-related pull-request (devel to master) into history.md, mentioning the new version.")
 
 def update_modelstats(model):
-    # TODO: grab memote score from Travis run from last PR to master, and update in README.md
+    # Update some stats from the new model in README.md
+    # TODO: grab memote score from Travis run from last PR to master, and also update here
 
     print("Update model stats in README.md...")
     # New string containing model stats
     new_string = r"\1 " + str(len(model.reactions)) + " | " + str(len(model.metabolites)) + " | " + str(len(model.genes)) + r" \2"
     
-    f = open(REPO_MAIN_FOLDER + "README.md", "rt")
+    f = open(REPO_PATH + "/README.md", "rt")
     data = f.read()
     data = re.sub(r"(coelicolor_ A3\(2\) \| iKS1317 \|) \d+ \| \d+ \| \d+ (\| .*\|)", new_string, data) # regex with new string, do not touch memote score
     f.close()
     
-    f = open(REPO_MAIN_FOLDER + "README.md", "wt")
+    f = open(REPO_PATH + "/README.md", "wt")
     f.write(data)
     f.close()
 
@@ -100,7 +123,7 @@ if __name__ == "__main__":
     # Load existing model
     try:
         print("Loading model file...")
-        model = cobra.io.read_sbml_model(REPO_MAIN_FOLDER / "model/Sco-GEM.xml")
+        model = cobra.io.read_sbml_model(MODEL_PATH + "/Sco-GEM.xml")
     except OSError as e:
         print("Cannot find model/Sco-GEM in the repository")
 
@@ -119,5 +142,3 @@ if __name__ == "__main__":
 
     # Update README.md with model statistics
     update_modelstats(model)
-
-

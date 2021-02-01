@@ -56,13 +56,17 @@ or using the module function::
 """
 import cobra
 from collections import OrderedDict
-from pathlib import Path
 from os import remove
 from sys import exit
 import argparse
 import subprocess
+from dotenv import find_dotenv
+from re import match
 
-REPO_MAIN_FOLDER = Path(__file__).resolve().parent.parent
+# find .env + define paths
+REPO_PATH = find_dotenv()
+REPO_PATH = REPO_PATH[:-5]
+MODEL_PATH = f"{REPO_PATH}/model"
 
 def export(Sco_GEM, folder = "model", name = "Sco-GEM", formats = ["xml", "yml", "txt"], 
            write_requirements = True, objective = None):
@@ -89,47 +93,36 @@ def export(Sco_GEM, folder = "model", name = "Sco-GEM", formats = ["xml", "yml",
         set_objective(Sco_GEM, objective)
     sort_model(Sco_GEM)
 
-    main_folder_path = REPO_MAIN_FOLDER / folder
     # write xml
     if ("xml" in formats) or ("sbml" in formats):
-        model_fn_xml = main_folder_path / "{0}.xml".format(name)
-        check_folder(model_fn_xml)
+        model_fn_xml = MODEL_PATH + "/{0}.xml".format(name)
         print("Writing {0}".format(str(model_fn_xml)))
         cobra.io.write_sbml_model(Sco_GEM, str(model_fn_xml))
     
     if ("yml" in formats) or ("yaml" in formats):
-        model_fn_yml = main_folder_path / "{0}.yml".format(name)
-        check_folder(model_fn_yml)
+        model_fn_yml = MODEL_PATH + "/{0}.yml".format(name)
         print("Writing {0}".format(str(model_fn_yml)))
         cobra.io.save_yaml_model(Sco_GEM, str(model_fn_yml))
 
     if "json" in formats:
-        model_fn_json = main_folder_path / "{0}.json".format(name)
-        check_folder(model_fn_json)
+        model_fn_json = MODEL_PATH + "/{0}.json".format(name)
         print("Writing {0}".format(str(model_fn_json)))
         cobra.io.save_json_model(Sco_GEM, str(model_fn_json))
         
     if "txt" in formats:
         print("Can't print txt-files yet. Skipping")
         # raise NotImplementedError
-        # model_fn_txt = main_folder_path / "{0}.txt".format(name)
-        # check_folder(model_fn_txt)
+        # model_fn_txt = MODEL_PATH + "/{0}.txt".format(name)
         # print("Writing {0}".format(str(model_fn_txt)))
         # cobra.io.write_sbml_model(Sco_GEM, str(model_fn_txt))
 
     if "mat" in formats:
-        model_fn_mat = main_folder_path / "{0}.mat".format(name)
-        check_folder(model_fn_mat)
+        model_fn_mat = MODEL_PATH + "/{0}.mat".format(name)
         print("Writing {0}".format(str(model_fn_mat)))
         cobra.io.save_matlab_model(Sco_GEM, str(model_fn_mat))
 
     if write_requirements:
-        write_requirements_fun(REPO_MAIN_FOLDER)
-
-def check_folder(file_path):
-    if not file_path.parent.is_dir():
-        file_path.parent.mkdir(parents = True, exist_ok = True)
-
+        write_requirements_fun(REPO_PATH)
 
 def set_objective(Sco_GEM, r_id):
     Sco_GEM.reactions.BIOMASS_SCO.objective_coefficient = 0
@@ -233,20 +226,25 @@ def sort_dict(model_dict, by = "key"):
             sorted_dict[key] = model_dict[key]
     return sorted_dict
 
-def get_latest_master_unversioned():
-    print("Loading the latest model version from 'master'...")
-    git_result = subprocess.run(["git","show","master:ModelFiles/xml/Sco-GEM.xml"], stdout = open("_latestMaster.xml", "w")) # git pull
-    if git_result.returncode != 0:
-        sys.exit("Git failed to checkout the latest model version from 'master'".format(branch_name))
+def get_earlier_model_unversioned(version):
+    # version is either 'master' for the latest model on master branch, or a
+    # tag that corresponds to a particular release, e.g. 'v1.2.3'.
+    if version == 'master':
+        git_result = subprocess.run(["git","show","master:ModelFiles/xml/Sco-GEM.xml"], stdout = open("_earlierModel.xml", "w")) # change "ModelFiles/xml" to "model" before PR to master
+    elif match(r"v\d+.\d+.\d",version):
+        tagpath = "refs/tags/" + version + ":ModelFiles/xml/Sco-GEM.xml" # change "ModelFiles/xml" to "model" before PR to master
+        git_result = subprocess.run(["git","show",tagpath], stdout = open("_earlierModel.xml", "w"))
+    else:
+        exit("Unclear which earlier model version should be loaded.")
     
-    model = cobra.io.read_sbml_model("_latestMaster.xml")
-    remove("_latestMaster.xml")
+    model = cobra.io.read_sbml_model("_earlierModel.xml")
+    remove("_earlierModel.xml")
     model.id = "Sco_GEM" # Remove versioning in model ID
     return model
 
 if __name__ == '__main__':
     if 0:
-        Sco_GEM_FN = "../model/Sco-GEM.xml"
+        Sco_GEM_FN = MODEL_PATH + "Sco-GEM.xml"
         Sco_GEM = cobra.io.read_sbml_model(Sco_GEM_FN)
         export(Sco_GEM)
     else:
