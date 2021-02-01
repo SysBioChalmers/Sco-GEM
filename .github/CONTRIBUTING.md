@@ -1,6 +1,6 @@
 ## Contributor guidelines
 
-First of all, thank you for contributing to Sco-GEM!! Anybody is welcome to contribute, but please abide by the following guidelines.
+First of all, thank you for contributing to Sco-GEM! Anybody is welcome to contribute, but please abide by the following guidelines.
 
 You can contribute in 2 main ways: by creating issues, and by sending pull requests (PRs) with additions, deletions, corrections, etc. to the model.
 
@@ -175,14 +175,14 @@ When releasing, please follow these steps:
 
 ## Previous work
 
-``sco-GEM`` leverages the hard labour that has previously been performed in the development of genome-scale models of *Streptomyces coelicolor*, as published in the following papers:
+``Sco-GEM`` leverages the hard labour that has previously been performed in the development of genome-scale models of *Streptomyces coelicolor*, as published in the following papers:
 
 - Borodina I, Krabben P, Nielsen J. _Genome Res_. **2005**;15: 820–9. [doi](http://doi.org/10.1101/gr.3364705)
 - Alam MT, Merlo ME, Hodgson DA, Wellington EMH, Takano E, Breitling R. _BMC Genomics_. **2010**;11: 202. [doi](http://doi.org/10.1186/1471-2164-11-202)
 - Kim M, Sang Yi J, Kim J, Kim J-N, Kim MW, Kim B-G. Biotechnol J. **2014**;9: 1185–94. [doi](http://doi.org/doi:10.1002/biot.201300539)
 - Amara A, Takano E, Breitling R. _BMC Genomics_. **2018**;19: 519. [doi](https://doi.org/10.1186/s12864-018-4905-5)
 - Wang H, Marcišauskas S, Sánchez BJ, Domenzain I, Hermansson D, Agren R, Nielsen J, Kerkhoven EJ. _PLOS Comput Biol_. **2018**;14: e1006541. [doi](http://doi.org/10.1371/journal.pcbi.1006541)
-- Sulheim S, Kumelj T, Wentzel A, Almaas E. _Biotech J._ **2018**;14: 1800180. [doi](https://doi.org/10.1002/biot.201800180)
+- Kumelj T, Sulheim S, Wentzel A, Almaas E. _Biotech J._ **2018**;14: 1800180. [doi](https://doi.org/10.1002/biot.201800180)
 - Sulheim S, Kumelj T, van Dissel D, Salehzadeh-Yazdi A, Du C, van Wezel GP, Nieselt K, Almaas E, Wentzel A, Kerkhoven EJ. _iScience_ **2020**;23: 101525. [doi](https://doi.org/10.1016/j.isci.2020.101525)
 
 ## Acknowledgments
