@@ -14,7 +14,7 @@ git config --global user.name "Travis CI Deployment Bot"
 echo "${GITHUB_TOKEN}"
 
 git status
-git checkout -- "./ComplementaryScripts/*deploy.sh"
+git checkout -- "./code/*deploy.sh"
 
 if [[ "${TRAVIS_PULL_REQUEST}" != "false" || "${TRAVIS_REPO_SLUG}" != "SysBioChalmers/Sco-GEM" ]]; then
     echo "Untracked build."

@@ -16,5 +16,5 @@ install:
 script:
   # - memote run --skip-unchanged
   - git checkout "${TRAVIS_BRANCH}"
-  - chmod +x ./ComplementaryScripts/*deploy.sh
-  - ./ComplementaryScripts/travis_deploy.sh
+  - chmod +x ./code/*deploy.sh
+  - ./code/travis_deploy.sh
