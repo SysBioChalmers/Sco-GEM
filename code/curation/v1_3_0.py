@@ -160,6 +160,7 @@ def add_gene_annotation(model):
     df = pd.read_csv(REPO_PATH + '/data/curation/v130_uniprot_proteome_UP000001973.tab', sep = '\t')
     df.index=df['id'].str.replace('.','')
     df=df.fillna('')
+    r = re.compile("^(?!WP)") # to filter out invalid refseq IDs, used below
     for g in model.genes:
         g.annotation['sbo'] = 'SBO:0000243'
         if g.id in df.index:
@@ -182,7 +183,8 @@ def add_gene_annotation(model):
                 g.annotation.pop('go', None)                
             if df.refseq[pos]:
                 tmp = df.refseq[pos].rstrip(';')
-                g.annotation['refseq'] = tmp.split(';')   
+                tmp = tmp.split(';')
+                g.annotation['refseq'] = list(filter(r.match,tmp))
             if df.name[pos] != '':
                 g.name = df.name[pos]
             else:
