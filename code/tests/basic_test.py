@@ -3,17 +3,19 @@ from memote.utils import annotate, wrapper, truncate
 from cobra.io import read_sbml_model
 import os.path
 
+from dotenv import find_dotenv
+# find .env + define paths
+REPO_PATH = find_dotenv()
+REPO_PATH = REPO_PATH[:-5]
 
-
-
-# @pytest.fixture(scope = "session")
-# def model(model = None):
-#     if model is None:
-#         path = os.path.join(os.path.dirname(__file__), "../../ModelFiles/xml/scoGEM.xml")
-#         print("Loading model {0}".format(path))
-#         return read_sbml_model(path)
-#     else:
-#         return model
+@pytest.fixture(scope = "session")
+def model(model = None):
+    if model is None:
+        path = os.path.join(os.path.dirname(__file__), REPO_PATH + "/model/Sco-GEM.xml")
+        print("Loading model {0}".format(path))
+        return read_sbml_model(path)
+    else:
+        return model
 
 # @annotate(title="Some human-readable descriptive title for the report", format_type="raw")
 # def test_read_model(model):
@@ -126,7 +128,7 @@ def test_ACT_production(model):
     Test ACT production
     """
     with model:
-        model.reactions.DM_ACT_c.objective_coefficient = 1
+        model.reactions.EX_act_e.objective_coefficient = 1
         model.reactions.BIOMASS_SCO.objective_coefficient = 0
         solution = model.optimize()
     ann = test_ACT_production.annotation

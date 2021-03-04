@@ -7,8 +7,12 @@ import pandas as pd
 import yaml
 import re
 
-REPO_ROOT_DIR = Path(__file__).parent.parent.parent
-DATA_DIR = REPO_ROOT_DIR / "ComplementaryData"
+from dotenv import find_dotenv
+# find .env + define paths
+REPO_PATH = find_dotenv()
+REPO_PATH = REPO_PATH[:-5]
+
+DATA_DIR = REPO_PATH + "/data/"
 SOLVER = "gurobi"
 MAX_GLUCOSE_UPTAKE_RATE = -2.1
 CORRESPONDING_AMMONIUM_UPTAKE = -1.85
@@ -16,22 +20,23 @@ NO_GROWTH_THRESHOLD = 0.028 # Corresponds to 1hr doubling time
 # TRANSPOSON_NO_GROWTH_THRESHOLD = 
 
 
-# @pytest.fixture(scope = "session")
-# def model():
-#     path = os.path.join(os.path.dirname(__file__), "../../ModelFiles/xml/scoGEM.xml")
-#     model = read_sbml_model(path)
-#     try:
-#         model.solver = SOLVER
-#     except:
-#         pass
-#     return model
+@pytest.fixture(scope = "session")
+def model():
+    path = os.path.join(os.path.dirname(__file__), REPO_PATH + "/model/Sco-GEM.xml")
+    model = read_sbml_model(path)
+    try:
+        model.solver = SOLVER
+    except:
+        pass
+    return model
 
 
 @pytest.fixture(scope = "session")
 def experiments():
-    experiments_path = DATA_DIR / "experiments.yml"
-    with experiments_path.open(mode = "r") as fid:
-        experiments_yaml = yaml.load(fid)
+    experiments_path = DATA_DIR + "experiments.yml"
+    open(experiments_path, "rt")
+    with open(experiments_path, "rt") as fid:
+        experiments_yaml = yaml.load(fid, Loader=yaml.FullLoader)
     return experiments_yaml
 
 
@@ -327,7 +332,7 @@ def set_carbon_and_nitrogen_uptake(model, exchange_reactions):
     return model
 
 def get_growth_data(fn):
-    growth_path = DATA_DIR / "growth" / fn
+    growth_path = DATA_DIR + "growth/" + fn
     df = pd.read_csv(str(growth_path), sep = r";\s*", engine = "python")
     df.columns = [x.strip() for x in df.columns]
     df.set_index("N", inplace = True)
@@ -338,7 +343,7 @@ def set_medium(model, medium_name, experiments):
     Set the uptake rates, 
     """
     medium_fn = experiments["medium"]["definitions"][medium_name]["filename"]
-    medium_path = DATA_DIR / experiments["medium"]["path"] / medium_fn
+    medium_path = DATA_DIR + experiments["medium"]["path"] + "/" + medium_fn
     df = pd.read_csv(str(medium_path), sep = ",")
     df.columns = [x.strip() for x in df.columns]
     
