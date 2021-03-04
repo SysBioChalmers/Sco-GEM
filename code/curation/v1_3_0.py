@@ -272,6 +272,17 @@ def add_model_id(model):
     # Closes issue #128
     model.id = "Sco_GEM"
 
+def remove_boundary_mets(model):
+    # Closes issue #136
+    # Remove boundary metabolites from reactions
+    EX_cellul_e = model.reactions.get_by_id('EX_cellul_e')
+    EX_cellul_e.subtract_metabolites({'cellul_e_boundary': 1})
+    EX_xylan_e = model.reactions.get_by_id('EX_xylan_e')
+    EX_xylan_e.subtract_metabolites({'xylan_e_boundary': 1})
+    # Remove boundary metabolites from model
+    model.metabolites.remove('cellul_e_boundary')
+    model.metabolites.remove('xylan_e_boundary')
+
 def block_pseudodonor_acceptor_rxn(model):
     # Blocks the pseudoreactions that connect the donor and acceptor
     # pseudometabolites to NAD(P)(H) by default.
@@ -288,6 +299,8 @@ if __name__ == '__main__':
     add_gene_annotation(model)
     correct_metabolite_annotations(model)
     block_pseudodonor_acceptor_rxn(model)
+    remove_boundary_mets(model)
     export.export(model, formats = "xml", write_requirements = 0, objective = "BIOMASS_SCO_tRNA")
-    model = read_sbml_model(MODEL_PATH + "/Sco-GEM.xml") # Extra round of I/O to consistently output single GO and PFAM annotations in YAML file
+    print("Going through extra round of I/O to consistently output single GO and PFAM annotations in YAML file")
+    model = read_sbml_model(MODEL_PATH + "/Sco-GEM.xml") # 
     export.export(model, formats = ["xml", "yml"], write_requirements = 1, objective = "BIOMASS_SCO_tRNA")
