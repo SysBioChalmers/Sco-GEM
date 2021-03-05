@@ -17,23 +17,31 @@ Example
 =======
 The script is run directly from the command line while in the master branch:
 
-    $ python increaseVersion 'bumpType'
+    $ python increaseVersion 'bumpType' runMemote
 
-where 'bumpType' is either:
+where 'bumpType' is:
     'major'     e.g. increase from version 1.2.3 to 2.0.0
     'minor'     e.g. increase from version 1.2.3 to 1.3.0
     'patch'     e.g. increase from version 1.2.3 to 1.2.4
 
+and 'runMemote' is:
+    'true'      if memote score should be calculated (default)
+    'false'     if memote score should not be calculated
+
 See contributing guidelines for direction on when which bumpType is appropriate.
+Note that calculation of memote score can take >30 mins.
 
 """
+import logging
 import cobra
 import export
 import argparse
 import sys
 import re
 from dotenv import find_dotenv
+from os import remove
 import subprocess
+import memote # Not run as function here, but required to call
 
 # find .env + define paths
 REPO_PATH = find_dotenv()
@@ -44,6 +52,8 @@ def check_git_branch():
     # Make sure that current branch is master branch, otherwise exit.
     print("Checking that current branch is master...")
     branch_name = subprocess.run(["git","branch","--show-current"], stdout = subprocess.PIPE).stdout.decode("utf-8")
+    branch_name = branch_name.rstrip("\n")
+    logging.info("Current git branch is '{0}'".format(branch_name))
     if branch_name != "master":
         sys.exit("The local git branch is '{0}'. This function is only to increase the version of Sco-GEM in the 'master' branch.".format(branch_name))
 
@@ -54,6 +64,10 @@ def increase_version(model,bumpType):
     f.close()
     
     oldVersion = model.id
+
+    logging.info("Previous model version is '{0}'".format(oldVersion))
+    logging.info("New release is of type '{0}'".format(bumpType))
+
     newVersion = oldVersion.split(".")
     newVersion = list(map(int, newVersion))
     if bumpType == "major":
@@ -74,6 +88,8 @@ def increase_version(model,bumpType):
     model.id = "Sco_GEM_v" + s.join(newVersion)
     s = "."
     newVersion = s.join(newVersion) # To format the version with dots for printing and parsing
+    logging.info("New model version is '{0}'".format(newVersion))
+
     print("Increasing from version {0} to version {1}".format(oldVersion, newVersion))
     return newVersion
 
@@ -93,32 +109,57 @@ def check_history(newVersion):
     if "Sco-GEM v" + newVersion + ":" not in history:
         sys.exit("history.md does not yet contain the latest changes. Copy these from the version-related pull-request (devel to master) into history.md, mentioning the new version.")
 
-def update_modelstats(model):
+def update_modelstats(model,memoteScore):
     # Update some stats from the new model in README.md
-    # TODO: grab memote score from Travis run from last PR to master, and also update here
-
     print("Update model stats in README.md...")
-    # New string containing model stats
-    new_string = r"\1 " + str(len(model.reactions)) + " | " + str(len(model.metabolites)) + " | " + str(len(model.genes)) + r" \2"
     
     f = open(REPO_PATH + "/README.md", "rt")
     data = f.read()
-    data = re.sub(r"(coelicolor_ A3\(2\) \| iKS1317 \|) \d+ \| \d+ \| \d+ (\| .*\|)", new_string, data) # regex with new string, do not touch memote score
     f.close()
+    
+    if memoteScore:
+        # New string containing model stats
+        new_string = r"\1 " + str(len(model.reactions)) + " | " + str(len(model.metabolites)) + " | " + str(len(model.genes)) + " | " + memoteScore + "|"
+        data = re.sub(r"(coelicolor_ A3\(2\) \| iKS1317 \|) \d+ \| \d+ \| \d+ \| \d+%.*\|", new_string, data) # regex with new string, including touch memote score
+    else:
+        # New string containing model stats
+        new_string = r"\1 " + str(len(model.reactions)) + " | " + str(len(model.metabolites)) + " | " + str(len(model.genes)) + r" \2"
+        data = re.sub(r"(coelicolor_ A3\(2\) \| iKS1317 \|) \d+ \| \d+ \| \d+ (\| .*\|)", new_string, data) # regex with new string, do not touch memote score
     
     f = open(REPO_PATH + "/README.md", "wt")
     f.write(data)
     f.close()
 
+def run_memote(model):
+    print("Calculate memote score, this can take a while...")
+    memote_out = subprocess.run(["memote","report","snapshot",MODEL_PATH + "/Sco-GEM.xml", "--filename", "_memote.html"], stdout = subprocess.PIPE, cwd = REPO_PATH).stdout.decode("utf-8")
+    if memote_out.returncode != 0:
+        sys.exit("memote did not run succesfully")
+    f = open(REPO_PATH + "/_memote.html", "rt")
+    data = f.read()
+    f.close()
+    data = re.search(r"\}\],\"total_score\":0\.\d+", data)
+    memoteScore = data.string[data.start()+17:data.end()]
+    memoteScore = round(float(memoteScore) * 100)
+    memoteScore = str(memoteScore) + "%"
+    remove(REPO_PATH + "/_memote.html")
+    return memoteScore
+
 if __name__ == "__main__":
+    logging.basicConfig(filename="increaseVersion.log",
+        format="%(asctime)s %(levelname)-8s %(message)s", level=logging.INFO,
+        datefmt="%Y-%m-%d %H:%M:%S", filemode = "w")
+
     # Check that branch is "master"
     check_git_branch()
 
     # Parse argument, which type of version increase    
     parser = argparse.ArgumentParser(description= "Increase version of Sco-GEM model")
-    parser.add_argument("bumpType", help = "string of either 'major', 'minor' or 'patch', indicating the type of version increase")
+    parser.add_argument("bumpType", type = str, help = "string of either 'major', 'minor' or 'patch', indicating the type of version increase")
+    parser.add_argument("--skipMemote", help = "true or false whether memote should be run", action = "store_true")
     args = parser.parse_args()
     bumpType = args.bumpType
+    skipMemote = args.skipMemote
 
     # Load existing model
     try:
@@ -140,5 +181,11 @@ if __name__ == "__main__":
     # Only do this AFTER writing the model files, and not as part of increase_version routine, as version.txt should only be changed if the model has successfully exported.
     write_version_file(newVersion)
 
+    # Run memote report
+    if skipMemote == False:
+        memoteScore = run_memote(model)
+    else:
+        memoteScore = ""
+
     # Update README.md with model statistics
-    update_modelstats(model)
+    update_modelstats(model,memoteScore)

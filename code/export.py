@@ -234,6 +234,10 @@ def get_earlier_model_unversioned(version):
     elif match(r"v\d+.\d+.\d",version):
         tagpath = "refs/tags/" + version + ":model/Sco-GEM.xml"
         git_result = subprocess.run(["git","show",tagpath], stdout = open("_earlierModel.xml", "w"))
+        if git_result.returncode == 128: # Model path did not exist, try older path (<v1.3.0)
+            print("       Trying legacy 'ModelFiles/xml/Sco-GEM.xml' instead.")
+            tagpath = "refs/tags/" + version + ":ModelFiles/xml/Sco-GEM.xml"
+            git_result = subprocess.run(["git","show",tagpath], stdout = open("_earlierModel.xml", "w"))
     else:
         exit("Unclear which earlier model version should be loaded.")
     
