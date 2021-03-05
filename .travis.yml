@@ -17,4 +17,4 @@ script:
   # - memote run --skip-unchanged
   - git checkout "${TRAVIS_BRANCH}"
   - chmod +x ./code/*deploy.sh
-  - ./code/travis_deploy.sh
+  - travis_wait 30 ./code/travis_deploy.sh

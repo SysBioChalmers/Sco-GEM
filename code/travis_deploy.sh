@@ -33,7 +33,7 @@ fi
 output_snapshot="/tmp/snapshot.html"
 git checkout "${TRAVIS_BRANCH}"
 echo "Generating updated snapshot report /tmp/snapshot.html."
-travis_wait 30 memote report snapshot --filename="/tmp/snapshot.html"
+memote report snapshot --filename="/tmp/snapshot.html"
 git checkout "${deployment}"
 mv "/tmp/snapshot.html" ./
 
@@ -41,7 +41,7 @@ mv "/tmp/snapshot.html" ./
 output_history="history.html"
 git checkout "${deployment}"
 echo "Generating updated history report '${output_history}'."
-travis_wait 30 memote report history --filename="${output_history}"
+memote report history --filename="${output_history}"
 
 
 # Add, commit and push the files.
