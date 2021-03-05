@@ -12,6 +12,7 @@ before_install:
   - pip install --upgrade pip setuptools wheel
 install:
   - pip install --upgrade memote
+  - travis_wait 30 mvn install
 
 script:
   # - memote run --skip-unchanged
