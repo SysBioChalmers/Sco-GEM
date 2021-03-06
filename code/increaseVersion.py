@@ -17,19 +17,16 @@ Example
 =======
 The script is run directly from the command line while in the master branch:
 
-    $ python increaseVersion 'bumpType' runMemote
+    $ python increaseVersion 'bumpType' [--skipMemote]
 
 where 'bumpType' is:
     'major'     e.g. increase from version 1.2.3 to 2.0.0
     'minor'     e.g. increase from version 1.2.3 to 1.3.0
     'patch'     e.g. increase from version 1.2.3 to 1.2.4
 
-and 'runMemote' is:
-    'true'      if memote score should be calculated (default)
-    'false'     if memote score should not be calculated
+--skipMemote will not run Memote to determine the overall score
 
 See contributing guidelines for direction on when which bumpType is appropriate.
-Note that calculation of memote score can take >30 mins.
 
 """
 import logging
@@ -63,8 +60,6 @@ def increase_version(model,bumpType):
     oldVersion = f.read()
     f.close()
     
-    oldVersion = model.id
-
     logging.info("Previous model version is '{0}'".format(oldVersion))
     logging.info("New release is of type '{0}'".format(bumpType))
 
@@ -117,33 +112,37 @@ def update_modelstats(model,memoteScore):
     data = f.read()
     f.close()
     
-    if memoteScore:
-        # New string containing model stats
-        new_string = r"\1 " + str(len(model.reactions)) + " | " + str(len(model.metabolites)) + " | " + str(len(model.genes)) + " | " + memoteScore + "|"
-        data = re.sub(r"(coelicolor_ A3\(2\) \| iKS1317 \|) \d+ \| \d+ \| \d+ \| \d+%.*\|", new_string, data) # regex with new string, including touch memote score
-    else:
-        # New string containing model stats
-        new_string = r"\1 " + str(len(model.reactions)) + " | " + str(len(model.metabolites)) + " | " + str(len(model.genes)) + r" \2"
-        data = re.sub(r"(coelicolor_ A3\(2\) \| iKS1317 \|) \d+ \| \d+ \| \d+ (\| .*\|)", new_string, data) # regex with new string, do not touch memote score
+    # New string containing model stats
+    new_string = r"\1 " + str(len(model.reactions)) + " | " + str(len(model.metabolites)) + " | " + str(len(model.genes)) + " | " + memoteScore + "|"
+    data = re.sub(r"(coelicolor_ A3\(2\) \| iKS1317 \|) \d+ \| \d+ \| \d+ \| \d+%.*\|", new_string, data) # regex with new string, including touch memote score
     
     f = open(REPO_PATH + "/README.md", "wt")
     f.write(data)
     f.close()
 
 def run_memote(model):
-    print("Calculate memote score, this can take a while...")
-    memote_out = subprocess.run(["memote","report","snapshot",MODEL_PATH + "/Sco-GEM.xml", "--filename", "_memote.html"], stdout = subprocess.PIPE, cwd = REPO_PATH).stdout.decode("utf-8")
-    if memote_out.returncode != 0:
-        sys.exit("memote did not run succesfully")
-    f = open(REPO_PATH + "/_memote.html", "rt")
-    data = f.read()
-    f.close()
-    data = re.search(r"\}\],\"total_score\":0\.\d+", data)
-    memoteScore = data.string[data.start()+17:data.end()]
-    memoteScore = round(float(memoteScore) * 100)
-    memoteScore = str(memoteScore) + "%"
-    remove(REPO_PATH + "/_memote.html")
-    return memoteScore
+    print("Calculate Memote score, this can take a while...")
+    logging.info("Running Memote, printing output")
+
+    memote_out = subprocess.Popen(["memote","report","snapshot",MODEL_PATH + "/Sco-GEM.xml", "--filename", "_memote.html"], stdout = subprocess.PIPE, cwd = REPO_PATH)
+    for line in iter(memote_out.stdout.readline, b''):
+        line = re.sub(r"\n$","",line.decode('ascii'))
+        logging.info(line)
+    try:
+        f = open(REPO_PATH + "/_memote.html", "rt")
+        data = f.read()
+        f.close()
+        data = re.search(r"\}\],\"total_score\":0\.\d+", data)
+        memoteScore = data.string[data.start()+17:data.end()]
+        memoteScore = round(float(memoteScore) * 100)
+        memoteScore = str(memoteScore) + "%"
+        remove(REPO_PATH + "/_memote.html")
+        logging.info("Overall Memote score: {0}".format(memoteScore))
+        return memoteScore
+    except OSError as e:
+        EM = "Memote did not run succesfully, cannot find _memote.html output"
+        logging.error(EM)
+        sys.exit(EM)        
 
 if __name__ == "__main__":
     logging.basicConfig(filename="increaseVersion.log",
@@ -156,7 +155,7 @@ if __name__ == "__main__":
     # Parse argument, which type of version increase    
     parser = argparse.ArgumentParser(description= "Increase version of Sco-GEM model")
     parser.add_argument("bumpType", type = str, help = "string of either 'major', 'minor' or 'patch', indicating the type of version increase")
-    parser.add_argument("--skipMemote", help = "true or false whether memote should be run", action = "store_true")
+    parser.add_argument("--skipMemote", help = "true or false whether determining Memote score should be skipped", action = "store_true")
     args = parser.parse_args()
     bumpType = args.bumpType
     skipMemote = args.skipMemote
@@ -185,7 +184,7 @@ if __name__ == "__main__":
     if skipMemote == False:
         memoteScore = run_memote(model)
     else:
-        memoteScore = ""
+        memoteScore = "Not determined"
 
     # Update README.md with model statistics
     update_modelstats(model,memoteScore)
