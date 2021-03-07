@@ -95,6 +95,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+Pipfile*
 
 # Spyder project settings
 .spyderproject
@@ -114,3 +115,6 @@ scrap/
 
 # MATLAB files
 *.asv
+
+# VS code
+.vscode
