@@ -1,7 +1,7 @@
 ## Sco-GEM: The consensus genome-scale metabolic model of _Streptomyces coelicolor_
 
 [![memote tested](https://img.shields.io/badge/memote-tested-blue.svg?style=plastic)](https://sysbiochalmers.github.io/Sco-GEM/)
-[![Build Status](https://travis-ci.org/SysBioChalmers/Sco-GEM.svg?branch=master)](https://travis-ci.org/SysBioChalmers/Sco-GEM)
+[![Build Status](https://travis-ci.com/SysBioChalmers/Sco-GEM.svg?branch=master)](https://travis-ci.com/SysBioChalmers/Sco-GEM)
 ![Version release (latest by date)](https://img.shields.io/github/v/release/SysBioChalmers/Sco-GEM?style=plastic)
 [![DOI](https://zenodo.org/badge/145685631.svg)](https://zenodo.org/badge/latestdoi/145685631)
 
@@ -28,12 +28,6 @@ The Sco-GEM model distributed on this GitHub repository is continuously updated,
 **Metabolic system:** General metabolism (primary and secondary)  
 **Strain:** A3(2)  
 **Condition:** Complex medium  
-
-### Model Overview
-
-| Taxonomy | Template Model | Reactions | Metabolites| Genes | Memote score |
-| ------------- |:-------------:|:-------------:|:-------------:|-----:|-----:|
-| _Streptomyces coelicolor_ A3(2) | iKS1317 | 2612 | 2073 | 1777 | 77%|
 
 ## Installation & Usage
 
