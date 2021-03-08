@@ -109429,7 +109429,7 @@
     - name: s0001
     - annotation: !!omap
       - sbo: SBO:0000243
-- id: Sco_GEM
+- id: Sco_GEM_v1_3_0
 - name: Sco-GEM
 - compartments: !!omap
   - c: Cytoplasm

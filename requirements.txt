@@ -1,6 +1,6 @@
-pandas==1.2.0
-cobra==0.20.0
-pytest==6.2.2
 memote==0.12.0
+cobra==0.20.0
+pandas==1.2.0
+pytest==6.2.2
 python-dotenv==0.15.0
 PyYAML==5.4.1
