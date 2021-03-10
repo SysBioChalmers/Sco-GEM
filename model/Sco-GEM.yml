@@ -16227,25 +16227,6 @@
       - origin: iMK1208
       - sbo: SBO:0000247
   - !!omap
-    - id: g1p_B_c
-    - name: beta-D-glucopyranose1-phosphate
-    - compartment: c
-    - charge: -2
-    - formula: ''
-    - annotation: !!omap
-      - bigg.metabolite: g1p_B
-      - biocyc: META:CPD-448
-      - chebi:
-        - CHEBI:16218
-        - CHEBI:57684
-      - inchi: InChI=1S/C6H13O9P/c7-1-2-3(8)4(9)5(10)6(14-2)15-16(11,12)13/h2-10H,1H2,(H2,11,12,13)/p-2/t2-,3-,4+,5-,6+/m1/s1
-      - kegg.compound: C00663
-      - metanetx.chemical: MNXM679
-      - origin: Sco4
-      - pubchem.compound: '25244208'
-      - sbo: SBO:0000247
-      - smiles: SMILES:C(O)C1(OC(C(C(C1O)O)O)OP([O-])([O-])=O)
-  - !!omap
     - id: g1p_c
     - name: D-Glucose 1-phosphate
     - compartment: c
@@ -33154,7 +33135,10 @@
     - annotation: !!omap
       - bigg.reaction: 2OXOADOX
       - biocyc: META:2-KETO-ADIPATE-DEHYDROG-RXN
-      - ec-code: '"1.2.4.2 and 1.8.1.4 and 2.3.1.61"'
+      - ec-code:
+        - 1.2.4.2
+        - 1.8.1.4
+        - 2.3.1.61
       - kegg.reaction: R01933
       - metanetx.reaction: MNXR94818
       - origin: iMK1208
@@ -40418,7 +40402,10 @@
     - annotation: !!omap
       - bigg.reaction: AKGDH
       - biocyc: META:2OXOGLUTARATEDEH-RXN
-      - ec-code: "'1.2.4.2 and 1.8.1.4 and 2.3.1.61'"
+      - ec-code:
+        - 1.2.4.2
+        - 1.8.1.4
+        - 2.3.1.61
       - kegg.reaction: R08549
       - metanetx.reaction: MNXR95655
       - origin: iMK1208
@@ -41353,7 +41340,7 @@
     - annotation: !!omap
       - bigg.reaction: AMPTASECG
       - biocyc: META:RXN-6622
-      - ec-code: 3.4.11.1 or 3.4.11.2
+      - ec-code: 3.4.13.18
       - kegg.reaction: R00899
       - metanetx.reaction: MNXR95828
       - origin: iMK1208
@@ -42758,7 +42745,7 @@
     - annotation: !!omap
       - bigg.reaction: ASP1DC
       - biocyc: META:ASPDECARBOX-RXN
-      - ec-code: 4.1.1.11 or 4.1.1.15
+      - ec-code: 4.1.1.11
       - kegg.reaction: R00489
       - metanetx.reaction: MNXR96077
       - origin: iMK1208
@@ -43854,7 +43841,7 @@
       - bigg.reaction: CARBMODH
       - biocyc: META:1.2.7.4-RXN
       - ec-code: 1.2.7.4
-      - kegg.reaction: "['R00296', 'R07157']"
+      - kegg.reaction: R07157
       - metanetx.reaction: MNXR114963
       - origin: Sco4
       - pathway: Carbon fixation pathways in prokaryotes
@@ -44749,7 +44736,7 @@
     - annotation: !!omap
       - bigg.reaction: CHOLD
       - biocyc: META:RXN-6021
-      - ec-code: 1.1.1.1 or 1.1.99.1
+      - ec-code: 1.1.99.1
       - kegg.reaction: R08557
       - metanetx.reaction: MNXR96697
       - origin: iMK1208
@@ -46822,7 +46809,7 @@
     - gene_reaction_rule: SCO0435 or SCO0731 or SCO3920
     - annotation: !!omap
       - bigg.reaction: CYSDS
-      - ec-code: 4.4.1.8 or 4.4.1.1
+      - ec-code: 4.4.1.28
       - kegg.reaction: R00782
       - metanetx.reaction: MNXR96994
       - origin: iMK1208
@@ -48485,7 +48472,7 @@
     - annotation: !!omap
       - bigg.reaction: DHFS
       - biocyc: META:DIHYDROFOLATESYNTH-RXN
-      - ec-code: 6.3.2.12 or 6.3.2.17
+      - ec-code: 6.3.2.12
       - kegg.reaction: R02237
       - metanetx.reaction:
         - MNXR140043
@@ -49428,7 +49415,7 @@
     - annotation: !!omap
       - bigg.reaction: DURIPP
       - biocyc: META:URA-PHOSPH-RXN
-      - ec-code: 2.4.2.1 or 2.4.2.4
+      - ec-code: 2.4.2.3
       - kegg.reaction: R02484
       - metanetx.reaction:
         - MNXR97818
@@ -54689,8 +54676,8 @@
     - annotation: !!omap
       - bigg.reaction: GGGABADH
       - biocyc: META:RXN0-3922
-      - ec-code: 1.2.1.ae
-      - kegg.reaction: "['R07417', 'R07418']"
+      - ec-code: 1.2.1.99
+      - kegg.reaction: R07417
       - metanetx.reaction: MNXR123175
       - origin: Sco4
       - pathway: Arginine and proline metabolism
@@ -55727,7 +55714,7 @@
         or SCO4919 )
     - annotation: !!omap
       - bigg.reaction: GLYCL
-      - ec-code: 1.4.4.2 or 1.8.1.4 or 2.1.2.10
+      - ec-code: 1.4.1.27
       - kegg.reaction: R01221
       - metanetx.reaction:
         - MNXR100330
@@ -56578,7 +56565,7 @@
     - annotation: !!omap
       - bigg.reaction: GTPDPDP
       - biocyc: META:PPPGPPHYDRO-RXN
-      - ec-code: 3.6.1.11 or 3.6.1.40
+      - ec-code: 3.6.1.40
       - kegg.reaction: R03409
       - metanetx.reaction: MNXR100099
       - origin: iMK1208
@@ -56665,7 +56652,7 @@
     - annotation: !!omap
       - bigg.reaction: GUAPRT
       - biocyc: META:GUANPRIBOSYLTRAN-RXN
-      - ec-code: 2.4.2.7 or 2.4.2.8
+      - ec-code: 2.4.2.8
       - kegg.reaction: R01229
       - metanetx.reaction: MNXR100409
       - origin: iMK1208
@@ -59859,7 +59846,7 @@
     - annotation: !!omap
       - bigg.reaction: MACCOAT
       - biocyc: META:METHYLACETOACETYLCOATHIOL-RXN
-      - ec-code: 2.3.1.9 or 2.3.1.16
+      - ec-code: 2.3.1.16
       - kegg.reaction: R00927
       - metanetx.reaction: MNXR95195
       - origin: iMK1208
@@ -60209,7 +60196,7 @@
     - gene_reaction_rule: SCO1690 or SCO2774 or SCO6787 or SCO2779
     - annotation: !!omap
       - bigg.reaction: MBCOA2
-      - ec-code: 1.3.8.7 or 1.3.99.12
+      - ec-code: 1.3.8.1
       - kegg.reaction: R03172
       - metanetx.reaction: MNXR108000
       - origin: iMA789
@@ -62398,7 +62385,7 @@
         or SCO4593
     - annotation: !!omap
       - bigg.reaction: NADH10b
-      - ec-code: 1.6.99.3 or 1.6.5.2
+      - ec-code: 1.6.5.2
       - kegg.reaction: R02964
       - metanetx.reaction: MNXR107856
       - origin: iMK1208
@@ -62643,7 +62630,7 @@
     - gene_reaction_rule: SCO0506 or SCO2238
     - annotation: !!omap
       - bigg.reaction: NADS1
-      - ec-code: 6.3.1.5 or 6.3.5.1
+      - ec-code: 6.3.1.5
       - kegg.reaction: R00189
       - metanetx.reaction: MNXR101897
       - origin: iMK1208
@@ -63299,7 +63286,7 @@
     - annotation: !!omap
       - bigg.reaction: NSHDDS
       - biocyc: META:RXN-8060
-      - ec-code: 6.3.5.b
+      - ec-code: 6.3.5.12
       - metanetx.reaction: MNXR122122
       - origin: Sco4
       - sbo: SBO:0000176
@@ -64917,7 +64904,7 @@
     - annotation: !!omap
       - bigg.reaction: PAAT
       - biocyc: META:RXN-8
-      - ec-code: 2.6.1.ac
+      - ec-code: 2.6.1.113
       - kegg.reaction: R08714
       - metanetx.reaction: MNXR112228
       - origin: Sco4
@@ -66179,7 +66166,7 @@
     - annotation: !!omap
       - bigg.reaction: PGM
       - biocyc: META:RXN-15513
-      - ec-code: 5.4.2.11 or 5.4.2.12
+      - ec-code: 5.4.2.12
       - kegg.reaction: R01518
       - metanetx.reaction: MNXR102547
       - origin: iMK1208
@@ -69376,7 +69363,7 @@
     - annotation: !!omap
       - bigg.reaction: PUNP4
       - biocyc: META:DEOXYGUANPHOSPHOR-RXN
-      - ec-code: 2.4.2.1 or 2.4.2.4
+      - ec-code: 2.4.2.1
       - kegg.reaction: R01969
       - metanetx.reaction:
         - MNXR138729
@@ -69422,7 +69409,7 @@
     - annotation: !!omap
       - bigg.reaction: PUNP6
       - biocyc: META:DEOXYINOPHOSPHOR-RXN
-      - ec-code: 2.4.2.1 or 2.4.2.4
+      - ec-code: 2.4.2.1
       - kegg.reaction: R02748
       - metanetx.reaction:
         - MNXR138730
@@ -71433,7 +71420,7 @@
       - bigg.reaction: S7PI
       - biocyc: META:RXN0-4301
       - ec-code: 5.3.1.28
-      - kegg.reaction: "['R09768', 'R05645']"
+      - kegg.reaction: R09768
       - metanetx.reaction: MNXR104235
       - origin: Sco4
       - pathway: Lipopolysaccharide biosynthesis
@@ -72086,7 +72073,7 @@
     - gene_reaction_rule: SCO5469 or SCO0821 or SCO4962 or SCO7292
     - annotation: !!omap
       - bigg.reaction: SERD_L
-      - ec-code: 4.3.1.17 or 4.3.1.19
+      - ec-code: 4.3.1.17
       - kegg.reaction: R00220
       - metanetx.reaction: MNXR104339
       - origin: iMK1208
@@ -72548,7 +72535,7 @@
     - annotation: !!omap
       - bigg.reaction: SSALy
       - biocyc: META:SUCCSEMIALDDEHYDROG-RXN
-      - ec-code: 1.2.1.16 or 1.2.1.79
+      - ec-code: 1.2.1.79
       - kegg.reaction: R00714
       - metanetx.reaction: MNXR104541
       - origin: iMK1208
@@ -74530,7 +74517,7 @@
     - annotation: !!omap
       - bigg.reaction: TYRMO
       - biocyc: META:RXN-5861
-      - kegg.reaction: "['R00731', 'R00031']"
+      - kegg.reaction: R00031
       - metanetx.reaction: MNXR106346
       - origin: Sco4
       - pathway: Betalain biosynthesis
@@ -74626,7 +74613,7 @@
       - bigg.reaction: UAAGLS2
       - biocyc: META:6.3.2.7-RXN
       - ec-code: 6.3.2.7
-      - kegg.reaction: "['R02786', 'R02785']"
+      - kegg.reaction: R02786
       - metanetx.reaction:
         - MNXR138892
         - MNXR105015
