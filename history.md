@@ -1,5 +1,11 @@
 # History
 
+### Sco-GEM v1.3.1:
+- fix:
+  - correct ec-codes and KEGG reaction IDs (again closes #111)
+- doc:
+  - in development branches remove model stats from `README.md`
+
 ### Sco-GEM v1.3.0:
 
 - fix:

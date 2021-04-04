@@ -33,7 +33,7 @@ The Sco-GEM model distributed on this GitHub repository is continuously updated,
 
 | Taxonomy | Template Model | Reactions | Metabolites| Genes | Memote score |
 | ------------- |:-------------:|:-------------:|:-------------:|-----:|-----:|
-| _Streptomyces coelicolor_ A3(2) | iKS1317 | 2599 | 2065 | 1775 | 72%|
+| _Streptomyces coelicolor_ A3(2) | iKS1317 | 2599 | 2064 | 1775 | 72%|
 
 ## Installation & Usage
 
