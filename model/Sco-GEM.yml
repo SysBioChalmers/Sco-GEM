@@ -21,7 +21,7 @@
     - name: 12-DIACYL-3-O-ALPHA-D-GLUCOPYRANOSYL
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C33H62O10
     - annotation: !!omap
       - bigg.metabolite: 12da3oaglcpyr
       - biocyc: META:12-DIACYL-3-O-ALPHA-D-GLUCOPYRANOSYL
@@ -366,7 +366,7 @@
     - name: S-1-(4-hydroxyphenyl)-ethanol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C8H10O2
     - annotation: !!omap
       - bigg.metabolite: 14hdphet
       - biocyc: META:CPD-10597
@@ -381,7 +381,7 @@
     - name: 15-cis-phytoene
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C40H64
     - annotation: !!omap
       - bigg.metabolite: 15cphyt
       - biocyc: META:CPD-12321
@@ -457,7 +457,7 @@
     - name: 1-aminocyclopropane-1-carboxylate
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C4H7NO2
     - annotation: !!omap
       - bigg.metabolite: 1acpc
       - biocyc: META:CPD-68
@@ -762,7 +762,7 @@
     - name: 1-pyrroline-4-hydroxy-2-carboxylate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C5H6NO3
     - annotation: !!omap
       - bigg.metabolite: 1p4h2cbxl
       - biocyc: META:CPD-1128
@@ -865,7 +865,7 @@
     - name: (S,S)-2,3-butanediol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C4H10O2
     - annotation: !!omap
       - bigg.metabolite: 23btd
       - biocyc: META:CPD-346
@@ -946,7 +946,7 @@
     - name: (2S,3S,7R)-2,3-diamino-8-(1-carbamoyl-2-iminoimidazolidin-4-yl)-7-hydroxyoctanoate
     - compartment: c
     - charge: 1
-    - formula: ''
+    - formula: C12H25N6O4
     - annotation: !!omap
       - bigg.metabolite: 23dahxoc
       - biocyc: META:CPD-18229
@@ -961,7 +961,7 @@
     - name: (2S,3S)-2,3-dihydroxy-2,3-dihydrobenzoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C7H7O4
     - annotation: !!omap
       - bigg.metabolite: 23ddhb
       - biocyc: META:DIHYDRO-DIOH-BENZOATE
@@ -1001,7 +1001,7 @@
     - name: 2,3-dihydroxybenzoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C7H5O4
     - annotation: !!omap
       - bigg.metabolite: 23dhb
       - biocyc: META:2-3-DIHYDROXYBENZOATE
@@ -1020,7 +1020,7 @@
     - name: 2,3-dihydroxybenzoyladenylate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C17H17N5O10P
     - annotation: !!omap
       - bigg.metabolite: 23dhba
       - biocyc: META:CPD-62
@@ -1108,7 +1108,7 @@
     - name: 2,4-dichlorophenol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H4OCl2
     - annotation: !!omap
       - bigg.metabolite: 24dclphen
       - biocyc: META:24-DICHLOROPHENOL
@@ -1125,7 +1125,7 @@
     - name: 2,4-didehydro-3-deoxy-L-rhamnonate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H7O5
     - annotation: !!omap
       - bigg.metabolite: 24ddhrham
       - biocyc: META:CPD-13044
@@ -1144,7 +1144,7 @@
     - name: 2,4-dihydroxy-5-methyl-6-oxohexa-2,4-dienoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C7H7O5
     - annotation: !!omap
       - bigg.metabolite: 24dh5m6o24d
       - biocyc: META:CPD-9137
@@ -1161,7 +1161,7 @@
     - name: 2,4-dinitrocyclohexan-1-one
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H8N2O5
     - annotation: !!omap
       - bigg.metabolite: 24dtcho
       - biocyc: META:CPD-17568
@@ -1192,7 +1192,7 @@
     - name: 2,5-dichloro-2,5-cyclohexadiene-1,4-diol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H6O2Cl2
     - annotation: !!omap
       - bigg.metabolite: 25dc25chx
       - biocyc: META:25-DDOL
@@ -1209,7 +1209,7 @@
     - name: 2,5-dichloro-p-quinol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H4O2Cl2
     - annotation: !!omap
       - bigg.metabolite: 25dclpql
       - biocyc: META:25-DICHLOROHYDROQUINONE
@@ -1329,7 +1329,7 @@
     - name: (25S)-26-hydroxycholest-4-en-3-one
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C27H44O2
     - annotation: !!omap
       - bigg.metabolite: 26hxcho
       - biocyc: META:CPD-13887
@@ -1361,7 +1361,7 @@
     - name: 2-amino-5-oxocyclohex-1-enecarboxyl-CoA
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C28H39N8O18P3S
     - annotation: !!omap
       - bigg.metabolite: 2a5ocyc1eccoa
       - biocyc: META:2-AMINO-5-OXOCYCLOHEX-1-ENECARBOXYL-COA
@@ -1395,8 +1395,8 @@
     - id: 2amac_c
     - name: 2-aminoprop-2-enoate
     - compartment: c
-    - charge: -1
-    - formula: ''
+    - charge: 0
+    - formula: C3H5NO2
     - annotation: !!omap
       - bigg.metabolite: 2amac
       - biocyc: META:2-AMINOACRYLATE
@@ -1434,7 +1434,7 @@
     - name: 2-chloroacrylate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C3H2O2Cl
     - annotation: !!omap
       - bigg.metabolite: 2chloacr
       - biocyc: META:CPD-15408
@@ -1453,7 +1453,7 @@
     - name: (S)-2-chloropropanoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C3H4O2Cl
     - annotation: !!omap
       - bigg.metabolite: 2clprop
       - biocyc: META:CPD-15409
@@ -1472,7 +1472,7 @@
     - name: 2-carboxymethyl-3-hydroxyphenylpropanoyl-CoA
     - compartment: c
     - charge: -5
-    - formula: ''
+    - formula: C32H41N7O20P3S
     - annotation: !!omap
       - bigg.metabolite: 2cm3hppc
       - biocyc: META:CARBOXYMETHYL-HYDROXYPHENYLPROPCOA
@@ -1519,7 +1519,7 @@
     - name: 2-dehydro-3-deoxy-L-arabinonate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C5H7O5
     - annotation: !!omap
       - bigg.metabolite: 2ddara__L
       - biocyc: META:CPD-1134
@@ -1538,7 +1538,7 @@
     - name: 2-dehydro-3-deoxy-D-arabinonate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C5H7O5
     - annotation: !!omap
       - bigg.metabolite: 2ddara
       - biocyc: META:2-DH-3-DO-D-ARABINONATE
@@ -1605,7 +1605,7 @@
     - name: 3-deoxy-D-glycero-2,5-hexodiulosonate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H7O6
     - annotation: !!omap
       - bigg.metabolite: 2dg25hbz
       - biocyc: META:CPD-343
@@ -1640,7 +1640,7 @@
     - name: 2-dehydro-3-deoxy-D-galactonate6-phosphate
     - compartment: c
     - charge: -3
-    - formula: ''
+    - formula: C6H8O9P
     - annotation: !!omap
       - bigg.metabolite: 2dh3dgal6p
       - biocyc: META:DEHYDRO-DEOXY-GALACTONATE-PHOSPHATE
@@ -1690,7 +1690,7 @@
     - name: 2-dehydro-3-deoxy-L-galactonate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H9O6
     - annotation: !!omap
       - bigg.metabolite: 2dh3dogal
       - biocyc: META:CPD-12349
@@ -1709,7 +1709,7 @@
     - name: 2-dehydro-3-deoxy-L-rhamnonate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H9O5
     - annotation: !!omap
       - bigg.metabolite: 2dh3dorham
       - biocyc: META:DEHYDRO-3-DEOXY-L-RHAMNONATE
@@ -1728,7 +1728,7 @@
     - name: 2-keto-D-gluconate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H9O7
     - annotation: !!omap
       - bigg.metabolite: 2dhglcn
       - biocyc: META:CPD-377
@@ -1762,8 +1762,8 @@
     - id: 2dmmq9_c
     - name: 2-Demethylmenaquinone
     - compartment: c
-    - charge: -1
-    - formula: C55H77O2
+    - charge: 0
+    - formula: C55H78O2
     - annotation: !!omap
       - bigg.metabolite: 2dmmq9
       - chebi: CHEBI:28192
@@ -1859,7 +1859,7 @@
     - name: 2-hydroxy-4-oxobutane-1,2,4-tricarboxylate
     - compartment: c
     - charge: -3
-    - formula: ''
+    - formula: C7H5O8
     - annotation: !!omap
       - bigg.metabolite: 2h4oxbut
       - biocyc: META:4-OH-4-ACETYL-2-OXOGLUTARATE
@@ -1878,7 +1878,7 @@
     - name: (2Z,4Z)-2-hydroxyhepta-2,4-dienedioate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C7H6O5
     - annotation: !!omap
       - bigg.metabolite: 2hdhepdd
       - biocyc: META:CPD-787
@@ -1899,7 +1899,7 @@
     - name: (2Z,4E)-2-hydroxyhexa-2,4-dienedioate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C6H4O5
     - annotation: !!omap
       - bigg.metabolite: 2hmc
       - biocyc: META:CPD-13339
@@ -1918,7 +1918,7 @@
     - name: (2Z,4E)-2-hydroxy-6-oxohexa-2,4-dienoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H5O4
     - annotation: !!omap
       - bigg.metabolite: 2hmcnsad
       - biocyc: META:HYDROXYMUCONATE-SALD
@@ -1965,8 +1965,8 @@
     - id: 2improp_c
     - name: 2-iminopropanoate
     - compartment: c
-    - charge: -1
-    - formula: ''
+    - charge: 0
+    - formula: C3H5NO2
     - annotation: !!omap
       - bigg.metabolite: 2improp
       - biocyc: META:CPD-16015
@@ -2012,7 +2012,7 @@
     - name: 4-(methylthio)-2-oxobutanoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C5H7O3S
     - annotation: !!omap
       - bigg.metabolite: 2kmb
       - biocyc: META:CPD-479
@@ -2107,7 +2107,7 @@
     - name: 2-methylisoborneol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C11H20O
     - annotation: !!omap
       - bigg.metabolite: 2mborn
       - biocyc: META:CPD-14016
@@ -2156,7 +2156,7 @@
     - name: 2-methylfumaryl-CoA
     - compartment: c
     - charge: -5
-    - formula: ''
+    - formula: C26H35N7O19P3S
     - annotation: !!omap
       - bigg.metabolite: 2mfumcoa
       - biocyc: META:CPD-9408
@@ -2174,8 +2174,8 @@
     - id: 2mop_c
     - name: CPD-12179
     - compartment: c
-    - charge: 0
-    - formula: ''
+    - charge: -1
+    - formula: C4H5O3
     - annotation: !!omap
       - bigg.metabolite: 2mop
       - biocyc: META:CPD-12179
@@ -2207,7 +2207,7 @@
     - name: (E)-2-methylgeranyldiphosphate
     - compartment: c
     - charge: -3
-    - formula: ''
+    - formula: C11H19O7P2
     - annotation: !!omap
       - bigg.metabolite: 2mygydpp
       - biocyc: META:CPD-14015
@@ -2260,7 +2260,7 @@
     - name: (4Z)-2-oxohept-4-enedioate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C7H6O5
     - annotation: !!omap
       - bigg.metabolite: 2ohed
       - biocyc: META:CPD-786
@@ -2280,7 +2280,7 @@
     - name: 2-octaprenylphenol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C46H70O
     - annotation: !!omap
       - bigg.metabolite: 2oph
       - biocyc: META:2-OCTAPRENYLPHENOL
@@ -2297,7 +2297,7 @@
     - name: (3E)-2-oxohex-3-enedioate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C6H4O5
     - annotation: !!omap
       - bigg.metabolite: 2oxalc
       - biocyc: META:CPD-8742
@@ -2375,7 +2375,7 @@
     - name: 2-phosphoglycolate
     - compartment: c
     - charge: -3
-    - formula: ''
+    - formula: C2H2O6P
     - annotation: !!omap
       - bigg.metabolite: 2pglyc
       - biocyc: META:CPD-67
@@ -2412,7 +2412,7 @@
     - name: propan-2-ol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C3H8O
     - annotation: !!omap
       - bigg.metabolite: 2ppoh
       - biocyc: META:ISO-PROPANOL
@@ -2429,7 +2429,7 @@
     - name: 2-pyrone-4,6-dicarboxylate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C7H2O6
     - annotation: !!omap
       - bigg.metabolite: 2pyr46dcox
       - biocyc: META:CPD-184
@@ -2484,7 +2484,7 @@
     - name: 3,3'-biflaviolin
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C20H8O10
     - annotation: !!omap
       - bigg.metabolite: 33biflav
       - biocyc: META:CPD-10680
@@ -2520,7 +2520,7 @@
     - name: trans-caffeate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C9H7O4
     - annotation: !!omap
       - bigg.metabolite: 34dhcinm
       - biocyc: META:CPD-676
@@ -2571,7 +2571,7 @@
     - name: 3,6-anhydro-L-galactofuranose
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H10O5
     - annotation: !!omap
       - bigg.metabolite: 36ahgalfur
       - biocyc: META:CPD-8938
@@ -2586,7 +2586,7 @@
     - name: 3,6-anhydro-alpha-L-galactopyranose
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H10O5
     - annotation: !!omap
       - bigg.metabolite: 36ahgalpyr
       - biocyc: META:CPD-13430
@@ -2600,7 +2600,7 @@
     - name: 3,8'-biflaviolin
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C20H8O10
     - annotation: !!omap
       - bigg.metabolite: 38biflav
       - biocyc: META:CPD-10681
@@ -2620,7 +2620,7 @@
     - name: (R)-3-amino-2-methylpropanoate
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C4H9NO2
     - annotation: !!omap
       - bigg.metabolite: 3aib
       - biocyc: META:CPD-471
@@ -2640,7 +2640,7 @@
     - name: (S)-3-aminobutanoyl-CoA
     - compartment: c
     - charge: -3
-    - formula: ''
+    - formula: C25H40N8O17P3S
     - annotation: !!omap
       - bigg.metabolite: 3ambutcoa
       - biocyc: META:CPD-672
@@ -2736,7 +2736,7 @@
     - name: 3-chlorobenzaldehyde
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C7H5OCl
     - annotation: !!omap
       - bigg.metabolite: 3clbxal
       - biocyc: META:CPD-10660
@@ -2751,7 +2751,7 @@
     - name: 3-chlorobenzylalcohol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C7H7OCl
     - annotation: !!omap
       - bigg.metabolite: 3clbzal
       - biocyc: META:CPD-10659
@@ -2766,7 +2766,7 @@
     - name: 3-chlorobenzoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C7H4O2Cl
     - annotation: !!omap
       - bigg.metabolite: 3clbzat
       - biocyc: META:CPD-3486
@@ -2800,7 +2800,7 @@
     - name: 3,5-dichlorocatechol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H4O2Cl2
     - annotation: !!omap
       - bigg.metabolite: 3dclcatc
       - biocyc: META:35-DICHLOROCATECHOL
@@ -2849,7 +2849,7 @@
     - name: 3-dimethylallyl-4-hydroxyphenylpyruvate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C14H15O4
     - annotation: !!omap
       - bigg.metabolite: 3dm4hdppyr
       - biocyc: META:CPD-15467
@@ -2868,7 +2868,7 @@
     - name: 3-dimethylallyl-4-hydroxybenzoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C12H13O3
     - annotation: !!omap
       - bigg.metabolite: 3dma4hbz
       - biocyc: META:CPD-15423
@@ -2887,7 +2887,7 @@
     - name: 3-dimethylallyl-4-hydroxymandelate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C13H15O4
     - annotation: !!omap
       - bigg.metabolite: 3dma4hma
       - biocyc: META:CPD-15502
@@ -2934,7 +2934,7 @@
     - name: (3R)-3-Hydroxy-4-oxobutanoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C4H5O4
     - annotation: !!omap
       - bigg.metabolite: 3h4oxbut
       - biocyc: META:CPD-16618
@@ -3137,7 +3137,7 @@
     - name: 3-hydroxy-trans-cinnamate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C9H7O3
     - annotation: !!omap
       - bigg.metabolite: 3hcinnm
       - biocyc: META:CPD-10797
@@ -3192,7 +3192,7 @@
     - name: 3-hydroxy-5-oxohexanoyl-CoA
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C27H40N7O19P3S
     - annotation: !!omap
       - bigg.metabolite: 3hd4oxhxcoa
       - biocyc: META:CPD-20
@@ -3209,7 +3209,7 @@
     - name: 3-hydroxy-5-oxohexanoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H9O4
     - annotation: !!omap
       - bigg.metabolite: 3hd5ohexa
       - biocyc: META:CPD-19
@@ -3314,7 +3314,7 @@
     - name: 3-hydroxykynurenate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C10H6NO4
     - annotation: !!omap
       - bigg.metabolite: 3hdkynu
       - biocyc: META:CPD-18536
@@ -3762,7 +3762,7 @@
     - name: 3-(3-hydroxyphenyl)propanoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C9H9O3
     - annotation: !!omap
       - bigg.metabolite: 3hpppn
       - biocyc: META:3-HYDROXYPHENYL-PROPIONATE
@@ -3837,7 +3837,7 @@
     - name: 3-hydroxyquinaldate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C10H6NO3
     - annotation: !!omap
       - bigg.metabolite: 3hxquin
       - biocyc: META:CPD-18533
@@ -3886,7 +3886,7 @@
     - name: 3-methylbenzylalcohol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C8H10O
     - annotation: !!omap
       - bigg.metabolite: 3mbzalc
       - biocyc: META:3-METHYLBENZYL-ALCOHOL
@@ -3903,7 +3903,7 @@
     - name: 3-methylbenzaldehyde
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C8H8O
     - annotation: !!omap
       - bigg.metabolite: 3metbzal
       - biocyc: META:CPD-8774
@@ -4028,7 +4028,7 @@
     - name: 3-oxochol-4-en-24-oyl-CoA
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C45H66N7O18P3S
     - annotation: !!omap
       - bigg.metabolite: 3oc4en24ocoa
       - biocyc: META:CPD-13696
@@ -4046,7 +4046,7 @@
     - name: 3-oxocholest-4,24-dien-26-oyl-CoA
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C48H70N7O18P3S
     - annotation: !!omap
       - bigg.metabolite: 3ocd26ocoa
       - biocyc: META:CPD-13692
@@ -4075,7 +4075,7 @@
     - name: 3-oxochol-4,22-dien-24-oyl-CoA
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C45H64N7O18P3S
     - annotation: !!omap
       - bigg.metabolite: 3ocdncoa
       - biocyc: META:CPD-13697
@@ -4093,7 +4093,7 @@
     - name: (25S)-3-oxocholest-4-en-26-oyl-CoA
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C48H72N7O18P3S
     - annotation: !!omap
       - bigg.metabolite: 3oce26ocoa
       - biocyc: META:CPD-13691
@@ -4112,7 +4112,7 @@
     - name: (25R)-3-oxocholest-4-en-26-oyl-CoA
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C48H72N7O18P3S
     - annotation: !!omap
       - bigg.metabolite: 3ocl4e26ocoa
       - biocyc: META:CPD-19066
@@ -4601,7 +4601,7 @@
     - name: 3-octaprenyl-4-hydroxybenzoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C47H69O3
     - annotation: !!omap
       - bigg.metabolite: 3ophb
       - biocyc: META:3-OCTAPRENYL-4-HYDROXYBENZOATE
@@ -4676,7 +4676,7 @@
     - name: 3-[(1-carboxyvinyl)oxy]benzoate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C10H6O5
     - annotation: !!omap
       - bigg.metabolite: 3ovobenz
       - biocyc: META:CPD-16467
@@ -4774,7 +4774,7 @@
     - name: 3-sulfopyruvate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C3H2O6S
     - annotation: !!omap
       - bigg.metabolite: 3spyr
       - biocyc: META:CPD-380
@@ -4793,7 +4793,7 @@
     - name: 3-sulfocatechol
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H5O5S
     - annotation: !!omap
       - bigg.metabolite: 3sulfcat
       - biocyc: META:3-SULFOCATECHOL
@@ -4812,7 +4812,7 @@
     - name: (2R)-3-sulfolactate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C3H4O6S
     - annotation: !!omap
       - bigg.metabolite: 3sulflac
       - biocyc: META:CPD-367
@@ -4831,7 +4831,7 @@
     - name: (2S)-3-sulfopropanediol
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C3H7O5S
     - annotation: !!omap
       - bigg.metabolite: 3sulprop
       - biocyc: META:CPD-12693
@@ -4862,7 +4862,7 @@
     - name: (R)-3-ureido-isobutanoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C5H9N2O3
     - annotation: !!omap
       - bigg.metabolite: 3uribut
       - biocyc: META:3-UREIDO-ISOBUTYRATE
@@ -4878,7 +4878,7 @@
     - name: 4,4'-diapolycopenedial
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C30H36O2
     - annotation: !!omap
       - bigg.metabolite: 44dpcop
       - biocyc: META:CPD-13150
@@ -4895,7 +4895,7 @@
     - name: 4,4'-diapolycopenedioate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C30H34O4
     - annotation: !!omap
       - bigg.metabolite: 44dpcopd
       - biocyc: META:CPD-13151
@@ -4911,7 +4911,7 @@
     - name: 4,5-seco-dopa
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C9H10NO6
     - annotation: !!omap
       - bigg.metabolite: 45secdop
       - biocyc: META:CPD-253
@@ -4949,7 +4949,7 @@
     - name: 4-acetamidobutanoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H10NO3
     - annotation: !!omap
       - bigg.metabolite: 4aabutn
       - biocyc: META:CPD-35
@@ -5111,7 +5111,7 @@
     - name: 4-carboxybenzylalcohol
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C8H7O3
     - annotation: !!omap
       - bigg.metabolite: 4carbzal
       - biocyc: META:4-CARBOXYBENZYL-ALCOHOL
@@ -5126,7 +5126,7 @@
     - name: 4-carboxybenzaldehyde
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C8H5O3
     - annotation: !!omap
       - bigg.metabolite: 4cboxald
       - biocyc: META:4-CARBOXYBENZALDEHYDE
@@ -5198,7 +5198,7 @@
     - name: 4-(gamma-L-glutamylamino)butanal
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C9H16N2O4
     - annotation: !!omap
       - bigg.metabolite: 4gglutbut
       - biocyc: META:GAMMA-GLUTAMYL-GAMMA-AMINOBUTYRALDEH
@@ -5217,7 +5217,7 @@
     - name: 4-guanidinobutanoate
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C5H11N3O2
     - annotation: !!omap
       - bigg.metabolite: 4guanbut
       - biocyc: META:CPD-592
@@ -5238,7 +5238,7 @@
     - name: 4-guanidinobutyramide
     - compartment: c
     - charge: 1
-    - formula: ''
+    - formula: C5H13N4O
     - annotation: !!omap
       - bigg.metabolite: 4gubuty
       - biocyc: META:4-GUANIDO-BUTYRAMIDE
@@ -5257,7 +5257,7 @@
     - name: 4-hydroxy-2-keto-5-methyl-6-oxo-3-hexenoate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C7H6O5
     - annotation: !!omap
       - bigg.metabolite: 4h2mohexn
       - biocyc: META:CPD-9159
@@ -5311,7 +5311,7 @@
     - name: 4-hydroxylaminobenzoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C7H6NO3
     - annotation: !!omap
       - bigg.metabolite: 4hambz
       - biocyc: META:CPD-705
@@ -5326,7 +5326,7 @@
     - name: 4-hydroxybenzaldehyde
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C7H6O2
     - annotation: !!omap
       - bigg.metabolite: 4hbald
       - biocyc: META:4-HYDROXYBENZALDEHYDE
@@ -5343,7 +5343,7 @@
     - name: 4-hydroxybutanoyl-CoA
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C25H38N7O18P3S
     - annotation: !!omap
       - bigg.metabolite: 4hbutcoa
       - biocyc: META:4-HYDROXY-BUTYRYL-COA
@@ -5362,7 +5362,7 @@
     - name: 4-hydroxybenzoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C7H5O3
     - annotation: !!omap
       - bigg.metabolite: 4hbz
       - biocyc: META:4-hydroxybenzoate
@@ -5381,7 +5381,7 @@
     - name: 4alpha-hydroxy-tetrahydrobiopterin
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C9H15N5O4
     - annotation: !!omap
       - bigg.metabolite: 4hdthbiop
       - biocyc: META:CPD-5881
@@ -5473,7 +5473,7 @@
     - name: 4-hydroxyphenylacetate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C8H7O3
     - annotation: !!omap
       - bigg.metabolite: 4hphac
       - biocyc: META:4-HYDROXYPHENYLACETATE
@@ -5527,7 +5527,7 @@
     - name: (4R,7R)-4-isopropenyl-7-methyloxepan-2-one
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C10H16O2
     - annotation: !!omap
       - bigg.metabolite: 4ip7moxo
       - biocyc: META:CPD-10044
@@ -5544,7 +5544,7 @@
     - name: (4S,7R)-4-isopropenyl-7-methyloxepan-2-one
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C10H16O2
     - annotation: !!omap
       - bigg.metabolite: 4ipropmo
       - biocyc: META:CPD-10064
@@ -5579,7 +5579,7 @@
     - name: 4-methylbenzylalcohol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C8H10O
     - annotation: !!omap
       - bigg.metabolite: 4mbzalc
       - biocyc: META:4-METHYLBENZYL-ALCOHOL
@@ -5596,7 +5596,7 @@
     - name: 4-methylbenzaldehyde
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C8H8O
     - annotation: !!omap
       - bigg.metabolite: 4mbzald
       - biocyc: META:CPD-8773
@@ -5662,7 +5662,7 @@
     - name: 4-nitrobenzoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C7H4NO4
     - annotation: !!omap
       - bigg.metabolite: 4nitrobz
       - biocyc: META:CPD-704
@@ -5679,7 +5679,7 @@
     - name: 4-nitrocatechol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H5NO4
     - annotation: !!omap
       - bigg.metabolite: 4nitrocc
       - biocyc: META:CPD-158
@@ -5698,7 +5698,7 @@
     - name: 4-nitrophenol
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H4NO3
     - annotation: !!omap
       - bigg.metabolite: 4nitroph
       - biocyc: META:P-NITROPHENOL
@@ -5817,7 +5817,7 @@
     - name: 4-sulfobenzaldehyde
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C7H5O4S
     - annotation: !!omap
       - bigg.metabolite: 4sulbza
       - biocyc: META:4-SULFOBENZALDEHYDE
@@ -5836,7 +5836,7 @@
     - name: 4-sulfobenzoate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C7H4O5S
     - annotation: !!omap
       - bigg.metabolite: 4sulfbenz
       - biocyc: META:CPD-257
@@ -5856,7 +5856,7 @@
     - name: 4-sulfobenzylalcohol
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C7H7O4S
     - annotation: !!omap
       - bigg.metabolite: 4sulfbzalc
       - biocyc: META:4-SULFOBENZYL-ALCOHOL
@@ -5875,7 +5875,7 @@
     - name: 5,6-dihydrothymine
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C5H8N2O2
     - annotation: !!omap
       - bigg.metabolite: 56dthm
       - biocyc: META:DIHYDRO-THYMINE
@@ -5892,7 +5892,7 @@
     - name: 5,6-dihydrouracil
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C4H6N2O2
     - annotation: !!omap
       - bigg.metabolite: 56dura
       - biocyc: META:DI-H-URACIL
@@ -5909,7 +5909,7 @@
     - name: 5-amino-2-oxopentanoate
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C5H9NO3
     - annotation: !!omap
       - bigg.metabolite: 5a2opntn
       - biocyc: META:5-AMINO-2-OXOPENTANOATE
@@ -5947,7 +5947,7 @@
     - name: (S)-5-amino-3-oxohexanoate
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H11NO3
     - annotation: !!omap
       - bigg.metabolite: 5am3ohex
       - biocyc: META:CPD-159
@@ -6033,7 +6033,7 @@
     - name: (3E,5R)-5-carboxy-2-oxohept-3-enedioate
     - compartment: c
     - charge: -3
-    - formula: ''
+    - formula: C8H5O7
     - annotation: !!omap
       - bigg.metabolite: 5c2oh3ed
       - biocyc: META:CPD-785
@@ -6051,7 +6051,7 @@
     - name: 5-carboxymethyl-2-hydroxymuconate
     - compartment: c
     - charge: -3
-    - formula: ''
+    - formula: C8H5O7
     - annotation: !!omap
       - bigg.metabolite: 5cmhm
       - biocyc: META:CPD-784
@@ -6072,7 +6072,7 @@
     - name: 2-hydroxy-5-carboxymethylmuconatesemialdehyde
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C8H6O6
     - annotation: !!omap
       - bigg.metabolite: 5cmhmsa
       - biocyc: META:CPD-783
@@ -6185,7 +6185,7 @@
     - name: 5-guanidino-2-oxopentanoate
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H11N3O3
     - annotation: !!omap
       - bigg.metabolite: 5g2oxpt
       - biocyc: META:CPD-824
@@ -6318,7 +6318,7 @@
     - name: S-methyl-5-thioinosine
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C11H14N4O4S
     - annotation: !!omap
       - bigg.metabolite: 5mtho
       - biocyc: META:5-METHYLTHIOINOSINE
@@ -6379,7 +6379,7 @@
     - name: O-[5-(hydroxynitroso)-3-(oxidonitroso)-2-oxocyclohexylidenenitroso]oxidanidolate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C6H5N3O7
     - annotation: !!omap
       - bigg.metabolite: 5oxhlnitro
       - biocyc: META:CPD-17570
@@ -6409,7 +6409,7 @@
     - name: 6-amino-6-deoxyfutalosine
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C19H18N5O6
     - annotation: !!omap
       - bigg.metabolite: 6a6doxf
       - biocyc: META:CPD-13324
@@ -6445,7 +6445,7 @@
     - name: (3S,6R)-6-hydroxy-3-isopropenyl-heptanoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C10H17O3
     - annotation: !!omap
       - bigg.metabolite: 6h3iphep
       - biocyc: META:CPD-10065
@@ -6463,7 +6463,7 @@
     - name: (3R,6R)-6-hydroxy-3-isopropenylheptanoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C10H17O3
     - annotation: !!omap
       - bigg.metabolite: 6hd3iphep
       - biocyc: META:CPD-10047
@@ -6481,7 +6481,7 @@
     - name: 6-hydroxyhexanoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H11O3
     - annotation: !!omap
       - bigg.metabolite: 6hdhx
       - biocyc: META:CPD-102
@@ -6534,7 +6534,7 @@
     - name: 6-methylpretetramide
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C20H14NO6
     - annotation: !!omap
       - bigg.metabolite: 6mpttmide
       - biocyc: META:CPD-19273
@@ -6553,7 +6553,7 @@
     - name: 2-dehydro-6-phospho-D-gluconate
     - compartment: c
     - charge: -3
-    - formula: ''
+    - formula: C6H8O10P
     - annotation: !!omap
       - bigg.metabolite: 6p2dgluc
       - biocyc: META:CPD-339
@@ -6671,8 +6671,8 @@
     - id: ACPmmy_c
     - name: MmyA
     - compartment: c
-    - charge: 0
-    - formula: R
+    - charge: -1
+    - formula: RS
     - annotation: !!omap
       - bigg.metabolite: ACPmmy
       - biocyc: META:SCP1.234-MONOMER
@@ -6758,7 +6758,7 @@
     - name: 1-pyrroline
     - compartment: c
     - charge: 1
-    - formula: ''
+    - formula: C4H8N
     - annotation: !!omap
       - bigg.metabolite: CE1944
       - biocyc: META:CPD-6124
@@ -6776,7 +6776,7 @@
     - name: BIOPTERIN
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C9H13N5O3
     - annotation: !!omap
       - bigg.metabolite: CE2705
       - biocyc: META:BIOPTERIN
@@ -6790,7 +6790,7 @@
     - name: ETF-Reduced
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: RH2
     - annotation: !!omap
       - bigg.metabolite: ETFred
       - biocyc: META:ETF-Reduced
@@ -6802,7 +6802,7 @@
     - name: 2-oxoglutaramate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C5H6NO4
     - annotation: !!omap
       - bigg.metabolite: HC00591
       - biocyc: META:2-KETO-GLUTARAMATE
@@ -6821,7 +6821,7 @@
     - name: N-glycolylneuraminate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C11H18NO10
     - annotation: !!omap
       - bigg.metabolite: HC01115
       - biocyc: META:CPD-273
@@ -6848,7 +6848,7 @@
     - name: L-2-aminoadipate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H10NO4
     - annotation: !!omap
       - bigg.metabolite: L2aadp
       - biocyc: META:CPD-468
@@ -6920,7 +6920,7 @@
     - name: L-cysteate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C3H6NO5S
     - annotation: !!omap
       - bigg.metabolite: Lcyst
       - biocyc: META:L-CYSTEATE
@@ -6998,7 +6998,7 @@
     - name: N-formyl-L-glutamate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C6H7NO5
     - annotation: !!omap
       - bigg.metabolite: Nforglu
       - biocyc: META:CPD-600
@@ -7029,7 +7029,7 @@
     - name: S-formylglutathione
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C11H16N3O7S
     - annotation: !!omap
       - bigg.metabolite: Sfglutth
       - biocyc: META:CPD-548
@@ -7048,7 +7048,7 @@
     - name: 4-coumarate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C9H7O3
     - annotation: !!omap
       - bigg.metabolite: T4hcinnm
       - biocyc: META:COUMARATE
@@ -7089,7 +7089,7 @@
     - name: XXXGxyloglucanoligosaccharide
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C39H66O33
     - annotation: !!omap
       - bigg.metabolite: XXXGsacch
       - biocyc: META:CPD-13375
@@ -7104,7 +7104,7 @@
     - name: acrylamide
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C3H5NO
     - annotation: !!omap
       - bigg.metabolite: aa
       - biocyc: META:ACRYLAMIDE
@@ -7169,7 +7169,7 @@
     - name: L-alpha-amino-epsilon-keto-pimelate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C7H10NO5
     - annotation: !!omap
       - bigg.metabolite: aaekpim
       - biocyc: META:L-ALPHA-AMINO-EPSILON-KETO-PIMELATE
@@ -7185,7 +7185,7 @@
     - name: (2S,3S,7R)-2-amino-3-amino-7-hydroxy-8-(2-iminoimidazolidin-4-yl)octanoate
     - compartment: c
     - charge: 1
-    - formula: ''
+    - formula: C11H24N5O3
     - annotation: !!omap
       - bigg.metabolite: aahxioct
       - biocyc: META:CPD-18239
@@ -7200,7 +7200,7 @@
     - name: aminobacteriohopanetriol
     - compartment: c
     - charge: 1
-    - formula: ''
+    - formula: C35H64NO3
     - annotation: !!omap
       - bigg.metabolite: abacptri
       - biocyc: META:CPD-14521
@@ -7334,8 +7334,8 @@
     - id: acarbmucosad_c
     - name: aminocarboxymuconatesemialdehyde
     - compartment: c
-    - charge: -2
-    - formula: ''
+    - charge: -1
+    - formula: C7H6NO5
     - annotation: !!omap
       - bigg.metabolite: acarbmucosad
       - biocyc: META:2-AMINO-3-3-OXOPROP-2-ENYL-BUT-2-ENEDI
@@ -7414,7 +7414,7 @@
     - name: (S)-acetoin
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C4H8O2
     - annotation: !!omap
       - bigg.metabolite: acetoin__S
       - biocyc: META:CPD-255
@@ -7431,7 +7431,7 @@
     - name: ACETOIN
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C4H8O2
     - annotation: !!omap
       - bigg.metabolite: acetoin
       - biocyc: META:ACETOIN
@@ -7445,7 +7445,7 @@
     - name: acetol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C3H6O2
     - annotation: !!omap
       - bigg.metabolite: acetol
       - biocyc: META:ACETOL
@@ -7635,7 +7635,7 @@
     - name: N-acetyl-D-mannosamine
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C8H15NO6
     - annotation: !!omap
       - bigg.metabolite: acmana
       - biocyc: META:N-acetyl-D-mannosamine
@@ -7666,7 +7666,7 @@
     - name: N-acetyl-beta-neuraminate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C11H18NO9
     - annotation: !!omap
       - bigg.metabolite: acnam__B
       - biocyc: META:CPD0-1123
@@ -7749,7 +7749,7 @@
     - name: acrylate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C3H3O2
     - annotation: !!omap
       - bigg.metabolite: acryl
       - biocyc: META:ACRYLATE
@@ -8013,7 +8013,7 @@
     - id: add26810t5o_c
     - name: 1-Aminododeca-2,6,8,10-tetraen-5-ol
     - compartment: c
-    - charge: 0
+    - charge: 10
     - formula: C12H19NO
     - annotation: !!omap
       - origin: iAA1259
@@ -8172,7 +8172,7 @@
     - name: ADP-D-glycero-beta-D-manno-heptose
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C17H25N5O16P2
     - annotation: !!omap
       - bigg.metabolite: adphep_DD
       - biocyc: META:ADP-D-GLYCERO-D-MANNO-HEPTOSE
@@ -8234,7 +8234,7 @@
     - name: beta-D-GlcA-(1rarr2)-alpha-D-Man-(1rarr3)-beta-D-Glc-(1rarr4)-alpha-D-Glc-1-diphospho-ditrans,octacis-undecaprenol
     - compartment: c
     - charge: -3
-    - formula: ''
+    - formula: C79H127O28P2
     - annotation: !!omap
       - bigg.metabolite: agdppdtundec
       - biocyc: META:CPD-12771
@@ -8280,7 +8280,7 @@
     - name: alpha-D-glucopyranosyl-diphosphoundecaprenol
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C61H100O12P2
     - annotation: !!omap
       - bigg.metabolite: agppcap
       - biocyc: META:CPD-12773
@@ -8330,7 +8330,7 @@
     - name: 3,6-anhydro-L-galactonate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H9O6
     - annotation: !!omap
       - bigg.metabolite: ahgalac__L
       - biocyc: META:CPD-17129
@@ -8349,7 +8349,7 @@
     - name: aldehydo-D-mannose
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H12O6
     - annotation: !!omap
       - bigg.metabolite: ahmann
       - biocyc: META:CPD-15373
@@ -8362,7 +8362,7 @@
     - name: adenosylhopane
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C40H63N5O3
     - annotation: !!omap
       - bigg.metabolite: ahop
       - biocyc: META:CPD-14522
@@ -8811,7 +8811,7 @@
     - name: urea-1-carboxylate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C2H3N2O3
     - annotation: !!omap
       - bigg.metabolite: allphn
       - biocyc: META:CPD-578
@@ -8985,7 +8985,7 @@
     - name: (2Z,4E)-2-aminomuconate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H6NO4
     - annotation: !!omap
       - bigg.metabolite: amuco
       - biocyc: META:2-AMINO-MUCONATE
@@ -9004,8 +9004,8 @@
     - id: amucsam_c
     - name: (2Z,4E)-2-amino-6-oxohexa-2,4-dienoate
     - compartment: c
-    - charge: -1
-    - formula: ''
+    - charge: 0
+    - formula: C6H7NO3
     - annotation: !!omap
       - bigg.metabolite: amucsam
       - biocyc: META:2-AMINOMUCONATE_SEMIALDEHYDE
@@ -9110,7 +9110,7 @@
     - name: anthraniloyl-CoA
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C28H37N8O17P3S
     - annotation: !!omap
       - bigg.metabolite: anthrancoa
       - biocyc: META:2-AMINOBENZOYL-COA
@@ -9129,7 +9129,7 @@
     - name: 5',5'''-diadenosinetetraphosphate
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C20H24N10O19P4
     - annotation: !!omap
       - bigg.metabolite: ap4a
       - biocyc: META:ADENOSYL-P4
@@ -9197,7 +9197,7 @@
     - id: apoACPcpk_c
     - name: apoprotein [acyl carrier protein] (cpk)
     - compartment: c
-    - charge: -1
+    - charge: 0
     - formula: RHO
     - annotation: !!omap
       - origin: iAA1259
@@ -9300,7 +9300,7 @@
     - name: N-acetylputrescine
     - compartment: c
     - charge: 1
-    - formula: ''
+    - formula: C6H15N2O
     - annotation: !!omap
       - bigg.metabolite: aprut
       - biocyc: META:CPD-569
@@ -9395,7 +9395,7 @@
     - name: L-arabinonate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C5H9O6
     - annotation: !!omap
       - bigg.metabolite: arabat__L
       - biocyc: META:CPD-1117
@@ -9414,7 +9414,7 @@
     - name: L-arabinofuranose
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C5H10O5
     - annotation: !!omap
       - bigg.metabolite: arabinofur__L
       - biocyc: META:L-arabinofuranose
@@ -9428,7 +9428,7 @@
     - name: L-arabinono-1,4-lactone
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C5H8O5
     - annotation: !!omap
       - bigg.metabolite: arb14lac__L
       - biocyc: META:CPD-368
@@ -9445,7 +9445,7 @@
     - name: D-arginine
     - compartment: c
     - charge: 1
-    - formula: ''
+    - formula: C6H15N4O2
     - annotation: !!omap
       - bigg.metabolite: arg__D
       - biocyc: META:CPD-220
@@ -9540,8 +9540,8 @@
     - id: asc6p_c
     - name: L-ascorbate 6-phosphate
     - compartment: c
-    - charge: 0
-    - formula: C6H909P
+    - charge: -2
+    - formula: C6H7O9P
     - annotation: !!omap
       - kegg.compound: C16186
       - metanetx.chemical: MNXM2689
@@ -9550,8 +9550,8 @@
     - id: asc6p_e
     - name: L-ascorbate 6-phosphate
     - compartment: e
-    - charge: 0
-    - formula: C6H909P
+    - charge: -2
+    - formula: C6H7O9P
     - annotation: !!omap
       - kegg.compound: C16186
       - metanetx.chemical: MNXM2689
@@ -9561,7 +9561,7 @@
     - name: L-ascorbate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H7O6
     - annotation: !!omap
       - bigg.metabolite: ascb__L
       - biocyc: META:ASCORBATE
@@ -9774,7 +9774,7 @@
     - name: all-trans-4,4'-diapolycopene
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C30H40
     - annotation: !!omap
       - bigg.metabolite: at44dcop
       - biocyc: META:CPD-13149
@@ -9825,7 +9825,7 @@
     - name: all-transphytofluene
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C40H62
     - annotation: !!omap
       - bigg.metabolite: atphyflu
       - biocyc: META:CPD-7408
@@ -9862,7 +9862,7 @@
     - name: betainealdehydehydrate
     - compartment: c
     - charge: 1
-    - formula: ''
+    - formula: C5H14NO2
     - annotation: !!omap
       - bigg.metabolite: betahyd
       - biocyc: META:BETAINE-ALDEHYDE-HYDRATE
@@ -9890,7 +9890,7 @@
     - name: betalamate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C9H7NO5
     - annotation: !!omap
       - bigg.metabolite: betalm
       - biocyc: META:CPD-8651
@@ -9919,7 +9919,7 @@
     - name: beta-D-galacturonate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H9O7
     - annotation: !!omap
       - bigg.metabolite: bgalac__D
       - biocyc: META:CPD-12524
@@ -9983,7 +9983,7 @@
     - name: (2R,3S)-beta-methylmalyl-CoA
     - compartment: c
     - charge: -5
-    - formula: ''
+    - formula: C26H37N7O20P3S
     - annotation: !!omap
       - bigg.metabolite: bmmcoa
       - biocyc: META:CPD-9409
@@ -10036,7 +10036,7 @@
     - name: butan-1-al
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C4H8O
     - annotation: !!omap
       - bigg.metabolite: btal
       - biocyc: META:BUTANAL
@@ -10215,7 +10215,7 @@
     - name: butanoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C4H7O2
     - annotation: !!omap
       - bigg.metabolite: butanoate
       - biocyc: META:BUTYRIC_ACID
@@ -10267,7 +10267,7 @@
     - name: benzoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C7H5O2
     - annotation: !!omap
       - bigg.metabolite: bz
       - biocyc: META:BENZOATE
@@ -10286,7 +10286,7 @@
     - name: benzaldehyde
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C7H6O
     - annotation: !!omap
       - bigg.metabolite: bzal
       - biocyc: META:BENZALDEHYDE
@@ -10303,7 +10303,7 @@
     - name: benzylalcohol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C7H8O
     - annotation: !!omap
       - bigg.metabolite: bzalc
       - biocyc: META:BENZYL-ALCOHOL
@@ -10322,7 +10322,7 @@
     - name: benzamide
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C7H7NO
     - annotation: !!omap
       - bigg.metabolite: bzamid
       - biocyc: META:CPD-17683
@@ -10339,7 +10339,7 @@
     - name: (R)-2-benzylsuccinate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C11H10O4
     - annotation: !!omap
       - bigg.metabolite: bzsucc
       - biocyc: META:BENZYLSUCCINATE
@@ -10360,7 +10360,7 @@
     - name: (R)-benzylsuccinyl-CoA
     - compartment: c
     - charge: -5
-    - formula: ''
+    - formula: C32H41N7O19P3S
     - annotation: !!omap
       - bigg.metabolite: bzsuccoa__R
       - biocyc: META:BENZYLSUCCINYL-COA
@@ -10377,7 +10377,7 @@
     - name: benzoylsuccinyl-CoA
     - compartment: c
     - charge: -5
-    - formula: ''
+    - formula: C32H39N7O20P3S
     - annotation: !!omap
       - bigg.metabolite: bzsuccoa
       - biocyc: META:BENZOYLSUCCINYL-COA
@@ -10430,7 +10430,7 @@
     - name: cacodylate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C2H6O2As
     - annotation: !!omap
       - bigg.metabolite: cacodylate
       - biocyc: META:DIMETHYLARSINATE
@@ -10449,7 +10449,7 @@
     - name: trans-caffeoyl-CoA
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C30H38N7O19P3S
     - annotation: !!omap
       - bigg.metabolite: caffcoa
       - biocyc: META:CAFFEOYL-COA
@@ -10470,7 +10470,7 @@
     - name: 3-ureidopropanoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C4H7N2O3
     - annotation: !!omap
       - bigg.metabolite: cala
       - biocyc: META:3-UREIDO-PROPIONATE
@@ -10527,7 +10527,7 @@
     - name: all-trans-beta-carotene
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C40H56
     - annotation: !!omap
       - bigg.metabolite: caro
       - biocyc: META:CPD1F-129
@@ -10664,7 +10664,7 @@
     - name: carbamate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: CH2NO2
     - annotation: !!omap
       - bigg.metabolite: cbm
       - biocyc: META:CARBAMATE
@@ -10830,7 +10830,7 @@
     - name: CDP-4-dehydro-3,6-dideoxy-D-glucose
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C15H21N3O14P2
     - annotation: !!omap
       - bigg.metabolite: cdp4dh36ddglc
       - biocyc: META:CPD-1078
@@ -10851,7 +10851,7 @@
     - name: CDP-4-dehydro-6-deoxy-D-glucose
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C15H21N3O15P2
     - annotation: !!omap
       - bigg.metabolite: cdp4dh6doglc
       - biocyc: META:CPD-658
@@ -11177,7 +11177,7 @@
     - name: 3-(5,6-dihydroxycyclohexa-1,3-dien-1-yl)propanoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C9H11O4
     - annotation: !!omap
       - bigg.metabolite: cechddd
       - biocyc: META:CARBOXYETHYL-3-5-CYCLOHEXADIENE-1-2-DIOL
@@ -11247,7 +11247,7 @@
     - name: cephalosporin-C
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C16H20N3O8S
     - annotation: !!omap
       - bigg.metabolite: cepspoc
       - biocyc: META:CEPHALOSPORIN-C
@@ -11282,7 +11282,7 @@
     - name: cyclohex-1,5-diene-1-carbonyl-CoA
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C28H38N7O17P3S
     - annotation: !!omap
       - bigg.metabolite: ch15deccoa
       - biocyc: META:CYCLOHEXA-15-DIENE-1-CARBONYL-COA
@@ -11301,7 +11301,7 @@
     - name: cis-4-hydroxy-D-proline
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C5H9NO3
     - annotation: !!omap
       - bigg.metabolite: chdpro__D
       - biocyc: META:CIS-4-HYDROXY-D-PROLINE
@@ -11365,7 +11365,7 @@
     - name: chloroacetate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C2H2O2Cl
     - annotation: !!omap
       - bigg.metabolite: chlorac
       - biocyc: META:CHLOROACETIC-ACID
@@ -11384,7 +11384,7 @@
     - name: cholest-4-en-3-one
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C27H44O
     - annotation: !!omap
       - bigg.metabolite: chol4e3o
       - biocyc: META:CPD-323
@@ -11429,7 +11429,7 @@
     - name: cholate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C24H39O5
     - annotation: !!omap
       - bigg.metabolite: cholate
       - biocyc: META:CHOLATE
@@ -11464,7 +11464,7 @@
     - name: cholesterol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C27H46O
     - annotation: !!omap
       - bigg.metabolite: chsterol
       - biocyc: META:CHOLESTEROL
@@ -11530,7 +11530,7 @@
     - name: trans-cinnamate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C9H7O2
     - annotation: !!omap
       - bigg.metabolite: cinnm
       - biocyc: META:CPD-674
@@ -11978,7 +11978,7 @@
     - name: CMP-N-acetyl-beta-neuraminate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C20H29N4O16P
     - annotation: !!omap
       - bigg.metabolite: cmpacna
       - biocyc: META:CMP-N-ACETYL-NEURAMINATE
@@ -11997,7 +11997,7 @@
     - name: CMP-N-glycoloyl-beta-neuraminate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C20H29N4O17P
     - annotation: !!omap
       - bigg.metabolite: cmpglna
       - biocyc: META:CPD-262
@@ -12077,7 +12077,7 @@
     - name: carbonmonoxide
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: CO
     - annotation: !!omap
       - bigg.metabolite: co
       - biocyc: META:CARBON-MONOXIDE
@@ -12345,7 +12345,7 @@
     - name: 4-coumaroyl-CoA
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C30H38N7O18P3S
     - annotation: !!omap
       - bigg.metabolite: coucoa
       - biocyc: META:P-COUMAROYL-COA
@@ -12366,7 +12366,7 @@
     - name: carboxynorspermidine
     - compartment: c
     - charge: 2
-    - formula: ''
+    - formula: C7H19N3O2
     - annotation: !!omap
       - bigg.metabolite: coxsperm
       - biocyc: META:CPD-9995
@@ -12384,7 +12384,7 @@
     - id: cpkepox_c
     - name: 6-(3-(prop-1-en-1-yl)-[2,2-bioxiran]-3-yl)-2,3-dihydropyridine
     - compartment: c
-    - charge: 0
+    - charge: 10
     - formula: C12H15NO2
     - annotation: !!omap
       - origin: iAA1259
@@ -12393,7 +12393,7 @@
     - id: cpkepox_e
     - name: 6-(3-(prop-1-en-1-yl)-[2,2-bioxiran]-3-yl)-2,3-dihydropyridine
     - compartment: e
-    - charge: 0
+    - charge: 10
     - formula: C12H15NO2
     - annotation: !!omap
       - origin: iAA1259
@@ -12468,7 +12468,7 @@
     - name: creatine
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C4H9N3O2
     - annotation: !!omap
       - bigg.metabolite: creat
       - biocyc: META:CREATINE
@@ -12491,7 +12491,7 @@
     - name: L-carnitine
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C7H15NO3
     - annotation: !!omap
       - bigg.metabolite: crn
       - biocyc: META:CARNITINE
@@ -12510,7 +12510,7 @@
     - name: creatinine
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C4H7N3O
     - annotation: !!omap
       - bigg.metabolite: crtn
       - biocyc: META:CREATININE
@@ -12557,7 +12557,7 @@
     - name: carboxyspermidine
     - compartment: c
     - charge: 2
-    - formula: ''
+    - formula: C8H21N3O2
     - annotation: !!omap
       - bigg.metabolite: cspmd
       - biocyc: META:CPD-10012
@@ -12711,7 +12711,7 @@
     - name: cyclohex-1-ene-1-carbonyl-CoA
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C28H40N7O17P3S
     - annotation: !!omap
       - bigg.metabolite: cyccarcoa
       - biocyc: META:CPD-533
@@ -12730,7 +12730,7 @@
     - name: cyclohexane-1-carbonyl-CoA
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C28H42N7O17P3S
     - annotation: !!omap
       - bigg.metabolite: cychex1coa
       - biocyc: META:CPD-577
@@ -12749,7 +12749,7 @@
     - name: cyclohexanone
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H10O
     - annotation: !!omap
       - bigg.metabolite: cychex
       - biocyc: META:CYCLOHEXANONE
@@ -12766,7 +12766,7 @@
     - name: cyclohexanol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H12O
     - annotation: !!omap
       - bigg.metabolite: cychxaol
       - biocyc: META:CYCLOHEXANOL
@@ -12892,7 +12892,7 @@
     - name: 1-deoxy-11-oxopentalenate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C15H19O3
     - annotation: !!omap
       - bigg.metabolite: d11oxpen
       - biocyc: META:CPD-13625
@@ -12943,7 +12943,7 @@
     - name: deacetylcephalosporin-C
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C14H18N3O7S
     - annotation: !!omap
       - bigg.metabolite: dacepspo
       - biocyc: META:DEACETYLCEPHALOSPORIN-C
@@ -13404,7 +13404,7 @@
     - name: trans-Delta2,cis-Delta4-decadienoyl-CoA
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C31H46N7O17P3S
     - annotation: !!omap
       - bigg.metabolite: dddeccoa
       - biocyc: META:T2-C4-DECADIENYL-COA
@@ -13449,7 +13449,7 @@
     - name: trans,octacis-decaprenylphospho-beta-D-arabinofuranose
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C55H90O8P
     - annotation: !!omap
       - bigg.metabolite: decda_tb
       - biocyc: META:CPD-14550
@@ -13627,7 +13627,7 @@
     - name: 3alpha,12alpha-dihydroxy-7-oxo-5beta-cholan-24-oate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C24H37O5
     - annotation: !!omap
       - bigg.metabolite: dh7oxcho
       - biocyc: META:CHOLANATE2
@@ -13691,7 +13691,7 @@
     - name: 2,3-dihydroxy-trans-cinnamate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C9H7O4
     - annotation: !!omap
       - bigg.metabolite: dhcinnm
       - biocyc: META:CPD-10796
@@ -13710,8 +13710,8 @@
     - id: dhdascb_c
     - name: L-dehydro-ascorbate
     - compartment: c
-    - charge: 0
-    - formula: ''
+    - charge: -1
+    - formula: C6H5O6
     - annotation: !!omap
       - bigg.metabolite: dhdascb
       - biocyc: META:L-DEHYDRO-ASCORBATE
@@ -13778,7 +13778,7 @@
     - name: (-)-dehydrodiconiferylacid
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C20H19O7
     - annotation: !!omap
       - bigg.metabolite: dhiconf
       - biocyc: META:CPD-17077
@@ -13796,7 +13796,7 @@
     - name: (-)-dehydrodiconiferylaldehyde
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C20H20O6
     - annotation: !!omap
       - bigg.metabolite: dhiconfa
       - biocyc: META:CPD-17076
@@ -13943,7 +13943,7 @@
     - name: 3-(2,3-dihydroxyphenyl)propanoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C9H9O4
     - annotation: !!omap
       - bigg.metabolite: dhpppn
       - biocyc: META:2-3-DIHYDROXYPHENYL-PROPIONATE
@@ -13992,7 +13992,7 @@
     - name: (8S,9S,10S)-8,10-dimethyl-1-octalin
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C12H20
     - annotation: !!omap
       - bigg.metabolite: dim1oct
       - biocyc: META:CPD-10160
@@ -14134,7 +14134,7 @@
     - name: N,N-dimethylaniline-N-oxide
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C8H11NO
     - annotation: !!omap
       - bigg.metabolite: dmppat
       - biocyc: META:NN-DIMETHYLANILINE-N-OXIDE
@@ -14151,7 +14151,7 @@
     - name: dimethylthiophosphate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C2H6O3PS
     - annotation: !!omap
       - bigg.metabolite: dmthiopp
       - biocyc: META:CPD-8974
@@ -14233,8 +14233,8 @@
     - id: dolichol_c
     - name: DOLICHOLP
     - compartment: c
-    - charge: 0
-    - formula: ''
+    - charge: -2
+    - formula: C80H131O4P
     - annotation: !!omap
       - bigg.metabolite: dolichol
       - biocyc: META:DOLICHOLP
@@ -14252,8 +14252,8 @@
     - id: dolmanp_c
     - name: Dolichyl phosphate D-mannose
     - compartment: c
-    - charge: 0
-    - formula: ''
+    - charge: -1
+    - formula: C86H142O9P
     - annotation: !!omap
       - bigg.metabolite: dolmanp
       - biocyc: META:CPD-171
@@ -14281,7 +14281,7 @@
     - name: L-dopa
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C9H11NO4
     - annotation: !!omap
       - bigg.metabolite: dopa__L
       - biocyc: META:L-DIHYDROXY-PHENYLALANINE
@@ -14330,7 +14330,7 @@
     - name: trans,octacis-decaprenylphospho-beta-D-erythro-pentofuranosid-2-ulose
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C55H88O8P
     - annotation: !!omap
       - bigg.metabolite: dpperypfur
       - biocyc: META:CPD-12041
@@ -14409,7 +14409,7 @@
     - name: dTDP-2,6-dideoxy-D-glycero-hex-2-enos-4-ulose
     - compartment: c
     - charge: -3
-    - formula: ''
+    - formula: C16H19N2O14P2
     - annotation: !!omap
       - bigg.metabolite: dtdp26ddgh2e2u
       - biocyc: META:CPD-13380
@@ -14428,7 +14428,7 @@
     - name: dTDP-3,4-didehydro-2,6-dideoxy-alpha-D-glucose
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C16H20N2O14P2
     - annotation: !!omap
       - bigg.metabolite: dtdp34dh26doglc
       - biocyc: META:CPD-13952
@@ -14483,7 +14483,7 @@
     - name: dTDP-4-dehydro-2,6-dideoxy-alpha-D-allose
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C16H22N2O14P2
     - annotation: !!omap
       - bigg.metabolite: dtdp4dh26dall
       - biocyc: META:CPD-13985
@@ -14500,7 +14500,7 @@
     - name: dTDP-4-dehydro-3-C-methyl-2,6-dideoxy-alpha-D-glucose
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C17H24N2O14P2
     - annotation: !!omap
       - bigg.metabolite: dtdp4dh3m26ddglc
       - biocyc: META:CPD-13958
@@ -14515,7 +14515,7 @@
     - name: dTDP-4-dehydro-2,6-dideoxy-alpha-D-threo-hexopyranose
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C16H22N2O14P2
     - annotation: !!omap
       - bigg.metabolite: dtdp4h26dthp
       - biocyc: META:CPD-13381
@@ -14550,7 +14550,7 @@
     - name: dTDP-alpha-D-olivose
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C16H24N2O14P2
     - annotation: !!omap
       - bigg.metabolite: dtdpaoliv
       - biocyc: META:CPD-11916
@@ -14869,7 +14869,7 @@
     - name: epsilon-caprolactone
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H10O2
     - annotation: !!omap
       - bigg.metabolite: ecaplac
       - biocyc: META:CPD-101
@@ -14886,7 +14886,7 @@
     - name: (E)-cinnamoyl-CoA
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C30H38N7O17P3S
     - annotation: !!omap
       - bigg.metabolite: ecinncoa
       - biocyc: META:CINNAMOYL-COA
@@ -15001,7 +15001,7 @@
     - name: enterobactin
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C30H27N3O15
     - annotation: !!omap
       - bigg.metabolite: enter
       - biocyc: META:ENTEROBACTIN
@@ -15021,7 +15021,7 @@
     - name: enterobactin
     - compartment: e
     - charge: 0
-    - formula: ''
+    - formula: C30H27N3O15
     - annotation: !!omap
       - bigg.metabolite: enter
       - biocyc: META:ENTEROBACTIN
@@ -15105,7 +15105,7 @@
     - name: ETF-Oxidized
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: R
     - annotation: !!omap
       - bigg.metabolite: etf_ox
       - biocyc: META:ETF-Oxidized
@@ -15248,8 +15248,8 @@
     - id: f420ox_c
     - name: Oxidized-Factor-F420
     - compartment: c
-    - charge: 0
-    - formula: ''
+    - charge: -2
+    - formula: C19H19N3O11P
     - annotation: !!omap
       - bigg.metabolite: f420ox
       - biocyc: META:Oxidized-Factor-F420
@@ -15260,8 +15260,8 @@
     - id: f420red_c
     - name: Reduced-Factor-F420
     - compartment: c
-    - charge: 0
-    - formula: ''
+    - charge: -1
+    - formula: C19H22N3O11P
     - annotation: !!omap
       - bigg.metabolite: f420red
       - biocyc: META:Reduced-Factor-F420
@@ -15373,7 +15373,7 @@
     - name: L-fuculose1-phosphate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C6H11O8P
     - annotation: !!omap
       - bigg.metabolite: fc1p
       - biocyc: META:FUCULOSE-1P
@@ -15588,7 +15588,7 @@
     - name: Ferrioxamine E (unloaded)
     - compartment: c
     - charge: -3
-    - formula: C25H45N6O8
+    - formula: C27H45N6O9
     - annotation: !!omap
       - bigg.metabolite: feroxE
       - chebi: CHEBI:60261
@@ -15603,7 +15603,7 @@
     - name: Ferrioxamine E (unloaded)
     - compartment: e
     - charge: -3
-    - formula: C25H45N6O8
+    - formula: C27H45N6O9
     - annotation: !!omap
       - bigg.metabolite: feroxE
       - chebi: CHEBI:60261
@@ -15618,7 +15618,7 @@
     - name: Ferrioxamine E
     - compartment: c
     - charge: 0
-    - formula: C25H45FeN6O8
+    - formula: C27H45FeN6O9
     - annotation: !!omap
       - bigg.metabolite: feroxEfe
       - chebi: CHEBI:5044
@@ -15633,7 +15633,7 @@
     - name: Ferrioxamine E
     - compartment: e
     - charge: 0
-    - formula: C25H45FeN6O8
+    - formula: C27H45FeN6O9
     - annotation: !!omap
       - bigg.metabolite: feroxEfe
       - chebi: CHEBI:5044
@@ -15647,8 +15647,8 @@
     - id: feroxG1_c
     - name: desferrioxamineG1
     - compartment: c
-    - charge: 0
-    - formula: ''
+    - charge: -3
+    - formula: C27H47N6O10
     - annotation: !!omap
       - bigg.metabolite: feroxG1
       - biocyc: META:CPD-11956
@@ -15713,7 +15713,7 @@
     - name: flaviolin
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C10H5O5
     - annotation: !!omap
       - bigg.metabolite: flaviolin
       - biocyc: META:CPD-10679
@@ -15871,7 +15871,7 @@
     - name: (5-formylfuran-3-yl)methylphosphate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C6H5O6P
     - annotation: !!omap
       - bigg.metabolite: forfurmpp
       - biocyc: META:CPD-7643
@@ -15910,7 +15910,7 @@
     - name: formyl-L-isoglutamine
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H9N2O4
     - annotation: !!omap
       - bigg.metabolite: foriglut
       - biocyc: META:FORMYL-ISOGLUTAMINE
@@ -15922,7 +15922,7 @@
     - name: formylhopane
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C35H60O4
     - annotation: !!omap
       - bigg.metabolite: formhop
       - biocyc: META:CPD-14524
@@ -15937,7 +15937,7 @@
     - name: S-formylmycothiol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C18H30N2O13S
     - annotation: !!omap
       - bigg.metabolite: formyct
       - biocyc: META:CPD1G-121
@@ -16002,7 +16002,7 @@
     - name: (2Z,6E)-farnesyldiphosphate
     - compartment: c
     - charge: -3
-    - formula: ''
+    - formula: C15H25O7P2
     - annotation: !!omap
       - bigg.metabolite: frdp_2
       - biocyc: META:CPD-9444
@@ -16087,8 +16087,8 @@
     - id: fruur_c
     - name: FRUCTURONATE
     - compartment: c
-    - charge: 0
-    - formula: ''
+    - charge: -1
+    - formula: C6H9O7
     - annotation: !!omap
       - bigg.metabolite: fruur
       - biocyc: META:FRUCTURONATE
@@ -16161,7 +16161,7 @@
     - name: 3-fumarylpyruvate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C7H4O6
     - annotation: !!omap
       - bigg.metabolite: fumpyr
       - biocyc: META:CPD-277
@@ -16436,7 +16436,7 @@
     - name: gallate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C7H5O5
     - annotation: !!omap
       - bigg.metabolite: ga
       - biocyc: META:CPD-183
@@ -16470,7 +16470,7 @@
     - name: D-galactaro-1,4-lactone
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H7O7
     - annotation: !!omap
       - bigg.metabolite: gal14lac__D
       - biocyc: META:CPD-16522
@@ -16489,7 +16489,7 @@
     - name: D-galactaro-1,5-lactone
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H7O7
     - annotation: !!omap
       - bigg.metabolite: gal15lac
       - biocyc: META:CPD-17138
@@ -16524,7 +16524,7 @@
     - name: L-Galactopyranose
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H12O6
     - annotation: !!omap
       - bigg.metabolite: gal__L
       - biocyc: META:L-Galactopyranose
@@ -16593,7 +16593,7 @@
     - name: L-galactono-1,4-lactone
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H10O6
     - annotation: !!omap
       - bigg.metabolite: galac14lac
       - biocyc: META:CPD-330
@@ -16610,7 +16610,7 @@
     - name: L-galactono-1,5-lactone
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H10O6
     - annotation: !!omap
       - bigg.metabolite: galac15lac
       - biocyc: META:CPD-17157
@@ -16625,7 +16625,7 @@
     - name: galactarate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C6H8O8
     - annotation: !!omap
       - bigg.metabolite: galct__D
       - biocyc: META:D-GALACTARATE
@@ -16765,7 +16765,7 @@
     - name: gamma-carotene
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C40H56
     - annotation: !!omap
       - bigg.metabolite: gcarote
       - biocyc: META:CPD1F-126
@@ -16782,7 +16782,7 @@
     - name: (-)-(alphaS,betaR)-guaiacylglycerol-beta-guaiacylether
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C17H20O6
     - annotation: !!omap
       - bigg.metabolite: gcgguaiac
       - biocyc: META:CPD-11867
@@ -16797,7 +16797,7 @@
     - name: (+)-(alphaS,betaS)-guaiacylglycerol-beta-guaiacylether
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C17H20O6
     - annotation: !!omap
       - bigg.metabolite: gcgguaiace
       - biocyc: META:CPD-11870
@@ -16812,7 +16812,7 @@
     - name: GDP-6-deoxy-4-keto-D-lyxo-heptose
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C17H23N5O16P2
     - annotation: !!omap
       - bigg.metabolite: gdp6dklh
       - biocyc: META:CPD-17406
@@ -16827,7 +16827,7 @@
     - name: GDP-6-deoxy-D-manno-heptose
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C17H25N5O16P2
     - annotation: !!omap
       - bigg.metabolite: gdp6domanhep
       - biocyc: META:CPD-17411
@@ -16893,7 +16893,7 @@
     - name: GDP-alpha-D-mannuronate
     - compartment: c
     - charge: -3
-    - formula: ''
+    - formula: C16H20N5O17P2
     - annotation: !!omap
       - bigg.metabolite: gdpmannur
       - biocyc: META:CPD-1828
@@ -16947,7 +16947,7 @@
     - name: geranial
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C10H16O
     - annotation: !!omap
       - bigg.metabolite: geranial
       - biocyc: META:GERANIAL
@@ -16964,7 +16964,7 @@
     - name: geraniol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C10H18O
     - annotation: !!omap
       - bigg.metabolite: geraniol
       - biocyc: META:GERANIOL
@@ -17025,7 +17025,7 @@
     - name: 4-(gamma-L-glutamylamino)butanoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C9H15N2O5
     - annotation: !!omap
       - bigg.metabolite: gg4abut
       - biocyc: META:CPD-9000
@@ -17044,7 +17044,7 @@
     - name: alpha-D-glucosyl-(1,2)-beta-D-glucuronate-(1,2)-alpha-D-mannosyl-(1,3)-beta-D-glucosyl-(1,4)-alpha-D-glucosyl-diphosphoundecaprenol
     - compartment: c
     - charge: -3
-    - formula: ''
+    - formula: C85H137O33P2
     - annotation: !!omap
       - bigg.metabolite: ggaggdcap
       - biocyc: META:CPD-12784
@@ -17059,7 +17059,7 @@
     - name: gamma-L-glutamyl-S-(hercyn-2-yl)-L-cysteineS-oxide
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C17H26N5O8S
     - annotation: !!omap
       - bigg.metabolite: ggcysto
       - biocyc: META:CPD-15279
@@ -17132,7 +17132,7 @@
     - name: gamma-glutamyl-L-putrescine
     - compartment: c
     - charge: 1
-    - formula: ''
+    - formula: C9H20N3O3
     - annotation: !!omap
       - bigg.metabolite: ggputresc
       - biocyc: META:GAMMA-GLUTAMYL-PUTRESCINE
@@ -17151,7 +17151,7 @@
     - name: 4-hydroxybutanoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C4H7O3
     - annotation: !!omap
       - bigg.metabolite: ghb
       - biocyc: META:4-HYDROXY-BUTYRATE
@@ -17452,7 +17452,7 @@
     - name: D-glucaro-1,4-lactone
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H7O7
     - annotation: !!omap
       - bigg.metabolite: gluca14lac
       - biocyc: META:CPD-17141
@@ -17471,7 +17471,7 @@
     - name: D-glucaro-1,5-lactone
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H7O7
     - annotation: !!omap
       - bigg.metabolite: gluca15lac
       - biocyc: META:CPD-12595
@@ -17490,7 +17490,7 @@
     - name: beta-D-glucuronate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H9O7
     - annotation: !!omap
       - bigg.metabolite: glucor__bD
       - biocyc: META:CPD-12521
@@ -17529,7 +17529,7 @@
     - name: gamma-L-glutamyl-L-cysteine
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C8H13N2O5S
     - annotation: !!omap
       - bigg.metabolite: glucys
       - biocyc: META:L-GAMMA-GLUTAMYLCYSTEINE
@@ -17886,7 +17886,7 @@
     - name: D-glycero-beta-D-manno-heptose1,7-bisphosphate
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C7H12O13P2
     - annotation: !!omap
       - bigg.metabolite: gmhep17bp__B
       - biocyc: META:D-BETA-D-HEPTOSE-17-DIPHOSPHATE
@@ -17905,7 +17905,7 @@
     - name: D-glycero-beta-D-manno-heptose1-phosphate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C7H13O10P
     - annotation: !!omap
       - bigg.metabolite: gmhep1p
       - biocyc: META:D-BETA-D-HEPTOSE-1-P
@@ -17926,8 +17926,8 @@
     - id: gmhep7p_c
     - name: D-ALPHABETA-D-HEPTOSE-7-PHOSPHATE
     - compartment: c
-    - charge: 0
-    - formula: ''
+    - charge: -2
+    - formula: C7H13O10P
     - annotation: !!omap
       - bigg.metabolite: gmhep7p
       - biocyc: META:D-ALPHABETA-D-HEPTOSE-7-PHOSPHATE
@@ -17979,7 +17979,7 @@
     - name: N-acetyl-alpha-D-glucosaminyl-phospho-ditrans,octacis-undecaprenol
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C63H103NO9P
     - annotation: !!omap
       - bigg.metabolite: gpdtoucap
       - biocyc: META:CPD-19317
@@ -18204,7 +18204,7 @@
     - name: L-gulono-1,4-lactone
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H10O6
     - annotation: !!omap
       - bigg.metabolite: gullac
       - biocyc: META:L-GULONO-1-4-LACTONE
@@ -18221,7 +18221,7 @@
     - name: L-gulonate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H11O7
     - annotation: !!omap
       - bigg.metabolite: guln__L
       - biocyc: META:L-GULONATE
@@ -18241,7 +18241,7 @@
     - id: h246dectACPcpk_c
     - name: 3-Hydroxy-2,4,6-Decatetraenoyl-[acyl-carrier protein]
     - compartment: c
-    - charge: -1
+    - charge: 7
     - formula: C21H33N2O9PRS
     - annotation: !!omap
       - origin: iAA1259
@@ -18251,7 +18251,7 @@
     - name: H2
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: H2
     - annotation: !!omap
       - bigg.metabolite: h2
       - biocyc: META:HYDROGEN-MOLECULE
@@ -18433,7 +18433,7 @@
     - name: 4-hydroxyacetophenone
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C8H8O2
     - annotation: !!omap
       - bigg.metabolite: haphenon
       - biocyc: META:CPD-10598
@@ -18472,7 +18472,7 @@
     - name: S-(hercyn-2-yl)-L-cysteineS-oxide
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C12H20N4O5S
     - annotation: !!omap
       - bigg.metabolite: hccystox
       - biocyc: META:CPD-15277
@@ -18599,7 +18599,7 @@
     - id: hdd2610t_c
     - name: 5-Hydroxydodeca-2,6,8,10-tetraenal
     - compartment: c
-    - charge: 0
+    - charge: 9
     - formula: C12H15O2
     - annotation: !!omap
       - origin: iAA1259
@@ -18636,7 +18636,7 @@
     - id: hdhk_c
     - name: Hydroxylated dihydrokalafungin
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C16H13O7
     - annotation: !!omap
       - bigg.metabolite: hdhk
@@ -18650,7 +18650,7 @@
     - name: N-hydroxycadaverine
     - compartment: c
     - charge: 1
-    - formula: ''
+    - formula: C5H15N2O
     - annotation: !!omap
       - bigg.metabolite: hdoxcad
       - biocyc: META:CPD-11953
@@ -18772,7 +18772,7 @@
     - name: hercynine
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C9H15N3O2
     - annotation: !!omap
       - bigg.metabolite: hercyn
       - biocyc: META:CPD-15280
@@ -18790,7 +18790,7 @@
     - id: hex24dACPcpk_c
     - name: 2,4-Hexadienoyl-ACP (n-C6:2ACP)
     - compartment: c
-    - charge: -1
+    - charge: 5
     - formula: C17H29N2O8PRS
     - annotation: !!omap
       - origin: iAA1259
@@ -19067,7 +19067,7 @@
     - name: S-(hydroxymethyl)glutathione
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C11H18N3O7S
     - annotation: !!omap
       - bigg.metabolite: hmgth
       - biocyc: META:S-HYDROXYMETHYLGLUTATHIONE
@@ -19087,7 +19087,7 @@
     - name: S-hydroxymethylmycothiol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C18H32N2O13S
     - annotation: !!omap
       - bigg.metabolite: hmmsh
       - biocyc: META:S-HYDROXYMETHYLMYCOTHIOL
@@ -19167,7 +19167,7 @@
     - name: 1-hydroxy-2-oxo-3-sulfopropane
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C3H5O5S
     - annotation: !!omap
       - bigg.metabolite: hosuprop
       - biocyc: META:CPD-12694
@@ -19259,7 +19259,7 @@
     - name: hydroxysqualene
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C30H50O
     - annotation: !!omap
       - bigg.metabolite: hsql
       - biocyc: META:CPD-18508
@@ -19354,7 +19354,7 @@
     - name: N5-hydroxy-L-ornithine
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C5H12N2O3
     - annotation: !!omap
       - bigg.metabolite: hycorn
       - biocyc: META:CPD-11571
@@ -19373,7 +19373,7 @@
     - name: N-hydroxy-N-succinylcadaverine
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C9H18N2O4
     - annotation: !!omap
       - bigg.metabolite: hyxsuccad
       - biocyc: META:CPD-11955
@@ -19634,7 +19634,7 @@
     - name: indole-3-acetamide
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C10H10N2O
     - annotation: !!omap
       - bigg.metabolite: iad
       - biocyc: META:CPD-237
@@ -19895,7 +19895,7 @@
     - name: indole-3-acetate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C10H8NO2
     - annotation: !!omap
       - bigg.metabolite: ind3ac
       - biocyc: META:INDOLE_ACETATE_AUXIN
@@ -19968,7 +19968,7 @@
     - name: (indol-3-yl)pyruvate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C11H8NO3
     - annotation: !!omap
       - bigg.metabolite: indpyr
       - biocyc: META:INDOLE_PYRUVATE
@@ -20059,7 +20059,7 @@
     - name: isoprimeverose
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C11H20O10
     - annotation: !!omap
       - bigg.metabolite: iprimev
       - biocyc: META:CPD0-1202
@@ -20102,7 +20102,7 @@
     - name: itaconyl-CoA
     - compartment: c
     - charge: -5
-    - formula: ''
+    - formula: C26H35N7O19P3S
     - annotation: !!omap
       - bigg.metabolite: itaccoa
       - biocyc: META:CPD-1137
@@ -20121,7 +20121,7 @@
     - name: itaconate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C5H4O4
     - annotation: !!omap
       - bigg.metabolite: itacon
       - biocyc: META:ITACONATE
@@ -20211,7 +20211,7 @@
     - name: alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-(lauroyl)-lipidIVA
     - compartment: c
     - charge: -6
-    - formula: ''
+    - formula: C96H170N2O38P2
     - annotation: !!omap
       - bigg.metabolite: kdo2laur
       - biocyc: META:KDO2-LAUROYL-LIPID-IVA
@@ -20226,7 +20226,7 @@
     - name: alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-lipidIVA
     - compartment: c
     - charge: -6
-    - formula: ''
+    - formula: C84H148N2O37P2
     - annotation: !!omap
       - bigg.metabolite: kdo2lipid4
       - biocyc: META:KDO2-LIPID-IVA
@@ -20319,7 +20319,7 @@
     - name: (R)-lactaldehyde
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C3H6O2
     - annotation: !!omap
       - bigg.metabolite: lald__D
       - biocyc: META:CPD-358
@@ -20433,7 +20433,7 @@
     - name: (R)-S-lactoylglutathione
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C13H20N3O8S
     - annotation: !!omap
       - bigg.metabolite: lgt__S
       - biocyc: META:S-LACTOYL-GLUTATHIONE
@@ -20588,7 +20588,7 @@
     - name: all-trans-lycopene
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C40H56
     - annotation: !!omap
       - bigg.metabolite: lycop
       - biocyc: META:CPD1F-114
@@ -20718,7 +20718,7 @@
     - name: L-lyxonate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C5H9O6
     - annotation: !!omap
       - bigg.metabolite: lyxat__L
       - biocyc: META:CPD0-1198
@@ -20735,7 +20735,7 @@
     - name: m-toluate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C8H7O2
     - annotation: !!omap
       - bigg.metabolite: m_tol
       - biocyc: META:CPD-8775
@@ -20946,7 +20946,7 @@
     - name: 3-maleylpyruvate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C7H4O6
     - annotation: !!omap
       - bigg.metabolite: malpyr
       - biocyc: META:CPD-1070
@@ -21165,7 +21165,7 @@
     - name: (S)-malyl-CoA
     - compartment: c
     - charge: -5
-    - formula: ''
+    - formula: C25H35N7O20P3S
     - annotation: !!omap
       - bigg.metabolite: malylcoa
       - biocyc: META:malylcoa
@@ -21243,7 +21243,7 @@
     - name: D-mannonate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H11O7
     - annotation: !!omap
       - bigg.metabolite: mana
       - biocyc: META:D-MANNONATE
@@ -21261,8 +21261,8 @@
     - id: marsonate_c
     - name: methylarsonate
     - compartment: c
-    - charge: -1
-    - formula: ''
+    - charge: -2
+    - formula: CH3O3As
     - annotation: !!omap
       - bigg.metabolite: marsonate
       - biocyc: META:METHYLARSONATE
@@ -21475,7 +21475,7 @@
     - name: methylacetate
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C3H6O2
     - annotation: !!omap
       - bigg.metabolite: metac
       - biocyc: META:METHYL-ACETATE
@@ -21492,7 +21492,7 @@
     - name: methyltert-butylether
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C5H12O
     - annotation: !!omap
       - bigg.metabolite: metbute
       - biocyc: META:CPD-19011
@@ -21525,7 +21525,7 @@
     - name: N-methylhydantoin
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C4H6N2O2
     - annotation: !!omap
       - bigg.metabolite: methydan
       - biocyc: META:N-METHYLHYDANTOIN
@@ -21774,7 +21774,7 @@
     - name: methylenomycin A
     - compartment: c
     - charge: 0
-    - formula: C9H17O4
+    - formula: C9H10O4
     - annotation: !!omap
       - bigg.metabolite: mmyA
       - biocyc: META:CPD1A0-6126
@@ -21786,7 +21786,7 @@
     - name: methylenomycin A
     - compartment: e
     - charge: 0
-    - formula: C9H17O4
+    - formula: C9H10O4
     - annotation: !!omap
       - bigg.metabolite: mmyA
       - biocyc: META:CPD1A0-6126
@@ -21798,7 +21798,7 @@
     - name: methylenomycin B
     - compartment: c
     - charge: 0
-    - formula: C8H15O1
+    - formula: C8H10O1
     - annotation: !!omap
       - bigg.metabolite: mmyB
       - biocyc: META:CPD1A0-6127
@@ -21810,7 +21810,7 @@
     - name: methylenomycin B
     - compartment: e
     - charge: 0
-    - formula: C8H15O1
+    - formula: C8H10O1
     - annotation: !!omap
       - bigg.metabolite: mmyB
       - biocyc: META:CPD1A0-6127
@@ -21822,7 +21822,7 @@
     - name: methylenomycin C
     - compartment: c
     - charge: 0
-    - formula: C9H16O3
+    - formula: C9H10O3
     - annotation: !!omap
       - bigg.metabolite: mmyC
       - biocyc: META:CPD1A0-6125
@@ -22045,7 +22045,7 @@
     - name: mompain
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C10H5O6
     - annotation: !!omap
       - bigg.metabolite: mompain
       - biocyc: META:CPD-16816
@@ -22060,7 +22060,7 @@
     - name: methylparathion
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C8H10NO5PS
     - annotation: !!omap
       - bigg.metabolite: mparathion
       - biocyc: META:CPD-8973
@@ -22077,7 +22077,7 @@
     - name: (-)-(betaR)-MPHPV
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C17H18O6
     - annotation: !!omap
       - bigg.metabolite: mphpv__R
       - biocyc: META:CPD-11872
@@ -22092,7 +22092,7 @@
     - name: (+)-(betaS)-MPHPV
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C17H18O6
     - annotation: !!omap
       - bigg.metabolite: mphpv__S
       - biocyc: META:CPD-11871
@@ -22107,7 +22107,7 @@
     - name: methylphosphonate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: CH4O3P
     - annotation: !!omap
       - bigg.metabolite: mppate
       - biocyc: META:CPD0-1068
@@ -22127,7 +22127,7 @@
     - name: Mg-protoporphyrin
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C34H30N4O4Mg
     - annotation: !!omap
       - bigg.metabolite: mppp9
       - biocyc: META:MG-PROTOPORPHYRIN
@@ -22266,7 +22266,7 @@
     - name: methylglyoxal
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C3H4O2
     - annotation: !!omap
       - bigg.metabolite: mthgxl
       - biocyc: META:METHYL-GLYOXAL
@@ -22441,7 +22441,7 @@
     - name: methylarsonite
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: CH5O2As
     - annotation: !!omap
       - bigg.metabolite: myarso
       - biocyc: META:METHYLARSONITE
@@ -22460,7 +22460,7 @@
     - name: mycothiol-arsenateconjugate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C17H29N2O15SAs
     - annotation: !!omap
       - bigg.metabolite: mycthigpyrpp
       - biocyc: META:CPD-12152
@@ -22523,7 +22523,7 @@
     - name: 4-acetamidobutanal
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H11NO2
     - annotation: !!omap
       - bigg.metabolite: n4abutn
       - biocyc: META:CPD-30
@@ -22540,7 +22540,7 @@
     - name: N-acetyl-L,L-2,6-diaminopimelate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C9H15N2O5
     - annotation: !!omap
       - bigg.metabolite: n6all26d
       - biocyc: META:CPD-1771
@@ -22560,7 +22560,7 @@
     - name: N6-hydroxy-L-lysine
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H14N2O3
     - annotation: !!omap
       - bigg.metabolite: n6hxlys
       - biocyc: META:CPD-265
@@ -22670,7 +22670,7 @@
     - name: N-acetyl-L-citrulline
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C8H14N3O4
     - annotation: !!omap
       - bigg.metabolite: nacitrul__L
       - biocyc: META:CPD-7224
@@ -22689,7 +22689,7 @@
     - name: N-acetylphosphinothricin
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C7H12NO5P
     - annotation: !!omap
       - bigg.metabolite: nacpphin
       - biocyc: META:CPD-9999
@@ -22741,7 +22741,7 @@
     - name: (R)-NADHX
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C21H29N7O15P2
     - annotation: !!omap
       - bigg.metabolite: nadhx__R
       - biocyc: META:CPD0-2472
@@ -22760,7 +22760,7 @@
     - name: (S)-NADHX
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C21H29N7O15P2
     - annotation: !!omap
       - bigg.metabolite: nadhx__S
       - biocyc: META:CPD-653
@@ -22816,7 +22816,7 @@
     - name: (R)-NADPHX
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C21H28N7O18P3
     - annotation: !!omap
       - bigg.metabolite: nadphx__R
       - biocyc: META:CPD-14133
@@ -22835,7 +22835,7 @@
     - name: (S)-NADPHX
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C21H28N7O18P3
     - annotation: !!omap
       - bigg.metabolite: nadphx__S
       - biocyc: META:CPD0-2474
@@ -22854,7 +22854,7 @@
     - name: L-2-acetamido-6-oxoheptanedioate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C9H11NO6
     - annotation: !!omap
       - bigg.metabolite: nal2a6o
       - biocyc: META:N-ACETYL-L-2-AMINO-6-OXO-PIMELATE
@@ -22887,7 +22887,7 @@
     - name: N-carbamoylsarcosine
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C4H7N2O3
     - annotation: !!omap
       - bigg.metabolite: ncrbmsar
       - biocyc: META:CARBAMOYL-SARCOSINE
@@ -22906,7 +22906,7 @@
     - name: neral
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C10H16O
     - annotation: !!omap
       - bigg.metabolite: neral
       - biocyc: META:CPD-9762
@@ -22920,7 +22920,7 @@
     - name: all-transneurosporene
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C40H58
     - annotation: !!omap
       - bigg.metabolite: neuspn
       - biocyc: META:NEUROSPORENE
@@ -23019,7 +23019,7 @@
     - name: nicotine-1'-N-oxide
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C10H14N2O
     - annotation: !!omap
       - bigg.metabolite: nic1ox
       - biocyc: META:CPD-2743
@@ -23035,7 +23035,7 @@
     - name: (S)-nicotine
     - compartment: c
     - charge: 1
-    - formula: ''
+    - formula: C10H15N2
     - annotation: !!omap
       - bigg.metabolite: nico__S
       - biocyc: META:NICOTINE
@@ -23084,7 +23084,7 @@
     - name: Ni-sirohydrochlorin
     - compartment: c
     - charge: -8
-    - formula: ''
+    - formula: C42H36N4O16Ni
     - annotation: !!omap
       - bigg.metabolite: nisirhcl
       - biocyc: META:CPD-7564
@@ -23132,7 +23132,7 @@
     - name: N,N-dimethylaniline
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C8H11N
     - annotation: !!omap
       - bigg.metabolite: nndmyani
       - biocyc: META:NN-DIMETHYLANILINE
@@ -23280,7 +23280,7 @@
     - name: 1,3,6,8-naphthalenetetrol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C10H8O4
     - annotation: !!omap
       - bigg.metabolite: nphtatt
       - biocyc: META:TETRAHYD-CPD
@@ -23297,7 +23297,7 @@
     - name: Ni-sirohydrochlorina,c-diamide
     - compartment: c
     - charge: -6
-    - formula: ''
+    - formula: C42H40N6O14Ni
     - annotation: !!omap
       - bigg.metabolite: nsirhcda
       - biocyc: META:CPD-7590
@@ -23362,7 +23362,7 @@
     - name: O-[3-nitro-5-(oxidonitroso)-4-oxocyclohex-2-en-1-ylidenenitroso]oxidanidolate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C6H3N3O7
     - annotation: !!omap
       - bigg.metabolite: o3n54ocyo
       - biocyc: META:CPD-17567
@@ -23376,7 +23376,7 @@
     - name: O-[5-(oxidonitroso)-4-oxocyclohex-2-en-1-ylidenenitroso]oxidanidolate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C6H4N2O5
     - annotation: !!omap
       - bigg.metabolite: o54ocyo
       - biocyc: META:CPD-17565
@@ -23641,7 +23641,7 @@
     - name: OH-
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: HO
     - annotation: !!omap
       - bigg.metabolite: oh1
       - biocyc: META:OH
@@ -23674,7 +23674,7 @@
     - name: hydroxylradical
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: HO
     - annotation: !!omap
       - bigg.metabolite: ohrad
       - biocyc: META:CPD-12377
@@ -23741,7 +23741,7 @@
     - name: D-ornithine
     - compartment: c
     - charge: 1
-    - formula: ''
+    - formula: C5H13N2O2
     - annotation: !!omap
       - bigg.metabolite: orn__D
       - biocyc: META:CPD-217
@@ -23938,7 +23938,7 @@
     - name: 4-toluenecarboxylate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C8H7O2
     - annotation: !!omap
       - bigg.metabolite: p_tol
       - biocyc: META:4-TOLUENECARBOXYLATE
@@ -24365,7 +24365,7 @@
     - name: pentalenolactone
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C15H15O5
     - annotation: !!omap
       - bigg.metabolite: paolac
       - biocyc: META:CPD-13619
@@ -24435,7 +24435,7 @@
     - name: p-cumicaldehyde
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C10H12O
     - annotation: !!omap
       - bigg.metabolite: pcumald
       - biocyc: META:CPD-1003
@@ -24452,7 +24452,7 @@
     - name: p-cumate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C10H11O2
     - annotation: !!omap
       - bigg.metabolite: pcumat
       - biocyc: META:CPD-1004
@@ -24815,7 +24815,7 @@
     - name: pentalenolactoneF
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C15H17O5
     - annotation: !!omap
       - bigg.metabolite: pentlacF
       - biocyc: META:CPD-13622
@@ -24834,7 +24834,7 @@
     - name: pentalenolactoneD
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C15H19O4
     - annotation: !!omap
       - bigg.metabolite: pentlacd
       - biocyc: META:CPD-13621
@@ -25518,7 +25518,7 @@
     - name: phenylglyoxylate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C8H5O3
     - annotation: !!omap
       - bigg.metabolite: phgkyx
       - biocyc: META:PHENYLGLYOXYLATE
@@ -25557,7 +25557,7 @@
     - name: (E)-2-benzylidenesuccinyl-CoA
     - compartment: c
     - charge: -5
-    - formula: ''
+    - formula: C32H39N7O19P3S
     - annotation: !!omap
       - bigg.metabolite: phitcoa
       - biocyc: META:E-PHENYLITACONYL-COA
@@ -25826,7 +25826,7 @@
     - name: picolinate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C6H4NO2
     - annotation: !!omap
       - bigg.metabolite: picoln
       - biocyc: META:PICOLINATE
@@ -26062,7 +26062,7 @@
     - name: (2R)-phospho-3-sulfolactate
     - compartment: c
     - charge: -4
-    - formula: ''
+    - formula: C3H3O9PS
     - annotation: !!omap
       - bigg.metabolite: pp2slac
       - biocyc: META:CPD-366
@@ -26175,7 +26175,7 @@
     - name: L-1-PHOSPHATIDYL-ETHANOLAMINE
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C41H78N1O8P1
     - annotation: !!omap
       - bigg.metabolite: ppdyletamin
       - biocyc: META:L-1-PHOSPHATIDYL-ETHANOLAMINE
@@ -26204,7 +26204,7 @@
     - name: L-phosphinothricin
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C5H11NO4P
     - annotation: !!omap
       - bigg.metabolite: pphinit
       - biocyc: META:L-PHOSPHINOTHRICIN
@@ -26311,7 +26311,7 @@
     - name: 3-phenylpropanoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C9H9O2
     - annotation: !!omap
       - bigg.metabolite: pppn
       - biocyc: META:3-PHENYLPROPIONATE
@@ -26547,7 +26547,7 @@
     - name: prephytoenediphosphate
     - compartment: c
     - charge: -3
-    - formula: ''
+    - formula: C40H65O7P2
     - annotation: !!omap
       - bigg.metabolite: prephytedp
       - biocyc: META:CPD-464
@@ -26629,7 +26629,7 @@
     - name: D-proline
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C5H9NO2
     - annotation: !!omap
       - bigg.metabolite: pro__D
       - biocyc: META:D-PROLINE
@@ -26717,7 +26717,7 @@
     - name: propane
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C3H8
     - annotation: !!omap
       - bigg.metabolite: propane
       - biocyc: META:CPD-18984
@@ -26763,7 +26763,7 @@
     - name: propane-1,3-diamine
     - compartment: c
     - charge: 2
-    - formula: ''
+    - formula: C3H12N2
     - annotation: !!omap
       - bigg.metabolite: prp13da
       - biocyc: META:CPD-313
@@ -26782,7 +26782,7 @@
     - name: (2E)-3-(5,6-dihydroxycyclohexa-1,3-dien-1-yl)prop-2-enoate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C9H9O4
     - annotation: !!omap
       - bigg.metabolite: prp2enoate
       - biocyc: META:CPD-13034
@@ -27258,7 +27258,7 @@
     - name: pretetramide
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C19H12NO6
     - annotation: !!omap
       - bigg.metabolite: pttamid
       - biocyc: META:CPD-19275
@@ -27275,7 +27275,7 @@
     - name: pseudouridine5'-phosphate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C9H11N2O9P
     - annotation: !!omap
       - bigg.metabolite: puri4pp
       - biocyc: META:PSEUDOURIDINE-5-P
@@ -27420,7 +27420,7 @@
     - name: 1-pyrroline-2-carboxylate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C5H6NO2
     - annotation: !!omap
       - bigg.metabolite: pyr2cbox
       - biocyc: META:DELTA1-PYRROLINE_2-CARBOXYLATE
@@ -27495,7 +27495,7 @@
     - name: pyrogallol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H6O3
     - annotation: !!omap
       - bigg.metabolite: pyrgal
       - biocyc: META:PYROGALLOL
@@ -27675,7 +27675,7 @@
     - name: D-ribulose
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C5H10O5
     - annotation: !!omap
       - bigg.metabolite: rbl__D
       - biocyc: META:D-RIBULOSE
@@ -27706,7 +27706,7 @@
     - name: ribitol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C5H12O5
     - annotation: !!omap
       - bigg.metabolite: rbt
       - biocyc: META:RIBITOL
@@ -27780,7 +27780,7 @@
     - name: alpha-D-ribose-1-methylphosphonate-5-triphosphate
     - compartment: c
     - charge: -5
-    - formula: ''
+    - formula: C6H11O16P4
     - annotation: !!omap
       - bigg.metabolite: rib1mpp5tpp
       - biocyc: META:CPD0-2479
@@ -27848,7 +27848,7 @@
     - name: ribosylhopane
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C35H60O4
     - annotation: !!omap
       - bigg.metabolite: ribsylo
       - biocyc: META:CPD-14523
@@ -27923,7 +27923,7 @@
     - name: L-rhamnulofuranose
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H12O5
     - annotation: !!omap
       - bigg.metabolite: rmnf
       - biocyc: META:CPD-16567
@@ -27957,7 +27957,7 @@
     - name: D-ribulose1-phosphate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C5H9O8P
     - annotation: !!omap
       - bigg.metabolite: ru1p__D
       - biocyc: META:D-RIBULOSE-1-P
@@ -28085,7 +28085,7 @@
     - name: sarcosine
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C3H7NO2
     - annotation: !!omap
       - bigg.metabolite: sarcs
       - biocyc: META:SARCOSINE
@@ -28447,7 +28447,7 @@
     - name: (2S)-3-sulfolactate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C3H4O6S
     - annotation: !!omap
       - bigg.metabolite: sl__L
       - biocyc: META:CPD-11799
@@ -28519,7 +28519,7 @@
     - name: L-sorbosone1,4-lactone
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H10O6
     - annotation: !!omap
       - bigg.metabolite: sorb14lac
       - biocyc: META:CPD-9055
@@ -28612,7 +28612,7 @@
     - name: streptomycin
     - compartment: c
     - charge: 3
-    - formula: ''
+    - formula: C21H42N7O12
     - annotation: !!omap
       - bigg.metabolite: stmyn
       - biocyc: META:STREPTOMYCIN
@@ -28631,7 +28631,7 @@
     - name: streptomycin6-phosphate
     - compartment: c
     - charge: 1
-    - formula: ''
+    - formula: C21H41N7O15P
     - annotation: !!omap
       - bigg.metabolite: strep6p
       - biocyc: META:CPD-529
@@ -28935,7 +28935,7 @@
     - name: trans-3-hydroxy-L-proline
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C5H9NO3
     - annotation: !!omap
       - bigg.metabolite: t3hdprol
       - biocyc: META:CPD-664
@@ -29106,7 +29106,7 @@
     - name: keto-D-tagatose6-phosphate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C6H11O9P
     - annotation: !!omap
       - bigg.metabolite: tag6p
       - biocyc: META:CPD-15826
@@ -29371,7 +29371,7 @@
     - name: tert-butylalcohol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C4H10O
     - annotation: !!omap
       - bigg.metabolite: tbutalc
       - biocyc: META:CPD-19012
@@ -29388,7 +29388,7 @@
     - name: tert-butylformate
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C5H10O2
     - annotation: !!omap
       - bigg.metabolite: tbutfor
       - biocyc: META:CPD-19044
@@ -29403,7 +29403,7 @@
     - name: tert-butoxymethanol
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C5H12O2
     - annotation: !!omap
       - bigg.metabolite: tbutmet
       - biocyc: META:CPD-19043
@@ -29431,7 +29431,7 @@
     - name: 2,3,5,6-tetrachloro-1,4-benzoquinone
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6O2Cl4
     - annotation: !!omap
       - bigg.metabolite: tcl14bzq
       - biocyc: META:CPD-19762
@@ -29447,7 +29447,7 @@
     - name: 2,3,5,6-tetrachlorohydroquinone
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C6O2Cl4
     - annotation: !!omap
       - bigg.metabolite: tclhqn
       - biocyc: META:TETRACHLOROHYDROQUINONE
@@ -29465,8 +29465,8 @@
     - id: tcynt_c
     - name: Thiocyanate
     - compartment: c
-    - charge: 0
-    - formula: HCNS
+    - charge: -1
+    - formula: CNS
     - annotation: !!omap
       - bigg.metabolite: tcynt
       - biocyc: META:HSCN
@@ -30092,7 +30092,7 @@
     - name: trimethylamine
     - compartment: c
     - charge: 1
-    - formula: ''
+    - formula: C3H10N
     - annotation: !!omap
       - bigg.metabolite: tma
       - biocyc: META:TRIMETHYLAMINE
@@ -30111,7 +30111,7 @@
     - name: trimethylamineN-oxide
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C3H9NO
     - annotation: !!omap
       - bigg.metabolite: tmao
       - biocyc: META:TRIMETHYLAMINE-N-O
@@ -30193,7 +30193,7 @@
     - name: trans,octacis-decaprenylphospho-beta-D-ribofuranose
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C55H90O8P
     - annotation: !!omap
       - bigg.metabolite: todcpribfur
       - biocyc: META:CPD-12040
@@ -30876,7 +30876,7 @@
     - name: UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-gamma-D-glutamyl-L-lysine
     - compartment: c
     - charge: -3
-    - formula: ''
+    - formula: C34H52N7O24P2
     - annotation: !!omap
       - bigg.metabolite: uGgl
       - biocyc: META:CPD-209
@@ -30893,7 +30893,7 @@
     - name: UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine
     - compartment: c
     - charge: -3
-    - formula: ''
+    - formula: C40H62N9O26P2
     - annotation: !!omap
       - bigg.metabolite: uGgla
       - biocyc: META:C3
@@ -31103,7 +31103,7 @@
     - name: UDP-4-deoxy-4-formamido-beta-L-arabinopyranose
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C15H21N3O16P2
     - annotation: !!omap
       - bigg.metabolite: udpLa4fn
       - biocyc: META:UDP-L-ARA4-FORMYL-N
@@ -31122,7 +31122,7 @@
     - name: UDP-4-amino-4-deoxy-beta-L-arabinopyranose
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C14H22N3O15P2
     - annotation: !!omap
       - bigg.metabolite: udpLa4n
       - biocyc: META:UDP-4-AMINO-4-DEOXY-L-ARABINOSE
@@ -31141,7 +31141,7 @@
     - name: UDP-beta-L-threo-pentapyranos-4-ulose
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C14H18N2O16P2
     - annotation: !!omap
       - bigg.metabolite: udpLa4o
       - biocyc: META:5-BETA-L-THREO-PENTAPYRANOSYL-4-ULOSE-
@@ -31310,7 +31310,7 @@
     - name: N-acetyl-alpha-D-glucosaminyldiphospho-ditrans,octacis-undecaprenol
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C63H103NO12P2
     - annotation: !!omap
       - bigg.metabolite: unaga
       - biocyc: META:ACETYL-D-GLUCOSAMINYLDIPHOSPHO-UNDECAPRE
@@ -31638,7 +31638,7 @@
     - name: vanillin
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C8H8O3
     - annotation: !!omap
       - bigg.metabolite: vanln
       - biocyc: META:VANILLIN
@@ -31732,7 +31732,7 @@
     - name: XLLGxyloglucanoligosaccharide
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C51H86O43
     - annotation: !!omap
       - bigg.metabolite: xllgsacc
       - biocyc: META:CPD-13378
@@ -31747,7 +31747,7 @@
     - name: XLXGxyloglucanoligosaccharide
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C45H76O38
     - annotation: !!omap
       - bigg.metabolite: xlxgxgsac
       - biocyc: META:CPD-13377
@@ -31835,7 +31835,7 @@
     - name: L-xylulose1-phosphate
     - compartment: c
     - charge: -2
-    - formula: ''
+    - formula: C5H9O8P
     - annotation: !!omap
       - bigg.metabolite: xu1p__D
       - biocyc: META:CPD0-1115
@@ -31885,7 +31885,7 @@
     - name: XXLGxyloglucanoligosaccharide
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C45H76O38
     - annotation: !!omap
       - bigg.metabolite: xxlgsacc
       - biocyc: META:CPD-13376
@@ -31900,7 +31900,7 @@
     - name: L-xylo-hex-3-ulono-1,4-lactone
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C6H8O6
     - annotation: !!omap
       - bigg.metabolite: xyhex3u14lac
       - biocyc: META:CPD-329
@@ -31981,7 +31981,7 @@
     - name: D-xylonolactone
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C5H8O5
     - annotation: !!omap
       - bigg.metabolite: xylnact__D
       - biocyc: META:CPD-360
@@ -31998,7 +31998,7 @@
     - name: D-xylonate
     - compartment: c
     - charge: -1
-    - formula: ''
+    - formula: C5H9O6
     - annotation: !!omap
       - bigg.metabolite: xylonate__D
       - biocyc: META:D-XYLONATE
@@ -32074,7 +32074,7 @@
     - id: ycpk_e
     - name: yellow Cpk compound
     - compartment: e
-    - charge: 0
+    - charge: 8
     - formula: C17H20N2O4S
     - annotation: !!omap
       - origin: iAA1259
@@ -32084,7 +32084,7 @@
     - name: all-trans-zeta-carotene
     - compartment: c
     - charge: 0
-    - formula: ''
+    - formula: C40H60
     - annotation: !!omap
       - bigg.metabolite: zcarote
       - biocyc: META:CPD1F-98
@@ -32774,7 +32774,7 @@
     - metabolites: !!omap
       - 24dab_c: -1.0
       - co2_c: 1.0
-      - h_c: -1.0
+      - h_c: -2.0
       - prp13da_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -32889,7 +32889,7 @@
       - amuco_c: 1.0
       - amucsam_c: -1.0
       - h2o_c: -1.0
-      - h_c: 1.0
+      - h_c: 2.0
       - nad_c: -1.0
       - nadh_c: 1.0
     - lower_bound: 0.0
@@ -36016,6 +36016,7 @@
       - 3oce26ocoa_c: -1.0
       - acceptor_c: -1.0
       - donor_c: 1.0
+      - h_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1197
@@ -36036,6 +36037,7 @@
       - 3ocdncoa_c: 1.0
       - acceptor_c: -1.0
       - donor_c: 1.0
+      - h_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1198
@@ -36127,7 +36129,7 @@
       - acceptor_c: -2.0
       - donor_c: 2.0
       - h2o_c: -2.0
-      - h_c: 2.0
+      - h_c: 4.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6793
@@ -36345,6 +36347,7 @@
       - 1p4h2cbxl_c: 1.0
       - chdpro__D_c: -1.0
       - h2o2_c: 1.0
+      - h_c: 1
       - o2_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -36466,7 +36469,6 @@
       - chdpro__D_c: -1.0
       - donor_c: -1.0
       - h2o_c: 2.0
-      - h_c: 1.0
       - o2_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -39772,7 +39774,6 @@
       - ade_c: 1.0
       - dhxfut_c: 1.0
       - h2o_c: -1.0
-      - h_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
@@ -40302,7 +40303,6 @@
       - ahop_c: 1.0
       - amet_c: -1.0
       - donor_c: -1.0
-      - h_c: 1.0
       - hop22en_c: -1.0
       - met__L_c: 1.0
     - lower_bound: 0.0
@@ -41312,6 +41312,7 @@
       - 2dmmq9_c: -1.0
       - ahcys_c: 1.0
       - amet_c: -1.0
+      - h_c: 1
       - mqn9_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
@@ -42621,10 +42622,9 @@
       - dhdascb_c: 1.0
       - ficytc_c: -2.0
       - focytc_c: 2.0
-      - h_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: s0001
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
@@ -42646,10 +42646,9 @@
       - dhdascb_c: 1.0
       - h2o2_c: -1.0
       - h2o_c: 2.0
-      - h_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: s0001
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
@@ -43168,7 +43167,6 @@
       - b2coa_c: -1.0
       - btcoa_c: 1.0
       - etf_ox_c: 1.0
-      - h_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO1701 or SCO1428 or SCO3051
@@ -43450,7 +43448,6 @@
       - ETFred_c: 1.0
       - bzsuccoa__R_c: -1.0
       - etf_ox_c: -1.0
-      - h_c: -1.0
       - phitcoa_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -43782,7 +43779,6 @@
       - acceptor_c: 1.0
       - donor_c: -1.0
       - h2o_c: 1.0
-      - h_c: 1.0
       - hdoxcad_c: 1.0
       - o2_c: -1.0
     - lower_bound: 0.0
@@ -46545,7 +46541,6 @@
       - cyccarcoa_c: 1.0
       - cychex1coa_c: -1.0
       - etf_ox_c: -1.0
-      - h_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6938
@@ -46649,7 +46644,6 @@
       - ch15deccoa_c: 1.0
       - cyccarcoa_c: -1.0
       - etf_ox_c: -1.0
-      - h_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO3051
@@ -46780,7 +46774,6 @@
     - metabolites: !!omap
       - 2amac_c: 1.0
       - cyst__L_c: -1.0
-      - h_c: 1.0
       - hcys__L_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -48536,29 +48529,9 @@
     - gene_reaction_rule: SCO4491 and SCO4556
     - annotation: !!omap
       - bigg.reaction: DHNANT4
+      - biocyc: META:DMK-RXN
       - doi: 10.1021/bi400498d
       - origin: iMK1208
-      - pathway: Ubiquinone and other terpenoid-quinone biosynthesis
-      - sbo: SBO:0000176
-      - subsystem: Metabolism of cofactors and vitamins
-  - !!omap
-    - id: DHNAOT9
-    - name: 1,4-dihydroxy-2-naphthoate prenyltransferase
-    - metabolites: !!omap
-      - 2dmmq9_c: 1.0
-      - co2_c: 1.0
-      - dhna_c: -1.0
-      - h_c: 2.0
-      - nndp_c: -1.0
-      - ppi_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: ''
-    - annotation: !!omap
-      - bigg.reaction: DHNAOT9
-      - kegg.reaction: R05617
-      - metanetx.reaction: MNXR109715
-      - origin: iMA789
       - pathway: Ubiquinone and other terpenoid-quinone biosynthesis
       - sbo: SBO:0000176
       - subsystem: Metabolism of cofactors and vitamins
@@ -49119,6 +49092,7 @@
       - at44dcop_c: -1.0
       - donor_c: -4.0
       - h2o_c: 6.0
+      - h_c: -4.0
       - o2_c: -4.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -49189,6 +49163,7 @@
     - name: D-Proline:oxygen oxidoreductase
     - metabolites: !!omap
       - h2o2_c: 1.0
+      - h_c: 1
       - o2_c: -1.0
       - pro__D_c: -1.0
       - pyr2cbox_c: 1.0
@@ -49238,7 +49213,6 @@
       - dpperypfur_c: 1.0
       - fad_c: -1.0
       - fadh2_c: 1.0
-      - h_c: -1.0
       - todcpribfur_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -52757,7 +52731,7 @@
       - atp_c: -1.0
       - feroxG1_c: 1.0
       - h2o_c: 1.0
-      - h_c: 1.0
+      - h_c: 4.0
       - hyxsuccad_c: -3.0
       - ppi_c: 1.0
     - lower_bound: 0.0
@@ -53115,6 +53089,7 @@
       - Nforglu_c: 1.0
       - forglu_c: -1.0
       - h2o_c: -1.0
+      - h_c: -1
       - nh4_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -56692,7 +56667,7 @@
       - ficytc_c: -2.0
       - focytc_c: 2.0
       - gullac_c: -1.0
-      - h_c: 3.0
+      - h_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO5857
@@ -59112,6 +59087,7 @@
     - metabolites: !!omap
       - adp_c: 1.0
       - atp_c: -1.0
+      - h_c: 1
       - xu1p__D_c: 1.0
       - xylu__L_c: -1.0
     - lower_bound: 0.0
@@ -59121,7 +59097,7 @@
       - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
       - bigg.reaction: KHK2
-      - biocyc: META:R01902
+      - biocyc: META:LYXK-RXN
       - ec-code: 2.7.1.5
       - kegg.reaction: R01902
       - metanetx.reaction:
@@ -59161,7 +59137,6 @@
     - metabolites: !!omap
       - ficytc_c: -2.0
       - focytc_c: 2.0
-      - h_c: 2.0
       - lac__D_c: -1.0
       - pyr_c: 1.0
     - lower_bound: 0.0
@@ -60320,6 +60295,7 @@
     - name: 3-mercaptopyruvate:cyanide sulfurtransferase
     - metabolites: !!omap
       - cyan_c: -1.0
+      - h_c: 1
       - mercppyr_c: -1.0
       - pyr_c: 1.0
       - tcynt_c: 1.0
@@ -61948,7 +61924,6 @@
       - 2mfumcoa_c: 1.0
       - ETFred_c: 1.0
       - etf_ox_c: -1.0
-      - h_c: -1.0
       - mscoa__S_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -62237,6 +62212,7 @@
     - metabolites: !!omap
       - aso4_c: -1.0
       - h2o_c: 1.0
+      - h_c: -1
       - msh_c: -1.0
       - mycthigpyrpp_c: 1.0
     - lower_bound: 0.0
@@ -64036,7 +64012,7 @@
       - 24dtcho_c: 1.0
       - f420ox_c: 1.0
       - f420red_c: -1.0
-      - h_c: -2.0
+      - h_c: -1.0
       - o54ocyo_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -64413,6 +64389,7 @@
       - 5oxhlnitro_c: 1.0
       - f420ox_c: 1.0
       - f420red_c: -1.0
+      - h_c: 1
       - o3n54ocyo_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -66717,6 +66694,7 @@
       - acceptor_c: -1.0
       - atphyflu_c: -1.0
       - donor_c: 1.0
+      - h_c: 1.0
       - zcarote_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -66764,6 +66742,7 @@
       - acceptor_c: -1.0
       - atphyflu_c: 1.0
       - donor_c: 1.0
+      - h_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO0186
@@ -66808,10 +66787,11 @@
     - metabolites: !!omap
       - amucsam_c: -1.0
       - h2o_c: 1.0
+      - h_c: 1
       - picoln_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: s0001
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
@@ -69726,10 +69706,11 @@
     - metabolites: !!omap
       - acarbmucosad_c: -1.0
       - h2o_c: 1.0
+      - h_c: 1
       - quln_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: s0001
     - notes: !!omap
       - CONFIDENCE LEVEL: '2'
     - annotation: !!omap
@@ -71529,7 +71510,6 @@
       - ahcys_c: 1.0
       - amet_c: -1.0
       - aso3_c: -1.0
-      - h_c: 1.0
       - marsonate_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -71665,7 +71645,7 @@
     - metabolites: !!omap
       - 2o3pp8m3onn_c: 1.0
       - 3oiC9ACP_c: -1.0
-      - apoACP_c: 1.0
+      - ACP_c: 1
       - dhap_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -71774,7 +71754,7 @@
     - metabolites: !!omap
       - 2o3pop3odn_c: 1.0
       - 3oddecACP_c: -1.0
-      - apoACP_c: 1.0
+      - ACP_c: 1
       - dhap_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -71865,7 +71845,7 @@
     - metabolites: !!omap
       - 2o3pp8m3onn_c: 1.0
       - 3oiC10ACP_c: -1.0
-      - apoACP_c: 1.0
+      - ACP_c: 1
       - dhap_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -72359,7 +72339,7 @@
       - acceptor_c: -1.0
       - ascb__L_c: 1.0
       - donor_c: 1.0
-      - h_c: 1.0
+      - h_c: 2.0
       - sorb14lac_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -72482,8 +72462,10 @@
     - id: SRUBSYN
     - name: SRUBSYN
     - metabolites: !!omap
+      - acceptor_c: 1
+      - donor_c: -1
       - h2o_c: 2.0
-      - h_c: -2.0
+      - h_c: -1.0
       - o2_c: -1.0
       - red_c: -1.0
       - strprub_c: 1.0
@@ -76182,6 +76164,7 @@
     - metabolites: !!omap
       - acceptor_c: -1.0
       - donor_c: 1.0
+      - h_c: 1.0
       - neuspn_c: 1.0
       - zcarote_c: -1.0
     - lower_bound: 0.0
@@ -76206,6 +76189,7 @@
       - acceptor_c: 1.0
       - donor_c: -1.0
       - h2o_c: 2.0
+      - h_c: -1.0
       - lycop_c: 1.0
       - neuspn_c: -1.0
       - o2_c: -1.0
@@ -77356,7 +77340,7 @@
     - metabolites: !!omap
       - cellb_e: 250.0
       - cellul_e: -1.0
-      - h2o_c: -499.0
+      - h2o_c: -249.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: SCO6548
@@ -77449,6 +77433,7 @@
       - acgam_e: 1.0
       - chitin_e: -1.0
       - h2o_c: -1.0
+      - h_c: -1
       - h_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
@@ -78579,7 +78564,8 @@
       - atp_c: -1.0
       - fe2_c: 1.0
       - fe2_e: -1.0
-      - h2o_c: -1.0
+      - h2o_c: -2.0
+      - h_c: 5
       - hemeA_c: 1.0
       - hemeO_c: -1.0
       - pi_c: 1.0
@@ -79234,20 +79220,6 @@
       - biocyc: META:ABC-14-RXN
       - metanetx.reaction: MNXR100644
       - origin: iMA789
-      - sbo: SBO:0000655
-      - subsystem: Membrane transport
-  - !!omap
-    - id: HISpep
-    - name: Histidine transport via PEP:Pyr PTS
-    - metabolites: !!omap
-      - his__L_e: -1.0
-      - pep_c: -1.0
-      - phis__L_c: 1.0
-      - pyr_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: SCO1391
-    - annotation: !!omap
       - sbo: SBO:0000655
       - subsystem: Membrane transport
   - !!omap
